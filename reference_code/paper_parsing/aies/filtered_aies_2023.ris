@@ -1,0 +1,485 @@
+TY  - CONF
+TI  - Protecting Children from Online Exploitation: Can a Trained Model Detect Harmful Communication Strategies?
+AU  - Cook, Darren
+AU  - Zilka, Miri
+AU  - DeSandre, Heidi
+AU  - Giles, Susan
+AU  - Maskell, Simon
+PY  - 2023
+AB  - The growing popularity of social media raises concerns about children’s online safety. Of particular concern are interactions between minors and adults with predatory intentions. Unfortunately, previous research on online sexual grooming has relied on time-intensive manual annotation by domain experts, limiting both the scale and scope of possible interventions. This work explores the possibility of detecting predatory behaviours with accuracy comparable to expert annotators using machine learning (ML). Using a dataset of 6771 chat messages sent by child sex offenders, labelled by two of the authors who are forensic psychology experts, we study how well can deep learning algorithms identify eleven known predatory behaviours. We find that the best-performing ML models are consistent but not on par with expert annotation. We therefore consider a system where an expert annotator validates the ML algorithms outputs. The combination of human decision-making and computer efficiency yields precision—but not recall—comparable to manual annotation, while taking only a fraction of the time needed by a human annotator. Our findings underscore the promise of ML as a tool for assisting researchers in this area, but also highlight the current limitations in reliably detecting online sexual exploitation using ML.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604696
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604696
+ER  - 
+
+TY  - CONF
+TI  - Analysis of Climate Campaigns on Social Media using Bayesian Model Averaging
+AU  - Islam, Tunazzina
+AU  - Zhang, Ruqi
+AU  - Goldwasser, Dan
+PY  - 2023
+AB  - Climate change is the defining issue of our time, and we are at a defining moment. Various interest groups, social movement organizations, and individuals engage in collective action on this issue on social media. In addition, issue advocacy campaigns on social media often arise in response to ongoing societal concerns, especially those faced by energy industries. Our goal in this paper is to analyze how those industries, their advocacy group, and climate advocacy group use social media to influence the narrative on climate change. In this work, we propose a minimally supervised model soup [57] approach combined with messaging themes to identify the stances of climate ads on Facebook. Finally, we release our stance dataset, model, and set of themes related to climate campaigns for future work on opinion mining and the automatic detection of climate change stances.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604665
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604665
+ER  - 
+
+TY  - CONF
+TI  - Mitigating Voter Attribute Bias for Fair Opinion Aggregation
+AU  - Ueda, Ryosuke
+AU  - Takeuchi, Koh
+AU  - Kashima, Hisashi
+PY  - 2023
+AB  - The aggregation of multiple opinions plays a crucial role in decision-making, such as in hiring and loan review, and in labeling data for supervised learning. Although majority voting and existing opinion aggregation models are effective for simple tasks, they are inappropriate for tasks without objectively true labels in which disagreements may occur. In particular, when voter attributes such as gender or race introduce bias into opinions, the aggregation results may vary depending on the composition of voter attributes. A balanced group of voters is desirable for fair aggregation results but may be difficult to prepare. In this study, we consider methods to achieve fair opinion aggregation based on voter attributes and evaluate the fairness of the aggregated results. To this end, we consider an approach that combines opinion aggregation models such as majority voting and the Dawid and Skene model (D&amp;S model) with fairness options such as sample weighting. To evaluate the fairness of opinion aggregation, probabilistic soft labels are preferred over discrete class labels. First, we address the problem of soft label estimation without considering voter attributes and identify some issues with the D&amp;S model. To address these limitations, we propose a new Soft D&amp;S model with improved accuracy in estimating soft labels. Moreover, we evaluated the fairness of an opinion aggregation model, including Soft D&amp;S, in combination with different fairness options using synthetic and semi-synthetic data. The experimental results suggest that the combination of Soft D&amp;S and data splitting as a fairness option is effective for dense data, whereas weighted majority voting is effective for sparse data. These findings should prove particularly valuable in supporting decision-making by human and machine-learning models with balanced opinion aggregation.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604660
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604660
+ER  - 
+
+TY  - CONF
+TI  - Learning Optimal Fair Decision Trees: Trade-offs Between Interpretability, Fairness, and Accuracy
+AU  - Jo, Nathanael
+AU  - Aghaei, Sina
+AU  - Benson, Jack
+AU  - Gomez, Andres
+AU  - Vayanos, Phebe
+PY  - 2023
+AB  - The increasing use of machine learning in high-stakes domains – where people’s livelihoods are impacted – creates an urgent need for interpretable, fair, and highly accurate algorithms. With these needs in mind, we propose a mixed integer optimization (MIO) framework for learning optimal classification trees – one of the most interpretable models – that can be augmented with arbitrary fairness constraints. In order to better quantify the “price of interpretability”, we also propose a new measure of model interpretability called decision complexity that allows for comparisons across different classes of machine learning models. We benchmark our method against state-of-the-art approaches for fair classification on popular datasets; in doing so, we conduct one of the first comprehensive analyses of the trade-offs between interpretability, fairness, and predictive accuracy. Given a fixed disparity threshold, our method has a price of interpretability of about 4.2 percentage points in terms of out-of-sample accuracy compared to the best performing, complex models. However, our method consistently finds decisions with almost full parity, while other methods rarely do.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604664
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604664
+ER  - 
+
+TY  - CONF
+TI  - Model Debiasing via Gradient-based Explanation on Representation
+AU  - Zhang, Jindi
+AU  - Wang, Luning
+AU  - Su, Dan
+AU  - Huang, Yongxiang
+AU  - Cao, Caleb Chen
+AU  - Chen, Lei
+PY  - 2023
+AB  - Machine learning systems produce biased results towards certain demographic groups, known as the fairness problem. Recent approaches to tackle this problem learn a latent code (i.e., representation) through disentangled representation learning and then discard the latent code dimensions correlated with sensitive attributes (e.g., gender). Nevertheless, these approaches may suffer from incomplete disentanglement and overlook proxy attributes (proxies for sensitive attributes) when processing real-world data, especially for unstructured data, causing performance degradation in fairness and loss of useful information for downstream tasks. In this paper, we propose a novel fairness framework that performs debiasing with regard to both sensitive attributes and proxy attributes, which boosts the prediction performance of downstream task models without complete disentanglement. The main idea is to, first, leverage gradient-based explanation to find two model focuses, 1) one focus for predicting sensitive attributes and 2) the other focus for predicting downstream task labels, and second, use them to perturb the latent code that guides the training of downstream task models towards fairness and utility goals. We show empirically that our framework works with both disentangled and non-disentangled representation learning methods and achieves better fairness-accuracy trade-off on unstructured and structured datasets than previous state-of-the-art approaches.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604668
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604668
+ER  - 
+
+TY  - CONF
+TI  - Keep Sensors in Check: Disentangling Country-Level Generalization Issues in Mobile Sensor-Based Models with Diversity Scores
+AU  - Nanchen, Alexandre
+AU  - Meegahapola, Lakmal
+AU  - Droz, William
+AU  - Gatica-Perez, Daniel
+PY  - 2023
+AB  - Machine learning models trained with passive sensor data from mobile devices can be used to perform various inferences pertaining to activity recognition, context awareness, and health and well-being. Prior work has improved inference performance through the use of multimodal sensors (inertial, GPS, proximity, app usage, etc.) or improved machine learning. In this context, a few studies shed light on critical issues relating to the poor cross-country generalization of models due to distributional shifts across countries. However, these studies have largely relied on inference performance as a means of studying generalization issues, failing to investigate whether the root cause of the problem is linked to specific sensor modalities (independent variables) or the target attribute (dependent variable). In this paper, we study this issue in complex activities of daily living (ADL) inference task, involving 12 classes, by using a multimodal, multi-country dataset collected from 689 participants across eight countries. We first show that the ‘country of origin’ of data is captured by sensors and can be inferred from each modality separately, with an average accuracy of 65\%. We then propose two diversity scores (DS) that measure how a country differentiates from others w.r.t. sensor modalities or activities. Using these diversity scores, we observed that both individual sensor modalities and activities have the ability to differentiate countries. However, while many activities capture country differences, only the ‘App usage’ and ‘Location’ sensors can do so. By dissecting country-level diversity across dependent and independent variables, we provide a framework to better understand model generalization issues across countries and country-level diversity of sensing modalities.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604688
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604688
+ER  - 
+
+TY  - CONF
+TI  - A Deep Dive into Dataset Imbalance and Bias in Face Identification
+AU  - Cherepanova, Valeriia
+AU  - Reich, Steven
+AU  - Dooley, Samuel
+AU  - Souri, Hossein
+AU  - Dickerson, John
+AU  - Goldblum, Micah
+AU  - Goldstein, Tom
+PY  - 2023
+AB  - As the deployment of automated face recognition (FR) systems proliferates, bias in these systems is not just an academic question, but a matter of public concern. Media portrayals often center imbalance as the main source of bias, i.e., that FR models perform worse on images of non-white people or women because these demographic groups are underrepresented in training data. Recent academic research paints a more nuanced picture of this relationship. However, previous studies of data imbalance in FR have focused exclusively on the face verification setting, while the face identification setting has been largely ignored, despite being deployed in sensitive applications such as law enforcement. This is an unfortunate omission, as ‘imbalance’ is a more complex matter in identification; imbalance may arise in not only the training data, but also the testing data, and furthermore may affect the proportion of identities belonging to each demographic group or the number of images belonging to each identity. In this work, we address this gap in the research by thoroughly exploring the effects of each kind of imbalance possible in face identification, and discuss other factors which may impact bias in this setting.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604691
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604691
+ER  - 
+
+TY  - CONF
+TI  - Not So Fair: The Impact of Presumably Fair Machine Learning Models
+AU  - Jorgensen, Mackenzie
+AU  - Richert, Hannah
+AU  - Black, Elizabeth
+AU  - Criado, Natalia
+AU  - Such, Jose
+PY  - 2023
+AB  - When bias mitigation methods are applied to make fairer machine learning models in fairness-related classification settings, there is an assumption that the disadvantaged group should be better off than if no mitigation method was applied. However, this is a potentially dangerous assumption because a “fair” model outcome does not automatically imply a positive impact for a disadvantaged individual—they could still be negatively impacted. Modeling and accounting for those impacts is key to ensure that mitigated models are not unintentionally harming individuals; we investigate if mitigated models can still negatively impact disadvantaged individuals and what conditions affect those impacts in a loan repayment example. Our results show that most mitigated models negatively impact disadvantaged group members in comparison to the unmitigated models. The domain-dependent impacts of model outcomes should help drive future bias mitigation method development.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604699
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604699
+ER  - 
+
+TY  - CONF
+TI  - Ground Truth Or Dare: Factors Affecting The Creation Of Medical Datasets For Training AI
+AU  - Zaj\k{a}c, Hubert Dariusz
+AU  - Avlona, Natalia Rozalia
+AU  - Kensing, Finn
+AU  - Andersen, Tariq Osman
+AU  - Shklovski, Irina
+PY  - 2023
+AB  - One of the core goals of responsible AI development is ensuring high-quality training datasets. Many researchers have pointed to the importance of the annotation step in the creation of high-quality data, but less attention has been paid to the work that enables data annotation. We define this work as the design of ground truth schema and explore the challenges involved in the creation of datasets in the medical domain even before any annotations are made. Based on extensive work in three health-tech organisations, we describe five external and internal factors that condition medical dataset creation processes. Three external factors include regulatory constraints, the context of creation and use, and commercial and operational pressures. These factors condition medical data collection and shape the ground truth schema design. Two internal factors include epistemic differences and limits of labelling. These directly shape the design of the ground truth schema. Discussions of what constitutes high-quality data need to pay attention to the factors that shape and constrain what is possible to be created, to ensure responsible AI design.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604766
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604766
+ER  - 
+
+TY  - CONF
+TI  - Bound by the Bounty: Collaboratively Shaping Evaluation Processes for Queer AI Harms
+AU  - Dennler, Nathan
+AU  - Ovalle, Anaelia
+AU  - Singh, Ashwin
+AU  - Soldaini, Luca
+AU  - Subramonian, Arjun
+AU  - Tu, Huy
+AU  - Agnew, William
+AU  - Ghosh, Avijit
+AU  - Yee, Kyra
+AU  - Peradejordi, Irene Font
+AU  - Talat, Zeerak
+AU  - Russo, Mayra
+AU  - Pinhal, Jess De Jesus De Pinho
+PY  - 2023
+AB  - Bias evaluation benchmarks and dataset and model documentation have emerged as central processes for assessing the biases and harms of artificial intelligence (AI) systems. However, these auditing processes have been criticized for their failure to integrate the knowledge of marginalized communities and consider the power dynamics between auditors and the communities. Consequently, modes of bias evaluation have been proposed that engage impacted communities in identifying and assessing the harms of AI systems (e.g., bias bounties). Even so, asking what marginalized communities want from such auditing processes has been neglected. In this paper, we ask queer communities for their positions on, and desires from, auditing processes. To this end, we organized a participatory workshop to critique and redesign bias bounties from queer perspectives. We found that when given space, the scope of feedback from workshop participants goes far beyond what bias bounties afford, with participants questioning the ownership, incentives, and efficacy of bounties. We conclude by advocating for community ownership of bounties and complementing bounties with participatory processes (e.g., co-creation).
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604682
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604682
+ER  - 
+
+TY  - CONF
+TI  - On the Connection between Game-Theoretic Feature Attributions and Counterfactual Explanations
+AU  - Albini, Emanuele
+AU  - Sharma, Shubham
+AU  - Mishra, Saumitra
+AU  - Dervovic, Danial
+AU  - Magazzeni, Daniele
+PY  - 2023
+AB  - Explainable Artificial Intelligence (XAI) has received widespread interest in recent years, and two of the most popular types of explanations are feature attributions, and counterfactual explanations. These classes of approaches have been largely studied independently and the few attempts at reconciling them have been primarily empirical. This work establishes a clear theoretical connection between game-theoretic feature attributions, focusing on but not limited to SHAP, and counterfactuals explanations. After motivating operative changes to Shapley values based feature attributions and counterfactual explanations, we prove that, under conditions, they are in fact equivalent. We then extend the equivalency result to game-theoretic solution concepts beyond Shapley values. Moreover, through the analysis of the conditions of such equivalence, we shed light on the limitations of naively using counterfactual explanations to provide feature importances. Experiments on three datasets quantitatively show the difference in explanations at every stage of the connection between the two approaches and corroborate the theoretical findings.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604676
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604676
+ER  - 
+
+TY  - CONF
+TI  - REFRESH: Responsible and Efficient Feature Reselection guided by SHAP values
+AU  - Sharma, Shubham
+AU  - Dutta, Sanghamitra
+AU  - Albini, Emanuele
+AU  - Lecue, Freddy
+AU  - Magazzeni, Daniele
+AU  - Veloso, Manuela
+PY  - 2023
+AB  - Feature selection is a crucial step in building machine learning models. This process is often achieved with accuracy as an objective, and can be cumbersome and computationally expensive for large-scale datasets. Several additional model performance characteristics such as fairness and robustness are of importance for model development. As regulations are driving the need for more trustworthy models, deployed models need to be corrected for model characteristics associated with responsible artificial intelligence. When feature selection is done with respect to one model performance characteristic (eg. accuracy), feature selection with secondary model performance characteristics (eg. fairness and robustness) as objectives would require going through the computationally expensive selection process from scratch. In this paper, we introduce the problem of feature reselection, so that features can be selected with respect to secondary model performance characteristics efficiently even after a feature selection process has been done with respect to a primary objective. To address this problem, we propose REFRESH, a method to reselect features so that additional constraints that are desirable towards model performance can be achieved without having to train several new models. REFRESH’s underlying algorithm is a novel technique using SHAP values and correlation analysis that can approximate for the predictions of a model without having to train these models. Empirical evaluations on three datasets, including a large-scale loan defaulting dataset show that REFRESH can help find alternate models with better model characteristics efficiently. We also discuss the need for reselection and REFRESH based on regulation desiderata.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604706
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604706
+ER  - 
+
+TY  - CONF
+TI  - A multidomain relational framework to guide institutional AI research and adoption
+AU  - Straub, Vincent J
+AU  - Morgan, Deborah
+AU  - Hashem, Youmna
+AU  - Francis, John
+AU  - Esnaashari, Saba
+AU  - Bright, Jonathan
+PY  - 2023
+AB  - Calls for new metrics, technical standards and governance mechanisms to guide the adoption of Artificial Intelligence (AI) in institutions and public administration are now commonplace. Yet, most research and policy efforts aimed at understanding the implications of adopting AI tend to prioritize only a handful of ideas; they do not fully connect all the different perspectives and topics that are potentially relevant. In this position paper, we contend that this omission stems, in part, from what we call the ‘relational problem’ in socio-technical discourse: fundamental ontological issues have not yet been settled—including semantic ambiguity, a lack of clear relations between concepts and differing standard terminologies. This contributes to the persistence of disparate modes of reasoning to assess institutional AI systems, and the prevalence of conceptual isolation in the fields that study them including ML, human factors, social science and policy. After developing this critique, we offer a way forward by proposing a simple policy and research design tool in the form of a conceptual framework to organize terms across fields—consisting of three horizontal domains for grouping relevant concepts and related methods: Operational, Epistemic, and Normative. We first situate this framework against the backdrop of recent socio-technical discourse at two premier academic venues, AIES and FAccT, before illustrating how developing suitable metrics, standards, and mechanisms can be aided by operationalizing relevant concepts in each of these domains. Finally, we outline outstanding questions for developing this relational approach to institutional AI research and adoption.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604718
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604718
+ER  - 
+
+TY  - CONF
+TI  - Flickr Africa: Examining Geo-Diversity in Large-Scale, Human-Centric Visual Data
+AU  - Naggita, Keziah
+AU  - LaChance, Julienne
+AU  - Xiang, Alice
+PY  - 2023
+AB  - Biases in large-scale image datasets are known to influence the performance of computer vision models as a function of geographic context. To investigate the limitations of standard Internet data collection methods in low- and middle-income countries, we analyze human-centric image geo-diversity on a massive scale using geotagged Flickr images associated with each nation in Africa. We report the quantity and content of available data with comparisons to population-matched nations in Europe as well as the distribution of data according to fine-grained intra-national wealth estimates. Temporal analyses are performed at two-year intervals to expose emerging data trends. Furthermore, we present findings for an “othering” phenomenon as evidenced by a substantial number of images from Africa being taken by non-local photographers. The results of our study suggest that further work is required to capture image data representative of African people and their environments and, ultimately, to improve the applicability of computer vision models in a global context.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604659
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604659
+ER  - 
+
+TY  - CONF
+TI  - Evaluation of targeted dataset collection on racial equity in face recognition
+AU  - Hong, Rachel
+AU  - Kohno, Tadayoshi
+AU  - Morgenstern, Jamie
+PY  - 2023
+AB  - Algorithmic audits of industry face recognition models have recently incentivized companies to diversify their data collection methods, which in turn has reduced error disparities along demographic lines, such as gender or race. We argue that it is important to understand exactly how various forms of targeted data collection mitigate performance disparities in these updated face recognition models. We propose an empirical framework to assess the impact of additional dataset collection targeted towards various racial groups. We apply our framework to three racially-annotated benchmark datasets using three standard face recognition models. Our findings empirically validate the notion that the introduction of data from the demographic group with the initially-lowest performance improves performance on that group significantly more than adding from other groups. We also observe that in all settings, the introduction of data from a previously omitted group does not harm the performance of other groups. Furthermore, investigation of feature embeddings reveals that performance increases are associated with a larger separation among images of different identities. Despite the commonalities we observe across datasets, we also find key differences: for example, in one dataset, training on one racial group generalizes well across all groups. These differences speak to the criticality of re-applying empirical evaluation methods, such as the methods in this work, when introducing new datasets or models.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604662
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604662
+ER  - 
+
+TY  - CONF
+TI  - Unmasking Nationality Bias: A Study of Human Perception of Nationalities in AI-Generated Articles
+AU  - Narayanan Venkit, Pranav
+AU  - Gautam, Sanjana
+AU  - Panchanadikar, Ruchi
+AU  - Huang, Ting-Hao
+AU  - Wilson, Shomir
+PY  - 2023
+AB  - We investigate the potential for nationality biases in natural language processing (NLP) models using human evaluation methods. Biased NLP models can perpetuate stereotypes and lead to algorithmic discrimination, posing a significant challenge to the fairness and justice of AI systems. Our study employs a two-step mixed-methods approach that includes both quantitative and qualitative analysis to identify and understand the impact of nationality bias in a text generation model. Through our human-centered quantitative analysis, we measure the extent of nationality bias in articles generated by AI sources. We then conduct open-ended interviews with participants, performing qualitative coding and thematic analysis to understand the implications of these biases on human readers. Our findings reveal that biased NLP models tend to replicate and amplify existing societal biases, which can translate to harm if used in a sociotechnical setting. The qualitative analysis from our interviews offers insights into the experience readers have when encountering such articles, highlighting the potential to shift a reader’s perception of a country. These findings emphasize the critical role of public perception in shaping AI’s impact on society and the need to correct biases in AI systems.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604667
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604667
+ER  - 
+
+TY  - CONF
+TI  - Reckoning with the Disagreement Problem: Explanation Consensus as a Training Objective
+AU  - Schwarzschild, Avi
+AU  - Cembalest, Max
+AU  - Rao, Karthik
+AU  - Hines, Keegan
+AU  - Dickerson, John
+PY  - 2023
+AB  - As neural networks increasingly make critical decisions in high-stakes settings, monitoring and explaining their behavior in an understandable and trustworthy manner is a necessity. One commonly used type of explainer is post hoc feature attribution, a family of methods for giving each feature in an input a score corresponding to its influence on a model’s output. A major limitation of this family of explainers in practice is that they can disagree on which features are more important than others. Our contribution in this paper is a method of training models with this disagreement problem in mind. We do this by introducing a Post hoc Explainer Agreement Regularization (PEAR) loss term alongside the standard term corresponding to accuracy, an additional term that measures the difference in feature attribution between a pair of explainers. We observe on three datasets that we can train a model with this loss term to improve explanation consensus on unseen data, and see improved consensus between explainers other than those used in the loss term. We examine the trade-off between improved consensus and model performance. And finally, we study the influence our method has on feature attribution explanations.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604687
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604687
+ER  - 
+
+TY  - CONF
+TI  - When Fair Classification Meets Noisy Protected Attributes
+AU  - Ghosh, Avijit
+AU  - Kvitca, Pablo
+AU  - Wilson, Christo
+PY  - 2023
+AB  - The operationalization of algorithmic fairness comes with several practical challenges, not the least of which is the availability or reliability of protected attributes in datasets. In real-world contexts, practical and legal impediments may prevent the collection and use of demographic data, making it difficult to ensure algorithmic fairness. While initial fairness algorithms did not consider these limitations, recent proposals aim to achieve algorithmic fairness in classification by incorporating noisiness in protected attributes or not using protected attributes at all. To the best of our knowledge, this is the first head-to-head study of fair classification algorithms to compare attribute-reliant, noise-tolerant and attribute-unaware algorithms along the dual axes of predictivity and fairness. We evaluated these algorithms via case studies on four real-world datasets and synthetic perturbations. Our study reveals that attribute-unaware and noise-tolerant fair classifiers can potentially achieve similar level of performance as attribute-reliant algorithms, even when protected attributes are noisy. However, implementing them in practice requires careful nuance. Our study provides insights into the practical implications of using fair classification algorithms in scenarios where protected attributes are noisy or partially available.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604707
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604707
+ER  - 
+
+TY  - CONF
+TI  - Disambiguating Algorithmic Bias: From Neutrality to Justice
+AU  - Edenberg, Elizabeth
+AU  - Wood, Alexandra
+PY  - 2023
+AB  - As algorithms have become ubiquitous in consequential domains, societal concerns about the potential for discriminatory outcomes have prompted urgent calls to address algorithmic bias. In response, a rich literature across computer science, law, and ethics is rapidly proliferating to advance approaches to designing fair algorithms. Yet computer scientists, legal scholars, and ethicists are often not speaking the same language when using the term ‘bias.’ Debates concerning whether society can or should tackle the problem of algorithmic bias are hampered by conflations of various understandings of bias, ranging from neutral deviations from a standard to morally problematic instances of injustice due to prejudice, discrimination, and disparate treatment. This terminological confusion impedes efforts to address clear cases of discrimination. In this paper, we examine the promises and challenges of different approaches to disambiguating bias and designing for justice. While both approaches aid in understanding and addressing clear algorithmic harms, we argue that they also risk being leveraged in ways that ultimately deflect accountability from those building and deploying these systems. Applying this analysis to recent examples of generative AI, our argument highlights unseen dangers in current methods of evaluating algorithmic bias and points to ways to redirect approaches to addressing bias in generative AI at its early stages in ways that can more robustly meet the demands of justice.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604695
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604695
+ER  - 
+
+TY  - CONF
+TI  - Learning from Discriminatory Training Data
+AU  - Grabowicz, Przemyslaw
+AU  - Perello, Nicholas
+AU  - Takatsu, Kenta
+PY  - 2023
+AB  - Supervised learning systems are trained using historical data and, if the data was tainted by discrimination, they may unintentionally learn to discriminate against protected groups. We propose that fair learning methods, despite training on potentially discriminatory datasets, shall perform well on fair test datasets. Such dataset shifts crystallize application scenarios for specific fair learning methods. For instance, the removal of direct discrimination can be represented as a particular dataset shift problem. For this scenario, we propose a learning method that provably minimizes model error on fair datasets, while blindly training on datasets poisoned with direct additive discrimination. The method is compatible with existing legal systems and provides a solution to the widely discussed issue of protected groups’ intersectionality by striking a balance between the protected groups. Technically, the method applies probabilistic interventions, has causal and counterfactual formulations, and is computationally lightweight — it can be used with any supervised learning model to prevent direct and indirect discrimination via proxies while maximizing model accuracy for business necessity.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604710
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604710
+ER  - 
+
+TY  - CONF
+TI  - Stress-Testing Bias Mitigation Algorithms to Understand Fairness Vulnerabilities
+AU  - Bhanot, Karan
+AU  - Baldini, Ioana
+AU  - Wei, Dennis
+AU  - Zeng, Jiaming
+AU  - Bennett, Kristin
+PY  - 2023
+AB  - To address the growing concern of unfairness in Artificial Intelligence (AI), several bias mitigation algorithms have been introduced in prior research. Their capabilities are often evaluated on certain overly-used datasets without rigorously stress-testing them under simultaneous train and test distribution shifts. To address this, we investigate the fairness vulnerabilities of these algorithms across several distribution shift scenarios using synthetic data, to highlight scenarios where these algorithms do and don’t work to encourage their trustworthy use. The paper makes three important contributions. Firstly, we propose a flexible pipeline called the Fairness Auditor to systematically stress-test bias mitigation algorithms using multiple synthetic datasets with shifts. Secondly, we introduce the Deviation Metric for measuring the fairness and utility performance of these algorithms under such shifts. Thirdly, we propose an interactive reporting tool for comparing algorithmic performance across various synthetic datasets, mitigation algorithms and metrics called the Fairness Report.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604713
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604713
+ER  - 
+
+TY  - CONF
+TI  - Perceived Algorithmic Fairness using Organizational Justice Theory: An Empirical Case Study on Algorithmic Hiring
+AU  - Juijn, Guusje
+AU  - Stoimenova, Niya
+AU  - Reis, Jo\~{a}o
+AU  - Nguyen, Dong
+PY  - 2023
+AB  - Growing concerns about the fairness of algorithmic decision-making systems have prompted a proliferation of mathematical formulations aimed at remedying algorithmic bias. Yet, integrating mathematical fairness alone into algorithms is insufficient to ensure their acceptance, trust, and support by humans. It is also essential to understand what humans perceive as fair. In this study, we, therefore, conduct an empirical user study into crowdworkers’ algorithmic fairness perceptions, focusing on algorithmic hiring. We build on perspectives from organizational justice theory, which categorizes fairness into distributive, procedural, and interactional components. By doing so, we find that algorithmic fairness perceptions are higher when crowdworkers are provided not only with information about the algorithmic outcome but also about the decision-making process. Remarkably, we observe this effect even when the decision-making process can be considered unfair, when gender, a sensitive attribute, is used as a main feature. By showing realistic trade-offs between fairness criteria, we moreover find a preference for equalizing false negatives over equalizing selection rates amongst groups. Our findings highlight the importance of considering all components of algorithmic fairness, rather than solely treating it as an outcome distribution problem. Importantly, our study contributes to the literature on the connection between mathematical– and perceived algorithmic fairness, and highlights the potential benefits of leveraging organizational justice theory to enhance the evaluation of perceived algorithmic fairness.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604677
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604677
+ER  - 
+
+TY  - CONF
+TI  - Social Biases through the Text-to-Image Generation Lens
+AU  - Naik, Ranjita
+AU  - Nushi, Besmira
+PY  - 2023
+AB  - Text-to-Image (T2I) generation is enabling new applications that support creators, designers, and general end users of productivity software by generating illustrative content with high photorealism starting from a given descriptive text as a prompt. Such models are however trained on massive amounts of web data, which surfaces the peril of potential harmful biases that may leak in the generation process itself. In this paper, we take a multi-dimensional approach to studying and quantifying common social biases as reflected in the generated images, by focusing on how occupations, personality traits, and everyday situations are depicted across representations of (perceived) gender, age, race, and geographical location. Through an extensive set of both automated and human evaluation experiments we present findings for two popular T2I models: DALLE-v2 and Stable Diffusion. Our results reveal that there exist severe occupational biases of neutral prompts majorly excluding groups of people from results for both models. Such biases can get mitigated by increasing the amount of specification in the prompt itself, although the prompting mitigation will not address discrepancies in image quality or other usages of the model or its representations in other scenarios. Further, we observe personality traits being associated with only a limited set of people at the intersection of race, gender, and age. Finally, an analysis of geographical location representations on everyday situations (e.g., park, food, weddings) shows that for most situations, images generated through default location-neutral prompts are closer and more similar to images generated for locations of United States and Germany.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604711
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604711
+ER  - 
+
+TY  - CONF
+TI  - Evaluating the Fairness of Discriminative Foundation Models in Computer Vision
+AU  - Ali, Junaid
+AU  - Kleindessner, Matth\"{a}us
+AU  - Wenzel, Florian
+AU  - Budhathoki, Kailash
+AU  - Cevher, Volkan
+AU  - Russell, Chris
+PY  - 2023
+AB  - We propose a novel taxonomy for bias evaluation of discriminative foundation models, such as Contrastive Language-Pretraining (CLIP), that are used for labeling tasks. We then systematically evaluate existing methods for mitigating bias in these models with respect to our taxonomy. Specifically, we evaluate OpenAI’s CLIP and OpenCLIP models for key applications, such as zero-shot classification, image retrieval and image captioning. We categorize desired behaviors based around three axes: (i) if the task concerns humans; (ii) how subjective the task is (i.e., how likely it is that people from a diverse range of backgrounds would agree on a labeling); and (iii) the intended purpose of the task and if fairness is better served by impartiality (i.e., making decisions independent of the protected attributes) or representation (i.e., making decisions to maximize diversity). Finally, we provide quantitative fairness evaluations for both binary-valued and multi-valued protected attributes over ten diverse datasets. We find that fair PCA, a post-processing method for fair representations, works very well for debiasing in most of the aforementioned tasks while incurring only minor loss of performance. However, different debiasing approaches vary in their effectiveness depending on the task. Hence, one should choose the debiasing approach depending on the specific use case.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604720
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604720
+ER  - 
+
+TY  - CONF
+TI  - How do you feel? Measuring User-Perceived Value for Rejecting Machine Decisions in Hate Speech Detection
+AU  - Lammerts, Philippe
+AU  - Lippmann, Philip
+AU  - Hsu, Yen-Chia
+AU  - Casati, Fabio
+AU  - Yang, Jie
+PY  - 2023
+AB  - Hate speech moderation remains a challenging task for social media platforms. Human-AI collaborative systems offer the potential to combine the strengths of humans’ reliability and the scalability of machine learning to tackle this issue effectively. While methods for task handover in human-AI collaboration exist that consider the costs of incorrect predictions, insufficient attention has been paid to accurately estimating these costs. In this work, we propose a value-sensitive rejection mechanism that automatically rejects machine decisions for human moderation based on users’ value perceptions regarding machine decisions. We conduct a crowdsourced survey study with 160 participants to evaluate their perception of correct and incorrect machine decisions in the domain of hate speech detection, as well as occurrences where the system rejects making a prediction. Here, we introduce Magnitude Estimation, an unbounded scale, as the preferred method for measuring user (dis)agreement with machine decisions. Our results show that Magnitude Estimation can provide a reliable measurement of participants’ perception of machine decisions. By integrating user-perceived value into human-AI collaboration, we further show that it can guide us in 1) determining when to accept or reject machine decisions to obtain the optimal total value a model can deliver and 2) selecting better classification models as compared to the more widely used target of model accuracy.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604655
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604655
+ER  - 
+
+TY  - CONF
+TI  - Human Uncertainty in Concept-Based AI Systems
+AU  - Collins, Katherine Maeve
+AU  - Barker, Matthew
+AU  - Espinosa Zarlenga, Mateo
+AU  - Raman, Naveen
+AU  - Bhatt, Umang
+AU  - Jamnik, Mateja
+AU  - Sucholutsky, Ilia
+AU  - Weller, Adrian
+AU  - Dvijotham, Krishnamurthy
+PY  - 2023
+AB  - Placing a human in the loop may help abate the risks of deploying AI systems in safety-critical settings (e.g., a clinician working with a medical AI system). However, mitigating risks arising from human error and uncertainty within such human-AI interactions is an important and understudied issue. In this work, we study human uncertainty in the context of concept-based models, a family of AI systems that enable human feedback via concept interventions where an expert intervenes on human-interpretable concepts relevant to the task. Prior work in this space often assumes that humans are oracles who are always certain and correct. Yet, real-world decision-making by humans is prone to occasional mistakes and uncertainty. We study how existing concept-based models deal with uncertain interventions from humans using two novel datasets: UMNIST, a visual dataset with controlled simulated uncertainty based on the MNIST dataset, and CUB-S, a relabeling of the popular CUB concept dataset with rich, densely-annotated soft labels from humans. We show that training with uncertain concept labels may help mitigate weaknesses of concept-based systems when handling uncertain interventions. These results allow us to identify several open challenges, which we argue can be tackled through future multidisciplinary research on building interactive uncertainty-aware systems. To facilitate further research, we release a new elicitation platform, UElic, to collect uncertain feedback from humans in collaborative prediction tasks.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604692
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604692
+ER  - 
+
+TY  - CONF
+TI  - ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages
+AU  - Ghosh, Sourojit
+AU  - Caliskan, Aylin
+PY  - 2023
+AB  - In this multicultural age, language translation is one of the most performed tasks, and it is becoming increasingly AI-moderated and automated. As a novel AI system, ChatGPT claims to be proficient in machine translation tasks and in this paper, we put that claim to the test. Specifically, we examine ChatGPT’s accuracy in translating between English and languages that exclusively use gender-neutral pronouns. We center this study around Bengali, the 7th most spoken language globally, but also generalize our findings across five other languages: Farsi, Malay, Tagalog, Thai, and Turkish. We find that ChatGPT perpetuates gender defaults and stereotypes assigned to certain occupations (e.g., man = doctor, woman = nurse) or actions (e.g., woman = cook, man = go to work), as it converts gender-neutral pronouns in languages to ‘he’ or ‘she’. We also observe ChatGPT completely failing to translate the English gender-neutral singular pronoun ‘they’ into equivalent gender-neutral pronouns in other languages, as it produces translations that are incoherent and incorrect. While it does respect and provide appropriately gender-marked versions of Bengali words when prompted with gender information in English, ChatGPT appears to confer a higher respect to men than to women in the same occupation. We conclude that ChatGPT exhibits the same gender biases which have been demonstrated for tools like Google Translate or MS Translator, as we provide recommendations for a human centered approach for future designers of AI systems that perform machine translation to better accommodate such low-resource languages.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604672
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604672
+ER  - 
+
+TY  - CONF
+TI  - Supporting Human-AI Collaboration in Auditing LLMs with LLMs
+AU  - Rastogi, Charvi
+AU  - Tulio Ribeiro, Marco
+AU  - King, Nicholas
+AU  - Nori, Harsha
+AU  - Amershi, Saleema
+PY  - 2023
+AB  - Large language models (LLMs) are increasingly becoming all-powerful and pervasive via deployment in sociotechnical systems. Yet these language models, be it for classification or generation, have been shown to be biased, behave irresponsibly, causing harm to people at scale. It is crucial to audit these language models rigorously before deployment. Existing auditing tools use either or both humans and AI to find failures. In this work, we draw upon literature in human-AI collaboration and sensemaking, and interview research experts in safe and fair AI, to build upon the auditing tool: AdaTest&nbsp;[36], which is powered by a generative LLM. Through the design process we highlight the importance of sensemaking and human-AI communication to leverage complementary strengths of humans and generative models in collaborative auditing. To evaluate the effectiveness of AdaTest++, the augmented tool, we conduct user studies with participants auditing two commercial language models: OpenAI’s GPT-3 and Azure’s sentiment analysis model. Qualitative analysis shows that AdaTest++ effectively leverages human strengths such as schematization, hypothesis testing. Further, with our tool, users identified a variety of failures modes, covering 26 different topics over 2 tasks, that have been shown in formal audits and also those previously under-reported.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604712
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604712
+ER  - 
+
+TY  - CONF
+TI  - Queering Futures: the design of an expanded mixed methods research framework integrating qualitative, quantitative, and practice-based modes
+AU  - Westbrook, Jess Parris
+PY  - 2023
+AB  - Queering Futures with Data-Driven Speculation: the design of an expanded mixed methods research framework integrating qualitative, quantitative, and practice-based modes – is a Queer research journey. Expanding a mixed methods research framework is strange and different. The Queering Futures Framework (QFF) disregards the constraints of traditional mixed methods research conventions. After intersecting concurrent qualitative modes (exploration of impressions of futures) and quantitative modes (measures of attitudes towards AI), it wanders and stretches into an open creative practice-based mode. It is in the culminating creative practice-based mode that signals identified in the qualitative and the quantitative datasets are compared, scanned, probed, mined, and leveraged using a new futures method I call data-driven speculation.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604724
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604724
+ER  - 
+
+TY  - CONF
+TI  - The ELIZA Defect: Constructing the Right Users for Generative AI
+AU  - Affsprung, Daniel
+PY  - 2023
+AB  - Artificial intelligence (AI) is at the center of debates on what kind of future we want and how to bring it about. But AI ethics is not only a technical risk assessment and accounting effort, or an application of general principles to stable artifacts. It is also a social self-diagnosis, a contested and contestable assertion of values and desirable futures, and a selective understanding of the nature of AI in its different forms. In expressions of concern and efforts at preparation for increasingly powerful AI tools, we can trace the ways we imagine ourselves and our society to be compatible with AI's promises and susceptible to its dangers. The problems we notice, and the solutions we offer, arise from the interaction of these imagined elements.The socially embedded efficacy of AI tools leads many commentators to imagine their risks specifically in conjunction with understandings of society as it currently is and imaginations of how it can and should exist in the future [1]. The sense-making moves performed in the wake of developments in generative AI are thus a site to examine the movement and uses of different concepts brought together in this domain: the human, rationality, and the place of expertise. As these sense-making efforts are carried out, they become constraints on how the risks of generative AI can be noticed and understood.The problems raised by generative AI are so fundamentally tied to its performance as a simulator of human interpersonal acts that we should ask: where is the risk of generative AI located, such that the utility and the safety of the tools can be preserved after troubling cases? Boundaries between malicious deception and magnificent design are unclear without an answer to this question. Thus, to fit generative AI into our world, we are trying to answer it; this is one goal of efforts at regulation which seeks to allow the benefits of imitation to arrive while avoiding the harms of deception. In the current regulation, reporting, and corporate responses to generative AI, the challenge of safely introducing generative AI is being approached in large part as a challenge of producing the right kind of knowledge in its users.Below is a summary of my findings from three cases, chosen to investigate the following question: What ways, or whose ways, of using, knowing, and understanding generative AI are being offered as appropriate? I examine the EU AI Act language reflecting disclosure requirements for interactions with generative AI, responses to a chatbot-facilitated suicide in Belgium, and reactions to expert claims of a chatbot's sentience. In the first two cases, AI-generated content is problematic insofar as users are uninformed about its provenance or maliciously deceived by it, while users who know they are interacting with AI but behave problematically are designated as deluded or irrational. In the third case, a Google engineer who presents evidence to support claims that AI is sentient is censured as nationwide reporting denounces his claim against an expert consensus from which he is ejected. In all three cases, challenges facing widespread generative AI development and use are avoided by attending to the knowledge and understanding of those who use them rather than the functioning of the tools themselves.The EU AI Act is illuminating as a general and authoritative account of how AI interactions can be made safe, requiring first and foremost that users are informed. [2, 3] The AI Act is useful in the present paper as it shows the effort to match and reconcile a new technology with an extant set of values, chief among which is autonomy. Its reliance on disclosure reflects a general sense that harms are acceptable or unacceptable not on the basis of outcomes but based on the degree of autonomy possessed by the actors in question. Rational actors in a simulated environment are responsible for the effects of the simulation, so long as they are informed of the nature of that environment and have essentially consented to consume deceptive or false content. The other two cases I examine explore this very issue, of problematic understandings and behavior on the part of knowing users.The first of these is the case of the Belgian man. After his suicide responses from the company which provided the chatbot, media [4, 5, 6] and government [5], and prominent expert AI ethics commentary [7] characterized it as arising because the user was vulnerable and consequently did not relate to the bot in the right way. While the chatbot's emotionally charged language was seen as a part of the problem, in the reporting on this event the unanimous emphasis on the man's mental state presents the risk as arising in an interaction, in a pathological mistake of the user, rather than in the tool.Locating risk is a necessary and immensely powerful, if often unexamined step which precedes intervention in a worrisome state of affairs: where we locate risk is where we intervene. If the risk accompanying generative AI is located in the minds of uninformed or misapprehending users, disclosures and disclaimers are indeed sensible interventions. In this conception, when knowledge fails to protect the user, it is not a failed safeguard but a bad user. Problematizing user understandings in this way provides an exonerating resource for the companies providing these tools and suggests the rectitude of expert authority on the nature of these tools, by linking delays and dangers in generative AI to users who do not abide by the (strategically underdetermined) expert consensus on generative AI's accuracy, capabilities, and nature.My third case examines how the expert consensus around generative AI is maintained through the story of Blake Lemoine, who publicly announced his belief that Google's LaMDA model had become sentient and was presented by major media outlets and experts as deluded [8, 9, 10, 11, 12, 13]. In the media and corporate response to Lemoine, wherein Google questioned his sanity before firing him [13], we see his ejection from the community of experts permitted to call for greater scrutiny based on qualitative changes in the nature of these models. He becomes a layperson on account of his anthropomorphizing error. In this act of boundary work [14], policing who is in the body of experts qualified to decide on the sentience of the chatbot, and the nature of AI models in general, we must notice how small this group truly is and what Lemoine's ejection preserves. If safeguards like those Lemoine called for should follow on the kind of change he claimed to detect, and those outside Google's leadership could determine when such changes have arrived, Google would cease to lead the conversation on regulation by defining the nature of its technology. This state of affairs leaves the right relations with generative AI underdetermined but maintains that positions which challenge the expert consensus are the result of misunderstandings so significant as to disqualify the concerned party's thoughts on the matter from rational consideration. In the three cases examined here, events and concerns which threaten to depict generative AI as in need of significant scrutiny or changes are defused not by intervening in the company's technology, but by delineating between user understandings which are empowered and exploitative, safe and vulnerable, rational and deluded.Named after an early chatbot, the ELIZA effect refers to the readiness with which users anthropomorphize computer systems [15]. Reporting on both Lemoine [11] and the Belgian man cited this effect [6]. The chatbot which encouraged the Belgian man to commit suicide was named Eliza. One way of summarizing the change I trace in the cases described above is a transition away from the Turing test and towards the ELIZA effect as the conceptual frame for AI which imitates humans. While the Turing test implies the layperson's relevance to the discussion and regulation of AI, the ELIZA effect implies their irrelevance.This project will continue as an effort to follow popular, expert, and regulatory perceptions of the risk of generative AI as the tools themselves and the public concern surrounding them continue to develop. The resources of science and technology studies (STS) enable crucial perspectives on numerous ways of thinking about AI and the challenges of its development and regulation such as the common citations of law lag, invocations of self-regulation in the mode of the Asilomar Conference on rDNA, collective action problem framings, and more. The STS literature on sociotechnical imaginaries [1] and public understandings of science [16] contribute to the present insight as to how the efforts of tech-society reconciliation and risk-benefit balancing presented as appropriate for AI reveal and produce our understandings of the technology, even as they reproduce and reshape social norms. There is an urgent need for work which extends this powerful scholarly tradition for understanding science, technology, and society to AI, as one of the most important and concerning technological developments of our moment.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604744
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604744
+ER  - 
+
+TY  - CONF
+TI  - Designing Interfaces to Elicit Data Issues for Data Workers
+AU  - Bryson, Kevin
+PY  - 2023
+AB  - Goals of objectivity and neutrality drive the usage of algorithmic systems, however most efforts have produced similar or more harm than their human counterparts. Post-hoc analyses of these flawed systems often reveal systemic issues underlying the data and flawed assumptions in preparation stages that affect the models produced. To date, the algorithmic fairness community has had a myopic focus on optimizing and evaluating algorithmic systems at static decision points and mathematical definitions of fairness, neglecting efforts towards critically understanding the data being used prior to modeling. My research aims to support data workers’ sociotechnical understanding of data by creating new interfaces and methods to elicit and utilize their prior knowledge and open information (such as census data), as means to discover and augment harmful patterns in data.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604756
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604756
+ER  - 
+
+TY  - CONF
+TI  - Algorithmic Bias: When stigmatization becomes a perception: The stigmatized become endangered
+AU  - Akintande, Olalekan Joseph
+PY  - 2023
+AB  - In this study, the author examines how perceived stigmatization endangered the stigmatized groups within a society or community. Thus, he goes back in history to dig deep into the sources of perceived stigmatization associated with the black race and how perceived stigmatization has emigrated into AI tools and machine outputs - subjecting vulnerable communities to hypervisibility by exposing them to systems of racial surveillance. To justify the study goal, he conducted a summarized text analysis on racial stigmatization using Twitter hashtags ∈  black people, blackness, Africa, African-Americans, all coined out of the Twitter Users’ perception of the subject and hypothesized to find high negative sentiment correlation of stigmatization perspective in association with black race and Africa. He finds that Black people are associated with Africa and have a strong negative sentiment correlation with - poorness, crime, death, abuses (stupid), among others, and a subject of racist scum and racism. Similarly, there is a weak negative sentiment correlation with being - bad, abused (such bitch), hate, violence, and protest. He also finds similar strong and weak negative sentiment correlations with other hashtags. He discusses the danger of racial stigmatization and proposes a cycle of ethical algorithmic development \&amp; deployment and recommendations.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604723
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604723
+ER  - 
+
+TY  - CONF
+TI  - Ethical Principles for Reasoning about Value Preferences
+AU  - Woodgate, Jessica
+PY  - 2023
+AB  - To ensure alignment with human interests, AI must consider the preferences of stakeholders, which includes reasoning about values and norms. However, stakeholders may have different preferences, and dilemmas can arise concerning conflicting values or norms. My work applies normative ethical principles to resolve dilemma scenarios in satisfactory ways that promote fairness.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604728
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604728
+ER  - 
+
+TY  - CONF
+TI  - Explainability in Process Mining: A Framework for Improved Decision-Making
+AU  - Nannini, Luca
+PY  - 2023
+AB  - This research project aims to develop and validate explanatory facilities to enhance information reception of process mining solutions, which could inform and be translated to other business intelligence platforms. Process mining, a nascent field for analyzing event data stored in information systems, faces challenges in adoption, engagement, and comprehensive explainability frameworks. The research problem lies in the difficulties organizations face when understanding the return on investment and integration requirements associated with process mining operationalization. Furthermore, users often struggle to comprehend the elaboration and representation of process outputs. This issue is compounded by the limited application of Explainable AI (XAI) in process mining, which so far has been predominantly focused on prediction and monitoring activities without a holistic view of explainability trade-offs.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604729
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604729
+ER  - 
+
+TY  - CONF
+TI  - How to promote equitable sleep care among people experiencing homelessness: An AI-enabled person-centred computer vision-based solution
+AU  - Taghibeyglou, Behrad
+PY  - 2023
+AB  - Homelessness, defined as a lack of stable housing, affects over 435,000 people in Canada, most of whom live in shelters and experience barriers to healthcare [2]. Compared to the general population, people experiencing homelessness (PEH) sleep less, experience excessive fatigue, and are more likely to use substances to fall asleep at night (drugs) or stay awake during the day (cigarettes, alcohol) [10]. A recent study among PEH indicated that sleep quality was a key factor for their health and daily function [3]. A prevalent, yet under-recognized, cause of poor sleep is sleep apnea, which is characterized by recurrent interruptions in breathing during sleep [7]. Obstructive sleep apnea (OSA), a common form of sleep apnea, has a high prevalence, affecting approximately 30\%-70\% of individuals with chronic conditions such as hypertension and substance use [5]. Untreated OSA has significant medical consequences and societal costs. Clinical polysomnography is the gold standard for sleep apnea diagnosis, but it is inconvenient, expensive, and inaccessible, especially for PEH who are experiencing several barriers to healthcare, e.g. low trust in care providers, difficulty visiting medical facilities, stress of daily needs, and fear of losing child custody if found to be homeless. The most accessible alternatives to polysomnography are sleep questionnaires, but they have low specificity. Speech can be used as a non-invasive and accessible biomarker for monitoring physiological changes in the pharyngeal airway and cardio-respiratory system, including lung edema and pharyngeal airway narrowing [8]. Therefore, speech can be a potential tool for assessing the risk of OSA. Craniofacial photography has also revealed specific characteristics of upper airway structures and facial dimensions that are associated with OSA [4]. Therefore, developing an accurate and accessible risk assessment method for OSA using these technologies will improve health outcomes in PEH. Our ultimate goal is to develop a person-centred smartphone application to assess the risk of OSA during wakefulness in PEH living in shelters. Objectives: To achieve our primary goal, we will 1) identify the preference and concerns of PEH about a mobile application based on speech for assessing the risk of sleep apnea, 2) determine the prevalence of sleep apnea among shelter residents, and 3) develop a person-centred smartphone application to assess the risk of sleep apnea through speech and image analyses. Preliminary works: Over the past 3 years, our team has established an interdisciplinary stakeholder group comprising people with lived experience of homelessness and OSA, care providers for shelter residents, researchers, and clinicians. Based on our preliminary assessment, most shelter residents have access to cell phones, and wireless internet through shelters and public spaces such as libraries. For objective sleep assessment, 15 participants are recruited (aged 51.94 ± 14.4 years old, including 8 men) from three shelters for an overnight sleep study at the shelter using the protocol mentioned in the next section. The analysis showed that 85\% of the participants (13 out of 15) had moderate-to-severe sleep apnea (apnea-hypopnea index [AHI] ≥ 10 events/hour), with a mean AHI of 27.1 and a standard deviation of 18.53. These preliminary results highlight the importance of developing accessible technologies for diagnosing sleep apnea in shelter residents. Method: To enhance our understanding regarding the usability of such technology among this population, our team has been conducting semi-structured one-on-one interviews with participants to gather their feedback and concerns about the proposed application. A research assistant with lived experience of homelessness and sleep apnea and I collected anthropometric data such as height, weight, neck circumference, and blood pressure, as well as questionnaires related to sleep status, such as STOP-BANG [1] and Epworth Sleepiness Scale [6]. Then, we set up residents with portable polysomnography (level II) for overnight data collection. Before being set up for polysomnography and going to sleep, participants will hold an audio recorder and stand in front of the camera while saying five vowels in a specific order (/i/ as in “see”, /u/ as in “soo”, /a/ as in “sahh”, /e/ as in “set”, /o/ as in “so”, /n/, and /m/). Our team has previously shown acoustic features of these vowels can reveal differences in upper airway dimensions in individuals with high risk of sleep apnea compared to healthy participants [9]. To assess the risk of OSA, I will expand our previous work [9], along with other state-of-the-art algorithms. Preprocessing techniques will be applied to eliminate speech noises, such as background noise, and image artifacts, such as motion, blurring, and illumination. Afterwards, facial landmarks will be extracted from the image frames. Extracted features will be used as the input of classical machine learning models, which will map them to gold standard indices obtained from PSG and other measures. Significance: The discussed study, the first of its kind, aims to fill a critical gap by investigating the barriers to delivering equitable access to sleep care to PEH, determining the prevalence of sleep apnea using objective assessment, and developing a customized person-centred smartphone application to provide equitable sleep care in shelters. The outcome of this study will provide more insights for policymakers to change the current flow of sleep care in shelters. The results of this study could help improve sleep care for other structurally marginalized populations, such as people with low socioeconomic status or those living in remote areas.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604736
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604736
+ER  - 
+
+TY  - CONF
+TI  - Investigating the Relative Strengths of Humans and Machine Learning in Decision-Making
+AU  - Rastogi, Charvi
+PY  - 2023
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604738
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604738
+ER  - 
+
+TY  - CONF
+TI  - Towards a Holistic Approach: Understanding Sociodemographic Biases in NLP Models using an Interdisciplinary Lens
+AU  - Narayanan Venkit, Pranav
+PY  - 2023
+AB  - The rapid growth in the usage and applications of Natural Language Processing (NLP) in various sociotechnical solutions has highlighted the need for a comprehensive understanding of bias and its impact on society. While research on bias in NLP has expanded, several challenges persist that require attention. These include the limited focus on sociodemographic biases beyond race and gender, the narrow scope of analysis predominantly centered on models, and the technocentric implementation approaches. This paper addresses these challenges and advocates for a more interdisciplinary approach to understanding bias in NLP. The work is structured into three facets, each exploring a specific aspect of bias in NLP. The first facet focuses on identifying sociodemographic bias in various NLP architectures, emphasizing the importance of considering both the models themselves and human computation to comprehensively understand and identify bias. In the second facet, we delve into the significance of establishing a shared vocabulary across different fields and disciplines involved in NLP. By highlighting the potential bias stemming from a lack of shared understanding, this facet emphasizes the need for interdisciplinary collaboration to bridge the gap and foster a more inclusive and accurate analysis of bias. Finally, the third facet investigates the development of a holistic solution by integrating frameworks from social science disciplines. This approach recognizes the complexity of bias in NLP and advocates for an interdisciplinary framework that goes beyond purely technical considerations, involving social and ethical perspectives to address bias effectively. The first facet includes the following of my published works [6, 7, 8, 9] to provide results into how the importance of understanding the presence of bias in various minority group that has not been in focus in the prior works of bias in NLP. The work also shows the need to create a method that considers both human and AI indicators of bias, showcasing the importance of the first facet of my research. In my study [9], I delve into sentiment analysis and toxicity detection models to identify explicit bias against race, gender, and people with disabilities (PWDs). Through statistical exploration of conversations on social media platforms such as Twitter and Reddit, I gain insights into how disability bias permeates real-world social settings. To quantify explicit sociodemographic bias in sentiment analysis and toxicity analysis models, I create the Bias Identification Test in Sentiment (BITS) corpus1. Applying BITS, I uncover significant biases in popular AIaaS sentiment analysis tools, including TextBlob, VADER, and Google Cloud Natural Language API, as well as toxicity analysis models like Toxic-BERT. Remarkably, all of these models exhibit statistically significant explicit bias against disability, underscoring the need for comprehensive understanding and mitigation of biases affecting such groups. The work also demonstrates the utility of BITS as a model-independent method of identifying bias by focusing on social groups instead. Expanding on this, my next work [8] delves into the realm of implicit bias in NLP models. While some models may not overtly exhibit bias, they can unintentionally perpetuate harmful stereotypes [4]. To measure and identify implicit bias in commonly used embedding and large language models, I propose a methodology to measure social biases in various NLP architectures. Focusing on people with disabilities (PWD) as a group with complex social dynamics, I analyze various word embedding-based and transformer-based LLMs, revealing significant biases against PWDs in all tested models. These findings expose how models trained on extensive corpora tend to favor ableist language, underscoring the urgency of detecting and addressing implicit bias. The above two works look at both the implicit and explicit nature of bias in NLP, showcasing the need to distinguish the efforts placed in understanding them. The results also demonstrate the utility of identifying such biases as it provides context to the black-box nature of such public models. As the field of NLP evolved from embedding-based models to large language models, the way these models are constructed underwent significant changes [5]. However, the concern arises from the fact that these models often reflect a populist viewpoint [1] that perpetuates majority-held ideas rather than objective truths. This difference in perception can lead to biases perpetuated by the majority’s worldview. To explore this aspect, I investigate how LLMs represent nationality and their impact on societal stereotypes [6]. By examining LLM-generated stories for various nationalities, I establish a correlation between sentiment and the population of internet users in a country. The study reveals the unintentional implicit and explicit nationality biases exhibited by GPT-2, with nations having lower internet representation and economic status generating negative sentiment stories and employing a greater number of negative adjectives. Additionally, I explore potential debiasing methods such as adversarial triggering and prompt engineering, demonstrating their efficacy in mitigating stereotype propagation through LLM models. While prior work predominantly relies on automatic indicators like sentiment scores or vector distances to identify bias [3], the next phase of my research emphasizes the importance of understanding biases through the lens of human readers [7], bringing to light the need for a human lens in understanding bias through human-aided indicators and mixed-method identification. By incorporating concepts of social computation, using human evaluation, we gain a better understanding of biases’ potential societal impact within the context of language models. To achieve this, I conduct open-ended interviews and employ qualitative coding and thematic analysis to comprehend the implications of biases on human readers. The findings demonstrate that biased NLP models tend to replicate and amplify existing societal biases, posing potential harm when utilized in sociotechnical settings. The qualitative analysis from the interviews provides valuable insights into readers’ experiences when encountering biased articles, highlighting the capacity to shift a reader’s perception of a country. These findings emphasize the critical role of public perception in shaping AI’s impact on society and the need to correct biases in AI systems. The second facet of my research aims to bridge the disparity between AI research and society. This disparity has resulted in a lack of shared understanding between these domains, leading to potential biases and harm toward specific groups. Employing an interdisciplinary approach that combines social informatics, philosophy, and AI, I will investigate the similarities and disparities in the concepts utilized by machine learning models. Existing research [2] highlights the insufficient interdisciplinary effort and motivation in comprehending social aspects of NLP. To commence this exploration, I will delve into the shared taxonomy of sentiment and fairness in natural language processing, sociology, and humanities. This research will first delve into the interdisciplinary nature of sentiment and its application in sentiment analysis models. Sentiment analysis, a popular machine learning application for text classification based on sentiment, opinion, and subjectivity, holds significant influence as a sociotechnical system that impacts both social and technical actors within a network. Nevertheless, the definition and connotation of sentiment vary vastly across different research fields, potentially leading to misconceptions regarding the utility of such systems. To address this issue, this study will examine how diverse fields, including psychology, sociology, and technology, define the concept of sentiment. By unraveling the divergent perspectives on sentiment within different fields, the paper will uncover discrepancies and varying applications of this interdisciplinary concept. Additionally, the research will survey commonly utilized sentiment analysis models, aiming to comprehend their standardized definitions and associated issues. Ultimately, the study will pose critical questions that should be considered during the development of social models to mitigate potential biases and harm stemming from an insufficiently defined comprehension of fundamental social concepts. Similar efforts will be dedicated to comprehending the disparity in bias and fairness as an interdisciplinary concept, shedding light on the imperative for inclusive research to cultivate superior AI models as sociotechnical solutions. The third facet of my study embarks upon an exploration of the intricate interplay between human and AI actors, employing the formidable theoretical lens of actor-network theory (ANT). Through the presentation of a robust framework, this facet aims to engender the formation of efficacious development networks that foster collaboration among developers, practitioners, and other essential stakeholders. Such inclusive networks serve as crucibles for the cultivation of holistic solutions that transcend the discriminatory trappings afflicting specific populations. A tangible outcome of this endeavor entails the creation of an all-encompassing bias analysis platform, poised to guide the discernment and amelioration of an array of sociodemographic biases manifesting within any machine-learning system. By catalyzing the development of socially aware and less pernicious technology, this research makes a substantial contribution to the realms of NLP and AI. The significance of this proposed research reverberates beyond the confines of NLP, resonating throughout the broader domain of AI, wherein analogous challenges about social biases loom large. Leveraging the proposed framework, developers, practitioners, and policymakers are empowered to forge practical solutions that embody inclusivity and reliability, especially when used as a service (AIaaS). Moreover, the platform serves as a centralized locus for the identification and rectification of social biases, irrespective of the underlying model or architecture. By furnishing a cogent narrative that underscores the imperative for a comprehensive and interdisciplinary approach, my work strives to propel the ongoing endeavors to comprehend and mitigate biases within the realm of NLP. With its potential to augment the equity, inclusivity, and societal ramifications of NLP technologies, the proposed framework catapults the field towards responsible and ethical practices.
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604754
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604754
+ER  - 
+
+TY  - CONF
+TI  - Evaluation of targeted dataset collection on racial equity in face recognition
+AU  - Hong, Rachel
+PY  - 2023
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3600211.3604752
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3600211.3604752
+ER  - 
+

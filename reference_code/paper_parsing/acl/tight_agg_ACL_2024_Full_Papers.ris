@@ -1,0 +1,568 @@
+TY  - CONF
+TI  - Through the Lens of Split Vote: Exploring Disagreement, Difficulty and Calibration in Legal Case Outcome Classification
+AU  - Xu, Shanshan
+AU  - T.y.s.s, Santosh
+AU  - Ichim, Oana
+AU  - Plank, Barbara
+AU  - Grabmair, Matthias
+PY  - 2024
+AB  - In legal decisions, split votes (SV) occur when judges cannot reach a unanimous decision, posing a difficulty for lawyers who must navigate diverse legal arguments and opinions. In high-stakes domains, %as human-AI interaction systems become increasingly important, understanding the alignment of perceived difficulty between humans and AI systems is crucial to build trust. However, existing NLP calibration methods focus on a classifier’s awareness of predictive performance, measured against the human majority class, overlooking inherent human label variation (HLV). This paper explores split votes as naturally observable human disagreement and value pluralism. We collect judges’ vote distributions from the European Court of Human Rights (ECHR), and present SV-ECHR, a case outcome classification (COC) dataset with SV information. We build a taxonomy of disagreement with SV-specific subcategories. We further assess the alignment of perceived difficulty between models and humans, as well as confidence- and human-calibration of COC models. We observe limited alignment with the judge vote distribution. To our knowledge, this is the first systematic exploration of calibration to human judgements in legal NLP. Our study underscores the necessity for further research on measuring and enhancing model calibration considering HLV in legal decision tasks.
+UR  - https://aclanthology.org/2024.acl-long.13/
+DO  - 10.18653/v1/2024.acl-long.13
+ER  - 
+
+TY  - CONF
+TI  - Retrieval-Augmented Multilingual Knowledge Editing
+AU  - Wang, Weixuan
+AU  - Haddow, Barry
+AU  - Birch, Alexandra
+PY  - 2024
+AB  - Knowledge represented in Large Language Models (LLMs) is quite often incorrect and can also become obsolete over time. Updating knowledge via fine-tuning is computationally resource-hungry and not reliable, and so knowledge editing (KE) has developed as an effective and economical alternative to inject new knowledge or to fix factual errors in LLMs. Although there has been considerable interest in this area, current KE research exclusively focuses on monolingual settings, typically in English. However, what happens if the new knowledge is supplied in one language, but we would like to query an LLM in a different language? To address the problem of multilingual knowledge editing, we propose Retrieval-Augmented Multilingual Knowledge Editor (ReMaKE) to update knowledge in LLMs. ReMaKE can be used to perform model-agnostic knowledge editing in a multilingual setting. ReMaKE concatenates the new knowledge retrieved from a multilingual knowledge base with users’ prompts before querying an LLM. Our experimental results show that ReMaKE outperforms baseline knowledge editing methods by a significant margin and is scalable to real-word application scenarios. Our multilingual knowledge editing dataset (MzsRE) in 12 languages, the code, and additional project information are available at https://github.com/weixuan-wang123/ReMaKE.
+UR  - https://aclanthology.org/2024.acl-long.21/
+DO  - 10.18653/v1/2024.acl-long.21
+ER  - 
+
+TY  - CONF
+TI  - Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback
+AU  - Ahn, Daechul
+AU  - Choi, Yura
+AU  - Yu, Youngjae
+AU  - Kang, Dongyeop
+AU  - Choi, Jonghyun
+PY  - 2024
+AB  - Recent advancements in large language models have influenced the development of video large multimodal models (VLMMs). Previous approaches for VLMMs involve Supervised Fine-Tuning (SFT) with instruction-tuned datasets, integrating LLM with visual encoders, and additional learnable parameters. Here, aligning video with text, and vice versa, remains a challenge, primarily due to the insufficient quality and quantity of multimodal instruction-tune data compared to that of text-only. This discrepancy often results in alignments that poorly ground the video content. To address this, we present a novel alignment strategy that employs a multimodal AI system equipped with Reinforcement Learning from AI Feedback (RLAIF), providing self-preference feedback to refine itself and facilitating the alignment of video and text modalities. Our approach uniquely integrates detailed video descriptions as context into a multimodal AI system during the preference feedback generation to enrich the understanding of video content, a process we call context-aware reward modeling. Empirical evaluations on various video benchmarks demonstrate that our VLM-RLAIF outperforms existing approaches, including the SFT model. We commit to open-sourcing our code, models, and datasets to foster further research in this area.
+UR  - https://aclanthology.org/2024.acl-long.52/
+DO  - 10.18653/v1/2024.acl-long.52
+ER  - 
+
+TY  - CONF
+TI  - InstructProtein: Aligning Human and Protein Language via Knowledge Instruction
+AU  - Wang, Zeyuan
+AU  - Zhang, Qiang
+AU  - Ding, Keyan
+AU  - Qin, Ming
+AU  - Zhuang, Xiang
+AU  - Li, Xiaotong
+AU  - Chen, Huajun
+PY  - 2024
+AB  - Large Language Models (LLMs) have revolutionized the field of natural language processing, but they fall short in comprehending biological sequences such as proteins. To address this challenge, we propose InstructProtein, an innovative LLM that possesses bidirectional generation capabilities in both human and protein languages: (i) taking a protein sequence as input to predict its textual function description and (ii) using natural language to prompt protein sequence generation. To achieve this, we first pre-train an LLM on both protein and natural language corpora, enabling it to comprehend individual languages. Then supervised instruction tuning is employed to facilitate the alignment of these two distinct languages. Herein, we introduce a knowledge graph-based instruction generation framework to construct a high-quality instruction dataset, addressing the annotation imbalance and the absence of instructional signals in the existing protein-text corpus. In particular, the instructions inherit the structural relations between proteins and function annotations in knowledge graphs, which empowers our model to engage in the causal modeling of protein functions, akin to the chain-of-thought processes in natural languages. Extensive experiments on bidirectional protein-text generation tasks show that InstructProtein outperforms state-of-the-art LLMs by a large margin.
+UR  - https://aclanthology.org/2024.acl-long.62/
+DO  - 10.18653/v1/2024.acl-long.62
+ER  - 
+
+TY  - CONF
+TI  - Linguistically Conditioned Semantic Textual Similarity
+AU  - Tu, Jingxuan
+AU  - Xu, Keer
+AU  - Yue, Liulu
+AU  - Ye, Bingyang
+AU  - Rim, Kyeongmin
+AU  - Pustejovsky, James
+PY  - 2024
+AB  - Semantic textual similarity (STS) is a fundamental NLP task that measures the semantic similarity between a pair of sentences. In order to reduce the inherent ambiguity posed from the sentences, a recent work called Conditional STS (C-STS) has been proposed to measure the sentences’ similarity conditioned on a certain aspect. Despite the popularity of C-STS, we find that the current C-STS dataset suffers from various issues that could impede proper evaluation on this task. In this paper, we reannotate the C-STS validation set and observe an annotator discrepancy on 55% of the instances resulting from the annotation errors in the original label, ill-defined conditions, and the lack of clarity in the task definition. After a thorough dataset analysis, we improve the C-STS task by leveraging the models’ capability to understand the conditions under a QA task setting. With the generated answers, we present an automatic error identification pipeline that is able to identify annotation errors from the C-STS data with over 80% F1 score. We also propose a new method that largely improves the performance over baselines on the C-STS data by training the models with the answers. Finally we discuss the conditionality annotation based on the typed-feature structure (TFS) of entity types. We show in examples that the TFS is able to provide a linguistic foundation for constructing C-STS data with new conditions.
+UR  - https://aclanthology.org/2024.acl-long.64/
+DO  - 10.18653/v1/2024.acl-long.64
+ER  - 
+
+TY  - CONF
+TI  - Dissecting Human and LLM Preferences
+AU  - Li, Junlong
+AU  - Zhou, Fan
+AU  - Sun, Shichao
+AU  - Zhang, Yikai
+AU  - Zhao, Hai
+AU  - Liu, Pengfei
+PY  - 2024
+AB  - As a relative quality comparison of model responses, human and Large Language Model (LLM) preferences serve as common alignment goals in model fine-tuning and criteria in evaluation. Yet, these preferences merely reflect broad tendencies, resulting in less explainable and controllable models with potential safety risks. In this work, we dissect the preferences of human and 32 different LLMs to understand their quantitative composition, using annotations from real-world user-model conversations for a fine-grained, scenario-wise analysis. We find that humans are less sensitive to errors, favor responses that support their stances, and show clear dislike when models admit their limits. On the contrary, advanced LLMs like GPT-4-Turbo emphasize correctness, clarity, and harmlessness more. Additionally, LLMs of similar sizes tend to exhibit similar preferences, regardless of their training methods, and fine-tuning for alignment does not significantly alter the preferences of pretrained-only LLMs. Finally, we show that preference-based evaluation can be intentionally manipulated. In both training-free and training-based settings, aligning a model with the preferences of judges boosts scores, while injecting the least preferred properties lowers them. This results in notable score shifts: up to 0.59 on MT-Bench (1-10 scale) and 31.94 on AlpacaEval 2.0 (0-100 scale), highlighting the significant impact of this strategic adaptation. We have made all resources of this project publicly available.
+UR  - https://aclanthology.org/2024.acl-long.99/
+DO  - 10.18653/v1/2024.acl-long.99
+ER  - 
+
+TY  - CONF
+TI  - UniCoder: Scaling Code Large Language Model via Universal Code
+AU  - Sun, Tao
+AU  - Chai, Linzheng
+AU  - Yang, Jian
+AU  - Yin, Yuwei
+AU  - Guo, Hongcheng
+AU  - Liu, Jiaheng
+AU  - Wang, Bing
+AU  - Yang, Liqun
+AU  - Li, Zhoujun
+PY  - 2024
+AB  - Intermediate reasoning or acting steps have successfully improved large language models (LLMs) for handling various downstream natural language processing (NLP) tasks.When applying LLMs for code generation, recent works mainly focus on directing the models to articulate intermediate natural-language reasoning steps, as in chain-of-thought (CoT) prompting, and then output code with the natural language or other structured intermediate steps. However, such output is not suitable for code translation or generation tasks since the standard CoT has different logical structures and forms of expression with the code. In this work, we introduce the universal code (UniCode) as the intermediate representation. It is a description of algorithm steps using a mix of conventions of programming languages, such as assignment operator, conditional operator, and loop. Hence, we collect an instruction dataset UniCoder-Instruct to train our model UniCoder on multi-task learning objectives. UniCoder-Instruct comprises natural-language questions, code solutions, and the corresponding universal code. The alignment between the intermediate universal code representation and the final code solution significantly improves the quality of the generated code. The experimental results demonstrate that UniCoder with the universal code significantly outperforms the previous prompting methods by a large margin, showcasing the effectiveness of the structural clues in pseudo-code.
+UR  - https://aclanthology.org/2024.acl-long.100/
+DO  - 10.18653/v1/2024.acl-long.100
+ER  - 
+
+TY  - CONF
+TI  - Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation
+AU  - Zhang, Xiaoying
+AU  - Peng, Baolin
+AU  - Tian, Ye
+AU  - Zhou, Jingyan
+AU  - Jin, Lifeng
+AU  - Song, Linfeng
+AU  - Mi, Haitao
+AU  - Meng, Helen
+PY  - 2024
+AB  - Despite showing impressive abilities, large language models (LLMs) often struggle with factual inaccuracies, i.e., ”hallucinations”, even when they hold relevant knowledge. To mitigate these hallucinations, current approaches typically necessitate high-quality human factuality annotations. In this work, we explore Self-Alignment for Factuality, where we leverage the self-evaluation capability of an LLM to provide training signals that steer the model towards factuality. Specifically, we incorporate Self-Eval, a self-evaluation component, to prompt an LLM to validate the factuality of its own generated responses solely based on its internal knowledge. Additionally, we design Self-Knowledge Tuning (SK-Tuning) to augment the LLM’s self-evaluation ability by improving the model’s confidence estimation and calibration. We then utilize these self-annotated responses to fine-tune the model via Direct Preference Optimization algorithm. We show that the proposed self-alignment approach substantially enhances factual accuracy over Llama family models across three key knowledge-intensive tasks on TruthfulQA and BioGEN.
+UR  - https://aclanthology.org/2024.acl-long.107/
+DO  - 10.18653/v1/2024.acl-long.107
+ER  - 
+
+TY  - CONF
+TI  - Handling Ambiguity in Emotion: From Out-of-Domain Detection to Distribution Estimation
+AU  - Wu, Wen
+AU  - Li, Bo
+AU  - Zhang, Chao
+AU  - Chiu, Chung-Cheng
+AU  - Li, Qiujia
+AU  - Bai, Junwen
+AU  - Sainath, Tara
+AU  - Woodland, Phil
+PY  - 2024
+AB  - The subjective perception of emotion leads to inconsistent labels from human annotators. Typically, utterances lacking majority-agreed labels are excluded when training an emotion classifier, which cause problems when encountering ambiguous emotional expressions during testing. This paper investigates three methods to handle ambiguous emotion. First, we show that incorporating utterances without majority-agreed labels as an additional class in the classifier reduces the classification performance of the other emotion classes. Then, we propose detecting utterances with ambiguous emotions as out-of-domain samples by quantifying the uncertainty in emotion classification using evidential deep learning. This approach retains the classification accuracy while effectively detects ambiguous emotion expressions. Furthermore, to obtain fine-grained distinctions among ambiguous emotions, we propose representing emotion as a distribution instead of a single class label. The task is thus re-framed from classification to distribution estimation where every individual annotation is taken into account, not just the majority opinion. The evidential uncertainty measure is extended to quantify the uncertainty in emotion distribution estimation. Experimental results on the IEMOCAP and CREMA-D datasets demonstrate the superior capability of the proposed method in terms of majority class prediction, emotion distribution estimation, and uncertainty estimation.
+UR  - https://aclanthology.org/2024.acl-long.114/
+DO  - 10.18653/v1/2024.acl-long.114
+ER  - 
+
+TY  - CONF
+TI  - RLHFPoison: Reward Poisoning Attack for Reinforcement Learning with Human Feedback in Large Language Models
+AU  - Wang, Jiongxiao
+AU  - Wu, Junlin
+AU  - Chen, Muhao
+AU  - Vorobeychik, Yevgeniy
+AU  - Xiao, Chaowei
+PY  - 2024
+AB  - Reinforcement Learning with Human Feedback (RLHF) is a methodology designed to align Large Language Models (LLMs) with human preferences, playing an important role in LLMs alignment. Despite its advantages, RLHF relies on human annotators to rank the text, which can introduce potential security vulnerabilities if any adversarial annotator (i.e., attackers) manipulates the ranking score by up-ranking any malicious text to steer the LLM adversarially. To assess the red-teaming of RLHF against human preference data poisoning, we propose RankPoison, a poisoning attack method on candidates’ selection of preference rank flipping to reach certain malicious behaviors (e.g., generating longer sequences, which can increase the computational cost). With poisoned dataset generated by RankPoison, we can perform poisoning attacks on LLMs to generate longer tokens without hurting the original safety alignment performance. Moreover, applying RankPoison, we also successfully implement a backdoor attack where LLMs can generate longer answers under questions with the trigger word. Our findings highlight critical security challenges in RLHF, underscoring the necessity for more robust alignment methods for LLMs.
+UR  - https://aclanthology.org/2024.acl-long.140/
+DO  - 10.18653/v1/2024.acl-long.140
+ER  - 
+
+TY  - CONF
+TI  - MAVEN-ARG: Completing the Puzzle of All-in-One Event Understanding Dataset with Event Argument Annotation
+AU  - Wang, Xiaozhi
+AU  - Peng, Hao
+AU  - Guan, Yong
+AU  - Zeng, Kaisheng
+AU  - Chen, Jianhui
+AU  - Hou, Lei
+AU  - Han, Xu
+AU  - Lin, Yankai
+AU  - Liu, Zhiyuan
+AU  - Xie, Ruobing
+AU  - Zhou, Jie
+AU  - Li, Juanzi
+PY  - 2024
+AB  - Understanding events in texts is a core objective of natural language understanding, which requires detecting event occurrences, extracting event arguments, and analyzing inter-event relationships. However, due to the annotation challenges brought by task complexity, a large-scale dataset covering the full process of event understanding has long been absent. In this paper, we introduce MAVEN-Arg, which augments MAVEN datasets with event argument annotations, making the first all-in-one dataset supporting event detection, event argument extraction (EAE), and event relation extraction. As an EAE benchmark, MAVEN-Arg offers three main advantages: (1) a comprehensive schema covering 162 event types and 612 argument roles, all with expert-written definitions and examples; (2) a large data scale, containing 98,591 events and 290,613 arguments obtained with laborious human annotation; (3) the exhaustive annotation supporting all task variants of EAE, which annotates both entity and non-entity event arguments in document level. Experiments indicate that MAVEN-Arg is quite challenging for both fine-tuned EAE models and proprietary large language models (LLMs). Furthermore, to demonstrate the benefits of an all-in-one dataset, we preliminarily explore a potential application, future event prediction, with LLMs. MAVEN-Arg and codes can be obtained from https://github.com/THU-KEG/MAVEN-Argument.
+UR  - https://aclanthology.org/2024.acl-long.224/
+DO  - 10.18653/v1/2024.acl-long.224
+ER  - 
+
+TY  - CONF
+TI  - Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision
+AU  - Ruan, Qian
+AU  - Kuznetsov, Ilia
+AU  - Gurevych, Iryna
+PY  - 2024
+AB  - Collaborative review and revision of textual documents is the core of knowledge work and a promising target for empirical analysis and NLP assistance. Yet, a holistic framework that would allow modeling complex relationships between document revisions, reviews and author responses is lacking. To address this gap, we introduce Re3, a framework for joint analysis of collaborative document revision. We instantiate this framework in the scholarly domain, and present Re3-Sci, a large corpus of aligned scientific paper revisions manually labeled according to their action and intent, and supplemented with the respective peer reviews and human-written edit summaries. We use the new data to provide first empirical insights into collaborative document revision in the academic domain, and to assess the capabilities of state-of-the-art LLMs at automating edit analysis and facilitating text-based collaboration. We make our annotation environment and protocols, the resulting data and experimental code publicly available.
+UR  - https://aclanthology.org/2024.acl-long.255/
+DO  - 10.18653/v1/2024.acl-long.255
+ER  - 
+
+TY  - CONF
+TI  - When Only Time Will Tell: Interpreting How Transformers Process Local Ambiguities Through the Lens of Restart-Incrementality
+AU  - Madureira, Brielen
+AU  - Kahardipraja, Patrick
+AU  - Schlangen, David
+PY  - 2024
+AB  - Incremental models that process sentences one token at a time will sometimes encounter points where more than one interpretation is possible. Causal models are forced to output one interpretation and continue, whereas models that can revise may edit their previous output as the ambiguity is resolved. In this work, we look at how restart-incremental Transformers build and update internal states, in an effort to shed light on what processes cause revisions not viable in autoregressive models. We propose an interpretable way to analyse the incremental states, showing that their sequential structure encodes information on the garden path effect and its resolution. Our method brings insights on various bidirectional encoders for contextualised meaning representation and dependency parsing, contributing to show their advantage over causal models when it comes to revisions.
+UR  - https://aclanthology.org/2024.acl-long.260/
+DO  - 10.18653/v1/2024.acl-long.260
+ER  - 
+
+TY  - CONF
+TI  - Noise Correction on Subjective Datasets
+AU  - Jinadu, Uthman
+AU  - Ding, Yi
+PY  - 2024
+AB  - Incorporating every annotator’s perspective is crucial for unbiased data modeling. Annotator fatigue and changing opinions over time can distort dataset annotations. To combat this, we propose to learn a more accurate representation of diverse opinions by utilizing multitask learning in conjunction with loss-based label correction. We show that using our novel formulation, we can cleanly separate agreeing and disagreeing annotations. Furthermore, this method provides a controllable way to encourage or discourage disagreement. We demonstrate that this modification can improve prediction performance in a single or multi-annotator setting. Lastly, we show that this method remains robust to additional label noise that is applied to subjective data.
+UR  - https://aclanthology.org/2024.acl-long.294/
+DO  - 10.18653/v1/2024.acl-long.294
+ER  - 
+
+TY  - CONF
+TI  - A Causal Approach for Counterfactual Reasoning in Narratives
+AU  - Mu, Feiteng
+AU  - Li, Wenjie
+PY  - 2024
+AB  - Counterfactual reasoning in narratives requires predicting how alternative conditions, contrary to what actually happened, might have resulted in different outcomes.One major challenge is to maintain the causality between the counterfactual condition and the generated counterfactual outcome. In this paper, we propose a basic VAE module for counterfactual reasoning in narratives. We further introduce a pre-trained classifier and external event commonsense to mitigate the posterior collapse problem in the VAE approach, and improve the causality between the counterfactual condition and the generated counterfactual outcome. We evaluate our method on two public benchmarks. Experiments show that our method is effective.
+UR  - https://aclanthology.org/2024.acl-long.354/
+DO  - 10.18653/v1/2024.acl-long.354
+ER  - 
+
+TY  - CONF
+TI  - ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs
+AU  - Chen, Justin
+AU  - Saha, Swarnadeep
+AU  - Bansal, Mohit
+PY  - 2024
+AB  - Large Language Models (LLMs) still struggle with natural language reasoning tasks. Motivated by the society of minds (Minsky, 1988), we propose ReConcile, a multi-model multi-agent framework designed as a round table conference among diverse LLM agents. ReConcile enhances collaborative reasoning between LLM agents via multiple rounds of discussion, learning to convince other agents to improve their answers, and employing a confidence-weighted voting mechanism that leads to a better consensus. In each round, ReConcile initiates discussion between agents via a ‘discussion prompt’ that consists of (a) grouped answers and explanations generated by each agent in the previous round, (b) their confidence scores, and (c) demonstrations of answer-rectifying human explanations, used for convincing other agents. Experiments on seven benchmarks demonstrate that ReConcile significantly improves LLMs’ reasoning – both individually and as a team – surpassing prior single-agent and multi-agent baselines by up to 11.4% and even outperforming GPT-4 on three datasets. ReConcile also flexibly incorporates different combinations of agents, including API-based, open-source, and domain-specific models, leading to an 8% improvement on MATH. Finally, we analyze the individual components of ReConcile, demonstrating that the diversity originating from different models is critical to its superior performance.
+UR  - https://aclanthology.org/2024.acl-long.381/
+DO  - 10.18653/v1/2024.acl-long.381
+ER  - 
+
+TY  - CONF
+TI  - What Evidence Do Language Models Find Convincing?
+AU  - Wan, Alexander
+AU  - Wallace, Eric
+AU  - Klein, Dan
+PY  - 2024
+AB  - Retrieval-augmented language models are being increasingly tasked with subjective, contentious, and conflicting queries such as “is aspartame linked to cancer”. To resolve these ambiguous queries, one must search through a large range of websites and consider “which, if any, of this evidence do I find convincing?”. In this work, we study how LLMs answer this question. In particular, we construct ConflictingQA, a dataset that pairs controversial queries with a series of real-world evidence documents that contain different facts (e.g., quantitative results), argument styles (e.g., appeals to authority), and answers (Yes or No). We use this dataset to perform sensitivity and counterfactual analyses to explore which text features most affect LLM predictions. Overall, we find that current models rely heavily on the relevance of a website to the query, while largely ignoring stylistic features that humans find important such as whether a text contains scientific references or is written with a neutral tone. Taken together, these results highlight the importance of RAG corpus quality (e.g., the need to filter misinformation), and possibly even a shift in how LLMs are trained to better align with human judgements.
+UR  - https://aclanthology.org/2024.acl-long.403/
+DO  - 10.18653/v1/2024.acl-long.403
+ER  - 
+
+TY  - CONF
+TI  - Cognitive Visual-Language Mapper: Advancing Multimodal Comprehension with Enhanced Visual Knowledge Alignment
+AU  - Li, Yunxin
+AU  - Chen, Xinyu
+AU  - Hu, Baotian
+AU  - Shi, Haoyuan
+AU  - Zhang, Min
+PY  - 2024
+AB  - Evaluating and Rethinking the current landscape of Large Multimodal Models (LMMs), we observe that widely-used visual-language projection approaches (e.g., Q-former or MLP) focus on the alignment of image-text descriptions yet ignore the visual knowledge-dimension alignment, i.e., connecting visuals to their relevant knowledge. Visual knowledge plays a significant role in analyzing, inferring, and interpreting information from visuals, helping improve the accuracy of answers to knowledge-based visual questions. In this paper, we mainly explore improving LMMs with visual-language knowledge alignment, especially aimed at challenging knowledge-based visual question answering (VQA). To this end, we present a Cognitive Visual-Language Mapper (CVLM), which contains a pretrained Visual Knowledge Aligner (VKA) and a Fine-grained Knowledge Adapter (FKA) used in the multimodal instruction tuning stage. Specifically, we design the VKA based on the interaction between a small language model and a visual encoder, training it on collected image-knowledge pairs to achieve visual knowledge acquisition and projection. FKA is employed to distill the fine-grained visual knowledge of an image and inject it into Large Language Models (LLMs). We conduct extensive experiments on knowledge-based VQA benchmarks and experimental results show that CVLM significantly improves the performance of LMMs on knowledge-based VQA (average gain by 5.0%). Ablation studies also verify the effectiveness of VKA and FKA, respectively.
+UR  - https://aclanthology.org/2024.acl-long.411/
+DO  - 10.18653/v1/2024.acl-long.411
+ER  - 
+
+TY  - CONF
+TI  - Context-aware Difference Distilling for Multi-change Captioning
+AU  - Tu, Yunbin
+AU  - Li, Liang
+AU  - Su, Li
+AU  - Zha, Zheng-Jun
+AU  - Yan, Chenggang
+AU  - Huang, Qingming
+PY  - 2024
+AB  - Multi-change captioning aims to describe complex and coupled changes within an image pair in natural language. Compared with single-change captioning, this task requires the model to have higher-level cognition ability to reason an arbitrary number of changes. In this paper, we propose a novel context-aware difference distilling (CARD) network to capture all genuine changes for yielding sentences. Given an image pair, CARD first decouples context features that aggregate all similar/dissimilar semantics, termed common/difference context features. Then, the consistency and independence constraints are designed to guarantee the alignment/discrepancy of common/difference context features. Further, the common context features guide the model to mine locally unchanged features, which are subtracted from the pair to distill locally difference features. Next, the difference context features augment the locally difference features to ensure that all changes are distilled. In this way, we obtain an omni-representation of all changes, which is translated into linguistic sentences by a transformer decoder. Extensive experiments on three public datasets show CARD performs favourably against state-of-the-art methods. The code is available at https://github.com/tuyunbin/CARD.
+UR  - https://aclanthology.org/2024.acl-long.430/
+DO  - 10.18653/v1/2024.acl-long.430
+ER  - 
+
+TY  - CONF
+TI  - Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals
+AU  - Ortu, Francesco
+AU  - Jin, Zhijing
+AU  - Doimo, Diego
+AU  - Sachan, Mrinmaya
+AU  - Cazzaniga, Alberto
+AU  - Sch{\"o}lkopf, Bernhard
+PY  - 2024
+AB  - Interpretability research aims to bridge the gap between the empirical success and our scientific understanding of the inner workings of large language models (LLMs). However, most existing research in this area focused on analyzing a single mechanism, such as how models copy or recall factual knowledge. In this work, we propose the formulation of competition of mechanisms, which instead of individual mechanisms focuses on the interplay of multiple mechanisms, and traces how one of them becomes dominant in the final prediction. We uncover how and where the competition of mechanisms happens within LLMs using two interpretability methods, logit inspection and attention modification. Our findings show traces of the mechanisms and their competition across various model components, and reveal attention positions that effectively control the strength of certain mechanisms.
+UR  - https://aclanthology.org/2024.acl-long.458/
+DO  - 10.18653/v1/2024.acl-long.458
+ER  - 
+
+TY  - CONF
+TI  - DocLLM: A Layout-Aware Generative Language Model for Multimodal Document Understanding
+AU  - Wang, Dongsheng
+AU  - Raman, Natraj
+AU  - Sibue, Mathieu
+AU  - Ma, Zhiqiang
+AU  - Babkin, Petr
+AU  - Kaur, Simerjot
+AU  - Pei, Yulong
+AU  - Nourbakhsh, Armineh
+AU  - Liu, Xiaomo
+PY  - 2024
+AB  - Enterprise documents such as forms, receipts, reports, and other such records, often carry rich semantics at the intersection of textual and spatial modalities. The visual cues offered by their complex layouts play a crucial role in comprehending these documents effectively. In this paper, we present DocLLM, a lightweight extension to traditional large language models (LLMs) for reasoning over visual documents, taking into account both textual semantics and spatial layout. Our model differs from existing multimodal LLMs by avoiding expensive image encoders and focuses exclusively on bounding box information to incorporate the spatial layout structure. Specifically, the cross-alignment between text and spatial modalities is captured by decomposing the attention mechanism in classical transformers to a set of disentangled matrices. Furthermore, we devise a pre-training objective that learns to infill text segments. This approach allows us to address irregular layouts and heterogeneous content frequently encountered in visual documents. The pre-trained model is fine-tuned using a large-scale instruction dataset, covering four core document intelligence tasks. We demonstrate that our solution outperforms SotA LLMs on 14 out of 16 datasets across all tasks, and generalizes well to 4 out of 5 previously unseen datasets.
+UR  - https://aclanthology.org/2024.acl-long.463/
+DO  - 10.18653/v1/2024.acl-long.463
+ER  - 
+
+TY  - CONF
+TI  - Whose Preferences? Differences in Fairness Preferences and Their Impact on the Fairness of AI Utilizing Human Feedback
+AU  - Lerner, Maria
+AU  - Dorner, Florian
+AU  - Ash, Elliott
+AU  - Goel, Naman
+PY  - 2024
+AB  - There is a growing body of work on learning from human feedback to align various aspects of machine learning systems with human values and preferences. We consider the setting of fairness in content moderation, in which human feedback is used to determine how two comments — referencing different sensitive attribute groups — should be treated in comparison to one another. With a novel dataset collected from Prolific and MTurk, we find significant gaps in fairness preferences depending on the race, age, political stance, educational level, and LGBTQ+ identity of annotators. We also demonstrate that demographics mentioned in text have a strong influence on how users perceive individual fairness in moderation. Further, we find that differences also exist in downstream classifiers trained to predict human preferences. Finally, we observe that an ensemble, giving equal weight to classifiers trained on annotations from different demographics, performs better for different demographic intersections; compared to a single classifier that gives equal weight to each annotation.
+UR  - https://aclanthology.org/2024.acl-long.509/
+DO  - 10.18653/v1/2024.acl-long.509
+ER  - 
+
+TY  - CONF
+TI  - Are LLM-based Evaluators Confusing NLG Quality Criteria?
+AU  - Hu, Xinyu
+AU  - Gao, Mingqi
+AU  - Hu, Sen
+AU  - Zhang, Yang
+AU  - Chen, Yicheng
+AU  - Xu, Teng
+AU  - Wan, Xiaojun
+PY  - 2024
+AB  - Some prior work has shown that LLMs perform well in NLG evaluation for different tasks. However, we discover that LLMs seem to confuse different evaluation criteria, which reduces their reliability. For further verification, we first consider avoiding issues of inconsistent conceptualization and vague expression in existing NLG quality criteria themselves. So we summarize a clear hierarchical classification system for 11 common aspects with corresponding different criteria from previous studies involved. Inspired by behavioral testing, we elaborately design 18 types of aspect-targeted perturbation attacks for fine-grained analysis of the evaluation behaviors of different LLMs. We also conduct human annotations beyond the guidance of the classification system to validate the impact of the perturbations. Our experimental results reveal confusion issues inherent in LLMs, as well as other noteworthy phenomena, and necessitate further research and improvements for LLM-based evaluation.
+UR  - https://aclanthology.org/2024.acl-long.516/
+DO  - 10.18653/v1/2024.acl-long.516
+ER  - 
+
+TY  - CONF
+TI  - Beyond Recognising Entailment: Formalising Natural Language Inference from an Argumentative Perspective
+AU  - Saadat-Yazdi, Ameer
+AU  - K{\"o}kciyan, Nadin
+PY  - 2024
+AB  - In argumentation theory, argument schemes are a characterisation of stereotypical patterns of inference. There has been little work done to develop computational approaches to identify these schemes in natural language. Moreover, advancements in recognizing textual entailment lack a standardized definition of inference, which makes it challenging to compare methods trained on different datasets and rely on the generalisability of their results. In this work, we propose a rigorous approach to align entailment recognition with argumentation theory. Wagemans’ Periodic Table of Arguments (PTA), a taxonomy of argument schemes, provides the appropriate framework to unify these two fields. To operationalise the theoretical model, we introduce a tool to assist humans in annotating arguments according to the PTA. Beyond providing insights into non-expert annotator training, we present Kialo-PTA24, the first multi-topic dataset for the PTA. Finally, we benchmark the performance of pre-trained language models on various aspects of argument analysis. Our experiments show that the task of argument canonicalisation poses a significant challenge for state-of-the-art models, suggesting an inability to represent argumentative reasoning and a direction for future investigation.
+UR  - https://aclanthology.org/2024.acl-long.520/
+DO  - 10.18653/v1/2024.acl-long.520
+ER  - 
+
+TY  - CONF
+TI  - Uni-Dubbing: Zero-Shot Speech Synthesis from Visual Articulation
+AU  - Lei, Songju
+AU  - Cheng, Xize
+AU  - Lyu, Mengjiao
+AU  - Hu, Jianqiao
+AU  - Tan, Jintao
+AU  - Liu, Runlin
+AU  - Xiong, Lingyu
+AU  - Jin, Tao
+AU  - Li, Xiandong
+AU  - Zhao, Zhou
+PY  - 2024
+AB  - In the field of speech synthesis, there is a growing emphasis on employing multimodal speech to enhance robustness. A key challenge in this area is the scarcity of datasets that pair audio with corresponding video. We employ a methodology that incorporates modality alignment during the pre-training phase on multimodal datasets, uniquely facilitating zero-shot generalization through the process of freezing the video modality feature extraction component and the encoder module within the pretrained weights, thereby enabling effective cross-modal and cross-lingual transfer. We have named this method ‘Uni-Dubbing’. Our method finely tunes with both multimodal and single-modality audio data. In multimodal scenarios, it achieves a reduced word error rate (WER) of 31.73%, surpassing the previous best of 33.9%. It also excels in metrics like tone quality and synchronization. With single-modality audio, it achieves a WER of 36.08%, demonstrating adaptability to limited data. Its domain generalization capabilities are proven across various language tasks in video translation and audio generation. Trained on 433 hours of audio data, it surpasses techniques using 200 hours of audiovisual data. The code and demo are available at https://diracer.github.io/unidubbing.
+UR  - https://aclanthology.org/2024.acl-long.543/
+DO  - 10.18653/v1/2024.acl-long.543
+ER  - 
+
+TY  - CONF
+TI  - BinaryAlign: Word Alignment as Binary Sequence Labeling
+AU  - Latouche, Gaetan
+AU  - Carbonneau, Marc-Andr{\'e}
+AU  - Swanson, Benjamin
+PY  - 2024
+AB  - Real world deployments of word alignment are almost certain to cover both high and low resource languages. However, the state-of-the-art for this task recommends a different model class depending on the availability of gold alignment training data for a particular language pair. We propose BinaryAlign, a novel word alignment technique based on binary sequence labeling that outperforms existing approaches in both scenarios, offering a unifying approach to the task. Additionally, we vary the specific choice of multilingual foundation model, perform stratified error analysis over alignment error type, and explore the performance of BinaryAlign on non-English language pairs. We make our source code publicly available.
+UR  - https://aclanthology.org/2024.acl-long.553/
+DO  - 10.18653/v1/2024.acl-long.553
+ER  - 
+
+TY  - CONF
+TI  - Quantifying the Persona Effect in LLM Simulations
+AU  - Hu, Tiancheng
+AU  - Collier, Nigel
+PY  - 2024
+AB  - Large language models (LLMs) have shown remarkable promise in simulating human language and behavior. This study investigates how integrating persona variables—demographic, social, and behavioral factors—impacts LLMs’ ability to simulate diverse perspectives. We find that persona variables account for <10% variance in annotations in existing subjective NLP datasets. Nonetheless, incorporating persona variables via prompting in LLMs provides modest but statistically significant improvements. Persona prompting is most effective in samples where many annotators disagree, but their disagreements are relatively minor. Notably, we find a linear relationship in our setting: the stronger the correlation between persona variables and human annotations, the more accurate the LLM predictions are using persona prompting. In a zero-shot setting, a powerful 70b model with persona prompting captures 81% of the annotation variance achievable by linear regression trained on ground truth annotations. However, for most subjective NLP datasets, where persona variables have limited explanatory power, the benefits of persona prompting are limited.
+UR  - https://aclanthology.org/2024.acl-long.554/
+DO  - 10.18653/v1/2024.acl-long.554
+ER  - 
+
+TY  - CONF
+TI  - ARAIDA: Analogical Reasoning-Augmented Interactive Data Annotation
+AU  - Huang, Chen
+AU  - Jin, Yiping
+AU  - Ilievski, Ilija
+AU  - Lei, Wenqiang
+AU  - Lv, Jiancheng
+PY  - 2024
+AB  - Human annotation is a time-consuming task that requires a significant amount of effort. To address this issue, interactive data annotation utilizes an annotation model to provide suggestions for humans to approve or correct. However, annotation models trained with limited labeled data are prone to generating incorrect suggestions, leading to extra human correction effort. To tackle this challenge, we propose Araida, an analogical reasoning-based approach that enhances automatic annotation accuracy in the interactive data annotation setting and reduces the need for human corrections. Araida involves an error-aware integration strategy that dynamically coordinates an annotation model and a k-nearest neighbors (KNN) model, giving more importance to KNN’s predictions when predictions from the annotation model are deemed inaccurate. Empirical studies demonstrate that Araida is adaptable to different annotation tasks and models. On average, it reduces human correction labor by 11.02% compared to vanilla interactive data annotation methods.
+UR  - https://aclanthology.org/2024.acl-long.574/
+DO  - 10.18653/v1/2024.acl-long.574
+ER  - 
+
+TY  - CONF
+TI  - Hide and Seek in Noise Labels: Noise-Robust Collaborative Active Learning with LLMs-Powered Assistance
+AU  - Yuan, Bo
+AU  - Chen, Yulin
+AU  - Zhang, Yin
+AU  - Jiang, Wei
+PY  - 2024
+AB  - Learning from noisy labels (LNL) is a challenge that arises in many real-world scenarios where collected training data can contain incorrect or corrupted labels. Most existing solutions identify noisy labels and adopt active learning to query human experts on them for denoising. In the era of large language models (LLMs), although we can reduce the human effort to improve these methods, their performances are still subject to accurately separating the clean and noisy samples from noisy data. In this paper, we propose an innovative collaborative learning framework NoiseAL based on active learning to combine LLMs and small models (SMs) for learning from noisy labels. During collaborative training, we first adopt two SMs to form a co-prediction network and propose a dynamic-enhanced threshold strategy to divide the noisy data into different subsets, then select the clean and noisy samples from these subsets to feed the active annotator LLMs to rectify noisy samples. Finally, we employ different optimization objectives to conquer subsets with different degrees of label noises. Extensive experiments on synthetic and real-world noise datasets further demonstrate the superiority of our framework over state-of-the-art baselines.
+UR  - https://aclanthology.org/2024.acl-long.592/
+DO  - 10.18653/v1/2024.acl-long.592
+ER  - 
+
+TY  - CONF
+TI  - AlignBench: Benchmarking Chinese Alignment of Large Language Models
+AU  - Liu, Xiao
+AU  - Lei, Xuanyu
+AU  - Wang, Shengyuan
+AU  - Huang, Yue
+AU  - Feng, Andrew
+AU  - Wen, Bosi
+AU  - Cheng, Jiale
+AU  - Ke, Pei
+AU  - Xu, Yifan
+AU  - Tam, Weng Lam
+AU  - Zhang, Xiaohan
+AU  - Sun, Lichao
+AU  - Gu, Xiaotao
+AU  - Wang, Hongning
+AU  - Zhang, Jing
+AU  - Huang, Minlie
+AU  - Dong, Yuxiao
+AU  - Tang, Jie
+PY  - 2024
+AB  - Alignment has become a critical step for instruction-tuned Large Language Models (LLMs) to become helpful assistants. However, effective evaluation of alignment for emerging Chinese LLMs is still significantly lacking, calling for real-scenario grounded, open-ended, challenging and automatic evaluations tailored for alignment. To fill in this gap, we introduce AlignBench, a comprehensive multi-dimensional benchmark for evaluating LLMs’ alignment in Chinese. We tailor a human-in-the-loop data curation pipeline, containing 8 main categories, 683 real-scenario rooted queries and corresponding human verified references.To ensure references’ correctness, each knowledge-intensive query is accompanied with evidences collected from reliable webpages (including the url and quotation) by our annotators.For automatic evaluation, our benchmark employs a rule-calibrated multi-dimensional LLM-as-Judge (CITATION) with Chain-of-Thought to generate explanations and final ratings as evaluations, ensuring high reliability and interpretability.All evaluation codes and data are publicly available at https://github.com/THUDM/AlignBench
+UR  - https://aclanthology.org/2024.acl-long.624/
+DO  - 10.18653/v1/2024.acl-long.624
+ER  - 
+
+TY  - CONF
+TI  - CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation
+AU  - Tu, Quan
+AU  - Fan, Shilong
+AU  - Tian, Zihang
+AU  - Shen, Tianhao
+AU  - Shang, Shuo
+AU  - Gao, Xin
+AU  - Yan, Rui
+PY  - 2024
+AB  - Recently, the advent of large language models (LLMs) has revolutionized generative agents. Among them, Role-Playing Conversational Agents (RPCAs) attract considerable attention due to their ability to emotionally engage users. However, the absence of a comprehensive benchmark impedes progress in this field. To bridge this gap, we introduce CharacterEval, a Chinese benchmark for comprehensive RPCA assessment, complemented by a tailored high-quality dataset. The dataset comprises 1,785 multi-turn role-playing dialogues, encompassing 11,376 examples and featuring 77 characters derived from Chinese novels and scripts. It was carefully constructed, beginning with initial dialogue extraction via GPT-4, followed by rigorous human-led quality control, and enhanced with in-depth character profiles sourced from Baidu Baike. CharacterEval employs a multifaceted evaluation approach, encompassing thirteen targeted metrics on four dimensions. To facilitate the convenient evaluation for these subjective metrics in CharacterEval, we further developed CharacterRM, a role-playing reward model based on human annotations, which has a higher correlation with human judgment compared to GPT-4. Comprehensive experiments on CharacterEval demonstrate that Chinese LLMs exhibit more promising capabilities than GPT-4 in Chinese role-playing conversation.
+UR  - https://aclanthology.org/2024.acl-long.638/
+DO  - 10.18653/v1/2024.acl-long.638
+ER  - 
+
+TY  - CONF
+TI  - PairCFR: Enhancing Model Training on Paired Counterfactually Augmented Data through Contrastive Learning
+AU  - Qiu, Xiaoqi
+AU  - Wang, Yongjie
+AU  - Guo, Xu
+AU  - Zeng, Zhiwei
+AU  - Yue, Yu
+AU  - Feng, Yuhong
+AU  - Miao, Chunyan
+PY  - 2024
+AB  - Counterfactually Augmented Data (CAD) involves creating new data samples by applying minimal yet sufficient modifications to flip the label of existing data samples to other classes. Training with CAD enhances model robustness against spurious features that happen to correlate with labels by spreading the casual relationships across different classes. Yet, recent research reveals that training with CAD may lead models to overly focus on modified features while ignoring other important contextual information, inadvertently introducing biases that may impair performance on out-of-distribution (OOD) datasets. To mitigate this issue, we employ contrastive learning to promote global feature alignment in addition to learning counterfactual clues. We theoretically prove that contrastive loss can encourage models to leverage a broader range of features beyond those modified ones. Comprehensive experiments on two human-edited CAD datasets demonstrate that our proposed method outperforms the state-of-the-art on OOD datasets.
+UR  - https://aclanthology.org/2024.acl-long.646/
+DO  - 10.18653/v1/2024.acl-long.646
+ER  - 
+
+TY  - CONF
+TI  - GunStance: Stance Detection for Gun Control and Gun Regulation
+AU  - Gyawali, Nikesh
+AU  - Sirbu, Iustin
+AU  - Sosea, Tiberiu
+AU  - Khanal, Sarthak
+AU  - Caragea, Doina
+AU  - Rebedea, Traian
+AU  - Caragea, Cornelia
+PY  - 2024
+AB  - The debate surrounding gun control and gun regulation in the United States has intensified in the wake of numerous mass shooting events. As perspectives on this matter vary, it becomes increasingly important to comprehend individuals’ positions. Stance detection, the task of determining an author’s position towards a proposition or target, has gained attention for its potential use in understanding public perceptions towards controversial topics and identifying the best strategies to address public concerns. In this paper, we present GunStance, a dataset of tweets pertaining to shooting events, focusing specifically on the controversial topics of “banning guns” versus “regulating guns.” The tweets in the dataset are sourced from discussions on Twitter following various shooting incidents in the United States. Amazon Mechanical Turk was used to manually annotate a subset of the tweets relevant to the targets of interest (“banning guns” and “regulating guns”) into three classes: In-Favor, Against, and Neutral. The remaining unlabeled tweets are included in the dataset to facilitate studies on semi-supervised learning (SSL) approaches that can help address the scarcity of the labeled data in stance detection tasks. Furthermore, we propose a hybrid approach that combines curriculum-based SSL and Large Language Models (LLM), and show that the proposed approach outperforms supervised, semi-supervised, and LLM-based zero-shot models in most experiments on our assembled dataset.
+UR  - https://aclanthology.org/2024.acl-long.650/
+DO  - 10.18653/v1/2024.acl-long.650
+ER  - 
+
+TY  - CONF
+TI  - A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech
+AU  - Verma, Gaurav
+AU  - Grover, Rynaa
+AU  - Zhou, Jiawei
+AU  - Mathew, Binny
+AU  - Kraemer, Jordan
+AU  - Choudhury, Munmun
+AU  - Kumar, Srijan
+PY  - 2024
+AB  - Violence-provoking speech – speech that implicitly or explicitly promotes violence against the members of the targeted community, contributed to a massive surge in anti-Asian crimes during the COVID-19 pandemic. While previous works have characterized and built tools for detecting other forms of harmful speech, like fear speech and hate speech, our work takes a community-centric approach to studying anti-Asian violence-provoking speech. Using data from ~420k Twitter posts spanning a 3-year duration (January 1, 2020 to February 1, 2023), we develop a codebook to characterize anti-Asian violence-provoking speech and collect a community-crowdsourced dataset to facilitate its large-scale detection using state-of-the-art classifiers. We contrast the capabilities of natural language processing classifiers, ranging from BERT-based to LLM-based classifiers, in detecting violence-provoking speech with their capabilities to detect anti-Asian hateful speech. In contrast to prior work that has demonstrated the effectiveness of such classifiers in detecting hateful speech (F1 = 0.89), our work shows that accurate and reliable detection of violence-provoking speech is a challenging task (F1 = 0.69). We discuss the implications of our findings, particularly the need for proactive interventions to support Asian communities during public health crises.
+UR  - https://aclanthology.org/2024.acl-long.684/
+DO  - 10.18653/v1/2024.acl-long.684
+ER  - 
+
+TY  - CONF
+TI  - Beyond Orthography: Automatic Recovery of Short Vowels and Dialectal Sounds in Arabic
+AU  - El Kheir, Yassine
+AU  - Mubarak, Hamdy
+AU  - Ali, Ahmed
+AU  - Chowdhury, Shammur
+PY  - 2024
+AB  - This paper presents a novel Dialectal Sound and Vowelization Recovery framework, designed to recognize borrowed and dialectal sounds within phonologically diverse and dialect-rich languages, that extends beyond its standard orthographic sound sets. The proposed framework utilized quantized sequence of input with(out) continuous pretrained self-supervised representation. We show the efficacy of the pipeline using limited data for Arabic, a dialect-rich language containing more than 22 major dialects. Phonetically correct transcribed speech resources for dialectal Arabic is scare. Therefore, we introduce ArabVoice15, a first of its kind, curated test set featuring 5 hours of dialectal speech across 15 Arab countries, with phonetically accurate transcriptions, including borrowed and dialect-specific sounds. We described in detail the annotation guideline along with the analysis of the dialectal confusion pairs. Our extensive evaluation includes both subjective – human perception tests and objective measures. Our empirical results, reported with three test sets, show that with only one and half hours of training data, our model improve character error rate by ≈7% in ArabVoice15 compared to the baseline.
+UR  - https://aclanthology.org/2024.acl-long.711/
+DO  - 10.18653/v1/2024.acl-long.711
+ER  - 
+
+TY  - CONF
+TI  - Multi-modal Preference Alignment Remedies Degradation of Visual Instruction Tuning on Language Models
+AU  - Li, Shengzhi
+AU  - Lin, Rongyu
+AU  - Pei, Shichao
+PY  - 2024
+AB  - Multi-modal large language models (MLLMs) are expected to support multi-turn queries of interchanging image and text modalities in production. However, the current MLLMs trained with visual-question-answering (VQA) datasets could suffer from degradation, as VQA datasets lack the diversity and complexity of the original text instruction datasets with which the underlying language model was trained. To address this degradation, we first collect a lightweight, 5k-sample VQA preference dataset where answers were annotated by Gemini for five quality metrics in a granular fashion and investigate standard Supervised Fine-tuning, rejection sampling, Direct Preference Optimization (DPO) and SteerLM algorithms. Our findings indicate that with DPO, we can surpass the instruction-following capabilities of the language model, achieving a 6.73 score on MT-Bench, compared to Vicuna’s 6.57 and LLaVA’s 5.99. This enhancement in textual instruction-following capability correlates with boosted visual instruction performance (+4.9% on MM-Vet, +6% on LLaVA-Bench), with minimal alignment tax on visual knowledge benchmarks compared to the previous RLHF approach. In conclusion, we propose a distillation-based multi-modal alignment model with fine-grained annotations on a small dataset that restores and boosts MLLM’s language capability after visual instruction tuning.
+UR  - https://aclanthology.org/2024.acl-long.765/
+DO  - 10.18653/v1/2024.acl-long.765
+ER  - 
+
+TY  - CONF
+TI  - LogogramNLP: Comparing Visual and Textual Representations of Ancient Logographic Writing Systems for NLP
+AU  - Chen, Danlu
+AU  - Shi, Freda
+AU  - Agarwal, Aditi
+AU  - Myerston, Jacobo
+AU  - Berg-Kirkpatrick, Taylor
+PY  - 2024
+AB  - Standard natural language processing (NLP) pipelines operate on symbolic representations of language, which typically consist of sequences of discrete tokens. However, creating an analogous representation for ancient logographic writing systems is an extremely labor-intensive process that requires expert knowledge. At present, a large portion of logographic data persists in a purely visual form due to the absence of transcription—this issue poses a bottleneck for researchers seeking to apply NLP toolkits to study ancient logographic languages: most of the relevant data are images of writing. This paper investigates whether direct processing of visual representations of language offers a potential solution. We introduce LogogramNLP, the first benchmark enabling NLP analysis of ancient logographic languages, featuring both transcribed and visual datasetsfor four writing systems along with annotations for tasks like classification, translation, and parsing. Our experiments compare systems thatemploy recent visual and text encoding strategies as backbones. The results demonstrate that visual representations outperform textual representations for some investigated tasks, suggesting that visual processing pipelines may unlock a large amount of cultural heritage data of logographic languages for NLP-based analyses. Data and code are available at https: //logogramNLP.github.io/.
+UR  - https://aclanthology.org/2024.acl-long.768/
+DO  - 10.18653/v1/2024.acl-long.768
+ER  - 
+
+TY  - CONF
+TI  - DeVAn: Dense Video Annotation for Video-Language Models
+AU  - Liu, Tingkai
+AU  - Tao, Yunzhe
+AU  - Liu, Haogeng
+AU  - Fang, Qihang
+AU  - Zhou, Ding
+AU  - Huang, Huaibo
+AU  - He, Ran
+AU  - Yang, Hongxia
+PY  - 2024
+AB  - We present a novel human annotated dataset for evaluating the ability for visual-language models to generate both short and long descriptions for real-world video clips, termed DeVAn (Dense Video Annotation). The dataset contains 8.5K YouTube video clips of 20-60 seconds in duration and covers a wide range of topics and interests. Each video clip is independently annotated by 5 human annotators, producing both captions (1 sentence) and summaries (3-10 sentences). Given any video selected from the dataset and its corresponding ASR information, we evaluate visual-language models on either caption or summary generation that is grounded in both the visual and auditory content of the video. Additionally, models are also evaluated on caption- and summary-based retrieval tasks, where the summary-based retrieval task requires the identification of a target video given excerpts of a given summary. Given the novel nature of the paragraph-length video summarization task, we compared different existing evaluation metrics and their alignment with human preferences and found that model-based evaluation metrics provide more semantically-oriented and human-aligned evaluation. Finally, we benchmarked a wide range of current video-language models on DeVAn, and we aim for DeVAn to serve as a useful evaluation set in the age of large language models and complex multi-modal tasks. Code is available at https://github.com/TK-21st/DeVAn.
+UR  - https://aclanthology.org/2024.acl-long.772/
+DO  - 10.18653/v1/2024.acl-long.772
+ER  - 
+
+TY  - CONF
+TI  - AI `News' Content Farms Are Easy to Make and Hard to Detect: A Case Study in Italian
+AU  - Puccetti, Giovanni
+AU  - Rogers, Anna
+AU  - Alzetta, Chiara
+AU  - Dell{'}Orletta, Felice
+AU  - Esuli, Andrea
+PY  - 2024
+AB  - Large Language Models (LLMs) are increasingly used as ‘content farm’ models (CFMs), to generate synthetic text that could pass for real news articles. This is already happening even for languages that do not have high-quality monolingual LLMs. We show that fine-tuning Llama (v1), mostly trained on English, on as little as 40K Italian news articles, is sufficient for producing news-like texts that native speakers of Italian struggle to identify as synthetic.We investigate three LLMs and three methods of detecting synthetic texts (log-likelihood, DetectGPT, and supervised classification), finding that they all perform better than human raters, but they are all impractical in the real world (requiring either access to token likelihood information or a large dataset of CFM texts). We also explore the possibility of creating a proxy CFM: an LLM fine-tuned on a similar dataset to one used by the real ‘content farm’. We find that even a small amount of fine-tuning data suffices for creating a successful detector, but we need to know which base LLM is used, which is a major challenge.Our results suggest that there are currently no practical methods for detecting synthetic news-like texts ‘in the wild’, while generating them is too easy. We highlight the urgency of more NLP research on this problem.
+UR  - https://aclanthology.org/2024.acl-long.817/
+DO  - 10.18653/v1/2024.acl-long.817
+ER  - 
+
+TY  - CONF
+TI  - Causal Estimation of Memorisation Profiles
+AU  - Lesci, Pietro
+AU  - Meister, Clara
+AU  - Hofmann, Thomas
+AU  - Vlachos, Andreas
+AU  - Pimentel, Tiago
+PY  - 2024
+AB  - Understanding memorisation in language models has practical and societal implications, e.g., studying models’ training dynamics or preventing copyright infringements.Prior work defines memorisation as the causal effect of training with an instance on the model’s ability to predict that instance. This definition relies on a counterfactual: the ability to observe what would have happened had the model not seen that instance.Existing methods struggle to provide computationally efficient and accurate estimates of this counterfactual. Further, they often estimate memorisation for a model architecture rather than for a specific model instance. This paper fills an important gap in the literature, proposing a new, principled, and efficient method to estimate memorisation based on the difference-in-differences design from econometrics. Using this method, we characterise a model’s memorisation profile–its memorisation trends across training–by only observing its behaviour on a small set of instances throughout training.In experiments with the Pythia model suite, we find that memorisation (i) is stronger and more persistent in larger models, (ii) is determined by data order and learning rate, and (iii) has stable trends across model sizes, thus making memorisation in larger models predictable from smaller ones.
+UR  - https://aclanthology.org/2024.acl-long.834/
+DO  - 10.18653/v1/2024.acl-long.834
+ER  - 
+
+TY  - CONF
+TI  - MultiPICo: Multilingual Perspectivist Irony Corpus
+AU  - Casola, Silvia
+AU  - Frenda, Simona
+AU  - Lo, Soda Marem
+AU  - Sezerer, Erhan
+AU  - Uva, Antonio
+AU  - Basile, Valerio
+AU  - Bosco, Cristina
+AU  - Pedrani, Alessandro
+AU  - Rubagotti, Chiara
+AU  - Patti, Viviana
+AU  - Bernardi, Davide
+PY  - 2024
+AB  - Recently, several scholars have contributed to the growth of a new theoretical framework in NLP called perspectivism. This approach aimsto leverage data annotated by different individuals to model diverse perspectives that affect their opinions on subjective phenomena such as irony. In this context, we propose MultiPICo, a multilingual perspectivist corpus of ironic short conversations in different languages andlinguistic varieties extracted from Twitter and Reddit. The corpus includes sociodemographic information about its annotators. Our analysis of the annotated corpus shows how different demographic cohorts may significantly disagree on their annotation of irony and how certain cultural factors influence the perception of the phenomenon and the agreement on the annotation. Moreover, we show how disaggregated annotations and rich annotator metadata can be exploited to benchmark the ability of large language models to recognize irony, their positionality with respect to sociodemographic groups, and the efficacy of perspective-taking prompting for irony detection in multiple languages.
+UR  - https://aclanthology.org/2024.acl-long.849/
+DO  - 10.18653/v1/2024.acl-long.849
+ER  - 
+

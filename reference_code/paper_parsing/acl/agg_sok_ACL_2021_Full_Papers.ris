@@ -1,0 +1,671 @@
+TY  - CONF
+TI  - Investigating label suggestions for opinion mining in German Covid-19 social media
+AB  - This work investigates the use of interactively updated label suggestions to improve upon the efficiency of gathering annotations on the task of opinion mining in German Covid-19 social media data. We develop guidelines to conduct a controlled annotation study with social science students and find that suggestions from a model trained on a small, expert-annotated dataset already lead to a substantial improvement – in terms of inter-annotator agreement (+.14 Fleiss’ κ) and annotation quality – compared to students that do not receive any label suggestions. We further find that label suggestions from interactively trained models do not lead to an improvement over suggestions from a static model. Nonetheless, our analysis of suggestion bias shows that annotators remain capable of reflecting upon the suggested label in general. Finally, we confirm the quality of the annotated data in transfer learning experiments between different annotator groups. To facilitate further research in opinion mining on social media data, we release our collected data consisting of 200 expert and 2,785 student annotations.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.1/
+DO  - 10.18653/v1/2021.acl-long.1
+AU  - Beck, Tilman
+AU  - Lee, Ji-Ung
+AU  - Viehmann, Christina
+AU  - Maurer, Marcus
+AU  - Quiring, Oliver
+AU  - Gurevych, Iryna
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - HateCheck: Functional Tests for Hate Speech Detection Models
+AB  - Detecting online hate is a difficult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accuracy and F1 score. However, this approach makes it difficult to identify specific model weak points. It also risks overestimating generalisable model performance due to increasingly well-evidenced systematic gaps and biases in hate speech datasets. To enable more targeted diagnostic insights, we introduce HateCheck, a suite of functional tests for hate speech detection models. We specify 29 model functionalities motivated by a review of previous research and a series of interviews with civil society stakeholders. We craft test cases for each functionality and validate their quality through a structured annotation process. To illustrate HateCheck’s utility, we test near-state-of-the-art transformer models as well as two popular commercial models, revealing critical model weaknesses.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.4/
+DO  - 10.18653/v1/2021.acl-long.4
+AU  - R{\"o}ttger, Paul
+AU  - Vidgen, Bertie
+AU  - Nguyen, Dong
+AU  - Waseem, Zeerak
+AU  - Margetts, Helen
+AU  - Pierrehumbert, Janet
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - A Bidirectional Transformer Based Alignment Model for Unsupervised Word Alignment
+AB  - Word alignment and machine translation are two closely related tasks. Neural translation models, such as RNN-based and Transformer models, employ a target-to-source attention mechanism which can provide rough word alignments, but with a rather low accuracy. High-quality word alignment can help neural machine translation in many different ways, such as missing word detection, annotation transfer and lexicon injection. Existing methods for learning word alignment include statistical word aligners (e.g. GIZA++) and recently neural word alignment models. This paper presents a bidirectional Transformer based alignment (BTBA) model for unsupervised learning of the word alignment task. Our BTBA model predicts the current target word by attending the source context and both left-side and right-side target context to produce accurate target-to-source attention (alignment). We further fine-tune the target-to-source attention in the BTBA model to obtain better alignments using a full context based optimization method and self-supervised training. We test our method on three word alignment tasks and show that our method outperforms both previous neural word alignment approaches and the popular statistical word aligner GIZA++.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.24/
+DO  - 10.18653/v1/2021.acl-long.24
+AU  - Zhang, Jingyi
+AU  - van Genabith, Josef
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Exploring the Efficacy of Automatically Generated Counterfactuals for Sentiment Analysis
+AB  - While state-of-the-art NLP models have been achieving the excellent performance of a wide range of tasks in recent years, important questions are being raised about their robustness and their underlying sensitivity to systematic biases that may exist in their training and test data. Such issues come to be manifest in performance problems when faced with out-of-distribution data in the field. One recent solution has been to use counterfactually augmented datasets in order to reduce any reliance on spurious patterns that may exist in the original data. Producing high-quality augmented data can be costly and time-consuming as it usually needs to involve human feedback and crowdsourcing efforts. In this work, we propose an alternative by describing and evaluating an approach to automatically generating counterfactual data for the purpose of data augmentation and explanation. A comprehensive evaluation on several different datasets and using a variety of state-of-the-art benchmarks demonstrate how our approach can achieve significant improvements in model performance when compared to models training on the original data and even when compared to models trained with the benefit of human-generated augmented data.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.26/
+DO  - 10.18653/v1/2021.acl-long.26
+AU  - Yang, Linyi
+AU  - Li, Jiazheng
+AU  - Cunningham, Padraig
+AU  - Zhang, Yue
+AU  - Smyth, Barry
+AU  - Dong, Ruihai
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - E2E-VLP: End-to-End Vision-Language Pre-training Enhanced by Visual Learning
+AB  - Vision-language pre-training (VLP) on large-scale image-text pairs has achieved huge success for the cross-modal downstream tasks. The most existing pre-training methods mainly adopt a two-step training procedure, which firstly employs a pre-trained object detector to extract region-based visual features, then concatenates the image representation and text embedding as the input of Transformer to train. However, these methods face problems of using task-specific visual representation of the specific object detector for generic cross-modal understanding, and the computation inefficiency of two-stage pipeline. In this paper, we propose the first end-to-end vision-language pre-trained model for both V+L understanding and generation, namely E2E-VLP, where we build a unified Transformer framework to jointly learn visual representation, and semantic alignments between image and text. We incorporate the tasks of object detection and image captioning into pre-training with a unified Transformer encoder-decoder architecture for enhancing visual learning. An extensive set of experiments have been conducted on well-established vision-language downstream tasks to demonstrate the effectiveness of this novel VLP paradigm.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.42/
+DO  - 10.18653/v1/2021.acl-long.42
+AU  - Xu, Haiyang
+AU  - Yan, Ming
+AU  - Li, Chenliang
+AU  - Bi, Bin
+AU  - Huang, Songfang
+AU  - Xiao, Wenming
+AU  - Huang, Fei
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Breaking Down the Invisible Wall of Informal Fallacies in Online Discussions
+AB  - People debate on a variety of topics on online platforms such as Reddit, or Facebook. Debates can be lengthy, with users exchanging a wealth of information and opinions. However, conversations do not always go smoothly, and users sometimes engage in unsound argumentation techniques to prove a claim. These techniques are called fallacies. Fallacies are persuasive arguments that provide insufficient or incorrect evidence to support the claim. In this paper, we study the most frequent fallacies on Reddit, and we present them using the pragma-dialectical theory of argumentation. We construct a new annotated dataset of fallacies, using user comments containing fallacy mentions as noisy labels, and cleaning the data via crowdsourcing. Finally, we study the task of classifying fallacies using neural models. We find that generally the models perform better in the presence of conversational context. We have released the data and the code at github.com/sahaisaumya/informal_fallacies.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.53/
+DO  - 10.18653/v1/2021.acl-long.53
+AU  - Sahai, Saumya
+AU  - Balalau, Oana
+AU  - Horincar, Roxana
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Increasing Faithfulness in Knowledge-Grounded Dialogue with Controllable Features
+AB  - Knowledge-grounded dialogue systems are intended to convey information that is based on evidence provided in a given source text. We discuss the challenges of training a generative neural dialogue model for such systems that is controlled to stay faithful to the evidence. Existing datasets contain a mix of conversational responses that are faithful to selected evidence as well as more subjective or chit-chat style responses. We propose different evaluation measures to disentangle these different styles of responses by quantifying the informativeness and objectivity. At training time, additional inputs based on these evaluation measures are given to the dialogue model. At generation time, these additional inputs act as stylistic controls that encourage the model to generate responses that are faithful to the provided evidence. We also investigate the usage of additional controls at decoding time using resampling techniques. In addition to automatic metrics, we perform a human evaluation study where raters judge the output of these controlled generation models to be generally more objective and faithful to the evidence compared to baseline dialogue systems.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.58/
+DO  - 10.18653/v1/2021.acl-long.58
+AU  - Rashkin, Hannah
+AU  - Reitter, David
+AU  - Tomar, Gaurav Singh
+AU  - Das, Dipanjan
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Learning Faithful Representations of Causal Graphs
+AB  - Learning contextual text embeddings that represent causal graphs has been useful in improving the performance of downstream tasks like causal treatment effect estimation. However, existing causal embeddings which are trained to predict direct causal links, fail to capture other indirect causal links of the graph, thus leading to spurious correlations in downstream tasks. In this paper, we define the faithfulness property of contextual embeddings to capture geometric distance-based properties of directed acyclic causal graphs. By incorporating these faithfulness properties, we learn text embeddings that are 31.3% more faithful to human validated causal graphs with about 800K and 200K causal links and achieve 21.1% better Precision-Recall AUC in a link prediction fine-tuning task. Further, in a crowdsourced causal question-answering task on Yahoo! Answers with questions of the form “What causes X?”, our faithful embeddings achieved a precision of the first ranked answer (P@1) of 41.07%, outperforming the existing baseline by 10.2%.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.69/
+DO  - 10.18653/v1/2021.acl-long.69
+AU  - Balashankar, Ananth
+AU  - Subramanian, Lakshminarayanan
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - What Ingredients Make for an Effective Crowdsourcing Protocol for Difficult NLU Data Collection Tasks?
+AB  - Crowdsourcing is widely used to create data for common natural language understanding tasks. Despite the importance of these datasets for measuring and refining model understanding of language, there has been little focus on the crowdsourcing methods used for collecting the datasets. In this paper, we compare the efficacy of interventions that have been proposed in prior work as ways of improving data quality. We use multiple-choice question answering as a testbed and run a randomized trial by assigning crowdworkers to write questions under one of four different data collection protocols. We find that asking workers to write explanations for their examples is an ineffective stand-alone strategy for boosting NLU example difficulty. However, we find that training crowdworkers, and then using an iterative process of collecting data, sending feedback, and qualifying workers based on expert judgments is an effective means of collecting challenging data. But using crowdsourced, instead of expert judgments, to qualify workers and send feedback does not prove to be effective. We observe that the data from the iterative protocol with expert assessments is more challenging by several measures. Notably, the human–model gap on the unanimous agreement portion of this data is, on average, twice as large as the gap for the baseline protocol data.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.98/
+DO  - 10.18653/v1/2021.acl-long.98
+AU  - Nangia, Nikita
+AU  - Sugawara, Saku
+AU  - Trivedi, Harsh
+AU  - Warstadt, Alex
+AU  - Vania, Clara
+AU  - Bowman, Samuel R.
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Factuality Assessment as Modal Dependency Parsing
+AB  - As the sources of information that we consume everyday rapidly diversify, it is becoming increasingly important to develop NLP tools that help to evaluate the credibility of the information we receive. A critical step towards this goal is to determine the factuality of events in text. In this paper, we frame factuality assessment as a modal dependency parsing task that identifies the events and their sources, formally known as conceivers, and then determine the level of certainty that the sources are asserting with respect to the events. We crowdsource the first large-scale data set annotated with modal dependency structures that consists of 353 Covid-19 related news articles, 24,016 events, and 2,938 conceivers. We also develop the first modal dependency parser that jointly extracts events, conceivers and constructs the modal dependency structure of a text. We evaluate the joint model against a pipeline model and demonstrate the advantage of the joint model in conceiver extraction and modal dependency structure construction when events and conceivers are automatically extracted. We believe the dataset and the models will be a valuable resource for a whole host of NLP applications such as fact checking and rumor detection.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.122/
+DO  - 10.18653/v1/2021.acl-long.122
+AU  - Yao, Jiarui
+AU  - Qiu, Haoling
+AU  - Zhao, Jin
+AU  - Min, Bonan
+AU  - Xue, Nianwen
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Topic-Aware Evidence Reasoning and Stance-Aware Aggregation for Fact Verification
+AB  - Fact verification is a challenging task that requires simultaneously reasoning and aggregating over multiple retrieved pieces of evidence to evaluate the truthfulness of a claim. Existing approaches typically (i) explore the semantic interaction between the claim and evidence at different granularity levels but fail to capture their topical consistency during the reasoning process, which we believe is crucial for verification; (ii) aggregate multiple pieces of evidence equally without considering their implicit stances to the claim, thereby introducing spurious information. To alleviate the above issues, we propose a novel topic-aware evidence reasoning and stance-aware aggregation model for more accurate fact verification, with the following four key properties: 1) checking topical consistency between the claim and evidence; 2) maintaining topical coherence among multiple pieces of evidence; 3) ensuring semantic similarity between the global topic information and the semantic representation of evidence; 4) aggregating evidence based on their implicit stances to the claim. Extensive experiments conducted on the two benchmark datasets demonstrate the superiority of the proposed model over several state-of-the-art approaches for fact verification. The source code can be obtained from https://github.com/jasenchn/TARSA.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.128/
+DO  - 10.18653/v1/2021.acl-long.128
+AU  - Si, Jiasheng
+AU  - Zhou, Deyu
+AU  - Li, Tongzhe
+AU  - Shi, Xingyu
+AU  - He, Yulan
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Measuring Conversational Uptake: A Case Study on Student-Teacher Interactions
+AB  - In conversation, uptake happens when a speaker builds on the contribution of their interlocutor by, for example, acknowledging, repeating or reformulating what they have said. In education, teachers’ uptake of student contributions has been linked to higher student achievement. Yet measuring and improving teachers’ uptake at scale is challenging, as existing methods require expensive annotation by experts. We propose a framework for computationally measuring uptake, by (1) releasing a dataset of student-teacher exchanges extracted from US math classroom transcripts annotated for uptake by experts; (2) formalizing uptake as pointwise Jensen-Shannon Divergence (pJSD), estimated via next utterance classification; (3) conducting a linguistically-motivated comparison of different unsupervised measures and (4) correlating these measures with educational outcomes. We find that although repetition captures a significant part of uptake, pJSD outperforms repetition-based baselines, as it is capable of identifying a wider range of uptake phenomena like question answering and reformulation. We apply our uptake measure to three different educational datasets with outcome indicators. Unlike baseline measures, pJSD correlates significantly with instruction quality in all three, providing evidence for its generalizability and for its potential to serve as an automated professional development tool for teachers.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.130/
+DO  - 10.18653/v1/2021.acl-long.130
+AU  - Demszky, Dorottya
+AU  - Liu, Jing
+AU  - Mancenido, Zid
+AU  - Cohen, Julie
+AU  - Hill, Heather
+AU  - Jurafsky, Dan
+AU  - Hashimoto, Tatsunori
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - PIGLeT: Language Grounding Through Neuro-Symbolic Interaction in a 3D World
+AB  - We propose PIGLeT: a model that learns physical commonsense knowledge through interaction, and then uses this knowledge to ground language. We factorize PIGLeT into a physical dynamics model, and a separate language model. Our dynamics model learns not just what objects are but also what they do: glass cups break when thrown, plastic ones don’t. We then use it as the interface to our language model, giving us a unified model of linguistic form and grounded meaning. PIGLeT can read a sentence, simulate neurally what might happen next, and then communicate that result through a literal symbolic representation, or natural language. Experimental results show that our model effectively learns world dynamics, along with how to communicate them. It is able to correctly forecast what happens next given an English sentence over 80% of the time, outperforming a 100x larger, text-to-text approach by over 10%. Likewise, its natural language summaries of physical interactions are also judged by humans as more accurate than LM alternatives. We present comprehensive analysis showing room for future work.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.159/
+DO  - 10.18653/v1/2021.acl-long.159
+AU  - Zellers, Rowan
+AU  - Holtzman, Ari
+AU  - Peters, Matthew
+AU  - Mottaghi, Roozbeh
+AU  - Kembhavi, Aniruddha
+AU  - Farhadi, Ali
+AU  - Choi, Yejin
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Mitigating Bias in Session-based Cyberbullying Detection: A Non-Compromising Approach
+AB  - The element of repetition in cyberbullying behavior has directed recent computational studies toward detecting cyberbullying based on a social media session. In contrast to a single text, a session may consist of an initial post and an associated sequence of comments. Yet, emerging efforts to enhance the performance of session-based cyberbullying detection have largely overlooked unintended social biases in existing cyberbullying datasets. For example, a session containing certain demographic-identity terms (e.g., “gay” or “black”) is more likely to be classified as an instance of cyberbullying. In this paper, we first show evidence of such bias in models trained on sessions collected from different social media platforms (e.g., Instagram). We then propose a context-aware and model-agnostic debiasing strategy that leverages a reinforcement learning technique, without requiring any extra resources or annotations apart from a pre-defined set of sensitive triggers commonly used for identifying cyberbullying instances. Empirical evaluations show that the proposed strategy can simultaneously alleviate the impacts of the unintended biases and improve the detection performance.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.168/
+DO  - 10.18653/v1/2021.acl-long.168
+AU  - Cheng, Lu
+AU  - Mosallanezhad, Ahmadreza
+AU  - Silva, Yasin
+AU  - Hall, Deborah
+AU  - Liu, Huan
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Changing the World by Changing the Data
+AB  - NLP community is currently investing a lot more research and resources into development of deep learning models than training data. While we have made a lot of progress, it is now clear that our models learn all kinds of spurious patterns, social biases, and annotation artifacts. Algorithmic solutions have so far had limited success. An alternative that is being actively discussed is more careful design of datasets so as to deliver specific signals. This position paper maps out the arguments for and against data curation, and argues that fundamentally the point is moot: curation already is and will be happening, and it is changing the world. The question is only how much thought we want to invest into that process.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.170/
+DO  - 10.18653/v1/2021.acl-long.170
+AU  - Rogers, Anna
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Better than Average: Paired Evaluation of NLP systems
+AB  - Evaluation in NLP is usually done by comparing the scores of competing systems independently averaged over a common set of test instances. In this work, we question the use of averages for aggregating evaluation scores into a final number used to decide which system is best, since the average, as well as alternatives such as the median, ignores the pairing arising from the fact that systems are evaluated on the same test instances. We illustrate the importance of taking the instancelevel pairing of evaluation scores into account and demonstrate, both theoretically and empirically, the advantages of aggregation methods based on pairwise comparisons, such as the Bradley–Terry (BT) model, a mechanism based on the estimated probability that a given system scores better than another on the test set. By re-evaluating 296 real NLP evaluation setups across four tasks and 18 evaluation metrics, we show that the choice of aggregation mechanism matters and yields different conclusions as to which systems are state of the art in about 30% of the setups. To facilitate the adoption of pairwise evaluation, we release a practical tool for performing the full analysis of evaluation scores with the mean, median, BT, and two variants of BT (Elo and TrueSkill), alongside functionality for appropriate statistical testing.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.179/
+DO  - 10.18653/v1/2021.acl-long.179
+AU  - Peyrard, Maxime
+AU  - Zhao, Wei
+AU  - Eger, Steffen
+AU  - West, Robert
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - DynaSent: A Dynamic Benchmark for Sentiment Analysis
+AB  - We introduce DynaSent (‘Dynamic Sentiment’), a new English-language benchmark task for ternary (positive/negative/neutral) sentiment analysis. DynaSent combines naturally occurring sentences with sentences created using the open-source Dynabench Platform, which facilities human-and-model-in-the-loop dataset creation. DynaSent has a total of 121,634 sentences, each validated by five crowdworkers, and its development and test splits are designed to produce chance performance for even the best models we have been able to develop; when future models solve this task, we will use them to create DynaSent version 2, continuing the dynamic evolution of this benchmark. Here, we report on the dataset creation effort, focusing on the steps we took to increase quality and reduce artifacts. We also present evidence that DynaSent’s Neutral category is more coherent than the comparable category in other benchmarks, and we motivate training models from scratch for each round over successive fine-tuning.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.186/
+DO  - 10.18653/v1/2021.acl-long.186
+AU  - Potts, Christopher
+AU  - Wu, Zhengxuan
+AU  - Geiger, Atticus
+AU  - Kiela, Douwe
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - PROTAUGMENT: Unsupervised diverse short-texts paraphrasing for intent detection meta-learning
+AB  - Recent research considers few-shot intent detection as a meta-learning problem: the model is learning to learn from a consecutive set of small tasks named episodes. In this work, we propose ProtAugment, a meta-learning algorithm for short texts classification (the intent detection task). ProtAugment is a novel extension of Prototypical Networks, that limits overfitting on the bias introduced by the few-shots classification objective at each episode. It relies on diverse paraphrasing: a conditional language model is first fine-tuned for paraphrasing, and diversity is later introduced at the decoding stage at each meta-learning episode. The diverse paraphrasing is unsupervised as it is applied to unlabelled data, and then fueled to the Prototypical Network training objective as a consistency loss. ProtAugment is the state-of-the-art method for intent detection meta-learning, at no extra labeling efforts and without the need to fine-tune a conditional language model on a given application domain.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.191/
+DO  - 10.18653/v1/2021.acl-long.191
+AU  - Dopierre, Thomas
+AU  - Gravier, Christophe
+AU  - Logerais, Wilfried
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - LayoutLMv2: Multi-modal Pre-training for Visually-rich Document Understanding
+AB  - Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. We propose LayoutLMv2 architecture with new pre-training tasks to model the interaction among text, layout, and image in a single multi-modal framework. Specifically, with a two-stream multi-modal Transformer encoder, LayoutLMv2 uses not only the existing masked visual-language modeling task but also the new text-image alignment and text-image matching tasks, which make it better capture the cross-modality interaction in the pre-training stage. Meanwhile, it also integrates a spatial-aware self-attention mechanism into the Transformer architecture so that the model can fully understand the relative positional relationship among different text blocks. Experiment results show that LayoutLMv2 outperforms LayoutLM by a large margin and achieves new state-of-the-art results on a wide variety of downstream visually-rich document understanding tasks, including FUNSD (0.7895 to 0.8420), CORD (0.9493 to 0.9601), SROIE (0.9524 to 0.9781), Kleister-NDA (0.8340 to 0.8520), RVL-CDIP (0.9443 to 0.9564), and DocVQA (0.7295 to 0.8672).
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.201/
+DO  - 10.18653/v1/2021.acl-long.201
+AU  - Xu, Yang
+AU  - Xu, Yiheng
+AU  - Lv, Tengchao
+AU  - Cui, Lei
+AU  - Wei, Furu
+AU  - Wang, Guoxin
+AU  - Lu, Yijuan
+AU  - Florencio, Dinei
+AU  - Zhang, Cha
+AU  - Che, Wanxiang
+AU  - Zhang, Min
+AU  - Zhou, Lidong
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Ruddit: Norms of Offensiveness for English Reddit Comments
+AB  - On social media platforms, hateful and offensive language negatively impact the mental well-being of users and the participation of people from diverse backgrounds. Automatic methods to detect offensive language have largely relied on datasets with categorical labels. However, comments can vary in their degree of offensiveness. We create the first dataset of English language Reddit comments that has fine-grained, real-valued scores between -1 (maximally supportive) and 1 (maximally offensive). The dataset was annotated using Best–Worst Scaling, a form of comparative annotation that has been shown to alleviate known biases of using rating scales. We show that the method produces highly reliable offensiveness scores. Finally, we evaluate the ability of widely-used neural models to predict offensiveness scores on this new dataset.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.210/
+DO  - 10.18653/v1/2021.acl-long.210
+AU  - Hada, Rishav
+AU  - Sudhir, Sohi
+AU  - Mishra, Pushkar
+AU  - Yannakoudakis, Helen
+AU  - Mohammad, Saif M.
+AU  - Shutova, Ekaterina
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Assessing the Representations of Idiomaticity in Vector Models with a Noun Compound Dataset Labeled at Type and Token Levels
+AB  - Accurate assessment of the ability of embedding models to capture idiomaticity may require evaluation at token rather than type level, to account for degrees of idiomaticity and possible ambiguity between literal and idiomatic usages. However, most existing resources with annotation of idiomaticity include ratings only at type level. This paper presents the Noun Compound Type and Token Idiomaticity (NCTTI) dataset, with human annotations for 280 noun compounds in English and 180 in Portuguese at both type and token level. We compiled 8,725 and 5,091 token level annotations for English and Portuguese, respectively, which are strongly correlated with the corresponding scores obtained at type level. The NCTTI dataset is used to explore how vector space models reflect the variability of idiomaticity across sentences. Several experiments using state-of-the-art contextualised models suggest that their representations are not capturing the noun compounds idiomaticity as human annotators. This new multilingual resource also contains suggestions for paraphrases of the noun compounds both at type and token levels, with uses for lexical substitution or disambiguation in context.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.212/
+DO  - 10.18653/v1/2021.acl-long.212
+AU  - Garcia, Marcos
+AU  - Kramer Vieira, Tiago
+AU  - Scarton, Carolina
+AU  - Idiart, Marco
+AU  - Villavicencio, Aline
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Online Learning Meets Machine Translation Evaluation: Finding the Best Systems with the Least Human Effort
+AB  - In Machine Translation, assessing the quality of a large amount of automatic translations can be challenging. Automatic metrics are not reliable when it comes to high performing systems. In addition, resorting to human evaluators can be expensive, especially when evaluating multiple systems. To overcome the latter challenge, we propose a novel application of online learning that, given an ensemble of Machine Translation systems, dynamically converges to the best systems, by taking advantage of the human feedback available. Our experiments on WMT’19 datasets show that our online approach quickly converges to the top-3 ranked systems for the language pairs considered, despite the lack of human feedback for many translations.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.242/
+DO  - 10.18653/v1/2021.acl-long.242
+AU  - Mendon{\c{c}}a, V{\^a}nia
+AU  - Rei, Ricardo
+AU  - Coheur, Luisa
+AU  - Sardinha, Alberto
+AU  - Santos, Ana L{\'u}cia
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Annotating Online Misogyny
+AB  - Online misogyny, a category of online abusive language, has serious and harmful social consequences. Automatic detection of misogynistic language online, while imperative, poses complicated challenges to both data gathering, data annotation, and bias mitigation, as this type of data is linguistically complex and diverse. This paper makes three contributions in this area: Firstly, we describe the detailed design of our iterative annotation process and codebook. Secondly, we present a comprehensive taxonomy of labels for annotating misogyny in natural written language, and finally, we introduce a high-quality dataset of annotated posts sampled from social media posts.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.247/
+DO  - 10.18653/v1/2021.acl-long.247
+AU  - Zeinert, Philine
+AU  - Inie, Nanna
+AU  - Derczynski, Leon
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Improving Pretrained Cross-Lingual Language Models via Self-Labeled Word Alignment
+AB  - The cross-lingual language models are typically pretrained with masked language modeling on multilingual text or parallel sentences. In this paper, we introduce denoising word alignment as a new cross-lingual pre-training task. Specifically, the model first self-label word alignments for parallel sentences. Then we randomly mask tokens in a bitext pair. Given a masked token, the model uses a pointer network to predict the aligned token in the other language. We alternately perform the above two steps in an expectation-maximization manner. Experimental results show that our method improves cross-lingual transferability on various datasets, especially on the token-level tasks, such as question answering, and structured prediction. Moreover, the model can serve as a pretrained word aligner, which achieves reasonably low error rate on the alignment benchmarks. The code and pretrained parameters are available at github.com/CZWin32768/XLM-Align.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.265/
+DO  - 10.18653/v1/2021.acl-long.265
+AU  - Chi, Zewen
+AU  - Dong, Li
+AU  - Zheng, Bo
+AU  - Huang, Shaohan
+AU  - Mao, Xian-Ling
+AU  - Huang, Heyan
+AU  - Wei, Furu
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - W-RST: Towards a Weighted RST-style Discourse Framework
+AB  - Aiming for a better integration of data-driven and linguistically-inspired approaches, we explore whether RST Nuclearity, assigning a binary assessment of importance between text segments, can be replaced by automatically generated, real-valued scores, in what we call a Weighted-RST framework. In particular, we find that weighted discourse trees from auxiliary tasks can benefit key NLP downstream applications, compared to nuclearity-centered approaches. We further show that real-valued importance distributions partially and interestingly align with the assessment and uncertainty of human annotators.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.302/
+DO  - 10.18653/v1/2021.acl-long.302
+AU  - Huber, Patrick
+AU  - Xiao, Wen
+AU  - Carenini, Giuseppe
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Subsequence Based Deep Active Learning for Named Entity Recognition
+AB  - Active Learning (AL) has been successfully applied to Deep Learning in order to drastically reduce the amount of data required to achieve high performance. Previous works have shown that lightweight architectures for Named Entity Recognition (NER) can achieve optimal performance with only 25% of the original training data. However, these methods do not exploit the sequential nature of language and the heterogeneity of uncertainty within each instance, requiring the labelling of whole sentences. Additionally, this standard method requires that the annotator has access to the full sentence when labelling. In this work, we overcome these limitations by allowing the AL algorithm to query subsequences within sentences, and propagate their labels to other sentences. We achieve highly efficient results on OntoNotes 5.0, only requiring 13% of the original training data, and CoNLL 2003, requiring only 27%. This is an improvement of 39% and 37% compared to querying full sentences.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.332/
+DO  - 10.18653/v1/2021.acl-long.332
+AU  - Radmard, Puria
+AU  - Fathullah, Yassir
+AU  - Lipani, Aldo
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - ForecastQA: A Question Answering Challenge for Event Forecasting with Temporal Text Data
+AB  - Event forecasting is a challenging, yet important task, as humans seek to constantly plan for the future. Existing automated forecasting studies rely mostly on structured data, such as time-series or event-based knowledge graphs, to help predict future events. In this work, we aim to formulate a task, construct a dataset, and provide benchmarks for developing methods for event forecasting with large volumes of unstructured text data. To simulate the forecasting scenario on temporal news documents, we formulate the problem as a restricted-domain, multiple-choice, question-answering (QA) task. Unlike existing QA tasks, our task limits accessible information, and thus a model has to make a forecasting judgement. To showcase the usefulness of this task formulation, we introduce ForecastQA, a question-answering dataset consisting of 10,392 event forecasting questions, which have been collected and verified via crowdsourcing efforts. We present our experiments on ForecastQA using BERTbased models and find that our best model achieves 61.0% accuracy on the dataset, which still lags behind human performance by about 19%. We hope ForecastQA will support future research efforts in bridging this gap.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.357/
+DO  - 10.18653/v1/2021.acl-long.357
+AU  - Jin, Woojeong
+AU  - Khanna, Rahul
+AU  - Kim, Suji
+AU  - Lee, Dong-Ho
+AU  - Morstatter, Fred
+AU  - Galstyan, Aram
+AU  - Ren, Xiang
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - MLBiNet: A Cross-Sentence Collective Event Detection Network
+AB  - We consider the problem of collectively detecting multiple events, particularly in cross-sentence settings. The key to dealing with the problem is to encode semantic information and model event inter-dependency at a document-level. In this paper, we reformulate it as a Seq2Seq task and propose a Multi-Layer Bidirectional Network (MLBiNet) to capture the document-level association of events and semantic information simultaneously. Specifically, a bidirectional decoder is firstly devised to model event inter-dependency within a sentence when decoding the event tag vector sequence. Secondly, an information aggregation module is employed to aggregate sentence-level semantic and event tag information. Finally, we stack multiple bidirectional decoders and feed cross-sentence information, forming a multi-layer bidirectional tagging architecture to iteratively propagate information across sentences. We show that our approach provides significant improvement in performance compared to the current state-of-the-art results.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.373/
+DO  - 10.18653/v1/2021.acl-long.373
+AU  - Lou, Dongfang
+AU  - Liao, Zhilin
+AU  - Deng, Shumin
+AU  - Zhang, Ningyu
+AU  - Chen, Huajun
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Early Detection of Sexual Predators in Chats
+AB  - An important risk that children face today is online grooming, where a so-called sexual predator establishes an emotional connection with a minor online with the objective of sexual abuse. Prior work has sought to automatically identify grooming chats, but only after an incidence has already happened in the context of legal prosecution. In this work, we instead investigate this problem from the point of view of prevention. We define and study the task of early sexual predator detection (eSPD) in chats, where the goal is to analyze a running chat from its beginning and predict grooming attempts as early and as accurately as possible. We survey existing datasets and their limitations regarding eSPD, and create a new dataset called PANC for more realistic evaluations. We present strong baselines built on BERT that also reach state-of-the-art results for conventional SPD. Finally, we consider coping with limited computational resources, as real-life applications require eSPD on mobile devices.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.386/
+DO  - 10.18653/v1/2021.acl-long.386
+AU  - Vogt, Matthias
+AU  - Leser, Ulf
+AU  - Akbik, Alan
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Counterfactual Inference for Text Classification Debiasing
+AB  - Today’s text classifiers inevitably suffer from unintended dataset biases, especially the document-level label bias and word-level keyword bias, which may hurt models’ generalization. Many previous studies employed data-level manipulations or model-level balancing mechanisms to recover unbiased distributions and thus prevent models from capturing the two types of biases. Unfortunately, they either suffer from the extra cost of data collection/selection/annotation or need an elaborate design of balancing strategies. Different from traditional factual inference in which debiasing occurs before or during training, counterfactual inference mitigates the influence brought by unintended confounders after training, which can make unbiased decisions with biased observations. Inspired by this, we propose a model-agnostic text classification debiasing framework – Corsair, which can effectively avoid employing data manipulations or designing balancing mechanisms. Concretely, Corsair first trains a base model on a training set directly, allowing the dataset biases ‘poison’ the trained model. In inference, given a factual input document, Corsair imagines its two counterfactual counterparts to distill and mitigate the two biases captured by the poisonous model. Extensive experiments demonstrate Corsair’s effectiveness, generalizability and fairness.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.422/
+DO  - 10.18653/v1/2021.acl-long.422
+AU  - Qian, Chen
+AU  - Feng, Fuli
+AU  - Wen, Lijie
+AU  - Ma, Chunping
+AU  - Xie, Pengjun
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - PP-Rec: News Recommendation with Personalized User Interest and Time-aware News Popularity
+AB  - Personalized news recommendation methods are widely used in online news services. These methods usually recommend news based on the matching between news content and user interest inferred from historical behaviors. However, these methods usually have difficulties in making accurate recommendations to cold-start users, and tend to recommend similar news with those users have read. In general, popular news usually contain important information and can attract users with different interests. Besides, they are usually diverse in content and topic. Thus, in this paper we propose to incorporate news popularity information to alleviate the cold-start and diversity problems for personalized news recommendation. In our method, the ranking score for recommending a candidate news to a target user is the combination of a personalized matching score and a news popularity score. The former is used to capture the personalized user interest in news. The latter is used to measure time-aware popularity of candidate news, which is predicted based on news content, recency, and real-time CTR using a unified framework. Besides, we propose a popularity-aware user encoder to eliminate the popularity bias in user behaviors for accurate interest modeling. Experiments on two real-world datasets show our method can effectively improve the accuracy and diversity for news recommendation.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.424/
+DO  - 10.18653/v1/2021.acl-long.424
+AU  - Qi, Tao
+AU  - Wu, Fangzhao
+AU  - Wu, Chuhan
+AU  - Huang, Yongfeng
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing Learning as Domain Adaptation: A Case Study on Named Entity Recognition
+AB  - Crowdsourcing is regarded as one prospective solution for effective supervised learning, aiming to build large-scale annotated training data by crowd workers. Previous studies focus on reducing the influences from the noises of the crowdsourced annotations for supervised models. We take a different point in this work, regarding all crowdsourced annotations as gold-standard with respect to the individual annotators. In this way, we find that crowdsourcing could be highly similar to domain adaptation, and then the recent advances of cross-domain methods can be almost directly applied to crowdsourcing. Here we take named entity recognition (NER) as a study case, suggesting an annotator-aware representation learning model that inspired by the domain adaptation methods which attempt to capture effective domain-aware features. We investigate both unsupervised and supervised crowdsourcing learning, assuming that no or only small-scale expert annotations are available. Experimental results on a benchmark crowdsourced NER dataset show that our method is highly effective, leading to a new state-of-the-art performance. In addition, under the supervised setting, we can achieve impressive performance gains with only a very small scale of expert annotations.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.432/
+DO  - 10.18653/v1/2021.acl-long.432
+AU  - Zhang, Xin
+AU  - Xu, Guangwei
+AU  - Sun, Yueheng
+AU  - Zhang, Meishan
+AU  - Xie, Pengjun
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - A Human-machine Collaborative Framework for Evaluating Malevolence in Dialogues
+AB  - Conversational dialogue systems (CDSs) are hard to evaluate due to the complexity of natural language. Automatic evaluation of dialogues often shows insufficient correlation with human judgements. Human evaluation is reliable but labor-intensive. We introduce a human-machine collaborative framework, HMCEval, that can guarantee reliability of the evaluation outcomes with reduced human effort. HMCEval casts dialogue evaluation as a sample assignment problem, where we need to decide to assign a sample to a human or a machine for evaluation. HMCEval includes a model confidence estimation module to estimate the confidence of the predicted sample assignment, and a human effort estimation module to estimate the human effort should the sample be assigned to human evaluation, as well as a sample assignment execution module that finds the optimum assignment solution based on the estimated confidence and effort. We assess the performance of HMCEval on the task of evaluating malevolence in dialogues. The experimental results show that HMCEval achieves around 99% evaluation accuracy with half of the human effort spared, showing that HMCEval provides reliable evaluation outcomes while reducing human effort by a large amount.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.436/
+DO  - 10.18653/v1/2021.acl-long.436
+AU  - Zhang, Yangjun
+AU  - Ren, Pengjie
+AU  - de Rijke, Maarten
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue
+AB  - A video-grounded dialogue system is required to understand both dialogue, which contains semantic dependencies from turn to turn, and video, which contains visual cues of spatial and temporal scene variations. Building such dialogue systems is a challenging problem, involving various reasoning types on both visual and language inputs. Existing benchmarks do not have enough annotations to thoroughly analyze dialogue systems and understand their capabilities and limitations in isolation. These benchmarks are also not explicitly designed to minimise biases that models can exploit without actual reasoning. To address these limitations, in this paper, we present DVD, a Diagnostic Dataset for Video-grounded Dialogue. The dataset is designed to contain minimal biases and has detailed annotations for the different types of reasoning over the spatio-temporal space of video. Dialogues are synthesized over multiple question turns, each of which is injected with a set of cross-turn semantic relationships. We use DVD to analyze existing approaches, providing interesting insights into their abilities and limitations. In total, DVD is built from 11k CATER synthetic videos and contains 10 instances of 10-round dialogues for each video, resulting in more than 100k dialogues and 1M question-answer pairs. Our code and dataset are publicly available.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.439/
+DO  - 10.18653/v1/2021.acl-long.439
+AU  - Le, Hung
+AU  - Sankar, Chinnadhurai
+AU  - Moon, Seungwhan
+AU  - Beirami, Ahmad
+AU  - Geramifard, Alborz
+AU  - Kottur, Satwik
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Cross-modal Memory Networks for Radiology Report Generation
+AB  - Medical imaging plays a significant role in clinical practice of medical diagnosis, where the text reports of the images are essential in understanding them and facilitating later treatments. By generating the reports automatically, it is beneficial to help lighten the burden of radiologists and significantly promote clinical automation, which already attracts much attention in applying artificial intelligence to medical domain. Previous studies mainly follow the encoder-decoder paradigm and focus on the aspect of text generation, with few studies considering the importance of cross-modal mappings and explicitly exploit such mappings to facilitate radiology report generation. In this paper, we propose a cross-modal memory networks (CMN) to enhance the encoder-decoder framework for radiology report generation, where a shared memory is designed to record the alignment between images and texts so as to facilitate the interaction and generation across modalities. Experimental results illustrate the effectiveness of our proposed model, where state-of-the-art performance is achieved on two widely used benchmark datasets, i.e., IU X-Ray and MIMIC-CXR. Further analyses also prove that our model is able to better align information from radiology images and texts so as to help generating more accurate reports in terms of clinical indicators.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.459/
+DO  - 10.18653/v1/2021.acl-long.459
+AU  - Chen, Zhihong
+AU  - Shen, Yaling
+AU  - Song, Yan
+AU  - Wan, Xiang
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - TGEA: An Error-Annotated Dataset and Benchmark Tasks for TextGeneration from Pretrained Language Models
+AB  - In order to deeply understand the capability of pretrained language models in text generation and conduct a diagnostic evaluation, we propose TGEA, an error-annotated dataset with multiple benchmark tasks for text generation from pretrained language models (PLMs). We use carefully selected prompt words to guide GPT-2 to generate candidate sentences, from which we select 47K for error annotation. Crowdsourced workers manually check each of these sentences and detect 12k erroneous sentences. We create an error taxonomy to cover 24 types of errors occurring in these erroneous sentences according to the nature of errors with respect to linguistics and knowledge (e.g., common sense). For each erroneous span in PLM-generated sentences, we also detect another span that is closely associated with it. Each error is hence manually labeled with comprehensive annotations, including the span of the error, the associated span, minimal correction to the error, the type of the error, and rationale behind the error. Apart from the fully annotated dataset, we also present a detailed description of the data collection procedure, statistics and analysis of the dataset. This is the first dataset with comprehensive annotations for PLM-generated texts, which facilitates the diagnostic evaluation of PLM-based text generation. Furthermore, we use TGEA as a benchmark dataset and propose a series of automatic diagnosis tasks, including error detection, error type classification, associated span detection, error rationale generation, to further promote future study on the automatic error detection and correction on texts generated by pretrained language models.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.469/
+DO  - 10.18653/v1/2021.acl-long.469
+AU  - He, Jie
+AU  - Peng, Bo
+AU  - Liao, Yi
+AU  - Liu, Qun
+AU  - Xiong, Deyi
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Robustifying Multi-hop QA through Pseudo-Evidentiality Training
+AB  - This paper studies the bias problem of multi-hop question answering models, of answering correctly without correct reasoning. One way to robustify these models is by supervising to not only answer right, but also with right reasoning chains. An existing direction is to annotate reasoning chains to train models, requiring expensive additional annotations. In contrast, we propose a new approach to learn evidentiality, deciding whether the answer prediction is supported by correct evidences, without such annotations. Instead, we compare counterfactual changes in answer confidence with and without evidence sentences, to generate “pseudo-evidentiality” annotations. We validate our proposed model on an original set and challenge set in HotpotQA, showing that our method is accurate and robust in multi-hop reasoning.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.476/
+DO  - 10.18653/v1/2021.acl-long.476
+AU  - Lee, Kyungjae
+AU  - Hwang, Seung-won
+AU  - Han, Sang-eun
+AU  - Lee, Dohyeon
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - DYPLOC: Dynamic Planning of Content Using Mixed Language Models for Text Generation
+AB  - We study the task of long-form opinion text generation, which faces at least two distinct challenges. First, existing neural generation models fall short of coherence, thus requiring efficient content planning. Second, diverse types of information are needed to guide the generator to cover both subjective and objective content. To this end, we propose DYPLOC, a generation framework that conducts dynamic planning of content while generating the output based on a novel design of mixed language models. To enrich the generation with diverse content, we further propose to use large pre-trained models to predict relevant concepts and to generate claims. We experiment with two challenging tasks on newly collected datasets: (1) argument generation with Reddit ChangeMyView, and (2) writing articles using New York Times’ Opinion section. Automatic evaluation shows that our model significantly outperforms competitive comparisons. Human judges further confirm that our generations are more coherent with richer content.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.501/
+DO  - 10.18653/v1/2021.acl-long.501
+AU  - Hua, Xinyu
+AU  - Sreevatsa, Ashwin
+AU  - Wang, Lu
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - BERTGen: Multi-task Generation through BERT
+AB  - We present BERTGen, a novel, generative, decoder-only model which extends BERT by fusing multimodal and multilingual pre-trained models VL-BERT and M-BERT, respectively. BERTGen is auto-regressively trained for language generation tasks, namely image captioning, machine translation and multimodal machine translation, under a multi-task setting. With a comprehensive set of evaluations, we show that BERTGen outperforms many strong baselines across the tasks explored. We also show BERTGen’s ability for zero-shot language generation, where it exhibits competitive performance to supervised counterparts. Finally, we conduct ablation studies which demonstrate that BERTGen substantially benefits from multi-tasking and effectively transfers relevant inductive biases from the pre-trained models.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.503/
+DO  - 10.18653/v1/2021.acl-long.503
+AU  - Mitzalis, Faidon
+AU  - Caglayan, Ozan
+AU  - Madhyastha, Pranava
+AU  - Specia, Lucia
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Accelerating Text Communication via Abbreviated Sentence Input
+AB  - Typing every character in a text message may require more time or effort than strictly necessary. Skipping spaces or other characters may be able to speed input and reduce a user’s physical input effort. This can be particularly important for people with motor impairments. In a large crowdsourced study, we found workers frequently abbreviated text by omitting mid-word vowels. We designed a recognizer optimized for expanding noisy abbreviated input where users often omit spaces and mid-word vowels. We show using neural language models for selecting conversational-style training text and for rescoring the recognizer’s n-best sentences improved accuracy. On noisy touchscreen data collected from hundreds of users, we found accurate abbreviated input was possible even if a third of characters was omitted. Finally, in a study where users had to dwell for a second on each key, sentence abbreviated input was competitive with a conventional keyboard with word predictions. After practice, users wrote abbreviated sentences at 9.6 words-per-minute versus word input at 9.9 words-per-minute.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.514/
+DO  - 10.18653/v1/2021.acl-long.514
+AU  - Adhikary, Jiban
+AU  - Berger, Jamie
+AU  - Vertanen, Keith
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models
+AB  - While counterfactual examples are useful for analysis and training of NLP models, current generation methods either rely on manual labor to create very few counterfactuals, or only instantiate limited types of perturbations such as paraphrases or word substitutions. We present Polyjuice, a general-purpose counterfactual generator that allows for control over perturbation types and locations, trained by finetuning GPT-2 on multiple datasets of paired sentences. We show that Polyjuice produces diverse sets of realistic counterfactuals, which in turn are useful in various distinct applications: improving training and evaluation on three different tasks (with around 70% less annotation effort than manual generation), augmenting state-of-the-art explanation techniques, and supporting systematic counterfactual error analysis by revealing behaviors easily missed by human experts.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.523/
+DO  - 10.18653/v1/2021.acl-long.523
+AU  - Wu, Tongshuang
+AU  - Ribeiro, Marco Tulio
+AU  - Heer, Jeffrey
+AU  - Weld, Daniel
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Learning Latent Structures for Cross Action Phrase Relations in Wet Lab Protocols
+AB  - Wet laboratory protocols (WLPs) are critical for conveying reproducible procedures in biological research. They are composed of instructions written in natural language describing the step-wise processing of materials by specific actions. This process flow description for reagents and materials synthesis in WLPs can be captured by material state transfer graphs (MSTGs), which encode global temporal and causal relationships between actions. Here, we propose methods to automatically generate a MSTG for a given protocol by extracting all action relationships across multiple sentences. We also note that previous corpora and methods focused primarily on local intra-sentence relationships between actions and entities and did not address two critical issues: (i) resolution of implicit arguments and (ii) establishing long-range dependencies across sentences. We propose a new model that incrementally learns latent structures and is better suited to resolving inter-sentence relations and implicit arguments. This model draws upon a new corpus WLP-MSTG which was created by extending annotations in the WLP corpora for inter-sentence relations and implicit arguments. Our model achieves an F1 score of 54.53% for temporal and causal relations in protocols from our corpus, which is a significant improvement over previous models - DyGIE++:28.17%; spERT:27.81%. We make our annotated WLP-MSTG corpus available to the research community.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.525/
+DO  - 10.18653/v1/2021.acl-long.525
+AU  - Kulkarni, Chaitanya
+AU  - Chan, Jany
+AU  - Fosler-Lussier, Eric
+AU  - Machiraju, Raghu
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Neural semi-Markov CRF for Monolingual Word Alignment
+AB  - Monolingual word alignment is important for studying fine-grained editing operations (i.e., deletion, addition, and substitution) in text-to-text generation tasks, such as paraphrase generation, text simplification, neutralizing biased language, etc. In this paper, we present a novel neural semi-Markov CRF alignment model, which unifies word and phrase alignments through variable-length spans. We also create a new benchmark with human annotations that cover four different text genres to evaluate monolingual word alignment models in more realistic settings. Experimental results show that our proposed model outperforms all previous approaches for monolingual word alignment as well as a competitive QA-based baseline, which was previously only applied to bilingual data. Our model demonstrates good generalizability to three out-of-domain datasets and shows great utility in two downstream applications: automatic text simplification and sentence pair classification tasks.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.531/
+DO  - 10.18653/v1/2021.acl-long.531
+AU  - Lan, Wuwei
+AU  - Jiang, Chao
+AU  - Xu, Wei
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - The statistical advantage of automatic NLG metrics at the system level
+AB  - Estimating the expected output quality of generation systems is central to NLG. This paper qualifies the notion that automatic metrics are not as good as humans in estimating system-level quality. Statistically, humans are unbiased, high variance estimators, while metrics are biased, low variance estimators. We compare these estimators by their error in pairwise prediction (which generation system is better?) using the bootstrap. Measuring this error is complicated: predictions are evaluated against noisy, human predicted labels instead of the ground truth, and metric predictions fluctuate based on the test sets they were calculated on. By applying a bias-variance-noise decomposition, we adjust this error to a noise-free, infinite test set setting. Our analysis compares the adjusted error of metrics to humans and a derived, perfect segment-level annotator, both of which are unbiased estimators dependent on the number of judgments collected. In MT, we identify two settings where metrics outperform humans due to a statistical advantage in variance: when the number of human judgments used is small, and when the quality difference between compared systems is small.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.533/
+DO  - 10.18653/v1/2021.acl-long.533
+AU  - Wei, Johnny
+AU  - Jia, Robin
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - ConvoSumm: Conversation Summarization Benchmark and Improved Abstractive Summarization with Argument Mining
+AB  - While online conversations can cover a vast amount of information in many different formats, abstractive text summarization has primarily focused on modeling solely news articles. This research gap is due, in part, to the lack of standardized datasets for summarizing online discussions. To address this gap, we design annotation protocols motivated by an issues–viewpoints–assertions framework to crowdsource four new datasets on diverse online conversation forms of news comments, discussion forums, community question answering forums, and email threads. We benchmark state-of-the-art models on our datasets and analyze characteristics associated with the data. To create a comprehensive benchmark, we also evaluate these models on widely-used conversation summarization datasets to establish strong baselines in this domain. Furthermore, we incorporate argument mining through graph construction to directly model the issues, viewpoints, and assertions present in a conversation and filter noisy input, showing comparable or improved results according to automatic and human evaluations.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.535/
+DO  - 10.18653/v1/2021.acl-long.535
+AU  - Fabbri, Alexander
+AU  - Rahman, Faiaz
+AU  - Rizvi, Imad
+AU  - Wang, Borui
+AU  - Li, Haoran
+AU  - Mehdad, Yashar
+AU  - Radev, Dragomir
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Cross-Lingual Abstractive Summarization with Limited Parallel Resources
+AB  - Parallel cross-lingual summarization data is scarce, requiring models to better use the limited available cross-lingual resources. Existing methods to do so often adopt sequence-to-sequence networks with multi-task frameworks. Such approaches apply multiple decoders, each of which is utilized for a specific task. However, these independent decoders share no parameters, hence fail to capture the relationships between the discrete phrases of summaries in different languages, breaking the connections in order to transfer the knowledge of the high-resource languages to low-resource languages. To bridge these connections, we propose a novel Multi-Task framework for Cross-Lingual Abstractive Summarization (MCLAS) in a low-resource setting. Employing one unified decoder to generate the sequential concatenation of monolingual and cross-lingual summaries, MCLAS makes the monolingual summarization task a prerequisite of the CLS task. In this way, the shared decoder learns interactions involving alignments and summary patterns across languages, which encourages attaining knowledge transfer. Experiments on two CLS datasets demonstrate that our model significantly outperforms three baseline models in both low-resource and full-dataset scenarios. Moreover, in-depth analysis on the generated summaries and attention heads verifies that interactions are learned well using MCLAS, which benefits the CLS task under limited parallel resources.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.538/
+DO  - 10.18653/v1/2021.acl-long.538
+AU  - Bai, Yu
+AU  - Gao, Yang
+AU  - Huang, Heyan
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Dissecting Generation Modes for Abstractive Summarization Models via Ablation and Attribution
+AB  - Despite the prominence of neural abstractive summarization models, we know little about how they actually form summaries and how to understand where their decisions come from. We propose a two-step method to interpret summarization model decisions. We first analyze the model’s behavior by ablating the full model to categorize each decoder decision into one of several generation modes: roughly, is the model behaving like a language model, is it relying heavily on the input, or is it somewhere in between? After isolating decisions that do depend on the input, we explore interpreting these decisions using several different attribution methods. We compare these techniques based on their ability to select content and reconstruct the model’s predicted token from perturbations of the input, thus revealing whether highlighted attributions are truly important for the generation of the next token. While this machinery can be broadly useful even beyond summarization, we specifically demonstrate its capability to identify phrases the summarization model has memorized and determine where in the training pipeline this memorization happened, as well as study complex generation phenomena like sentence fusion on a per-instance basis.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.539/
+DO  - 10.18653/v1/2021.acl-long.539
+AU  - Xu, Jiacheng
+AU  - Durrett, Greg
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - Cross-replication Reliability - An Empirical Approach to Interpreting Inter-rater Reliability
+AB  - When collecting annotations and labeled data from humans, a standard practice is to use inter-rater reliability (IRR) as a measure of data goodness (Hallgren, 2012). Metrics such as Krippendorff’s alpha or Cohen’s kappa are typically required to be above a threshold of 0.6 (Landis and Koch, 1977). These absolute thresholds are unreasonable for crowdsourced data from annotators with high cultural and training variances, especially on subjective topics. We present a new alternative to interpreting IRR that is more empirical and contextualized. It is based upon benchmarking IRR against baseline measures in a replication, one of which is a novel cross-replication reliability (xRR) measure based on Cohen’s (1960) kappa. We call this approach the xRR framework. We opensource a replication dataset of 4 million human judgements of facial expressions and analyze it with the proposed framework. We argue this framework can be used to measure the quality of crowdsourced datasets.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.548/
+DO  - 10.18653/v1/2021.acl-long.548
+AU  - Wong, Ka
+AU  - Paritosh, Praveen
+AU  - Aroyo, Lora
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - RAW-C: Relatedness of Ambiguous Words in Context (A New Lexical Resource for English)
+AB  - Most words are ambiguous—-i.e., they convey distinct meanings in different contexts—-and even the meanings of unambiguous words are context-dependent. Both phenomena present a challenge for NLP. Recently, the advent of contextualized word embeddings has led to success on tasks involving lexical ambiguity, such as Word Sense Disambiguation. However, there are few tasks that directly evaluate how well these contextualized embeddings accommodate the more continuous, dynamic nature of word meaning—-particularly in a way that matches human intuitions. We introduce RAW-C, a dataset of graded, human relatedness judgments for 112 ambiguous words in context (with 672 sentence pairs total), as well as human estimates of sense dominance. The average inter-annotator agreement (assessed using a leave-one-annotator-out method) was 0.79. We then show that a measure of cosine distance, computed using contextualized embeddings from BERT and ELMo, correlates with human judgments, but that cosine distance also systematically underestimates how similar humans find uses of the same sense of a word to be, and systematically overestimates how similar humans find uses of different-sense homonyms. Finally, we propose a synthesis between psycholinguistic theories of the mental lexicon and computational models of lexical semantics.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.550/
+DO  - 10.18653/v1/2021.acl-long.550
+AU  - Trott, Sean
+AU  - Bergen, Benjamin
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+
+TY  - CONF
+TI  - SpanNER: Named Entity Re-/Recognition as Span Prediction
+AB  - Recent years have seen the paradigm shift of Named Entity Recognition (NER) systems from sequence labeling to span prediction. Despite its preliminary effectiveness, the span prediction model’s architectural bias has not been fully understood. In this paper, we first investigate the strengths and weaknesses when the span prediction model is used for named entity recognition compared with the sequence labeling framework and how to further improve it, which motivates us to make complementary advantages of systems based on different paradigms. We then reveal that span prediction, simultaneously, can serve as a system combiner to re-recognize named entities from different systems’ outputs. We experimentally implement 154 systems on 11 datasets, covering three languages, comprehensive results show the effectiveness of span prediction models that both serve as base NER systems and system combiners. We make all codes and datasets available: https://github.com/neulab/spanner, as well as an online system demo: http://spanner.sh. Our model also has been deployed into the ExplainaBoard platform, which allows users to flexibly perform a system combination of top-scoring systems in an interactive way: http://explainaboard.nlpedia.ai/leaderboard/task-ner/.
+PY  - 2021
+UR  - https://aclanthology.org/2021.acl-long.558/
+DO  - 10.18653/v1/2021.acl-long.558
+AU  - Fu, Jinlan
+AU  - Huang, Xuanjing
+AU  - Liu, Pengfei
+T2  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ER  - 
+

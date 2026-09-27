@@ -1,0 +1,330 @@
+TY  - CONF
+TI  - Fair Allocation through Selective Information Acquisition
+AU  - Cai, William
+AU  - Gaebler, Johann
+AU  - Garg, Nikhil
+AU  - Goel, Sharad
+PY  - 2020
+AB  - Public and private institutions must often allocate scarce resources under uncertainty. Banks, for example, extend credit to loan applicants based in part on their estimated likelihood of repaying a loan. But when the quality of information differs across candidates (e.g., if some applicants lack traditional credit histories), common lending strategies can lead to disparities across groups. Here we consider a setting in which decision makers---before allocating resources---can choose to spend some of their limited budget further screening select individuals. We present a computationally efficient algorithm for deciding whom to screen that maximizes a standard measure of social welfare. Intuitively, decision makers should screen candidates on the margin, for whom the additional information could plausibly alter the allocation. We formalize this idea by showing the problem can be reduced to solving a series of linear programs. Both on synthetic and real-world datasets, this strategy improves utility, illustrating the value of targeted information acquisition in such decisions. Further, when there is social value for distributing resources to groups for whom we have a priori poor information---like those without credit scores---our approach can substantially improve the allocation of limited assets.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375823
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375823
+ER  - 
+
+TY  - CONF
+TI  - Learning Occupational Task-Shares Dynamics for the Future of Work
+AU  - Das, Subhro
+AU  - Steffen, Sebastian
+AU  - Clarke, Wyatt
+AU  - Reddy, Prabhat
+AU  - Brynjolfsson, Erik
+AU  - Fleming, Martin
+PY  - 2020
+AB  - The recent wave of AI and automation has been argued to differ from previous General Purpose Technologies (GPTs), in that it may lead to rapid change in occupations' underlying task requirements and persistent technological unemployment. In this paper, we apply a novel methodology of dynamic task shares to a large dataset of online job postings to explore how exactly occupational task demands have changed over the past decade of AI innovation, especially across high, mid and low wage occupations. Notably, big data and AI have risen significantly among high wage occupations since 2012 and 2016, respectively. We built an ARIMA model to predict future occupational task demands and showcase several relevant examples in Healthcare, Administration, and IT. Such task demands predictions across occupations will play a pivotal role in retraining the workforce of the future.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375826
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375826
+ER  - 
+
+TY  - CONF
+TI  - Bayesian Sensitivity Analysis for Offline Policy Evaluation
+AU  - Jung, Jongbin
+AU  - Shroff, Ravi
+AU  - Feller, Avi
+AU  - Goel, Sharad
+PY  - 2020
+AB  - On a variety of complex decision-making tasks, from doctors prescribing treatment to judges setting bail, machine learning algorithms have been shown to outperform expert human judgments. One complication, however, is that it is often difficult to anticipate the effects of algorithmic policies prior to deployment, as one generally cannot use historical data to directly observe what would have happened had the actions recommended by the algorithm been taken. A common strategy is to model potential outcomes for alternative decisions assuming that there are no unmeasured confounders (i.e., to assume ignorability). But if this ignorability assumption is violated, the predicted and actual effects of an algorithmic policy can diverge sharply. In this paper we present a flexible Bayesian approach to gauge the sensitivity of predicted policy outcomes to unmeasured confounders. In particular, and in contrast to past work, our modeling framework easily enables confounders to vary with the observed covariates. We demonstrate the efficacy of our method on a large dataset of judicial actions, in which one must decide whether defendants awaiting trial should be required to pay bail or can be released without payment.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375822
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375822
+ER  - 
+
+TY  - CONF
+TI  - Biased Priorities, Biased Outcomes: Three Recommendations for Ethics-oriented Data Annotation Practices
+AU  - Kazimzade, Gunay
+AU  - Miceli, Milagros
+PY  - 2020
+AB  - In this paper, we analyze the relation between data-related biases and practices of data annotation, by placing them in the context of market economy. We understand annotation as a praxis related to the sensemaking of data and investigate annotation practices for vision models by focusing on the values that are prioritized by industrial decision-makers and practitioners. The quality of data is critical for machine learning models as it holds the power to (mis-)represent the population it is intended to analyze. For autonomous systems to be able to make sense of the world, humans first need to make sense of the data these systems will be trained on. This paper addresses this issue, guided by the following research questions: Which goals are prioritized by decision-makers at the data annotation stage? How do these priorities correlate with data-related bias issues? Focusing on work practices and their context, our research goal aims at understanding the logics driving companies and their impact on the performed annotations. The study follows a qualitative design and is based on 24 interviews with relevant actors and extensive participatory observations, including several weeks of fieldwork at two companies dedicated to data annotation for vision models in Buenos Aires, Argentina and Sofia, Bulgaria. The prevalence of market-oriented values over socially responsible approaches is argued based on three corporate priorities that inform work practices in this field and directly shape the annotations performed: profit (short deadlines connected to the strive for profit are prioritized over alternative approaches that could prevent biased outcomes), standardization (the strive for standardized and, in many cases, reductive or biased annotations to make data fit the products and revenue plans of clients), and opacity (related to client's power to impose their criteria on the annotations that are performed. Criteria that most of the times remain opaque due to corporate confidentiality). Finally, we introduce three elements, aiming at developing ethics-oriented practices of data annotation, that could help prevent biased outcomes: transparency (regarding the documentation of data transformations, including information on responsibilities and criteria for decision-making.), education (training on the potential harms caused by AI and its ethical implications, that could help data annotators and related roles adopt a more critical approach towards the interpretation and labeling of data), and regulations (clear guidelines for ethical AI developed at the governmental level and applied both in private and public organizations).
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375809
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375809
+ER  - 
+
+TY  - CONF
+TI  - Defining AI in Policy versus Practice
+AU  - Krafft, P. M.
+AU  - Young, Meg
+AU  - Katell, Michael
+AU  - Huang, Karen
+AU  - Bugingo, Ghislain
+PY  - 2020
+AB  - Recent concern about harms of information technologies motivate consideration of regulatory action to forestall or constrain certain developments in the field of artificial intelligence (AI). However, definitional ambiguity hampers the possibility of conversation about this urgent topic of public concern. Legal and regulatory interventions require agreed-upon definitions, but consensus around a definition of AI has been elusive, especially in policy conversations. With an eye towards practical working definitions and a broader understanding of positions on these issues, we survey experts and review published policy documents to examine researcher and policy-maker conceptions of AI. We find that while AI researchers favor definitions of AI that emphasize technical functionality, policy-makers instead use definitions that compare systems to human thinking and behavior. We point out that definitions adhering closely to the functionality of AI systems are more inclusive of technologies in use today, whereas definitions that emphasize human-like capabilities are most applicable to hypothetical future technologies. As a result of this gap, ethical and regulatory efforts may overemphasize concern about future technologies at the expense of pressing issues with existing deployed technologies.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375835
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375835
+ER  - 
+
+TY  - CONF
+TI  - "How do I fool you?": Manipulating User Trust via Misleading Black Box Explanations
+AU  - Lakkaraju, Himabindu
+AU  - Bastani, Osbert
+PY  - 2020
+AB  - As machine learning black boxes are increasingly being deployed in critical domains such as healthcare and criminal justice, there has been a growing emphasis on developing techniques for explaining these black boxes in a human interpretable manner. There has been recent concern that a high-fidelity explanation of a black box ML model may not accurately reflect the biases in the black box. As a consequence, explanations have the potential to mislead human users into trusting a problematic black box. In this work, we rigorously explore the notion of misleading explanations and how they influence user trust in black box models. Specifically, we propose a novel theoretical framework for understanding and generating misleading explanations, and carry out a user study with domain experts to demonstrate how these explanations can be used to mislead users. Our work is the first to empirically establish how user trust in black box models can be manipulated via misleading explanations.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375833
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375833
+ER  - 
+
+TY  - CONF
+TI  - Does AI Qualify for the Job? A Bidirectional Model Mapping Labour and AI Intensities
+AU  - Mart\'{\i}nez-Plumed, Fernando
+AU  - Tolan, Song\"{u}l
+AU  - Pesole, Annarosa
+AU  - Hern\'{a}ndez-Orallo, Jos\'{e}
+AU  - Fern\'{a}ndez-Mac\'{\i}as, Enrique
+AU  - G\'{o}mez, Emilia
+PY  - 2020
+AB  - In this paper we present a setting for examining the relation be-tween the distribution of research intensity in AI research and the relevance for a range of work tasks (and occupations) in current and simulated scenarios. We perform a mapping between labourand AI using a set of cognitive abilities as an intermediate layer. This setting favours a two-way interpretation to analyse (1) what impact current or simulated AI research activity has or would have on labour-related tasks and occupations, and (2) what areas of AI research activity would be responsible for a desired or undesired effect on specific labour tasks and occupations. Concretely, in our analysis we map 59 generic labour-related tasks from several worker surveys and databases to 14 cognitive abilities from the cognitive science literature, and these to a comprehensive list of 328 AI benchmarks used to evaluate progress in AI techniques. We provide this model and its implementation as a tool for simulations. We also show the effectiveness of our setting with some illustrative examples.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375831
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375831
+ER  - 
+
+TY  - CONF
+TI  - When Your Only Tool Is A Hammer: Ethical Limitations of Algorithmic Fairness Solutions in Healthcare Machine Learning
+AU  - McCradden, Melissa
+AU  - Mazwi, Mjaye
+AU  - Joshi, Shalmali
+AU  - Anderson, James A.
+PY  - 2020
+AB  - It is no longer a hypothetical worry that artificial intelligence - more specifically, machine learning (ML) - can propagate the effects of pernicious bias in healthcare. To address these problems, some have proposed the development of 'algorithmic fairness' solutions. The primary goal of these solutions is to constrain the effect of pernicious bias with respect to a given outcome of interest as a function of one's protected identity (i.e., characteristics generally protected by civil or human rights legislation. The technical limitations of these solutions have been well-characterized. Ethically, the problematic implication - of developers, potentially, and end users - is that by virtue of algorithmic fairness solutions a model can be rendered 'objective' (i.e., free from the influence of pernicious bias). The ostensible neutrality of these solutions may unintentionally prompt new consequences for vulnerable groups by obscuring downstream problems due to the persistence of real-world bias.The main epistemic limitation of algorithmic fairness is that it assumes the relationship between the extent of bias's impact on a given health outcome and one's protected identity is mathematically quantifiable. The reality is that social and structural factors confluence in complex and unknown ways to produce health inequalities. Some of these are biologic in nature, and differences like these are directly relevant to predicting a health event and should be incorporated into the model's design. Others are reflective of prejudice, lack of access to healthcare, or implicit bias. Sometimes, there may be a combination. With respect to any specific task, it is difficult to untangle the complex relationships between potentially influential factors and which ones are 'fair' and which are not to inform their inclusion or mitigation in the model's design.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375824
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375824
+ER  - 
+
+TY  - CONF
+TI  - Learning Norms from Stories: A Prior for Value Aligned Agents
+AU  - Nahian, Md Sultan Al
+AU  - Frazier, Spencer
+AU  - Riedl, Mark
+AU  - Harrison, Brent
+PY  - 2020
+AB  - Value alignment is a property of an intelligent agent indicating that it can only pursue goals and activities that are beneficial to humans. Traditional approaches to value alignment use imitation learning or preference learning to infer the values of humans by observing their behavior. We introduce a complementary technique in which a value-aligned prior is learned from naturally occurring stories which encode societal norms. Training data is sourced from the children's educational comic strip, Goofus \&amp; Gallant. In this work, we train multiple machine learning models to classify natural language descriptions of situations found in the comic strip as normative or non-normative by identifying if they align with the main characters' behavior. We also report the models' performance when transferring to two unrelated tasks with little to no additional training on the new task.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375825
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375825
+ER  - 
+
+TY  - CONF
+TI  - Balancing the Tradeoff between Profit and Fairness in Rideshare Platforms during High-Demand Hours
+AU  - Nanda, Vedant
+AU  - Xu, Pan
+AU  - Sankararaman, Karthik Abinav
+AU  - Dickerson, John P.
+AU  - Srinivasan, Aravind
+PY  - 2020
+AB  - Rideshare platforms, when assigning requests to drivers, tend to maximize profit for the system and/or minimize waiting time for riders. Such platforms can exacerbate biases that drivers may have over certain types of requests. We consider the case of peak hours when the demand for rides is more than the supply of drivers. Drivers are well aware of their advantage during the peak hours and can choose to be selective about which rides to accept. Moreover, if in such a scenario, the assignment of requests to drivers (by the platform) is made only to maximize profit and/or minimize wait time for riders, requests of a certain type (e.g., from a non-popular pickup location, or to a non-popular drop-off location) might never be assigned to a driver. Such a system can be highly unfair to riders. However, increasing fairness might come at a cost of the overall profit made by the rideshare platform. To balance these conflicting goals, we present a flexible, non-adaptive algorithm, NAdap, that allows the platform designer to control the profit and fairness of the system via parameters α and β respectively.We model the matching problem as an online bipartite matching where the set of drivers is offline and requests arrive online. Upon the arrival of a request, we use NAdap to assign it to a driver (the driver might then choose to accept or reject it) or reject the request. We formalize the measures of profit and fairness in our setting and show that by using NAdap, the competitive ratios for profit and fairness measures would be no worse than α/e and β/e respectively. Extensive experimental results on both real-world and synthetic datasets confirm the validity of our theoretical lower bounds. Additionally, they show that NAdap under some choice of (α, β) can beat two natural heuristics, Greedy and Uniform, on both fairness and profit. Code is available at: https://github.com/nvedant07/rideshare-fairness-peak/. Full paper can be found in the proceedings of AAAI 2020 and on ArXiv: http://arxiv.org/abs/1912.08388).
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375818
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375818
+ER  - 
+
+TY  - CONF
+TI  - Algorithmized but not Atomized? How Digital Platforms Engender New Forms of Worker Solidarity in Jakarta
+AU  - Qadri, Rida
+PY  - 2020
+AB  - Jakarta's roads are green, filled as they are with the fluorescent green jackets, bright green logos and fluttering green banners of basecamps created by the city's digitized, 'online' motorbike-taxi drivers (ojol). These spaces function as waiting posts, regulatory institutions, information networks and spaces of solidarity for the ojol working for mobility-app companies, Grab and GoJek. Their existence though, presents a puzzle. In the world of on-demand matching, literature either predicts an isolated, atomized, disempowered digital worker or expects workers to have only temporary, online, ephemeral networks of mutual aid. Yet, Jakarta's ojol then introduce us to a new form of labor action that relies on an interface of the physical world and digital realm, complete with permanent shelters, quirky names, emblems, social media accounts and even their own emergency response service. This paper explores the contours of these labor formations and asks why digital workers in Jakarta are able to create collective structures of solidarity, even as app-mediated work may force them towards an individualized labor regime? I argue that these digital labor collectives are not accidental but a product of interactions between histories of social organization structures in Jakarta and affordances created by technological-mediation. Through participant observation and semi-structured interviews I excavate the bi-directional conversation between globalizing digital platforms and social norms, civic culture and labor market conditions in Jakarta which has allowed for particular forms of digital worker resistances to emerge. I recover power for the digital worker, who provides us with a path to resisting algorithmization of work while still participating in it through agentic labor actions rooted in shared identities, enabled by technological fluency and borne out of a desire for community.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375816
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375816
+ER  - 
+
+TY  - CONF
+TI  - Human Comprehension of Fairness in Machine Learning
+AU  - Saha, Debjani
+AU  - Schumann, Candice
+AU  - McElfresh, Duncan C.
+AU  - Dickerson, John P.
+AU  - Mazurek, Michelle L.
+AU  - Tschantz, Michael Carl
+PY  - 2020
+AB  - Bias in machine learning has manifested injustice in several areas, with notable examples including gender bias in job-related ads [4], racial bias in evaluating names on resumes [3], and racial bias in predicting criminal recidivism [1]. In response, research into algorithmic fairness has grown in both importance and volume over the past few years. Different metrics and approaches to algorithmic fairness have been proposed, many of which are based on prior legal and philosophical concepts [2]. The rapid expansion of this field makes it difficult for professionals to keep up, let alone the general public. Furthermore, misinformation about notions of fairness can have significant legal implications.Computer scientists have largely focused on developing mathematical notions of fairness and incorporating them in fielded ML systems. A much smaller collection of studies has measured public perception of bias and (un)fairness in algorithmic decision-making. However, one major question underlying the study of ML fairness remains unanswered in the literature: Does the general public understand mathematical definitions of ML fairness and their behavior in ML applications? We take a first step towards answering this question by studying non-expert comprehension and perceptions of one popular definition of ML fairness, demographic parity [5]. Specifically, we developed an online survey to address the following: (1) Does a non-technical audience comprehend the definition and implications of demographic parity? (2) Do demographics play a role in comprehension? (3) How are comprehension and sentiment related? (4) Does the application scenario affect comprehension?
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375819
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375819
+ER  - 
+
+TY  - CONF
+TI  - Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods
+AU  - Slack, Dylan
+AU  - Hilgard, Sophie
+AU  - Jia, Emily
+AU  - Singh, Sameer
+AU  - Lakkaraju, Himabindu
+PY  - 2020
+AB  - As machine learning black boxes are increasingly being deployed in domains such as healthcare and criminal justice, there is growing emphasis on building tools and techniques for explaining these black boxes in an interpretable manner. Such explanations are being leveraged by domain experts to diagnose systematic errors and underlying biases of black boxes. In this paper, we demonstrate that post hoc explanations techniques that rely on input perturbations, such as LIME and SHAP, are not reliable. Specifically, we propose a novel scaffolding technique that effectively hides the biases of any given classifier by allowing an adversarial entity to craft an arbitrary desired explanation. Our approach can be used to scaffold any biased classifier in such a way that its predictions on the input data distribution still remain biased, but the post hoc explanations of the scaffolded classifier look innocuous. Using extensive evaluation with multiple real world datasets (including COMPAS), we demonstrate how extremely biased (racist) classifiers crafted by our framework can easily fool popular explanation techniques such as LIME and SHAP into generating innocuous explanations which do not reflect the underlying biases.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375830
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375830
+ER  - 
+
+TY  - CONF
+TI  - AI and Holistic Review: Informing Human Reading in College Admissions
+AU  - Alvero, A.J.
+AU  - Arthurs, Noah
+AU  - antonio, anthony lising
+AU  - Domingue, Benjamin W.
+AU  - Gebre-Medhin, Ben
+AU  - Giebel, Sonia
+AU  - Stevens, Mitchell L.
+PY  - 2020
+AB  - College admissions in the United States is carried out by a human-centered method of evaluation known as holistic review, which typically involves reading original narrative essays submitted by each applicant. The legitimacy and fairness of holistic review, which gives human readers significant discretion over determining each applicant's fitness for admission, has been repeatedly challenged in courtrooms and the public sphere. Using a unique corpus of 283,676 application essays submitted to a large, selective, state university system between 2015 and 2016, we assess the extent to which applicant demographic characteristics can be inferred from application essays. We find a relatively interpretable classifier (logistic regression) was able to predict gender and household income with high levels of accuracy. Findings suggest that data auditing might be useful in informing holistic review, and perhaps other evaluative systems, by checking potential bias in human or computational readings.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375871
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375871
+ER  - 
+
+TY  - CONF
+TI  - Robot Rights? Let's Talk about Human Welfare Instead
+AU  - Birhane, Abeba
+AU  - van Dijk, Jelle
+PY  - 2020
+AB  - The 'robot rights' debate, and its related question of 'robot responsibility', invokes some of the most polarized positions in AI ethics. While some advocate for granting robots rights on a par with human beings, others, in a stark opposition argue that robots are not deserving of rights but are objects that should be our slaves. Grounded in post-Cartesian philosophical foundations, we argue not just to deny robots 'rights', but to deny that robots, as artifacts emerging out of and mediating human being, are the kinds of things that could be granted rights in the first place. Once we see robots as mediators of human being, we can understand how the 'robots rights' debate is focused on first world problems, at the expense of urgent ethical concerns, such as machine bias, machine elicited human labour exploitation, and erosion of privacy all impacting society's least privileged individuals. We conclude that, if human being is our starting point and human welfare is the primary concern, the negative impacts emerging from machinic systems, as well as the lack of taking responsibility by people designing, selling and deploying such machines, remains the most pressing ethical discussion in AI.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375855
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375855
+ER  - 
+
+TY  - CONF
+TI  - Investigating the Impact of Inclusion in Face Recognition Training Data on Individual Face Identification
+AU  - Dulhanty, Chris
+AU  - Wong, Alexander
+PY  - 2020
+AB  - Modern face recognition systems leverage datasets containing images of hundreds of thousands of specific individuals' faces to train deep convolutional neural networks to learn an embedding space that maps an arbitrary individual's face to a vector representation of their identity. The performance of a face recognition system in face verification (1:1) and face identification (1:N) tasks is directly related to the ability of an embedding space to discriminate between identities. Recently, there has been significant public scrutiny into the source and privacy implications of large-scale face recognition training datasets such as MS-Celeb-1M and MegaFace, as many people are uncomfortable with their face being used to train dual-use technologies that can enable mass surveillance. However, the impact of an individual's inclusion in training data on a derived system's ability to recognize them has not previously been studied. In this work, we audit ArcFace, a state-of-the-art, open source face recognition system, in a large-scale face identification experiment with more than one million distractor images. We find a Rank-1 face identification accuracy of 79.71\% for individuals present in the model's training data and an accuracy of 75.73\% for those not present. This modest difference in accuracy demonstrates that face recognition systems using deep learning work better for individuals they are trained on, which has serious privacy implications when one considers all major open source face recognition training datasets do not obtain informed consent from individuals during their collection.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375875
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375875
+ER  - 
+
+TY  - CONF
+TI  - Adoption Dynamics and Societal Impact of AI Systems in Complex Networks
+AU  - Fernandes, Pedro M.
+AU  - Santos, Francisco C.
+AU  - Lopes, Manuel
+PY  - 2020
+AB  - We propose a game-theoretical model to simulate the dynamics of AI adoption in adaptive networks. This formalism allows us to understand the impact of the adoption of AI systems for society as a whole, addressing some of the concerns on the need for regulation. Using this model we study the adoption of AI systems, the distribution of the different types of AI (from selfish to utilitarian), the appearance of clusters of specific AI types, and the impact on the fitness of each individual. We suggest that the entangled evolution of individual strategy and network structure constitutes a key mechanism for the sustainability of utilitarian and human-conscious AI. Differently, in the absence of rewiring, a minority of the population can easily foster the adoption of selfish AI and gains a benefit at the expense of the remaining majority.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375847
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375847
+ER  - 
+
+TY  - CONF
+TI  - A Geometric Solution to Fair Representations
+AU  - He, Yuzi
+AU  - Burghardt, Keith
+AU  - Lerman, Kristina
+PY  - 2020
+AB  - To reduce human error and prejudice, many high-stakes decisions have been turned over to machine algorithms. However, recent research suggests that this does not remove discrimination, and can perpetuate harmful stereotypes. While algorithms have been developed to improve fairness, they typically face at least one of three shortcomings: they are not interpretable, their prediction quality deteriorates quickly compared to unbiased equivalents, and \%the methodology cannot easily extend other algorithms they are not easily transferable across models\% (e.g., methods to reduce bias in random forests cannot be extended to neural networks) . To address these shortcomings, we propose a geometric method that removes correlations between data and any number of protected variables. Further, we can control the strength of debiasing through an adjustable parameter to address the trade-off between prediction quality and fairness. The resulting features are interpretable and can be used with many popular models, such as linear regression, random forest, and multilayer perceptrons. The resulting predictions are found to be more accurate and fair compared to several state-of-the-art fair AI algorithms across a variety of benchmark datasets. Our work shows that debiasing data is a simple and effective solution toward improving fairness.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375864
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375864
+ER  - 
+
+TY  - CONF
+TI  - "The Global South is everywhere, but also always somewhere": National Policy Narratives and AI Justice
+AU  - Kak, Amba
+PY  - 2020
+AB  - There is more attention than ever on the social implications of AI. In contrast to universalized paradigms of ethics and fairness, a growing body of critical work highlights bias and discrimination in AI within the frame of social justice and human rights ("AI justice"). However, the geographical location of much of this critique in the West could be engendering its own blind spots. The global supply chain of AI (data, computational power, natural resources, labor) today replicates historical colonial inequities, and the continued subordination of Global South countries. This paper draws attention to official narratives from the Indian government and the United Nations Conference on Trade and Development (UNCTAD) advocating for the role (and place) of these regions in the AI economy. Domestically, these policies are being contested for their top-down formulation, and reflect narrow industry interests. This underscores the need to approach the political economy of AI from varying altitudes - global, national, and from the perspective of communities whose lives and livelihoods are most directly impacted in this economy. Without a deliberate effort at centering this conversation it is inevitable that mainstream discourse on AI justice will grow parallel to (and potentially undercut) demands emanating from Global South governments and communities
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375859
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375859
+ER  - 
+
+TY  - CONF
+TI  - Artificial Intelligence and Indigenous Perspectives: Protecting and Empowering Intelligent Human Beings
+AU  - Maitra, Suvradip
+PY  - 2020
+AB  - As 'control' is increasingly ceded to AI systems, potentially Artificial General Intelligence (AGI) humanity may be facing an identity crisis sooner rather than later, whereby the notion of 'intelligence' no longer remains solely our own. This paper characterizes the problem in terms of an impending loss of control and proposes a relational shift in our attitude towards AI. The shortcomings of value alignment as a solution to the problem are outlined which necessitate an extension of these principles. One such approach is considering strongly relational Indigenous epistemologies. The value of Indigenous perspectives has not been canvassed widely in the literature. Their utility becomes clear when considering the existence of well-developed epistemologies adept at accounting for the non-human, a task that defies Western anthropocentrism. Accommodating AI by considering it as part of our network is a step towards building a symbiotic relationship. Given that AGI questions our fundamental notions of what it means to have human rights, it is argued that in order to co-exist, we find assistance in Indigenous traditions such as the Hawaiian and Lakota ontologies. Lakota rituals provide comfort with the conception of non-human soul-bearer while Hawaiian stories provide possible relational schema to frame our relationship with AI.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375845
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375845
+ER  - 
+
+TY  - CONF
+TI  - The Perils of Objectivity: Towards a Normative Framework for Fair Judicial Decision-Making
+AU  - Peng, Andi
+AU  - Simard-Halm, Malina
+PY  - 2020
+AB  - Fair decision-making in criminal justice relies on the recognition and incorporation of infinite shades of grey. In this paper, we detail how algorithmic risk assessment tools are counteractive to fair legal proceedings in social institutions where desired states of the world are contested ethically and practically. We provide a normative framework for assessing fair judicial decision-making, one that does not seek the elimination of human bias from decision-making as algorithmic fairness efforts currently focus on, but instead centers on sophisticating the incorporation of individualized or discretionary bias--a process that is requisitely human. Through analysis of a case study on social disadvantage, we use this framework to provide an assessment of potential features of consideration, such as political disempowerment and demographic exclusion, that are irreconcilable by current algorithmic efforts and recommend their incorporation in future reform.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375869
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375869
+ER  - 
+
+TY  - CONF
+TI  - Balancing the Tradeoff Between Clustering Value and Interpretability
+AU  - Saisubramanian, Sandhya
+AU  - Galhotra, Sainyam
+AU  - Zilberstein, Shlomo
+PY  - 2020
+AB  - Graph clustering groups entities -- the vertices of a graph -- based on their similarity, typically using a complex distance function over a large number of features. Successful integration of clustering approaches in automated decision-support systems hinges on the interpretability of the resulting clusters. This paper addresses the problem of generating interpretable clusters, given features of interest that signify interpretability to an end-user, by optimizing interpretability in addition to common clustering objectives. We propose a β-interpretable clustering algorithm that ensures that at least β fraction of nodes in each cluster share the same feature value. The tunable parameter β is user-specified. We also present a more efficient algorithm for scenarios with β!=!1$ and analyze the theoretical guarantees of the two algorithms. Finally, we empirically demonstrate the benefits of our approaches in generating interpretable clusters using four real-world datasets. The interpretability of the clusters is complemented by generating simple explanations denoting the feature values of the nodes in the clusters, using frequent pattern mining.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375843
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375843
+ER  - 
+
+TY  - CONF
+TI  - Data Augmentation for Discrimination Prevention and Bias Disambiguation
+AU  - Sharma, Shubham
+AU  - Zhang, Yunfeng
+AU  - R\'{\i}os Aliaga, Jes\'{u}s M.
+AU  - Bouneffouf, Djallel
+AU  - Muthusamy, Vinod
+AU  - Varshney, Kush R.
+PY  - 2020
+AB  - Machine learning models are prone to biased decisions due to biases in the datasets they are trained on. In this paper, we introduce a novel data augmentation technique to create a fairer dataset for model training that could also lend itself to understanding the type of bias existing in the dataset i.e. if bias arises from a lack of representation for a particular group (sampling bias) or if it arises because of human bias reflected in the labels (prejudice based bias). Given a dataset involving a protected attribute with a privileged and unprivileged group, we create an "ideal world'' dataset: for every data sample, we create a new sample having the same features (except the protected attribute(s)) and label as the original sample but with the opposite protected attribute value. The synthetic data points are sorted in order of their proximity to the original training distribution and added successively to the real dataset to create intermediate datasets. We theoretically show that two different notions of fairness: statistical parity difference (independence) and average odds difference (separation) always change in the same direction using such an augmentation. We also show submodularity of the proposed fairness-aware augmentation approach that enables an efficient greedy algorithm. We empirically study the effect of training models on the intermediate datasets and show that this technique reduces the two bias measures while keeping the accuracy nearly constant for three datasets. We then discuss the implications of this study on the disambiguation of sample bias and prejudice based bias and discuss how pre-processing techniques should be evaluated in general. The proposed method can be used by policy makers who want to use unbiased datasets to train machine learning models for their applications to add a subset of synthetic points to an extent that they are comfortable with to mitigate unwanted bias.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375865
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375865
+ER  - 
+
+TY  - CONF
+TI  - Why Reliabilism Is not Enough: Epistemic and Moral Justification in Machine Learning
+AU  - Smart, Andrew
+AU  - James, Larry
+AU  - Hutchinson, Ben
+AU  - Wu, Simone
+AU  - Vallor, Shannon
+PY  - 2020
+AB  - In this paper we argue that standard calls for explainability that focus on the epistemic inscrutability of black-box machine learning models may be misplaced. If we presume, for the sake of this paper, that machine learning can be a source of knowledge, then it makes sense to wonder what kind of em justification it involves. How do we rationalize on the one hand the seeming justificatory black box with the observed wide adoption of machine learning? We argue that, in general, people implicitly adoptreliabilism regarding machine learning. Reliabilism is an epistemological theory of epistemic justification according to which a belief is warranted if it has been produced by a reliable process or method citegoldman2012reliabilism. We argue that, in cases where model deployments require em moral justification, reliabilism is not sufficient, and instead justifying deployment requires establishing robust human processes as a moral "wrapper'' around machine outputs. We then suggest that, in certain high-stakes domains with moral consequences, reliabilism does not provide another kind of necessary justification---moral justification. Finally, we offer cautions relevant to the (implicit or explicit) adoption of the reliabilist interpretation of machine learning.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375866
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375866
+ER  - 
+
+TY  - CONF
+TI  - Joint Optimization of AI Fairness and Utility: A Human-Centered Approach
+AU  - Zhang, Yunfeng
+AU  - Bellamy, Rachel
+AU  - Varshney, Kush
+PY  - 2020
+AB  - Today, AI is increasingly being used in many high-stakes decision-making applications in which fairness is an important concern. Already, there are many examples of AI being biased and making questionable and unfair decisions. The AI research community has proposed many methods to measure and mitigate unwanted biases, but few of them involve inputs from human policy makers. We argue that because different fairness criteria sometimes cannot be simultaneously satisfied, and because achieving fairness often requires sacrificing other objectives such as model accuracy, it is key to acquire and adhere to human policy makers' preferences on how to make the tradeoff among these objectives. In this paper, we propose a framework and some exemplar methods for eliciting such preferences and for optimizing an AI model according to these preferences.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375862
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375862
+ER  - 
+
+TY  - CONF
+TI  - Deepfakes for Medical Video De-Identification: Privacy Protection and Diagnostic Information Preservation
+AU  - Zhu, Bingquan
+AU  - Fang, Hao
+AU  - Sui, Yanan
+AU  - Li, Luming
+PY  - 2020
+AB  - Data sharing for medical research has been difficult as open-sourcing clinical data may violate patient privacy. Traditional methods for face de-identification wipe out facial information entirely, making it impossible to analyze facial behavior. Recent advancements on whole-body keypoints detection also rely on facial input to estimate body keypoints. Both facial and body keypoints are critical in some medical diagnoses, and keypoints invariability after de-identification is of great importance. Here, we propose a solution using deepfake technology, the face swapping technique. While this swapping method has been criticized for invading privacy and portraiture right, it could conversely protect privacy in medical video: patients' faces could be swapped to a proper target face and become unrecognizable. However, it remained an open question that to what extent the swapping de-identification method could affect the automatic detection of body keypoints. In this study, we apply deepfake technology to Parkinson's disease examination videos to de-identify subjects, and quantitatively show that: face-swapping as a de-identification approach is reliable, and it keeps the keypoints almost invariant, significantly better than traditional methods. This study proposes a pipeline for video de-identification and keypoint preservation, clearing up some ethical restrictions for medical data sharing. This work could make open-source high quality medical video datasets more feasible and promote future medical research that benefits our society.
+T2  - Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3375627.3375849
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3375627.3375849
+ER  - 
+

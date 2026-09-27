@@ -1,0 +1,173 @@
+TY  - JOUR
+TI  - Modeling Noisy Annotations for Crowd Counting
+AU  - Jia Wan
+AU  - Antoni B. Chan
+PY  - 2020
+AB  - The annotation noise in crowd counting is not modeled in traditional crowd counting algorithms based on crowd density maps. In this paper, we first model the annotation noise using a random variable with Gaussian distribution, and derive the pdf of the crowd density value for each spatial location in the image. We then approximate the joint distribution of the density values (i.e., the distribution of density maps) with a full covariance multivariate Gaussian density, and derive a low-rank approximate for tractable implementation. We use our loss function to train a crowd density map estimator and achieve state-of-the-art performance on three large-scale crowd counting datasets, which confirms its effectiveness.  Examination of the predictions of the trained model shows that it can correctly predict the locations of people in spite of the noisy training data, which demonstrates the robustness of our loss function to annotation noise.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/22bb543b251c39ccdad8063d486987bb-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Dual T: Reducing Estimation Error for Transition Matrix in Label-noise Learning
+AU  - Yu Yao
+AU  - Tongliang Liu
+AU  - Bo Han
+AU  - Mingming Gong
+AU  - Jiankang Deng
+AU  - Gang Niu
+AU  - Masashi Sugiyama
+PY  - 2020
+AB  - The transition matrix, denoting the transition relationship from clean labels to noisy labels, is essential to build statistically consistent classifiers in label-noise learning. Existing methods for estimating the transition matrix rely heavily on estimating the noisy class posterior. However, the estimation error for noisy class posterior could be large because of the randomness of label noise.  The estimation error would lead the transition matrix to be poorly estimated. Therefore in this paper, we aim to solve this problem by exploiting the divide-and-conquer paradigm. Specifically, we introduce an intermediate class to avoid directly estimating the noisy class posterior. By this intermediate class, the original transition matrix can then be factorized into the product of two easy-to-estimated transition matrices. We term the proposed method as the dual $T$-estimator. Both theoretical analyses and empirical results illustrate the effectiveness of the dual $T$-estimator for estimating transition matrices, leading to better classification performances.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/512c5cad6c37edb98ae91c8a76c3a291-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Adaptive Learning of Rank-One Models for Efficient Pairwise Sequence Alignment
+AU  - Govinda Kamath
+AU  - Tavor Baharav
+AU  - Ilan Shomorony
+PY  - 2020
+AB  - Pairwise alignment of DNA sequencing data is a ubiquitous task in bioinformatics and typically represents a heavy computational burden. State-of-the-art approaches to speed up this task use hashing to identify short segments (k-mers) that are shared by pairs of reads, which can then be used to estimate alignment scores. However, when the number of reads is large, accurately estimating alignment scores for all pairs is still very costly. Moreover, in practice, one is only interested in identifying pairs of reads with large alignment scores. In this work, we propose a new approach to pairwise alignment estimation based on two key new ingredients. The first ingredient is to cast the problem of pairwise alignment estimation under a general framework of rank-one crowdsourcing models, where the workers' responses correspond to k-mer hash collisions. These models can be accurately solved via a spectral decomposition of the response matrix. The second ingredient is to utilise a multi-armed bandit algorithm to adaptively refine this spectral estimator only for read pairs that are likely to have large alignments. The resulting algorithm iteratively performs a spectral decomposition of the response matrix for adaptively chosen subsets of the read pairs.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/54e0e46b6647aa736c13ef9d09eab432-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Part-dependent Label Noise: Towards Instance-dependent Label Noise
+AU  - Xiaobo Xia
+AU  - Tongliang Liu
+AU  - Bo Han
+AU  - Nannan Wang
+AU  - Mingming Gong
+AU  - Haifeng Liu
+AU  - Gang Niu
+AU  - Dacheng Tao
+AU  - Masashi Sugiyama
+PY  - 2020
+AB  - Learning with the \textit{instance-dependent} label noise is challenging, because it is hard to model such real-world noise. Note that there are psychological and physiological evidences showing that we humans perceive instances by decomposing them into parts. Annotators are therefore more likely to annotate instances based on the parts rather than the whole instances, where a wrong mapping from parts to classes may cause the instance-dependent label noise. Motivated by this human cognition, in this paper, we approximate the instance-dependent label noise by exploiting \textit{part-dependent} label noise. Specifically, since instances can be approximately reconstructed by a combination of parts, we approximate the instance-dependent \textit{transition matrix} for an instance by a combination of the transition matrices for the parts of the instance. The transition matrices for parts can be learned by exploiting anchor points (i.e., data points that belong to a specific class almost surely). Empirical evaluations on synthetic and real-world datasets demonstrate our method is superior to the state-of-the-art approaches for learning from the instance-dependent label noise.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/5607fe8879e4fd269e88387e8cb30b7e-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Rel3D: A Minimally Contrastive Benchmark for Grounding Spatial Relations in 3D
+AU  - Ankit Goyal
+AU  - Kaiyu Yang
+AU  - Dawei Yang
+AU  - Jia Deng
+PY  - 2020
+AB  - Understanding spatial relations (e.g., laptop on table) in visual input is important for both humans and robots. Existing datasets are insufficient as they lack large-scale, high-quality 3D ground truth information, which is critical for learning spatial relations. In this paper, we fill this gap by constructing Rel3D: the first large-scale, human-annotated dataset for grounding spatial relations in 3D. Rel3D enables quantifying the effectiveness of 3D information in predicting spatial relations on large-scale human data. Moreover, we propose minimally contrastive data collection---a novel crowdsourcing method for reducing dataset bias. The 3D scenes in our dataset come in minimally contrastive pairs: two scenes in a pair are almost identical, but a spatial relation holds in one and fails in the other. We empirically validate that minimally contrastive examples can diagnose issues with current relation detection models as well as lead to sample-efficient training. Code and data are available at https://github.com/princeton-vl/Rel3D.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/76dc611d6ebaafc66cc0879c71b5db5c-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Coresets for Robust Training of Deep Neural Networks against Noisy Labels
+AU  - Baharan Mirzasoleiman
+AU  - Kaidi Cao
+AU  - Jure Leskovec
+PY  - 2020
+AB  - Modern neural networks have the capacity to overfit noisy labels frequently found in real-world datasets. Although great progress has been made, existing techniques are very limited in providing theoretical guarantees for the performance of the neural networks trained with noisy labels. To tackle this challenge, we propose a novel approach with strong theoretical guarantees for robust training of neural networks trained with noisy labels. The key idea behind our method is to select subsets of clean data points that provide an approximately low-rank Jacobian matrix. We then prove that gradient descent applied to the subsets cannot overfit the noisy labels, without regularization or early stopping. Our extensive experiments corroborate our theory and demonstrate that deep networks trained on our subsets achieve a significantly superior performance, e.g., 7% increase in accuracy on mini Webvision with 50% noisy labels, compared to state-of-the art.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/8493eeaccb772c0878f99d60a0bd2bb3-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Quantifying Learnability and Describability of Visual Concepts Emerging in Representation Learning
+AU  - Iro Laina
+AU  - Ruth Fong
+AU  - Andrea Vedaldi
+PY  - 2020
+AB  - The increasing impact of black box models, and particularly of unsupervised ones, comes with an increasing interest in tools to understand and interpret them. In this paper, we consider in particular how to characterise visual groupings discovered automatically by deep neural networks, starting with state-of-the-art clustering methods. In some cases, clusters readily correspond to an existing labelled dataset. However, often they do not, yet they still maintain an "intuitive interpretability''. We introduce two concepts, visual learnability and describability, that can be used to quantify the interpretability of arbitrary image groupings, including unsupervised ones. The idea is to measure (1) how well humans can learn to reproduce a grouping by measuring their ability to generalise from a small set of visual examples (learnability) and (2) whether the set of visual examples can be replaced by a succinct, textual description (describability). By assessing human annotators as classifiers, we remove the subjective quality of existing evaluation metrics. For better scalability, we finally propose a class-level captioning system to generate descriptions for visual groupings automatically and compare it to human annotators using the describability metric.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/98dce83da57b0395e163467c9dae521b-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Disentangling Human Error from Ground Truth in Segmentation of Medical Images
+AU  - Le Zhang
+AU  - Ryutaro Tanno
+AU  - Mou-Cheng Xu
+AU  - Chen Jin
+AU  - Joseph Jacob
+AU  - Olga Cicarrelli
+AU  - Frederik Barkhof
+AU  - Daniel Alexander
+PY  - 2020
+AB  - Recent years have seen increasing use of supervised learning methods for segmentation tasks. However, the predictive performance of these algorithms depends on the quality of labels. This problem is particularly pertinent in the medical image domain, where both the annotation cost and inter-observer variability are high. In a typical label acquisition process, different human experts provide their estimates of the ``true'' segmentation labels under the influence of their own biases and competence levels. Treating these noisy labels blindly as the ground truth limits the performance that automatic segmentation algorithms can achieve. In this work, we present a method for jointly learning, from purely noisy observations alone, the reliability of individual annotators and the true segmentation label distributions, using two coupled CNNs. The separation of the two is achieved by encouraging the estimated annotators to be maximally unreliable while achieving high fidelity with the noisy training data. We first define a toy segmentation dataset based on MNIST and study the properties of the proposed algorithm. We then demonstrate the utility of the method on three public medical imaging segmentation datasets with simulated (when necessary) and real diverse annotations: 1) MSLSC (multiple-sclerosis lesions); 2) BraTS (brain tumours); 3) LIDC-IDRI (lung abnormalities). In all cases, our method outperforms competing methods and relevant baselines particularly in cases where the number of annotations is small and the amount of disagreement is large. The experiments also show strong ability to capture the complex spatial characteristics of annotators' mistakes. Our code is available at \url{https://github.com/moucheng2017/LearnNoisyLabelsMedicalImages}.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/b5d17ed2b502da15aa727af0d51508d6-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Beta R-CNN: Looking into Pedestrian Detection from Another Perspective
+AU  - Zixuan Xu
+AU  - Banghuai Li
+AU  - Ye Yuan
+AU  - Anhong Dang
+PY  - 2020
+AB  - Recently significant progress has been made in pedestrian detection, but it remains challenging to achieve high performance in occluded and crowded scenes. It could be mostly attributed to the widely used representation of pedestrians, i.e., 2Daxis-aligned bounding box, which just describes the approximate location and size of the object. Bounding box models the object as a uniform distribution within the boundary, making pedestrians indistinguishable in occluded and crowded scenes due to much noise. To eliminate the problem, we propose a novel representation based on 2D beta distribution, named Beta Representation. It pictures a pedestrianby explicitly constructing the relationship between full-body and visible boxes, and emphasizes the center of visual mass by assigning different probability valuesto  pixels.   As  a  result,  Beta  Representation  is  much  better  for  distinguishing highly-overlapped instances in crowded scenes with a new NMS strategy named BetaNMS. What’s more, to fully exploit Beta Representation, a novel pipeline Beta R-CNN equipped with BetaHead and BetaMask is proposed, leading to high detection performance in occluded and crowded scenes.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/e6b4b2a746ed40e1af829d1fa82daa10-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Early-Learning Regularization Prevents Memorization of Noisy Labels
+AU  - Sheng Liu
+AU  - Jonathan Niles-Weed
+AU  - Narges Razavian
+AU  - Carlos Fernandez-Granda
+PY  - 2020
+AB  - We propose a novel framework to perform classification via deep learning in the presence of noisy annotations. When trained on noisy labels, deep neural networks have been observed to first fit the training data with clean labels during an "early learning" phase, before eventually memorizing the examples with false labels. We prove that early learning and memorization are fundamental phenomena in high-dimensional classification tasks, even in simple linear models, and give a theoretical explanation in this setting. Motivated by these findings, we develop a new technique for noisy classification tasks, which exploits the progress of the early learning phase. In contrast with existing approaches, which use the model output during early learning to detect the examples with clean labels, and either ignore or attempt to correct the false labels, we take a different route and instead capitalize on early learning via regularization. There are two key elements to our approach. First, we leverage semi-supervised learning techniques to produce target probabilities based on the model outputs. Second, we design a regularization term that steers the model towards these targets, implicitly preventing memorization of the false labels. The resulting framework is shown to provide robustness to noisy annotations on several standard benchmarks and real-world datasets, where it achieves results comparable to the state of the art.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/ea89621bee7c88b2c5be6681c8ef4906-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Knowledge Distillation in Wide Neural Networks: Risk Bound, Data Efficiency and Imperfect Teacher
+AU  - Guangda Ji
+AU  - Zhanxing Zhu
+PY  - 2020
+AB  - Knowledge distillation is a strategy of training a student network with guide of the soft output from a teacher network. It has been a successful method of model compression and knowledge transfer. However, currently knowledge distillation lacks a convincing theoretical understanding. On the other hand, recent finding on neural tangent kernel enables us to approximate a wide neural network with a linear model of the network's random features.   In this paper, we theoretically analyze the knowledge distillation of a wide neural network. First we provide a transfer risk bound for the linearized model of the network. Then we propose a metric of the task's training difficulty, called data inefficiency. Based on this metric, we show that for a perfect teacher, a high ratio of teacher's soft labels can be beneficial. Finally, for the case of imperfect teacher, we find that hard labels can correct teacher's wrong prediction, which explains the practice of mixing hard and soft labels.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/ef0d3930a7b6c95bd2b32ed45989c61f-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Linearly Converging Error Compensated SGD
+AU  - Eduard Gorbunov
+AU  - Dmitry Kovalev
+AU  - Dmitry Makarenko
+AU  - Peter Richtarik
+PY  - 2020
+AB  - In this paper, we propose a unified analysis of variants of distributed SGD with arbitrary compressions and delayed updates. Our framework is general enough to cover different variants of quantized SGD, Error-Compensated SGD (EC-SGD), and SGD with delayed updates (D-SGD). Via single theorem, we derive the complexity results for all the methods that fit our framework. For the existing methods, this theorem gives the best-known complexity results. Moreover, using our general scheme, we develop new variants of SGD that combine variance reduction or arbitrary sampling with error feedback and quantization and derive the convergence rates for these methods beating the state-of-the-art results. In order to illustrate the strength of our framework, we develop 16 new methods that fit this. In particular, we propose the first method called EC-SGD-DIANA that is based on error-feedback for biased compression operator and quantization of gradient differences and prove the convergence guarantees showing that EC-SGD-DIANA converges to the exact optimum asymptotically in expectation with constant learning rate for both convex and strongly convex objectives when workers compute full gradients of their loss functions. Moreover, for the case when the loss function of the worker has the form of finite sum, we modified the method and got a new one called EC-LSVRG-DIANA which is the first distributed stochastic method with error feedback and variance reduction that converges to the exact optimum asymptotically in expectation with constant learning rate.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/ef9280fbc5317f17d480e4d4f61b3751-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - A Topological Filter for Learning with Label Noise
+AU  - Pengxiang Wu
+AU  - Songzhu Zheng
+AU  - Mayank Goswami
+AU  - Dimitris Metaxas
+AU  - Chao Chen
+PY  - 2020
+AB  - Noisy labels can impair the performance of deep neural networks. To tackle this problem, in this paper, we propose a new method for filtering label noise. Unlike most existing methods relying on the posterior probability of a noisy classifier, we focus on the much richer spatial behavior of data in the latent representational space. By leveraging the high-order topological information of data, we are able to collect most of the clean data and train a high-quality model. Theoretically we prove that this topological approach is guaranteed to collect the clean data with high probability. Empirical results show that our method outperforms the state-of-the-arts and is robust to a broad spectrum of noise types and levels.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/f4e3ce3e7b581ff32e40968298ba013d-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Distributed Training with Heterogeneous Data: Bridging Median- and Mean-Based Algorithms
+AU  - Xiangyi Chen
+AU  - Tiancong Chen
+AU  - Haoran Sun
+AU  - Steven Z. Wu
+AU  - Mingyi Hong
+PY  - 2020
+AB  - Recently, there is a growing interest in the study of median-based algorithms for distributed non-convex optimization. Two prominent examples include signSGD with majority vote, an effective approach for communication reduction via 1-bit compression on the local gradients, and medianSGD, an algorithm recently proposed to ensure robustness against Byzantine workers. The convergence analyses for these algorithms critically rely on the assumption that all the distributed data are drawn iid from the same distribution. However, in applications such as Federated Learning, the data across different nodes or machines can be inherently heterogeneous, which violates such an iid assumption. This work analyzes signSGD and medianSGD in distributed settings with heterogeneous data. We show that these algorithms are non-convergent whenever there is some disparity between the expected median and mean over the local gradients. To overcome this gap, we provide a novel gradient correction mechanism that perturbs the local gradients with noise, which we show can provably close the gap between mean and median of the gradients. The proposed methods largely preserve nice properties of these median-based algorithms, such as the low per-iteration communication complexity of signSGD, and further enjoy global convergence to stationary solutions. Our perturbation technique can be of independent interest when one wishes to estimate mean through a median estimator.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/f629ed9325990b10543ab5946c1362fb-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Multi-agent Trajectory Prediction with Fuzzy Query Attention
+AU  - Nitin Kamra
+AU  - Hao Zhu
+AU  - Dweep Kumarbhai Trivedi
+AU  - Ming Zhang
+AU  - Yan Liu
+PY  - 2020
+AB  - Trajectory prediction for scenes with multiple agents and entities is a challenging problem in numerous domains such as traffic prediction, pedestrian tracking and path planning. We present a general architecture to address this challenge which models the crucial inductive biases of motion, namely, inertia, relative motion, intents and interactions. Specifically, we propose a relational model to flexibly model interactions between agents in diverse environments. Since it is well-known that human decision making is fuzzy by nature, at the core of our model lies a novel attention mechanism which models interactions by making continuous-valued (fuzzy) decisions and learning the corresponding responses. Our architecture demonstrates significant performance gains over existing state-of-the-art predictive models in diverse domains such as human crowd trajectories, US freeway traffic, NBA sports data and physics datasets. We also present ablations and augmentations to understand the decision-making process and the source of gains in our model.
+UR  - https://papers.nips.cc/paper_files/paper/2020/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html
+ER  - 
+

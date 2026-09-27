@@ -1,0 +1,234 @@
+TY  - JOUR
+TI  - Semi-supervised Active Linear Regression
+AU  - Nived Rajaraman
+AU  - Fnu Devvrit
+AU  - Pranjal Awasthi
+PY  - 2022
+AB  - Labeled data often comes at a high cost as it may require recruiting human labelers or running costly experiments. At the same time, in many practical scenarios, one already has access to a partially labeled, potentially biased dataset that can help with the learning task at hand. Motivated by such settings, we formally initiate a study of ``semi-supervised active learning'' through the frame of linear regression. Here, the learner has access to a dataset $X \in \mathbb{R}^{(n_{\text{un}}+n_{\text{lab}}) \times d}$ composed of $n_{\text{un}}$ unlabeled examples that a learner can actively query, and $n_{\text{lab}}$ examples labeled a priori. Denoting the true labels by $Y \in \mathbb{R}^{n_{\text{un}} + n_{\text{lab}}}$, the learner's objective is to find $\widehat{\beta} \in \mathbb{R}^d$ such that,$$\| X \widehat{\beta} - Y \|_2^2 \le (1 + \epsilon) \min_{\beta \in \mathbb{R}^d} \| X \beta - Y \|_2^2$$while querying the labels of as few unlabeled points as possible. In this paper, we introduce an instance dependent parameter called the reduced rank, denoted $\text{R}_X$, and propose an efficient algorithm with query complexity $O(\text{R}_X/\epsilon)$. This result directly implies improved upper bounds for two important special cases: $(i)$ active ridge regression, and $(ii)$ active kernel ridge regression, where the reduced-rank equates to the ``statistical dimension'', $\textsf{sd}_\lambda$ and ``effective dimension'', $d_\lambda$ of the problem respectively, where $\lambda \ge 0$ denotes the regularization parameter. Finally, we introduce a distributional version of the problem as a special case of the agnostic formulation we consider earlier; here, for every $X$, we prove a matching instance-wise lower bound of $\Omega (\text{R}_X / \epsilon)$ on the query complexity of any algorithm.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/08fe4b20d554296e503f5a43795c78d6-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Generalization Bounds for Stochastic Gradient Descent via Localized $\varepsilon$-Covers
+AU  - Sejun Park
+AU  - Umut Simsekli
+AU  - Murat A Erdogdu
+PY  - 2022
+AB  - In this paper, we propose a new covering technique localized for the trajectories of SGD. This localization provides an algorithm-specific complexity measured by the covering number, which can have dimension-independent cardinality in contrast to standard uniform covering arguments that result in exponential dimension dependency. Based on this localized construction, we show that if the objective function is a finite perturbation of a piecewise strongly convex and smooth function with $P$ pieces, i.e., non-convex and non-smooth in general, the generalization error can be upper bounded by $O(\sqrt{(\log n\log(nP))/n})$, where $n$ is the number of data samples. In particular, this rate is independent of dimension and does not require early stopping and decaying step size. Finally, we employ these results in various contexts and derive generalization bounds for multi-index linear models, multi-class support vector machines, and $K$-means clustering for both hard and soft label setups, improving the previously known state-of-the-art rates.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/129033c7c08be683059559e8d6bfd460-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - One for All: Simultaneous Metric and Preference Learning over Multiple Users
+AU  - Gregory Canal
+AU  - Blake Mason
+AU  - Ramya Korlakai Vinayak
+AU  - Robert Nowak
+PY  - 2022
+AB  - This paper investigates simultaneous preference and metric learning from a crowd of respondents. A set of items represented by $d$-dimensional feature vectors and paired comparisons of the form ``item $i$ is preferable to item $j$'' made by each user is given. Our model jointly learns a distance metric that characterizes the crowd's general measure of item similarities along with a latent ideal point for each user reflecting their individual preferences. This model has the flexibility to capture individual preferences, while enjoying a metric learning sample cost that is amortized over the crowd. We first study this problem in a noiseless, continuous response setting (i.e., responses equal to differences of item distances) to understand the fundamental limits of learning. Next, we establish prediction error guarantees for noisy, binary measurements such as may be collected from human respondents, and show how the sample complexity improves when the underlying metric is low-rank. Finally, we establish recovery guarantees under assumptions on the response distribution. We demonstrate the performance of our model on both simulated data and on a dataset of color preference judgements across a large number of users.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/1fd4367793bcd3ad38a0b820fcc1b815-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Divide and Contrast: Source-free Domain Adaptation via Adaptive Contrastive Learning
+AU  - Ziyi Zhang
+AU  - Weikai Chen
+AU  - Hui Cheng
+AU  - Zhen Li
+AU  - Siyuan Li
+AU  - Liang Lin
+AU  - Guanbin Li
+PY  - 2022
+AB  - We investigate a practical domain adaptation task, called source-free domain adaptation (SFUDA), where the source pretrained model is adapted to the target domain without access to the source data. Existing techniques mainly leverage self-supervised pseudo-labeling to achieve class-wise global alignment [1] or rely on local structure extraction that encourages the feature consistency among neighborhoods [2]. While impressive progress has been made, both lines of methods have their own drawbacks – the “global” approach is sensitive to noisy labels while the “local” counterpart suffers from the source bias. In this paper, we present Divide and Contrast (DaC), a new paradigm for SFUDA that strives to connect the good ends of both worlds while bypassing their limitations. Based on the prediction confidence of the source model, DaC divides the target data into source-like and target-specific samples, where either group of samples is treated with tailored goals under an adaptive contrastive learning framework. Specifically, the source-like samples are utilized for learning global class clustering thanks to their relatively clean labels. The more noisy target-specific data are harnessed at the instance level for learning the intrinsic local structures. We further align the source-like domain with the target-specific samples using a memory bank-based Maximum Mean Discrepancy (MMD) loss to reduce the distribution mismatch. Extensive experiments on VisDA, Office-Home, and the more challenging DomainNet have verified the superior performance of DaC over current state-of-the-art approaches. The code is available at https://github.com/ZyeZhang/DaC.git.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/215aeb07b5996c969c0123c3c6ee8f54-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Test Time Adaptation via Conjugate Pseudo-labels
+AU  - Sachin Goyal
+AU  - Mingjie Sun
+AU  - Aditi Raghunathan
+AU  - J. Zico Kolter
+PY  - 2022
+AB  - Test-time adaptation (TTA) refers to adapting neural networks to distribution shifts, specifically with just access to unlabeled test samples from the new domain at test-time. Prior TTA methods optimize over unsupervised objectives such as the entropy of model predictions in TENT (Wang et al., 2021), but it is unclear what exactly makes a good TTA loss. In this paper, we start by presenting a surprising phenomenon: if we attempt to $\textit{meta-learn}$ the ``best'' possible TTA loss over a wide class of functions, then we recover a function that is $\textit{remarkably}$ similar to (a temperature-scaled version of) the softmax-entropy employed by TENT. This only holds, however, if the classifier we are adapting is trained via cross-entropy loss; if the classifier is trained via squared loss, a different ``best'' TTA loss emerges.To explain this phenomenon, we analyze test-time adaptation through the lens of the training losses's $\textit{convex conjugate}$.  We show that under natural conditions, this (unsupervised) conjugate function can be viewed as a good local approximation to the original supervised loss and indeed, it recovers the ``best'' losses found by meta-learning. This leads to a generic recipe than be used to find  a good TTA loss for $\textit{any}$ given supervised training loss function of a general class. Empirically, our approach dominates other TTA alternatives over a wide range of domain adaptation benchmarks. Our approach is particularly of interest when applied to classifiers trained with $\textit{novel}$ loss functions, e.g., the recently-proposed PolyLoss (Leng et al., 2022) function, where it differs substantially from (and outperforms) an entropy-based loss. Further, we show that our conjugate based approach can also be interpreted as a kind of self-training using a very specific soft label, which we refer to as the $\textit{conjugate pseudo-label}$. Overall, therefore, our method provides a broad framework for better understanding and improving test-time adaptation. Code is available at https://github.com/locuslab/tta_conjugate.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/28e9eff897f98372409b40ae1ed3ea4c-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Class-Dependent Label-Noise Learning with Cycle-Consistency Regularization
+AU  - De Cheng
+AU  - Yixiong Ning
+AU  - Nannan Wang
+AU  - Xinbo Gao
+AU  - Heng Yang
+AU  - Yuxuan Du
+AU  - Bo Han
+AU  - Tongliang Liu
+PY  - 2022
+AB  - In label-noise learning, estimating the transition matrix plays an important role in building statistically consistent classifier. Current state-of-the-art consistent estimator for the transition matrix has been developed under the newly proposed sufficiently scattered assumption, through incorporating the minimum volume constraint of the transition matrix T into label-noise learning. To compute the volume of  T, it heavily relies on the estimated  noisy class posterior. However, the estimation error of the noisy class posterior could usually be large as deep learning methods tend to easily overfit the noisy labels. Then, directly minimizing the volume of such obtained T could lead the transition matrix to be poorly estimated.  Therefore, how to reduce the side-effects of the inaccurate noisy class posterior has become the bottleneck of such method. In this paper, we creatively propose to estimate the transition matrix under the forward-backward cycle-consistency regularization, of which we have greatly reduced the dependency of estimating the transition matrix T on the noisy class posterior. We show that the cycle-consistency regularization helps to minimize the volume of the transition matrix T indirectly without exploiting the estimated noisy class posterior, which could further encourage the estimated transition matrix T to converge to its optimal solution. Extensive experimental results consistently justify the effectiveness of the proposed method, on reducing the estimation error of the transition matrix and greatly boosting the classification performance.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/47f75e809409709c6d226ab5ca0c9703-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Multi-LexSum: Real-world Summaries of Civil Rights Lawsuits at Multiple Granularities
+AU  - Zejiang Shen
+AU  - Kyle Lo
+AU  - Lauren Yu
+AU  - Nathan Dahlberg
+AU  - Margo Schlanger
+AU  - Doug Downey
+PY  - 2022
+AB  - With the advent of large language models, methods for abstractive summarization have made great strides, creating potential for use in applications to aid knowledge workers processing unwieldy document collections. One such setting is the Civil Rights Litigation Clearinghouse (CRLC, https://clearinghouse.net), which posts information about large-scale civil rights lawsuits, serving lawyers, scholars, and the general public. Today, summarization in the CRLC requires extensive training of lawyers and law students who spend hours per case understanding multiple relevant documents in order to produce high-quality summaries of key events and outcomes. Motivated by this ongoing real-world summarization effort, we introduce Multi-LexSum, a collection of 9,280 expert-authored summaries drawn from ongoing CRLC writing. Multi-LexSum presents a challenging multi-document summarization task given the length of the source documents, often exceeding two hundred pages per case. Furthermore, Multi-LexSum is distinct from other datasets in its multiple target summaries, each at a different granularity (ranging from one-sentence "extreme" summaries to multi-paragraph narrations of over five hundred words). We present extensive analysis demonstrating that despite the high-quality summaries in the training data (adhering to strict content and style guidelines), state-of-the-art summarization models perform poorly on this task. We release Multi-LexSum for further summarization research and to facilitate the development of applications to assist in the CRLC's mission at https://multilexsum.github.io.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/552ef803bef9368c29e53c167de34b55-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Video compression dataset and benchmark of learning-based video-quality metrics
+AU  - Anastasia Antsiferova
+AU  - Sergey Lavrushkin
+AU  - Maksim Smirnov
+AU  - Aleksandr Gushchin
+AU  - Dmitriy Vatolin
+AU  - Dmitriy Kulikov
+PY  - 2022
+AB  - Video-quality measurement is a critical task in video processing. Nowadays, many implementations of new encoding standards - such as AV1, VVC, and LCEVC - use deep-learning-based decoding algorithms with perceptual metrics that serve as optimization objectives. But investigations of the performance of modern video- and image-quality metrics commonly employ videos compressed using older standards, such as AVC. In this paper, we present a new benchmark for video-quality metrics that evaluates video compression. It is based on a new dataset consisting of about 2,500 streams encoded using different standards, including AVC, HEVC, AV1, VP9, and VVC.  Subjective scores were collected using crowdsourced pairwise comparisons. The list of evaluated metrics includes recent ones based on machine learning and neural networks. The results demonstrate that new no-reference metrics exhibit high correlation with subjective quality and approach the capability of top full-reference metrics.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/59ac9f01ea2f701310f3d42037546e4a-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - EF-BV: A Unified Theory of Error Feedback and Variance Reduction Mechanisms for Biased and Unbiased Compression in Distributed Optimization
+AU  - Laurent Condat
+AU  - Kai Yi
+AU  - Peter Richtarik
+PY  - 2022
+AB  - In distributed or federated optimization and learning, communication between the different computing units is often the bottleneck and gradient compression is widely used to reduce the number of bits sent within each communication round of iterative methods. There are two classes of compression operators and separate algorithms making use of them. In the case of unbiased random compressors with bounded variance (e.g., rand-k), the DIANA algorithm of Mishchenko et al. (2019), which implements a variance reduction technique for handling the variance introduced by compression, is the current state of the art. In the case of biased and contractive compressors (e.g., top-k), the EF21 algorithm of Richtárik et al. (2021), which instead implements an error-feedback mechanism, is the current state of the art. These two classes of compression schemes and algorithms are distinct, with different analyses and proof techniques. In this paper, we unify them into a single framework and propose a new algorithm, recovering DIANA and EF21 as particular cases. Our general approach works with a new, larger class of compressors, which has two parameters, the bias and the variance, and includes unbiased and biased compressors as particular cases. This allows us to inherit the best of the two worlds: like EF21 and unlike DIANA, biased compressors, like top-k, whose good performance in practice is recognized, can be used. And like DIANA and unlike EF21, independent randomness at the compressors allows to mitigate the effects of compression, with the convergence rate improving when the number of parallel workers is large. This is the first time that an algorithm with all these features is proposed. We prove its linear convergence under certain conditions. Our approach takes a step towards better understanding of two so-far distinct worlds of communication-efficient distributed learning.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/6fb9ea5197c0b8ece8a64220fb82cdfe-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Lower Bounds and Nearly Optimal Algorithms in Distributed Learning with Communication Compression
+AU  - Xinmeng Huang
+AU  - Yiming Chen
+AU  - Wotao Yin
+AU  - Kun Yuan
+PY  - 2022
+AB  - Recent advances in distributed optimization and learning have shown that communication compression is one of the most effective means of reducing communication. While there have been many results for convergence rates with compressed communication, a lower bound is still missing.Analyses of algorithms with communication compression have identified two abstract properties that guarantee convergence: the unbiased property or the contractive property. They can be applied either unidirectionally (compressing messages from worker to server) or bidirectionally. In the smooth and non-convex stochastic regime, this paper establishes a lower bound for distributed algorithms whether using unbiased or contractive compressors in unidirection or bidirection. To close the gap between this lower bound and the best existing upper bound, we further propose an algorithm, NEOLITHIC, that almost reaches our lower bound (except for a logarithm factor) under mild conditions. Our results also show that using contractive compressors in bidirection can yield iterative methods that converge as fast as those using unbiased compressors unidirectionally. We report experimental results that validate our findings.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/77f2d0c271e508278ea13e24cd8773d5-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Fairness without Demographics through Knowledge Distillation
+AU  - Junyi Chai
+AU  - Taeuk Jang
+AU  - Xiaoqian Wang
+PY  - 2022
+AB  - Most of existing work on fairness assumes available demographic information in the training set. In practice, due to legal or privacy concerns, when demographic information is not available in the training set, it is crucial to find alternative objectives to ensure fairness. Existing work on fairness without demographics follows Rawlsian Max-Min fairness objectives. However, such constraints could be too strict to improve group fairness, and could lead to a great decrease in accuracy. In light of these limitations, in this paper, we propose to solve the problem from a new perspective, i.e., through knowledge distillation. Our method uses soft label from an overfitted teacher model as an alternative, and we show from preliminary experiments that soft labelling is beneficial for improving fairness. We analyze theoretically the fairness of our method, and we show that our method can be treated as an error-based reweighing. Experimental results on three datasets show that our method outperforms state-of-the-art alternatives, with notable improvements in group fairness and with relatively small decrease in accuracy.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/79dc391a2c1067e9ac2b764e31a60377-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - MVP-N: A Dataset and Benchmark for Real-World Multi-View Object Classification
+AU  - REN WANG
+AU  - Jiayue Wang
+AU  - Tae Sung Kim
+AU  - JINSUNG KIM
+AU  - Hyuk-Jae Lee
+PY  - 2022
+AB  - Combining information from multiple views is essential for discriminating similar objects. However, existing datasets for multi-view object classification have several limitations, such as synthetic and coarse-grained objects, no validation split for hyperparameter tuning, and a lack of view-level information quantity annotations for analyzing multi-view-based methods. To address this issue, this study proposes a new dataset, MVP-N, which contains 44 retail products, 16k real captured views with human-perceived information quantity annotations, and 9k multi-view sets. The fine-grained categorization of objects naturally generates multi-view label noise owing to the inter-class view similarity, allowing the study of learning from noisy labels in the multi-view case. Moreover, this study benchmarks four multi-view-based feature aggregation methods and twelve soft label methods on MVP-N. Experimental results show that MVP-N will be a valuable resource for facilitating the development of real-world multi-view object classification methods. The dataset and code are publicly available at https://github.com/SMNUResearch/MVP-N.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/819b8452be7d6af1351d4c4f9cbdbd9b-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - One Positive Label is Sufficient: Single-Positive Multi-Label Learning with Label Enhancement
+AU  - Ning Xu
+AU  - Congyu Qiao
+AU  - Jiaqi Lv
+AU  - Xin Geng
+AU  - Min-Ling Zhang
+PY  - 2022
+AB  - Multi-label learning (MLL) learns from the examples each associated with multiple labels simultaneously, where the high cost of annotating all relevant labels for each training example is challenging for real-world applications. To cope with the challenge, we investigate single-positive multi-label learning (SPMLL) where each example is annotated with only one relevant label and show that one can successfully learn a theoretically grounded multi-label classifier for the problem. In this paper,  a novel  SPMLL method named SMILE, i.e., Single-positive MultI-label learning with Label Enhancement, is proposed. Specifically, an unbiased risk estimator is derived, which could be guaranteed to approximately converge to the optimal risk minimizer of fully supervised learning and shows that one positive label of each instance is sufficient to train the predictive model. Then, the corresponding empirical risk estimator is established via recovering the latent soft label as a label enhancement process, where the posterior density of the latent soft labels is approximate to the variational Beta density parameterized by an inference model. Experiments on benchmark datasets validate the effectiveness of the proposed method.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/888a66ed219c281f448babae80f3b8e8-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Noise Attention Learning: Enhancing Noise Robustness by Gradient Scaling
+AU  - Yangdi Lu
+AU  - Yang Bo
+AU  - Wenbo He
+PY  - 2022
+AB  - Machine learning has been highly successful in data-driven applications but is often hampered when the data contains noise, especially label noise. When trained on noisy labels, deep neural networks tend to fit all noisy labels, resulting in poor generalization. To handle this problem, a common idea is to force the model to fit only clean samples rather than mislabeled ones. In this paper, we propose a simple yet effective method that automatically distinguishes the mislabeled samples and prevents the model from memorizing them, named Noise Attention Learning. In our method, we introduce an attention branch to produce attention weights based on representations of samples. This attention branch is learned to divide the samples according to the predictive power in their representations. We design the corresponding loss function that incorporates the attention weights for training the model without affecting the original learning direction. Empirical results show that most of the mislabeled samples yield significantly lower weights than the clean ones. Furthermore, our theoretical analysis shows that the gradients of training samples are dynamically scaled by the attention weights, implicitly preventing memorization of the mislabeled samples. Experimental results on two benchmarks (CIFAR-10 and CIFAR-100) with simulated label noise and three real-world noisy datasets (ANIMAL-10N, Clothing1M and Webvision) demonstrate that our approach outperforms state-of-the-art methods.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/92864e1191ed272deb0914b3bb50f97c-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Estimating Noise Transition Matrix with Label Correlations for Noisy Multi-Label Learning
+AU  - Shikun Li
+AU  - Xiaobo Xia
+AU  - Hansong Zhang
+AU  - Yibing Zhan
+AU  - Shiming Ge
+AU  - Tongliang Liu
+PY  - 2022
+AB  - In label-noise learning, the noise transition matrix, bridging the class posterior for noisy and clean data, has been widely exploited to learn statistically consistent classifiers. The effectiveness of these algorithms relies heavily on estimating the transition matrix. Recently, the problem of label-noise learning in multi-label classification has received increasing attention, and these consistent algorithms can be applied in multi-label cases. However, the estimation of transition matrices in noisy multi-label learning has not been studied and remains challenging, since most of the existing estimators in noisy multi-class learning depend on the existence of anchor points and the accurate fitting of noisy class posterior. To address this problem, in this paper, we first study the identifiability problem of the class-dependent transition matrix in noisy multi-label learning, and then inspired by the identifiability results, we propose a new estimator by exploiting label correlations without neither anchor points nor accurate fitting of noisy class posterior. Specifically, we estimate the occurrence probability of two noisy labels to get noisy label correlations. Then, we perform sample selection to further extract information that implies clean label correlations, which is used to estimate the occurrence probability of one noisy label when a certain clean label appears. By utilizing the mismatch of label correlations implied in these occurrence probabilities, the transition matrix is identifiable, and can then be acquired by solving a simple bilinear decomposition problem. Empirical results demonstrate the effectiveness of our estimator to estimate the transition matrix with label correlations, leading to better classification performance. Source codes are available at https://github.com/tmllab/Multi-Label-T.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/98f8c89ae042c512e6c87e0e0c2a0f98-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - On Image Segmentation With Noisy Labels: Characterization and Volume Properties of the Optimal Solutions to Accuracy and Dice
+AU  - Marcus Nordstrom
+AU  - Henrik Hult
+AU  - Fredrik Löfman
+AU  - Jonas Söderberg
+PY  - 2022
+AB  - We study two of the most popular performance metrics in medical image segmentation, Accuracy and Dice, when the target labels are noisy. For both metrics, several statements related to characterization and volume properties of the set of optimal segmentations are proved, and associated experiments are provided. Our main insights are: (i) the volume of the solutions to both metrics may deviate significantly from the expected volume of the target, (ii) the volume of a solution to Accuracy is always less than or equal to the volume of a solution to Dice and (iii) the optimal solutions to both of these metrics coincide when the set of feasible segmentations is constrained to the set of segmentations with the volume equal to the expected volume of the target.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/ddf6eeeaa92957d3100b217a4428d819-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - CS-Shapley: Class-wise Shapley Values for Data Valuation in Classification
+AU  - Stephanie Schoch
+AU  - Haifeng Xu
+AU  - Yangfeng Ji
+PY  - 2022
+AB  - Data valuation, or the valuation of individual datum contributions, has seen growing interest in machine learning due to its demonstrable efficacy for tasks such as noisy label detection. In particular, due to the desirable axiomatic properties, several Shapley value approximations have been proposed. In these methods, the value function is usually defined as the predictive accuracy over the entire development set. However, this limits the ability to differentiate between training instances that are helpful or harmful to their own classes. Intuitively, instances that harm their own classes may be noisy or mislabeled and should receive a lower valuation than helpful instances. In this work, we propose CS-Shapley, a Shapley value with a new value function that discriminates between training instances’ in-class and out-of-class contributions. Our theoretical analysis shows the proposed value function is (essentially) the unique function that satisfies two desirable properties for evaluating data values in classification. Further, our experiments on two benchmark evaluation tasks (data removal and noisy label detection) and four classifiers demonstrate the effectiveness of CS-Shapley over existing methods. Lastly, we evaluate the “transferability” of data values estimated from one classifier to others, and our results suggest Shapley-based data valuation is transferable for application across different models.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/df334022279996b07e0870a629c18857-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+AU  - Chitwan Saharia
+AU  - William Chan
+AU  - Saurabh Saxena
+AU  - Lala Li
+AU  - Jay Whang
+AU  - Emily L Denton
+AU  - Kamyar Ghasemipour
+AU  - Raphael Gontijo Lopes
+AU  - Burcu Karagol Ayan
+AU  - Tim Salimans
+AU  - Jonathan Ho
+AU  - David J Fleet
+AU  - Mohammad Norouzi
+PY  - 2022
+AB  - We present Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation. Our key discovery is that generic large language models (e.g., T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model. Imagen achieves a new state-of-the-art FID score of 7.27 on the COCO dataset, without ever training on COCO, and human raters find Imagen samples to be on par with the COCO data itself in image-text alignment. To assess text-to-image models in greater depth, we introduce DrawBench, a comprehensive and challenging benchmark for text-to-image models. With DrawBench, we compare Imagen with recent methods including VQ-GAN+CLIP, Latent Diffusion Models, and DALL-E 2, and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/ec795aeadae0b7d230fa35cbaf04c041-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Acceleration in Distributed Sparse Regression
+AU  - Marie Maros
+AU  - Gesualdo Scutari
+PY  - 2022
+AB  - We study acceleration for distributed sparse regression in   {\it  high-dimensions},  which allows the parameter size  to exceed and grow faster than the sample size. When applicable, existing  distributed algorithms employing acceleration perform poorly  in this setting, theoretically and numerically.  We  propose a new accelerated distributed algorithm suitable for high-dimensions. The method couples  a suitable instance of accelerated Nesterov's proximal gradient  with consensus and gradient-tracking mechanisms, aiming at estimating locally the gradient of the empirical loss while enforcing agreement on the local estimates.  Under standard assumptions on the statistical model and tuning parameters, the proposed method is proved to  globally converge   at {\it linear} rate  to an estimate that is within the {\it statistical precision} of the model. The iteration  complexity scales as $\mathcal{O}(\sqrt{\kappa})$, while the communications per iteration are at most $\widetilde{\mathcal{O}}(\log m/(1-\rho))$,  where $\kappa$ is the restricted condition number of the empirical loss, $m$ is the number of agents, and $\rho\in (0,1)$ measures the network connectivity. As by-product of our design, we also report    an accelerated method for high-dimensional estimations over  master-worker architectures, which is of independent interest and  compares favorably with existing works.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/ef0c1457c4f31c00f460d55ab9d130ed-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Lifting Weak Supervision To Structured Prediction
+AU  - Harit Vishwakarma
+AU  - Frederic Sala
+PY  - 2022
+AB  - Weak supervision (WS) is a rich set of techniques that produce pseudolabels by aggregating easily obtained but potentially noisy label estimates from various sources. WS is theoretically well-understood for binary classification, where simple approaches enable consistent estimation of pseudolabel noise rates. Using this result, it has been shown that downstream models trained on the pseudolabels have generalization guarantees nearly identical to those trained on clean labels. While this is exciting, users often wish to use WS for \emph{structured prediction}, where the output space consists of more than a binary or multi-class label set: e.g. rankings, graphs, manifolds, and more. Do the favorable theoretical properties of WS for binary classification lift to this setting? We answer this question in the affirmative for a wide range of scenarios. For labels taking values in a finite metric space, we introduce techniques new to weak supervision based on pseudo-Euclidean embeddings and tensor decompositions, providing a nearly-consistent noise rate estimator. For labels in constant-curvature Riemannian manifolds, we introduce new invariants that also yield consistent noise rate estimation. In both cases, when using the resulting pseudolabels in concert with a flexible downstream model, we obtain generalization guarantees nearly identical to those for models trained on clean data. Several of our results, which can be viewed as robustness guarantees in structured prediction with noisy labels, may be of independent interest.
+UR  - https://papers.nips.cc/paper_files/paper/2022/hash/f463d31ed2fdd7b0ec585c041ec1baa8-Abstract-Conference.html
+ER  - 
+

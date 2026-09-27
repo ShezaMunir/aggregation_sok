@@ -1,0 +1,850 @@
+TY  - CONF
+TI  - Canvil: Designerly Adaptation for LLM-Powered User Experiences
+AU  - Feng, K. J. Kevin
+AU  - Liao, Q. Vera
+AU  - Xiao, Ziang
+AU  - Wortman Vaughan, Jennifer
+AU  - Zhang, Amy X.
+AU  - McDonald, David W.
+PY  - 2025
+AB  - Advancements in large language models (LLMs) are sparking a proliferation of LLM-powered user experiences (UX). In product teams, designers often craft UX to meet user needs, but it is unclear how they engage with LLMs as a novel design material. Through a formative study with 12 designers, we find that designers seek a translational process that enables design requirements to shape and be shaped by LLM behavior, motivating a need for designerly adaptation to facilitate this translation. We then built Canvil, a Figma widget that operationalizes designerly adaptation. We used Canvil as a probe to study designerly adaptation in a group-based design study (6 groups, N = 17), finding that designers constructively iterated on both adaptation approaches and interface designs to enhance end-user interaction with LLMs. Furthermore, designers identified promising collaborative workflows for designerly adaptation. Our work opens new avenues for processes and tools that foreground designers’ human-centered expertise when developing LLM-powered applications.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713139
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713139
+ER  - 
+
+TY  - CONF
+TI  - Friction: Deciphering Writing Feedback into Writing Revisions through LLM-Assisted Reflection
+AU  - Zhang, Chao
+AU  - Ju, Kexin
+AU  - Bidoshi, Peter
+AU  - Yen, Yu-Chun Grace
+AU  - Rzeszotarski, Jeffrey M.
+PY  - 2025
+AB  - This paper introduces Friction, a novel interface designed to scaffold novice writers in reflective feedback-driven revisions. Effective revision requires mindful reflection upon feedback, but the scale and variability of feedback can make it challenging for novice writers to decipher it into actionable, meaningful changes. Friction leverages large language models to break down large feedback collections into manageable units, visualizes their distribution across sentences and issues through a co-located heatmap, and guides users through structured reflection and revision with adaptive hints and real-time evaluation. Our user study (N = 16) showed that Friction helped users allocate more time to reflective planning, attend to more critical issues, develop more actionable and satisfactory revision plans, iterate more frequently, and ultimately produce higher-quality revisions, compared to the baseline system. These findings highlight the potential of human-AI collaboration to foster a balanced approach between maximum efficiency and deliberate reflection, supporting the development of creative mastery.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714316
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714316
+ER  - 
+
+TY  - CONF
+TI  - Mind the Gap! Choice Independence in Using Multilingual LLMs for Persuasive Co-Writing Tasks in Different Languages
+AU  - Biswas, Shreyan
+AU  - Erlei, Alexander
+AU  - Gadiraju, Ujwal
+PY  - 2025
+AB  - Recent advances in generative AI have precipitated a proliferation of novel writing assistants. These systems typically rely on multilingual large language models (LLMs), providing globalized workers the ability to revise or create diverse forms of content in different languages. However, there is substantial evidence indicating that the performance of multilingual LLMs varies between languages. Users who employ writing assistance for multiple languages are therefore susceptible to disparate output quality. Importantly, recent research has shown that people tend to generalize algorithmic errors across independent tasks, violating the behavioral axiom of choice independence. In this paper, we analyze whether user utilization of novel writing assistants in a charity advertisement writing task is affected by the AI’s performance in a second language. Furthermore, we quantify the extent to which these patterns translate into the persuasiveness of generated charity advertisements, as well as the role of peoples’ beliefs about LLM utilization for their donation choices. Our results provide evidence that writers who engage with an LLM-based writing assistant violate choice independence, as prior exposure to a Spanish LLM reduces subsequent utilization of an English LLM. While these patterns do not affect the aggregate persuasiveness of the generated advertisements, people’s beliefs about the source of an advertisement (human versus AI) do. In particular, Spanish-speaking female participants who believed that they read an AI-generated advertisement strongly adjusted their donation behavior downwards. Furthermore, people are generally not able to adequately differentiate between human-generated and LLM-generated ads. Our work has important implications on the design, development, integration, and adoption of multilingual LLMs as assistive agents—particularly in writing tasks.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713201
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713201
+ER  - 
+
+TY  - CONF
+TI  - Normalizing Grit: The Futility of Personal Informatics for Farm Workers and Climate Change
+AU  - Chaudhary, Akash
+AU  - Escobar, Stefany Arevalo
+AU  - Zayas, Dulce
+AU  - Su, Norman Makoto
+PY  - 2025
+AB  - California’s agricultural workers are a vulnerable population due to their undocumented status and poor working conditions. This paper describes community engagement with NGO workers, farm laborers, and farm owners to identify and address the effects of climate change, namely heat stress, on, strawberry field workers. We deployed personal informatics devices in a longitudinal study with three field workers for a month and a half and presented the collected statistics back to them, asking them to reflect on their personal health (e.g., exposure to heat stress) and work data. We found that field workers normalized grit - the irregularity, adversity, competitiveness, and helplessness of their labor - thereby limiting the promise of personal informatics to help users lead healthier lives. Implicitly, personal informatics supports white collar workers such as information workers; overall, however, our study suggests a mismatch between current designs and front-line work which involve intensive physical work requirements.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713643
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713643
+ER  - 
+
+TY  - CONF
+TI  - Understanding Public Agencies' Expectations and Realities of AI-Driven Chatbots for Public Health Monitoring
+AU  - Jo, Eunkyung
+AU  - Kim, Young-Ho
+AU  - Ok, Sang-Houn
+AU  - Epstein, Daniel A.
+PY  - 2025
+AB  - Advances in artificial intelligence (AI) offer the potential for chatbots to support public health monitoring by automating tasks traditionally performed by frontline workers. While introducing AI impacts public agency workers across decision-making, administration, and monitoring roles, the perceptions of workers regarding these technologies and their actual impact on labor are underexplored. We examine the case of CareCall, a large language model (LLM)-driven chatbot used to monitor socially isolated individuals, by interviewing 21 public agency workers across 13 sites involved in its adoption and rollout. We find that CareCall helped expand public reach but increased burdens on frontline workers due to insufficient resources and new labor demands, such as handling lapses in user engagement. We discuss how implementing LLM-driven chatbots in public health contexts can complicate decision-makers’ articulation work and impose additional maintenance work on frontline workers. We recommend AI chatbots in this space leverage public infrastructure and incorporate fallback mechanisms.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713593
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713593
+ER  - 
+
+TY  - CONF
+TI  - Community Fact-Checks Trigger Moral Outrage in Replies to Misleading Posts on Social Media
+AU  - Chuai, Yuwei
+AU  - Sergeeva, Anastasia
+AU  - Lenzini, Gabriele
+AU  - Pr\"{o}llochs, Nicolas
+PY  - 2025
+AB  - Displaying community fact-checks is a promising approach to reduce engagement with misinformation on social media. However, how users respond to misleading content emotionally after community fact-checks are displayed on posts is unclear. Here, we employ quasi-experimental methods to causally analyze changes in sentiments and (moral) emotions in replies to misleading posts following the display of community fact-checks. Our evaluation is based on a large-scale panel dataset comprising N = 2225260 replies across 1841 source posts from X’s Community Notes platform. We find that informing users about falsehoods through community fact-checks significantly increases negativity (by 7.3\%), anger (by 13.2\%), disgust (by 4.7\%), and moral outrage (by 16.0\%) in the corresponding replies. These results indicate that users perceive spreading misinformation as a violation of social norms and that those who spread misinformation should expect negative reactions once their content is debunked. We derive important implications for the design of community-based fact-checking systems.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713909
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713909
+ER  - 
+
+TY  - CONF
+TI  - Unintended, Percolated Work: Overlooked Opportunities for Collaboration Between Informal Caregivers and Healthcare Professionals During the End-Of-Life Care Process
+AU  - Saito, Shun
+AU  - Sugihara, Taro
+PY  - 2025
+AB  - Bereavement often places a psychological burden on families and should be addressed appropriately. Although end-of-life care is a collaborative activity with interaction between family caregivers and medical professionals, further research is needed to explore family caregivers’ support needs as collaborative workers and the challenges they face. This study examined the collaboration during the end-of-life process between family caregivers and medical professionals to understand the cooperative activities and factors surrounding them based on unrealized or regrettable experiences during end-of-life care. Semi-structured interviews with bereaved family caregivers who provided end-of-life care and medical professionals who provided support revealed that family caregivers’ aspirations and medical professionals’ support for family caregivers crossed paths, steering end-of-life caregiving in an unintended direction. Characteristic work carried out by each actor in this situation is defined as "unintended, percolated work" and considered an overlooked collaboration opportunity, proposing support suggestions for handling family caregivers’ original intentions and needs.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713552
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713552
+ER  - 
+
+TY  - CONF
+TI  - Finding Needles in Document Haystacks: Augmenting Serendipitous Claim Retrieval Workflows
+AU  - D\"{u}ck, Moritz
+AU  - Holter, Steffen
+AU  - Chan, Robin Shing Moon
+AU  - Sevastjanova, Rita
+AU  - El-Assady, Mennatallah
+PY  - 2025
+AB  - Preliminary exploration of vast text corpora for generating and validating hypotheses, typical in academic inquiry, requires flexible navigation and rapid validation of claims. Navigating the corpus by titles, summaries, and abstracts might neglect information, whereas identifying the relevant context-specific claims through in-depth reading is unfeasible with rapidly increasing publication numbers. Our paper identifies three typical user pathways for hypothesis exploration and operationalizes sentence-based retrieval combined with effective contextualization and provenance tracking in a unified workflow. We contribute an interface that augments the previously laborious tasks of claim identification and consistency checking using NLP techniques while balancing user control and serendipity. Use cases, expert interviews, and a user study with 10 participants demonstrate how the proposed workflow enables users to traverse literature corpora in novel and efficient ways. For the evaluation, we instantiate the tool within two independent domains, providing novel insights into the analysis of political discourse and medical research.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713715
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713715
+ER  - 
+
+TY  - CONF
+TI  - Jupybara: Operationalizing a Design Space for Actionable Data Analysis and Storytelling with LLMs
+AU  - Wang, Huichen Will
+AU  - Birnbaum, Larry
+AU  - Setlur, Vidya
+PY  - 2025
+AB  - Mining and conveying actionable insights from complex data is a key challenge of exploratory data analysis (EDA) and storytelling. To address this challenge, we present a design space for actionable EDA and storytelling. Synthesizing theory and expert interviews, we highlight how semantic precision, rhetorical persuasion, and pragmatic relevance underpin effective EDA and storytelling. We also show how this design space subsumes common challenges in actionable EDA and storytelling, such as identifying appropriate analytical strategies and leveraging relevant domain knowledge. Building on the potential of LLMs to generate coherent narratives with commonsense reasoning, we contribute Jupybara, an AI-enabled assistant for actionable EDA and storytelling implemented as a Jupyter Notebook extension. Jupybara employs two strategies—design-space-aware prompting and multi-agent architectures—to operationalize our design space. An expert evaluation confirms Jupybara’s usability, steerability, explainability, and reparability, as well as the effectiveness of our strategies in operationalizing the design space framework with LLMs.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713913
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713913
+ER  - 
+
+TY  - CONF
+TI  - AI Literacy for Underserved Students: Leveraging Cultural Capital from Underserved Communities for AI Education Research
+AU  - Cao, Huajie Jay
+AU  - Choi, Kahyun
+AU  - Park, Claire
+AU  - Lee, Hee Rin
+PY  - 2025
+AB  - As Artificial Intelligence (AI) continues to influence various aspects of society, the need for AI literacy education for K-12 students has grown. An increasing number of AI literacy studies aim to enhance students’ competencies in understanding, using, and critically evaluating AI systems. However, despite the vulnerabilities faced by students from underserved communities—due to factors such as socioeconomic status, gender, and race—these students remain underrepresented in existing research. To address this gap, this study focuses on leveraging the cultural capital that students acquire from their communities’ unique history and culture for AI literacy education. Education researchers have demonstrated that identifying and mobilizing cultural capital is an effective strategy for educating these populations. Through collaboration with 26 students from underserved communities—including those who are socioeconomically disadvantaged, female, or people of color—this paper identifies three types of cultural capital relevant to AI literacy education: 1) resistant capital, 2) communal capital, and 3) creative capital. The study also emphasizes that collaborative relationships between researchers and students are crucial for mobilizing cultural capital in AI literacy education research.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713173
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713173
+ER  - 
+
+TY  - CONF
+TI  - Responsibility Attribution in Human Interactions with Everyday AI Systems
+AU  - Brailsford, Joe
+AU  - Vetere, Frank
+AU  - Velloso, Eduardo
+PY  - 2025
+AB  - How do individuals perceive AI systems as responsible entities in everyday collaborations between humans and AI? Drawing on psychological literature from attribution theory, praise-blame asymmetries and negativity bias, this study investigated the effects of perspective (actor vs observer) and outcome favorability (positive vs negative) on how participants (N=321) attributed responsibility for outcomes resulting from shared human-AI decision-making. Both Bayesian modelling and reflexive thematic analysis of results revealed that, overall, participants were more likely to attribute greater responsibility to the AI systems. When the outcome was positive, participants were more likely to ascribe shared responsibility to both Human and AI systems, rather than either separately. When the outcome was negative, participants were more likely to attribute responsibility to a single entity, but not consistently towards the human or the AI. These results build on the understanding of how individuals cast blame and praise for shared interactions involving AI systems.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713126
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713126
+ER  - 
+
+TY  - CONF
+TI  - Collaborative Health-Tracking Technologies for Children and Parents: A Review of Current Studies and Directions for Future Research
+AU  - Cha, Yoon Jeong
+AU  - Chen, Jiongyu
+AU  - Gunal, Yasemin
+AU  - Zhu, Qiying
+AU  - Newman, Mark W
+AU  - Park, Sun Young
+PY  - 2025
+AB  - Collaborative health-tracking technologies for children and parents have gained significant attention in recent years in HCI. This review examines the current state of these technologies by analyzing 29 studies screened from 15,973 search results across three databases. Our findings revealed three primary goals in these technologies: promoting family health, improving children’s health through child-parent co-tracking, and fostering children’s independence in self-tracking. For each goal, we examined child-parent roles, data types collected, and features that facilitate or hinder collaboration. Our findings highlight key directions for future research, including designing adaptable technologies to reflect evolving child-parent roles, exploring different technologies and tracking topics that impact child-parent dynamics, involving children in the system design stage to enhance collaborative features, and studying diverse populations with varied family characteristics. These insights aim to guide the creation of more effective and inclusive collaborative health-tracking technologies for children and parents.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713596
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713596
+ER  - 
+
+TY  - CONF
+TI  - VideoA11y: Method and Dataset for Accessible Video Description
+AU  - Li, Chaoyu
+AU  - Padmanabhuni, Sid
+AU  - Cheema, Maryam S
+AU  - Seifi, Hasti
+AU  - Fazli, Pooyan
+PY  - 2025
+AB  - Video descriptions are crucial for blind and low vision (BLV) users to access visual content. However, current artificial intelligence models for generating descriptions often fall short due to limitations in the quality of human annotations within training datasets, resulting in descriptions that do not fully meet BLV users’ needs. To address this gap, we introduce VideoA11y, an approach that leverages multimodal large language models (MLLMs) and video accessibility guidelines to generate descriptions tailored for BLV individuals. Using this method, we have curated VideoA11y-40K, the largest and most comprehensive dataset of 40,000 videos described for BLV users. Rigorous experiments across 15 video categories, involving 347 sighted participants, 40 BLV participants, and seven professional describers, showed that VideoA11y descriptions outperform novice human annotations and are comparable to trained human annotations in clarity, accuracy, objectivity, descriptiveness, and user satisfaction. We evaluated models on VideoA11y-40K using both standard and custom metrics, demonstrating that MLLMs fine-tuned on this dataset produce high-quality accessible descriptions. Code and dataset are available at https://people-robots.github.io/VideoA11y/.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714096
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714096
+ER  - 
+
+TY  - CONF
+TI  - CalliSense: An Interactive Educational Tool for Process-based Learning in Chinese Calligraphy
+AU  - Gong, Xinya
+AU  - Tao, Wenhui
+AU  - Ma, Yuxin
+PY  - 2025
+AB  - Process-based learning is crucial for the transmission of intangible cultural heritage, especially in complex arts like Chinese calligraphy, where mastering techniques cannot be achieved by merely observing the final work. To explore the challenges faced in calligraphy heritage transmission, we conducted semi-structured interviews (N=8) as a formative study. Our findings indicate that the lack of calligraphy instructors and tools makes it difficult for students to master brush techniques, and teachers struggle to convey the intricate details and rhythm of brushwork. To address this, we collaborated with calligraphy instructors to develop an educational tool that integrates writing process capture and visualization, showcasing the writing rhythm, hand force, and brush posture. Through empirical studies conducted in multiple teaching workshops, we evaluated the system’s effectiveness with teachers (N=4) and students (N=12). The results show that the tool significantly enhances teaching efficiency and aids learners in better understanding brush techniques.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714176
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714176
+ER  - 
+
+TY  - CONF
+TI  - Sensing Movement: Contemporary Dance Workshops with People who are Blind or have Low Vision and Dance Teachers
+AU  - De Silva, Madhuka Thisuri
+AU  - Smiley, Jim
+AU  - Goodwin, Sarah
+AU  - Holloway, Leona M
+AU  - Butler, Matthew
+PY  - 2025
+AB  - Dance teachers rely primarily on verbal instructions and visual demonstrations to convey key dance concepts and movement. These techniques, however, have limitations in supporting students who are blind or have low vision (BLV). This work explores the role technology can play in supporting instruction for BLV students, as well as improvisation with their instructor. Through a series of design workshops with dance instructors and BLV students, ideas were generated by physically engaging with probes featuring diverse modalities including tactile objects, a body tracked sound and musical probe, and a body tracked controller with vibrational feedback. Implications for the design of supporting technologies were discovered for four contemporary dance learning goals: learning a phrase; improvising; collaborating through movement; and awareness of body and movement qualities. We discuss the potential of numerous multi-sensory methods and artefacts, and present design considerations for technologies to support meaningful dance instruction and participation.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714325
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714325
+ER  - 
+
+TY  - CONF
+TI  - TutorCraftEase: Enhancing Pedagogical Question Creation with Large Language Models
+AU  - Kang, Wenhui
+AU  - Zhang, Lin
+AU  - Peng, Xiaolan
+AU  - Zhang, Hao
+AU  - Li, Anchi
+AU  - Wang, Mengyao
+AU  - Huang, Jin
+AU  - Tian, Feng
+AU  - Dai, Guozhong
+PY  - 2025
+AB  - Pedagogical questions are crucial for fostering student engagement and learning. In daily teaching, teachers pose hundreds of questions to assess understanding, enhance learning outcomes, and facilitate the transfer of theory-rich content. However, even experienced teachers often struggle to generate a large volume of effective pedagogical questions. To address this, we introduce TutorCraftEase, an interactive generation system that leverages large language models (LLMs) to assist teachers in creating pedagogical questions. TutorCraftEase enables the rapid generation of questions at varying difficulty levels with a single click, while also allowing for manual review and refinement. In a comparative user study with 39 participants, we evaluated TutorCraftEase against a traditional manual authoring tool and a basic LLM tool. The results show that TutorCraftEase can generate pedagogical questions comparable in quality to those created by experienced teachers, while significantly reducing their workload and time.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713731
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713731
+ER  - 
+
+TY  - CONF
+TI  - Investigating Context-Aware Collaborative Text Entry on Smartphones using Large Language Models
+AU  - Chen, Weihao
+AU  - Shi, Yuanchun
+AU  - Wang, Yukun
+AU  - Shi, Weinan
+AU  - Chen, Meizhu
+AU  - Gao, Cheng
+AU  - Mei, Yu
+AU  - Zhu, Yeshuang
+AU  - Zhang, Jinchao
+AU  - Yu, Chun
+PY  - 2025
+AB  - Text entry is a fundamental and ubiquitous task, but users often face challenges such as situational impairments or difficulties in sentence formulation. Motivated by this, we explore the potential of large language models (LLMs) to assist with text entry in real-world contexts. We propose a collaborative smartphone-based text entry system, CATIA, that leverages LLMs to provide text suggestions based on contextual factors, including screen content, time, location, activity, and more. In a 7-day in-the-wild study with 36 participants, the system offered appropriate text suggestions in over 80\% of cases. Users exhibited different collaborative behaviors depending on whether they were composing text for interpersonal communication or information services. Additionally, the relevance of contextual factors beyond screen content varied across scenarios. We identified two distinct mental models: AI as a supportive facilitator or as a more equal collaborator. These findings outline the design space for human-AI collaborative text entry on smartphones.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713944
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713944
+ER  - 
+
+TY  - CONF
+TI  - Plume: Scaffolding Text Composition in Dashboards
+AU  - Lisnic, Maxim
+AU  - Setlur, Vidya
+AU  - Sultanum, Nicole
+PY  - 2025
+AB  - Text in dashboards plays multiple critical roles, including providing context, offering insights, guiding interactions, and summarizing key information. Despite its importance, most dashboarding tools focus on visualizations and offer limited support for text authoring. To address this gap, we developed Plume, a system to help authors craft effective dashboard text. Through a formative review of exemplar dashboards, we created a typology of text parameters and articulated the relationship between visual placement and semantic connections, which informed Plume’s design. Plume&nbsp;employs large language models (LLMs) to generate contextually appropriate content and provides guidelines for writing clear, readable text. A preliminary evaluation with 12 dashboard authors explored how assisted text authoring integrates into workflows, revealing strengths and limitations of LLM-generated text and the value of our human-in-the-loop approach. Our findings suggest opportunities to improve dashboard authoring tools by better supporting the diverse roles that text plays in conveying insights.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713580
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713580
+ER  - 
+
+TY  - CONF
+TI  - Simulating Errors in Touchscreen Typing
+AU  - Shi, Danqing
+AU  - Zhu, Yujun
+AU  - Fernandes Junior, Francisco Erivaldo
+AU  - Zhai, Shumin
+AU  - Oulasvirta, Antti
+PY  - 2025
+AB  - Empirical evidence shows that typing on touchscreen devices is prone to errors and that correcting them poses a major detriment to users’ performance. Design of text entry systems that better serve users, across their broad capability range, necessitates understanding the cognitive mechanisms that underpin these errors. However, prior models of typing cover only motor slips. The paper reports on extending the scope of computational modeling of typing to cover the cognitive mechanisms behind the three main types of error: slips (inaccurate execution), lapses (forgetting), and mistakes (incorrect knowledge). Given a phrase, a keyboard, and user parameters, &nbsp;Typoist simulates eye and finger movements while making human-like insertion, omission, substitution, and transposition errors. Its main technical contribution is the formulation of a supervisory control problem wherein the controller allocates cognitive resources to detect and fix errors generated by the various mechanisms. The model generates predictions of typing performance that can inform design, for better text entry systems.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713153
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713153
+ER  - 
+
+TY  - CONF
+TI  - Think Together and Work Better: Combining Humans' and LLMs' Think-Aloud Outcomes for Effective Text Evaluation
+AU  - Chu, Seong Yeub
+AU  - Kim, Jong Woo
+AU  - Yi, Mun Yong
+PY  - 2025
+AB  - This study introduces InteractEval, a framework that integrates the outcomes of Think-Aloud (TA) conducted by humans and LLMs to generate attributes for checklist-based text evaluation. By combining humans’ flexibility and high-level reasoning with LLMs’ consistency and extensive knowledge, InteractEval outperforms text evaluation baselines on a text summarization benchmark (SummEval) and an essay scoring benchmark (ELLIPSE). Furthermore, an in-depth analysis shows that it promotes divergent thinking in both humans and LLMs, leading to the generation of a wider range of relevant attributes and enhancement of text evaluation performance. A subsequent comparative analysis reveals that humans excel at identifying attributes related to internal quality (Coherence and Fluency), but LLMs perform better at those attributes related to external alignment (Consistency and Relevance). Consequently, leveraging both humans and LLMs together produces the best evaluation outcomes, highlighting the necessity of effectively combining humans and LLMs in an automated checklist-based text evaluation.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713181
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713181
+ER  - 
+
+TY  - CONF
+TI  - The Hall of AI Fears and Hopes: Comparing the Views of AI Influencers and those of Members of the U.S. Public Through an Interactive Platform
+AU  - Moreira, Gustavo
+AU  - Bogucka, Edyta Paulina
+AU  - Constantinides, Marios
+AU  - Quercia, Daniele
+PY  - 2025
+AB  - AI development is shaped by academics and industry leaders—let us call them “influencers”—but it is unclear how their views align with those of the public. To address this gap, we developed an interactive platform that served as a data collection tool for exploring public views on AI, including their fears, hopes, and overall sense of hopefulness. We made the platform available to 330 participants representative of the U.S. population in terms of age, sex, ethnicity, and political leaning, and compared their views with those of 100 AI influencers identified by Time magazine. The public fears AI getting out of control, while influencers emphasize regulation, seemingly to deflect attention from their alleged focus on monetizing AI’s potential. Interestingly, the views of AI influencers from underrepresented groups such as women and people of color often differ from the views of underrepresented groups in the public.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714117
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714117
+ER  - 
+
+TY  - CONF
+TI  - Usability, Efficacy, and Acceptability of the U.S. Cyber Trust Mark
+AU  - Caven, Peter
+AU  - Gurjar, Ambarish
+AU  - Zhang, Zitao
+AU  - Ma, Xinyao
+AU  - Camp, LJean
+PY  - 2025
+AB  - The U.S. Cyber Trust Mark is intended to empower consumers and enable security by demand. But is there such a demand? To explore this, we recruited 599 participants and asked them to select their desired smart device using a simulated online marketplace. Participants were informed they would receive their selected light bulbs, and they were divided into five experimental groups based on different versions of the Mark. After the product selections, we surveyed them about their priorities and preferences. We found no significant differences between the groups as a whole. However, the subset of consumers who identified cybersecurity as most important were significantly more likely to select labeled products, spending 16.5\% more. We detail these differences and preferences, then argue that an awareness program is needed to assist consumers in better understanding the long-term economic benefits of the U.S. Cyber Trust Mark.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713463
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713463
+ER  - 
+
+TY  - CONF
+TI  - Bridging AI and Humanitarianism: An HCI-Informed Framework for Responsible AI Adoption
+AU  - Bhatnagar, Tigmanshu
+AU  - Omar, Maarya
+AU  - Orlic, Davor
+AU  - Smith, James
+AU  - Holloway, Catherine
+AU  - Kett, Maria
+PY  - 2025
+AB  - Advances in artificial intelligence (AI) hold transformative potential for humanitarian practice. Yet aligning this potential with the demands of humanitarian practice in dynamic and often resource-austere contexts remains a challenge. While research on Responsible AI provides high-level guidance, humanitarian practice demands nuanced approaches for which human-computer interaction (HCI) can provide a strong foundation. However, existing literature lacks a comprehensive examination of how HCI principles can inform responsible AI adoption in humanitarian practice. To address this gap, we conducted a reflexive thematic analysis of 34 interviews with AI technology experts, humanitarian practitioners, and humanitarian policy developers. Our contributions are twofold. First, we empirically identify three cross-cutting themes—AI risks in humanitarian practice, organisational readiness, and collaboration—that highlight common tensions in adopting AI for humanitarian practice. Second, by analysing their interconnectivities, we reveal intertwined obstacles and propose a conceptual HCI-informed framework.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713184
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713184
+ER  - 
+
+TY  - CONF
+TI  - Good Performance Isn't Enough to Trust AI: Lessons from Logistics Experts on their Long-Term Collaboration with an AI Planning System
+AU  - Kahr, Patricia
+AU  - Rooks, Gerrit
+AU  - Snijders, Chris
+AU  - Willemsen, Martijn C.
+PY  - 2025
+AB  - While research on trust in human-AI interactions is gaining recognition, much work is conducted in lab settings that, therefore, lack ecological validity and often omit the trust development perspective. We investigated a real-world case in which logistics experts had worked with an AI system for several years (in some cases since its introduction). Through thematic analysis, three key themes emerged: First, although experts clearly point out AI system imperfections, they still showed to develop trust over time. Second, however, inconsistencies and frequent efforts to improve the AI system disrupted trust development, hindering control, transparency, and understanding of the system. Finally, despite the overall trustworthiness, experts overrode correct AI decisions to protect their colleagues’ well-being. By comparing our results with the latest trust research, we can confirm empirical work and contribute new perspectives, such as understanding the importance of human elements for trust development in human-AI scenarios.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713099
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713099
+ER  - 
+
+TY  - CONF
+TI  - Beyond Automation: How Designers Perceive AI as a Creative Partner in the Divergent Thinking Stages of UI/UX Design
+AU  - Khan, Abidullah
+AU  - Shokrizadeh, َAtefeh
+AU  - Cheng, Jinghui
+PY  - 2025
+AB  - Divergent thinking activities, like research and ideation, are key drivers of innovation in UI/UX design. Existing research has explored AI’s role in automating design tasks, but leaves a critical gap in understanding how AI specifically influences divergent thinking. To address this, we conducted interviews with 19 professional UI/UX designers, examining their use and perception of AI in these creative activities. We found that in this context, participants valued AI tools that offer greater control over ideation, facilitate collaboration, enhance efficiency to liberate creativity, and align with their visual habits. Our results indicated four key roles AI plays in supporting divergent thinking: aiding research, kick-starting creativity, generating design alternatives, and facilitating prototype exploration. Through this study, we provide insights into the evolving role of AI in the less-investigated area of divergent thinking in UI/UX design, offering recommendations for future AI tools that better support design innovation.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713500
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713500
+ER  - 
+
+TY  - CONF
+TI  - As Confidence Aligns: Understanding the Effect of AI Confidence on Human Self-confidence in Human-AI Decision Making
+AU  - Li, Jingshu
+AU  - Yang, Yitian
+AU  - Liao, Q. Vera
+AU  - Zhang, Junti
+AU  - Lee, Yi-Chieh
+PY  - 2025
+AB  - Complementary collaboration between humans and AI is essential for human-AI decision making. One feasible approach to achieving it involves accounting for the calibrated confidence levels of both AI and users. However, this process would likely be made more difficult by the fact that AI confidence may influence users’ self-confidence and its calibration. To explore these dynamics, we conducted a randomized behavioral experiment. Our results indicate that in human-AI decision-making, users’ self-confidence aligns with AI confidence and such alignment can persist even after AI ceases to be involved. This alignment then affects users’ self-confidence calibration. We also found the presence of real-time correctness feedback of decisions reduced the degree of alignment. These findings suggest that users’ self-confidence is not independent of AI confidence, which practitioners aiming to achieve better human-AI collaboration need to be aware of. We call for research focusing on the alignment of human cognition and behavior with AI.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713336
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713336
+ER  - 
+
+TY  - CONF
+TI  - How Do People Perceive Bundling? An Experiment
+AU  - Wallinger, Markus
+AU  - Akbulut, Osman
+AU  - Rufai, Kabir Ahmed
+AU  - Purchase, Helen C.
+AU  - Archambault, Daniel
+PY  - 2025
+AB  - We present an exploratory study on how people perceive visualizations of spatial social networks generated by edge bundling algorithms. Although these algorithms successfully minimize clutter in node-link diagrams, they do so through various methods that can sometimes create false connections between nodes. We conducted a qualitative experiment involving participants with technical expertise but no prior knowledge of edge bundling algorithms. Participants described their perceptions of both bundled and straight-line visualizations in open-ended tasks. Analysis of their annotations and transcripts revealed a general preference for bundled visualizations. However, when it came to false connections, participants tended to follow them in tightly bundled diagrams while also vocalizing that these drawings were more ambiguous. The routing of bundles influenced the perception of clusters and participants assigned more or fewer nodes to the clusters, depending on the routing of bundles. Participants’ unfamiliarity with the dataset led them to use analogies to describe the bundled drawings, potentially adding perceived semantic meaning to the data.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713444
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713444
+ER  - 
+
+TY  - CONF
+TI  - Lay Perceptions of Algorithmic Discrimination in the Context of Systemic Injustice
+AU  - Lima, Gabriel
+AU  - Grgi\'{c}-Hla\v{c}a, Nina
+AU  - Langer, Markus
+AU  - Zou, Yixin
+PY  - 2025
+AB  - Algorithmic fairness research often disregards concerns related to systemic injustice. We study how contextualizing algorithms within systemic injustice impacts lay perceptions of algorithmic discrimination. Using the hiring domain as a case-study, we conduct a 2x3 between-participants experiment (N = 716), studying how people’s views of algorithmic fairness are influenced by information about (i) systemic injustice in historical hiring decisions and (ii) algorithms’ propensity to perpetuate biases learned from past human decisions. We find that shedding light on systemic injustice has heterogeneous effects: participants from historically advantaged groups became more negative about discriminatory algorithms, while those from disadvantaged groups reported more positive attitudes. Explaining that algorithms learn from past human decisions had null effects on people’s views, adding nuances to calls for improving public understanding of algorithms. Our findings reveal that contextualizing algorithms in systemic injustice can have unintended consequences and show how different ways of framing existing inequalities influence perceptions of injustice.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713536
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713536
+ER  - 
+
+TY  - CONF
+TI  - AI Suggestions Homogenize Writing Toward Western Styles and Diminish Cultural Nuances
+AU  - Agarwal, Dhruv
+AU  - Naaman, Mor
+AU  - Vashistha, Aditya
+PY  - 2025
+AB  - Large language models (LLMs) are being increasingly integrated into everyday products and services, such as coding tools and writing assistants. As these embedded AI applications are deployed globally, there is a growing concern that the AI models underlying these applications prioritize Western values. This paper investigates what happens when a Western-centric AI model provides writing suggestions to users from a different cultural background. We conducted a cross-cultural controlled experiment with 118 participants from India and the United States who completed culturally grounded writing tasks with and without AI suggestions. Our analysis reveals that AI provided greater efficiency gains for Americans compared to Indians. Moreover, AI suggestions led Indian participants to adopt Western writing styles, altering not just what is written but also how it is written. These findings show that Western-centric AI models homogenize writing toward Western norms, diminishing nuances that differentiate cultural expression.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713564
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713564
+ER  - 
+
+TY  - CONF
+TI  - To Use or Not to Use: Impatience and Overreliance When Using Generative AI Productivity Support Tools
+AU  - Qiao, Han
+AU  - Vermeulen, Jo
+AU  - Fitzmaurice, George
+AU  - Matejka, Justin
+PY  - 2025
+AB  - Generative AI has the potential to assist people with completing various tasks, but increased productivity is not guaranteed due to challenges such as uncertainty in output quality and unclear processing time. Through an online crowdsourced experiment (N=508), leveraging a “paint by numbers” task to simulate properties of GenAI assistance, we explore how, and how well, users make decisions on whether to use or not use automation to maximize their productivity given varying waiting times and output quality. We observed gaps between user’s actual choices and their optimal choices and characterized these gaps as the “gulf of impatience” and the “gulf of overreliance”. We also distilled strategies that participants adopted when making their decisions. We discuss design considerations in supporting users to make more informed decisions when interacting with GenAI tools and make these tools more useful for improving users’ task performance, productivity and satisfaction.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714103
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714103
+ER  - 
+
+TY  - CONF
+TI  - ChatHAP: A Chat-Based Haptic System for Designing Vibrations through Conversation
+AU  - Lim, Chungman
+AU  - John, Kevin
+AU  - Jin, Gyungmin
+AU  - Seifi, Hasti
+AU  - Park, Gunhyuk
+PY  - 2025
+AB  - In contrast to design tools for graphics and audio generation from text prompts, haptic design tools lag behind due to challenges in constructing large-scale, high-quality datasets including vibrations and text descriptions. To address this gap, we propose ChatHAP, a conversational haptic system for designing vibrations. ChatHAP integrates various haptic design approaches using a large language model, including generating vibrations using signal parameters, navigating through libraries, and modifying existing vibrations. To further improve vibration navigation, we present an algorithm that adaptively learns user preferences for vibration features. A user study with novices (n=20) demonstrated that ChatHAP can serve as a practical design tool, and the proposed algorithm significantly reduced task completion time (38\%), prompt quantity (25\%), and verbosity (36\%). The study found ChatHAP easy-to-use and identified requirements for chat-based haptic design as well as features for further improvement. Finally, we present key findings with ChatHAP and discuss implications for future work.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713441
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713441
+ER  - 
+
+TY  - CONF
+TI  - ProTAL: A Drag-and-Link Video Programming Framework for Temporal Action Localization
+AU  - He, Yuchen
+AU  - Lv, Jianbing
+AU  - Cheng, Liqi
+AU  - Meng, Lingyu
+AU  - Deng, Dazhen
+AU  - Wu, Yingcai
+PY  - 2025
+AB  - Temporal Action Localization (TAL) aims to detect the start and end timestamps of actions in a video. However, the training of TAL models requires a substantial amount of manually annotated data. Data programming is an efficient method to create training labels with a series of human-defined labeling functions. However, its application in TAL faces difficulties of defining complex actions in the context of temporal video frames. In this paper, we propose ProTAL, a drag-and-link video programming framework for TAL. ProTAL enables users to define key events by dragging nodes representing body parts and objects and linking them to constrain the relations (direction, distance, etc.). These definitions are used to generate action labels for large-scale unlabelled videos. A semi-supervised method is then employed to train TAL models with such labels. We demonstrate the effectiveness of ProTAL through a usage scenario and a user study, providing insights into designing video programming framework.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713741
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713741
+ER  - 
+
+TY  - CONF
+TI  - Underground AI? Critical Approaches to Generative Cinema through Amateur Filmmaking
+AU  - Halperin, Brett A.
+AU  - Ru\'{\i}z, Diana Flores
+AU  - Rosner, Daniela K.
+PY  - 2025
+AB  - Amateurism (e.g., hobbyist and do-it-yourself making) has long helped human-computer interaction (HCI) scholars map alternatives to status quo technology developments, cultures, and practices. Following the 2023 Hollywood film worker strikes, many scholars, artists, and activists alike have called for alternative approaches to AI that reclaim the apparatus for co-creative and resistant means. Towards this end, we conduct an 11-week diary study with 20 amateur filmmakers of 15 AI-infused films, investigating the emerging space of generative cinema as a critical technical practice. Our close reading of the films and filmmakers’ reflections on their processes reveal four critical approaches to negotiating AI use in filmmaking: minimization, maximization, compartmentalization, and revitalization. We discuss how these approaches suggest the potential for underground filmmaking cultures to form around AI with critical amateurs reclaiming social control over the creative possibilities.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713342
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713342
+ER  - 
+
+TY  - CONF
+TI  - VidSTR: Automatic Spatiotemporal Retargeting of Speech-Driven Video Compositions
+AU  - Yang, Joshua Kong
+AU  - Leake, Mackenzie
+AU  - Huang, Jeff
+AU  - DiVerdi, Stephen
+PY  - 2025
+AB  - Video editors often record multiple versions of a performance with minor differences. When they add graphics atop one video, they may wish to transfer those assets to another recording, but differences in performance, wordings, and timings can cause assets to no longer be aligned with the video content. Fixing this is a time-consuming, manual task. We present a technique which preserves the temporal and spatial alignment of the original composition when automatically retargeting speech-driven video compositions. It can transfer graphics between both similar and dissimilar performances, including those varying in speech and gesture. We use a large language model for transcript-based temporal alignment and integer programming for spatial alignment. Results from retargeting between 51 pairs of performances show that we achieve a temporal alignment success rate of 90\% compared to hand-generated ground truth compositions. We demonstrate challenging scenarios, retargeting video compositions across different people, aspect ratios, and languages.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713857
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713857
+ER  - 
+
+TY  - CONF
+TI  - A Multimodal Approach for Targeting Error Detection in Virtual Reality Using Implicit User Behavior
+AU  - Sendhilnathan, Naveen
+AU  - Zhang, Ting
+AU  - Bethge, David
+AU  - Nebeling, Michael
+AU  - Grossman, Tovi
+AU  - Jonker, Tanya R.
+PY  - 2025
+AB  - Although the point-and-select interaction method has been shown to lead to user and system-initiated errors, it is still prevalent in VR scenarios. Current solutions to facilitate selection interactions exist, however they do not address the challenges caused by targeting inaccuracy. To reduce the effort required to target objects, we developed a model that quickly detected targeting errors after they occurred. The model used implicit multimodal user behavioral data to identify possible targeting outcomes. Using a dataset composed of 23 participants engaged in VR targeting tasks, we then trained a deep learning model to differentiate between correct and incorrect targeting events within 0.5 seconds of a selection, resulting in an AUC-ROC of 0.9. The utility of this model was then evaluated in a user study with 25 participants that identified that participants recovered from more errors and faster when assisted by the model. These results advance our understanding of targeting errors in VR and facilitate the design of future intelligent error-aware systems.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713777
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713777
+ER  - 
+
+TY  - CONF
+TI  - Juggling Extra Limbs: Identifying Control Strategies for Supernumerary Multi-Arms in Virtual Reality
+AU  - Zhou, Hongyu
+AU  - Kip, Tom
+AU  - Dong, Yihao
+AU  - Bianchi, Andrea
+AU  - Sarsenbayeva, Zhanna
+AU  - Withana, Anusha
+PY  - 2025
+AB  - Using supernumerary multi-limbs for complex tasks is a growing research focus in Virtual Reality (VR) and robotics. Understanding how users integrate extra limbs to achieve shared goals is crucial for developing efficient supernumeraries. This paper presents an exploratory study (N=14) investigating strategies for controlling virtual supernumerary limbs with varying autonomy in VR object manipulation tasks. Using a Wizard-of-Oz approach to simulate semi-autonomous limbs, we collected qualitative and quantitative data. Results show participants adapted control strategies based on task complexity and autonomy, affecting task delegation, coordination, and body ownership. Based on these findings, we propose guidelines—commands, demonstration, delegation, and labeling—to improve multi-limb interaction design by adapting autonomy to user needs and fostering context-aware experiences.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713647
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713647
+ER  - 
+
+TY  - CONF
+TI  - On the Go with AR: Attention to Virtual and Physical Targets while Varying Augmentation Density
+AU  - Kim, You-Jin
+AU  - Kumaran, Radha
+AU  - Luo, Jingjing
+AU  - Bullock, Tom
+AU  - Giesbrecht, Barry
+AU  - H\"{o}llerer, Tobias
+PY  - 2025
+AB  - Augmented reality is projected to be a primary mode of information consumption on the go, seamlessly integrating virtual content into the physical world. However, the potential perceptual demands of viewing virtual annotations while navigating a physical environment could impact user efficacy and safety, and the implications of these demands are not well understood. Here, we investigate the impact of virtual path guidance and augmentation density (visual clutter) on search performance and memory. Participants walked along a predefined path, searching for physical or virtual items. They experienced two levels of augmentation density, and either walked freely or with enforced speed and path guidance. Augmentation density impacted behavior and reduced awareness of uncommon objects in the environment. Analysis of search task performance and post-experiment item recall revealed differing attention to physical and virtual objects. On the basis of these findings we outline considerations for AR apps designed for use on the go.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714289
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714289
+ER  - 
+
+TY  - CONF
+TI  - Chartist: Task-driven Eye Movement Control for Chart Reading
+AU  - Shi, Danqing
+AU  - Wang, Yao
+AU  - Bai, Yunpeng
+AU  - Bulling, Andreas
+AU  - Oulasvirta, Antti
+PY  - 2025
+AB  - To design data visualizations that are easy to comprehend, we need to understand how people with different interests read them. Computational models of predicting scanpaths on charts could complement empirical studies by offering estimates of user performance inexpensively; however, previous models have been limited to gaze patterns and overlooked the effects of tasks. Here, we contribute Chartist, a computational model that simulates how users move their eyes to extract information from the chart in order to perform analysis tasks, including value retrieval, filtering, and finding extremes. The novel contribution lies in a two-level hierarchical control architecture. At the high level, the model uses LLMs to comprehend the information gained so far and applies this representation to select a goal for the lower-level controllers, which, in turn, move the eyes in accordance with a sampling policy learned via reinforcement learning. The model is capable of predicting human-like task-driven scanpaths across various tasks. It can be applied in fields such as explainable AI, visualization design evaluation, and optimization. While it displays limitations in terms of generalizability and accuracy, it takes modeling in a promising direction, toward understanding human behaviors in interacting with charts.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713128
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713128
+ER  - 
+
+TY  - CONF
+TI  - Lost in Magnitudes: Exploring Visualization Designs for Large Value Ranges
+AU  - Batziakoudi, Katerina
+AU  - Cabric, Florent
+AU  - Rey, St\'{e}phanie
+AU  - Fekete, Jean-Daniel
+PY  - 2025
+AB  - We explore the design of visualizations for values spanning multiple orders of magnitude; we call them Orders of Magnitude Values (OMVs). Visualization researchers have shown that separating OMVs into two components, the mantissa and the exponent, and encoding them separately overcomes limitations of linear and logarithmic scales. However, only a small number of such visualizations have been tested, and the design guidelines for visualizing the mantissa and exponent separately remain under-explored. To initiate this exploration, better understand the factors influencing the effectiveness of these visualizations, and create guidelines, we adopt a multi-stage workflow. We introduce a design space for visualizing mantissa and exponent, systematically generating and qualitatively evaluating all possible visualizations within it. From this evaluation, we derive guidelines. We select two visualizations that align with our guidelines and test them using a crowdsourcing experiment, showing they facilitate quantitative comparisons and increase confidence in interpretation compared to the state-of-the-art.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713487
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713487
+ER  - 
+
+TY  - CONF
+TI  - Seeing Eye to AI? Applying Deep-Feature-Based Similarity Metrics to Information Visualization
+AU  - Long, Sheng
+AU  - Chatzimparmpas, Angelos
+AU  - Alexander, Emma
+AU  - Kay, Matthew
+AU  - Hullman, Jessica
+PY  - 2025
+AB  - Judging the similarity of visualizations is crucial to various applications, such as visualization-based search and visualization recommendation systems. Recent studies show deep-feature-based similarity metrics correlate well with perceptual judgments of image similarity and serve as effective loss functions for tasks like image super-resolution and style transfer. We explore the application of such metrics to judgments of visualization similarity. We extend a similarity metric using five ML architectures and three pre-trained weight sets. We replicate results from previous crowdsourced studies on scatterplot and visual channel similarity perception. Notably, our metric using pre-trained ImageNet weights outperformed gradient-descent tuned MS-SSIM, a multi-scale similarity metric based on luminance, contrast, and structure. Our work contributes to understanding how deep-feature-based metrics can enhance similarity assessments in visualization, potentially improving visual analysis tools and techniques. Supplementary materials are available at https://osf.io/dj2ms/.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713955
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713955
+ER  - 
+
+TY  - CONF
+TI  - Comparing Native and Non-native English Speakers' Behaviors in Collaborative Writing through Visual Analytics
+AU  - Chen, Yuexi
+AU  - Xiao, Yimin
+AU  - Zinat, Kazi Tasnim
+AU  - Yamashita, Naomi
+AU  - Gao, Ge
+AU  - Liu, Zhicheng
+PY  - 2025
+AB  - Understanding collaborative writing dynamics between native speakers (NS) and non-native speakers (NNS) is critical for enhancing collaboration quality and team inclusivity. In this paper, we partnered with communication researchers to develop visual analytics solutions for comparing NS and NNS behaviors in 162 writing sessions across 27 teams. The primary challenges in analyzing writing behaviors are data complexity and the uncertainties introduced by automated methods. In response, we present COALA, a novel visual analytics tool that improves model interpretability by displaying uncertainties in author clusters, generating behavior summaries using large language models, and visualizing writing-related actions at multiple granularities. We validated the effectiveness of COALA through user studies with domain experts (N=2+2) and researchers with relevant experience (N=8). We present the insights discovered by participants using COALA, suggest features for future AI-assisted collaborative writing tools, and discuss the broader implications for analyzing collaborative processes beyond writing.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713693
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713693
+ER  - 
+
+TY  - CONF
+TI  - Confirmation Bias: The Double-Edged Sword of Data Facts in Visual Data Communication
+AU  - Li, Shiyao
+AU  - Davidson, Thomas James
+AU  - Xiong Bearfield, Cindy
+AU  - Wall, Emily
+PY  - 2025
+AB  - Incorporating data facts, which are natural language descriptions of data patterns, alongside visualizations can guide readers and enhance the visibility of data patterns. However, data facts might also induce confirmation bias in visual analysis. We conducted a series of crowdsourced experiments to explore the biasing effects of data facts. Our findings show that the presentation style, strength, and alignment of data facts with pre-existing beliefs significantly impact confirmation bias. Data facts that support prior beliefs can exacerbate confirmation bias, whereas those that refute an individual’s beliefs can mitigate it. This effect is amplified when data facts are used in combination with visual annotations. Data facts describing variable correlations are perceived to be more compelling than ones describing average values and are associated with higher levels of confirmation bias. We underscore the persuasive influence of data facts in visualizations and caution against their indiscriminate use in efforts to mitigate bias.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713831
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713831
+ER  - 
+
+TY  - CONF
+TI  - Beyond the Circadian Rhythm: Variable Cycles of Regularity Found in Long-Term Sleep Tracking
+AU  - Chung, Ji Won
+AU  - Yuan, Robin
+AU  - Zitting, Kirsi-Marja
+AU  - Chen, Jiahua
+AU  - Xu, Neil
+AU  - Daskalova, Nediyana
+AU  - Huang, Jeff
+PY  - 2025
+AB  - Sleep is more than resting eight hours a day—it contextualizes and shapes the routines during the day. Using a large-scale naturalistic dataset of 180,083 people from a popular sleep app, made possible by the widespread adoption of passive tracking, we find that people’s lives have distinct natural rhythms that can be automatically inferred from sleep routines. We discover heterogeneous behaviors: the rhythm of sleep is different for each person, as there is a different cadence for each person to achieve consistency. Some are most consistent week-to-week, while others weeks-to-weeks. We investigate changes in overall daily routines and find the interval for each person at which they show the most consistency. Through a series of comparative case analyses, we investigate the implications of designing for the weekly ‘norm’. Our tripartite analyses triangulate to one conclusion: we should design for people’s natural routines to account for variable cycles of regularity.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713868
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713868
+ER  - 
+
+TY  - CONF
+TI  - Exploring Modular Prompt Design for Emotion and Mental Health Recognition
+AU  - Kim, Minseo
+AU  - Kim, Taemin
+AU  - Vo, Thu Hoang Anh
+AU  - Jung, Yugyeong
+AU  - Lee, Uichin
+PY  - 2025
+AB  - Recent advances in large language models (LLM) offered human-like capabilities for comprehending emotion and mental states. Prior studies explored diverse prompt engineering techniques for improving classification performance, but there is a lack of analysis of prompt design space and the impact of each component. To bridge this gap, we conduct a qualitative thematic analysis of existing prompts for emotion and mental health classification tasks to define the key components for prompt design space. We then evaluate the impact of major prompt components, such as persona and task instruction, on classification performance by using four LLM models and five datasets. Modular prompt design offers new insights into examining performance variability as well as promoting transparency and reproducibility in LLM-based tasks within health and well-being intervention systems.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713888
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713888
+ER  - 
+
+TY  - CONF
+TI  - Feasibility and Utility of Multimodal Micro Ecological Momentary Assessment on a Smartwatch
+AU  - Le, Ha
+AU  - Potter, Veronika
+AU  - Lakshminarayanan, Rithika
+AU  - Mishra, Varun
+AU  - Intille, Stephen
+PY  - 2025
+AB  - μ EMAs allow participants to answer a short survey quickly with a tap on a smartwatch screen or a brief speech input. The short interaction time and low cognitive burden enable researchers to collect self-reports at high frequency (once every 5-15 minutes) while maintaining participant engagement. Systems with single input modality, however, may carry different contextual biases that could affect compliance. We combined two input modalities to create a multimodal-μ EMA system, allowing participants to choose between speech or touch input to self-report. To investigate system usability, we conducted a seven-day field study where we asked 20 participants to label their posture and/or physical activity once every five minutes throughout their waking day. Despite the intense prompting interval, participants responded to 72.4\% of the prompts. We found participants gravitated towards different modalities based on personal preferences and contextual states, highlighting the need to consider these factors when designing context-aware multimodal μ EMA systems.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714086
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714086
+ER  - 
+
+TY  - CONF
+TI  - Exploring Alternative Socio-Technical Systems for Careful Data Work in Recovery Contexts
+AU  - Claisse, Caroline
+AU  - Osborne, Alison K
+AU  - Sillence, Elizabeth
+AU  - Glascott, Angela
+AU  - Cameron, Alisdair S
+AU  - Durrant, Abigail C
+PY  - 2025
+AB  - Non-profits such as voluntary and community-based (VC) organisations are facing increasing pressures to engage in data work to sustain themselves. They face challenges with practices, information systems and tools associated with capturing data for supporting service provision. Most recently, researchers working with VC organisations have turned to Feminist and Care discourses to envision alternatives to current socio-technical systems whereby their values and purposes do not match with those of non-profits, consequently pulling the latter away from their socially driven mission. We report on a longitudinal, collaborative study with a UK-based mental health peer support organisation that created innovative tools as a means of navigating current pressures to practice data work for the quantification of mental health service provision. We present findings from interviews conducted with our community partner and share how recovery work has informed careful data practices, offering recommendations for supporting data work in mental health recovery.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713537
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713537
+ER  - 
+
+TY  - CONF
+TI  - Evaluating Non-AI Experts' Interaction with AI: A Case Study In Library Context
+AU  - Zheng, Qingxiao
+AU  - Chen, Minrui
+AU  - Park, Hyanghee
+AU  - Xu, Zhongwei
+AU  - Huang, Yun
+PY  - 2025
+AB  - Public libraries in the U.S. are increasingly facing labor shortages, tight budgets, and overworked staff, creating a pressing need for conversational agents to assist patrons. The democratization of generative AI has empowered public service professionals to develop AI agents by leveraging large language models. To understand the needs of non-AI library professionals in creating their own conversational agents, we conducted semi-structured interviews with library professionals (n=11) across the U.S. Insights from these interviews informed the design of AgentBuilder, a prototype tool that enables non-AI experts to create conversational agents without coding skills. We then conducted think-aloud sessions and follow-up interviews to evaluate the prototype experience and identify the key evaluation criteria emphasized by library professionals (n=12) when developing conversational agents. Our findings highlight how these professionals perceive the prototype experience and reveal five essential evaluation criteria: interpreting user intent, faithful paraphrasing, proper alignment with authoritative sources, tailoring the tone of voice, and handling unknown answers effectively. These insights provide valuable guidance for designing AI-supported "end-user creation tools" in public service domains beyond libraries.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714219
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714219
+ER  - 
+
+TY  - CONF
+TI  - Prompting in the Dark: Assessing Human Performance in Prompt Engineering for Data Labeling When Gold Labels Are Absent
+AU  - He, Zeyu
+AU  - Naphade, Saniya
+AU  - Huang, Ting-Hao Kenneth
+PY  - 2025
+AB  - Millions of users prompt large language models (LLMs) for various tasks, but how good are people at prompt engineering? Do users actually get closer to their desired outcome over multiple iterations of their prompts? These questions are crucial when no gold-standard labels are available to measure progress. This paper investigates a scenario in LLM-powered data labeling, “prompting in the dark,” where users iteratively prompt LLMs to label data without using manually-labeled benchmarks. We developed PromptingSheet, a Google Sheets add-on that enables users to compose, revise, and iteratively label data through spreadsheets. Through a study with 20 participants, we found that prompting in the dark was highly unreliable—only 9 participants improved labeling accuracy after four or more iterations. Automated prompt optimization tools like DSPy also struggled when few gold labels were available. Our findings highlight the importance of gold labels and the needs, as well as the risks, of automated support in human prompt engineering, providing insights for future tool design.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714319
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714319
+ER  - 
+
+TY  - CONF
+TI  - "It Might be Technically Impressive, But It's Practically Useless to us": Motivations, Practices, Challenges, and Opportunities for Cross-Functional Collaboration around AI within the News Industry
+AU  - Xiao, Qing
+AU  - Fan, Xianzhe
+AU  - Simon, Felix Marvin
+AU  - Zhang, Bingbing
+AU  - Eslami, Motahhare
+PY  - 2025
+AB  - Recently, an increasing number of news organizations have integrated artificial intelligence (AI) into their workflows, leading to a further influx of AI technologists and data workers into the news industry. This has initiated cross-functional collaborations between these professionals and journalists. Although prior research has explored the impact of AI-related roles entering the news industry, there is a lack of studies on how internal cross-functional collaboration around AI unfolds between AI professionals and journalists within the news industry. Through interviews with 17 journalists, six AI technologists, and three AI workers with cross-functional experience from leading Chinese news organizations, we investigate the practices, challenges, and opportunities for internal cross-functional collaboration around AI in news industry. We first study how these journalists and AI professionals perceive existing internal cross-collaboration strategies. We explore the challenges of cross-functional collaboration and provide recommendations for enhancing future cross-functional collaboration around AI in the news industry.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714090
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714090
+ER  - 
+
+TY  - CONF
+TI  - AI Rivalry as a Craft: How Resisting and Embracing Generative AI Are Reshaping the Writing Profession
+AU  - Varanasi, Rama Adithya
+AU  - Wiesenfeld, Batia Mishan
+AU  - Nov, Oded
+PY  - 2025
+AB  - Generative AI (GAI) technologies are disrupting professional writing, challenging traditional practices. Recent studies explore GAI adoption experiences of creative practitioners, but we know little about how these experiences evolve into established practices and how GAI resistance alters these practices. To address this gap, we conducted 25 semi-structured interviews with writing professionals who adopted and/or resisted GAI. Using the theoretical lens of Job Crafting, we identify four strategies professionals employ to reshape their roles. Writing professionals employed GAI resisting strategies to maximize human potential, reinforce professional identity, carve out a professional niche, and preserve credibility within their networks. In contrast, GAI-enabled strategies allowed writers who embraced GAI to enhance desirable workflows, minimize mundane tasks, and engage in new AI-managerial labor. These strategies amplified their collaborations with GAI while reducing their reliance on other people. We conclude by discussing implications of GAI practices on writers’ identity and practices as well as crafting theory.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714035
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714035
+ER  - 
+
+TY  - CONF
+TI  - Generative AI Uses and Risks for Knowledge Workers in a Science Organization
+AU  - Wagman, Kelly B.
+AU  - Dearing, Matthew T.
+AU  - Chetty, Marshini
+PY  - 2025
+AB  - Generative AI could enhance scientific discovery by supporting knowledge workers in science organizations. However, the real-world applications and perceived concerns of generative AI use in these organizations are uncertain. In this paper, we report on a collaborative study with a US national laboratory with employees spanning Science and Operations about their use of generative AI tools. We surveyed 66 employees, interviewed a subset (N=22), and measured early adoption of an internal generative AI interface called Argo lab-wide. We have four findings: (1) Argo usage data shows small but increasing use by Science and Operations employees; Common current and envisioned use cases for generative AI in this context conceptually fall into either a (2) copilot or (3) workflow agent modality; and (4) Concerns include sensitive data security, academic publishing, and job impacts. Based on our findings, we make recommendations for generative AI use in science and other organizations.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713827
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713827
+ER  - 
+
+TY  - CONF
+TI  - Judging Phishing Under Uncertainty: How Do Users Handle Inaccurate Automated Advice?
+AU  - Saka, Tarini
+AU  - Vakali, Kalliopi
+AU  - Jenkins, Adam D G
+AU  - Kokciyan, Nadin
+AU  - Vaniea, Kami
+PY  - 2025
+AB  - Providing accurate and actionable advice about phishing emails is challenging. The majority of advice is generic and hard to implement. Phishing emails that pass through filters and land in user inboxes are usually sophisticated and exploit differences between how humans and computers interpret emails. Therefore, users need accurate and relevant guidance to take the right action. This study investigates the effectiveness of guidance based on features extracted from emails, which even in AI-driven systems can sometimes be inaccurate, leading to poor advice. We examined three conditions: control (generic advice), perfect advice, and realistic advice, through an online survey of 489 participants on Prolific, and measured user accuracy and confidence in phishing detection with and without guidance. Our findings indicate that having advice specific to the email is more effective than generic guidance (control). Inaccuracies in the guidance can also impact user decisions and reduce detection accuracy.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714267
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714267
+ER  - 
+
+TY  - CONF
+TI  - Social by Nature: How Socio-tecture Shapes the Work of SMBs and Considerations for Reimagining Collaborative Human-AI Systems
+AU  - Ankrah, Elizabeth A
+AU  - Awori, Kagonya
+AU  - Nyairo, Stephanie
+AU  - Muchai, Mercy
+AU  - Ochieng, Millicent
+AU  - Kariuki, Mark
+AU  - Hayes, Gillian R
+AU  - O'Neill, Jacki
+PY  - 2025
+AB  - Globally, small and medium-sized businesses (SMBs) have had to adapt to rapid digital changes, a shift accelerated by the COVID-19 pandemic. In Kenya, this transition has involved a significant move towards digital management tools. While many had already experienced marked digitalization over the last few decades, they completed this work differently from their European and North American counterparts. This study explores how Kenyan SMBs continue to navigate these changes and considers the potential of Generative AI in this context. Applying the concept of socio-tecture—which emphasizes social networks, relational business practices, and employees as knowledge producers—we analyze how these elements influence SMB operations in Nairobi. We highlight how socio-tecture affects business performance and growth, and discuss how an Afro-centric strengths-based approach might offer unique opportunities and challenges with the influx of new technologies like Generative AI.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3715019
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3715019
+ER  - 
+
+TY  - CONF
+TI  - The Making of Performative Accuracy in AI Training: Precision Labor and Its Consequences
+AU  - Zhang, Ben Zefeng
+AU  - Yang, Tianling
+AU  - Miceli, Milagros
+AU  - Haimson, Oliver L.
+AU  - Thomas, Michaelanne
+PY  - 2025
+AB  - Accuracy and precision are central values in the AI communities and the technology sector. This paper provides empirical evidence on the construction and organizational management of technical accuracy, demonstrating how technology companies’ preoccupation with such values leads to harm. Drawing on nine months of multi-sited ethnographic fieldwork in China, we document how AI trainers’ everyday work practices, challenges, and harms stem from clients’ demands for high levels of technical accuracy. We introduce the concept of precision labor to unpack the labor dimension of constructing and performing accuracy in AI training. This concept highlights the hidden and excessive labor required to reconcile the ambiguity and uncertainty involved in this process. We argue that precision labor offers a new lens to illuminate three critical aspects of AI training: 1) the negative health and financial impacts of hidden and excessive labor on AI workers; 2) emerging harms, including workers’ subordinate roles to machines and financial precarity; and 3) a conceptual contribution to contexts beyond AI training. This contribution re-centers arbitrariness in technical production, highlights the excessive demands of precision labor, and examines the legitimization of labor and harm. Our study also contributes to existing scholarship on the prevailing values and invisible labor in AI production, underscoring accuracy as performative rather than self-evident and unambiguous. A precision labor lens challenges the legitimacy and sustainability of relentlessly pursuing technical accuracy, raising new questions about its consequences and ethical implications. We conclude by proposing recommendations and alternative approaches to enhance worker agency and well-being.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713112
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713112
+ER  - 
+
+TY  - CONF
+TI  - Knowledge Workers' Perspectives on AI Training for Responsible AI Use
+AU  - Zhang, Angie
+AU  - Lee, Min Kyung
+PY  - 2025
+AB  - AI expansion has accelerated workplace adoption of new technologies. Yet, it is unclear whether and how knowledge workers are supported and trained to safely use AI. Inadequate training may lead to unrealized benefits if workers abandon tools, or perpetuate biases if workers misinterpret AI-based outcomes. In a workshop with 39 workers from 26 countries specializing in human resources, labor law, standards creation, and worker training, we explored questions and ideas they had about safely adopting AI. We held 17 follow-up interviews to further investigate what skills and training knowledge workers need to achieve safe and effective AI in practice. We synthesize nine training topics participants surfaced for knowledge workers related to challenges around understanding what AI is, misinterpreting outcomes, exacerbating biases, and worker rights. We reflect how these training topics might be addressed under different contexts, imagine HCI research prototypes as potential training tools, and consider ways to ensure training does not perpetuate harmful values.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3714100
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3714100
+ER  - 
+
+TY  - CONF
+TI  - Speculative Job Design: Probing Alternative Opportunities for Gig Workers in an Automated Future
+AU  - Ma, Shuhao
+AU  - Liu, Zhiming
+AU  - Nisi, Valentina
+AU  - Fox, Sarah E
+AU  - Nunes, Nuno Jardim
+PY  - 2025
+AB  - Automation is reshaping the gig economy, raising urgent concerns about worker displacement. With the global rise in gig workers, there is an increasing urgency for HCI and design research to focus on the impact of designing automation technologies on labor dynamics. This study introduces speculative job design research to probe alternative opportunities for gig workers in an automated future, engaging 20 workers in the process. Guided by Feminist HCI, we performed reflexive thematic analysis to uncover gig workers’ views on automation technology, human labor, speculative jobs, and their concerns about the future of work. We highlighted how workers see labor exploitation as a competitive asset over machines, urging that future platform designs must not perpetuate this. Notably, through speculative job design and conversation with workers, we proposed labor design, suggesting labor as a designable material to help address unfair labor dynamics in technology design. Our research offers potential insights and directions for addressing labor tensions in the evolving sociotechnical landscape.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713885
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713885
+ER  - 
+
+TY  - CONF
+TI  - Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits
+AU  - Chakrabarty, Tuhin
+AU  - Laban, Philippe
+AU  - Wu, Chien-Sheng
+PY  - 2025
+AB  - LLM-based applications are helping people write, and LLM-generated text is making its way into social media, journalism, and our classrooms. However, the differences between LLM-generated and human-written text remain unclear. To explore this, we hired professional writers to edit paragraphs in several creative domains. We first found these writers agree on undesirable idiosyncrasies in LLM-generated text, formalizing it into a seven-category taxonomy (e.g. clich\'es, unnecessary exposition). Second, we curated the LAMP corpus: 1,057 LLM-generated paragraphs edited by professional writers according to our taxonomy. Analysis of LAMP reveals that none of the LLMs used in our study (GPT4o, Claude-3.5-Sonnet, Llama-3.1-70b) outperform each other in terms of writing quality, revealing common limitations across model families. Third, building on existing work in automatic editing we evaluated methods to improve LLM-generated text. A large-scale preference annotation confirms that although experts largely prefer text edited by other experts, automatic editing methods show promise in improving alignment between LLM-generated and human-written text.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713559
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713559
+ER  - 
+
+TY  - CONF
+TI  - End User Authoring of Personalized Content Classifiers: Comparing Example Labeling, Rule Writing, and LLM Prompting
+AU  - Wang, Leijie
+AU  - Yurechko, Kathryn
+AU  - Dani, Pranati
+AU  - Chen, Quan Ze
+AU  - Zhang, Amy X.
+PY  - 2025
+AB  - Existing tools for laypeople to create personal classifiers often assume a motivated user working uninterrupted in a single, lengthy session. However, users tend to engage with social media casually, with many short sessions on an ongoing, daily basis. To make creating personal classifiers for content curation easier for such users, tools should support rapid initialization and iterative refinement. In this work, we compare three strategies—(1) example labeling, (2) rule writing, and (3) large language model (LLM) prompting—for end users to build personal content classifiers. From an experiment with 37 non-programmers tasked with creating personalized moderation filters, we found that participants preferred different initializing strategies in different contexts, despite LLM prompting’s better performance. However, all strategies faced challenges with iterative refinement. To overcome challenges in iterating on their prompts, participants even adopted hybrid approaches such as providing examples as in-context examples or writing rule-like prompts.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713691
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713691
+ER  - 
+
+TY  - CONF
+TI  - Investigating How Computer Science Researchers Design Their Co-Writing Experiences With AI
+AU  - Monge Roffarello, Alberto
+AU  - Cal\`{o}, Tommaso
+AU  - Scibetta, Luca
+AU  - De Russis, Luigi
+PY  - 2025
+AB  - Recent advancements in AI have significantly enhanced collaboration between humans and writing assistants. However, empirical evidence is still lacking on how this collaboration unfolds in scientific writing, especially considering the variety of tools researchers can use nowadays. We conducted observations and retrospective interviews to investigate how 19 computer science researchers collaborated with intelligent writing assistants while working on their ongoing projects. We adopted a design-in-use lens to analyze the collected data, exploring how researchers adapt writing assistants during their use to overcome challenges and meet their specific needs and preferences. Our findings identify issues such as workflow disruptions and over-reliance on AI, and reveal five distinct design-in-use styles—teaching, resisting, repurposing, orchestrating, and complying—each consisting of different practices used by researchers. This study contributes to understanding the evolving landscape of human-AI co-writing in scientific research and offers insights for designing more effective writing assistants.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713205
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713205
+ER  - 
+
+TY  - CONF
+TI  - Text Entry for XR Trove (TEXT): Collecting and Analyzing Techniques for Text Input in XR
+AU  - Bhatia, Arpit
+AU  - Mughrabi, Moaaz Hudhud
+AU  - Abdlkarim, Diar
+AU  - Di Luca, Massimiliano
+AU  - Gonzalez-Franco, Mar
+AU  - Ahuja, Karan
+AU  - Seifi, Hasti
+PY  - 2025
+AB  - Text entry for extended reality (XR) is far from perfect, and a variety of text entry techniques (TETs) have been proposed to fit various contexts of use. However, comparing between TETs remains challenging due to the lack of a consolidated collection of techniques, and limited understanding of how interaction attributes of a technique (e.g., presence of visual feedback) impact user performance. To address these gaps, this paper examines the current landscape of XR TETs by creating a database of 176 different techniques. We analyze this database to highlight trends in the design of these techniques, the metrics used to evaluate them, and how various interaction attributes impact these metrics. We discuss implications for future techniques and present TEXT: Text Entry for XR Trove, an interactive online tool to navigate our database.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713382
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713382
+ER  - 
+
+TY  - CONF
+TI  - Democratic Moderation: Exploring the Use and Perception of Votekicking in Social Virtual Reality
+AU  - Chen, Qijia
+AU  - Wu, Qunfang
+AU  - Jacucci, Giulio
+PY  - 2025
+AB  - Extensive research has focused on community-based moderation involving selected or volunteer moderators. The “votekick” system represents a democratized approach allowing all users to participate in moderation. Despite its widespread use in online gaming and social VR platforms, votekicking remains underexplored. This research studies how users use and perceive votekicking in VRChat, a leading social VR platform. Through thematic analysis of discussions from the Reddit community r/VRChat, our findings reveal that votekicking serves to cope with misconduct and enforce group-specific rules, but it also perpetuates toxicity such as materializing community-level biases. While praised for its immediacy and clear messaging against unacceptable behavior, votekicking’s effectiveness is hindered by its reactive nature, consensus challenges, and decision-making complexities. This research contributes to broader discussions on the limitations and advantages of direct community involvement in moderation and suggests practical design improvements to address the challenges associated with votekicking.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713577
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713577
+ER  - 
+
+TY  - CONF
+TI  - Raise Your Eyebrows Higher: Facilitating Emotional Communication in Social Virtual Reality Through Region-Specific Facial Expression Exaggeration
+AU  - Wang, Xueyang
+AU  - Zhao, Sheng
+AU  - Wang, Yihe
+AU  - Han, Howard Ziyu
+AU  - Liu, Xinge
+AU  - Yi, Xin
+AU  - Tong, Xin
+AU  - Li, Hewu
+PY  - 2025
+AB  - While exaggerated facial expressions in cartoon avatars can enhance emotional communication in social virtual reality (VR), they risk triggering the uncanny valley effect. Our research reveals that this effect varies significantly across different emotions. In Study 1 (N=30), participants evaluated scaled facial expressions during simulated VR conversations. We found that expression exaggeration had opposing effects: it decreased facial realism for joy, surprise, and disgust due to overly dramatic mouth movements, while enhancing realism for fear, sadness, and anger—emotions that rely on upper facial expressions typically constrained by HMD pressure. Based on these findings, we developed a region-specific facial expression exaggeration strategy that enhances under-expressed upper facial features while maintaining natural lower facial movements. Study 2 (N=20) validated this approach, demonstrating enhanced emotional intensity and contagion for negative emotions while mitigating the uncanny valley effect. Our research provides practical guidelines for optimizing avatar-mediated emotional communication in social VR environments.
+T2  - Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3706598.3713688
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3706598.3713688
+ER  - 
+

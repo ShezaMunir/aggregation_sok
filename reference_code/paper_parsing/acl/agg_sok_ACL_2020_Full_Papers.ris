@@ -1,0 +1,572 @@
+TY  - CONF
+TI  - Multiscale Collaborative Deep Models for Neural Machine Translation
+AB  - Recent evidence reveals that Neural Machine Translation (NMT) models with deeper neural networks can be more effective but are difficult to train. In this paper, we present a MultiScale Collaborative (MSC) framework to ease the training of NMT models that are substantially deeper than those used previously. We explicitly boost the gradient back-propagation from top to bottom levels by introducing a block-scale collaboration mechanism into deep NMT models. Then, instead of forcing the whole encoder stack directly learns a desired representation, we let each encoder block learns a fine-grained representation and enhance it by encoding spatial dependencies using a context-scale collaboration. We provide empirical evidence showing that the MSC nets are easy to optimize and can obtain improvements of translation quality from considerably increased depth. On IWSLT translation tasks with three translation directions, our extremely deep models (with 72-layer encoders) surpass strong baselines by +2.2 +3.1 BLEU points. In addition, our deep MSC achieves a BLEU score of 30.56 on WMT14 English-to-German task that significantly outperforms state-of-the-art deep NMT models. We have included the source code in supplementary materials.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.40/
+DO  - 10.18653/v1/2020.acl-main.40
+AU  - Wei, Xiangpeng
+AU  - Yu, Heng
+AU  - Hu, Yue
+AU  - Zhang, Yue
+AU  - Weng, Rongxiang
+AU  - Luo, Weihua
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Semi-Supervised Dialogue Policy Learning via Stochastic Reward Estimation
+AB  - Dialogue policy optimization often obtains feedback until task completion in task-oriented dialogue systems. This is insufficient for training intermediate dialogue turns since supervision signals (or rewards) are only provided at the end of dialogues. To address this issue, reward learning has been introduced to learn from state-action pairs of an optimal policy to provide turn-by-turn rewards. This approach requires complete state-action annotations of human-to-human dialogues (i.e., expert demonstrations), which is labor intensive. To overcome this limitation, we propose a novel reward learning approach for semi-supervised policy learning. The proposed approach learns a dynamics model as the reward function which models dialogue progress (i.e., state-action sequences) based on expert demonstrations, either with or without annotations. The dynamics model computes rewards by predicting whether the dialogue progress is consistent with expert demonstrations. We further propose to learn action embeddings for a better generalization of the reward function. The proposed approach outperforms competitive policy learning baselines on MultiWOZ, a benchmark multi-domain dataset.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.62/
+DO  - 10.18653/v1/2020.acl-main.62
+AU  - Huang, Xinting
+AU  - Qi, Jianzhong
+AU  - Sun, Yu
+AU  - Zhang, Rui
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation
+AB  - In this paper, we introduce a novel methodology to efficiently construct a corpus for question answering over structured data. For this, we introduce an intermediate representation that is based on the logical query plan in a database, called Operation Trees (OT). This representation allows us to invert the annotation process without loosing flexibility in the types of queries that we generate. Furthermore, it allows for fine-grained alignment of the tokens to the operations. Thus, we randomly generate OTs from a context free grammar and annotators just have to write the appropriate question and assign the tokens. We compare our corpus OTTA (Operation Trees and Token Assignment), a large semantic parsing corpus for evaluating natural language interfaces to databases, to Spider and LC-QuaD 2.0 and show that our methodology more than triples the annotation speed while maintaining the complexity of the queries. Finally, we train a state-of-the-art semantic parsing model on our data and show that our dataset is a challenging dataset and that the token alignment can be leveraged to significantly increase the performance.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.84/
+DO  - 10.18653/v1/2020.acl-main.84
+AU  - Deriu, Jan
+AU  - Mlynchyk, Katsiaryna
+AU  - Schl{\"a}pfer, Philippe
+AU  - Rodrigo, Alvaro
+AU  - von Gr{\"u}nigen, Dirk
+AU  - Kaiser, Nicolas
+AU  - Stockinger, Kurt
+AU  - Agirre, Eneko
+AU  - Cieliebak, Mark
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Multi-Hypothesis Machine Translation Evaluation
+AB  - Reliably evaluating Machine Translation (MT) through automated metrics is a long-standing problem. One of the main challenges is the fact that multiple outputs can be equally valid. Attempts to minimise this issue include metrics that relax the matching of MT output and reference strings, and the use of multiple references. The latter has been shown to significantly improve the performance of evaluation metrics. However, collecting multiple references is expensive and in practice a single reference is generally used. In this paper, we propose an alternative approach: instead of modelling linguistic variation in human reference we exploit the MT model uncertainty to generate multiple diverse translations and use these: (i) as surrogates to reference translations; (ii) to obtain a quantification of translation variability to either complement existing metric scores or (iii) replace references altogether. We show that for a number of popular evaluation metrics our variability estimates lead to substantial improvements in correlation with human judgements of quality by up 15%.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.113/
+DO  - 10.18653/v1/2020.acl-main.113
+AU  - Fomicheva, Marina
+AU  - Specia, Lucia
+AU  - Guzm{\'a}n, Francisco
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - SUPERT: Towards New Frontiers in Unsupervised Evaluation Metrics for Multi-Document Summarization
+AB  - We study unsupervised multi-document summarization evaluation metrics, which require neither human-written reference summaries nor human annotations (e.g. preferences, ratings, etc.). We propose SUPERT, which rates the quality of a summary by measuring its semantic similarity with a pseudo reference summary, i.e. selected salient sentences from the source documents, using contextualized embeddings and soft token alignment techniques. Compared to the state-of-the-art unsupervised evaluation metrics, SUPERT correlates better with human ratings by 18- 39%. Furthermore, we use SUPERT as rewards to guide a neural-based reinforcement learning summarizer, yielding favorable performance compared to the state-of-the-art unsupervised summarizers. All source code is available at https://github.com/yg211/acl20-ref-free-eval.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.124/
+DO  - 10.18653/v1/2020.acl-main.124
+AU  - Gao, Yang
+AU  - Zhao, Wei
+AU  - Eger, Steffen
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Probing Linguistic Features of Sentence-Level Representations in Neural Relation Extraction
+AB  - Despite the recent progress, little is known about the features captured by state-of-the-art neural relation extraction (RE) models. Common methods encode the source sentence, conditioned on the entity mentions, before classifying the relation. However, the complexity of the task makes it difficult to understand how encoder architecture and supporting linguistic knowledge affect the features learned by the encoder. We introduce 14 probing tasks targeting linguistic properties relevant to RE, and we use them to study representations learned by more than 40 different encoder architecture and linguistic feature combinations trained on two datasets, TACRED and SemEval 2010 Task 8. We find that the bias induced by the architecture and the inclusion of linguistic features are clearly expressed in the probing task performance. For example, adding contextualized word representations greatly increases performance on probing tasks with a focus on named entity and part-of-speech information, and yields better results in RE. In contrast, entity masking improves RE, but considerably lowers performance on entity type related probing tasks.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.140/
+DO  - 10.18653/v1/2020.acl-main.140
+AU  - Alt, Christoph
+AU  - Gabryszak, Aleksandra
+AU  - Hennig, Leonhard
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - TACRED Revisited: A Thorough Evaluation of the TACRED Relation Extraction Task
+AB  - TACRED is one of the largest, most widely used crowdsourced datasets in Relation Extraction (RE). But, even with recent advances in unsupervised pre-training and knowledge enhanced neural RE, models still show a high error rate. In this paper, we investigate the questions: Have we reached a performance ceiling or is there still room for improvement? And how do crowd annotations, dataset, and models contribute to this error rate? To answer these questions, we first validate the most challenging 5K examples in the development and test sets using trained annotators. We find that label errors account for 8% absolute F1 test error, and that more than 50% of the examples need to be relabeled. On the relabeled test set the average F1 score of a large baseline model set improves from 62.1 to 70.1. After validation, we analyze misclassifications on the challenging instances, categorize them into linguistically motivated error groups, and verify the resulting error hypotheses on three state-of-the-art RE models. We show that two groups of ambiguous relations are responsible for most of the remaining errors and that models may adopt shallow heuristics on the dataset when entities are not masked.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.142/
+DO  - 10.18653/v1/2020.acl-main.142
+AU  - Alt, Christoph
+AU  - Gabryszak, Aleksandra
+AU  - Hennig, Leonhard
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Character-Level Translation with Self-attention
+AB  - We explore the suitability of self-attention models for character-level neural machine translation. We test the standard transformer model, as well as a novel variant in which the encoder block combines information from nearby characters using convolutions. We perform extensive experiments on WMT and UN datasets, testing both bilingual and multilingual translation to English using up to three input languages (French, Spanish, and Chinese). Our transformer variant consistently outperforms the standard transformer at the character-level and converges faster while learning more robust character-level alignments.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.145/
+DO  - 10.18653/v1/2020.acl-main.145
+AU  - Gao, Yingqiang
+AU  - Nikolov, Nikola I.
+AU  - Hu, Yuhuang
+AU  - Hahnloser, Richard H.R.
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - End-to-End Neural Word Alignment Outperforms GIZA++
+AB  - Word alignment was once a core unsupervised learning task in natural language processing because of its essential role in training statistical machine translation (MT) models. Although unnecessary for training neural MT models, word alignment still plays an important role in interactive applications of neural machine translation, such as annotation transfer and lexicon injection. While statistical MT methods have been replaced by neural approaches with superior performance, the twenty-year-old GIZA++ toolkit remains a key component of state-of-the-art word alignment systems. Prior work on neural word alignment has only been able to outperform GIZA++ by using its output during training. We present the first end-to-end neural word alignment method that consistently outperforms GIZA++ on three data sets. Our approach repurposes a Transformer model trained for supervised translation to also serve as an unsupervised word alignment model in a manner that is tightly integrated and does not affect translation quality.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.146/
+DO  - 10.18653/v1/2020.acl-main.146
+AU  - Zenkel, Thomas
+AU  - Wuebker, Joern
+AU  - DeNero, John
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - On the Limitations of Cross-lingual Encoders as Exposed by Reference-Free Machine Translation Evaluation
+AB  - Evaluation of cross-lingual encoders is usually performed either via zero-shot cross-lingual transfer in supervised downstream tasks or via unsupervised cross-lingual textual similarity. In this paper, we concern ourselves with reference-free machine translation (MT) evaluation where we directly compare source texts to (sometimes low-quality) system translations, which represents a natural adversarial setup for multilingual encoders. Reference-free evaluation holds the promise of web-scale comparison of MT systems. We systematically investigate a range of metrics based on state-of-the-art cross-lingual semantic representations obtained with pretrained M-BERT and LASER. We find that they perform poorly as semantic encoders for reference-free MT evaluation and identify their two key limitations, namely, (a) a semantic mismatch between representations of mutual translations and, more prominently, (b) the inability to punish “translationese”, i.e., low-quality literal translations. We propose two partial remedies: (1) post-hoc re-alignment of the vector spaces and (2) coupling of semantic-similarity based metrics with target-side language modeling. In segment-level MT evaluation, our best metric surpasses reference-based BLEU by 5.7 correlation points.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.151/
+DO  - 10.18653/v1/2020.acl-main.151
+AU  - Zhao, Wei
+AU  - Glava{\v{s}}, Goran
+AU  - Peyrard, Maxime
+AU  - Gao, Yang
+AU  - West, Robert
+AU  - Eger, Steffen
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling
+AB  - Sequence labeling is a fundamental task for a range of natural language processing problems. When used in practice, its performance is largely influenced by the annotation quality and quantity, and meanwhile, obtaining ground truth labels is often costly. In many cases, ground truth labels do not exist, but noisy annotations or annotations from different domains are accessible. In this paper, we propose a novel framework Consensus Network (ConNet) that can be trained on annotations from multiple sources (e.g., crowd annotation, cross-domain data). It learns individual representation for every source and dynamically aggregates source-specific knowledge by a context-aware attention module. Finally, it leads to a model reflecting the agreement (consensus) among multiple sources. We evaluate the proposed framework in two practical settings of multi-source learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings. We also demonstrate that the method can apply to various tasks and cope with different encoders.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.193/
+DO  - 10.18653/v1/2020.acl-main.193
+AU  - Lan, Ouyu
+AU  - Huang, Xiao
+AU  - Lin, Bill Yuchen
+AU  - Jiang, He
+AU  - Liu, Liyuan
+AU  - Ren, Xiang
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Syntactic Data Augmentation Increases Robustness to Inference Heuristics
+AB  - Pretrained neural models such as BERT, when fine-tuned to perform natural language inference (NLI), often show high accuracy on standard datasets, but display a surprising lack of sensitivity to word order on controlled challenge sets. We hypothesize that this issue is not primarily caused by the pretrained model’s limitations, but rather by the paucity of crowdsourced NLI examples that might convey the importance of syntactic structure at the fine-tuning stage. We explore several methods to augment standard training sets with syntactically informative examples, generated by applying syntactic transformations to sentences from the MNLI corpus. The best-performing augmentation method, subject/object inversion, improved BERT’s accuracy on controlled examples that diagnose sensitivity to word order from 0.28 to 0.73, without affecting performance on the MNLI test set. This improvement generalized beyond the particular construction used for data augmentation, suggesting that augmentation causes BERT to recruit abstract syntactic representations.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.212/
+DO  - 10.18653/v1/2020.acl-main.212
+AU  - Min, Junghyun
+AU  - McCoy, R. Thomas
+AU  - Das, Dipanjan
+AU  - Pitler, Emily
+AU  - Linzen, Tal
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with Instance Weighting
+AB  - With the recent proliferation of the use of text classifications, researchers have found that there are certain unintended biases in text classification datasets. For example, texts containing some demographic identity-terms (e.g., “gay”, “black”) are more likely to be abusive in existing abusive language detection datasets. As a result, models trained with these datasets may consider sentences like “She makes me happy to be gay” as abusive simply because of the word “gay.” In this paper, we formalize the unintended biases in text classification datasets as a kind of selection bias from the non-discrimination distribution to the discrimination distribution. Based on this formalization, we further propose a model-agnostic debiasing training framework by recovering the non-discrimination distribution using instance weighting, which does not require any extra resources or annotations apart from a pre-defined set of demographic identity-terms. Experiments demonstrate that our method can effectively alleviate the impacts of the unintended biases without significantly hurting models’ generalization ability.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.380/
+DO  - 10.18653/v1/2020.acl-main.380
+AU  - Zhang, Guanhua
+AU  - Bai, Bing
+AU  - Zhang, Junqi
+AU  - Bai, Kun
+AU  - Zhu, Conghui
+AU  - Zhao, Tiejun
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Toward Gender-Inclusive Coreference Resolution
+AB  - Correctly resolving textual mentions of people fundamentally entails making inferences about those people. Such inferences raise the risk of systemic biases in coreference resolution systems, including biases that can harm binary and non-binary trans and cis stakeholders. To better understand such biases, we foreground nuanced conceptualizations of gender from sociology and sociolinguistics, and develop two new datasets for interrogating bias in crowd annotations and in existing coreference resolution systems. Through these studies, conducted on English text, we confirm that without acknowledging and building systems that recognize the complexity of gender, we build systems that lead to many potential harms.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.418/
+DO  - 10.18653/v1/2020.acl-main.418
+AU  - Cao, Yang Trista
+AU  - Daum{\'e} III, Hal
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - ASSET: A Dataset for Tuning and Evaluation of Sentence Simplification Models with Multiple Rewriting Transformations
+AB  - In order to simplify a sentence, human editors perform multiple rewriting transformations: they split it into several shorter sentences, paraphrase words (i.e. replacing complex words or phrases by simpler synonyms), reorder components, and/or delete information deemed unnecessary. Despite these varied range of possible text alterations, current models for automatic sentence simplification are evaluated using datasets that are focused on a single transformation, such as lexical paraphrasing or splitting. This makes it impossible to understand the ability of simplification models in more realistic settings. To alleviate this limitation, this paper introduces ASSET, a new dataset for assessing sentence simplification in English. ASSET is a crowdsourced multi-reference corpus where each simplification was produced by executing several rewriting transformations. Through quantitative and qualitative experiments, we show that simplifications in ASSET are better at capturing characteristics of simplicity when compared to other standard evaluation datasets for the task. Furthermore, we motivate the need for developing better methods for automatic evaluation using ASSET, since we show that current popular metrics may not be suitable when multiple simplification transformations are performed.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.424/
+DO  - 10.18653/v1/2020.acl-main.424
+AU  - Alva-Manchego, Fernando
+AU  - Martin, Louis
+AU  - Bordes, Antoine
+AU  - Scarton, Carolina
+AU  - Sagot, Beno{\^i}t
+AU  - Specia, Lucia
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Unsupervised Opinion Summarization as Copycat-Review Generation
+AB  - Opinion summarization is the task of automatically creating summaries that reflect subjective information expressed in multiple documents, such as product reviews. While the majority of previous work has focused on the extractive setting, i.e., selecting fragments from input reviews to produce a summary, we let the model generate novel sentences and hence produce abstractive summaries. Recent progress in summarization has seen the development of supervised models which rely on large quantities of document-summary pairs. Since such training data is expensive to acquire, we instead consider the unsupervised setting, in other words, we do not use any summaries in training. We define a generative model for a review collection which capitalizes on the intuition that when generating a new review given a set of other reviews of a product, we should be able to control the “amount of novelty” going into the new review or, equivalently, vary the extent to which it deviates from the input. At test time, when generating summaries, we force the novelty to be minimal, and produce a text reflecting consensus opinions. We capture this intuition by defining a hierarchical variational autoencoder model. Both individual reviews and the products they correspond to are associated with stochastic latent codes, and the review generator (“decoder”) has direct access to the text of input reviews through the pointer-generator mechanism. Experiments on Amazon and Yelp datasets, show that setting at test time the review’s latent code to its mean, allows the model to produce fluent and coherent summaries reflecting common opinions.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.461/
+DO  - 10.18653/v1/2020.acl-main.461
+AU  - Bra{\v{z}}inskas, Arthur
+AU  - Lapata, Mirella
+AU  - Titov, Ivan
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Social Bias Frames: Reasoning about Social and Power Implications of Language
+AB  - Warning: this paper contains content that may be offensive or upsetting. Language has the power to reinforce stereotypes and project social biases onto others. At the core of the challenge is that it is rarely what is stated explicitly, but rather the implied meanings, that frame people’s judgments about others. For example, given a statement that “we shouldn’t lower our standards to hire more women,” most listeners will infer the implicature intended by the speaker - that “women (candidates) are less qualified.” Most semantic formalisms, to date, do not capture such pragmatic implications in which people express social biases and power differentials in language. We introduce Social Bias Frames, a new conceptual formalism that aims to model the pragmatic frames in which people project social biases and stereotypes onto others. In addition, we introduce the Social Bias Inference Corpus to support large-scale modelling and evaluation with 150k structured annotations of social media posts, covering over 34k implications about a thousand demographic groups. We then establish baseline approaches that learn to recover Social Bias Frames from unstructured text. We find that while state-of-the-art neural models are effective at high-level categorization of whether a given statement projects unwanted social bias (80% F1), they are not effective at spelling out more detailed explanations in terms of Social Bias Frames. Our study motivates future work that combines structured pragmatic inference with commonsense reasoning on social implications.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.486/
+DO  - 10.18653/v1/2020.acl-main.486
+AU  - Sap, Maarten
+AU  - Gabriel, Saadia
+AU  - Qin, Lianhui
+AU  - Jurafsky, Dan
+AU  - Smith, Noah A.
+AU  - Choi, Yejin
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Rationalizing Text Matching: Learning Sparse Alignments via Optimal Transport
+AB  - Selecting input features of top relevance has become a popular method for building self-explaining models. In this work, we extend this selective rationalization approach to text matching, where the goal is to jointly select and align text pieces, such as tokens or sentences, as a justification for the downstream prediction. Our approach employs optimal transport (OT) to find a minimal cost alignment between the inputs. However, directly applying OT often produces dense and therefore uninterpretable alignments. To overcome this limitation, we introduce novel constrained variants of the OT problem that result in highly sparse alignments with controllable sparsity. Our model is end-to-end differentiable using the Sinkhorn algorithm for OT and can be trained without any alignment annotations. We evaluate our model on the StackExchange, MultiNews, e-SNLI, and MultiRC datasets. Our model achieves very sparse rationale selections with high fidelity while preserving prediction accuracy compared to strong attention baseline models.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.496/
+DO  - 10.18653/v1/2020.acl-main.496
+AU  - Swanson, Kyle
+AU  - Yu, Lili
+AU  - Lei, Tao
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Benefits of Intermediate Annotations in Reading Comprehension
+AB  - Complex compositional reading comprehension datasets require performing latent sequential decisions that are learned via supervision from the final answer. A large combinatorial space of possible decision paths that result in the same answer, compounded by the lack of intermediate supervision to help choose the right path, makes the learning particularly hard for this task. In this work, we study the benefits of collecting intermediate reasoning supervision along with the answer during data collection. We find that these intermediate annotations can provide two-fold benefits. First, we observe that for any collection budget, spending a fraction of it on intermediate annotations results in improved model performance, for two complex compositional datasets: DROP and Quoref. Second, these annotations encourage the model to learn the correct latent reasoning steps, helping combat some of the biases introduced during the data collection process.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.497/
+DO  - 10.18653/v1/2020.acl-main.497
+AU  - Dua, Dheeru
+AU  - Singh, Sameer
+AU  - Gardner, Matt
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Crossing Variational Autoencoders for Answer Retrieval
+AB  - Answer retrieval is to find the most aligned answer from a large set of candidates given a question. Learning vector representations of questions/answers is the key factor. Question-answer alignment and question/answer semantics are two important signals for learning the representations. Existing methods learned semantic representations with dual encoders or dual variational auto-encoders. The semantic information was learned from language models or question-to-question (answer-to-answer) generative processes. However, the alignment and semantics were too separate to capture the aligned semantics between question and answer. In this work, we propose to cross variational auto-encoders by generating questions with aligned answers and generating answers with aligned questions. Experiments show that our method outperforms the state-of-the-art answer retrieval method on SQuAD.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.498/
+DO  - 10.18653/v1/2020.acl-main.498
+AU  - Yu, Wenhao
+AU  - Wu, Lingfei
+AU  - Zeng, Qingkai
+AU  - Tao, Shu
+AU  - Deng, Yu
+AU  - Jiang, Meng
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge
+AB  - In this paper, we present the first comprehensive categorization of essential commonsense knowledge for answering the Winograd Schema Challenge (WSC). For each of the questions, we invite annotators to first provide reasons for making correct decisions and then categorize them into six major knowledge categories. By doing so, we better understand the limitation of existing methods (i.e., what kind of knowledge cannot be effectively represented or inferred with existing methods) and shed some light on the commonsense knowledge that we need to acquire in the future for better commonsense reasoning. Moreover, to investigate whether current WSC models can understand the commonsense or they simply solve the WSC questions based on the statistical bias of the dataset, we leverage the collected reasons to develop a new task called WinoWhy, which requires models to distinguish plausible reasons from very similar but wrong reasons for all WSC questions. Experimental results prove that even though pre-trained language representation models have achieved promising progress on the original WSC dataset, they are still struggling at WinoWhy. Further experiments show that even though supervised models can achieve better performance, the performance of these models can be sensitive to the dataset distribution. WinoWhy and all codes are available at: https://github.com/HKUST-KnowComp/WinoWhy.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.508/
+DO  - 10.18653/v1/2020.acl-main.508
+AU  - Zhang, Hongming
+AU  - Zhao, Xinran
+AU  - Song, Yangqiu
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Efficient Pairwise Annotation of Argument Quality
+AB  - We present an efficient annotation framework for argument quality, a feature difficult to be measured reliably as per previous work. A stochastic transitivity model is combined with an effective sampling strategy to infer high-quality labels with low effort from crowdsourced pairwise judgments. The model’s capabilities are showcased by compiling Webis-ArgQuality-20, an argument quality corpus that comprises scores for rhetorical, logical, dialectical, and overall quality inferred from a total of 41,859 pairwise judgments among 1,271 arguments. With up to 93% cost savings, our approach significantly outperforms existing annotation procedures. Furthermore, novel insight into argument quality is provided through statistical analysis, and a new aggregation method to infer overall quality from individual quality dimensions is proposed.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.511/
+DO  - 10.18653/v1/2020.acl-main.511
+AU  - Gienapp, Lukas
+AU  - Stein, Benno
+AU  - Hagen, Matthias
+AU  - Potthast, Martin
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Improving Event Detection via Open-domain Trigger Knowledge
+AB  - Event Detection (ED) is a fundamental task in automatically structuring texts. Due to the small scale of training data, previous methods perform poorly on unseen/sparsely labeled trigger words and are prone to overfitting densely labeled trigger words. To address the issue, we propose a novel Enrichment Knowledge Distillation (EKD) model to leverage external open-domain trigger knowledge to reduce the in-built biases to frequent trigger words in annotations. Experiments on benchmark ACE2005 show that our model outperforms nine strong baselines, is especially effective for unseen/sparsely labeled trigger words. The source code is released on https://github.com/shuaiwa16/ekd.git.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.522/
+DO  - 10.18653/v1/2020.acl-main.522
+AU  - Tong, Meihan
+AU  - Xu, Bin
+AU  - Wang, Shuai
+AU  - Cao, Yixin
+AU  - Hou, Lei
+AU  - Li, Juanzi
+AU  - Xie, Jun
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Relabel the Noise: Joint Extraction of Entities and Relations via Cooperative Multiagents
+AB  - Distant supervision based methods for entity and relation extraction have received increasing popularity due to the fact that these methods require light human annotation efforts. In this paper, we consider the problem of shifted label distribution, which is caused by the inconsistency between the noisy-labeled training set subject to external knowledge graph and the human-annotated test set, and exacerbated by the pipelined entity-then-relation extraction manner with noise propagation. We propose a joint extraction approach to address this problem by re-labeling noisy instances with a group of cooperative multiagents. To handle noisy instances in a fine-grained manner, each agent in the cooperative group evaluates the instance by calculating a continuous confidence score from its own perspective; To leverage the correlations between these two extraction tasks, a confidence consensus module is designed to gather the wisdom of all agents and re-distribute the noisy training set with confidence-scored labels. Further, the confidences are used to adjust the training losses of extractors. Experimental results on two real-world datasets verify the benefits of re-labeling noisy instance, and show that the proposed model significantly outperforms the state-of-the-art entity and relation extraction methods.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.527/
+DO  - 10.18653/v1/2020.acl-main.527
+AU  - Chen, Daoyuan
+AU  - Li, Yaliang
+AU  - Lei, Kai
+AU  - Shen, Ying
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Benchmarking Multimodal Regex Synthesis with Complex Structures
+AB  - Existing datasets for regular expression (regex) generation from natural language are limited in complexity; compared to regex tasks that users post on StackOverflow, the regexes in these datasets are simple, and the language used to describe them is not diverse. We introduce StructuredRegex, a new regex synthesis dataset differing from prior ones in three aspects. First, to obtain structurally complex and realistic regexes, we generate the regexes using a probabilistic grammar with pre-defined macros observed from real-world StackOverflow posts. Second, to obtain linguistically diverse natural language descriptions, we show crowdworkers abstract depictions of the underlying regex and ask them to describe the pattern they see, rather than having them paraphrase synthetic language. Third, we augment each regex example with a collection of strings that are and are not matched by the ground truth regex, similar to how real users give examples. Our quantitative and qualitative analysis demonstrates the advantages of StructuredRegex over prior datasets. Further experimental results using various multimodal synthesis techniques highlight the challenge presented by our dataset, including non-local constraints and multi-modal inputs.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.541/
+DO  - 10.18653/v1/2020.acl-main.541
+AU  - Ye, Xi
+AU  - Chen, Qiaochu
+AU  - Dillig, Isil
+AU  - Durrett, Greg
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Words Aren't Enough, Their Order Matters: On the Robustness of Grounding Visual Referring Expressions
+AB  - Visual referring expression recognition is a challenging task that requires natural language understanding in the context of an image. We critically examine RefCOCOg, a standard benchmark for this task, using a human study and show that 83.7% of test instances do not require reasoning on linguistic structure, i.e., words are enough to identify the target object, the word order doesn’t matter. To measure the true progress of existing models, we split the test set into two sets, one which requires reasoning on linguistic structure and the other which doesn’t. Additionally, we create an out-of-distribution dataset Ref-Adv by asking crowdworkers to perturb in-domain examples such that the target object changes. Using these datasets, we empirically show that existing methods fail to exploit linguistic structure and are 12% to 23% lower in performance than the established progress for this task. We also propose two methods, one based on contrastive learning and the other based on multi-task learning, to increase the robustness of ViLBERT, the current state-of-the-art model for this task. Our datasets are publicly available at https://github.com/aws/aws-refcocog-adv.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.586/
+DO  - 10.18653/v1/2020.acl-main.586
+AU  - Akula, Arjun
+AU  - Gella, Spandana
+AU  - Al-Onaizan, Yaser
+AU  - Zhu, Song-Chun
+AU  - Reddy, Siva
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - R4C: A Benchmark for Evaluating RC Systems to Get the Right Answer for the Right Reason
+AB  - Recent studies have revealed that reading comprehension (RC) systems learn to exploit annotation artifacts and other biases in current datasets. This prevents the community from reliably measuring the progress of RC systems. To address this issue, we introduce R4C, a new task for evaluating RC systems’ internal reasoning. R4C requires giving not only answers but also derivations: explanations that justify predicted answers. We present a reliable, crowdsourced framework for scalably annotating RC datasets with derivations. We create and publicly release the R4C dataset, the first, quality-assured dataset consisting of 4.6k questions, each of which is annotated with 3 reference derivations (i.e. 13.8k derivations). Experiments show that our automatic evaluation metrics using multiple reference derivations are reliable, and that R4C assesses different skills from an existing benchmark.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.602/
+DO  - 10.18653/v1/2020.acl-main.602
+AU  - Inoue, Naoya
+AU  - Stenetorp, Pontus
+AU  - Inui, Kentaro
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Unsupervised Dual Paraphrasing for Two-stage Semantic Parsing
+AB  - One daunting problem for semantic parsing is the scarcity of annotation. Aiming to reduce nontrivial human labor, we propose a two-stage semantic parsing framework, where the first stage utilizes an unsupervised paraphrase model to convert an unlabeled natural language utterance into the canonical utterance. The downstream naive semantic parser accepts the intermediate output and returns the target logical form. Furthermore, the entire training process is split into two phases: pre-training and cycle learning. Three tailored self-supervised tasks are introduced throughout training to activate the unsupervised paraphrase model. Experimental results on benchmarks Overnight and GeoGranno demonstrate that our framework is effective and compatible with supervised training.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.608/
+DO  - 10.18653/v1/2020.acl-main.608
+AU  - Cao, Ruisheng
+AU  - Zhu, Su
+AU  - Yang, Chenyu
+AU  - Liu, Chen
+AU  - Ma, Rao
+AU  - Zhao, Yanbin
+AU  - Chen, Lu
+AU  - Yu, Kai
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Gender in Danger? Evaluating Speech Translation Technology on the MuST-SHE Corpus
+AB  - Translating from languages without productive grammatical gender like English into gender-marked languages is a well-known difficulty for machines. This difficulty is also due to the fact that the training data on which models are built typically reflect the asymmetries of natural languages, gender bias included. Exclusively fed with textual data, machine translation is intrinsically constrained by the fact that the input sentence does not always contain clues about the gender identity of the referred human entities. But what happens with speech translation, where the input is an audio signal? Can audio provide additional information to reduce gender bias? We present the first thorough investigation of gender bias in speech translation, contributing with: i) the release of a benchmark useful for future studies, and ii) the comparison of different technologies (cascade and end-to-end) on two language directions (English-Italian/French).
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.619/
+DO  - 10.18653/v1/2020.acl-main.619
+AU  - Bentivogli, Luisa
+AU  - Savoldi, Beatrice
+AU  - Negri, Matteo
+AU  - Di Gangi, Mattia A.
+AU  - Cattoni, Roldano
+AU  - Turchi, Marco
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Controlled Crowdsourcing for High-Quality QA-SRL Annotation
+AB  - Question-answer driven Semantic Role Labeling (QA-SRL) was proposed as an attractive open and natural flavour of SRL, potentially attainable from laymen. Recently, a large-scale crowdsourced QA-SRL corpus and a trained parser were released. Trying to replicate the QA-SRL annotation for new texts, we found that the resulting annotations were lacking in quality, particularly in coverage, making them insufficient for further research and evaluation. In this paper, we present an improved crowdsourcing protocol for complex semantic annotation, involving worker selection and training, and a data consolidation phase. Applying this protocol to QA-SRL yielded high-quality annotation with drastically higher coverage, producing a new gold evaluation dataset. We believe that our annotation protocol and gold standard will facilitate future replicable research of natural semantic annotations.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.626/
+DO  - 10.18653/v1/2020.acl-main.626
+AU  - Roit, Paul
+AU  - Klein, Ayal
+AU  - Stepanov, Daniela
+AU  - Mamou, Jonathan
+AU  - Michael, Julian
+AU  - Stanovsky, Gabriel
+AU  - Zettlemoyer, Luke
+AU  - Dagan, Ido
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Semi-supervised Contextual Historical Text Normalization
+AB  - Historical text normalization, the task of mapping historical word forms to their modern counterparts, has recently attracted a lot of interest (Bollmann, 2019; Tang et al., 2018; Lusetti et al., 2018; Bollmann et al., 2018;Robertson and Goldwater, 2018; Bollmannet al., 2017; Korchagina, 2017). Yet, virtually all approaches suffer from the two limitations: 1) They consider a fully supervised setup, often with impractically large manually normalized datasets; 2) Normalization happens on words in isolation. By utilizing a simple generative normalization model and obtaining powerful contextualization from the target-side language model, we train accurate models with unlabeled historical data. In realistic training scenarios, our approach often leads to reduction in manually normalized data at the same accuracy levels.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.650/
+DO  - 10.18653/v1/2020.acl-main.650
+AU  - Makarov, Peter
+AU  - Clematide, Simon
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - DoQA - Accessing Domain-Specific FAQs via Conversational QA
+AB  - The goal of this work is to build conversational Question Answering (QA) interfaces for the large body of domain-specific information available in FAQ sites. We present DoQA, a dataset with 2,437 dialogues and 10,917 QA pairs. The dialogues are collected from three Stack Exchange sites using the Wizard of Oz method with crowdsourcing. Compared to previous work, DoQA comprises well-defined information needs, leading to more coherent and natural conversations with less factoid questions and is multi-domain. In addition, we introduce a more realistic information retrieval (IR) scenario where the system needs to find the answer in any of the FAQ documents. The results of an existing, strong, system show that, thanks to transfer learning from a Wikipedia QA dataset and fine tuning on a single FAQ domain, it is possible to build high quality conversational QA systems for FAQs without in-domain training data. The good results carry over into the more challenging IR scenario. In both cases, there is still ample room for improvement, as indicated by the higher human upperbound.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.652/
+DO  - 10.18653/v1/2020.acl-main.652
+AU  - Campos, Jon Ander
+AU  - Otegi, Arantxa
+AU  - Soroa, Aitor
+AU  - Deriu, Jan
+AU  - Cieliebak, Mark
+AU  - Agirre, Eneko
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Understanding Advertisements with BERT
+AB  - We consider a task based on CVPR 2018 challenge dataset on advertisement (Ad) understanding. The task involves detecting the viewer’s interpretation of an Ad image captured as text. Recent results have shown that the embedded scene-text in the image holds a vital cue for this task. Motivated by this, we fine-tune the base BERT model for a sentence-pair classification task. Despite utilizing the scene-text as the only source of visual information, we could achieve a hit-or-miss accuracy of 84.95% on the challenge test data. To enable BERT to process other visual information, we append image captions to the scene-text. This achieves an accuracy of 89.69%, which is an improvement of 4.7%. This is the best reported result for this task.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.674/
+DO  - 10.18653/v1/2020.acl-main.674
+AU  - Kalra, Kanika
+AU  - Kurma, Bhargav
+AU  - Vadakkeeveetil Sreelatha, Silpa
+AU  - Patwardhan, Manasi
+AU  - Karande, Shirish
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers
+AB  - When translating natural language questions into SQL queries to answer questions from a database, contemporary semantic parsing models struggle to generalize to unseen database schemas. The generalization challenge lies in (a) encoding the database relations in an accessible way for the semantic parser, and (b) modeling alignment between database columns and their mentions in a given query. We present a unified framework, based on the relation-aware self-attention mechanism, to address schema encoding, schema linking, and feature representation within a text-to-SQL encoder. On the challenging Spider dataset this framework boosts the exact match accuracy to 57.2%, surpassing its best counterparts by 8.7% absolute improvement. Further augmented with BERT, it achieves the new state-of-the-art performance of 65.6% on the Spider leaderboard. In addition, we observe qualitative improvements in the model’s understanding of schema linking and alignment. Our implementation will be open-sourced at https://github.com/Microsoft/rat-sql.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.677/
+DO  - 10.18653/v1/2020.acl-main.677
+AU  - Wang, Bailin
+AU  - Shin, Richard
+AU  - Liu, Xiaodong
+AU  - Polozov, Oleksandr
+AU  - Richardson, Matthew
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - In Neural Machine Translation, What Does Transfer Learning Transfer?
+AB  - Transfer learning improves quality for low-resource machine translation, but it is unclear what exactly it transfers. We perform several ablation studies that limit information transfer, then measure the quality impact across three language pairs to gain a black-box understanding of transfer learning. Word embeddings play an important role in transfer learning, particularly if they are properly aligned. Although transfer learning can be performed without embeddings, results are sub-optimal. In contrast, transferring only the embeddings but nothing else yields catastrophic results. We then investigate diagonal alignments with auto-encoders over real languages and randomly generated sequences, finding even randomly generated sequences as parents yield noticeable but smaller gains. Finally, transfer learning can eliminate the need for a warm-up phase when training transformer models in high resource language pairs.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.688/
+DO  - 10.18653/v1/2020.acl-main.688
+AU  - Aji, Alham Fikri
+AU  - Bogoychev, Nikolay
+AU  - Heafield, Kenneth
+AU  - Sennrich, Rico
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Translationese as a Language in ``Multilingual'' NMT
+AB  - Machine translation has an undesirable propensity to produce “translationese” artifacts, which can lead to higher BLEU scores while being liked less by human raters. Motivated by this, we model translationese and original (i.e. natural) text as separate languages in a multilingual model, and pose the question: can we perform zero-shot translation between original source text and original target text? There is no data with original source and original target, so we train a sentence-level classifier to distinguish translationese from original target text, and use this classifier to tag the training data for an NMT model. Using this technique we bias the model to produce more natural outputs at test time, yielding gains in human evaluation scores on both accuracy and fluency. Additionally, we demonstrate that it is possible to bias the model to produce translationese and game the BLEU score, increasing it while decreasing human-rated quality. We analyze these outputs using metrics measuring the degree of translationese, and present an analysis of the volatility of heuristic-based train-data tagging.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.691/
+DO  - 10.18653/v1/2020.acl-main.691
+AU  - Riley, Parker
+AU  - Caswell, Isaac
+AU  - Freitag, Markus
+AU  - Grangier, David
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - A negative case analysis of visual grounding methods for VQA
+AB  - Existing Visual Question Answering (VQA) methods tend to exploit dataset biases and spurious statistical correlations, instead of producing right answers for the right reasons. To address this issue, recent bias mitigation methods for VQA propose to incorporate visual cues (e.g., human attention maps) to better ground the VQA models, showcasing impressive gains. However, we show that the performance improvements are not a result of improved visual grounding, but a regularization effect which prevents over-fitting to linguistic priors. For instance, we find that it is not actually necessary to provide proper, human-based cues; random, insensible cues also result in similar improvements. Based on this observation, we propose a simpler regularization scheme that does not require any external annotations and yet achieves near state-of-the-art performance on VQA-CPv2.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.727/
+DO  - 10.18653/v1/2020.acl-main.727
+AU  - Shrestha, Robik
+AU  - Kafle, Kushal
+AU  - Kanan, Christopher
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - History for Visual Dialog: Do we really need it?
+AB  - Visual Dialogue involves “understanding” the dialogue history (what has been discussed previously) and the current question (what is asked), in addition to grounding information in the image, to accurately generate the correct response. In this paper, we show that co-attention models which explicitly encode dialoh history outperform models that don’t, achieving state-of-the-art performance (72 % NDCG on val set). However, we also expose shortcomings of the crowdsourcing dataset collection procedure, by showing that dialogue history is indeed only required for a small amount of the data, and that the current evaluation metric encourages generic replies. To that end, we propose a challenging subset (VisdialConv) of the VisdialVal set and the benchmark NDCG of 63%.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.728/
+DO  - 10.18653/v1/2020.acl-main.728
+AU  - Agarwal, Shubham
+AU  - Bui, Trung
+AU  - Lee, Joon-Young
+AU  - Konstas, Ioannis
+AU  - Rieser, Verena
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation
+AB  - This paper proposes a simple and effective approach to address the problem of posterior collapse in conditional variational autoencoders (CVAEs). It thus improves performance of machine translation models that use noisy or monolingual data, as well as in conventional settings. Extending Transformer and conditional VAEs, our proposed latent variable model measurably prevents posterior collapse by (1) using a modified evidence lower bound (ELBO) objective which promotes mutual information between the latent variable and the target, and (2) guiding the latent variable with an auxiliary bag-of-words prediction task. As a result, the proposed model yields improved translation quality compared to existing variational NMT models on WMT Ro↔En and De↔En. With latent variables being effectively utilized, our model demonstrates improved robustness over non-latent Transformer in handling uncertainty: exploiting noisy source-side monolingual data (up to +3.2 BLEU), and training with weakly aligned web-mined parallel data (up to +4.7 BLEU).
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.753/
+DO  - 10.18653/v1/2020.acl-main.753
+AU  - McCarthy, Arya D.
+AU  - Li, Xian
+AU  - Gu, Jiatao
+AU  - Dong, Ning
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Let Me Choose: From Verbal Context to Font Selection
+AB  - In this paper, we aim to learn associations between visual attributes of fonts and the verbal context of the texts they are typically applied to. Compared to related work leveraging the surrounding visual context, we choose to focus only on the input text, which can enable new applications for which the text is the only visual element in the document. We introduce a new dataset, containing examples of different topics in social media posts and ads, labeled through crowd-sourcing. Due to the subjective nature of the task, multiple fonts might be perceived as acceptable for an input text, which makes this problem challenging. To this end, we investigate different end-to-end models to learn label distributions on crowd-sourced data, to capture inter-subjectivity across all annotations.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.762/
+DO  - 10.18653/v1/2020.acl-main.762
+AU  - Shirani, Amirreza
+AU  - Dernoncourt, Franck
+AU  - Echevarria, Jose
+AU  - Asente, Paul
+AU  - Lipka, Nedim
+AU  - Solorio, Thamar
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Uncertain Natural Language Inference
+AB  - We introduce Uncertain Natural Language Inference (UNLI), a refinement of Natural Language Inference (NLI) that shifts away from categorical labels, targeting instead the direct prediction of subjective probability assessments. We demonstrate the feasibility of collecting annotations for UNLI by relabeling a portion of the SNLI dataset under a probabilistic scale, where items even with the same categorical label differ in how likely people judge them to be true given a premise. We describe a direct scalar regression modeling approach, and find that existing categorically-labeled NLI data can be used in pre-training. Our best models correlate well with humans, demonstrating models are capable of more subtle inferences than the categorical bin assignment employed in current NLI tasks.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.774/
+DO  - 10.18653/v1/2020.acl-main.774
+AU  - Chen, Tongfei
+AU  - Jiang, Zhengping
+AU  - Poliak, Adam
+AU  - Sakaguchi, Keisuke
+AU  - Van Durme, Benjamin
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+
+TY  - CONF
+TI  - Treebank Embedding Vectors for Out-of-Domain Dependency Parsing
+AB  - A recent advance in monolingual dependency parsing is the idea of a treebank embedding vector, which allows all treebanks for a particular language to be used as training data while at the same time allowing the model to prefer training data from one treebank over others and to select the preferred treebank at test time. We build on this idea by 1) introducing a method to predict a treebank vector for sentences that do not come from a treebank used in training, and 2) exploring what happens when we move away from predefined treebank embedding vectors during test time and instead devise tailored interpolations. We show that 1) there are interpolated vectors that are superior to the predefined ones, and 2) treebank vectors can be predicted with sufficient accuracy, for nine out of ten test languages, to match the performance of an oracle approach that knows the most suitable predefined treebank embedding for the test set.
+PY  - 2020
+UR  - https://aclanthology.org/2020.acl-main.778/
+DO  - 10.18653/v1/2020.acl-main.778
+AU  - Wagner, Joachim
+AU  - Barry, James
+AU  - Foster, Jennifer
+T2  - Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+ER  - 
+

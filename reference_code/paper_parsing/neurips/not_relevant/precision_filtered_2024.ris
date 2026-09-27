@@ -1,0 +1,1143 @@
+TY  - JOUR
+TI  - HelpSteer 2: Open-source dataset for training top-performing reward models
+AU  - Zhilin Wang
+AU  - Yi Dong
+AU  - Olivier Delalleau
+AU  - Jiaqi Zeng
+AU  - Gerald Shen
+AU  - Daniel Egert
+AU  - Jimmy J. Zhang
+AU  - Makesh Narsimhan Sreedhar
+AU  - Oleksii Kuchaiev
+PY  - 2024
+AB  - High-quality preference datasets are essential for training reward models that can effectively guide large language models (LLMs) in generating high-quality responses aligned with human preferences.As LLMs become stronger and better aligned, permissively licensed preference datasets, such as Open Assistant, HH-RLHF, and HelpSteer need to be updated to remain effective for reward modeling.Methods that distil preference data from proprietary LLMs such as GPT-4 have restrictions on commercial usage imposed by model providers.To improve upon both generated responses and attribute labeling quality, we release HelpSteer2, a permissively licensed preference dataset (CC-BY-4.0).  Using a powerful Nemotron-4-340B base model trained on HelpSteer2, we are able to achieve the SOTA score (92.0%) on Reward-Bench's primary dataset, outperforming currently listed open and proprietary models, as of June 12th, 2024.Notably, HelpSteer2 consists of only ten thousand response pairs, an order of magnitude fewer than existing preference datasets (e.g., HH-RLHF), which makes it highly efficient for training reward models. Our extensive experiments demonstrate that reward models trained with HelpSteer2 are effective in aligning LLMs. Additionally, we propose SteerLM 2.0, a model alignment approach that can effectively make use of the rich multi-attribute score predicted by our reward models. HelpSteer2 is available at https://huggingface.co/datasets/nvidia/HelpSteer2 and code is available at https://github.com/NVIDIA/NeMo-Aligner
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/02fd91a387a6a5a5751e81b58a75af90-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - BoNBoN Alignment for Large Language Models and the Sweetness of Best-of-n Sampling
+AU  - Lin Gui
+AU  - Cristina Gârbacea
+AU  - Victor Veitch
+PY  - 2024
+AB  - This paper concerns the problem of aligning samples from large language models to human preferences using *best-of-$n$* sampling, where we draw $n$ samples, rank them, and return the best one. We consider two fundamental problems. First: what is the relationship between best-of-$n$ and other (RLHF-type) approaches to aligning LLMs? In particular, when should one be preferred to the other? We show that the best-of-$n$ sampling distribution is essentially equivalent to the policy learned by RLHF if we apply a particular monotone transformation to the reward function. Moreover, we show that this transformation yields the best possible trade-off between win-rate against the base model vs KL distance from the base model. Then, best-of-$n$ is a Pareto-optimal win-rate vs KL solution.The second problem we consider is how to fine-tune a model to mimic the best-of-$n$ sampling distribution, to avoid drawing $n$ samples for each inference. We derive *BonBon Alignment* as a method for achieving this. Experiments show that BonBon alignment yields a model that achieves high win rates while minimally affecting off-target aspects of the generations.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/056521a35eacd9d2127b66a7d3c499c5-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - UltraEdit: Instruction-based Fine-Grained Image Editing at Scale
+AU  - Haozhe Zhao
+AU  - Xiaojian Ma
+AU  - Liang Chen
+AU  - Shuzheng Si
+AU  - Rujie Wu
+AU  - Kaikai An
+AU  - Peiyu Yu
+AU  - Minjia Zhang
+AU  - Qing Li
+AU  - Baobao Chang
+PY  - 2024
+AB  - This paper presents UltraEdit, a large-scale (~ 4M editing samples), automatically generated dataset for instruction-based image editing. Our key idea is to address the drawbacks in existing image editing datasets like InstructPix2Pix and MagicBrush, and provide asystematicapproach to producing massive and high-quality image editing samples: 1) UltraEdit includes more diverse editing instructions by combining LLM creativity and in-context editing examples by human raters; 2) UltraEdit is anchored on real images (photographs or artworks), which offers more diversity and less biases than those purely synthesized by text-to-image models; 3) UltraEdit supports region-based editing with high-quality, automatically produced region annotations. Our experiments show that canonical diffusion-based editing baselines trained on UltraEdit set new records on challenging MagicBrush and Emu-Edit benchmarks, respectively. Our analysis further confirms the crucial role of real image anchors and region-based editing data. The dataset, code, and models will be made public.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/05a30a0fc9e6bacdd3abd4ca8508a9e6-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Shadowheart SGD: Distributed Asynchronous SGD with Optimal Time Complexity Under Arbitrary Computation and Communication Heterogeneity
+AU  - Alexander Tyurin
+AU  - Marta Pozzi
+AU  - Ivan Ilin
+AU  - Peter Richtárik
+PY  - 2024
+AB  - We consider nonconvex stochastic optimization problems in the asynchronous centralized distributed setup where the communication times from workers to a server can not be ignored, and the computation and communication times are potentially different for all workers. Using an unbiassed compression technique, we develop a new method—Shadowheart SGD—that provably improves the time complexities of all previous centralized methods. Moreover, we show that the time complexity of Shadowheart SGD is optimal in the family of centralized methods with compressed communication. We also consider the bidirectional setup, where broadcasting from the server to the workers is non-negligible, and develop a corresponding method.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/06e2dd57e90a736a5a1fd3bb2bf95c6c-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Stochastic Amortization: A Unified Approach to Accelerate Feature and Data Attribution
+AU  - Ian Covert
+AU  - Chanwoo Kim
+AU  - Su-In Lee
+AU  - James Zou
+AU  - Tatsunori Hashimoto
+PY  - 2024
+AB  - Many tasks in explainable machine learning, such as data valuation and feature attribution, perform expensive computation for each data point and are intractable for large datasets. These methods require efficient approximations, and although amortizing the process by learning a network to directly predict the desired output is a promising solution, training such models with exact labels is often infeasible. We therefore explore training amortized models with noisy labels, and we find that this is inexpensive and surprisingly effective. Through theoretical analysis of the label noise and experiments with various models and datasets, we show that this approach tolerates high noise levels and significantly accelerates several feature attribution and data valuation methods, often yielding an order of magnitude speedup over existing approaches.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/084252ec5f05f13bf565843c1873686d-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - DataComp-LM: In search of the next generation of training sets for language models
+AU  - Jeffrey Li
+AU  - Alex Fang
+AU  - Georgios Smyrnis
+AU  - Maor Ivgi
+AU  - Matt Jordan
+AU  - Samir Gadre
+AU  - Hritik Bansal
+AU  - Etash Guha
+AU  - Sedrick Keh
+AU  - Kushal Arora
+AU  - Saurabh Garg
+AU  - Rui Xin
+AU  - Niklas Muennighoff
+AU  - Reinhard Heckel
+AU  - Jean Mercat
+AU  - Mayee Chen
+AU  - Suchin Gururangan
+AU  - Mitchell Wortsman
+AU  - Alon Albalak
+AU  - Yonatan Bitton
+AU  - Marianna Nezhurina
+AU  - Amro Abbas
+AU  - Cheng-Yu Hsieh
+AU  - Dhruba Ghosh
+AU  - Josh Gardner
+AU  - Maciej Kilian
+AU  - Hanlin Zhang
+AU  - Rulin Shao
+AU  - Sarah Pratt
+AU  - Sunny Sanyal
+AU  - Gabriel Ilharco
+AU  - Giannis Daras
+AU  - Kalyani Marathe
+AU  - Aaron Gokaslan
+AU  - Jieyu Zhang
+AU  - Khyathi Chandu
+AU  - Thao Nguyen
+AU  - Igor Vasiljevic
+AU  - Sham Kakade
+AU  - Shuran Song
+AU  - Sujay Sanghavi
+AU  - Fartash Faghri
+AU  - Sewoong Oh
+AU  - Luke Zettlemoyer
+AU  - Kyle Lo
+AU  - Alaaeldin El-Nouby
+AU  - Hadi Pouransari
+AU  - Alexander Toshev
+AU  - Stephanie Wang
+AU  - Dirk Groeneveld
+AU  - Luca Soldaini
+AU  - Pang Wei Koh
+AU  - Jenia Jitsev
+AU  - Thomas Kollar
+AU  - Alexandros G. Dimakis
+AU  - Yair Carmon
+AU  - Achal Dave
+AU  - Ludwig Schmidt
+AU  - Vaishaal Shankar
+PY  - 2024
+AB  - We introduce DataComp for Language Models, a testbed for controlled dataset experiments with the goal of improving language models.As part of DCLM, we provide a standardized corpus of 240T tokens extracted from Common Crawl, effective pretraining recipes based on the OpenLM framework, and a broad suite of 53 downstream evaluations.Participants in the DCLM benchmark can experiment with data curation strategies such as deduplication, filtering, and data mixing atmodel scales ranging from 412M to 7B parameters.As a baseline for DCLM, we conduct extensive experiments and find that model-based filtering is key to assembling a high-quality training set.The resulting dataset, DCLM-Baseline, enables training a 7B parameter language model from scratch to 63% 5-shot accuracy on MMLU with 2T training tokens.Compared to MAP-Neo, the previous state-of-the-art in open-data language models, DCLM-Baseline represents a 6 percentage point improvement on MMLU while being trained with half the compute.Our results highlight the importance of dataset design for training language models and offer a starting point for further research on data curation. We release the \dclm benchmark, framework, models, and datasets at https://www.datacomp.ai/dclm/
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/19e4ea30dded58259665db375885e412-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Entity Alignment with Noisy Annotations from Large Language Models
+AU  - Shengyuan Chen
+AU  - Qinggang Zhang
+AU  - Junnan Dong
+AU  - Wen Hua
+AU  - Qing Li
+AU  - Xiao Huang
+PY  - 2024
+AB  - Entity alignment (EA) aims to merge two knowledge graphs (KGs) by identifying equivalent entity pairs. While existing methods heavily rely on human-generated labels, it is prohibitively expensive to incorporate cross-domain experts for annotation in real-world scenarios. The advent of Large Language Models (LLMs) presents new avenues for automating EA with annotations, inspired by their comprehensive capability to process semantic information. However, it is nontrivial to directly apply LLMs for EA since the annotation space in real-world KGs is large. LLMs could also generate noisy labels that may mislead the alignment. To this end, we propose a unified framework, LLM4EA, to effectively leverage LLMs for EA. Specifically, we design a novel active learning policy to significantly reduce the annotation space by prioritizing the most valuable entities based on the entire inter-KG and intra-KG structure. Moreover, we introduce an unsupervised label refiner to continuously enhance label accuracy through in-depth probabilistic reasoning. We iteratively optimize the policy based on the feedback from a base EA model. Extensive experiments demonstrate the advantages of LLM4EA on four benchmark datasets in terms of effectiveness, robustness, and efficiency.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/1b57aaddf85ab01a2445a79c9edc1f4b-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Are Large-scale Soft Labels Necessary for Large-scale Dataset Distillation?
+AU  - Lingao Xiao
+AU  - Yang He
+PY  - 2024
+AB  - In ImageNet-condensation, the storage for auxiliary soft labels exceeds that of the condensed dataset by over 30 times.However, are large-scale soft labels necessary for large-scale dataset distillation?In this paper, we first discover that the high within-class similarity in condensed datasets necessitates the use of large-scale soft labels.This high within-class similarity can be attributed to the fact that previous methods use samples from different classes to construct a single batch for batch normalization (BN) matching.To reduce the within-class similarity, we introduce class-wise supervision during the image synthesizing process by batching the samples within classes, instead of across classes.As a result, we can increase within-class diversity and reduce the size of required soft labels.A key benefit of improved image diversity is that soft label compression can be achieved through simple random pruning, eliminating the need for complex rule-based strategies. Experiments validate our discoveries.For example, when condensing ImageNet-1K to 200 images per class, our approach compresses the required soft labels from 113 GB to 2.8 GB (40$\times$ compression) with a 2.6\% performance gain.Code is available at: https://github.com/he-y/soft-label-pruning-for-dataset-distillation
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/1da9ca7e9cef4b1af63913f05d1630a4-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - On the Noise Robustness of In-Context Learning for Text Generation
+AU  - Hongfu Gao
+AU  - Feipeng Zhang
+AU  - Wenyu Jiang
+AU  - Jun Shu
+AU  - Feng Zheng
+AU  - Hongxin Wei
+PY  - 2024
+AB  - Large language models (LLMs) have shown impressive performance on downstream tasks by in-context learning (ICL), which heavily relies on the quality of demonstrations selected from a large set of annotated examples. Recent works claim that in-context learning is robust to noisy demonstrations in text classification. In this work, we show that, on text generation tasks, noisy annotations significantly hurt the performance of in-context learning. To circumvent the issue, we propose a simple and effective approach called Local Perplexity Ranking (LPR), which replaces the "noisy" candidates with their nearest neighbors that are more likely to be clean. Our method is motivated by analyzing the perplexity deviation caused by noisy labels and decomposing perplexity into inherent perplexity and matching perplexity. Our key idea behind LPR is thus to decouple the matching perplexity by performing the ranking among the neighbors in semantic space. Our approach can prevent the selected demonstrations from including mismatched input-label pairs while preserving the effectiveness of the original selection methods. Extensive experiments demonstrate the effectiveness of LPR, improving the EM score by up to 18.75 on common benchmarks with noisy annotations.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/1dd8ea647d80e38b3702cf01a0855bed-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - SafeSora: Towards Safety Alignment of Text2Video Generation via a Human Preference Dataset
+AU  - Juntao Dai
+AU  - Tianle Chen
+AU  - Xuyao Wang
+AU  - Ziran Yang
+AU  - Taiye Chen
+AU  - Jiaming Ji
+AU  - Yaodong Yang
+PY  - 2024
+AB  - To mitigate the risk of harmful outputs from large vision models (LVMs), we introduce theSafeSoradataset to promote research on aligning text-to-video generation with human values. This dataset encompasses human preferences in text-to-video generation tasks along two primary dimensions: helpfulness and harmlessness. To capture in-depth human preferences and facilitate structured reasoning by crowdworkers, we subdivide helpfulness into 4 sub-dimensions and harmlessness into 12 sub-categories, serving as the basis for pilot annotations. TheSafeSoradataset includes 14,711 unique prompts, 57,333 unique videos generated by 4 distinct LVMs, and 51,691 pairs of preference annotations labeled by humans. We further demonstrate the utility of theSafeSoradataset through several applications, including training the text-video moderation model and aligning LVMs with human preference by fine-tuning a prompt augmentation module or the diffusion model. These applications highlight its potential as the foundation for text-to-video alignment research, such as human preference modeling and the development and validation of alignment algorithms. Our project is available at https://sites.google.com/view/safe-sora.Warning: this paper contains example data that may be offensive or harmful.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/1eb543faf7c69e8a7eb8b85f70be818f-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Curriculum Fine-tuning of Vision Foundation Model for Medical Image Classification Under Label Noise
+AU  - Yeonguk Yu
+AU  - Minhwan Ko
+AU  - Sungho Shin
+AU  - Kangmin Kim
+AU  - Kyoobin Lee
+PY  - 2024
+AB  - Deep neural networks have demonstrated remarkable performance in various vision tasks, but their success heavily depends on the quality of the training data. Noisy labels are a critical issue in medical datasets and can significantly degrade model performance. Previous clean sample selection methods have not utilized the well pre-trained features of vision foundation models (VFMs) and assumed that training begins from scratch. In this paper, we propose CUFIT, a curriculum fine-tuning paradigm of VFMs for medical image classification under label noise. Our method is motivated by the fact that linear probing of VFMs is relatively unaffected by noisy samples, as it does not update the feature extractor of the VFM, thus robustly classifying the training samples. Subsequently, curriculum fine-tuning of two adapters is conducted, starting with clean sample selection from the linear probing phase. Our experimental results demonstrate that CUFIT outperforms previous methods across various medical image benchmarks. Specifically, our method surpasses previous baselines by 5.0\%, 2.1\%, 4.6\%, and 5.8\% at a 40\% noise rate on the HAM10000, APTOS-2019, BloodMnist, and OrgancMnist datasets, respectively. Furthermore, we provide extensive analyses to demonstrate the impact of our method on noisy label detection. For instance, our method shows higher label precision and recall compared to previous approaches. Our work highlights the potential of leveraging VFMs in medical image classification under challenging conditions of noisy labels.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/2093ed77c549eda95bd6f7212b735b43-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - ShareGPT4Video: Improving Video Understanding and Generation with Better Captions
+AU  - Lin Chen
+AU  - Xilin Wei
+AU  - Jinsong Li
+AU  - Xiaoyi Dong
+AU  - Pan Zhang
+AU  - Yuhang Zang
+AU  - Zehui Chen
+AU  - Haodong Duan
+AU  - Bin Lin
+AU  - Zhenyu Tang
+AU  - Li Yuan
+AU  - Yu Qiao
+AU  - Dahua Lin
+AU  - Feng Zhao
+AU  - Jiaqi Wang
+PY  - 2024
+AB  - We present the ShareGPT4Video series, aiming to facilitate the video understanding of large video-language models (LVLMs) and the video generation of text-to-video models (T2VMs) via dense and precise captions. The series comprises: 1) ShareGPT4Video, 40K GPT4V annotated dense captions of videos with various lengths and sources, developed through carefully designed data filtering and annotating strategy. 2) ShareCaptioner-Video, an efficient and capable captioning model for arbitrary videos, with 4.8M high-quality aesthetic videos annotated by it. 3) ShareGPT4Video-8B, a simple yet superb LVLM that reached SOTA performance on three advancing video benchmarks. To achieve this, taking aside the non-scalable costly human annotators, we find using GPT4V to caption video with a naive multi-frame or frame-concatenation input strategy leads to less detailed and sometimes temporal-confused results. We argue the challenge of designing a high-quality video captioning strategy lies in three aspects: 1) Inter-frame precise temporal change understanding. 2) Intra-frame detailed content description. 3) Frame-number scalability for arbitrary-length videos. To this end, we meticulously designed a differential video captioning strategy, which is stable, scalable, and efficient for generating captions for videos with arbitrary resolution, aspect ratios, and length. Based on it, we construct ShareGPT4Video, which contains 40K high-quality videos spanning a wide range of categories, and the resulting captions encompass rich world knowledge, object attributes, camera movements, and crucially, detailed and precise temporal descriptions of events. Based on ShareGPT4Video, we further develop ShareCaptioner-Video, a superior captioner capable of efficiently generating high-quality captions for arbitrary videos. We annotated 4.8M aesthetically appealing videos by it and verified their effectiveness on a 10-second text2video generation task. For video understanding, we verified the effectiveness of ShareGPT4Video on several current LVLM architectures and presented our superb new LVLM ShareGPT4Video-8B. All the models, strategies, and annotations will be open-sourced and we hope this project can serve as a pivotal resource for advancing both the LVLMs and T2VMs community.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/22a7476e4fd36818777c47e666f61a41-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking
+AU  - Daniel Dauner
+AU  - Marcel Hallgarten
+AU  - Tianyu Li
+AU  - Xinshuo Weng
+AU  - Zhiyu Huang
+AU  - Zetong Yang
+AU  - Hongyang Li
+AU  - Igor Gilitschenski
+AU  - Boris Ivanovic
+AU  - Marco Pavone
+AU  - Andreas Geiger
+AU  - Kashyap Chitta
+PY  - 2024
+AB  - Benchmarking vision-based driving policies is challenging. On one hand, open-loop evaluation with real data is easy, but these results do not reflect closed-loop performance. On the other, closed-loop evaluation is possible in simulation, but is hard to scale due to its significant computational demands. Further, the simulators available today exhibit a large domain gap to real data. This has resulted in an inability to draw clear conclusions from the rapidly growing body of research on end-to-end autonomous driving. In this paper, we present NAVSIM, a middle ground between these evaluation paradigms, where we use large datasets in combination with a non-reactive simulator to enable large-scale real-world benchmarking. Specifically, we gather simulation-based metrics, such as progress and time to collision, by unrolling bird's eye view abstractions of the test scenes for a short simulation horizon. Our simulation is non-reactive, i.e., the evaluated policy and environment do not influence each other. As we demonstrate empirically, this decoupling allows open-loop metric computation while being better aligned with closed-loop evaluations than traditional displacement errors. NAVSIM enabled a new competition held at CVPR 2024, where 143 teams submitted 463 entries, resulting in several new insights. On a large set of challenging scenarios, we observe that simple methods with moderate compute requirements such as TransFuser can match recent large-scale end-to-end driving architectures such as UniAD. Our modular framework can potentially be extended with new datasets, data curation strategies, and metrics, and will be continually maintained to host future challenges. Our code is available at https://github.com/autonomousvision/navsim.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/32768f7faf1995026ef9821c696f3404-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - MLLM-CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs
+AU  - Jihyung Kil
+AU  - Zheda Mai
+AU  - Justin Lee
+AU  - Arpita Chowdhury
+AU  - Zihe Wang
+AU  - Kerrie Cheng
+AU  - Lemeng Wang
+AU  - Ye Liu
+AU  - Wei-Lun Chao
+PY  - 2024
+AB  - The ability to compare objects, scenes, or situations is crucial for effective decision-making and problem-solving in everyday life. For instance, comparing the freshness of apples enables better choices during grocery shopping, while comparing sofa designs helps optimize the aesthetics of our living space. Despite its significance, the comparative capability is largely unexplored in artificial general intelligence (AGI). In this paper, we introduce MLLM-CompBench, a benchmark designed to evaluate the comparative reasoning capability of multimodal large language models (MLLMs). MLLM-CompBench mines and pairs images through visually oriented questions covering eight dimensions of relative comparison: visual attribute, existence, state, emotion, temporality, spatiality, quantity, and quality. We curate a collection of around 40K image pairs using metadata from diverse vision datasets and CLIP similarity scores. These image pairs span a broad array of visual domains, including animals, fashion, sports, and both outdoor and indoor scenes. The questions are carefully crafted to discern relative characteristics between two images and are labeled by human annotators for accuracy and relevance. We use MLLM-CompBench to evaluate recent MLLMs, including GPT-4V(ision), Gemini-Pro, and LLaVA-1.6. Our results reveal notable shortcomings in their comparative abilities. We believe MLLM-CompBench not only sheds light on these limitations but also establishes a solid foundation for future enhancements in the comparative capability of MLLMs.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/32923dff09f75cf1974c145764a523e2-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Weight for Robustness: A Comprehensive Approach towards Optimal Fault-Tolerant Asynchronous ML
+AU  - Tehila Dahan
+AU  - Kfir Y. Levy
+PY  - 2024
+AB  - We address the challenges of Byzantine-robust training in asynchronous distributed machine learning systems, aiming to enhance efficiency amid massive parallelization and heterogeneous compute resources. Asynchronous systems, marked by independently operating workers and intermittent updates, uniquely struggle with maintaining integrity against Byzantine failures, which encompass malicious or erroneous actions that disrupt learning. The inherent delays in such settings not only introduce additional bias to the system but also obscure the disruptions caused by Byzantine faults. To tackle these issues, we adapt the Byzantine framework to asynchronous dynamics by introducing a novel weighted robust aggregation framework. This allows for the extension of robust aggregators and a recent meta-aggregator to their weighted versions, mitigating the effects of delayed updates. By further incorporating a recent variance-reduction technique, we achieve an optimal convergence rate for the first time in an asynchronous Byzantine environment. Our methodology is rigorously validated through empirical and theoretical analysis, demonstrating its effectiveness in enhancing fault tolerance and optimizing performance in asynchronous ML systems.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/3504a4fa45685d668ce92797fbbf1895-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale
+AU  - Guilherme Penedo
+AU  - Hynek Kydlíček
+AU  - Loubna Ben allal
+AU  - Anton Lozhkov
+AU  - Margaret Mitchell
+AU  - Colin Raffel
+AU  - Leandro Von Werra
+AU  - Thomas Wolf
+PY  - 2024
+AB  - The performance of a large language model (LLM) depends heavily on the quality and size of its pretraining dataset. However, the pretraining datasets for state-of-the-art open LLMs like Llama 3 and Mixtral are not publicly available and very little is known about how they were created. In this work, we introduce FineWeb, a 15-trillion token dataset derived from 96 Common Crawl snapshots that produces better-performing LLMs than other open pretraining datasets. To advance the understanding of how best to curate high-quality pretraining datasets, we carefully document and ablate all of the design choices used in FineWeb, including in-depth investigations of deduplication and filtering strategies. In addition, we introduce FineWeb-Edu, a 1.3-trillion token collection of educational text filtered from FineWeb. LLMs pretrained on FineWeb-Edu exhibit dramatically better performance on knowledge- and reasoning-intensive benchmarks like MMLU and ARC. Along with our datasets, we publicly release our data curation codebase and all of the models trained during our ablation experiments.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/370df50ccfdf8bde18f8f9c2d9151bda-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - $\epsilon$-Softmax: Approximating One-Hot Vectors for Mitigating Label Noise
+AU  - Jialiang Wang
+AU  - Xiong Zhou
+AU  - Deming Zhai
+AU  - Junjun Jiang
+AU  - Xiangyang Ji
+AU  - Xianming Liu
+PY  - 2024
+AB  - Noisy labels pose a common challenge for training accurate deep neural networks. To mitigate label noise, prior studies have proposed various robust loss functions to achieve noise tolerance in the presence of label noise, particularly symmetric losses. However, they usually suffer from the underfitting issue due to the overly strict symmetric condition. In this work, we propose a simple yet effective approach for relaxing the symmetric condition, namely **$\epsilon$-softmax**, which simply modifies the outputs of the softmax layer to approximate one-hot vectors with a controllable error $\epsilon$. Essentially, ***$\epsilon$-softmax** not only acts as an alternative for the softmax layer, but also implicitly plays the crucial role in modifying the loss function.* We  prove theoretically that **$\epsilon$-softmax** can achieve noise-tolerant learning with controllable excess risk bound for almost any loss function. Recognizing that **$\epsilon$-softmax**-enhanced losses may slightly reduce fitting ability on clean datasets, we further incorporate them with one symmetric loss, thereby achieving a better trade-off between robustness and effective learning. Extensive experiments demonstrate the superiority of our method in mitigating synthetic and real-world label noise.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/387936a8cd02bf2ad745b751047b9d49-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - MINT-1T: Scaling Open-Source Multimodal Data by 10x: A Multimodal Dataset with One Trillion Tokens
+AU  - Anas Awadalla
+AU  - Le Xue
+AU  - Oscar Lo
+AU  - Manli Shu
+AU  - Hannah Lee
+AU  - Etash Guha
+AU  - Matt Jordan
+AU  - Sheng Shen
+AU  - Mohamed Awadalla
+AU  - Silvio Savarese
+AU  - Caiming Xiong
+AU  - Ran Xu
+AU  - Yejin Choi
+AU  - Ludwig Schmidt
+PY  - 2024
+AB  - Multimodal interleaved datasets featuring free-form interleaved sequences of images and text are crucial for training frontier large multimodal models (LMMs). Despite the rapid progression of open-source LMMs, there remains a pronounced scarcity of large-scale, open-source multimodal interleaved datasets.In response, we introduce MINT-1T, the most extensive and diverse open-source Multimodal INTerleaved dataset to date. MINT-1T comprises of one trillion text tokens and 3.4 billion images, a 10x scale-up from existing open-source datasets. Additionally, we include previously untapped sources such as PDFs and ArXiv papers. As scaling multimodal interleaved datasets requires substantial engineering effort, sharing the data curation process and releasing the dataset greatly benefits the community. Our experiments show that LMMs trained on MINT-1T rival the performance of models trained on the previous leading dataset, OBELICS. We release our data at https://github.com/mlfoundations/MINT-1T.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/40b9196c25fe1d64d87ca3a80a91d0ce-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning Action and Reasoning-Centric Image Editing from Videos and Simulation
+AU  - Benno Krojer
+AU  - Dheeraj Vattikonda
+AU  - Luis Lara
+AU  - Varun Jampani
+AU  - Eva Portelance
+AU  - Christopher Pal
+AU  - Siva Reddy
+PY  - 2024
+AB  - An image editing model should be able to perform diverse edits, ranging from object replacement, changing attributes or style, to performing actions or movement, which require many forms of reasoning. Currentgeneralinstruction-guided editing models have significant shortcomings with action and reasoning-centric edits.Object, attribute or stylistic changes can be learned from visually static datasets. On the other hand, high-quality data for action and reasoning-centric edits is scarce and has to come from entirely different sources that cover e.g. physical dynamics, temporality and spatial reasoning.To this end, we meticulously curate theAURORADataset (Action-Reasoning-Object-Attribute), a collection of high-quality training data, human-annotated and curated from videos and simulation engines.We focus on a key aspect of quality training data: triplets (source image, prompt, target image) contain a single meaningful visual change described by the prompt, i.e.,truly minimalchanges between source and target images.To demonstrate the value of our dataset, we evaluate anAURORA-finetuned model on a new expert-curated benchmark (AURORA-Bench) covering 8 diverse editing tasks.Our model significantly outperforms previous editing models as judged by human raters.For automatic evaluations, we find important flaws in previous metrics and caution their use for semantically hard editing tasks.Instead, we propose a new automatic metric that focuses on discriminative understanding.We hope that our efforts : (1) curating a quality training dataset and an evaluation benchmark, (2) developing critical evaluations, and (3) releasing a state-of-the-art model, will fuel further progress on general image editing.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/434d512d6d79a506fd32f8b39abb7c19-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - NoisyGL: A Comprehensive Benchmark for Graph Neural Networks under Label Noise
+AU  - Zhonghao Wang
+AU  - Danyu Sun
+AU  - Sheng Zhou
+AU  - Haobo Wang
+AU  - Jiapei Fan
+AU  - Longtao Huang
+AU  - Jiajun Bu
+PY  - 2024
+AB  - Graph Neural Networks (GNNs) exhibit strong potential in node classification task through a message-passing mechanism. However, their performance often hinges on high-quality node labels, which are challenging to obtain in real-world scenarios due to unreliable sources or adversarial attacks. Consequently, label noise is common in real-world graph data, negatively impacting GNNs by propagating incorrect information during training. To address this issue, the study of Graph Neural Networks under Label Noise (GLN) has recently gained traction. However, due to variations in dataset selection, data splitting, and preprocessing techniques, the community currently lacks a comprehensive benchmark, which impedes deeper understanding and further development of GLN. To fill this gap, we introduce NoisyGL in this paper, the first comprehensive benchmark for graph neural networks under label noise. NoisyGL enables fair comparisons and detailed analyses of GLN methods on noisy labeled graph data across various datasets, with unified experimental settings and interface. Our benchmark has uncovered several important insights that were missed in previous research, and we believe these findings will be highly beneficial for future studies. We hope our open-source benchmark library will foster further advancements in this field. The code of the benchmark can be found in https://github.com/eaglelab-zju/NoisyGL.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/436ffa18e7e17be336fd884f8ebb5748-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Mission Impossible: A Statistical Perspective on Jailbreaking LLMs
+AU  - Jingtong Su
+AU  - Julia Kempe
+AU  - Karen Ullrich
+PY  - 2024
+AB  - Large language models (LLMs) are trained on a deluge of text data with limited quality control. As a result, LLMs can exhibit unintended or even harmful behaviours, such as leaking information, fake news or hate speech. Countermeasures, commonly referred to as preference alignment, include fine-tuning the pretrained LLMs with carefully crafted text examples of desired behaviour. Even then, empirical evidence shows preference aligned LLMs can be enticed to harmful behaviour. This so called jailbreaking of LLMs is typically achieved by adversarially modifying the input prompt to the LLM. Our paper provides theoretical insights into the phenomenon of preference alignment and jailbreaking from a statistical perspective. Under our framework, we first show that pretrained LLMs will mimic harmful behaviour if present in the training corpus. \textbf{Under that same framework, we then introduce a statistical notion of alignment, and lower-bound the jailbreaking probability, showing that it is unpreventable under reasonable assumptions.} Based on our insights, we propose an alteration to the currently prevalent alignment strategy RLHF. Specifically, we introduce a  simple modification to the RLHF objective, we call \emph{E-RLHF}, that aims to increase the likelihood of safe responses. \emph{E-RLHF} brings no additional training cost, and is compatible with other methods. Empirically, we demonstrate that \emph{E-RLHF} outperforms RLHF on all alignment problems put forward by the AdvBench \citep{zou2023universal} and HarmBench project \citep{mazeika2024harmbench} without sacrificing model performance as measured by the MT-Bench project \citep{zheng2024judging}.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/439bf902de1807088d8b731ca20b0777-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models
+AU  - Liwei Jiang
+AU  - Kavel Rao
+AU  - Seungju Han
+AU  - Allyson Ettinger
+AU  - Faeze Brahman
+AU  - Sachin Kumar
+AU  - Niloofar Mireshghallah
+AU  - Ximing Lu
+AU  - Maarten Sap
+AU  - Yejin Choi
+AU  - Nouha Dziri
+PY  - 2024
+AB  - We introduce WildTeaming, an automatic red-teaming framework that mines in-the-wild user-chatbot interactions to discover 5.7K unique clusters of novel jailbreak tactics, and then composes selections of multiple mined tactics for systematic exploration of novel and even more challenging jailbreaks.Compared to prior work that performed red-teaming via recruited human workers, gradient-based optimization, or iterative revision with large language models (LLMs), our work investigates jailbreaks from chatbot users in-the-wild who were not specifically instructed to break the system.  WildTeaming reveals previously unidentified vulnerabilities of frontier LLMs, resulting in more diverse and successful adversarial attacks compared to state-of-the-art jailbreaking methods. While there exist many datasets for jailbreak evaluation, very few open-source datasets exist for jailbreak training, as safety training data has been closed among all frontier models even when their weights are open. Therefore, with WildTeaming we create WildJailbreak, a large-scale open-source synthetic safety dataset with 262K vanilla (direct request) and adversarial (complex jailbreak) prompt-response pairs. In order to mitigate exaggerated safety behaviors, WildJailbreak provides two contrastive types of queries: 1) harmful queries (both vanilla and adversarial) and 2) benign queries that resemble harmful queries in form but contain no harmful intent. As WildJailbreak considerably upgrades the quality and scale of existing safety resources, it uniquely enables us to examine the scaling effects of data and the interplay of data properties and model capabilities during safety training. Through extensive model training and evaluations, we identify the training properties that enable an ideal balance of safety behaviors: appropriate safeguarding without over-refusal, effective handling of both vanilla and adversarial queries, and minimal, if any, decrease in general capabilities. All the components of WildJailbreak contribute to achieving balanced safety behaviors of models
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/54024fca0cef9911be36319e622cde38-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Noisy Ostracods: A Fine-Grained, Imbalanced Real-World Dataset for Benchmarking Robust Machine Learning and Label Correction Methods
+AU  - Jiamian Hu
+AU  - Yuanyuan Hong
+AU  - Yihua Chen
+AU  - He Wang
+AU  - Moriaki Yasuhara
+PY  - 2024
+AB  - We present the Noisy Ostracods, a noisy dataset for genus and species classificationof crustacean ostracods with specialists’ annotations. Over the 71466 specimenscollected, 5.58% of them are estimated to be noisy (possibly problematic) at genuslevel. The dataset is created to addressing a real-world challenge: creating aclean fine-grained taxonomy dataset. The Noisy Ostracods dataset has diversenoises from multiple sources. Firstly, the noise is open-set, including new classesdiscovered during curation that were not part of the original annotation. Thedataset has pseudo-classes, where annotators misclassified samples that shouldbelong to an existing class into a new pseudo-class. The Noisy Ostracods datasetis highly imbalanced with a imbalance factor ρ = 22429. This presents a uniquechallenge for robust machine learning methods, as existing approaches have notbeen extensively evaluated on fine-grained classification tasks with such diversereal-world noise. Initial experiments using current robust learning techniqueshave not yielded significant performance improvements on the Noisy Ostracodsdataset compared to cross-entropy training on the raw, noisy data. On the otherhand, noise detection methods have underperformed in error hit rate comparedto naive cross-validation ensembling for identifying problematic labels. Thesefindings suggest that the fine-grained, imbalanced nature, and complex noisecharacteristics of the dataset present considerable challenges for existing noiserobustalgorithms. By openly releasing the Noisy Ostracods dataset, our goalis to encourage further research into the development of noise-resilient machinelearning methods capable of effectively handling diverse, real-world noise in finegrainedclassification tasks. The dataset, along with its evaluation protocols, can beaccessed at https://github.com/H-Jamieu/Noisy_ostracods.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/5ab97f475339d66f8bb0a94312f57e40-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - dopanim: A Dataset of Doppelganger Animals with Noisy Annotations from Multiple Humans
+AU  - Marek Herde
+AU  - Denis Huseljic
+AU  - Lukas Rauch
+AU  - Bernhard Sick
+PY  - 2024
+AB  - Human annotators typically provide annotated data for training machine learning models, such as neural networks. Yet, human annotations are subject to noise, impairing generalization performances. Methodological research on approaches counteracting noisy annotations requires corresponding datasets for a meaningful empirical evaluation. Consequently, we introduce a novel benchmark dataset, dopanim, consisting of about 15,750 animal images of 15 classes with ground truth labels. For approximately 10,500 of these images, 20 humans provided over 52,000 annotations with an accuracy of circa 67%. Its key attributes include (1) the challenging task of classifying doppelganger animals, (2) human-estimated likelihoods as annotations, and (3) annotator metadata. We benchmark well-known multi-annotator learning approaches using seven variants of this dataset and outline further evaluation use cases such as learning beyond hard class labels and active learning. Our dataset and a comprehensive codebase are publicly available to emulate the data collection process and to reproduce all empirical results.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/5b44b99d012922011f0be1031a98c4f9-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Active Classification with Few Queries under Misspecification
+AU  - Vasilis Kontonis
+AU  - Mingchen Ma
+AU  - Christos Tzamos
+PY  - 2024
+AB  - We study pool-based active learning, where a learner has a large pool $S$ of unlabeled examples and can adaptively ask a labeler questions to learn these labels. The goal of the learner is to output a labeling for $S$ that can compete with the best hypothesis from a given hypothesis class $\mathcal{H}$. We focus on halfspace learning, one of the most important problems in active learning.It is well known that in the standard active learning model, learning the labels of an arbitrary pool of examples labeled by some halfspace up to error $\epsilon$ requires at least $\Omega(1/\epsilon)$ queries. To overcome this difficulty, previous work designs simple but powerful query languages to achieve $O(\log(1/\epsilon))$ query complexity, but only focuses on the realizable setting where data are perfectly labeled by some halfspace.However, when labels are noisy, such queries are too fragile and lead to high query complexity even under the simple random classification noise model.  In this work, we propose a new query language called threshold statistical queries and study their power for learning under various noise models. Our main algorithmic result is the first query-efficient algorithm for learning halfspaces under the popular Massart noise model. With an arbitrary dataset corrupted with Massart noise at noise rate $\eta$, our algorithm uses only $\mathrm{polylog(1/\epsilon)}$ threshold statistical queries and computes an $(\eta + \epsilon)$-accurate labeling in polynomial time. For the harder case of agnostic noise, we show that it is impossible to beat $O(1/\epsilon)$ query complexity even for the much simpler problem of learning singleton functions (and thus for learning halfspaces) using a reduction from agnostic distributed learning.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/5c6bcabf220f35df0b90f3d1d0ac1ad0-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - FineStyle: Fine-grained Controllable Style Personalization for Text-to-image Models
+AU  - Gong Zhang
+AU  - Kihyuk Sohn
+AU  - Meera Hahn
+AU  - Humphrey Shi
+AU  - Irfan Essa
+PY  - 2024
+AB  - Few-shot fine-tuning of text-to-image (T2I) generation models enables people to create unique images in their own style using natural languages without requiring extensive prompt engineering. However, fine-tuning with only a handful, as little as one, of image-text paired data prevents fine-grained control of style attributes at generation. In this paper, we present FineStyle, a few-shot fine-tuning method that allows enhanced controllability for style personalized text-to-image generation. To overcome the lack of training data for fine-tuning, we propose a novel concept-oriented data scaling that amplifies the number of image-text pair, each of which focuses on different concepts (e.g., objects) in the style reference image. We also identify the benefit of parameter-efficient adapter tuning of key and value kernels of cross-attention layers. Extensive experiments show the effectiveness of FineStyle at following fine-grained text prompts and delivering visual quality faithful to the specified style, measured by CLIP scores and human raters.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/5edb0d52b6959d946afac7600f9f1e0c-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - The State of Data Curation at NeurIPS: An Assessment of Dataset Development Practices in the Datasets and Benchmarks Track
+AU  - Eshta Bhardwaj
+AU  - Harshit Gujral
+AU  - Siyi Wu
+AU  - Ciara Zogheib
+AU  - Tegan Maharaj
+AU  - Christoph Becker
+PY  - 2024
+AB  - Data curation is a field with origins in librarianship and archives, whose scholarship and thinking on data issues go back centuries, if not millennia. The field of machine learning is increasingly observing the importance of data curation to the advancement of both applications and fundamental understanding of machine learning models -- evidenced not least by the creation of the Datasets and Benchmarks track itself. This work provides an analysis of recent dataset development practices at NeurIPS through the lens of data curation. We present an evaluation framework for dataset documentation, consisting of a rubric and toolkit developed through a thorough literature review of data curation principles. We use the framework to systematically assess the strengths and weaknesses in current dataset development practices of 60 datasets published in the NeurIPS Datasets and Benchmarks track from 2021-2023. We summarize key findings and trends. Results indicate greater need for documentation about environmental footprint, ethical considerations, and data management. We suggest targeted strategies and resources to improve documentation in these areas and  provide recommendations for the NeurIPS peer-review process that prioritize rigorous data curation in ML. We also provide guidelines for dataset developers on the use of our rubric as a standalone tool. Finally, we provide results in the format of a dataset that showcases aspects of recommended data curation practices. Our rubric and results are of interest for improving data curation practices broadly in the field of ML as well as to data curation and science and technology studies scholars studying practices in ML. Our aim is to support continued improvement in interdisciplinary research on dataset practices, ultimately improving the reusability and reproducibility of new datasets and benchmarks, enabling standardized and informed human oversight, and strengthening the foundation of rigorous and responsible ML research.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/605bbd006beee7e0589a51d6a50dcae1-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation
+AU  - Yuang Ai
+AU  - Xiaoqiang Zhou
+AU  - Huaibo Huang
+AU  - Xiaotian Han
+AU  - Zhengyu Chen
+AU  - Quanzeng You
+AU  - Hongxia Yang
+PY  - 2024
+AB  - Image restoration (IR) in real-world scenarios presents significant challenges due to the lack of high-capacity models and comprehensive datasets.To tackle these issues, we present a dual strategy: GenIR, an innovative data curation pipeline, and DreamClear, a cutting-edge Diffusion Transformer (DiT)-based image restoration model.GenIR, our pioneering contribution, is a dual-prompt learning pipeline that overcomes the limitations of existing datasets, which typically comprise only a few thousand images and thus offer limited generalizability for larger models. GenIR streamlines the process into three stages: image-text pair construction, dual-prompt based fine-tuning, and data generation \& filtering. This approach circumvents the laborious data crawling process, ensuring copyright compliance and providing a cost-effective, privacy-safe solution for IR dataset construction. The result is a large-scale dataset of one million high-quality images.Our second contribution,DreamClear, is a DiT-based image restoration model. It utilizes the generative priors of text-to-image (T2I) diffusion models and the robust perceptual capabilities of multi-modal large language models (MLLMs) to achieve photorealistic restoration. To boost the model's adaptability to diverse real-world degradations, we introduce the Mixture of Adaptive Modulator (MoAM). It employs token-wise degradation priors to dynamically integrate various restoration experts, thereby expanding the range of degradations the model can address.Our exhaustive experiments confirm DreamClear's superior performance, underlining the efficacy of our dual strategy for real-world image restoration. Code and pre-trained models are available at: https://github.com/shallowdream204/DreamClear.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/6452474601429509f3035dc81c233226-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Do Counterfactually Fair Image Classifiers Satisfy Group Fairness? -- A Theoretical and Empirical Study
+AU  - Sangwon Jung
+AU  - Sumin Yu
+AU  - Sanghyuk Chun
+AU  - Taesup Moon
+PY  - 2024
+AB  - The notion of algorithmic fairness has been actively explored from various aspects of fairness, such as counterfactual fairness (CF) and group fairness (GF). However, the exact relationship between CF and GF remains to be unclear, especially in image classification tasks; the reason is because we often cannot collect counterfactual samples regarding a sensitive attribute, essential for evaluating CF, from the existing images (e.g., a photo of the same person but with different secondary sex characteristics). In this paper, we construct new image datasets for evaluating CF by using a high-quality image editing method and carefully labeling with human annotators. Our datasets, CelebA-CF and LFW-CF, build upon the popular image GF benchmarks; hence, we can evaluate CF and GF simultaneously. We empirically observe that CF does not imply GF in image classification, whereas previous studies on tabular datasets observed the opposite. We theoretically show that it could be due to the existence of a latent attribute $G$ that is correlated with, but not caused by, the sensitive attribute (e.g., secondary sex characteristics are highly correlated with hair length). From this observation, we propose a simple baseline,  Counterfactual Knowledge Distillation (CKD), to mitigate such correlation with the sensitive attributes. Extensive experimental results on CelebA-CF and LFW-CF demonstrate that CF-achieving models satisfy GF if we successfully reduce the reliance on $G$ (e.g., using CKD).
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/65b4660c1fee9842472e1557b582c940-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Geometric-Averaged Preference Optimization for Soft Preference Labels
+AU  - Hiroki Furuta
+AU  - Kuang-Huei Lee
+AU  - Shixiang Shane Gu
+AU  - Yutaka Matsuo
+AU  - Aleksandra Faust
+AU  - Heiga Zen
+AU  - Izzeddin Gur
+PY  - 2024
+AB  - Many algorithms for aligning LLMs with human preferences assume that human preferences are binary and deterministic.However, human preferences can vary across individuals, and therefore should be represented distributionally.In this work, we introduce the distributional soft preference labels and improve Direct Preference Optimization (DPO) with a weighted geometric average of the LLM output likelihood in the loss function.This approach adjusts the scale of learning loss based on the soft labels such that the loss would approach zero when the responses are closer to equally preferred.This simple modification can be easily applied to any DPO-based methods and mitigate over-optimization and objective mismatch, which prior works suffer from.Our experiments simulate the soft preference labels with AI feedback from LLMs and demonstrate that geometric averaging consistently improves performance on standard benchmarks for alignment research. In particular, we observe more preferable responses than binary labels and significant improvements where modestly-confident labels are in the majority.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/688c7a82e31653e7c256c6c29fd3b438-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Vision-Language Models are Strong Noisy Label Detectors
+AU  - Tong Wei
+AU  - Hao-Tian Li
+AU  - Chun-Shu Li
+AU  - Jiang-Xin Shi
+AU  - Yu-Feng Li
+AU  - Min-Ling Zhang
+PY  - 2024
+AB  - Recent research on fine-tuning vision-language models has demonstrated impressive performance in various downstream tasks. However, the challenge of obtaining accurately labeled data in real-world applications poses a significant obstacle during the fine-tuning process. To address this challenge, this paper presents a Denoising Fine-Tuning framework, called DeFT, for adapting vision-language models. DeFT utilizes the robust alignment of textual and visual features pre-trained on millions of auxiliary image-text pairs to sieve out noisy labels. The proposed framework establishes a noisy label detector by learning positive and negative textual prompts for each class. The positive prompt seeks to reveal distinctive features of the class, while the negative prompt serves as a learnable threshold for separating clean and noisy samples. We employ parameter-efficient fine-tuning for the adaptation of a pre-trained visual encoder to promote its alignment with the learned textual prompts. As a general framework, DeFT can seamlessly fine-tune many pre-trained models to downstream tasks by utilizing carefully selected clean samples. Experimental results on seven synthetic and real-world noisy datasets validate the effectiveness of DeFT in both noisy label detection and image classification. Our source code can be found in the supplementary material.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/6af08ba9468f0daca4b8dd388cb95824-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Imprecise Label Learning: A Unified Framework for Learning with Various Imprecise Label Configurations
+AU  - Hao Chen
+AU  - Ankit Shah
+AU  - Jindong Wang
+AU  - Ran Tao
+AU  - Yidong Wang
+AU  - Xiang Li
+AU  - Xing Xie
+AU  - Masashi Sugiyama
+AU  - Rita Singh
+AU  - Bhiksha Raj
+PY  - 2024
+AB  - Learning with reduced labeling standards, such as noisy label, partial label, and supplementary unlabeled data, which we generically refer to as imprecise label, is a commonplace challenge in machine learning tasks. Previous methods tend to propose specific designs for every emerging imprecise label configuration, which is usually unsustainable when multiple configurations of imprecision coexist. In this paper, we introduce imprecise label learning (ILL), a framework for the unification of learning with various imprecise label configurations. ILL leverages expectation-maximization (EM) for modeling the imprecise label information, treating the precise labels as latent variables. Instead of approximating the correct labels for training, it considers the entire distribution of all possible labeling entailed by the imprecise information. We demonstrate that ILL can seamlessly adapt to partial label learning, semi-supervised learning, noisy label learning, and, more importantly, a mixture of these settings, with closed-form learning objectives derived from the unified EM modeling. Notably, ILL surpasses the existing specified techniques for handling imprecise labels, marking the first practical and unified framework with robust and effective performance across various challenging settings. We hope our work will inspire further research on this topic, unleashing the full potential of ILL in wider scenarios where precise labels are expensive and complicated to obtain.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/6de71272e0be559af3f76b884e94794b-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - DART-Eval: A Comprehensive DNA Language Model Evaluation Benchmark on Regulatory DNA
+AU  - Aman Patel
+AU  - Arpita Singhal
+AU  - Austin Wang
+AU  - Anusri Pampari
+AU  - Maya Kasowski
+AU  - Anshul Kundaje
+PY  - 2024
+AB  - Recent advances in self-supervised models for natural language, vision, and protein sequences have inspired the development of large genomic DNA language models (DNALMs). These models aim to learn generalizable representations of diverse DNA elements, potentially enabling various genomic prediction, interpretation and design tasks. Despite their potential, existing benchmarks do not adequately assess the capabilities of DNALMs on key downstream applications involving an important class of non-coding DNA elements critical for regulating gene activity. In this study, we introduce DART-Eval, a suite of representative benchmarks specifically focused on regulatory DNA to evaluate model performance across zero-shot, probed, and fine-tuned scenarios against contemporary ab initio models as baselines. Our benchmarks target biologically meaningful downstream tasks such as functional sequence feature discovery, predicting cell-type specific regulatory activity, and counterfactual prediction of the impacts of genetic variants. We find that current DNALMs exhibit inconsistent performance and do not offer compelling gains over alternative baseline models for most tasks, while requiring significantly more computational resources. We discuss potentially promising modeling, data curation, and evaluation strategies for the next generation of DNALMs. Our  code is available at https://github.com/kundajelab/DART-Eval
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/71998bfc3217ffe1cca1ee084dfadadd-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - LLM Evaluators Recognize and Favor Their Own Generations
+AU  - Arjun Panickssery
+AU  - Samuel R. Bowman
+AU  - Shi Feng
+PY  - 2024
+AB  - Self-evaluation using large language models (LLMs) has proven valuable not only in benchmarking but also methods like reward modeling, constitutional AI, and self-refinement. But new biases are introduced due to the same LLM acting as both the evaluator and the evaluatee. One such bias is self-preference, where an LLM evaluator scores its own outputs higher than others’ while human annotators consider them of equal quality. But do LLMs actually recognize their own outputs when they give those texts higher scores, or is it just a coincidence? In this paper, we investigate if self-recognition capability contributes to self-preference. We discover that, out of the box, LLMs such as GPT-4 and Llama 2 have non-trivial accuracy at distinguishing themselves from other LLMs and humans. By finetuning LLMs, we discover a linear correlation between self-recognition capability and the strength of self-preference bias; using controlled experiments, we show that the causal explanation resists straightforward confounders. We discuss how self-recognition can interfere with unbiased evaluations and AI safety more generally.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/7f1f0218e45f5414c79c0679633e47bc-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Arctique: An artificial histopathological dataset unifying realism and controllability for uncertainty quantification
+AU  - Jannik Franzen
+AU  - Claudia Winklmayr
+AU  - Vanessa E. Guarino
+AU  - Christoph Karg
+AU  - Xiaoyan Yu
+AU  - Nora Koreuber
+AU  - Jan P. Albrecht
+AU  - Philip Bischoff
+AU  - Dagmar Kainmueller
+PY  - 2024
+AB  - Uncertainty Quantification (UQ) is crucial for reliable image segmentation. Yet, while the field sees continual development of novel methods, a lack of agreed-upon benchmarks limits their systematic comparison and evaluation: Current UQ methods are typically tested either on overly simplistic toy datasets or on complex real-world datasets that do not allow to discern true uncertainty. To unify both controllability and complexity, we introduce Arctique, a procedurally generated dataset modeled after histopathological colon images. We chose histopathological images for two reasons: 1) their complexity in terms of intricate object structures and highly variable appearance, which yields challenging segmentation problems, and 2) their broad prevalence for medical diagnosis and respective relevance of high-quality UQ. To generate Arctique, we established a Blender-based framework for 3D scene creation with intrinsic noise manipulation. Arctique contains up to 50,000 rendered images with precise masks as well as noisy label simulations. We show that by independently controlling the uncertainty in both images and labels, we can effectively study the performance of several commonly used UQ methods. Hence, Arctique serves as a critical resource for benchmarking and advancing UQ techniques and other methodologies in complex, multi-object environments, bridging the gap between realism and controllability. All code is publicly available, allowing re-creation and controlled manipulations of our shipped images as well as creation and rendering of new scenes.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/840ba425392fbfede5cf50c755c608c6-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Active preference learning for ordering items in- and out-of-sample
+AU  - Herman Bergström
+AU  - Emil Carlsson
+AU  - Devdatt Dubhashi
+AU  - Fredrik D. Johansson
+PY  - 2024
+AB  - Learning an ordering of items based on pairwise comparisons is useful when items are difficult to rate consistently on an absolute scale, for example, when annotators have to make subjective assessments. When exhaustive comparison is infeasible, actively sampling item pairs can reduce the number of annotations necessary for learning an accurate ordering. However, many algorithms ignore shared structure between items, limiting their sample efficiency and precluding generalization to new items. It is also common to disregard how noise in comparisons varies between item pairs, despite it being informative of item similarity. In this work, we study active preference learning for ordering items with contextual attributes, both in- and out-of-sample. We give an upper bound on the expected ordering error of a logistic preference model as a function of which items have been compared. Next, we propose an active learning strategy that samples items to minimize this bound by accounting for aleatoric and epistemic uncertainty in comparisons. We evaluate the resulting algorithm, and a variant aimed at reducing model misspecification, in multiple realistic ordering tasks with comparisons made by human annotators. Our results demonstrate superior sample efficiency and generalization compared to non-contextual ranking approaches and active preference learning baselines.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/8443219a991f068c34d9491ad68ffa94-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Decoupled Kullback-Leibler Divergence Loss
+AU  - Jiequan Cui
+AU  - Zhuotao Tian
+AU  - Zhisheng Zhong
+AU  - Xiaojuan Qi
+AU  - Bei Yu
+AU  - Hanwang Zhang
+PY  - 2024
+AB  - In this paper, we delve deeper into the Kullback–Leibler (KL) Divergence loss and mathematically prove that it is equivalent to the Decoupled Kullback-Leibler (DKL) Divergence loss that consists of 1) a weighted Mean Square Error ($\mathbf{w}$MSE) loss and 2) a Cross-Entropy loss incorporating soft labels. Thanks to the decomposed formulation of DKL loss, we have identified two areas for improvement. Firstly, we address the limitation of KL/DKL in scenarios like knowledge distillation by breaking its asymmetric optimization property. This modification ensures that the $\mathbf{w}$MSE component is always effective during training, providing extra constructive cues.Secondly, we introduce class-wise global information into KL/DKL to mitigate bias from individual samples.With these two enhancements, we derive the Improved Kullback–Leibler (IKL) Divergence loss and evaluate its effectiveness by conducting experiments on CIFAR-10/100 and ImageNet datasets, focusing on adversarial training, and knowledge distillation tasks. The proposed approach achieves new state-of-the-art adversarial robustness on the public leaderboard --- \textit{RobustBench} and competitive performance on knowledge distillation, demonstrating the substantial practical merits. Our code is available at https://github.com/jiequancui/DKL.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/87ee1bbac4635e7c948f3eea83c1f262-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - S-MolSearch: 3D Semi-supervised Contrastive Learning for Bioactive Molecule Search
+AU  - Gengmo Zhou
+AU  - Zhen Wang
+AU  - Feng Yu
+AU  - Guolin Ke
+AU  - Zhewei Wei
+AU  - Zhifeng Gao
+PY  - 2024
+AB  - Virtual Screening is an essential technique in the early phases of drug discovery, aimed at identifying promising drug candidates from vast molecular libraries. Recently, ligand-based virtual screening has garnered significant attention due to its efficacy in conducting extensive database screenings without relying on specific protein-binding site information.Obtaining binding affinity data for complexes is highly expensive, resulting in a limited amount of available data that covers a relatively small chemical space. Moreover, these datasets contain a significant amount of inconsistent noise. It is challenging to identify an inductive bias that consistently maintains the integrity of molecular activity during data augmentation. To tackle these challenges, we propose S-MolSearch, the first framework to our knowledge, that leverages molecular 3D information and affinity information in semi-supervised contrastive learning for ligand-based virtual screening. % S-MolSearch processes both labeled and unlabeled data, trains molecular structural encoders, and generates soft labels for unlabeled data, drawing on the principles of inverse optimal transport.Drawing on the principles of inverse optimal transport, S-MolSearch efficiently processes both labeled and unlabeled data, training molecular structural encoders while generating soft labels for the unlabeled data.This design allows S-MolSearch to adaptively utilize unlabeled data within the learning process.Empirically, S-MolSearch demonstrates superior performance on widely-used benchmarks LIT-PCBA and DUD-E. It surpasses both structure-based and ligand-based virtual screening methods for AUROC, BEDROC and EF.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/8861183dd25469d5706db9731aa86e49-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - End-To-End Causal Effect Estimation from Unstructured Natural Language Data
+AU  - Nikita Dhawan
+AU  - Leonardo Cotta
+AU  - Karen Ullrich
+AU  - Rahul G. Krishnan
+AU  - Chris J. Maddison
+PY  - 2024
+AB  - Knowing the effect of an intervention is critical for human decision-making, but current approaches for causal effect estimation rely on manual data collection and structuring, regardless of the causal assumptions. This increases both the cost and time-to-completion for studies. We show how large, diverse observational text data can be mined with large language models (LLMs) to produce inexpensive causal effect estimates under appropriate causal assumptions. We introduceNATURAL, a novel family of causal effect estimators built with LLMs that operate over datasets of unstructured text. Our estimators use LLM conditional distributions (over variables of interest, given the text data) to assist in the computation of classical estimators of causal effect. We overcome a number of technical challenges to realize this idea, such as automating data curation and using LLMs to impute missing information. We prepare six (two synthetic and four real) observational datasets, paired with corresponding ground truth in the form of randomized trials, which we used to systematically evaluate each step of our pipeline. NATURAL estimators demonstrate remarkable performance, yielding causal effect estimates that fall within 3 percentage points of their ground truth counterparts, including on real-world Phase 3/4 clinical trials. Our results suggest that unstructured text data is a rich source of causal effect information, and NATURAL is a first step towards an automated pipeline to tap this resource.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/8d2aad53fa148791ffd004a7c9cce5ad-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - ActSort: An active-learning accelerated cell sorting algorithm for large-scale calcium imaging datasets
+AU  - Yiqi Jiang
+AU  - Hakki O. Akengin
+AU  - Ji Zhou
+AU  - Mehmet A. Aslihak
+AU  - Yang Li
+AU  - Radosław Chrapkiewicz
+AU  - Oscar Hernandez
+AU  - Sadegh Ebrahimi
+AU  - Omar Jaidar
+AU  - Yanping Zhang
+AU  - Hakan Inan
+AU  - Christopher Miranda
+AU  - Fatih Dinct
+AU  - Marta Blanco-Pozo
+AU  - Mark J. Schnitzer
+PY  - 2024
+AB  - Recent advances in calcium imaging enable simultaneous recordings of up to a million neurons in behaving animals, producing datasets of unprecedented scales. Although individual neurons and their activity traces can be extracted from these videos with automated algorithms, the results often require human curation to remove false positives, a laborious process called \emph{cell sorting}. To address this challenge, we introduce ActSort, an active-learning algorithm for sorting large-scale datasets that integrates features engineered by domain experts together with data formats with minimal memory requirements. By strategically bringing outlier cell candidates near the decision boundary up for annotation, ActSort reduces human labor to about 1–3\% of cell candidates and improves curation accuracy by mitigating annotator bias. To facilitate the algorithm's widespread adoption among experimental neuroscientists, we created a user-friendly software and conducted a first-of-its-kind benchmarking study involving about 160,000 annotations.  Our tests validated ActSort's performance across different experimental conditions and datasets from multiple animals.  Overall, ActSort addresses a crucial bottleneck in processing large-scale calcium videos of neural activity and thereby facilitates systems neuroscience experiments at previously inaccessible scales. (\url{https://github.com/schnitzer-lab/ActSort-public})
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/90080022263cddafddd4a0726f1fb186-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Weak-eval-Strong: Evaluating and Eliciting Lateral Thinking of LLMs with Situation Puzzles
+AU  - Qi Chen
+AU  - Bowen Zhang
+AU  - Gang Wang
+AU  - Qi Wu
+PY  - 2024
+AB  - While advancements in NLP have significantly improved the performance of Large Language Models (LLMs) on tasks requiring vertical thinking, their lateral thinking capabilities remain under-explored and challenging to measure due to the complexity of assessing creative thought processes and the scarcity of relevant data. To address these challenges, we introduce SPLAT, a benchmark leveraging Situation Puzzles to evaluate and elicit LAteral Thinking of LLMs. This benchmark, containing 975 graded situation puzzles across three difficulty levels, employs a new multi-turn player-judge framework instead of the traditional model-based evaluation, which often necessitates a stronger evaluation model. This framework simulates an interactive game where the model (player) asks the evaluation model (judge) questions about an incomplete story to infer the full scenario. The judge answers based on a detailed reference scenario or evaluates if the player's predictions align with the reference one. This approach lessens dependence on more robust evaluation models, enabling the assessment of state-of-the-art LLMs. The experiments demonstrate that a robust evaluation model, such as WizardLM-2, closely matches human judgements in both intermediate question-answering and final scenario accuracy, achieving over 80% agreement--similar to the agreement levels among humans. Furthermore, applying data and reasoning processes from our benchmark to other lateral thinking-related benchmarks, e.g., RiddleSense and BrainTeaser, leads to performance enhancements. This suggests that our benchmark effectively evaluates and elicits the lateral thinking abilities of LLMs.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/914b372356d58d9e9357b29332cb8fdc-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Long-form factuality in large language models
+AU  - Jerry Wei
+AU  - Chengrun Yang
+AU  - Xinying Song
+AU  - Yifeng Lu
+AU  - Nathan Hu
+AU  - Jie Huang
+AU  - Dustin Tran
+AU  - Daiyi Peng
+AU  - Ruibo Liu
+AU  - Da Huang
+AU  - Cosmo Du
+AU  - Quoc V. Le
+PY  - 2024
+AB  - Large language models (LLMs) often generate content that contains factual errors when responding to fact-seeking prompts on open-ended topics. To benchmark a model’s long-form factuality in open domains, we first use GPT-4 to generate LongFact, a prompt set comprising thousands of questions spanning 38 topics. We then propose that LLM agents can be used as automated evaluators for long-form factuality through a method which we call Search-Augmented Factuality Evaluator (SAFE). SAFE utilizes an LLM to break down a long-form response into a set of individual facts and to evaluate the accuracy of each fact using a multi-step reasoning process comprising sending search queries to Google Search and determining whether a fact is supported by the search results. Furthermore, we propose extending F1 score as an aggregated metric for long-form factuality. To do so, we balance the percentage of supported facts in a response (precision) with the percentage of provided facts relative to a hyperparameter representing a user’s preferred response length (recall).Empirically, we demonstrate that LLM agents can outperform crowdsourced human annotators—on a set of∼16k individual facts, SAFE agrees with crowdsourced human annotators 72% of the time, and on a random subset of 100 disagreement cases, SAFE wins 76% of the time. At the same time, SAFE is more than 20 times cheaper than human annotators.  We also benchmark thirteen language models on LongFact across four model families (Gemini, GPT, Claude, and PaLM-2), finding that larger language models generally achieve better long-form factuality. LongFact, SAFE, and all experimental code are available at https://github.com/google-deepmind/long-form-factuality.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/937ae0e83eb08d2cb8627fe1def8c751-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Rethinking Human Evaluation Protocol for Text-to-Video Models: Enhancing Reliability, Reproducibility, and Practicality
+AU  - Tianle Zhang
+AU  - Langtian Ma
+AU  - Yuchen Yan
+AU  - Yuchen Zhang
+AU  - Kai Wang
+AU  - Yue Yang
+AU  - Ziyao Guo
+AU  - Wenqi Shao
+AU  - Yang You
+AU  - Yu Qiao
+AU  - Ping Luo
+AU  - Kaipeng Zhang
+PY  - 2024
+AB  - Recent text-to-video (T2V) technology advancements, as demonstrated by models such as Gen2, Pika, and Sora, have significantly broadened its applicability and popularity. Despite these strides, evaluating these models poses substantial challenges. Primarily, due to the limitations inherent in automatic metrics, manual evaluation is often considered a superior method for assessing T2V generation. However, existing manual evaluation protocols face reproducibility, reliability, and practicality issues.To address these challenges, this paper introduces the Text-to-Video Human Evaluation (T2VHE) protocol, a comprehensive and standardized protocol for T2V models. The T2VHE protocol includes well-defined metrics, thorough annotator training, and an effective dynamic evaluation module. Experimental results demonstrate that this protocol not only ensures high-quality annotations but can also reduce evaluation costs by nearly 50\%.We will open-source the entire setup of the T2VHE protocol, including the complete protocol workflow, the dynamic evaluation component details, and the annotation interface code. This will help communities establish more sophisticated human assessment protocols.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/94a1fa3346407b2318ae7f8891d9f550-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning from Noisy Labels via Conditional Distributionally Robust Optimization
+AU  - Hui Guo
+AU  - Grace Y. Yi
+AU  - Boyu Wang
+PY  - 2024
+AB  - While crowdsourcing has emerged as a practical solution for labeling large datasets, it presents a significant challenge in learning accurate models due to noisy labels from annotators with varying levels of expertise. Existing methods typically estimate the true label posterior, conditioned on the instance and noisy annotations, to infer true labels or adjust loss functions. These estimates, however, often overlook potential misspecification in the true label posterior, which can degrade model performances, especially in high-noise scenarios. To address this issue, we investigate learning from noisy annotations with an estimated true label posterior through the framework of conditional distributionally robust optimization (CDRO). We propose formulating the problem as minimizing the worst-case risk within a distance-based ambiguity set centered around a reference distribution. By examining the strong duality of the formulation, we derive upper bounds for the worst-case risk and develop an analytical solution for the dual robust risk for each data point. This leads to a novel robust pseudo-labeling algorithm that leverages the likelihood ratio test to construct a pseudo-empirical distribution, providing a robust reference probability distribution in CDRO. Moreover, to devise an efficient algorithm for CDRO, we derive a closed-form expression for the empirical robust risk and the optimal Lagrange multiplier of the dual problem, facilitating a principled balance between robustness and model fitting. Our experimental results on both synthetic and real-world datasets demonstrate the superiority of our method.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/96af549bb29d01b1713e88e5c3899ceb-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - IWBVT: Instance Weighting-based Bias-Variance Trade-off for Crowdsourcing
+AU  - Wenjun Zhang
+AU  - Liangxiao Jiang
+AU  - Chaoqun Li
+PY  - 2024
+AB  - In recent years, a large number of algorithms for label integration and noise correction have been proposed to infer the unknown true labels of instances in crowdsourcing. They have made great advances in improving the label quality of crowdsourced datasets. However, due to the presence of intractable instances, these algorithms are usually not as significant in improving the model quality as they are in improving the label quality. To improve the model quality, this paper proposes an instance weighting-based bias-variance trade-off (IWBVT) approach. IWBVT at first proposes a novel instance weighting method based on the complementary set and entropy, which mitigates the impact of intractable instances and thus makes the bias and variance of trained models closer to the unknown true results. Then, IWBVT performs probabilistic loss regressions based on the bias-variance decomposition, which achieves the bias-variance trade-off and thus reduces the generalization error of trained models. Experimental results indicate that IWBVT can serve as a universal post-processing approach to significantly improving the model quality of existing state-of-the-art label integration algorithms and noise correction algorithms.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/9baf31febefde7bd76023c2d2f13cbd7-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Improving Adversarial Robust Fairness via Anti-Bias Soft Label  Distillation
+AU  - Shiji Zhao
+AU  - Ranjie Duan
+AU  - Xizhe Wang
+AU  - Xingxing Wei
+PY  - 2024
+AB  - Adversarial Training (AT) has been widely proved to be an effective method to improve the adversarial robustness against adversarial examples for Deep Neural Networks (DNNs). As a variant of AT, Adversarial Robustness Distillation (ARD) has demonstrated its superior performance in improving the robustness of small student models with the guidance of large teacher models. However, both AT and ARD encounter the robust fairness problem: these models exhibit strong robustness when facing part of classes (easy class), but weak robustness when facing others (hard class). In this paper, we give an in-depth analysis of the potential factors and argue that the smoothness degree of samples' soft labels for different classes (i.e., hard class or easy class) will affect the robust fairness of DNNs from both empirical observation and theoretical analysis. Based on the above finding, we propose an Anti-Bias Soft Label Distillation (ABSLD) method to mitigate the adversarial robust fairness problem within the framework of Knowledge Distillation (KD). Specifically, ABSLD adaptively reduces the student's error risk gap between different classes to achieve fairness by adjusting the class-wise smoothness degree of samples' soft labels during the training process, and the smoothness degree of soft labels is controlled by assigning different temperatures in KD to different classes. Extensive experiments demonstrate that ABSLD outperforms state-of-the-art AT, ARD, and robust fairness methods in the comprehensive metric (Normalized Standard Deviation) of robustness and fairness.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/a2370db7c99791ad5d9f3ef48ad6d464-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - MAmmoTH2: Scaling Instructions from the Web
+AU  - Xiang Yue
+AU  - Tuney Zheng
+AU  - Ge Zhang
+AU  - Wenhu Chen
+PY  - 2024
+AB  - Instruction tuning improves the reasoning abilities of large language models (LLMs), with data quality and scalability being the crucial factors. Most instruction tuning data come from human crowd-sourcing or GPT-4 distillation. We propose a paradigm to efficiently harvest 10 million naturally existing instruction data from the pre-training web corpus to enhance LLM reasoning. Our approach involves (1) recalling relevant documents, (2) extracting instruction-response pairs, and (3) refining the extracted pairs using open-source LLMs. Fine-tuning base LLMs on this dataset, we build MAmmoTH2 models, which significantly boost performance on reasoning benchmarks. Notably, MAmmoTH2-7B’s (Mistral) performance increases from 11% to 36.7% on MATH and from 36% to 68.4% on GSM8K without training on any in-domain data. Further training MAmmoTH2 on public instruction tuning datasets yields MAmmoTH2-Plus, achieving state-of-the-art performance on several reasoning and chatbot benchmarks. Our work demonstrates how to harvest large-scale, high-quality instruction data without costly human annotation or GPT-4 distillation, providing a new paradigm for building better instruction tuning data.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/a4ca07aa108036f80cbb5b82285fd4b1-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Multilingual Diversity Improves Vision-Language Representations
+AU  - Thao Nguyen
+AU  - Matthew Wallingford
+AU  - Sebastin Santy
+AU  - Wei-Chiu Ma
+AU  - Sewoong Oh
+AU  - Ludwig Schmidt
+AU  - Pang Wei Koh
+AU  - Ranjay Krishna
+PY  - 2024
+AB  - Massive web-crawled image-text datasets lay the foundation for recent progress in multimodal learning. These datasets are designed with the goal of training a model to do well on standard computer vision benchmarks, many of which, however, have been shown to be English-centric (e.g., ImageNet). Consequently, existing data curation techniques gravitate towards using predominantly English image-text pairs and discard many potentially useful non-English samples. Our work questions this practice. Multilingual data is inherently enriching not only because it provides a gateway to learn about culturally salient concepts, but also because it depicts common concepts differently from monolingual data. We thus conduct a systematic study to explore the performance benefits of using more samples of non-English origins with respect to English vision tasks. By translating all multilingual image-text pairs from a raw web crawl to English and re-filtering them, we increase the prevalence of (translated) multilingual data in the resulting training set. Pre-training on this dataset outperforms using English-only or English-dominated datasets on ImageNet, ImageNet distribution shifts, image-English-text retrieval and on average across 38 tasks from the DataComp benchmark. On a geographically diverse task like GeoDE, we also observe improvements across all regions, with the biggest gain coming from Africa. In addition, we quantitatively show that English and non-English data are significantly different in both image and (translated) text space. We hope that our findings motivate future work to be more intentional about including multicultural and multilingual data, not just when non-English or geographically diverse tasks are involved, but to enhance model capabilities at large.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/a6678e2be4ce7aef9d2192e03cd586b7-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Collaborative Refining for Learning from Inaccurate Labels
+AU  - Bin Han
+AU  - Yi-Xuan Sun
+AU  - Ya-Lin Zhang
+AU  - Libang Zhang
+AU  - Haoran Hu
+AU  - Longfei Li
+AU  - Jun Zhou
+AU  - Guo Ye
+AU  - Huimei He
+PY  - 2024
+AB  - This paper considers the problem of learning from multiple sets of inaccurate labels, which can be easily obtained from low-cost annotators, such as rule-based annotators. Previous works typically concentrate on aggregating information from all the annotators, overlooking the significance of data refinement. This paper presents a collaborative refining approach for learning from inaccurate labels. To refine the data, we introduce the annotator agreement as an instrument, which refers to whether multiple annotators agree or disagree on the labels for a given sample. For samples where some annotators disagree, a comparative strategy is proposed to filter noise. Through theoretical analysis, the connections among multiple sets of labels, the respective models trained on them, and the true labels are uncovered to identify relatively reliable labels. For samples where all annotators agree, an aggregating strategy is designed to mitigate potential noise. Guided by theoretical bounds on loss values, a sample selection criterion is introduced and modified to be more robust against potentially problematic values. Through these two methods, all the samples are refined during training, and these refined samples are used to train a lightweight model simultaneously. Extensive experiments are conducted on benchmark and real-world datasets to demonstrate the superiority of our methods.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/a8809ae67a7aad49a64d615468d72808-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Stable Minima Cannot Overfit in Univariate ReLU Networks: Generalization by Large Step Sizes
+AU  - Dan Qiao
+AU  - Kaiqi Zhang
+AU  - Esha Singh
+AU  - Daniel Soudry
+AU  - Yu-Xiang Wang
+PY  - 2024
+AB  - We study the generalization of two-layer ReLU neural networks in a univariate nonparametric regression problem with noisy labels. This is a problem where kernels (\emph{e.g.} NTK) are provably sub-optimal and benign overfitting does not happen, thus disqualifying existing theory for interpolating (0-loss, global optimal) solutions. We present a new theory of generalization for local minima that gradient descent with a constant learning rate can \emph{stably} converge to.  We show that gradient descent with a fixed learning rate $\eta$ can only find local minima that represent smooth functions with a certain weighted \emph{first order total variation} bounded by $1/\eta - 1/2 + \widetilde{O}(\sigma + \sqrt{\mathrm{MSE}})$ where $\sigma$ is the label noise level, $\mathrm{MSE}$ is short for mean squared error against the ground truth, and $\widetilde{O}(\cdot)$ hides a logarithmic factor. Under mild assumptions, we also prove a nearly-optimal MSE bound of $\widetilde{O}(n^{-4/5})$  within the strict interior of the support of the $n$ data points. Our theoretical results are validated by extensive simulation that demonstrates large learning rate training induces sparse linear spline fits. To the best of our knowledge, we are the first to obtain generalization bound via minima stability in the non-interpolation case and the first to show ReLU NNs without regularization can achieve near-optimal rates in nonparametric regression.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/ab54dd3cd5e273dbb1e75a5e6203fb42-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Noisy Label Learning with Instance-Dependent Outliers: Identifiability via Crowd Wisdom
+AU  - Tri Nguyen
+AU  - Shahana Ibrahim
+AU  - Xiao Fu
+PY  - 2024
+AB  - The generation of label noise is often modeled as a process involving a probability transition matrix (also interpreted as theannotator confusion matrix) imposed onto the label distribution. Under this model, learning the ``ground-truth classifier''---i.e., the classifier that can be learned if no noise was present---and the confusion matrix boils down to a model identification problem. Prior works along this line demonstrated appealing empirical performance, yet identifiability of the model was mostly established by assuming an instance-invariant confusion matrix. Having an (occasionally) instance-dependent confusion matrix across data samples is apparently more realistic, but inevitably introduces outliers to the model. Our interest lies in confusion matrix-based noisy label learning with such outliers taken into consideration. We begin with pointing out that under the model of interest, using labels produced by only one annotator is fundamentally insufficient to detect the outliers or identify the ground-truth classifier. Then, we prove that by employing a crowdsourcing strategy involving multiple annotators, a carefully designed loss function can establish the desired model identifiability under reasonable conditions. Our development builds upon a link between the noisy label model and a column-corrupted matrix factorization mode---based on which we show that crowdsourced annotations distinguish nominal data and instance-dependent outliers using a low-dimensional subspace. Experiments show that our learning scheme substantially improves outlier detection and the classifier's testing accuracy.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/b05e6a11df6eacb600074a42bb28ae52-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - A Taxonomy of Challenges to Curating Fair Datasets
+AU  - Dora Zhao
+AU  - Morgan Klaus Scheuerman
+AU  - Pooja Chitre
+AU  - Jerone T. A. Andrews
+AU  - Georgia Panagiotidou
+AU  - Shawn Walker
+AU  - Kathleen H. Pine
+AU  - Alice Xiang
+PY  - 2024
+AB  - Despite extensive efforts to create fairer machine learning (ML) datasets, there remains a limited understanding of the practical aspects of dataset curation. Drawing from interviews with 30 ML dataset curators, we present a comprehensive taxonomy of the challenges and trade-offs encountered throughout the dataset curation lifecycle. Our findings underscore overarching issues within the broader fairness landscape that impact data curation. We conclude with recommendations aimed at fostering systemic changes to better facilitate fair dataset curation practices.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/b142e78db191e19b17e60c1425a28b52-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - MixEval: Deriving Wisdom of the Crowd from LLM Benchmark Mixtures
+AU  - Jinjie Ni
+AU  - Fuzhao Xue
+AU  - Xiang Yue
+AU  - Yuntian Deng
+AU  - Mahir Shah
+AU  - Kabir Jain
+AU  - Graham Neubig
+AU  - Yang You
+PY  - 2024
+AB  - Evaluating large language models (LLMs) is challenging. Traditional ground-truth- based benchmarks fail to capture the comprehensiveness and nuance of real-world queries, while LLM-as-judge benchmarks suffer from grading biases and limited query quantity. Both of them may also become contaminated over time. User- facing evaluation, such as Chatbot Arena, provides reliable signals but is costly and slow. In this work, we propose MixEval, a new paradigm for establishing efficient, gold-standard LLM evaluation by strategically mixing off-the-shelf bench- marks. It bridges (1) comprehensive and well-distributed real-world user queries and (2) efficient and fairly-graded ground-truth-based benchmarks, by matching queries mined from the web with similar queries from existing benchmarks. Based on MixEval, we further build MixEval-Hard, which offers more room for model improvement. Our benchmarks’ advantages lie in (1) a 0.96 model ranking correlation with Chatbot Arena arising from the highly impartial query distribution and grading mechanism, (2) fast, cheap, and reproducible execution (6% of the time and cost of MMLU), and (3) dynamic evaluation enabled by the rapid and stable data update pipeline. We provide extensive meta-evaluation and analysis for our and existing LLM benchmarks to deepen the community’s understanding of LLM evaluation and guide future research directions.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/b1f34d7b4a03a3d80be8e72eb430dd81-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models
+AU  - Lemei Zhang
+AU  - Peng Liu
+AU  - Marcus Tiedemann Oekland Henriksboe
+AU  - Even W. Lauvrak
+AU  - Jon Atle Gulla
+AU  - Heri Ramampiaro
+PY  - 2024
+AB  - With the rapid advancement of Natural Language Processing in recent years, numerous studies have shown that generic summaries generated by Large Language Models (LLMs) can sometimes surpass those annotated by experts, such as journalists, according to human evaluations. However, there is limited research on whether these generic summaries meet the individual needs of ordinary people. The biggest obstacle is the lack of human-annotated datasets from the general public. Existing work on personalized summarization often relies on pseudo datasets created from generic summarization datasets or controllable tasks that focus on specific named entities or other aspects, such as the length and specificity of generated summaries, collected from hypothetical tasks without the annotators' initiative. To bridge this gap, we propose a high-quality, personalized, manually annotated summarization dataset called PersonalSum. This dataset is the first to investigate whether the focus of public readers differs from the generic summaries generated by LLMs. It includes user profiles, personalized summaries accompanied by source sentences from given articles, and machine-generated generic summaries along with their sources. We investigate several personal signals — entities/topics, plot, and structure of articles—that may affect the generation of personalized summaries using LLMs in a few-shot in-context learning scenario. Our preliminary results and analysis indicate that entities/topics are merely one of the key factors that impact the diverse preferences of users, and personalized summarization remains a significant challenge for existing LLMs.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/b3c318cd7ee132d8a6b1895a2d6436c7-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Preference Learning Algorithms Do Not Learn Preference Rankings
+AU  - Angelica Chen
+AU  - Sadhika Malladi
+AU  - Lily H. Zhang
+AU  - Xinyi Chen
+AU  - Qiuyi Zhang
+AU  - Rajesh Ranganath
+AU  - Kyunghyun Cho
+PY  - 2024
+AB  - Preference learning algorithms (e.g., RLHF and DPO) are frequently used to steer LLMs to produce generations that are more preferred by humans, but our understanding of their inner workings is still limited. In this work, we study the conventional wisdom that preference learning trains models to assign higher likelihoods to more preferred outputs than less preferred outputs, measured viaranking accuracy.Surprisingly, we find that most state-of-the-art preference-tuned models achieve a ranking accuracy of less than 60% on common preference datasets. We furthermore derive theidealized ranking accuracythat a preference-tuned LLM would achieve if it optimized the DPO or RLHF objective perfectly. We demonstrate that existing models exhibit a significantalignment gap--i.e., a gap between the observed and idealized ranking accuracies. We attribute this discrepancy to the DPO objective, which is empirically and theoretically ill-suited to correct even mild ranking errors in the reference model, and derive a simple and efficient formula for quantifying the difficulty of learning a given preference datapoint.Finally, we demonstrate that ranking accuracy strongly correlates with the empirically popular win rate metric when the model is close to the reference model used in the objective, shedding further light on the differences between on-policy (e.g., RLHF) and off-policy (e.g., DPO) preference learning algorithms.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/b8ce770a6b25e603fbff4a37f9e31edc-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - No Free Delivery Service: Epistemic limits of passive data collection in complex social systems
+AU  - Maximilian Nickel
+PY  - 2024
+AB  - Rapid model validation via the train-test paradigm has been a key driver for the breathtaking progress in machine learning and AI. However, modern AI systems often depend on a combination of tasks and data collection practices that violate all assumptions ensuring test validity. Yet, without rigorous model validation we cannot ensure the intended outcomes of deployed AI systems, including positive social impact, nor continue to advance AI research in a scientiﬁcally sound way. In this paper, I will show that for widely considered inference settings in complex social systems the train-test paradigm does not only lack a justiﬁcation but is indeed invalid for any risk estimator, including counterfactual and causal estimators, with high probability. These formal impossibility results highlight a fundamental epistemic issue, i.e., that for key tasks in modern AI we cannot know whether models are valid under current data collection practices. Importantly, this includes variants of both recommender systems and reasoning via large language models, and neither naïve scaling nor limited benchmarks are suited to address this issue. I am illustrating these results via the widely used MovieLens benchmark and conclude by discussing the implications of these results for AI in social systems, including possible remedies such as participatory data curation and open science.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/b97fc02c9e536d68300d82be05c23aa2-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Self-Consuming Generative Models with Curated Data Provably Optimize Human Preferences
+AU  - Damien Ferbach
+AU  - Quentin Bertrand
+AU  - Avishek Joey Bose
+AU  - Gauthier Gidel
+PY  - 2024
+AB  - The rapid progress in generative models has resulted in impressive leaps in generation quality, blurring the lines between synthetic and real data. Web-scale datasets are now prone to the inevitable contamination by synthetic data, directly impacting the training of future generated models.    Already, some theoretical results on self-consuming generative models (a.k.a., iterative retraining) have emerged in the literature, showcasing that either model collapse or stability could be possible depending on the fraction of generated data used at each retraining step.    However, in practice, synthetic data is often subject to human feedback and curated by users before being used and uploaded online. For instance, many interfaces of popular text-to-image generative models, such as Stable Diffusion or Midjourney, produce several variations of an image for a given query which can eventually be curated by the users.    In this paper, we theoretically study the impact of data curation on iterated retraining of generative models and show that it can be seen as an implicit preference optimization mechanism. However, unlike standard preference optimization, the generative model does not have access to the reward function or negative samples needed for pairwise comparisons. Moreover, our study doesn't require access to the density function, only to samples. We prove that, if the data is curated according to a reward model, then the expected reward of the iterative retraining procedure is maximized. We further provide theoretical results on the stability of the retraining loop when using a positive fraction of real data at each step. Finally, we conduct illustrative experiments on both synthetic datasets and on CIFAR10 showing that such a procedure amplifies biases of the reward model.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/b9e88ae0308cf82d0b0f634ddbdf809a-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Large Language Model Unlearning
+AU  - Yuanshun Yao
+AU  - Xiaojun Xu
+AU  - YangLiu
+PY  - 2024
+AB  - We study how to perform unlearning, i.e. forgetting undesirable (mis)behaviors, on large language models (LLMs). We show at least three scenarios of aligning LLMs with human preferences can benefit from unlearning: (1) removing harmful responses, (2) erasing copyright-protected content as requested, and (3) reducing hallucinations. Unlearning, as an alignment technique, has three advantages. (1) It only requires negative (e.g. harmful) examples, which are much easier and cheaper to collect (e.g. via red teaming or user reporting) than positive (e.g. helpful and often human-written) examples required in the standard alignment process. (2) It is computationally efficient. (3) It is especially effective when we know which training samples cause the misbehavior. To the best of our knowledge, our work is among the first to explore LLM unlearning. We are also among the first to formulate the settings, goals, and evaluations in LLM unlearning. Despite only having negative samples, our ablation study shows that unlearning can still achieve better alignment performance than RLHF with just 2% of its computational time.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/be52acf6bccf4a8c0a90fe2f5cfcead3-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - CoSW: Conditional Sample Weighting for Smoke Segmentation with Label Noise
+AU  - Lujian Yao
+AU  - Haitao Zhao
+AU  - Zhongze Wang
+AU  - Kaijie Zhao
+AU  - Jingchao Peng
+PY  - 2024
+AB  - Smoke segmentation is of great importance in precisely identifying the smoke location, enabling timely fire rescue and gas leak detection. However, due to the visual diversity and blurry edges of the non-grid smoke, noisy labels are almost inevitable in large-scale pixel-level smoke datasets. Noisy labels significantly impact the robustness of the model and may lead to serious accidents. Nevertheless, currently, there are no specific methods for addressing noisy labels in smoke segmentation. Smoke differs from regular objects as its transparency varies, causing inconsistent features in the noisy labels. In this paper, we propose a conditional sample weighting (CoSW). CoSW utilizes a multi-prototype framework, where prototypes serve as prior information to apply different weighting criteria to the different feature clusters. A novel regularized within-prototype entropy (RWE) is introduced to achieve CoSW and stable prototype update. The experiments show that our approach achieves SOTA performance on both real-world and synthetic noisy smoke segmentation datasets.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/c1366167e310460f2386c36152a897d6-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - VisMin: Visual Minimal-Change Understanding
+AU  - Rabiul Awal
+AU  - Saba Ahmadi
+AU  - Le Zhang
+AU  - Aishwarya Agrawal
+PY  - 2024
+AB  - Fine-grained understanding of objects, attributes, and relationships between objects is crucial for visual-language models (VLMs). To evaluate VLMs' fine-grained understanding, existing benchmarks primarily focus on evaluating VLMs' capability to distinguish between two very similar captions given an image. In this paper, our focus is on evaluating VLMs' capability to distinguish between two very similar images given a caption. To this end, we introduce a new, challenging benchmark termed Visual Minimal-Change Understanding (VisMin), which requires models to predict the correct image-caption match given two images and two captions. Importantly, the image pair (as well as the caption pair) contains minimal changes, i.e., between the two images (as well as between the two captions), only one aspect changes at a time from among the following possible types of changes: object, attribute, count, and spatial relation. These four types of minimal changes are specifically designed to test the models' understanding of objects, attributes of objects (such as color, material, shape), counts of objects, and spatial relationships between objects. To curate our benchmark, we built an automatic pipeline using large language models and diffusion models, followed by a rigorous 4-step verification process by human annotators. Empirical experiments reveal that current VLMs exhibit notable deficiencies in understanding spatial relationships and counting abilities. Furthermore, leveraging the automated nature of our data creation process, we generate a large-scale training dataset, which we use to finetune CLIP (a foundational VLM) and Idefics2 (a multimodal large language model). Our findings show that both these models benefit significantly from fine-tuning on this data, as evident by marked improvements in fine-grained understanding across a wide range of benchmarks. Additionally, such fine-tuning improves CLIP's general image-text alignment capabilities too. All resources including the benchmark, the training data, and the finetuned model checkpoints will be released.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/c3070c3388552a08a3326f0d28dc2af9-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Con4m: Context-aware Consistency Learning Framework for Segmented Time Series Classification
+AU  - Junru Chen
+AU  - Tianyu Cao
+AU  - Jing Xu
+AU  - Jiahe Li
+AU  - Zhilong Chen
+AU  - Tao Xiao
+AU  - Yang Yang
+PY  - 2024
+AB  - Time Series Classification (TSC) encompasses two settings: classifying entire sequences or classifying segmented subsequences. The raw time series for segmented TSC usually contain Multiple classes with Varying Duration of each class (MVD). Therefore, the characteristics of MVD pose unique challenges for segmented TSC, yet have been largely overlooked by existing works. Specifically, there exists a natural temporal dependency between consecutive instances (segments) to be classified within MVD. However, mainstream TSC models rely on the assumption of independent and identically distributed (i.i.d.), focusing on independently modeling each segment. Additionally, annotators with varying expertise may provide inconsistent boundary labels, leading to unstable performance of noise-free TSC models. To address these challenges, we first formally demonstrate that valuable contextual information enhances the discriminative power of classification instances. Leveraging the contextual priors of MVD at both the data and label levels, we propose a novel consistency learning framework Con4m, which effectively utilizes contextual information more conducive to discriminating consecutive segments in segmented TSC tasks, while harmonizing inconsistent boundary labels for training. Extensive experiments across multiple datasets validate the effectiveness of Con4m in handling segmented TSC tasks on MVD. The source code is available at https://github.com/MrNobodyCali/Con4m.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/c6b96bf6380bd81bbfbce5db0e054a41-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Stratified Prediction-Powered Inference for Effective Hybrid Evaluation of Language Models
+AU  - Adam Fisch
+AU  - Joshua Maynez
+AU  - R. Alex Hofer
+AU  - Bhuwan Dhingra
+AU  - Amir Globerson
+AU  - William W. Cohen
+PY  - 2024
+AB  - Prediction-powered inference (PPI) is a method that improves statistical estimates based on limited human-labeled data.  PPI achieves this by combining small amounts of human-labeled data with larger amounts of data labeled by a reasonably accurate---but potentially biased---automatic system, in a way that results in tighter confidence intervals for certain parameters of interest (e.g., the mean performance of a language model). In this paper, we propose a method called Stratified Prediction-Powered Inference (StratPPI), in which we show that the basic PPI estimates can be considerably improved by employing simple data stratification strategies. Without making any assumptions on the underlying automatic labeling system or data distribution, we derive an algorithm for computing provably valid confidence intervals for parameters of any dimensionality that is based on stratified sampling. In particular, we show both theoretically and empirically that, with appropriate choices of stratification and sample allocation, our approach can provide substantially tighter confidence intervals than  unstratified  approaches. Specifically, StratPPI  is expected to improve in cases where the performance of the autorater varies across different conditional distributions of the target data.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Coded Computing for Resilient Distributed Computing: A Learning-Theoretic Framework
+AU  - Parsa Moradi
+AU  - Behrooz Tahmasebi
+AU  - Mohammad Ali Maddah-Ali
+PY  - 2024
+AB  - Coded computing has emerged as a promising framework for tackling significant challenges in large-scale distributed computing, including the presence of slow, faulty, or compromised servers. In this approach, each worker node processes a combination of the data, rather than the raw data itself. The final result then is decoded from the collective outputs of the worker nodes.  However, there is a significant gap between current coded computing approaches and the broader landscape of general distributed computing, particularly when it comes to machine learning workloads. To bridge this gap, we propose a novel foundation for coded computing, integrating the principles of learning theory, and developing a framework that seamlessly adapts with machine learning applications. In this framework, the objective is to find the encoder and decoder functions that minimize the loss function, defined as the mean squared error between the estimated and true values. Facilitating the search for the optimum decoding and functions, we show that the loss function can be upper-bounded by the summation of two terms: the generalization error of the decoding function and the training error of the encoding function. Focusing on the second-order Sobolev space, we then derive the optimal encoder and decoder. We show that in the proposed solution, the mean squared error of the estimation decays with the rate of $\mathcal{O}(S^3 N^{-3})$ and $\mathcal{O}(S^{\frac{8}{5}}N^{\frac{-3}{5}})$ in noiseless and noisy computation settings, respectively, where $N$ is the number of worker nodes with at most $S$ slow servers (stragglers). Finally, we evaluate the proposed scheme on inference tasks for various machine learning models and demonstrate that the proposed framework outperforms the state-of-the-art in terms of accuracy and rate of convergence.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/cae00f05c4074758a6542823ae7bea99-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Copycats: the many lives of a publicly available medical imaging dataset
+AU  - Amelia Jiménez-Sánchez
+AU  - Natalia-Rozalia Avlona
+AU  - Dovile Juodelyte
+AU  - Théo Sourget
+AU  - Caroline Vang-Larsen
+AU  - Anna Rogers
+AU  - Hubert Dariusz Zając
+AU  - Veronika Cheplygina
+PY  - 2024
+AB  - Medical Imaging (MI) datasets are fundamental to artificial intelligence in healthcare. The accuracy, robustness, and fairness of diagnostic algorithms depend on the data (and its quality) used to train and evaluate the models. MI datasets used to be proprietary, but have become increasingly available to the public, including on community-contributed platforms (CCPs) like Kaggle or HuggingFace. While open data is important to enhance the redistribution of data's public value, we find that the current CCP governance model fails to uphold the quality needed and recommended practices for sharing, documenting, and evaluating datasets. In this paper, we conduct an analysis of publicly available machine learning datasets on CCPs, discussing datasets' context, and identifying limitations and gaps in the current CCP landscape. We highlight differences between MI and computer vision datasets, particularly in the potentially harmful downstream effects from poor adoption of recommended dataset management practices. We compare the analyzed datasets across several dimensions, including data sharing, data documentation, and maintenance. We find vague licenses, lack of persistent identifiers and storage, duplicates, and missing metadata, with differences between the platforms. Our research contributes to efforts in responsible data curation and AI algorithms for healthcare.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/cdbeaeb8a0313940a5752c4ec8838ca6-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Information-theoretic Limits of Online Classification with Noisy Labels
+AU  - Changlong Wu
+AU  - Ananth Grama
+AU  - Wojciech Szpankowski
+PY  - 2024
+AB  - We study online classification with general hypothesis classes where the true labels are determined by some function within the class, but are corrupted byunknownstochastic noise, and the features are generated adversarially. Predictions are made using observednoisylabels and noiseless features, while the performance is  measured via minimax risk when comparing againsttruelabels. The noisy mechanism is modeled via a general noisy kernel that specifies, for any individual data point, a set of distributions from which the actual noisy label distribution is chosen. We show that minimax risk istightlycharacterized (up to a logarithmic factor of the hypothesis class size) by theHellinger gapof the noisy label distributions induced by the kernel,independentof other properties such as the means and variances of the noise. Our main technique is based on a novel reduction to an online comparison scheme of two hypotheses, along with a newconditionalversion of Le Cam-Birgé testing suitable for online settings. Our work provides the first comprehensive characterization of noisy online classification with guarantees that apply to theground truthwhile addressinggeneralnoisy observations.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/cea5ebedc384c5f4b4ef6b6eb29c197f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets
+AU  - Ike Obi
+AU  - Rohan Pant
+AU  - Srishti Shekhar Agrawal
+AU  - Maham Ghazanfar
+AU  - Aaron Basiletti
+PY  - 2024
+AB  - LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized through these datasets. In this paper, we introduce Value Imprint, a framework for auditing and classifying the human values embedded within RLHF datasets. To investigate the viability of this framework, we conducted three case study experiments by auditing the Anthropic/hh-rlhf, OpenAI WebGPT Comparisons, and Alpaca GPT-4-LLM datasets to examine the human values embedded within them. Our analysis involved a two-phase process. During the first phase, we developed a taxonomy of human values through an integrated review of prior works from philosophy, axiology, and ethics. Then, we applied this taxonomy to annotate 6,501 RLHF preferences. During the second phase, we employed the labels generated from the annotation as ground truth data for training a transformer-based machine learning model to audit and classify the three RLHF datasets. Through this approach, we discovered that information-utility values, including Wisdom/Knowledge and Information Seeking, were the most dominant human values within all three RLHF datasets. In contrast, prosocial and democratic values, including Well-being, Justice, and Human/Animal Rights, were the least represented human values. These findings have significant implications for developing language models that align with societal values and norms. We contribute our datasets to support further research in this area. https://github.com/hv-rsrch/valueimprint
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/cf7ec6aa55ba2b2f7af0cf3fd25b7f8c-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - RedPajama: an Open Dataset for Training Large Language Models
+AU  - Maurice Weber
+AU  - Daniel Y. Fu
+AU  - Quentin Anthony
+AU  - Yonatan Oren
+AU  - Shane Adams
+AU  - Anton Alexandrov
+AU  - Xiaozhong Lyu
+AU  - Huu Nguyen
+AU  - Xiaozhe Yao
+AU  - Virginia Adams
+AU  - Ben Athiwaratkun
+AU  - Rahul Chalamala
+AU  - Kezhen Chen
+AU  - Max Ryabinin
+AU  - Tri Dao
+AU  - Percy Liang
+AU  - Christopher Ré
+AU  - Irina Rish
+AU  - Ce Zhang
+PY  - 2024
+AB  - Large language models are increasingly becoming a cornerstone technology in artificial intelligence, the sciences, and society as a whole, yet the optimal strategies for dataset composition and filtering remain largely elusive. Many of the top-performing models lack transparency in their dataset curation and model development processes, posing an obstacle to the development of fully open language models. In this paper, we identify three core data-related challenges that must be addressed to advance open-source language models. These include (1) transparency in model development, including the data curation process, (2) access to large quantities of high-quality data, and (3) availability of artifacts and metadata for dataset curation and analysis. To address these challenges, we release RedPajama-V1, an open reproduction of the LLaMA training dataset. In addition, we release RedPajama-V2, a massive web-only dataset consisting of raw, unfiltered text data together with quality signals and metadata.Together, the RedPajama datasets comprise over 100 trillion tokens spanning multiple domains and with their quality signals facilitate the filtering of data, aiming to inspire the development of numerous new datasets. To date, these datasets have already been used in the training of strong language models used in production, such as Snowflake Arctic, Salesforce's XGen and AI2's OLMo. To provide insight into the quality of RedPajama, we present a series of analyses and ablation studies with decoder-only language models with up to 1.6B parameters. Our findings demonstrate how quality signals for web data can be effectively leveraged to curate high-quality subsets of the dataset, underscoring the potential of RedPajama to advance the development of transparent and high-performing language models at scale.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - KFNN: K-Free Nearest Neighbor For Crowdsourcing
+AU  - Wenjun Zhang
+AU  - Liangxiao Jiang
+AU  - Chaoqun Li
+PY  - 2024
+AB  - To reduce annotation costs, it is common in crowdsourcing to collect only a few noisy labels from different crowd workers for each instance. However, the limited noisy labels restrict the performance of label integration algorithms in inferring the unknown true label for the instance. Recent works have shown that leveraging neighbor instances can help alleviate this problem. Yet, these works all assume that each instance has the same neighborhood size, which defies common sense. To address this gap, we propose a novel label integration algorithm called K-free nearest neighbor (KFNN). In KFNN, the neighborhood size of each instance is automatically determined based on its attributes and noisy labels. Specifically, KFNN initially estimates a Mahalanobis distance distribution from the attribute space to model the relationship between each instance and all classes. This distance distribution is then utilized to enhance the multiple noisy label distribution of each instance. Subsequently, a Kalman filter is designed to mitigate the impact of noise incurred by neighbor instances. Finally, KFNN determines the optimal neighborhood size by the max-margin learning. Extensive experimental results demonstrate that KFNN significantly outperforms all the other state-of-the-art algorithms and exhibits greater robustness in various crowdsourcing scenarios.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/d354fcb1ce9b10580b1e14a529e8bf6f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - NoiseGPT: Label Noise Detection and Rectification through Probability Curvature
+AU  - Haoyu Wang
+AU  - Zhuo Huang
+AU  - Zhiwei Lin
+AU  - Tongliang Liu
+PY  - 2024
+AB  - Machine learning craves high-quality data which is a major bottleneck during realistic deployment, as it takes abundant resources and massive human labor to collect and label data. Unfortunately, label noise where image data mismatches with incorrect label exists ubiquitously in all kinds of datasets, significantly degrading the learning performance of deep networks. Learning with Label Noise (LNL) has been a common strategy for mitigating the influence of noisy labels. However, existing LNL methods either require pertaining using the memorization effect to separate clean data from noisy ones or rely on dataset assumptions that cannot extend to various scenarios. Thanks to the development of Multimodal Large Language Models (MLLMs) which possess massive knowledge and hold In-Context Learning (ICL) ability, this paper proposes NoiseGPT to effectively leverage MLLMs as a knowledge expert for conducting label noise detection and rectification. Specifically, we observe a \textit{probability curvature} effect of MLLMs where clean and noisy examples reside on curvatures with different smoothness, further enabling the detection of label noise. By designing a token-wise Mix-of-Feature (MoF) technique to produce the curvature, we propose an In-Context Discrepancy (ICD) measure to determine the authenticity of an image-label pair. Subsequently, we repeat such a process to find the best matching pairs to complete our label rectification. Through extensive experiments, we carefully demonstrate the effectiveness of NoiseGPT on detecting and cleansing dataset noise, especially on ILSVRC12, the AUROC of NoiseGPT reached over 0.92. And by integrating with existing methods, the classification performance can be significantly improved on noisy datasets, typically by 22.8\% on 80\% symmetric CIFAR-10 with M-correction. Source code: \url{https://github.com/drunkerWang/NoiseGPT}
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/d95cb79a3421e6d9b6c9a9008c4d07c5-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning the Latent Causal Structure for Modeling Label Noise
+AU  - Yexiong Lin
+AU  - Yu Yao
+AU  - Tongliang Liu
+PY  - 2024
+AB  - In label-noise learning, the noise transition matrix reveals how an instance transitions from its clean label to its noisy label. Accurately estimating an instance's noise transition matrix is crucial for estimating its clean label. However, when only a noisy dataset is available, noise transition matrices can be estimated only for some "special" instances. To leverage these estimated transition matrices to help estimate the transition matrices of other instances, it is essential to explore relations between the matrices of these "special" instances and those of others. Existing studies typically build the relation by explicitly defining the similarity between the estimated noise transition matrices of "special" instances and those of other instances. However, these similarity-based assumptions are hard to validate and may not align with real-world data. If these assumptions fail, both noise transition matrices and clean labels cannot be accurately estimated. In this paper, we found that by learning the latent causal structure governing the generating process of noisy data, we can estimate noise transition matrices without the need for similarity-based assumptions. Unlike previous generative label-noise learning methods, we consider causal relations between latent causal variables and model them with a learnable graphical model. Utilizing only noisy data, our method can effectively learn the latent causal structure. Experimental results on various noisy datasets demonstrate that our method achieves state-of-the-art performance in estimating noise transition matrices, which leads to improved classification accuracy. The code is available at: https://github.com/tmllab/2024NeurIPSCSGN.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/da75d2bbf862b86f10241d0887613b41-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Humor in AI: Massive Scale Crowd-Sourced Preferences and Benchmarks for Cartoon Captioning
+AU  - Jifan Zhang
+AU  - Lalit Jain
+AU  - Yang Guo
+AU  - Jiayi Chen
+AU  - Kuan Lok Zhou
+AU  - Siddharth Suresh
+AU  - Andrew Wagenmaker
+AU  - Scott Sievert
+AU  - Timothy Rogers
+AU  - Kevin Jamieson
+AU  - Robert Mankoff
+AU  - Robert Nowak
+PY  - 2024
+AB  - We present a novel multimodal preference dataset for creative tasks, consisting of over 250 million human votes on more than 2.2 million captions, collected through crowdsourcing rating data for The New Yorker's weekly cartoon caption contest over the past eight years. This unique dataset supports the development and evaluation of multimodal large language models and preference-based fine-tuning algorithms for humorous caption generation. We propose novel benchmarks for judging the quality of model-generated captions, utilizing both GPT4 and human judgments to establish ranking-based evaluation strategies. Our experimental results highlight the limitations of current fine-tuning methods, such as RLHF and DPO, when applied to creative tasks. Furthermore, we demonstrate that even state-of-the-art models like GPT4 and Claude currently underperform top human contestants in generating humorous captions. As we conclude this extensive data collection effort, we release the entire preference dataset to the research community, fostering further advancements in AI humor generation and evaluation.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/e297fb6cd1690ee5b39c5bb4c58ad801-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - HuRef: HUman-REadable Fingerprint for Large Language Models
+AU  - Boyi Zeng
+AU  - Lizheng Wang
+AU  - Yuncong Hu
+AU  - Yi Xu
+AU  - Chenghu Zhou
+AU  - Xinbing Wang
+AU  - Yu Yu
+AU  - Zhouhan Lin
+PY  - 2024
+AB  - Protecting the copyright of large language models (LLMs) has become crucial due to their resource-intensive training and accompanying carefully designed licenses. However, identifying the original base model of an LLM is challenging due to potential parameter alterations. In thisstudy, we introduce HuRef, a human-readable fingerprint for LLMs that uniquely identifies the base model without interfering with training or exposing model parameters to the public.We first observe that the vector direction of LLM parameters remains stable after the model has converged during pretraining, with negligible perturbations through subsequent training steps, including continued pretraining, supervised fine-tuning, and RLHF, which makes it a sufficient conditionto identify the base model.The necessity is validated by continuing to train an LLM with an extra term to drive away the model parameters' direction and the model becomes damaged. However, this direction is vulnerable to simple attacks like dimension permutation or matrix rotation, which significantly change it without affecting performance. To address this, leveraging the Transformer structure, we systematically analyze potential attacks and define three invariant terms that identify an LLM's base model. Due to the potential risk of information leakage, we cannot publish invariant terms directly. Instead, we map them to a Gaussian vector using an encoder, then convert it into a natural image using StyleGAN2, and finally publish the image. In our black-box setting, all fingerprinting steps are internally conducted by the LLMs owners. To ensure the published fingerprints are honestly generated, we introduced Zero-Knowledge Proof (ZKP).Experimental results across various LLMs demonstrate the effectiveness of our method. The code is available at https://github.com/LUMIA-Group/HuRef.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/e46fc33e80e9fa2febcdb058fba4beca-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Sample Selection via Contrastive Fragmentation for Noisy Label Regression
+AU  - Chris Dongjoo Kim
+AU  - Sangwoo Moon
+AU  - Jihwan Moon
+AU  - Dongyeon Woo
+AU  - Gunhee Kim
+PY  - 2024
+AB  - As with many other problems, real-world regression is plagued by the presence of noisy labels, an inevitable issue that demands our attention. Fortunately, much real-world data often exhibits an intrinsic property of continuously ordered correlations between labels and features, where data points with similar labels are also represented with closely related features.In response, we propose a novel approach named ConFrag, where we collectively model the regression data by transforming them into disjoint yet contrasting fragmentation pairs. This enables the training of more distinctive representations, enhancing the ability to select clean samples.Our ConFrag framework leverages a mixture of neighboring fragments to discern noisy labels through neighborhood agreement among expert feature extractors.We extensively perform experiments on four newly curated benchmark datasets of diverse domains, including age prediction, price prediction, and music production year estimation.We also introduce a metric called Error Residual Ratio (ERR) to better account for varying degrees of label noise.Our approach consistently outperforms fourteen state-of-the-art baselines, being robust against symmetric and random Gaussian label noise.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/e68c3a624d19154b28951e8690834607-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - RClicks: Realistic Click Simulation for Benchmarking Interactive Segmentation
+AU  - Anton Antonov
+AU  - Andrey Moskalenko
+AU  - Denis Shepelev
+AU  - Alexander Krapukhin
+AU  - Konstantin Soshin
+AU  - Anton Konushin
+AU  - Vlad Shakhuro
+PY  - 2024
+AB  - The emergence of Segment Anything (SAM) sparked research interest in the field of interactive segmentation, especially in the context of image editing tasks and speeding up data annotation. Unlike common semantic segmentation, interactive segmentation methods allow users to directly influence their output through prompts (e.g. clicks). However, click patterns in real-world interactive segmentation scenarios remain largely unexplored. Most methods rely on the assumption that users would click in the center of the largest erroneous area. Nevertheless, recent studies show that this is not always the case. Thus, methods may have poor performance in real-world deployment despite high metrics in a baseline benchmark. To accurately simulate real-user clicks, we conducted a large crowdsourcing study of click patterns in an interactive segmentation scenario and collected 475K real-user clicks. Drawing on ideas from saliency tasks, we develop a clickability model that enables sampling clicks, which closely resemble actual user inputs. Using our model and dataset, we propose RClicks benchmark for a comprehensive comparison of existing interactive segmentation methods on realistic clicks. Specifically, we evaluate not only the average quality of methods, but also the robustness w.r.t. click patterns. According to our benchmark, in real-world usage interactive segmentation models may perform worse than it has been reported in the baseline benchmark, and most of the methods are not robust. We believe that RClicks is a significant step towards creating interactive segmentation methods that provide the best user experience in real-world cases.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/e6b5bcc872666d37c469e5c5ba723669-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - A Label is Worth A Thousand Images in Dataset Distillation
+AU  - Tian Qin
+AU  - Zhiwei Deng
+AU  - David Alvarez-Melis
+PY  - 2024
+AB  - Dataqualityis a crucial factor in the performance of machine learning models, a principle that dataset distillation methods exploit by compressing training datasets into much smaller counterparts that maintain similar downstream performance. Understanding how and why data distillation methods work is vital not only for improving these methods but also for revealing fundamental characteristics of "good” training data. However, a major challenge in achieving this goal is the observation that distillation approaches, which rely on sophisticated but mostly disparate methods to generate synthetic data, have little in common with each other. In this work, we highlight a largely overlooked aspect common to most of these methods: the use of soft (probabilistic) labels. Through a series of ablation experiments, we study the role of soft labels in depth. Our results reveal that the main factor explaining the performance of state-of-the-art distillation methods is not the specific techniques used to generate synthetic data but rather the use of soft labels. Furthermore, we demonstrate that not all soft labels are created equal; they must containstructured informationto be beneficial. We also provide empirical scaling laws that characterize the effectiveness of soft labels as a function of images-per-class in the distilled dataset and establish an empirical Pareto frontier for data-efficient learning. Combined, our findings challenge conventional wisdom in dataset distillation, underscore the importance of soft labels in learning, and suggest new directions for improving distillation methods. Code for all experiments is available at https://github.com/sunnytqin/no-distillation.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/ee45939f4403e8abd63a15a29a9c055b-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - SpatialRGPT: Grounded Spatial Reasoning in Vision-Language Models
+AU  - An-Chieh Cheng
+AU  - Hongxu Yin
+AU  - Yang Fu
+AU  - Qiushan Guo
+AU  - Ruihan Yang
+AU  - Jan Kautz
+AU  - Xiaolong Wang
+AU  - Sifei Liu
+PY  - 2024
+AB  - Vision Language Models (VLMs) have demonstrated remarkable performance in 2D vision and language tasks. However, their ability to reason about spatial arrangements remains limited. In this work, we introduce Spatial Region GPT (SpatialRGPT) to enhance VLMs’ spatial perception and reasoning capabilities. SpatialRGPT advances VLMs’ spatial understanding through two key innovations: (i) a data curation pipeline that enables effective learning of regional representation from 3D scene graphs, and (ii) a flexible ``plugin'' module for integrating depth information into the visual encoder of existing VLMs. During inference, when provided with user-specified region proposals, SpatialRGPT can accurately perceive their relative directions and distances. Additionally, we propose SpatialRGBT-Bench, a benchmark with ground-truth 3D annotations encompassing indoor, outdoor, and simulated environments, for evaluating 3D spatial cognition in Vision-Language Models (VLMs). Our results demonstrate that SpatialRGPT significantly enhances performance in spatial reasoning tasks, both with and without local region prompts. The model also exhibits strong generalization capabilities, effectively reasoning about complex spatial relations and functioning as a region-aware dense reward annotator for robotic tasks. Code, dataset, and benchmark are released at https://www.anjiecheng.me/SpatialRGPT.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/f38cb4cf9a5eaa92b3cfa481832719c6-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Weak Supervision Performance Evaluation via Partial Identification
+AU  - Felipe Maia Polo
+AU  - Subha Maity
+AU  - Mikhail Yurochkin
+AU  - Moulinath Banerjee
+AU  - Yuekai Sun
+PY  - 2024
+AB  - Programmatic Weak Supervision (PWS) enables supervised model training without direct access to ground truth labels, utilizing weak labels from heuristics, crowdsourcing, or pre-trained models. However, the absence of ground truth complicates model evaluation, as traditional metrics such as accuracy, precision, and recall cannot be directly calculated. In this work, we present a novel method to address this challenge by framing model evaluation as a partial identification problem and estimating performance bounds using Fréchet bounds. Our approach derives reliable bounds on key metrics without requiring labeled data, overcoming core limitations in current weak supervision evaluation techniques. Through scalable convex optimization, we obtain accurate and computationally efficient bounds for metrics including accuracy, precision, recall, and F1-score, even in high-dimensional settings. This framework offers a robust approach to assessing model quality without ground truth labels, enhancing the practicality of weakly supervised learning for real-world applications.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/f4c6bec746b0aeca8c2cd15096f1ad1f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Classification
+AU  - Benjamin Feuer
+AU  - Jiawei Xu
+AU  - Niv Cohen
+AU  - Patrick Yubeaton
+AU  - Govind Mittal
+AU  - Chinmay Hegde
+PY  - 2024
+AB  - Data curation is the problem of how to collect and organize samples into a dataset that supports efficient learning. Despite the centrality of the task, little work has been devoted towards a large-scale, systematic comparison of various curation methods. In this work, we take steps towards a formal evaluation of data curation strategies and introduce SELECT, the first large-scale benchmark of curation strategies for image classification.In order to generate baseline methods for the SELECT benchmark, we create a new dataset, ImageNet++, which constitutes the largest superset of ImageNet-1K to date. Our dataset extends ImageNet with 5 new training-data shifts, each approximately the size of  ImageNet-1K, and each assembled using a distinct curation strategy. We evaluate our data curation baselines in two ways: (i) using each training-data shift to train identical image classification models from scratch (ii) using it to inspect a fixed pretrained self-supervised representation.Our findings show interesting trends, particularly pertaining to recent methods for data curation such as synthetic data generation and lookup based on CLIP embeddings. We show that although these strategies are highly competitive for certain tasks, the curation strategy used to assemble the original ImageNet-1K dataset remains the gold standard. We anticipate that our benchmark can illuminate the path for new methods to further reduce the gap. We release our checkpoints, code, documentation, and a link to our dataset at https://github.com/jimmyxu123/SELECT.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/f6de5ed486b1802874fe9c70b50277e4-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+
+TY  - JOUR
+TI  - Provably Mitigating Overoptimization in RLHF: Your SFT Loss is Implicitly an Adversarial Regularizer
+AU  - Zhihan Liu
+AU  - Miao Lu
+AU  - Shenao Zhang
+AU  - Boyi Liu
+AU  - Hongyi Guo
+AU  - Yingxiang Yang
+AU  - Jose Blanchet
+AU  - Zhaoran Wang
+PY  - 2024
+AB  - Aligning generative models with human preference via RLHF typically suffers from overoptimization, where an imperfectly learned reward model can misguide the generative model to output even undesired responses. We investigate this problem in a principled manner by identifying the source of the issue as the distributional shift and uncertainty of human preference in dataset. To mitigate overoptimization, we first propose a theoretical algorithm which optimizes the policy against an adversarially chosen reward model, one that simultaneously minimizes its MLE loss and a reward penalty term. The penalty pessimistically biases the uncertain rewards so as to prevent the policy from choosing actions with spursiouly high proxy rewards, resulting in provable sample efficiency of the algorithm under a partial coverage style condition. Moving from theory to practice, the proposed algorithm further enjoys an equivalent but surprisingly easy to implement form. With a clever usage of the equivalence between reward models and the corresponding optimal policy, the algorithm features a simple objective that combines (i) a preference optimization loss that directly aligns the policy with human preference, and (ii) a supervised learning loss which explicitly imitates the policy with a baseline distribution. In the context of aligning large language models (LLM), this objective fuses the direct preference optimization (DPO) loss with the supervised fune-tuning (SFT) loss to help mitigate the overoptimization towards undesired responses, for which we name the algorithm Regularized Preference Optimization (RPO).Experiments of aligning LLMs demonstrate the improved performance of our method when compared with DPO baselines. Our work sheds light on the interplay between preference optimization and SFT in tuning LLMs with both theoretical guarantees and empirical evidence.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/fa69e968b7319fd42524febd41475fb3-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Robustness of Last Layer Two-Stage Fair Model Corrections
+AU  - Nathan Stromberg
+AU  - Rohan Ayyagari
+AU  - Sanmi Koyejo
+AU  - Richard Nock
+AU  - Lalitha Sankar
+PY  - 2024
+AB  - Last-layer retraining methods have emerged as an efficient framework for correcting existing base models. Within this framework, several methods have been proposed to deal with correcting models for subgroup fairness with and without group membership information. Importantly, prior work has demonstrated that many methods are susceptible to noisy labels. To this end, we propose a drop-in correction for label noise in last-layer retraining, and demonstrate that it achieves state-of-the-art worst-group accuracy for a broad range of symmetric label noise and across a wide variety of datasets exhibiting spurious correlations. Our proposed approach uses label spreading on a latent nearest neighbors graph and has minimal computational overhead compared to existing methods.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/fba9133d7fa896ab9414ddd1a6b1ecbf-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Safety through feedback in Constrained RL
+AU  - Shashank Reddy Chirra
+AU  - Pradeep Varakantham
+AU  - Praveen Paruchuri
+PY  - 2024
+AB  - In safety-critical RL settings, the inclusion of an additional cost function is often favoured over the arduous task of modifying the reward function to ensure the agent's safe behaviour. However, designing or evaluating such a cost function can be prohibitively expensive. For instance, in the domain of self-driving, designing a cost function that encompasses all unsafe behaviours (e.g., aggressive lane changes, risky overtakes) is inherently complex, it must also consider all the actors present in the scene making it expensive to evaluate. In such scenarios, the cost function can be learned from feedback collected offline in between training rounds. This feedback can be system generated or elicited from a human observing the training process. Previous approaches have not been able to scale to complex environments and are constrained to receiving feedback at the state level which can be expensive to collect. To this end, we introduce an approach that scales to more complex domains and extends beyond state-level feedback, thus, reducing the burden on the evaluator. Inferring the cost function in such settings poses challenges, particularly in assigning credit to individual states based on trajectory-level feedback. To address this, we propose a surrogate objective that transforms the problem into a state-level supervised classification task with noisy labels, which can be solved efficiently. Additionally, it is often infeasible to collect feedback for every trajectory generated by the agent, hence, two fundamental questions arise: (1) Which trajectories should be presented to the human? and (2) How many trajectories are necessary for effective learning? To address these questions, we introduce a \textit{novelty-based sampling} mechanism that selectively involves the evaluator only when the the agent encounters a \textit{novel} trajectory, and discontinues querying once the trajectories are no longer \textit{novel}. We showcase the efficiency of our method through experimentation on several benchmark Safety Gymnasium environments and realistic self-driving scenarios. Our method demonstrates near-optimal performance, comparable to when the cost function is known, by relying solely on trajectory-level feedback across multiple domains. This highlights both the effectiveness and scalability of our approach. The code to replicate these results can be found at \href{https://github.com/shshnkreddy/RLSF}{https://github.com/shshnkreddy/RLSF}
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/fce44e39545c20c2595cb84bdb862136-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Data curation via joint example selection further accelerates multimodal learning
+AU  - Talfan Evans
+AU  - Nikhil Parthasarathy
+AU  - Hamza Merzić
+AU  - Olivier J. Hénaff
+PY  - 2024
+AB  - Data curation is an essential component of large-scale pretraining. In this work, we demonstrate that jointly prioritizing batches of data is more effective for learning than selecting examples independently. Multimodal contrastive objectives expose the dependencies between data and thus naturally yield criteria for measuring the joint learnability of a batch. We derive a simple and tractable algorithm for selecting such batches, which significantly accelerate training beyond individually-prioritized data points. As performance improves by selecting from large super-batches, we  also leverage recent advances in model approximation to reduce the computational overhead of scoring. As a result, our approach—multimodal contrastive learning with joint example selection (JEST)—surpasses state-of-the-art pretraining methods with up to 13× fewer iterations and 10× less computation. Essential to the performance of JEST is the ability to steer the data selection process towards the distribution of smaller, well-curated datasets via pretrained reference models, exposing data curation as a new dimension for neural scaling laws.
+UR  - https://papers.nips.cc/paper_files/paper/2024/hash/ff8d608f6dcebec401df78ca76617e95-Abstract-Datasets_and_Benchmarks_Track.html
+ER  - 
+

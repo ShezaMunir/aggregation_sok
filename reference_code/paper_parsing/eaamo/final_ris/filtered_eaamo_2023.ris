@@ -1,0 +1,218 @@
+TY  - CONF
+TI  - Counterfactual Situation Testing: Uncovering Discrimination under Fairness given the Difference
+AU  - Alvarez, Jose Manuel
+AU  - Ruggieri, Salvatore
+PY  - 2023
+AB  - We present counterfactual situation testing (CST), a causal data mining framework for detecting individual discrimination in a dataset of classifier decisions. CST answers the question “what would have been the model outcome had the individual, or complainant, been of a different protected status?” in an actionable and meaningful way. It extends the legally-grounded situation testing of Thanh et&nbsp;al. [62] by operationalizing the notion of fairness given the difference of Kohler-Hausmann [38] using counterfactual reasoning. In standard situation testing we find for each complainant similar protected and non-protected instances in the dataset; construct respectively a control and test group; and compare the groups such that a difference in decision outcomes implies a case of potential individual discrimination. In CST we avoid this idealized comparison by establishing the test group on the complainant’s counterfactual generated via the steps of abduction, action, and prediction. The counterfactual reflects how the protected attribute, when changed, affects the other seemingly neutral attributes of the complainant. Under CST we, thus, test for discrimination by comparing similar individuals within each group but dissimilar individuals across both groups for each complainant. Evaluating it on two classification scenarios, CST uncovers a greater number of cases than ST, even when the classifier is counterfactually fair.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623222
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623222
+ER  - 
+
+TY  - CONF
+TI  - Taking Off with AI: Lessons from Aviation for Healthcare
+AU  - Bondi-Kelly, Elizabeth
+AU  - Hartvigsen, Tom
+AU  - Sanneman, Lindsay M
+AU  - Sankaranarayanan, Swami
+AU  - Harned, Zach
+AU  - Wickerson, Grace
+AU  - Gichoya, Judy Wawira
+AU  - Oakden-Rayner, Lauren
+AU  - Celi, Leo Anthony
+AU  - Lungren, Matthew P
+AU  - Shah, Julie A
+AU  - Ghassemi, Marzyeh
+PY  - 2023
+AB  - Artificial intelligence (AI) stands to improve healthcare through innovative new systems ranging from diagnosis aids to patient tools. However, such “Health AI” systems are complicated and challenging to integrate into standing clinical practice. With advancing AI, regulations, practice, and policies must adapt to a wide range of new risks while experts learn to interact with complex automated systems. Even in the early stages of Health AI, risks and gaps are being identified, like severe underperformance of models for minority groups and catastrophic model failures when input data shift over time. In the face of such gaps, we find inspiration in aviation, a field that went from highly dangerous to largely safe. We draw three main lessons from aviation safety that can apply to Health AI: 1) Build regulatory feedback loops to learn from mistakes and improve practices, 2) Establish a culture of safety and openness where stakeholders have incentives to report failures and communicate across the healthcare system, and 3) Extensively train, retrain, and accredit experts for interacting with Health AI, especially to help address automation bias and foster trust. Finally, we discuss remaining limitations in Health AI with less guidance from aviation.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623224
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623224
+ER  - 
+
+TY  - CONF
+TI  - Characterizing Manipulation from AI Systems
+AU  - Carroll, Micah
+AU  - Chan, Alan
+AU  - Ashton, Henry
+AU  - Krueger, David
+PY  - 2023
+AB  - Manipulation is a concern in many domains, such as social media, advertising, and chatbots. As AI systems mediate more of our digital interactions, it is important to understand the degree to which AI systems might manipulate humans without the intent of the system designers. Our work clarifies challenges in defining and measuring this kind of manipulation from AI systems. Firstly, we build upon prior literature on manipulation and characterize the space of possible notions of manipulation, which we find to depend upon the concepts of incentives, intent, covertness, and harm. We review proposals on how to operationalize each concept and we outline challenges in including each concept in a definition of manipulation. Second, we discuss the connections between manipulation and related concepts, such as deception and coercion. We then analyze how our characterization of manipulation applies to recommender systems and language models, and give a brief overview of the regulation of manipulation in other domains. While some progress has been made in defining and measuring manipulation from AI systems, many gaps remain. In the absence of a consensus definition and reliable tools for measurement, we cannot rule out the possibility that AI systems learn to manipulate humans without the intent of the system designers. Manipulation could pose a significant threat to human autonomy and precautionary actions to mitigate it are likely warranted.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623226
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623226
+ER  - 
+
+TY  - CONF
+TI  - Empowering Collective Impact: Introducing SWAP for Resource Sharing
+AU  - Huang, Weixiao
+AU  - Deshusses, Elise Jade
+AU  - Pazour, Jennifer Ann
+AU  - Telliel, Yunus Do\u{g}an
+AU  - Stanlick, Sarah Eliza
+AU  - Trapp, Andrew Christopher
+PY  - 2023
+AB  - Nonprofit organizations (NPOs) lack resources, hindering the quality and quantity of service they can deliver. Meanwhile, NPOs at times have underutilized or even spare resources due to the inability to scale expertise in staffing and tangible resources to meet temporally shifting service demands. These observations motivate us to propose a novel resource sharing system, SWAP, which to the best of our knowledge, is the first resource sharing system that facilitates resource exchanges where NPOs can obtain resources by offering their own. SWAP consists of four elements: a collaborative auction-based sharing process, complete with an offering mechanism, a bidding mechanism, and the virtual currency, SWAPcredit, to facilitate liquidity in exchange; a central technology that represents the award determination problem with a multilateral exchange optimization model, generating resource exchange outcomes; an online platform, the SWAP Hub, where NPOs can offer and bid on available resources, and receive exchange results; and human-centric co-design, shaping the understanding and design decisions of a research collective, that includes the authors and NPO professionals. We conduct a series of experiments using both empirical and simulated data to illustrate the benefits and potential of SWAP. Our results demonstrate that SWAP can address temporal resource needs in practice; show that optimal exchange outcomes can be generated even for large-scale SWAP markets; and provide strong evidence in support of guidance to inform the progression for future versions of SWAP. The SWAP system is presently implemented in Howard County, MD, USA, with ongoing enhancements and potential for future expansion.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623232
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623232
+ER  - 
+
+TY  - CONF
+TI  - FATE in AI: Towards Algorithmic Inclusivity and Accessibility
+AU  - Inuwa-Dutse, Isa
+PY  - 2023
+AB  - With Artificial Intelligence (AI) occupying the centre stage of technological advancements, its impact is affecting many sections of society. Because algorithmic decisions carry both economic and personal implications, fairness, accountability, transparency and ethics (FATE) in AI are geared towards checkmating algorithmic disparities. However, one of the noted limitations of the present discourse on such critical issues is the dominance of the more economically developed countries (MEDC), resulting in neglecting local knowledge, cultural pluralism and global fairness. This study builds upon existing research on responsible AI, with a focus on areas in the Global South deemed under-served vis-a-vis AI. Our goal is two-fold (1) to assess FATE-related desiderata with emphasis on transparency and ethics and (2) to offer insights and proffer recommendations to stimulate action towards representative and responsible AI. We designed a user study (n = 43) and a participatory session (n = 30) to achieve the above goals. Our findings reveal a path towards encoding bias and amplifying a form of stereotype by AI models. For improved inclusivity, we propose a community-led strategy to operationalise the collection and curation of representative data towards responsible AI design. The initiative will empower the affected community or individuals to probe and police the growing application of AI-powered systems. Moreover, we offer some recommendations, informed by the public, that adhere to social values as core requirements for practitioners to incorporate context-specific FATE in AI needs.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623233
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623233
+ER  - 
+
+TY  - CONF
+TI  - Inclusive Portraits: Race-Aware Human-in-the-Loop Technology
+AU  - Flores-Saviaga, Claudia
+AU  - Curtis, Christopher
+AU  - Savage, Saiph
+PY  - 2023
+AB  - AI has revolutionized the processing of various services, including the automatic facial verification of people. Automated approaches have demonstrated their speed and efficiency in verifying a large volume of faces, but they can face challenges when processing content from certain communities, including communities of people of color. This challenge has prompted the adoption of "human-in-the-loop" (HITL) approaches, where human workers collaborate with the AI to minimize errors. However, most HITL approaches do not consider workers’ individual characteristics and backgrounds. This paper proposes a new approach, called Inclusive Portraits (IP), that connects with social theories around race to design a racially-aware human-in-the-loop system. Our experiments have provided evidence that incorporating race into human-in-the-loop (HITL) systems for facial verification can significantly enhance performance, especially for services delivered to people of color. Our findings also highlight the importance of considering individual worker characteristics in the design of HITL systems, rather than treating workers as a homogenous group. Our research has significant design implications for developing AI-enhanced services that are more inclusive and equitable.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623235
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623235
+ER  - 
+
+TY  - CONF
+TI  - Informational Diversity and Affinity Bias in Team Growth Dynamics
+AU  - Heidari, Hoda
+AU  - Barocas, Solon
+AU  - Kleinberg, Jon
+AU  - Levy, Karen
+PY  - 2023
+AB  - Prior work has provided strong evidence that, within organizational settings, teams that bring a diversity of information and perspectives to a task are more effective than teams that do not. If this form of informational diversity confers performance advantages, why do we often see largely homogeneous teams in practice? One canonical argument is that the benefits of informational diversity are in tension with affinity bias. To better understand the impact of this tension on the makeup of teams, we analyze a sequential model of team formation in which individuals care about their team’s performance (captured in terms of accurately predicting some future outcome based on a set of features) but experience a cost as a result of interacting with teammates who use different approaches to the prediction task. Our analysis of this simple model reveals a set of subtle behaviors that team-growth dynamics can exhibit: (i) from certain initial team compositions, they can make progress toward better performance but then get stuck partway to optimally diverse teams; while (ii) from other initial compositions, they can also move away from this optimal balance as the majority group tries to crowd out the opinions of the minority. The initial composition of the team can determine whether the dynamics will move toward or away from performance optimality, painting a path-dependent picture of inefficiencies in team compositions. Our results formalize a fundamental limitation of utility-based motivations to drive informational diversity in organizations and hint at interventions that may improve informational diversity and performance simultaneously.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623238
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623238
+ER  - 
+
+TY  - CONF
+TI  - Optimizing Sponsored Humanitarian Parole
+AU  - Farajzadeh, Fatemeh
+AU  - Killea, Ryan Baylor
+AU  - Teytelboym, Alexander
+AU  - Trapp, Andrew Christopher
+PY  - 2023
+AB  - The United States has introduced a special humanitarian parole process for Ukrainian citizens in response to Russia’s 2022 invasion of Ukraine. To qualify for parole, Ukrainian applicants must have a sponsor in the United States. In collaboration with HIAS, a refugee resettlement agency involved in the parole process, we deployed RUTH (Refugees Uniting Through HIAS), a novel algorithmic matching system that is driven by the relocation preferences of refugees and the priorities of US sponsors. RUTH adapts Thakral’s [23] Multiple-Waitlist Procedure (MWP) that combines the main First-In/First-Out (FIFO) queue with location-specific FIFO queues in order to effectively manage the preferences of refugees and the supply of community sponsors. In addition to refugee preferences and sponsor priorities, RUTH incorporates various feasibility considerations such as community capacity, religious, and medical needs. The adapted mechanism is envy-free, efficient and strategy-proof for refugees. Our analysis reveals that refugee preferences over locations are diverse, even controlling for observables, by demonstrating the difficulty of solving a much simpler problem than modeling preferences directly from observables. We use our data for two counterfactual simulations. First, we consider the effects of increased waiting times for refugees on the quality of their matches. We find that with a periodic Top Trading Cycles algorithm, increasing period length from 24 days to 80 days, improves average rank of a refugee’s match from 3.20 to 2.44. On the other hand, using the available preference data RUTH achieved an average rank of 4.07 with a waiting time of 20 days. Second, we estimate the arrival rates of sponsors in each location that would be consistent with a long-run steady state. We find that more desirable locations (in terms of refugee preferences) require the highest arrival rates suggesting that preferences might be a useful indicator for investments in sponsorship capacity. Our study highlights the potential for preference-based algorithms such as RUTH to improve the efficiency and fairness of other rapidly-deployed humanitarian parole processes.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623240
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623240
+ER  - 
+
+TY  - CONF
+TI  - Challenge Accepted? A Critique of the 2021 National Institute of Justice Recidivism Forecasting Challenge
+AU  - Jegede, Tobi
+AU  - Gerchick, Marissa Kumar
+AU  - Mathai, Amreeta S
+AU  - Horowitz, Aaron
+PY  - 2023
+AB  - In 2021, the National Institute of Justice — the research arm of the United States Department of Justice — released the “Recidivism Forecasting Challenge” (“the Challenge”) with the stated goals of “increas[ing] public safety and improv[ing] the fair administration of justice across the United States,” providing “critical information to community corrections departments...,” and ultimately “improv[ing]” the ability to forecast recidivism using person-and place-based variables” [68]. The Challenge was also designed, in part, to encourage “non-criminal justice forecasting researchers to compete against more ‘traditional’ criminal justice researchers” [68]. Challenge contestants had the opportunity to win part of the $723,000 in prize money for their submitted models. In this work, we highlight how the Challenge was underpinned by a techno-solutionist framing (emphasizing technical interventions without addressing underlying structural problems) [66] and plagued by serious ethical and methodological issues, including (1) the choice of training data and the selection of an outcome variable extracted from racially biased and inaccurate law enforcement data systems, (2) data leakage that may have seriously compromised the Challenge, (3) the choice of a faulty fairness metric, leading to the inability of submitted models to accurately surface any bias issues in the data selected for the Challenge, (4) the inclusion of candidate variables that created the potential for feedback loops, (5) a Challenge structure that arguably incentivized exploiting the metrics used to judge entrants, leading to the development of trivial solutions that could not realistically work in practice, and (6) the participation of Challenge contestants who demonstrated a lack of understanding of basic aspects of the U.S. criminal legal system’s structure and functions. We analyze the Challenge and its shortcomings through the lens of participatory design, applying emerging principles for robust participatory design practices in artificial intelligence (AI) and machine learning (ML) development to evaluate the Challenge’s structure and results. We argue that if the Challenge’s designers had adhered to these principles, the Challenge would have looked dramatically different or would not have occurred at all. We highlight several urgent needs and potential paths forward for any future efforts of this nature, recognizing the real and significant harms of recidivism prediction tools and the need to center communities directly impacted by policing and incarceration when thinking about whether to develop risk assessment tools.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623242
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623242
+ER  - 
+
+TY  - CONF
+TI  - FETA: Fairness Enforced Verifying, Training, and Predicting Algorithms for Neural Networks
+AU  - Mohammadi, Kiarash
+AU  - Sivaraman, Aishwarya
+AU  - Farnadi, Golnoosh
+PY  - 2023
+AB  - Algorithmic decision-making driven by neural networks has become very prominent in applications that directly affect people’s quality of life. This paper focuses on the problem of ensuring individual fairness in neural network models during verification, training, and prediction. A popular approach for enforcing fairness is to translate a fairness notion into constraints over the parameters of the model. However, such a translation does not always guarantee fair predictions of the trained neural network model. To address this challenge, we develop a counterexample-guided post-processing technique to provably enforce fairness constraints at prediction time. Contrary to prior work that enforces fairness only on points around test or train data, we are able to enforce and guarantee fairness on all points in the domain. Additionally, we propose a counterexample-guided loss as an in-processing technique to use fairness as an inductive bias by iteratively incorporating fairness counterexamples in the learning process. We have implemented these techniques in a tool called FETA. Empirical evaluation on real-world datasets indicates that FETA is not only able to guarantee fairness on-the-fly at prediction time but also is able to train accurate models exhibiting a much higher degree of individual fairness.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623243
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623243
+ER  - 
+
+TY  - CONF
+TI  - Algorithmic Censoring in Dynamic Learning Systems
+AU  - Chien, Jennifer
+AU  - Roberts, Margaret
+AU  - Ustun, Berk
+PY  - 2023
+AB  - Dynamic learning systems subject to selective labeling exhibit censoring, i.e. persistent negative predictions assigned to one or more subgroups of points. In applications like consumer finance, this results in groups of applicants that are persistently denied and thus never enter into the training data. In this work, we formalize censoring, demonstrate how it can arise, and highlight difficulties in detection. We consider safeguards against censoring – recourse and randomized-exploration – both of which ensure we collect labels for points that would otherwise go unobserved. The resulting techniques allow examples from censored groups to enter into the training data and correct the model. Our results highlight the otherwise unmeasured harms of censoring and demonstrate the effectiveness of mitigation strategies across a range of data generating processes.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623247
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623247
+ER  - 
+
+TY  - CONF
+TI  - Addressing Strategic Manipulation Disparities in Fair Classification
+AU  - Keswani, Vijay
+AU  - Celis, L. Elisa
+PY  - 2023
+AB  - In real-world classification settings, such as loan application evaluation or content moderation on online platforms, individuals respond to classifier predictions by strategically updating their features to increase their likelihood of receiving a particular (positive) decision (at a certain cost). Yet, when different demographic groups have different feature distributions or pay different update costs, prior work has shown that individuals from minority groups often pay a higher cost to update their features. Fair classification aims to address such classifier performance disparities by constraining the classifiers to satisfy statistical fairness properties. However, we show that standard fairness constraints do not guarantee that the constrained classifier reduces the disparity in strategic manipulation cost. To address such biases in strategic settings and provide equal opportunities for strategic manipulation, we propose a constrained optimization framework that constructs classifiers that lower the strategic manipulation cost for minority groups. We develop our framework by studying theoretical connections between group-specific strategic cost disparity and standard selection rate fairness metrics (e.g., statistical rate and true positive rate). Empirically, we show the efficacy of this approach over multiple real-world datasets.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623252
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623252
+ER  - 
+
+TY  - CONF
+TI  - Deploying a Robust Active Preference Elicitation Algorithm on MTurk: Experiment Design, Interface, and Evaluation for COVID-19 Patient Prioritization
+AU  - Johnston, Caroline M
+AU  - Vossler, Patrick
+AU  - Blessenohl, Simon
+AU  - Vayanos, Phebe
+PY  - 2023
+AB  - Preference elicitation leverages AI or optimization to learn stakeholder preferences in settings ranging from marketing to public policy. The online robust preference elicitation procedure of [34] has been shown in simulation to outperform various other elicitation procedures in terms of effectively learning individuals’ true utilities. However, as with any simulation, the method makes a series of assumptions that cannot easily be verified to hold true beyond simulation. Thus, we propose to validate the robust method’s performance using real users, focusing on the particular challenge of selecting policies for prioritizing COVID-19 patients for scarce hospital resources during the pandemic. To this end, we develop an online platform for preference elicitation where users report their preferences between alternatives over a moderate number of pairwise comparisons chosen by a particular elicitation procedure. We recruit 193 Amazon Mechanical Turk (MTurk) workers to report their preferences and demonstrate that the robust method outperforms asking random queries by 21\%, the next best performing method in the simulated results of&nbsp;[34], in terms of recommending policies with a higher utility.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623254
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623254
+ER  - 
+
+TY  - CONF
+TI  - Should they? Mobile Biometrics and Technopolicy Meet Queer Community Considerations
+AU  - Ovalle, Anaelia
+AU  - Liang, Davi
+AU  - Boyd, Alicia
+PY  - 2023
+AB  - Smartphones are integral to our daily lives and activities, providing us with basic functions like texting and phone calls to more complex motion-based functionalities like navigation, mobile gaming, and fitness-tracking. To facilitate these functionalities, smartphones rely on integrated sensors like accelerometers and gyroscopes. These sensors provide personalized measurements that, in turn, contribute to tasks such as analyzing biometric data for mobile health purposes. In addition to benefiting smartphone users, biometric data holds significant value for researchers engaged in biometric identification research. Nonetheless, utilizing this user data for biometric identification tasks, such as gait and gender recognition, raises serious privacy, normative, and ethical concerns, particularly within the queer community. Concerns of algorithmic bias and algorithmically-driven dysphoria surface from a historical backdrop of marginalization, surveillance, harassment, discrimination, and violence against the queer community. In this position paper, we contribute to the timely discourse on safeguarding human rights within AI-driven systems by providing a sense of challenges, tensions, and opportunities for new data protections and biometric collection practices in a way that grapples with the sociotechnical realities of the queer community.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623255
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623255
+ER  - 
+
+TY  - CONF
+TI  - The Unequal Opportunities of Large Language Models: Examining Demographic Biases in Job Recommendations by ChatGPT and LLaMA
+AU  - Salinas, Abel
+AU  - Shah, Parth
+AU  - Huang, Yuzhong
+AU  - McCormack, Robert
+AU  - Morstatter, Fred
+PY  - 2023
+AB  - Warning: This paper discusses and contains content that is offensive or upsetting. Large Language Models (LLMs) have seen widespread deployment in various real-world applications. Understanding these biases is crucial to comprehend the potential downstream consequences when using LLMs to make decisions, particularly for historically disadvantaged groups. In this work, we propose a simple method for analyzing and comparing demographic bias in LLMs, through the lens of job recommendations. We demonstrate the effectiveness of our method by measuring intersectional biases within ChatGPT and LLaMA, two cutting-edge LLMs. Our experiments primarily focus on uncovering gender identity and nationality bias; however, our method can be extended to examine biases associated with any intersection of demographic identities. We identify distinct biases in both models toward various demographic identities, such as both models consistently suggesting low-paying jobs for Mexican workers or preferring to recommend secretarial roles to women. Our study highlights the importance of measuring the bias of LLMs in downstream applications to understand the potential for harm and inequitable outcomes. Our code is available at https://github.com/Abel2Code/Unequal-Opportunities-of-LLMs.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623257
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623257
+ER  - 
+
+TY  - CONF
+TI  - Common Voice and accent choice: data contributors self-describe their spoken accents in diverse ways
+AU  - Reid, Kathy
+AU  - Williams, Elizabeth T.
+PY  - 2023
+AB  - The use of machine learning (ML)-powered speech technologies has increased significantly in recent years&nbsp;[40, 56, 72]. The datasets used for training speech models often represent demographic features of the speaker – such as gender, age, and accent. These axes are frequently used to evaluate the training set and model for bias&nbsp;[52]. Here, we focus on how accent is represented in voice data due to the adverse consequences of accent bias. We perform document analysis on several voice datasets to identify how accents are currently represented. We then analyse and visualise speaker-described accents from Mozilla’s Common Voice (CV) v13 English dataset, forming an emergent taxonomy of accent descriptors. We repeat this process using the CV v13 Kiswahili dataset, demonstrating that the taxonomy has use beyond English. We find that accents are currently represented in ways that are geographically, and predominantly, nationally bound. While this pattern is also shown in speaker-described accents from CV, a more diverse set of descriptors is revealed. This work provides some early evidence for re-thinking how accents are represented in datasets intended for ML applications. Our tooling is open-sourced, and we invite further work that uses our taxonomy to assess accent bias in speech data and models.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623258
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623258
+ER  - 
+
+TY  - CONF
+TI  - Policy Fairness and Unknown Bias Dynamics in Sequential Allocations
+AU  - Segal, Meirav
+AU  - George, Anne-Marie
+AU  - Dimitrakakis, Christos
+PY  - 2023
+AB  - This work considers a dynamic decision making framework for allocating opportunities over time to advantaged and disadvantaged individuals, focusing on the example of college admissions. Here, individuals in the disadvantaged group are assumed to experience a societal bias that limits their success probability. Bias dynamics dictate how the societal bias changes based on the current allocation of opportunities. We model this environment as a Markov Decision Process (MDP) and empirically examine the purely utility maximising policy in terms of fairness. We demonstrate the influence of the bias dynamics on long-term fairness of allocations, and analyse the interplay between utility and policy-fairness for different dynamics under different optimisation parameters. We consider the cases of known and unknown bias dynamics. For known dynamics, we show that a short horizon view presents fairness as a trade-off for utility, but a long horizon view reveals that the two are aligned. Moreover, we suggest that when the dynamics are unknown, the approach towards epistemic uncertainty may also affect fairness, and should be considered when designing fair decision making models.
+T2  - Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3617694.3623262
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3617694.3623262
+ER  - 
+

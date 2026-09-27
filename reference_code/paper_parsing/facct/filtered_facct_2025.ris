@@ -1,0 +1,1235 @@
+TY  - CONF
+TI  - Emotion AI in Job Interviews: Injustice, Emotional Labor, Identity, and Privacy
+AU  - Ingber, Alexis Shore
+AU  - Andalibi, Nazanin
+PY  - 2025
+AB  - The use of emotion artificial intelligence to evaluate job-seekers during the interview process raises concerns about injustice, particularly among minoritized individuals. However, we know little about how job-seekers experience emotion AI interviews compared to non-emotion AI or human resources (HR) interviews. We address this gap through a 3(Evaluation Source: Emotion AI, AI, HR) x 2(Outcome Favorability: Recommended, Not Recommended) experiment. Participants (n = 456) underwent a mock interview assuming real-time evaluation. We find those who partook an interview evaluated by emotion AI perceived significantly lower levels of justice than that evaluated by HR, with this relationship partially dependent on outcome favorability. Additionally, identity attributes (e.g., gender, race, disability) and privacy concerns significantly influenced the information disclosed and emotional labor exerted during the interview. We discuss practical implications for emotion AI use in job interviews as well as broader methodological implications for capturing real-time engagement with AI systems.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732002
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732002
+ER  - 
+
+TY  - CONF
+TI  - Auditing the Audits: Lessons for Algorithmic Accountability from Local Law 144's Bias Audits
+AU  - Gerchick, Marissa Kumar
+AU  - Encarnaci\'{o}n, Ro
+AU  - Tanigawa-Lau, Cole
+AU  - Armstrong, Lena
+AU  - Guti\'{e}rrez, Ana
+AU  - Metaxa, Dana\'{e}
+PY  - 2025
+AB  - In this work, we “audit the audits,” analyzing the documents produced pursuant to one of the United States’ first enacted laws regulating the use of artificial intelligence in employment: New York City’s Local Law 144. This law requires employers and employment agencies using certain types of automated tools to publish “bias audits” with statistics about how different sex and racial groups fare in the hiring process when the tools are used. We collect and conduct a comprehensive analysis of all Local Law 144 bias audits (N=116) made publicly available to our knowledge from the law taking effect in July 2023 until early November 2024, and describe the extensive challenges we faced in identifying, archiving, extracting information from, and ultimately analyzing these bias audits. We identify several ways that bias audits produced in accordance with Local Law 144 are incomplete evaluations of algorithmic bias, despite news coverage and characterizations by employers and vendors suggesting otherwise. We show that Local Law 144 bias audits are significantly hampered by several issues, including missing demographic data, opaque data aggregation, problematic uses of “test data,” and reliance on metrics that do not represent how automated hiring tools are used in practice. We analyze the reported results in Local Law 144 bias audits alongside the four-fifths rule often used as a measure for assessing adverse impact in employment contexts. Most audits do not report results that would not suggest violations of the four-fifths rule. Crucially, however, we show that these tools could often be in violation of the four-fifths rule when considering potential impacts of missing demographic data. We offer ten practical recommendations to strengthen future legislative efforts that mandate algorithm auditing in hiring and other areas, and contribute an open dataset and codebase for extracting and combining bias audit results to support future auditing efforts.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732004
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732004
+ER  - 
+
+TY  - CONF
+TI  - Examining the Expanding Role of Synthetic Data Throughout the AI Development Pipeline
+AU  - Kapania, Shivani
+AU  - Ballard, Stephanie
+AU  - Kessler, Alex
+AU  - Vaughan, Jennifer Wortman
+PY  - 2025
+AB  - Alongside the growth of generative AI, we are witnessing a surge in the use of synthetic data across all stages of the AI development pipeline. It is now common practice for researchers and practitioners to use one large generative model (which we refer to as an auxiliary model) to generate synthetic data that is used to train or evaluate another, reconfiguring AI workflows and reshaping the very nature of data. While scholars have raised concerns over the risks of synthetic data, policy guidance and best practices for its responsible use have not kept up with these rapidly evolving industry trends, in part because we lack a clear picture of current practices and challenges. Our work aims to address this gap. Through 29 interviews with AI practitioners and responsible AI experts, we examine the expanding role of synthetic data in AI development. Our findings reveal how auxiliary models are now widely used across the AI development pipeline. Practitioners describe synthetic data as crucial for addressing data scarcity and providing a competitive edge, noting that evaluation of generative AI systems at scale would be infeasible without auxiliary models. However, they face challenges controlling the outputs of auxiliary models, generating data that accurately depict underrepresented groups, and scaling data validation practices that are based primarily on manual inspection. We detail general limitations of and ethical considerations for synthetic data and conclude with a proposal of concrete steps towards the development of best practices for its responsible use.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732005
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732005
+ER  - 
+
+TY  - CONF
+TI  - Time Can Invalidate Algorithmic Recourse
+AU  - De Toni, Giovanni
+AU  - Teso, Stefano
+AU  - Lepri, Bruno
+AU  - Passerini, Andrea
+PY  - 2025
+AB  - Algorithmic Recourse (AR) aims to provide users with actionable steps to overturn unfavourable decisions made by machine learning predictors. However, these actions often take time to implement (e.g., getting a degree can take years), and their effects may vary as the world evolves. Thus, it is natural to ask for recourse that remains valid in a dynamic environment. In this paper, we study the robustness of algorithmic recourse over time by casting the problem through the lens of causality. We demonstrate theoretically and empirically that (even robust) causal AR methods can fail over time except in the – unlikely – case that the world is stationary. Even more critically, unless the world is fully deterministic, counterfactual AR cannot be solved optimally. To account for this, we propose a simple yet effective algorithm for temporal AR that explicitly accounts for time under the assumption of having access to an estimator approximating the stochastic process. Our simulations on synthetic and realistic datasets show how considering time produces more resilient solutions to potential trends in the data distribution.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732008
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732008
+ER  - 
+
+TY  - CONF
+TI  - C2Explainer: Customizable Mask-based Counterfactual Explanation for Graph Neural Networks
+AU  - Ma, Jiali
+AU  - Takigawa, Ichigaku
+AU  - Yamamoto, Akihiro
+PY  - 2025
+AB  - As Graph Neural Networks (GNNs) have become increasingly popular for a wide range of applications involving graph data, there’s a growing need to explain GNNs’ predictions due to their complex black-box nature. Counterfactual Explanations (CEs) for GNNs are the tasks to generate a counterfactual graph that is similar to the input graph but predicted to have a different class label, providing insights into how an outcome could have differed if certain structures or features of the input graph had been changed. Common methods for graph CEs involve optimizing an edge mask with continuous values between 0 and 1, which faces two major issues: (1) such fractional masks can introduce unintended semantic changes, known as the “introduced evidence” problem; and (2) the mask can only be applied to existing edges, which limits the explanations to edge deletion only. To overcome these limitations, we propose a novel framework for graph CEs, C2Explainer, which produces higher-quality counterfactuals and allows flexible user customization to meet diverse needs or constraints across a wide range of specific domain tasks. We empirically demonstrate that C2Explainer significantly outperforms state-of-the-art baselines in the standard benchmark datasets. Furthermore, we present several use cases in real-world scenarios showcasing the flexibility of C2Explainer.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732012
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732012
+ER  - 
+
+TY  - CONF
+TI  - FairTranslate: an English-French Dataset for Gender Bias Evaluation in Machine Translation by Overcoming Gender Binarity
+AU  - Jourdan, Fanny
+AU  - Chevalier, Yannick
+AU  - Favre, C\'{e}cile
+PY  - 2025
+AB  - Large Language Models (LLMs) are increasingly leveraged for translation tasks but often fall short when translating inclusive language – such as texts containing the singular ’they’ pronoun or otherwise reflecting fair linguistic protocols. Because these challenges span both computational and societal domains, it is imperative to critically evaluate how well LLMs handle inclusive translation with a well-founded framework.This paper presents FairTranslate, a novel, fully human-annotated dataset designed to evaluate non-binary gender biases in machine translation systems from English to French. FairTranslate includes 2418 English-French sentence pairs related to occupations, annotated with rich metadata such as the stereotypical alignment of the occupation, grammatical gender indicator ambiguity, and the ground-truth gender label (male, female, or inclusive).We evaluate four leading LLMs (Gemma2-2B, Mistral-7B, Llama3.1-8B, Llama3.3-70B) on this dataset under different prompting procedures. Our results reveal substantial biases in gender representation across LLMs, highlighting persistent challenges in achieving equitable outcomes in machine translation. These findings underscore the need for focused strategies and interventions aimed at ensuring fair and inclusive language usage in LLM-based translation systems.We make the FairTranslate dataset publicly available on Hugging Face, and disclose the code for all experiments on GitHub.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732013
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732013
+ER  - 
+
+TY  - CONF
+TI  - Classifying Hate: Legal and Ethical Evaluations of ML-Assisted Hate Crime Classification and Estimation in Sweden
+AU  - Sargeant, Holli
+AU  - Waldetoft, Hannes
+AU  - Magnusson, M\r{a}ns
+PY  - 2025
+AB  - Hate crimes, driven by biases against specific demographic groups, harm not only individuals but undermine the security, trust, and cohesion of entire communities. Accurately identifying such crimes remains a significant challenge due to under-reporting, limited training, and the complexity of determining bias motivations. In this paper, we analyze the results of a text classification model developed to improve the precision of hate crime statistics and identification in Sweden. Empirical results indicate the model outperforms traditional manual police classification of hate crimes, achieving higher precision across various crime types and regions. We further disaggregate performance to pinpoint persistent challenges and highlight categories where both human and machine decision-makers struggle. While the model focuses on statistical estimation rather than direct case-level decision-making, we discuss the broader implications of algorithmic transparency, accountability, and explainability. Ultimately, this research illustrates how transformer-based neural networks can responsibly bolster the detection and understanding of hate crimes, informing policies to better protect vulnerable communities.Content warning: This article includes direct quotations and descriptions from hate crime reports, containing offensive language, hateful symbols, and references to discriminatory actions.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732016
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732016
+ER  - 
+
+TY  - CONF
+TI  - The World Wide recipe: A community-centred framework for fine-grained data collection and regional bias operationalisation
+AU  - Magomere, Jabez
+AU  - Ishida, Shu
+AU  - Afonja, Tejumade
+AU  - Salama, Aya
+AU  - Kochin, Daniel
+AU  - Foutse, Yuehgoh
+AU  - Hamzaoui, Imane
+AU  - Sefala, Raesetje
+AU  - Alaagib, Aisha
+AU  - Dalal, Samantha
+AU  - Marchegiani, Beatrice
+AU  - Semenova, Elizaveta
+AU  - Crais, Lauren
+AU  - Hall, Siobhan Mackenzie
+PY  - 2025
+AB  - We introduce the World Wide recipe, which sets forth a framework for culturally aware and participatory data collection, and the resultant regionally diverse World Wide Dishes evaluation dataset. We also analyse bias operationalisation to highlight how current systems underperform across several dimensions: (in-)accuracy, (mis-)representation, and cultural (in-)sensitivity, with evidence from qualitative community-based observations and quantitative automated tools. We find that these T2I models generally do not produce quality outputs of dishes specific to various regions. This is true even for the US, which is typically considered more well-resourced in training data—although the generation of US dishes does outperform that of the investigated African countries. The models demonstrate the propensity to produce inaccurate and culturally misrepresentative, flattening, and insensitive outputs. These representational biases have the potential to further reinforce stereotypes and disproportionately contribute to erasure based on region. The dataset and code are available at https://github.com/oxai/world-wide-dishes/.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732019
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732019
+ER  - 
+
+TY  - CONF
+TI  - Understanding the Effects of Explaining Predictive but Unintuitive Features in Human-XAI Interaction
+AU  - Qu, Jiaming
+AU  - Arguello, Jaime
+AU  - Wang, Yue
+PY  - 2025
+AB  - Feature importance explanation, which highlights input features that are most influential to the output, is a popular explainable AI (XAI) technique to help users understand machine learning model predictions. However, features deemed predictive by machines can still be puzzling or even appear unintuitive to end-users. Explaining why a feature is predictive is an underexplored area in current XAI research. In this paper, we used deception detection as a case study. We leveraged a large language model (LLM) to explain why a word is predictive of genuine or deceptive reviews. We first validated the LLM-generated explanations to be non-hallucinated through an algorithmic evaluation. Then, we conducted a crowdsourced study (N = 220) to investigate how unintuitive words and LLM-generated explanations influence participants in a deception detection task. Our study results found that showing unintuitive features without explaining why they are predictive was no better than not showing them at all, while explaining why these features are predictive significantly enhanced participants’ learning of the task, appropriate reliance on AI assistance, and perceptions of the AI system.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732021
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732021
+ER  - 
+
+TY  - CONF
+TI  - Artifacts of Idiosyncracy in Global Street View Data
+AU  - Alpherts, Tim
+AU  - Ghebreab, Sennay
+AU  - van Noord, Nanne
+PY  - 2025
+AB  - Street view data is increasingly being used in computer vision applications in recent years. Machine learning datasets are collected for these applications using simple sampling techniques. These datasets are assumed to be a systematic representation of cities, especially when densely sampled. Prior works however, show that there are clear gaps in coverage, with certain cities or regions being covered poorly or not at all. Here we demonstrate that a cities’ idiosyncracies, such as city layout, may lead to biases in street view data for 28 cities across the globe, even when they are densely covered. We quantitatively uncover biases in the distribution of coverage of street view data and propose a method for evaluation of such distributions to get better insight in idiosyncracies in a cities’ coverage. In addition, we perform a case study of Amsterdam with semi-structured interviews, showing how idiosyncracies of the collection process impact representation of cities and regions and allowing us to address biases at their source.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732029
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732029
+ER  - 
+
+TY  - CONF
+TI  - Agonistic Image Generation: Unsettling the Hegemony of Intention
+AU  - Shaw, Andrew
+AU  - Ye, Andre
+AU  - Krishna, Ranjay
+AU  - Zhang, Amy
+PY  - 2025
+AB  - Current image generation tools largely follow an intention-centric paradigm that aims to actualize user intentions but neglects the sociopolitical conversations that these intentions are embedded in. As these tools become cornerstones of the media landscape, however, it is increasingly evident that sociopolitical conflicts over visual representation are inescapable parts of image generation. For instance, in March 2024, Google’s Gemini faced criticism for inappropriately injecting demographic diversity into user prompts. Although Gemini challenged user intentions, its top-down imposition of a standard for “diversity” ultimately proved counterproductive. In this paper, we present an alternative approach: an image generation interface designed to embrace open negotiation along the sociopolitical dimensions of image creation. Grounded in agonistic pluralism (from the Greek agon, meaning struggle), our interface actively engages users with competing visual interpretations of their prompts. Through a lab study with 29 participants, we evaluate our agonistic interface on its ability to facilitate reflection, or engagement with other perspectives that challenges dominant assumptions. We compare it to three existing paradigms: a baseline interface that emulates current image generation tools, a Gemini-style interface that produces “diverse” images, and an intention-centric interface that suggests aestheticized prompt refinements. We find that the agonistic interface enhances reflection across multiple measures, but also that reflection depends on authentically grounding diversity in relevant political contexts. Our results suggest that diversity and user intention need not be treated as inherently opposing values. Instead, interfaces can productively navigate tensions between competing perspectives, enabling users to engage with and evolve their intentions in meaningful ways.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732030
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732030
+ER  - 
+
+TY  - CONF
+TI  - Aggregating Concepts of Fairness and Accuracy in Prediction Algorithms
+AU  - Kinney, David
+PY  - 2025
+AB  - An algorithm that outputs predictions about the state of the world will almost always be designed with the implicit or explicit goal of outputting accurate predictions (i.e., predictions that are likely to be true). In addition, the rise of increasingly powerful predictive algorithms brought about by the recent revolution in artificial intelligence has led to an emphasis on building predictive algorithms that are fair, in the sense that their predictions do not systematically evince bias or bring about harm to certain individuals or groups. This state of affairs presents two conceptual challenges. First, the goals of accuracy and fairness can sometimes be in tension, and there are no obvious normative guidelines for managing the trade-offs between these two desiderata when they arise. Second, there are many distinct ways of measuring both the accuracy and fairness of a predictive algorithm; here too, there are no obvious guidelines on how to aggregate our preferences for predictive algorithms that satisfy disparate measures of fairness and accuracy to various extents. The goal of this paper is to address these challenges by arguing that there are good reasons for using a linear combination of accuracy and fairness metrics to measure the all-things-considered value of a predictive algorithm for agents who care about both accuracy and fairness. My argument depends crucially on a classic result in the preference aggregation literature due to Harsanyi [13]. After making this formal argument, I apply my result to an analysis of accuracy-fairness trade-offs using the COMPAS dataset compiled by Angwin et al. ([1]).
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732031
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732031
+ER  - 
+
+TY  - CONF
+TI  - In the Picture: Medical Imaging Datasets, Artifacts, and their Living Review
+AU  - Jim\'{e}nez-S\'{a}nchez, Amelia
+AU  - Avlona, Natalia-Rozalia
+AU  - de Boer, Sarah
+AU  - Campello, V\'{\i}ctor M.
+AU  - Feragen, Aasa
+AU  - Ferrante, Enzo
+AU  - Ganz, Melanie
+AU  - Gichoya, Judy Wawira
+AU  - Gonzalez, Camila
+AU  - Groefsema, Steff
+AU  - Hering, Alessa
+AU  - Hulman, Adam
+AU  - Joskowicz, Leo
+AU  - Juodelyte, Dovile
+AU  - Kandemir, Melih
+AU  - Kooi, Thijs
+AU  - L\'{e}rida, Jorge del Pozo
+AU  - Li, Livie Yumeng
+AU  - Pacheco, Andre
+AU  - R\"{a}dsch, Tim
+AU  - Reyes, Mauricio
+AU  - Sourget, Th\'{e}o
+AU  - van Ginneken, Bram
+AU  - Wen, David
+AU  - Weng, Nina
+AU  - Xu, Jack Junchi
+AU  - Zaja\c{c}, Hubert Dariusz
+AU  - Zuluaga, Maria A.
+AU  - Cheplygina, Veronika
+PY  - 2025
+AB  - Datasets play a critical role in medical imaging research, yet issues such as label quality, shortcuts, and metadata are often overlooked. This lack of attention may harm the generalizability of algorithms and, consequently, negatively impact patient outcomes. While existing medical imaging literature reviews mostly focus on machine learning (ML) methods, with only a few focusing on datasets for specific applications, these reviews remain static – they are published once and not updated thereafter. This fails to account for emerging evidence, such as biases, shortcuts, and additional annotations that other researchers may contribute after the dataset is published. We refer to these newly discovered findings of datasets as research artifacts. To address this gap, we propose a living review that continuously tracks public datasets and their associated research artifacts across multiple medical imaging applications. Our approach includes a framework for the living review to monitor data documentation artifacts, and an SQL database to visualize the citation relationships between research artifact and dataset. Lastly, we discuss key considerations for creating medical imaging datasets, review best practices for data annotation, discuss the significance of shortcuts and demographic diversity, and emphasize the importance of managing datasets throughout their entire lifecycle. Our demo is publicly available at&nbsp;http://inthepicture.itu.dk/.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732035
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732035
+ER  - 
+
+TY  - CONF
+TI  - Regulating Algorithmic Management: A Multi-Stakeholder Study of Challenges in Aligning Software and the Law for Workplace Scheduling
+AU  - Lynn, Jonathan
+AU  - Kim, Rachel Y.
+AU  - Gao, Sicun
+AU  - Schneider, Daniel
+AU  - Pandya, Sachin S.
+AU  - Lee, Min Kyung
+PY  - 2025
+AB  - Algorithmic management (AM)’s impact on worker well-being has led to calls for regulation. However, little is known about the effectiveness and challenges in real-world AM regulation across the regulatory process—rule operationalization, software use, and enforcement. Our multi-stakeholder study addresses this gap within workplace scheduling, one of the few AM domains with implemented regulations. We interviewed 38 stakeholders across the regulatory process: regulators, defense attorneys, worker advocates, managers, and workers. Our findings suggest that the efficacy of AM regulation is influenced by: (i) institutional constraints that challenge efforts to encode law into AM software, (ii) on-the-ground use of AM software that shapes its ability to facilitate compliance, (iii) mismatches between software and regulatory contexts that hinder enforcement, and (iv) unique concerns that software introduces when used to regulate AM. These findings underscore the importance of a sociotechnical approach to AM regulation, which considers organizational and collaborative contexts alongside the inherent attributes of software. We offer future research directions and implications for technology policy and design.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732037
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732037
+ER  - 
+
+TY  - CONF
+TI  - Social Perception of Faces in a Vision-Language Model
+AU  - Hausladen, Carina I
+AU  - Knott, Manuel
+AU  - Camerer, Colin F
+AU  - Perona, Pietro
+PY  - 2025
+AB  - We explore social perception of human faces in CLIP, a widely used open-source vision-language model. To this end, we compare the similarity in CLIP embeddings between different textual prompts and a set of face images. Our textual prompts are constructed from well-validated social psychology terms denoting social perception. The face images are synthetic and are systematically and independently varied along six dimensions: the legally protected attributes of age, gender, and race, as well as facial expression, lighting, and pose. Independently and systematically manipulating face attributes allows us to study the effect of each on social perception and avoids confounds that can occur in wild-collected data due to uncontrolled systematic correlations between attributes. Thus, our findings are experimental rather than observational. Our main findings are three. First, while CLIP is trained on the widest variety of images and texts, it is able to make fine-grained human-like social judgments on face images. Second, age, gender, and race do systematically impact CLIP’s social perception of faces, suggesting an undesirable bias in CLIP vis-a-vis legally protected attributes. Most strikingly, we find a strong pattern of bias concerning the faces of Black women, where CLIP produces extreme values of social perception across different ages and facial expressions. Third, facial expression impacts social perception more than age and lighting as much as age. The last finding predicts that studies that do not control for unprotected visual attributes may reach the wrong conclusions on bias. Our novel method of investigation, which is founded on the social psychology literature and on the experiments involving the manipulation of individual attributes, yields sharper and more reliable observations than previous observational methods and may be applied to study biases in any vision-language model.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732041
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732041
+ER  - 
+
+TY  - CONF
+TI  - Group Fair Rated Preference Aggregation: Ties Are (Mostly) All You Need
+AU  - Cachel, Kathleen
+AU  - Rundensteiner, Elke
+PY  - 2025
+AB  - Rated preference aggregation is conventionally performed by averaging ratings from multiple evaluators to create a consensus ordering of candidates from highest to lowest average rating. Ideally, the consensus is fair, meaning critical opportunities are not withheld from marginalized groups of candidates, even if group biases may be present in the to-be-combined ratings. Prior work operationalizing fairness in preference aggregation is limited to settings where evaluators provide rankings of candidates (e.g., Joe &gt; Jack &gt; Jill). Yet, in practice, many evaluators assign ratings such as Likert scales or categories (e.g., yes, no, maybe) to each candidate. Ratings convey different information than rankings leading to distinct fairness issues during their aggregation. The existing literature does not characterize these fairness concerns nor provide applicable bias-mitigation solutions. Unlike the ranked setting studied previously, two unique forms of bias arise in rating aggregation. First, biased rating stems from group disparities in to-be-aggregated evaluator ratings. Second, biased tie-breaking occurs because ties in average ratings must be resolved when aggregating ratings into a consensus ranking, and this tie-breaking act can unfairly advantage certain groups. To address this gap, we define the open fair rated preference aggregation problem and introduce the corresponding Fate methodology. Fate offers the first group fairness metric specifically for rated preference data. We propose two Fate algorithms. Fate-Break works in settings when ties need to be broken, explicitly fairness-enhancing such processes without lowering consensus utility. Fate-Rate mitigates disparities in how groups are rated, by using a Markov-chain approach to generate outcomes where groups are, in as much as possible, equally represented. Our experimental study illustrates the FATE methods provide the most bias-mitigation compared to adapting prior methods to fair tie-breaking and rating aggregation.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732042
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732042
+ER  - 
+
+TY  - CONF
+TI  - Normative Evaluation of Large Language Models with Everyday Moral Dilemmas
+AU  - Sachdeva, Pratik
+AU  - van Nuenen, Tom
+PY  - 2025
+AB  - The rapid adoption of large language models (LLMs) has spurred extensive research into their encoded moral norms and decision-making processes. While prior work often evaluates LLMs using survey-style prompts tied to ideological, moral, or political constructs, such approaches overlook the complexity and contextual nuance of everyday ethical dilemmas. We argue that auditing LLMs along more detailed axes of human interaction is of paramount importance to better assess the degree to which they may impact human beliefs and actions. To this end, we evaluate LLMs on complex, everyday moral dilemmas sourced from the “Am I the Asshole” (AITA) community on Reddit, where users seek moral judgments on everyday conflicts from other community members. We prompted seven commonly used LLMs, including proprietary and open-source models, to assign blame and provide explanations for over 10,000 AITA moral dilemmas. We then compared the LLMs’ judgments and explanations to those of Redditors and to each other, aiming to uncover patterns in their moral reasoning. Our results demonstrate that large language models exhibit distinct patterns of moral judgment, varying substantially from human evaluations on the AITA subreddit. LLMs demonstrate moderate to high self-consistency but low inter-model agreement, suggesting that differences in training and alignment lead to fundamentally different approaches to moral reasoning. We further observe that an ensemble of LLMs, despite individual inconsistencies, collectively approximates Redditor consensus in assigning blame. Further analysis of model explanations reveals distinct patterns in how models invoke various moral principles, with some models showing greater sensitivity to specific themes such as fairness or harm. These findings demonstrate the complexity of achieving consistent moral reasoning in artificial systems and raise concerns about their use in contexts that demand ethical sensitivity, such as moderation, advice, or emotional support. As LLMs are increasingly embedded in social and interpersonal domains, our work highlights the need for evaluation frameworks that move beyond static alignment tests toward richer, context-aware assessments of model behavior.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732044
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732044
+ER  - 
+
+TY  - CONF
+TI  - LEAD: Towards Learning-Based Equity-Aware Decarbonization in Ridesharing Platforms
+AU  - Sahebdel, Mahsa
+AU  - Zeynali, Ali
+AU  - Bashir, Noman
+AU  - Shenoy, Prashant
+AU  - Hajiesmaili, Mohammad
+PY  - 2025
+AB  - Ridesharing platforms such as Uber, Lyft, and DiDi have grown in popularity due to their on-demand availability, ease of use, and commute cost reductions, among other benefits. However, not all ridesharing promises have panned out. Recent studies demonstrate that the expected drop in traffic congestion and reduction in greenhouse gas (GHG) emissions have not materialized. This is primarily due to the substantial distances traveled by the ridesharing vehicles without passengers between rides, known as deadhead miles. Recent work has focused on reducing the impact of deadhead miles while considering additional metrics such as rider waiting time, GHG emissions from deadhead miles, or driver earnings. However, most prior studies consider these environmental and equity-based metrics individually despite them being interrelated. In this paper, we propose a Learning-based Equity-Aware Decarabonization approach, LEAD, for ridesharing platforms. LEAD targets minimizing emissions while ensuring that the driver’s utility, defined as the difference between the trip distance and the deadhead miles, is fairly distributed. LEAD uses reinforcement learning to match riders with drivers based on the expected future utility of drivers and the expected carbon emissions of the platform without increasing the rider waiting times. Extensive experiments based on a real-world ridesharing dataset show that LEAD improves the defined notion of fairness by 150\% when compared to emission-aware ride-assignment and reduces emissions by 14.6\% while ensuring fairness within 28–52\% of the fairness-focused baseline. It also reduces the rider wait time, by at least 32.1\%, compared to a fairness-focused baseline.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732051
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732051
+ER  - 
+
+TY  - CONF
+TI  - Policy-as-Prompt: Rethinking Content Moderation in the Age of Large Language Models
+AU  - Palla, Konstantina
+AU  - Garc\'{\i}a, Jos\'{e} Luis Redondo
+AU  - Hauff, Claudia
+AU  - Fabbri, Francesco
+AU  - Damianou, Andreas
+AU  - Lindstr\"{o}m, Henrik
+AU  - Taber, Dan
+AU  - Lalmas, Mounia
+PY  - 2025
+AB  - Content moderation plays a critical role in shaping safe and inclusive online environments, balancing platform standards, user expectations, and regulatory frameworks. Traditionally, this process involves operationalising policies into guidelines, which are then used by downstream human moderators for enforcement, or to further annotate datasets for training machine learning moderation models. However, recent advancements in large language models (LLMs) are transforming this landscape. These models can now interpret policies directly as textual inputs, eliminating the need for extensive data curation. This approach offers unprecedented flexibility, as moderation can be dynamically adjusted through natural language interactions. This paradigm shift raises important questions about how policies are operationalised and the implications for content moderation practices. In this paper, we formalise the emerging policy-as-prompt framework and identify five key challenges across four domains: Technical Implementation (1. translating policy to prompts, 2. sensitivity to prompt structure and formatting), Sociotechnical (3. the risk of technological determinism in policy formation), Organisational (4. evolving roles between policy and machine learning teams), and Governance (5. model governance and accountability). Through analysing these challenges across technical, sociotechnical, organisational, and governance dimensions, we discuss potential mitigation approaches. This research provides actionable insights for practitioners and lays the groundwork for future exploration of scalable and adaptive content moderation systems in digital ecosystems.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732054
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732054
+ER  - 
+
+TY  - CONF
+TI  - Who Gets Heard? Calling Out the "Hard-to-Reach" Myth for Non-WEIRD Populations’ Recruitment and Involvement in Research
+AU  - De, Ankolika
+AU  - Kanthawala, Shaheen
+AU  - Maddox, Jessica
+PY  - 2025
+AB  - Despite the growing recognition of the need for inclusive technology design, research often struggles to engage non-WEIRD (Western, Educated, Industrialized, Rich, and Democratic) populations, labeling them as "hard to reach." This paper argues that rigid, Western-centric research methods contribute to this gap, particularly in non-WEIRD contexts. Drawing on two qualitative studies of WhatsApp users in India, we highlight the challenges in the research process when attempting to apply a non-Western perspective while recruiting participants in informal and fragmented communication environments. We emphasize the need to embrace and normalize flexible, context-specific recruitment strategies that move beyond Western norms of rigor. By adopting non-WEIRD methodologies, we aim to make computing research more inclusive and accessible, especially for populations in the Global South. We challenge the notion that these groups are inherently difficult to engage, arguing instead that the difficulty stems from the continued imposition of Western-centric approaches.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732055
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732055
+ER  - 
+
+TY  - CONF
+TI  - The Double-Edged Sword of Behavioral Responses in Strategic Classification: Theory and User Studies
+AU  - Ebrahimi, Raman
+AU  - Vaccaro, Kristen
+AU  - Naghizadeh, Parinaz
+PY  - 2025
+AB  - When humans are subject to an algorithmic decision system, they can strategically adjust their behavior accordingly (“game” the system). While a growing line of literature on strategic classification has used game-theoretic modeling to understand and mitigate such gaming, these existing works commonly consider standard models of fully rational agents. In this paper, we propose a strategic classification model that considers behavioral biases in human responses to algorithms. We show how misperceptions of a classifier (specifically, of its feature weights) can lead to different types of discrepancies between biased and rational agents’ responses, and identify when behavioral agents over- or under-invest in different features. We also show that strategic agents with behavioral biases can benefit or (perhaps, unexpectedly) harm the firm compared to fully rational strategic agents. We complement our analytical results with user studies, which support our hypothesis of behavioral biases in human responses to the algorithm. Together, our findings highlight the need to account for human (cognitive) biases when designing AI systems, and providing explanations of them, to strategic human in the loop.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732056
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732056
+ER  - 
+
+TY  - CONF
+TI  - Liberatory Collections and Ethical AI: Reimagining AI Development from Black Community Archives and Datasets
+AU  - Croskey, Payton
+AU  - Offert, Fabian
+AU  - Jacobs, Jennifer
+AU  - Thaler, Kai M.
+PY  - 2025
+AB  - Biases in artificial intelligence (AI) training datasets have led to models that perpetuate harmful racial stereotypes about Black communities while neglecting accurate and affirming representations of Black culture. We build on calls to create transformative technology that transcends harm mitigation–a space we categorize as liberatory technology. Within this space, we identify liberatory collections–community-led repositories that amplify Black voices–as a form of data collection that empowers and benefits communities historically harmed by traditional AI and archival practices. We survey fourteen liberatory collections, uncovering critical cultural perspectives and innovative approaches to obtaining, preserving, sharing, and valuing human information. Our findings emphasize the need for structural changes in AI training datasets and models, moving beyond representational adjustments toward strategies for creating consent-driven training models, funding community-based initiatives, and embedding Black communities’ multifaceted cultures and histories within AI systems. This research underscores liberatory collections’ potential as a framework for reimagining ethical AI development.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732058
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732058
+ER  - 
+
+TY  - CONF
+TI  - Component-Based Fairness in Face Attribute Classification with Bayesian Network-informed Meta Learning
+AU  - Liu, Yifan
+AU  - Yao, Ruichen
+AU  - Liu, Yaokun
+AU  - Zong, Ruohan
+AU  - Li, Zelin
+AU  - Zhang, Yang
+AU  - Wang, Dong
+PY  - 2025
+AB  - The widespread integration of face recognition technologies into various applications (e.g., access control and personalized advertising) necessitates a critical emphasis on fairness. While previous efforts have focused on demographic fairness, the fairness of individual biological face components remains unexplored. In this paper, we focus on face component fairness, a fairness notion defined by biological face features. To our best knowledge, our work is the first work to mitigate bias of face attribute prediction at the biological feature level. In this work, we identify two key challenges in optimizing face component fairness: attribute label scarcity and attribute inter-dependencies, both of which limit the effectiveness of bias mitigation from previous approaches. To address these issues, we propose Bayesian Network-informed Meta Reweighting (BNMR), which incorporates a Bayesian Network calibrator to guide an adaptive meta-learning-based sample reweighting process. During the training process of our approach, the Bayesian Network calibrator dynamically tracks model bias and encodes prior probabilities for face component attributes to overcome the above challenges. To demonstrate the efficacy of our approach, we conduct extensive experiments on a large-scale real-world human face dataset. Our results show that BNMR is able to consistently outperform recent face bias mitigation baselines. Moreover, our results suggest a positive impact of face component fairness on the commonly considered demographic fairness (e.g., gender). Our findings pave the way for new research avenues on face component fairness, suggesting that face component fairness could serve as a potential surrogate objective for demographic fairness. The code for our work is publicly available&nbsp;1.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732066
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732066
+ER  - 
+
+TY  - CONF
+TI  - Reward Model Interpretability via Optimal and Pessimal Tokens
+AU  - Christian, Brian
+AU  - Kirk, Hannah Rose
+AU  - Thompson, Jessica A.F.
+AU  - Summerfield, Christopher
+AU  - Dumbalska, Tsvetomira
+PY  - 2025
+AB  - Reward modeling has emerged as a crucial component in aligning large language models with human values. Significant attention has focused on using reward models as a means for fine-tuning generative models. However, the reward models themselves—which directly encode human value judgments by turning prompt-response pairs into scalar rewards—remain relatively understudied. We present a novel approach to reward model interpretability through exhaustive analysis of their responses across their entire vocabulary space. By examining how different reward models score every possible single-token response to value-laden prompts, we uncover several striking findings: (i) substantial heterogeneity between models trained on similar objectives, (ii) systematic asymmetries in how models encode high- vs low-scoring tokens, (iii) significant sensitivity to prompt framing that mirrors human cognitive biases, and (iv) overvaluation of more frequent tokens. We demonstrate these effects across ten recent open-source reward models of varying parameter counts and architectures. Our results challenge assumptions about the interchangeability of reward models, as well as their suitability as proxies of complex and context-dependent human values. We find that these models can encode concerning biases toward certain identity groups, which may emerge as unintended consequences of harmlessness training—distortions that risk propagating through the downstream large language models now deployed to millions.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732068
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732068
+ER  - 
+
+TY  - CONF
+TI  - Technical Solutions to Emotion AI's Privacy Harms: A Systematic Literature Review
+AU  - Chowdhary, Shreya
+AU  - Ingber, Alexis Shore
+AU  - Andalibi, Nazanin
+PY  - 2025
+AB  - Emotion AI, while contested for its validity, bias, and accuracy, claims the ability to infer individuals’ emotions and other affective qualities. While proponents tout its potential (e.g., improving well-being and productivity), critics raise concerns about its impact on data subjects’ privacy. We conducted a systematic literature review of scholarship that has explored technical solutions to address emotion AI’s privacy concerns, examining the underlying conceptualizations of data subjects (i.e., individuals subjected to emotion AI), data, and privacy that motivated them. Findings reveal patterns of 1) conceptualizations of data subjects as decontextualized and flattened, 2) a heavy focus on the sensitivity of input data for emotion AI systems while neglecting the sensitivity of output data (i.e., emotion inferences), 3) conflating privacy with security and 4) viewing privacy as a burden to the development of large-scale emotion AI systems. We argue these conceptualizations motivate technical solutions which largely fail to address the full range of emotion AI’s privacy harms. We discuss what a human-centered and comprehensive conception of privacy would mean for emotion AI development, concluding that while technical approaches can address some privacy concerns, key privacy concerns persist.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732074
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732074
+ER  - 
+
+TY  - CONF
+TI  - Disclosure without Engagement: An Empirical Review of Positionality Statements at FAccT
+AU  - Schroeder, Hope
+AU  - Pareek, Akshansh
+AU  - Barocas, Solon
+PY  - 2025
+AB  - Positionality statements have become more common in engineering fields in recent years, despite ongoing debates across many fields about the merits of the practice. In 2024, the Program Chairs of FAccT recommended that authors include positionality statements with their paper submissions, dramatically increasing their use at the conference. In this paper, we analyze all positionality statements at FAccT from 2018 to 2024, highlighting the different aspects of identity commonly disclosed by authors and the degree to which authors explore the potential impact of these aspects of their positionality on their research. While we encountered and highlight a number of thoughtful positionality statements, we also identified and describe several concerning trends, including patterns of identity disclosure without discussion of corresponding impacts, a notable lack of reflection on the potential impacts of industry affiliation, and cases where identity is invoked to excuse what are really methodological choices, among others. We raise particular concerns about the possibility that disclosure without engagement may cause readers to rely on stereotypes to make guesses about the perspectives that individuals from certain groups bring to their work. We conclude by considering potential mechanisms for encouraging reflexivity in the FAccT community, with a focus on setting policies that protect researchers from risks, supporting researchers from backgrounds without existing traditions of reflexive practice, and empirically evaluating the efficacy of interventions designed to foster reflexivity.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732079
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732079
+ER  - 
+
+TY  - CONF
+TI  - It's only fair when I think it's fair: How Gender Bias Alignment Undermines Distributive Fairness in Human-AI Collaboration
+AU  - Zipperling, Domenique
+AU  - Deck, Luca
+AU  - Lanzl, Julia
+AU  - K\"{u}hl, Niklas
+PY  - 2025
+AB  - Human-AI collaboration is increasingly relevant in consequential areas where AI recommendations support human discretion. However, human-AI teams’ effectiveness, capability, and fairness highly depend on human perceptions of AI. Positive fairness perceptions have been shown to foster trust and acceptance of AI recommendations. Yet, work on confirmation bias highlights that humans selectively adhere to AI recommendations that align with their expectations and beliefs—despite not being necessarily correct or fair. This raises the question whether confirmation bias also transfers to the alignment of gender bias between human and AI decisions. In our study, we examine how gender bias alignment influences fairness perceptions and reliance. The results of a 2x2 between-subject study highlight the connection between gender bias alignment, fairness perceptions, and reliance, demonstrating that merely constructing a “formally fair” AI system is insufficient for optimal human-AI collaboration; ultimately, AI recommendations will likely be overridden if biases do not align.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732084
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732084
+ER  - 
+
+TY  - CONF
+TI  - The Problem of Generics in LLM Training
+AU  - Smith, Becca
+AU  - Tolbert, Alexander Williams
+PY  - 2025
+AB  - Pejorative or harmful stereotypical language appears in large language model (LLM) outputs, and despite various mitigation approaches — such as reinforcement learning from human feedback (RLHF) or manual fixes after red teaming — these issues persist. This paper argues that generics, which are generalizations lacking explicit quantification (e.g., statements like “mosquitoes carry malaria” or “birds lay eggs”), contribute significantly to these harmful stereotypes. Whereas humans naturally contextualize and quantify such generalizations (e.g., discerning that only female birds lay eggs), LLMs may misinterpret these vague expressions. Given the frequency of generics in natural language, if LLMs cannot correctly interpret or quantify them, there exists a potential for persistent, harmful stereotypical outputs. This work employs a philosophy of language approach to show that deficiencies in processing generics can yield problematic assumptions and to demonstrate that current LLMs lack robust mechanisms to handle these ambiguities.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732085
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732085
+ER  - 
+
+TY  - CONF
+TI  - Crediting Humans: A Systematic Assessment of Influencing Factors for Human-in-the-Loop Figurations in Consumer Credit Lending Decisions
+AU  - Z\"{u}ger, Theresa
+AU  - Mahlow, Philipp
+AU  - Pothmann, Daniel
+AU  - Mosene, Katharina
+AU  - Burmeister, Fabian
+AU  - Kettemann, Matthias
+AU  - Schulz, Wolfgang
+PY  - 2025
+AB  - The concept of ‘human-in-the-loop’ (Hilo) has gained prominence as a regulatory mechanism for ensuring human control in automated systems, particularly in the context of automated decision-making (ADM) mechanisms or AI-supported systems. However, despite its increasing use in regulatory discourse, there is a lack of empirical understanding regarding the real-world conditions and influencing factors that affect decision-making processes in such hybrid systems. This paper aims to address this gap by focusing on the use of automation, and the inclusion of humans, in consumer-facing credit lending decisions, a key industry use case. By employing an interdisciplinary approach that combines legal perspectives, social sciences, and architectural modeling—a methodology rooted in computer science—this research offers a first systematic analysis of the factors that influence meaningful human control in(semi-)automated decision processes. Specifically, it contributes to the field by broadening the understanding of the Hilo concept and providing empirical insights into the factors that influence human-machine interaction in co-decisionary architectures. Referencing existing literature that proposes to differentiate various roles for Hilos, the paper proposes two additional roles of Hilos to be considered, due to its empirical findings, namely a special case handling role and a broader understanding of the resilience role of Hilos.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732086
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732086
+ER  - 
+
+TY  - CONF
+TI  - Opening the Scope of Openness in AI
+AU  - Paris, Tamara
+AU  - Moon, AJung
+AU  - Guo, Jin L.C.
+PY  - 2025
+AB  - The concept of openness in AI has so far been heavily inspired by the definition and community practice of open source software. This positions openness in AI as having positive connotations; it introduces assumptions of certain advantages, such as collaborative innovation and transparency. However, the practices and benefits of open source software are not fully transferable to AI, which has its own challenges. Framing a notion of openness tailored to AI is crucial to addressing its growing societal implications, risks, and capabilities. We argue that considering the fundamental scope of openness in different disciplines will broaden discussions, introduce important perspectives, and reflect on what openness in AI should mean. Toward this goal, we qualitatively analyze 98 concepts of openness discovered from topic modeling, through which we develop a taxonomy of openness. Using this taxonomy as an instrument, we situate the current discussion on AI openness, identify gaps and highlight links with other disciplines. Our work contributes to the recent efforts in framing openness in AI by reflecting principles and practices of openness beyond open source software and calls for a more holistic view of openness in terms of actions, system properties, and ethical objectives.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732087
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732087
+ER  - 
+
+TY  - CONF
+TI  - A Day in Their Shoes: Using LLM-Based Perspective-Taking Interactive Fiction to Reduce Stigma Toward Dirty Work
+AU  - Yuan, Xiangzhe
+AU  - Wang, Jiajun
+AU  - Wan, Qian
+AU  - Hu, Siying
+PY  - 2025
+AB  - Occupations referred to as “dirty work” often face entrenched social stigma, which adversely affects the mental health of workers in these fields and impedes occupational equity. In this study, we propose a novel Interactive Fiction (IF) framework powered by Large Language Models (LLMs) to encourage perspective-taking and reduce biases against these stigmatized yet essential roles. Through an experiment with participants (n = 100) across four such occupations, we observed a significant increase in participants’ understanding of these occupations, as well as a high level of empathy and a strong sense of connection to individuals in these roles. Additionally, qualitative interviews with participants (n = 15) revealed that the LLM-based perspective-taking IF enhanced immersion, deepened emotional resonance and empathy toward “dirty work,” and allowed participants to experience a sense of professional fulfillment in these occupations. However, participants also highlighted ongoing challenges, such as limited contextual details generated by the LLM and the unintentional reinforcement of existing stereotypes. Overall, our findings underscore that an LLM-based perspective-taking IF framework offers a promising and scalable strategy for mitigating stigma and promoting social equity in marginalized professions.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732090
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732090
+ER  - 
+
+TY  - CONF
+TI  - What do Large Language Models Say About Animals? Investigating Risks of Animal Harm in Generated Text
+AU  - Kanepajs, Arturs
+AU  - Basu, Aditi
+AU  - Ghose, Sankalpa
+AU  - Li, Constance
+AU  - Mehta, Akshat
+AU  - Mehta, Ronak
+AU  - Tucker-Davis, Samuel David
+AU  - Fischer, Bob
+AU  - Anthis, Jacy Reese
+PY  - 2025
+AB  - As machine learning systems become increasingly embedded in society, their impact on human and nonhuman life continues to escalate. Technical evaluations have addressed a variety of potential harms from large language models (LLMs) towards humans and the environment, but there is little empirical work regarding harms towards nonhuman animals. Following the growing recognition of animal protection in regulatory and ethical AI frameworks, we present AnimalHarmBench (AHB), a benchmark for risks of animal harm in LLM-generated text. Our benchmark dataset comprises 1,850 curated questions from Reddit post titles and 2,500 synthetic questions based on 50 animal categories (e.g., cats, reptiles) and 50 ethical scenarios with a 70-30 public-private split. Scenarios include open-ended questions about how to treat animals, practical scenarios with potential animal harm, and willingness-to-pay measures for the prevention of animal harm. Using the LLM-as-a-judge framework, responses are evaluated for their potential to increase or decrease harm, and evaluations are debiased for the tendency of judges to judge their own outputs more favorably. AHB reveals significant differences across frontier LLMs, animal categories, scenarios, and subreddits. We conclude with future directions for technical research and addressing the challenges of building evaluations on complex social and moral topics.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732094
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732094
+ER  - 
+
+TY  - CONF
+TI  - TIDEs: A Transgender and Nonbinary Community-Labeled Dataset and Model for Transphobia Identification in Digital Environments
+AU  - Lameiro, Francesca
+AU  - Dunagan, Lavinia
+AU  - Card, Dallas
+AU  - Gilbert, Eric
+AU  - Haimson, Oliver
+PY  - 2025
+AB  - Transphobic rhetoric is a prevalent problem on social media that existing platform policies fail to meaningfully address. As such, trans people often create or adopt technologies independent from (but deployed within) platforms that help them mitigate the effects of facing transphobia online. In this paper, we introduce TIDEs (Transphobia Identification in Digital Environments), a dataset and model for detecting transphobic speech to contribute to the growing space of trans technologies for content moderation. We outline care-centered data practices, a methodology for constructing and labeling datasets for hate speech classification, which we developed while working closely with trans and nonbinary data annotators. Our fine-tuned DeBERTa model succeeds at detecting several ideologically distinct types of transphobia, achieving an F1 score of 0.81. As a publicly available dataset and model, TIDEs can serve as the base for future trans technologies and research that confronts and addresses the problem of online transphobia. Our results suggest that downstream applications of TIDEs may be deployable for reducing online harm for trans people.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732095
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732095
+ER  - 
+
+TY  - CONF
+TI  - Minimizing Risk Through Minimizing Model-Data Interaction: A Protocol For Relying on Proxy Tasks When Designing Child Sexual Abuse Imagery Detection Models
+AU  - Coelho, Thamiris
+AU  - Ribeiro, Leo Sampaio Ferraz
+AU  - Macedo, Jo\~{a}o
+AU  - dos Santos, Jefersson A.
+AU  - Avila, Sandra
+PY  - 2025
+AB  - The distribution of child sexual abuse imagery (CSAI) is an ever-growing concern of our modern world; children who suffered from this heinous crime are revictimized, and the growing amount of illegal imagery distributed overwhelms law enforcement agents (LEAs) with the manual labor of categorization. To ease this burden researchers have explored methods for automating data triage and detection of CSAI, but the sensitive nature of the data imposes restricted access and minimal interaction between real data and learning algorithms, avoiding leaks at all costs. In observing how these restrictions have shaped the literature we formalize a definition of “Proxy Tasks”, i.e., the substitute tasks used for training models for CSAI without making use of CSA data. Under this new terminology we review current literature and present a protocol for making conscious use of Proxy Tasks together with consistent input from LEAs to design better automation in this field. Finally, we apply this protocol to study — for the first time — the task of Few-shot Indoor Scene Classification on CSAI, showing a final model that achieves promising results on a real-world CSAI dataset whilst having no weights actually trained on sensitive data.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732102
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732102
+ER  - 
+
+TY  - CONF
+TI  - Value-Driven Design for Public Administration: Insights from a Generative Chatbot in a Housing Application Case Study
+AU  - Abdenebaoui, Larbi
+AU  - Aljuneidi, Saja
+AU  - Horstmannshoff, Fynn
+AU  - Meyer, Jochen
+AU  - Boll, Susanne
+PY  - 2025
+AB  - Artificial intelligence holds significant potential to transform public administration by streamlining complex processes and improving service delivery. However, its adoption is hindered by concerns regarding its alignment with public values e.g., ensuring that all citizens are treated equitably. This study addresses these challenges through a value-driven design approach, focusing on a generative chatbot to assist citizens with the Housing Entitlement Certificate application, a service enabling low-income households to access subsidized housing in Germany. Through two participatory workshops with citizens and public administration employees, the research highlights a tension between significant benefits, such as improved accessibility and streamlined processes, and challenges, including reduced human interaction and dependency on technology. To navigate these tensions, the study proposes actionable requirements, including escalation pathways to human representatives and robust data protection measures. By providing a real-world example, this work illustrates how value-based design can guide the responsible and impactful integration of AI in public administration. The findings underscore the importance of balancing the potential of generative chatbots with societal and ethical considerations, offering a replicable framework for aligning AI systems with public values in diverse service contexts.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732103
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732103
+ER  - 
+
+TY  - CONF
+TI  - LExT: Towards Evaluating Trustworthiness of Natural Language Explanations
+AU  - Shailya, Krithi
+AU  - Rajpal, Shreya
+AU  - Krishnan, Gokul S
+AU  - Ravindran, Balaraman
+PY  - 2025
+AB  - As Large Language Models (LLMs) become increasingly integrated into high-stakes domains, there have been several approaches proposed toward generating natural language explanations. These explanations are crucial for enhancing the interpretability of a model, especially in sensitive domains like healthcare, where transparency and reliability are key. In light of such explanations being generated by LLMs and its known concerns, there is a growing need for robust evaluation frameworks to assess model-generated explanations. Natural Language Generation metrics like BLEU and ROUGE capture syntactic and semantic accuracies but overlook other crucial aspects such as factual accuracy, consistency, and faithfulness. To address this gap, we propose a general framework for quantifying trustworthiness of natural language explanations, balancing Plausibility and Faithfulness, to derive a comprehensive Language Explanation Trustworthiness Score (LExT). Applying our domain-agnostic framework to the healthcare domain using public medical datasets, we evaluate six models, including domain-specific and general-purpose models. Our findings demonstrate significant differences in their ability to generate trustworthy explanations. On comparing these explanations, we make interesting observations such as inconsistencies in Faithfulness demonstrated by general-purpose models and their tendency to outperform domain-specific fine-tuned models. This work further highlights the importance of using a tailored evaluation framework to assess natural language explanations in sensitive fields, providing a foundation for improving the trustworthiness and transparency of language models in healthcare and beyond.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732104
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732104
+ER  - 
+
+TY  - CONF
+TI  - One Bad NOFO? AI Governance in Federal Grantmaking
+AU  - Bateyko, Dan
+AU  - Levy, Karen
+PY  - 2025
+AB  - Much scholarship considers how U.S. federal agencies govern artificial intelligence (AI) through rulemaking and their own internal use policies. But agencies have an overlooked AI governance role: setting discretionary grant policy when directing billions of dollars in federal financial assistance. These dollars enable state and local entities to study, create, and use AI. This funding not only goes to dedicated AI programs, but also to grantees using AI in the course of meeting their routine grant objectives. As discretionary grantmakers, agencies guide and restrict what grant winners do—a hidden lever for AI governance. Agencies pull this lever by setting program objectives, judging criteria, and restrictions for AI use. Using a novel dataset of over 40,000 non-defense federal grant notices of funding opportunity (NOFOs) posted to Grants.gov between 2009 and 2024, we analyze how agencies regulate the use of AI by grantees. We select records mentioning AI and review their stated goals and requirements. We find agencies promoting AI in notice narratives, shaping adoption in ways other records of grant policy might fail to capture. Of the grant opportunities that mention AI, we find only a handful of AI-specific judging criteria or restrictions. This silence holds even when agencies fund AI uses in contexts affecting people’s rights and which, under an analogous federal procurement regime, would result in extra oversight. These findings recast grant notices as a site of AI policymaking—albeit one that is developing out of step with other regulatory efforts and incomplete in its consideration of transparency, accountability, and privacy protections. The paper concludes by drawing lessons from AI procurement scholarship, while identifying distinct challenges in grantmaking that invite further study.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732109
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732109
+ER  - 
+
+TY  - CONF
+TI  - Gender Trouble in Language Models: An Empirical Audit Guided by Gender Performativity Theory
+AU  - Hafner, Franziska Sofia
+AU  - Valdivia, Ana
+AU  - Rocher, Luc
+PY  - 2025
+AB  - Language models encode and subsequently perpetuate harmful gendered stereotypes. Research has succeeded in mitigating some of these harms, e.g. by dissociating non-gendered terms such as occupations from gendered terms such as ‘woman’ and ‘man’. This approach, however, remains superficial given that associations are only one form of prejudice through which gendered harms arise. Critical scholarship on gender, such as gender performativity theory, emphasizes how harms often arise from the construction of gender itself, such as conflating gender with biological sex. In language models, these issues could lead to the erasure of transgender and gender diverse identities and cause harms in downstream applications, from misgendering users to misdiagnosing patients based on wrong assumptions about their anatomy.For FAccT research on gendered harms to go beyond superficial linguistic associations, we advocate for a broader definition of ‘gender bias’ in language models. We operationalize insights on the construction of gender through language from gender studies literature and then empirically test how 16 language models of different architectures, training datasets, and model sizes encode gender. We find that language models tend to encode gender as a binary category tied to biological sex, and that gendered terms that do not neatly fall into one of these binary categories are erased and pathologized. Finally, we show that larger models, which achieve better results on performance benchmarks, learn stronger associations between gender and sex, further reinforcing a narrow understanding of gender. Our findings lead us to call for a re-evaluation of how gendered harms in language models are defined and addressed.Warning: This article discusses the erasure and pathologization of transgender and gender diverse identities in academic literature and in language models.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732112
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732112
+ER  - 
+
+TY  - CONF
+TI  - What Remains Opaque in Transparency Initiatives: Visualizing Phantom Reductions through Devious Data Analysis
+AU  - Poirier, Lindsay
+AU  - Huang, Juniper
+AU  - MacGibbon, Casey
+PY  - 2025
+AB  - This article introduces what we call ‘devious data analysis’ a form of data analysis that leverages rather conventional analysis and visualization techniques to undercut an assumption of the data’s objectivity and ‘truthiness.’ Rather than conveying unequivocal truths, the results produced through ‘devious data analysis’ raise questions about the history and context of the represented data. We apply the ‘devious data analysis’ framework in order to study ‘phantom reductions,’ in three U.S. government datasets where institutions self-disclose data on their activities and business practices for the purposes of transparency. First defined by the National Wildlife Federation in 1990, phantom reductions refer to significant, unexplained drops in something an institution is reporting on from one time period to the next. In order to illustrate these shifts in data reporting, we present a methodology for exploring and visualizing shifts in how institutions report values into certain categories over time. The paper makes two contributions. First, in introducing ‘devious data analysis,’ the article offers a methodological framework for exposing and facilitating conversations around the socio-technical dimensions of datasets. Second, by drawing attention to what often remains opaque in transparency initiatives (the judgments and discretion that shape the data’s constitution), the article furthers understanding of how transparency operates, along with the social consequences of treating it uncritically.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732114
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732114
+ER  - 
+
+TY  - CONF
+TI  - Ties of Trust: a bowtie model to uncover trustor-trustee relationships in LLMs
+AU  - Paraschou, Eva
+AU  - Michali, Maria
+AU  - Yfantidou, Sofia
+AU  - Karamanidis, Stelios
+AU  - Kalogeros, Stefanos Rafail
+AU  - Vakali, Athena
+PY  - 2025
+AB  - The rapid and unprecedented dominance of Artificial Intelligence (AI), particularly through Large Language Models (LLMs), has raised critical trust challenges in high-stakes domains like politics. Biased LLMs’ decisions and misinformation undermine democratic processes, and existing trust models fail to address the intricacies of trust in LLMs. Currently, oversimplified, one-directional approaches have largely overlooked the many relationships between trustor (user) contextual factors (e.g. ideology, perceptions) and trustee (LLMs) systemic elements (e.g. scientists, tool’s features). In this work, we introduce a bowtie model for holistically conceptualizing and formulating trust in LLMs, with a core component comprehensively exploring trust by tying its two sides, namely the trustor and the trustee, as well as their intricate relationships. We uncover these relationships within the proposed bowtie model and beyond to its sociotechnical ecosystem, through a mixed-methods explanatory study, that exploits a political discourse analysis tool (integrating ChatGPT), by exploring and responding to the next critical questions: 1) How do trustor’s contextual factors influence trust-related actions? 2) How do these factors influence and interact with trustee systemic elements? 3) How does trust itself vary across trustee systemic elements? Our bowtie-based explanatory analysis reveals that past experiences and familiarity significantly shape trustor’s trust-related actions; not all trustor contextual factors equally influence trustee systemic elements; and trustee’s human-in-the-loop features enhance trust, while lack of transparency decreases it. Finally, this solid evidence is exploited to deliver recommendations, insights and pathways towards building robust trusting ecosystems in LLM-based solutions.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732115
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732115
+ER  - 
+
+TY  - CONF
+TI  - Fairness-Guided Pruning of Decision Trees
+AU  - Bagriacik, Meryem
+AU  - Otero, Fernando
+PY  - 2025
+AB  - Decision tree learning is a popular machine learning technique, in particular for applications where the interpretability of the predictions is crucial—such as applications in health and financial domains. When dealing with a large dataset, decision tree algorithms potentially generate a complex model that overfits the training data. In such cases, it becomes challenging for decision trees to maintain an interpretable structure while also identifying potential biases in predictions, raising concerns about poor performance on unseen data. To address this issue, decision trees can be pruned to reduce their size, as a result enhancing interpretability and improving predictive accuracy on new instances through the use of simplified models. However, traditional pruning methods typically focus solely on predictive accuracy, which may inadvertently increase model bias and negatively affect fairness. Moreover, current post-processing fairness techniques often aim to reduce discrimination by modifying the tree’s labels without considering the complexity inherent in large trees. To address these challenges, we propose a novel fairness-guided pruning strategy for decision trees that improves both fairness and interpretability. Computational experiments comparing our proposed strategy with existing methods demonstrate that our fairness-guided pruning achieves a good accuracy-fairness trade-off overall: small reductions in predictive accuracy are associated with improvements in fairness while simplifying the decision tree structure at the same time.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732117
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732117
+ER  - 
+
+TY  - CONF
+TI  - Reflexive Prompt Engineering: A Framework for Responsible Prompt Engineering and AI Interaction Design
+AU  - Djeffal, Christian
+PY  - 2025
+AB  - Responsible prompt engineering has emerged as a critical pracitce for ensuring that generative artificial intelligence (AI) systems are aligned with ethical, legal, and social principles. As generative AI applications become increasingly powerful and ubiquitous, the way we instruct and interact with them through prompts has profound implications for fairness, accountability, and transparency. It is, therefore, necessary to examine how strategic prompt engineering can embed ethical and legal considerations and societal values directly into AI interactions, moving beyond mere technical optimization for functionality. This article proposes “Reflexive Prompt Engineering”, a comprehensive framework for responsible prompt engineering that encompasses five interconnected components: prompt design, system selection, system configuration, performance evaluation, and prompt management. Drawing from empirical evidence, the paper demonstrates how each component can be leveraged to promote improved societal outcomes while mitigating potential risks. The analysis reveals that effective prompt engineering requires a delicate balance between technical precision and ethical consciousness, combining the systematic rigor and focus on functionality with the nuanced understanding of social impact. Through examination of emerging practices, this article illustrates how responsible prompt engineering serves as a crucial connection between AI development and deployment, enabling organizations to align AI outputs without modifying underlying model architectures. This approach links with broader “Responsibility by Design” principles, embedding ethical considerations directly into the implementation process rather than treating them as post-hoc additions. The article concludes by identifying key research directions and practical guidelines for advancing the field of responsible prompt engineering as an essential component of AI literacy.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732118
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732118
+ER  - 
+
+TY  - CONF
+TI  - Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research
+AU  - Mayeda, Cass
+AU  - Singh, Arinjay
+AU  - Mahale, Arnav
+AU  - Sakr, Laila Shereen
+AU  - ElSherief, Mai
+PY  - 2025
+AB  - A growing body of scholarship demonstrates the ways social bias has been and continues to be embedded in Natural Language Processing (NLP) technologies. Still, a gap remains between these interventions and the field at large. To gain an overarching view of the field of NLP research as it addresses (or fails to address) social bias, we developed a codebook to evaluate how papers position datasets based on the principles of data feminism. We use this codebook to score a random sample of papers from many different topics of NLP research in Arabic and English. Our results indicate that most papers do not sufficiently address social bias (scoring near a 1 on average in our five-point scales), but a small subset making ethical interventions score very high. Using insights from the codebook development and scoring processes, we present a prototype interactive form for generating standardized bias reports for NLP datasets.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732119
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732119
+ER  - 
+
+TY  - CONF
+TI  - The Medium is the Message: How Non-Clinical Information Shapes Clinical Decisions in LLMs
+AU  - Gourabathina, Abinitha
+AU  - Gerych, Walter
+AU  - Pan, Eileen
+AU  - Ghassemi, Marzyeh
+PY  - 2025
+AB  - The integration of large language models (LLMs) into clinical diagnostics necessitates a careful understanding of how clinically irrelevant aspects of user inputs directly influence generated treatment recommendations and, consequently, clinical outcomes for end-users. Building on prior research that examines the impact of demographic attributes on clinical LLM reasoning, this study explores how non-clinically relevant attributes shape clinical decision-making by LLMs. Through the perturbation of patient messages, we evaluate whether LLM behavior remains consistent, accurate, and unbiased when non-clinical information is altered. These perturbations assess the brittleness of clinical LLM reasoning by replicating structural errors that may occur during electronic data processing patient questions and simulating interactions between patient-AI systems in diverse, vulnerable patient groups. Our findings reveal notable inconsistencies in LLM treatment recommendations and significant degradation of clinical accuracy in ways that reduce care allocation to patients. Additionally, there are significant disparities in treatment recommendations between gender subgroups as well as between model-inferred gender subgroups. We also apply our perturbation framework to a conversational clinical dataset to find that even in conversation, LLM clinical accuracy decreases post-perturbation, and disparities exist in how perturbations impact gender subgroups. By analyzing LLM outputs in response to realistic yet modified clinical contexts, our work deepens understanding of the sensitivity, inaccuracy, and biases inherent in medical LLMs, offering critical insights for the deployment of patient-AI systems. Our code is available here .
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732121
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732121
+ER  - 
+
+TY  - CONF
+TI  - Achieving Socio-Economic Parity through the Lens of EU AI Act
+AU  - Roy, Arjun
+AU  - Rizou, Stavroula
+AU  - Papadopoulos, Symeon
+AU  - Ntoutsi, Eirini
+PY  - 2025
+AB  - Unfair treatment and discrimination are critical ethical concerns in AI systems, particularly as their adoption expands across diverse domains. Addressing these challenges, the recent introduction of the EU AI Act establishes a unified legal framework to ensure legal certainty for AI innovation and investment while safeguarding public interests, such as health, safety, fundamental rights, democracy, and the rule of law (Recital 8). The Act encourages stakeholders to initiate dialogue based on existing AI fairness notions to address discriminatory outcomes of AI systems. However, these fairness notions often overlook the critical role of Socio-Economic Status (SES) and fail to capture the compounded effects of economic privilege, inadvertently perpetuating biases that favour the economically advantaged. This oversight is particularly concerning given that the principles of equalization advocate for equalizing resources or opportunities to mitigate disadvantages beyond an individual’s control. While provisions for discrimination are laid down in the AI Act, specialized directions should be broadened, particularly in addressing economic disparities perpetuated by AI systems. In this work, we explore the limitations of popular AI fairness notions using a real-world dataset (Adult), highlighting their limitations, particularly their inability to address SES-driven disparities. To address this gap, we propose a novel fairness notion, Socio-Economic Parity (SEP), which incorporates SES and promotes positive actions for underprivileged groups while accounting for factors within individual’s control, such as working hours, which can serve as a proxy for effort. We define a corresponding fairness measure based on this notion, and optimize a model constrained by SEP to demonstrate its practical utility. Our empirical results demonstrate the effectiveness of our approach in mitigating SES-driven biases. By analyzing the AI Act with our method, we lay a foundation for aligning AI fairness with SES factors while ensuring legal compliance in AI decisions.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732125
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732125
+ER  - 
+
+TY  - CONF
+TI  - Uncovering the Linguistic Roots of Bias: Insights and Mitigation in Large Language Models
+AU  - Benson, Lauren
+AU  - Okutan, Ahmet
+AU  - Vasan, Roopa
+PY  - 2025
+AB  - The complexity, diversity, and opacity of large language models (LLMs) present significant challenges in ensuring fairness and trustworthiness. While existing research has made strides in creating interpretable and controllable models, there remains a critical need for generalizable and real-world-applicable bias mitigation solutions. In this work, we propose a novel methodology that bridges the gap between linguistic capabilities and biased behavior, uncovering and leveraging hidden correlations to mitigate bias holistically. By analyzing the interplay between unrelated linguistic features and bias benchmarks, we identify natural language understanding (NLU) tasks that significantly influence biased behavior. This insight enables the creation of bias-mitigated models through a multi-task learning framework that augments behavior with minimal performance trade-offs. Our findings reveal that (1) specific NLU capabilities correlate with multiple perspectives of biased behavior, and (2) these relationships can be applied to mitigate bias without sacrificing model accuracy. In a real-world domain-specific application, according to the Aequitas disparity measures using client-provided demographic labels, our method reduced gender and age bias by 14\% and 11\%, respectively, with only a 0.03\% decrease in Micro-F1 score. This approach introduces a scalable, generalized pathway for addressing systemic biases in LLMs, demonstrating the potential to improve fairness and trustworthiness in AI systems across diverse and sensitive applications.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732127
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732127
+ER  - 
+
+TY  - CONF
+TI  - “Cold, Calculated, and Condescending”: How AI Identifies and Explains Ableism Compared to Disabled People
+AU  - Phutane, Mahika
+AU  - Seelam, Ananya
+AU  - Vashistha, Aditya
+PY  - 2025
+AB  - People with disabilities (PwD) regularly encounter ableist hate and microaggressions online. These spaces are generally moderated by machine learning models, but little is known about how effectively AI models identify ableist speech and how well their judgments align with PwD. To investigate this, we curated a first-of-its-kind dataset of 200 social media comments targeted towards PwD, and prompted state-of-the art AI models (i.e., Toxicity Classifiers, LLMs) to score toxicity and ableism for each comment, and explain their reasoning. Then, we recruited 190 participants to similarly rate and explain the harm, and evaluate LLM explanations. Our mixed-methods analysis highlighted a major disconnect: AI underestimated toxicity compared to PwD ratings, while its ableism assessments were sporadic and varied. Although LLMs identified some biases, its explanations were flawed—they lacked nuance, made incorrect assumptions, and appeared judgmental instead of educational. Going forward, we discuss challenges and opportunities in designing moderation systems for ableism, and advocate for the involvement of intersectional disabled perspectives in AI.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732128
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732128
+ER  - 
+
+TY  - CONF
+TI  - DeceptiLens: an Approach supporting Transparency in Deceptive Pattern Detection based on a Multimodal Large Language Model
+AU  - Kocyigit, Emre
+AU  - Rossi, Arianna
+AU  - Sergeeva, Anastasia
+AU  - Negri Ribalta, Claudia
+AU  - Farjami, Ali
+AU  - Lenzini, Gabriele
+PY  - 2025
+AB  - To detect deceptive design patterns on UIs, traditional artificial intelligence models, such as machine learning, have limited coverage and a lack of multimodality. In contrast, the capabilities of Multimodal Large Language Model (MM-LLM) can achieve wider coverage with superior performance in the detection, while providing reasoning behind each decision. We propose and implement an MM-LLM-based approach (DeceptiLens) that analyzes UIs and assesses the presence of deceptive design patterns. We utilize Retrieval Augmented Generation (RAG) process in our design and task the model with capturing the deceptive patterns, classifying its category, e.g., false hierarchy, confirmshaming, etc., and explaining the reasoning behind the classifications by employing recent prompt engineering techniques, such as Chain-of-Thought (CoT). We first create a dataset by collecting UI screenshots from the literature and web sources and quantify the agreement between the model’s outputs and a few experts’ opinions. We additionally ask experts to gauge the transparency of the system’s explanations for its classifications in terms of recognized metrics of clarity, correctness, completeness, and verifiability. The results indicate that our approach is capable of capturing the deceptive patterns in UIs with high accuracy while providing clear, correct, complete, and verifiable justifications for its decisions. We additionally release two curated datasets, one with expert-labeled UIs with deceptive design patterns, and one with AI-based generated explanations. Lastly, we propose recommendations for future improvement of the approach in various contexts of use.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732129
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732129
+ER  - 
+
+TY  - CONF
+TI  - Now you see it, Now you don’t: Damage Label Agreement in Drone \&amp; Satellite Post-Disaster Imagery
+AU  - Manzini, Thomas
+AU  - Perali, Priyankari
+AU  - Tripathi, Jayesh
+AU  - Murphy, Robin R.
+PY  - 2025
+AB  - This paper audits damage labels derived from coincident satellite and drone aerial imagery for 15,814 buildings across Hurricanes Ian, Michael, and Harvey, finding 29.02\% label disagreement and significantly different distributions between the two sources, which presents risks and potential harms during the deployment of machine learning damage assessment systems. Currently, there is no known study of label agreement between drone and satellite imagery for building damage assessment. The only prior work that could be used to infer if such imagery-derived labels agree is limited by differing damage label schemas, misaligned building locations, and low data quantities. This work overcomes these limitations by comparing damage labels using the same damage label schemas and building locations from three hurricanes, with the 15,814 buildings representing 19.05 times more buildings considered than the most relevant prior work. The analysis finds satellite-derived labels significantly under-report damage by at least 20.43\% compared to drone-derived labels (p&lt;1.2x10-117), and satellite- and drone-derived labels represent significantly different distributions (p&lt;5.1x10-175). This indicates that computer vision and machine learning (CV/ML) models trained on at least one of these distributions will misrepresent actual conditions, as the differing satellite and drone-derived distributions cannot simultaneously represent the distribution of actual conditions in a scene. This potential misrepresentation poses ethical risks and potential societal harm if not managed. To reduce the risk of future societal harms, this paper offers four recommendations to improve reliability and transparency to decision-makers when deploying CV/ML damage assessment systems in practice.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732135
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732135
+ER  - 
+
+TY  - CONF
+TI  - Distributive Epistemic Injustice in AI Ethics: A Co-productionist Account of Global North-South Politics in Knowledge Production
+AU  - Safir, Abdullah Hasan
+AU  - McInerney, Kerry
+AU  - Blackwell, Alan F.
+AU  - Debnath, Ramit
+PY  - 2025
+AB  - In this study, we analyse a comprehensive database (from 1960 to June 2024) of scientific publications in AI Ethics (n= 5755) using Web of Science (WoS) as a data source, to generate quantitative insights around the research trends within the field. We systematically curate the initial data to conduct a co-authorship and co-citation analysis with highly cited research outputs (n = 500) and a co-word analysis with most relevant research outputs (n = 1000). These bibliometric analyses result in multiple networked visualisations that map the status quo and the nature of current citational and collaborative practices among the experts, institutions and countries involved in global AI Ethics research. Using Sheila Jasanoff’s co-production theory as a conceptual lens, we analyse these findings and show that the experts from the Global North currently legitimise their expertise in AI Ethics through dynamic citational and collaborative practices in knowledge production within the field. Collectively, they shape the discourses and institutional ways of understanding around the ethical development of AI technologies worldwide. This techno-politics of knowledge-making in AI Ethics culminates in creating epistemic injustice for the Global South. Drawing from Miranda Fricker and prominent feminist and postcolonial theorists, we explain how such injustice is produced and distributed through patterned pathways of co-production of AI Ethics. Thus, we show that the global project of AI Ethics fails to deliver its promise to be universally useful by keeping the global majority populations in the Southern regions marginalized as ‘others’.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732136
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732136
+ER  - 
+
+TY  - CONF
+TI  - The Value of Disagreement in AI Design, Evaluation, and Alignment
+AU  - Fazelpour, Sina
+AU  - Fleisher, Will
+PY  - 2025
+AB  - Disagreements are widespread across the design, evaluation, and alignment pipelines of artificial intelligence (AI) systems. Yet, standard practices in AI development often obscure or eliminate disagreement, resulting in an engineered homogenization that can be epistemically and ethically harmful, particularly for marginalized groups. In this paper, we characterize this risk, and develop a normative framework to guide practical reasoning about disagreement in the AI lifecycle. Our contributions are two-fold. First, we introduce the notion of perspectival homogenization, characterizing it as a coupled ethical-epistemic risk that arises when an aspect of an AI system’s development unjustifiably suppresses disagreement and diversity of perspectives. We argue that perspectival homogenization is best understood as a procedural risk, which calls for targeted interventions throughout the AI development pipeline. Second, we propose a normative framework to guide such interventions, grounded in lines of research that explain why disagreement can be epistemically beneficial, and how its benefits can be realized in practice. We apply this framework to key design questions across three stages of AI development tasks: when disagreement is epistemically valuable; whose perspectives should be included and preserved; how to structure tasks and navigate trade-offs; and how disagreement should be documented and communicated. In doing so, we challenge common assumptions in AI practice, offer a principled foundation for emerging participatory and pluralistic approaches, and identify actionable pathways for future work in AI design and governance.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732146
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732146
+ER  - 
+
+TY  - CONF
+TI  - Location matching on shaky grounds: Re-evaluating algorithms for refugee allocation
+AU  - Strasser Ceballos, Clara
+AU  - Kern, Christoph
+PY  - 2025
+AB  - The initial location to which refugees are assigned upon arrival in a host country plays a key role in their integration. Several research groups have developed tools to optimize refugee-location matching, with the overall aim of improving refugees’ integration outcomes. Four primary tools are already being piloted across various countries: GeoMatch, Annie™ Moore, Match’In, and Re:Match. The first two tools combine supervised machine learning with optimal matching techniques, while the latter two rely on heuristic methods to match refugee preferences with suitable locations. These tools are used in a highly sensitive context and directly impact human lives. It is, therefore, not only desirable but critical to (re-)evaluate them through the lens of algorithmic fairness. We contribute in three key aspects: First, we provide a comprehensive overview and systematization of the tools aimed at the algorithmic fairness community. Second, we identify sources of biases along the tool design stages that can contribute to disparate impacts downstream. Finally, we simulate the application of the GeoMatch tool using German survey data to empirically illustrate the impact of target variable choice on matching outcomes. While GeoMatch optimizes economic integration, we demonstrate that the integration gains differ substantially when social integration is prioritized instead. With our use case, we highlight the susceptibility of algorithmic matching tools to design decisions such as the operationalization of the integration outcome and emphasize the need for more holistic evaluations of their social impacts.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732149
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732149
+ER  - 
+
+TY  - CONF
+TI  - Crossing Boundaries: Leveraging Semantic Divergences to Explore Cultural Novelty in Cooking Recipes
+AU  - Carichon, Florian
+AU  - Rampa, Romain
+AU  - Farnadi, Golnoosh
+PY  - 2025
+AB  - Novelty modeling and detection is a core topic in Natural Language Processing (NLP), central to numerous tasks such as recommender systems and automatic summarization. It involves identifying pieces of text that deviate in some way from previously known information. However, novelty is also a crucial determinant of the unique perception of relevance and quality of an experience, as it rests upon each individual’s understanding of the world. Social factors, particularly cultural background, profoundly influence perceptions of novelty and innovation. Cultural novelty arises from differences in salience and novelty as shaped by the distance between distinct communities. While cultural diversity has garnered increasing attention in artificial intelligence (AI), the lack of robust metrics for quantifying cultural novelty hinders a deeper understanding of these divergences. This gap limits quantifying and understanding cultural differences within computational frameworks. To address this, we propose an interdisciplinary framework that integrates knowledge from sociology and management. Central to our approach is GlobalFusion, a novel dataset comprising 500 dishes and approximately 100,000 cooking recipes capturing cultural adaptation from over 150 countries. By introducing a set of Jensen-Shannon Divergence metrics for novelty, we leverage this dataset to analyze textual divergences when recipes from one community are modified by another with a different cultural background. The results reveal significant correlations between our cultural novelty metrics and established cultural measures based on linguistic, religious, and geographical distances. Our findings highlight the potential of our framework to advance the understanding and measurement of cultural diversity in AI.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732150
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732150
+ER  - 
+
+TY  - CONF
+TI  - Towards Uncertainty Aware Task Delegation and Human-AI Collaborative Decision-Making
+AU  - Lee, Min Hun
+AU  - Tok, Martyn Zhe Yu
+PY  - 2025
+AB  - Despite the growing promise of artificial intelligence (AI) in supporting decision-making across domains, fostering appropriate human reliance on AI remains a critical challenge. In this paper, we investigate the utility of exploring distance-based uncertainty scores for task delegation to AI and describe how these scores can be visualized through embedding representations for human-AI decision-making. After developing an AI-based system for physical stroke rehabilitation assessment, we conducted a study with 19 health professionals and 10 students in medicine/health to understand the effect of exploring distance-based uncertainty scores on users’ reliance on AI. Our findings showed that distance-based uncertainty scores outperformed traditional probability-based uncertainty scores in identifying uncertain cases. In addition, after exploring confidence scores for task delegation and reviewing embedding-based visualizations of distance-based uncertainty scores, participants achieved an 8.20\% higher rate of correct decisions, a 7.15\% higher rate of changing their decisions to correct ones, and a 7.14\% lower rate of incorrect changes after reviewing AI outputs than those reviewing probability-based uncertainty scores (p &lt; 0.01). Our findings highlight the potential of distance-based uncertainty scores to enhance decision accuracy and appropriate reliance on AI while discussing ongoing challenges for human-AI collaborative decision-making.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732155
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732155
+ER  - 
+
+TY  - CONF
+TI  - Agent Allocation of Moral Decisions in Human-Agent Teams: Raise Human Involvement and Explain Potential Consequences
+AU  - Verhagen, Ruben S.
+AU  - Neerincx, Mark A.
+AU  - Tielman, Myrthe L.
+PY  - 2025
+AB  - Humans and artificial intelligence agents increasingly collaborate in morally sensitive situations such as firefighting. These agents can often perform tasks with minimal human control, challenging accountability and responsibility. Combining higher agent autonomy levels with meaningful human control can address such challenges. For example, agents can allocate decisions to themselves in less morally sensitive situations and to humans in more sensitive ones. However, how to responsibly and effectively design and implement agents for this dynamic task allocation remains unclear, with their autonomy level and provided explanations being crucial considerations. Therefore, we conducted experiments in simulated firefighting environments where participants (n = 72) collaborated with a more and less autonomous artificial moral agent. These agents provided no additional information, feature contributions, or potential consequences when allocating decision-making. Our results show that moral trust, agreement, and meaningful human control are higher when the agent is less autonomous. Furthermore, people disagree and reallocate decisions to themselves more when the agents explain potential consequences, especially when moral sensitivity is higher. Overall, our findings highlight that people prefer more involvement over higher agent autonomy and take on greater moral responsibility when agents explain potential consequences. These actionable insights are crucial for designing transparent artificial moral agents that enhance human moral awareness and responsibility. Ultimately, this supports the responsible implementation of dynamic task allocation in practice and enhances human-agent collaboration in morally sensitive situations.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732157
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732157
+ER  - 
+
+TY  - CONF
+TI  - Exploring Language Patterns of Prompts in Text-to-Image Generation and Their Impact on Visual Diversity
+AU  - De Rosa Palmini, Maria-Teresa
+AU  - Cetinic, Eva
+PY  - 2025
+AB  - Following the initial excitement, Text-to-Image (TTI) models are now being examined more critically. While much of the discourse has focused on biases and stereotypes embedded in large-scale training datasets, the sociotechnical dynamics of user interactions with these models remain underexplored. This study examines the linguistic and semantic choices users make when crafting prompts and how these choices influence the diversity of generated outputs. Analyzing over six million prompts from the Civiverse dataset on the CivitAI platform across seven months, we categorize users into three groups based on their levels of linguistic experimentation: consistent repeaters, occasional repeaters, and non-repeaters. Our findings reveal that as user participation grows over time, prompt language becomes increasingly homogenized through the adoption of popular community tags and descriptors, with repeated prompts comprising 40\%–50\% of submissions. At the same time, semantic similarity and topic preferences remain relatively stable, emphasizing common subjects and surface aesthetics. Using Vendi scores to quantify visual diversity, we demonstrate a clear correlation between lexical similarity in prompts and the visual similarity of generated images, showing that linguistic repetition reinforces less diverse representations. These findings highlight the significant role of user-driven factors in shaping AI-generated imagery, beyond inherent model biases, and underscore the need for tools and practices that encourage greater linguistic and thematic experimentation within TTI systems to foster more inclusive and diverse AI-generated content.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732158
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732158
+ER  - 
+
+TY  - CONF
+TI  - Nteasee: Understanding Needs in AI for Health in Africa - A Mixed-Methods Study of Expert and General Population Perspectives
+AU  - Asiedu, Mercy
+AU  - Haykel, Iskandar
+AU  - Dieng, Awa
+AU  - Kauer, Kerrie
+AU  - Ahmed, Tousif
+AU  - Ofori, Florence
+AU  - Chan, Charisma
+AU  - Pfohl, Stephen
+AU  - Rostamzadeh, Negar
+AU  - Heller, Katherine
+PY  - 2025
+AB  - Artificial Intelligence (AI) for health has the potential to significantly change and improve healthcare. However in most African countries, identifying culturally and contextually attuned approaches for deploying these solutions is not well understood. To bridge this gap, we conduct a qualitative study to investigate the best practices, fairness indicators, and potential biases to mitigate when deploying AI for health in African countries. Additionally, we explore opportunities where AI could make a positive impact in health. We use a mixed-methods approach combining in-depth interviews (IDIs) and surveys. We conduct 1.5-2 hour long IDIs with 50 experts in health, policy, and AI across 17 countries, and, through an inductive approach, we conduct a qualitative thematic analysis on expert IDI responses. We administer a blinded 30-minute survey with case studies to 672 general population participants across 5 countries in Africa (Ghana, South Africa, Rwanda, Kenya and Nigeria), and analyze responses on quantitative scales, statistically comparing responses by country, age, gender, and level of familiarity with AI. We thematically summarize open-ended responses from surveys. Our results find generally positive attitudes, high levels of trust, accompanied by moderate levels of concern among general population participants for AI usage for health in Africa. This contrasts with expert responses, where major themes revolved around trust/mistrust, ethical concerns, and systemic barriers to integration, among others. This work presents the first-of-its-kind qualitative research study of the potential of AI for health in Africa from an algorithmic fairness angle, with perspectives from both experts and the general population. We hope that this work guides policymakers and drives home the need for further research and the inclusion of general population perspectives in decision-making around AI usage.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732160
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732160
+ER  - 
+
+TY  - CONF
+TI  - Blind Faith? User Preference and Expert Assessment of AI-Generated Religious Content
+AU  - Alam, Sabriya Maryam
+AU  - Abdulhai, Marwa
+AU  - Salehi, Niloufar
+PY  - 2025
+AB  - The increasing use of AI tools like ChatGPT for religious information-seeking among Muslims raises critical questions about the intersection of technology, faith, and expertise. This mixed-methods study investigates user and expert evaluations of AI-generated religious content, through both quantitative and qualitative analysis of user preferences and expert feedback elicited through interviews, surveys, and expert consultations. Our findings reveal a significant disconnect: despite expressing distrust in AI for religious guidance and stating a preference for scholarly answers, Muslim users overwhelmingly preferred AI-generated responses to Islamic questions in blind evaluations, favoring them in 81.3\% of cases. Quantitative analysis showed significant differences in ratings, including along dimensions of perceived accuracy, usefulness, completeness, and clarity. AI answers were also rated more favorably when the source was unknown, compared to when it was known. This positive sentiment persisted with source awareness, when users asked AI their own religious questions and evaluated the responses as high quality. However, expert evaluations revealed critical deficiencies in AI responses, highlighting users’ limited ability to recognize such shortcomings. These findings suggest the need to move beyond purely user-centric approaches to AI alignment in sensitive domains, prioritizing both user and expert values in future LLM development.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732162
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732162
+ER  - 
+
+TY  - CONF
+TI  - Is It Fair Enough? Supporting Equitable Group Work Assignment with Work Division Dashboard
+AU  - Liang, Jia-Wei
+AU  - Wang, Hao-Chuan
+PY  - 2025
+AB  - Uneven work division and assignment can demotivate group members as no matter how much workers contribute individually, the entire group can end up with sharing the same under-performing outcome, rendering individual contributions invisible and unaccountable. Although fair division of outcomes or costs has been studied extensively as an optimization or economic problem, there is limited understanding of how group members perceive work division in collaborative settings and how to better support fair negotiations that would encourage taking individual differences and equity in consideration. In this paper, we propose supporting fair work assignments in groups with a group support interface, designed as a work division dashboard, that displays information on (1) parity of division: system recommendation of how to equally divide work (which may not be equitable), and (2) individual accountability in group work: visualization providing the awareness of how individual members’ contributions added up as group outcome. We recruit 60 participants to play a Group Tetris game and negotiate work division using the supporting interface, offering understandings of how offering information of equal division and individual accountability affect fairness perceptions, group productivity, and the adoption of more equitable strategies in work assignment.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732163
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732163
+ER  - 
+
+TY  - CONF
+TI  - Neglected Risks: The Disturbing Reality of Children’s Images in Datasets and the Urgent Call for Accountability
+AU  - Caetano, Carlos
+AU  - Santos, Gabriel O. dos
+AU  - Petrucci, Caio
+AU  - Barros, Artur
+AU  - Laranjeira, Camila
+AU  - Ribeiro, Leo Sampaio Ferraz
+AU  - de Mendon\c{c}a, J\'{u}lia Fernandes
+AU  - dos Santos, Jefersson A.
+AU  - Avila, Sandra
+PY  - 2025
+AB  - Including children’s images in datasets has raised ethical concerns, particularly regarding privacy, consent, data protection, and accountability. These datasets, often built by scraping publicly available images from the Internet, can expose children to risks such as exploitation, profiling, and tracking. Despite the growing recognition of these issues, approaches for addressing them remain limited. We explore the ethical implications of using children’s images in AI datasets and propose a pipeline to detect and remove such images. As a use case, we built the pipeline on a Vision-Language Model under the Visual Question Answering task and tested it on the #PraCegoVer dataset. We also evaluate the pipeline on a subset of 100,000 images from the Open Images V7 dataset to assess its effectiveness in detecting and removing images of children. The pipeline serves as a baseline for future research, providing a starting point for more comprehensive tools and methodologies. While we leverage existing models trained on potentially problematic data, our goal is to expose and address this issue. We do not advocate for training or deploying such models, but instead call for urgent community reflection and action to protect children’s rights. Ultimately, we aim to encourage the research community to exercise — more than an additional — care in creating new datasets and to inspire the development of tools to protect the fundamental rights of vulnerable groups, particularly&nbsp;children.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732166
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732166
+ER  - 
+
+TY  - CONF
+TI  - Discrimination Exposed? On the Reliability of Explanations for Discrimination Detection
+AU  - Skirzynski, Julian
+AU  - Danks, David
+AU  - Ustun, Berk
+PY  - 2025
+AB  - Many rules and regulations in areas such as lending or hiring cast explanations as a safeguard against algorithmic discrimination. The underlying assumption is that, for a given model, individuals could inspect explanations of predictions to contest discriminatory outcomes or flag the model as biased. This is a common-sense assumption that is easy to comply with. However, it is also very difficult to corroborate because it relies on unverifiable causal assumptions about which variables constitute proxies, and how the proxies affect the outcome variable. In order to make accurate claims, individuals must assume what these relationships are and be able to detect the proxies and their influence on predictions from the explanations. In this work, we study whether explanations help users detect algorithmic discrimination. We formalize the problem of detecting discrimination and introduce a synthetic robot classification task with known discrimination labels, overcoming real-world limitations where ground truth is unknown. We then design a user study that validates participants’ understanding of explanations, protected attributes, proxies, and their causal strength, and isolates the utility of explanations. Our results show that human experts cannot reliably use explanations to flag discriminatory predictions irrespective of how much information about the predictions they have. Because the reliability of detection is low even under idealized conditions, these findings underscore the need for alternative anti-discrimination safeguards in practical settings.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732167
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732167
+ER  - 
+
+TY  - CONF
+TI  - Performance Differentials in Deployed Biometric Systems Caused by Open-Source Face Detectors
+AU  - Cook, Cynthia M.
+AU  - Cuffney, Laurie
+AU  - Howard, John J.
+AU  - Sirotin, Yevgeniy B.
+AU  - Tipton, Jerry L.
+AU  - Vemury, Arun R.
+PY  - 2025
+AB  - Testing of AI systems is important for ensuring accuracy and reliability. In this study, we demonstrate how scenario testing with demographically varied subjects, a form of prospective testing that simulates real-world conditions, revealed significant performance issues in biometric systems prior to broad deployment. Using generalized linear modeling, we show that subjects’ measured skin lightness, along with other demographic factors, significantly impacted the probability of failure to detect a face. Failure rates increased from just  (0.28\%)  for subjects with the lightest skin in our sample to  (24.34\%)  for subjects with the darkest, controlling for other factors. We show that skin lightness, rather than self-reported race, best explained the differences in system performance. We trace these issues to widely used, older methods in open-source packages for face detection. Furthermore, this demographic differential is not observed when testing open-source packages using a different, more curated dataset. Our results highlight the need to evaluate full multi-component, operationally deployed AI systems and the role of scenario testing as a critical component of AI governance. One way to mitigate the likelihood that poor-performing, older open source methods are deployed in an operational system would be to deprecate these functions in favor of higher-performing alternatives. Prospective assessments of AI, in real-world use cases with demographically varied subjects, should be used to identify performance issues before these systems are operationalized.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732171
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732171
+ER  - 
+
+TY  - CONF
+TI  - The Hard Problem of AI Alignment: Value Forks in Moral Judgment
+AU  - Kneer, Markus
+AU  - Viehoff, Juri
+PY  - 2025
+AB  - Complex moral trade-offs are a basic feature of human life: for example, confronted with scarce medical resources, doctors must frequently choose who amongst equally deserving candidates receives medical treatment. But choosing what to do in moral trade-offs is no longer a ‘humans-only’ task, but often falls to AI agents. In this article, we report findings from a series of experiments (N=1029) intended to establish whether agent-type (Human vs. AI) matters for what should be done in moral trade-offs. We find that, relative to a human decision-maker, participants more often judge that AI agents should opt for fairness at the expense of maximizing utility. In our discussion, we explain how the reported differences (we call them agent-type ‘value forks’) matters for the study of moral value alignment, and we hypothesize what could explain these value forks. We close by reflecting on limits of our results and indicate avenues of further research.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732174
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732174
+ER  - 
+
+TY  - CONF
+TI  - Do People Think Fast or Slow When Training AI?
+AU  - S.Treiman, Lauren
+AU  - Ho, Chien-Ju
+AU  - Kool, Wouter
+PY  - 2025
+AB  - Artificial intelligence (AI) plays a crucial role in decision making. In doing so, it often learns to make choices from human behavior, assuming that people provide unbiased training data. However, studies show that people change their behavior when they are aware they are training AI. It remains unknown whether these modifications are intuitive, driven by social norms, or deliberate, aimed at maximizing personal gain. Across three experiments, we investigated the extent people deliberate when training AI using the ultimatum game. In this game, participants decided whether to accept monetary rewards. Some participants were informed they would train an AI to respond to their or other participants’ proposals made in a follow-up session, while others were not. Those training AI could intuitively reject unfair offers or deliberately accept them to maximize current and future rewards. We found that participants rejected unfair offers, suggesting they were more inclined to rely on intuition when training AI. This reveals that people often embed their biases into AI, posing a challenge for AI designed to make optimal decisions.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732177
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732177
+ER  - 
+
+TY  - CONF
+TI  - Our Collective Voices: The Social and Technical Values of a Grassroots Chinese Stuttered Speech Dataset
+AU  - Li, Jingjin
+AU  - Li, Qisheng
+AU  - Gong, Rong
+AU  - Wang, Lezhi
+AU  - Wu, Shaomei
+PY  - 2025
+AB  - The lack of authentic stuttered speech data has significantly limited the development of stuttering friendly automatic speech recognition (ASR) models. In previous work, we collaborated with StammerTalk, a grassroots community of Chinese-speaking people who stutter (PWS), to collect the first stuttered speech dataset in Mandarin Chinese, containing 50 hours of conversational and command-recitation speech from 72 PWS. This work examines both the technical and social dimensions of the dataset. Through quantitative and qualitative analysis, as well as benchmarking and fine-tuning ASR models using the dataset, we demonstrate its technical value in capturing stuttered speech at an unprecedented scale and diversity – enabling better understanding and mitigation of fluency bias in ASR – and its social value in promoting self-advocacy and structural change for PWS in China. By foregrounding lived experiences of PWS in their own voices, we also see the potential of this dataset to normalize speech disfluencies and cultivate deeper empathy for stuttering within the AI research community.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732179
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732179
+ER  - 
+
+TY  - CONF
+TI  - Beyond Semantics: Examining Gender Bias in LLMs Deployed within Low-resource Contexts in India
+AU  - Aneja, Urvashi
+AU  - Gupta, Aarushi
+AU  - Vashistha, Aditya
+PY  - 2025
+AB  - Like many other countries, India has witnessed a surge in LLM-based applications and initiatives, with multiple players directing their efforts towards building and customising LLMs more suited to the country’s socio-demographic characteristics. However, concomitant to the rise in the popularity of LLMs, numerous studies and anecdotes highlighting various harms such as misinformation, discrimination, and bias have emerged. Gender bias in LLMs – defined as the tendency of these models to reflect and perpetuate stereotypes, inequalities, or prejudices based on gender – has received significant scholarly attention in the last few years. However, only a handful of studies have analysed this issue against the backdrop of India’s sociocultural setting, and almost none (to the best of our knowledge) have looked at it in relation to critical social sectors. We therefore undertake an exploratory study to understand the different sources and manifestations of gender biases in LLMs customised for Indian languages and deployed in resource-constrained settings. Through detailed key informant interviews with LLM application developers, field visits to deployment and testing sites, prompting exercises, and expert workshops, we unpack gender-related concerns that emerge at each stage of the LLM lifecycle. In this, we shift away from a narrow construct that views gender bias in LLMs solely as prejudiced semantics fixable through improved engineering. Instead, we recognise it as a reflection of broader, structural inequities that demand a more grounded, interdisciplinary effort to both understand and address.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732180
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732180
+ER  - 
+
+TY  - CONF
+TI  - Detecting Linguistic Indicators for Stereotype Assessment with Large Language Models
+AU  - G\"{o}rge, Rebekka
+AU  - Mock, Michael
+AU  - Allende-Cid, H\'{e}ctor
+PY  - 2025
+AB  - Social categories and stereotypes embedded in language can introduce data bias into the training of Large Language Models (LLMs). Despite safeguards, these biases often persist in model behavior, potentially leading to representational harm in outputs. While sociolinguistic research provides valuable insights into the formation and spread of stereotypes, NLP approaches for bias evaluation rarely draw on this foundation and often lack objectivity, precision, and interpretability. To fill this gap, we propose a new approach to assess stereotypes by detecting and quantifying the linguistic indication of a stereotype. We derive linguistic indicators from the Social Category and Stereotype Communication (SCSC) framework indicating strong social category formulation and stereotyping in language, and use them to build a categorization scheme. We use in-context learning to instruct LLMs to examine the linguistic properties of a sentence containing stereotypes, providing a basis for a fine-grained stereotype assessment. We develop a scoring function to measure linguistic indicators of stereotypes based on empirical evaluation. Our annotations of stereotyped sentences reveal that these linguistic indicators explain the strength of a stereotype. The models perform well in detecting and classifying linguistic indicators used to denote a category, but sometimes struggle with accurately evaluating the described associations. The use of more few-shot examples significantly improves the performance. Model performance increases with size, as Llama-3.3-70B-Instruct and GPT-4 achieve comparable results that surpass those of Mixtral-8x7B-Instruct, GPT-4-mini and Llama-3.1-8B-Instruct_4bit. Code and annotations can be found in https://github.com/r-goerge/Detecting-Linguistic-Indicators-for-Stereotype-Assessment-with-LLMs.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732181
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732181
+ER  - 
+
+TY  - CONF
+TI  - Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese
+AU  - Lyu, Hanjia
+AU  - Luo, Jiebo
+AU  - Kang, Jian
+AU  - Koenecke, Allison
+PY  - 2025
+AB  - While the capabilities of Large Language Models (LLMs) have been studied in both Simplified and Traditional Chinese, it is yet unclear whether LLMs exhibit differential performance when prompted in these two variants of written Chinese. This understanding is critical, as disparities in the quality of LLM responses can perpetuate representational harms by ignoring the different cultural contexts underlying Simplified versus Traditional Chinese, and can exacerbate downstream harms in LLM-facilitated decision-making in domains such as education or hiring. To investigate potential LLM performance disparities, we design two benchmark tasks that reflect real-world scenarios: regional term choice (prompting the LLM to name a described item which is referred to differently in Mainland China and Taiwan), and regional name choice (prompting the LLM to choose who to hire from a list of names in both Simplified and Traditional Chinese). For both tasks, we audit the performance of 11 leading commercial LLM services and open-sourced models—spanning those primarily trained on English, Simplified Chinese, or Traditional Chinese. Our analyses indicate that biases in LLM responses are dependent on both the task and prompting language: while most LLMs disproportionately favored Simplified Chinese responses in the regional term choice task, they surprisingly favored Traditional Chinese names in the regional name choice task. We find that these disparities may arise from differences in training data representation, written character preferences, and tokenization of Simplified and Traditional Chinese. These findings highlight the need for further analysis of LLM biases; as such, we provide an open-sourced benchmark dataset to foster reproducible evaluations of future LLM behavior across Chinese language variants (https://github.com/brucelyu17/SC-TC-Bench).
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732182
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732182
+ER  - 
+
+TY  - CONF
+TI  - Understanding Gen Alpha's Digital Language: Evaluation of LLM Safety Systems for Content Moderation
+AU  - Mehta, Manisha
+AU  - Giunchiglia, Fausto
+PY  - 2025
+AB  - This research provides a unique assessment of how AI systems interpret Generation Alpha (Gen Alpha, born 2010-2024) digital communication patterns. As the first generation to grow up with AI as part of daily life, Gen Alpha faces unprecedented online vulnerability due to their immersive digital engagement and the growing disconnect between their communication patterns and traditional safety mechanisms. Their distinctive ways of communicating, blending gaming references, memes, and AI-influenced expressions, often obscure concerning interactions from both human moderators and AI safety systems. The study evaluates four leading AI systems’ (GPT-4, Claude, Gemini, and Llama 3) ability to understand and moderate this communication, with particular focus on detecting masked harassment and manipulation that exploit Gen Alpha’s unique linguistic patterns. Through analysis of 100 contemporary Gen Alpha expressions collected from gaming platforms, social media, and video content, significant gaps in AI systems’ comprehension capabilities were found, highlighting critical safety implications. This paper makes four key contributions: (1) a first-of-a-kind dataset of Gen Alpha expressions, (2) a framework for improving AI content moderation systems to better protect young users in digital spaces, (3) a systematic evaluation of understanding of Gen Alpha communication - by AI systems, human moderators and parents - incorporating Gen Alpha direct participation in the research process, and (4) the identification of specific vulnerabilities created by growing linguistic gap between Gen Alpha users and their protectors (both human and AI). The findings highlight an urgent need for improved AI safety systems to better protect young users, especially given Gen Alpha’s tendency to avoid seeking help due to perceived adult incomprehension of their digital world. This research uniquely combines the perspective of a Gen Alpha researcher with rigorous academic analysis to address critical challenges in online safety.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732184
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732184
+ER  - 
+
+TY  - CONF
+TI  - Privacy of Groups in Dense Street Imagery
+AU  - Franchi, Matt
+AU  - Sandhaus, Hauke
+AU  - Choksi, Madiha Zahrah
+AU  - Engelmann, Severin
+AU  - Ju, Wendy
+AU  - Nissenbaum, Helen
+PY  - 2025
+AB  - Spatially and temporally dense street imagery (DSI) datasets have grown unbounded. In 2024, individual companies possessed around 3 trillion unique images of public streets. DSI data streams are only set to grow as companies like Lyft and Waymo use DSI to train autonomous vehicle algorithms and analyze collisions. Academic researchers leverage DSI to explore novel approaches to urban analysis. Despite good-faith efforts by DSI providers to protect individual privacy through blurring faces and license plates, these measures fail to address broader privacy concerns. In this work, we find that increased data density and advancements in artificial intelligence enable harmful group membership inferences from supposedly anonymized data. We perform a penetration test to demonstrate how easily sensitive group affiliations can be inferred from obfuscated pedestrians in 25,232,608 dashcam images taken in New York City. We develop a typology of identifiable groups within DSI and analyze privacy implications through the lens of contextual integrity. Finally, we discuss actionable recommendations for researchers working with data from DSI providers.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732185
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732185
+ER  - 
+
+TY  - CONF
+TI  - XAI-Units: Benchmarking Explainability Methods with Unit Tests
+AU  - Lee, Jun Rui
+AU  - Emami, Sadegh
+AU  - Hollins, Michael David
+AU  - Wong, Timothy C. H.
+AU  - Villalobos S\'{a}nchez, Carlos Ignacio
+AU  - Toni, Francesca
+AU  - Zhang, Dekai
+AU  - Dejl, Adam
+PY  - 2025
+AB  - Feature attribution (FA) methods are widely used in explainable AI (XAI) to help users understand how the inputs of a machine learning model contribute to its outputs. However, different FA models often provide disagreeing importance scores for the same model. In the absence of ground truth or in-depth knowledge about the inner workings of the model, it is often difficult to meaningfully determine which of the different FA methods produce more suitable explanations in different contexts. As a step towards addressing this issue, we introduce the open-source XAI-Units benchmark, specifically designed to evaluate FA methods against diverse types of model behaviours, such as feature interactions, cancellations, and discontinuous outputs.1 Our benchmark provides a set of paired datasets and models with known internal mechanisms, establishing clear expectations for desirable attribution scores. Accompanied by a suite of built-in evaluation metrics, XAI-Units streamlines systematic experimentation and reveals how FA methods perform against distinct, atomic kinds of model reasoning, similar to unit tests in software engineering. Crucially, by using procedurally generated models tied to synthetic datasets, we pave the way towards an objective and reliable comparison of FA methods.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732186
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732186
+ER  - 
+
+TY  - CONF
+TI  - How Misclassification Severity and Timing Influence User Trust in AI Image Classification: User Perceptions of High- and Low-Stakes Contexts
+AU  - Freel, Alicia
+AU  - Pias, Sabid Bin Habib
+AU  - \v{S}abanovi\'{c}, Selma
+AU  - Kapadia, Apu
+PY  - 2025
+AB  - AI systems are increasingly used to assist decision making in high- and low-stakes domains, yet little is known about how the timing and severity of their errors affect user trust. In this mixed-methods study (n = 364), we examine how users respond to AI misclassifications in two real-world contexts: military security and social media moderation. Participants evaluated a classifier that made high- or low-severity errors at different points in a sequence (beginning, end, random, or never). We find that trust is not simply a function of accuracy, but shaped by the timing and severity of errors. Even subtle output sequencing can influence perception, especially in ‘low-risk’ contexts.We discuss how certain interaction design patterns, such as sequencing outputs to end on a high note, could inadvertently or deliberately shape user trust. We propose a set of preliminary design patterns and oversight strategies to help identify when user perceptions might be unintentionally distorted. By pinpointing how severity and timing shape willingness to rely on AI, this work provides practical guidance for building systems that better align with human expectations, foster user trust, promote transparency, and support regulatory oversight.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732187
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732187
+ER  - 
+
+TY  - CONF
+TI  - Social Bias in Vision Transformers: A Comparative Study Across Architectures and Learning Paradigms
+AU  - Tsurumi, Takehiro
+AU  - Beretta, Elena
+PY  - 2025
+AB  - Vision Transformers (ViTs) have revolutionized computer vision but their susceptibility to encoding social biases remains a pressing ethical concern. These biases, often inherited from pre-training datasets or embedded within learning architectures, can amplify societal stereotypes when deployed in sensitive contexts. This paper explores how biases manifest across 10 state-of-the-art ViTs, focusing on the intersection between different learning objectives, the architectures and their impact on bias encoding. By applying the Image Embedding Association Test (iEAT), Gradient-weighted Class Activation Mapping (Grad-CAM) for interpretability and t-SNE visualizations, we reveal persistent biases such as gender-career associations, gender-race intersectionality and valence disparities. Our findings reveal discriminative models amplify biases in their representation and decision layers, while contrastive models exacerbate stereotypical alignments in embedding spaces. Furthermore, we identify actionable pathways for bias mitigation by enhancing representational fairness within latent spaces.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732189
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732189
+ER  - 
+
+TY  - CONF
+TI  - When Collaborative Filtering is not Collaborative: Unfairness of PCA for Recommendations
+AU  - Liu, David
+AU  - Baek, Jackie
+AU  - Eliassi-Rad, Tina
+PY  - 2025
+AB  - We study the fairness of dimensionality reduction methods for recommendations. We focus on the fundamental method of principal component analysis (PCA), which identifies latent components and produces a low-rank approximation via the leading components while discarding the trailing components. Prior works have defined notions of “fair PCA”; however, these definitions do not answer the following question: why is PCA unfair? We identify two underlying popularity mechanisms that induce item unfairness in PCA. The first negatively impacts less popular items because less popular items rely on trailing latent components to recover their values. The second negatively impacts highly popular items, since the leading PCA components specialize in individual popular items instead of capturing similarities between items. To address these issues, we develop a polynomial-time algorithm, Item-Weighted PCA, that flexibly up-weights less popular items when optimizing for leading principal components. We theoretically show that PCA, in all cases, and Normalized PCA, in cases of block-diagonal matrices, are instances of Item-Weighted PCA. We empirically show that there exist datasets for which Item-Weighted PCA yields the optimal solution while the baselines do not. In contrast to past dimensionality reduction re-weighting techniques, Item-Weighted PCA solves a convex optimization problem and enforces a hard rank constraint. Our evaluations on real-world datasets show that Item-Weighted PCA not only mitigates both unfairness mechanisms, but also produces recommendations that outperform those of PCA baselines.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732190
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732190
+ER  - 
+
+TY  - CONF
+TI  - The ``Who", ``What", and ``How" of Responsible AI Governance: A Systematic Review and Meta-Analysis of (Actor, Stage)-Specific Tools
+AU  - Kuehnert, Blaine
+AU  - Kim, Rachel
+AU  - Forlizzi, Jodi
+AU  - Heidari, Hoda
+PY  - 2025
+AB  - The implementation of responsible Artificial Intelligence (AI) in an organization is inherently complex due to the involvement of multiple stakeholders, each with their unique set of goals and responsibilities across the entire AI lifecycle. These responsibilities are often ambiguously defined and assigned, leading to confusion, miscommunication, and inefficiencies. Even when responsibilities are clearly defined and assigned to specific roles, the corresponding AI actors lack effective tools to support their execution. Toward closing these gaps, we present a systematic review and comprehensive meta-analysis of the current state of responsible AI tools, focusing on their alignment with specific stakeholder roles and their responsibilities in various AI lifecycle stages. We categorize over 220 tools according to AI actors and stages they address. Our findings reveal significant imbalances across the stakeholder roles and lifecycle stages addressed. The vast majority of available tools have been created to support AI designers and developers specifically during data-centric and statistical modeling stages while neglecting other roles such as organizational leaders, deployers, end-users, and impacted communities, and stages such as value proposition and deployment. This uneven distribution highlights critical gaps that currently exist in responsible AI governance research and practice. Our analysis reveals that despite the myriad of frameworks and tools for responsible AI, it remains unclear who within an organization and when in the AI lifecycle a tool applies. Furthermore, existing tools are rarely validated, leaving critical gaps in their usability and effectiveness. These gaps provide a starting point for researchers and practitioners to create more effective and holistic approaches to responsible AI development and governance.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732191
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732191
+ER  - 
+
+TY  - CONF
+TI  - Gender Bias in Explainability: Investigating Performance Disparity in Post-hoc Methods
+AU  - Dhaini, Mahdi
+AU  - Erdogan, Ege
+AU  - Feldhus, Nils
+AU  - Kasneci, Gjergji
+PY  - 2025
+AB  - While research on applications and evaluations of explanation methods continues to expand, fairness of the explanation methods concerning disparities in their performance across subgroups remains an often overlooked aspect. In this paper, we address this gap by showing that, across three tasks and five language models, widely used post-hoc feature attribution methods exhibit significant gender disparity with respect to their faithfulness, robustness, and complexity. These disparities persist even when the models are pre-trained or fine-tuned on particularly unbiased datasets, indicating that the disparities we observe are not merely consequences of biased training data. Our results highlight the importance of addressing disparities in explanations when developing and applying explainability methods, as these can lead to biased outcomes against certain subgroups, with particularly critical implications in high-stakes contexts. Furthermore, our findings underscore the importance of incorporating the fairness of explanations, alongside overall model fairness and explainability, as a requirement in regulatory frameworks.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732192
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732192
+ER  - 
+
+TY  - CONF
+TI  - Interrogating LLM design under copyright law
+AU  - Tian-Zheng Wei, Johnny
+AU  - Wang, Maggie
+AU  - Godbole, Ameya
+AU  - Choi, Jonathan
+AU  - Jia, Robin
+PY  - 2025
+AB  - The current discourse on large language models (LLMs) and copyright largely takes a “behavioral” perspective, focusing on model outputs and evaluating whether they are substantially similar to training data. However, substantial similarity is difficult to define algorithmically and a narrow focus on model outputs is insufficient to address all copyright risks. In this interdisciplinary work, we take a complementary “structural” perspective and shift our focus to how LLMs are trained. We operationalize a notion of “fair learning” by measuring whether any training decision substantially affected the model’s memorization. As a case study, we deconstruct Pythia, an open-source LLM, and demonstrate the use of causal and correlational analyses to make factual determinations about Pythia’s training decisions. By proposing a legal standard for fair learning and connecting memorization analyses to this standard, we identify how judges may advance the goals of copyright law through adjudication. Finally, we discuss how a fair learning standard might evolve to enhance its clarity by becoming more rule-like and incorporating external technical guidelines.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732193
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732193
+ER  - 
+
+TY  - CONF
+TI  - AI Alignment at Your Discretion
+AU  - Buyl, Maarten
+AU  - Khalaf, Hadi
+AU  - Mayrink Verdun, Claudio
+AU  - Monteiro Paes, Lucas
+AU  - Vieira Machado, Caio Cesar
+AU  - du Pin Calmon, Flavio
+PY  - 2025
+AB  - In AI alignment, extensive latitude must be granted to annotators, whether human or algorithmic, to judge which model outputs are ‘better’ or ‘safer.’ We refer to this latitude as alignment discretion. Such discretion is largely unexamined, posing two risks: (i) annotators may use their power of discretion arbitrarily, and (ii) models may fail to mimic this discretion. To study this phenomenon, we draw on legal concepts of discretion that structure how decision-making authority is conferred and exercised, particularly in cases where principles conflict or their application is unclear or irrelevant. Extended to AI alignment, discretion is required when alignment principles and rules are (inevitably) conflicting or indecisive. We present a set of metrics to systematically analyze when and how discretion in AI alignment is exercised, such that both risks (i) and (ii) can be observed. Moreover, we distinguish between human and algorithmic discretion and analyze the discrepancy between them. By measuring both human and algorithmic discretion over safety alignment datasets, we reveal layers of discretion in the alignment process that were previously unaccounted for. We thus demonstrate how algorithms develop their own forms of discretion in applying these principles, challenging the purpose of having any principles at all. Our paper presents the first step towards formalizing this core gap in current alignment processes, and we call on the community to further scrutinize and control alignment discretion.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732194
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732194
+ER  - 
+
+TY  - CONF
+TI  - The Root Shapes the Fruit: On the Persistence of Gender-Exclusive Harms in Aligned Language Models
+AU  - Ovalle, Anaelia
+AU  - Pavasovic, Krunoslav Lehman
+AU  - Martin, Louis
+AU  - Zettlemoyer, Luke
+AU  - Smith, Eric Michael
+AU  - Chang, Kai-Wei
+AU  - Williams, Adina
+AU  - Sagun, Levent
+PY  - 2025
+AB  - Natural-language assistants are designed to provide users with helpful responses while avoiding harmful outputs, largely achieved through alignment to human preferences. Yet there is limited understanding of whether alignment techniques may inadvertently perpetuate or even amplify harmful biases inherited from their pre-aligned base models. This issue is compounded by the choice of bias evaluation benchmarks in popular preference-finetuned models, which predominantly focus on dominant social categories, such as binary gender, thereby limiting insights into biases affecting underrepresented groups. To address this gap, we center transgender, nonbinary, and other gender-diverse (TGNB) identities to investigate how alignment procedures encode and interact with harmful TGNB biases in LLMs. Our key contributions include: 1) a comprehensive survey of bias evaluation modalities across leading preference-finetuned LLMs, highlighting critical gaps in gender-diverse representation, 2) systematic evaluation of gender-diverse biases across 16 publicly-available models across Direct Preference Optimization (DPO) stages, uncovering harms popular bias benchmarks fail to detect, and 3) a flexible framework for measuring harmful gender-diverse biases in implicit reward signals applicable to other social contexts. Our findings suggest that DPO-aligned models are particularly sensitive to supervised finetuning (SFT), and may amplify two forms of real-world gender-diverse harms reflected in their base models: stigmatization and gender non-affirmative language. We conclude with recommendations tailored to DPO and broader alignment practices, advocating for the adoption of community-informed bias evaluation frameworks to more effectively identify and address underrepresented harms in LLMs.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732196
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732196
+ER  - 
+
+TY  - CONF
+TI  - Fairness of Deep Ensembles: On the interplay between per-group task difficulty and under-representation
+AU  - Claucich, Estanislao
+AU  - Hooker, Sara
+AU  - Milone, Diego H.
+AU  - Ferrante, Enzo
+AU  - Echeveste, Rodrigo
+PY  - 2025
+AB  - Ensembling is commonly regarded as an effective way to improve the general performance of models in machine learning, while also increasing the robustness of predictions. When it comes to algorithmic fairness, heterogeneous ensembles, composed of multiple model types, have been employed to mitigate biases in terms of demographic attributes such as sex, age or ethnicity. Moreover, recent work has shown how in multi-class problems even simple homogeneous ensembles may favor performance of the worst-performing target classes. While homogeneous ensembles are simpler to implement in practice, it is not yet clear whether their benefits translate to groups defined not in terms of their target class, but in terms of demographic or protected attributes, hence improving fairness. In this work we show how this simple and straightforward method is indeed able to mitigate disparities, particularly benefiting under-performing subgroups. Interestingly, this can be achieved without sacrificing overall performance, which is a common trade-off observed in bias mitigation strategies. Moreover, we analyzed the interplay between two factors which may result in biases: sub-group under-representation and the inherent difficulty of the task for each group. These results revealed that, contrary to popular assumptions, having balanced datasets may be suboptimal if the task difficulty varies between subgroups. Indeed, we found that a perfectly balanced dataset may hurt both the overall performance and the gap between groups. This highlights the importance of considering the interaction between multiple forces at play in fairness.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732200
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732200
+ER  - 
+
+TY  - CONF
+TI  - Detecting Prefix Bias in LLM-based Reward Models
+AU  - Kumar, Ashwin
+AU  - He, Yuzi
+AU  - Markosyan, Aram H
+AU  - Chern, Bobbie
+AU  - Arrieta-Ibarra, Imanol
+PY  - 2025
+AB  - Reinforcement Learning with Human Feedback (RLHF) has emerged as a key paradigm for task-specific fine-tuning of language models using human preference data. While numerous publicly available preference datasets provide pairwise comparisons of responses, the potential for biases in the resulting reward models remains underexplored. In this work, we introduce novel methods to detect and evaluate prefix bias—a systematic shift in model preferences triggered by minor variations in query prefixes—in LLM-based reward models trained on such datasets. We leverage these metrics to reveal significant biases in preference models across racial and gender dimensions. Our comprehensive evaluation spans diverse open-source preference datasets and reward model architectures, demonstrating susceptibility to this kind of bias regardless of the underlying model architecture. Furthermore, we propose a data augmentation strategy to mitigate these biases, showing its effectiveness in reducing the impact of prefix bias. Our findings highlight the critical need for bias-aware dataset design and evaluation in developing fair and reliable reward models, contributing to the broader discourse on fairness in AI.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732204
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732204
+ER  - 
+
+TY  - CONF
+TI  - Bridging Voting and Deliberation with Algorithms: Field Insights from vTaiwan and Kultur Komitee
+AU  - Yang, Joshua C.
+AU  - Bachmann, Fynn
+PY  - 2025
+AB  - Democratic processes increasingly integrate large-scale voting with face-to-face deliberation to reconcile individual preferences with collective decision-making. This work introduces algorithmic methods to bridge online voting with face-to-face deliberation, tested in two real-world scenarios: Kultur Komitee 2024 (KK24) and vTaiwan. We present three key contributions: (1) Preference-based Clustering for Deliberation (PCD), enabling both focused and broad discussions by computing balanced homogeneous and heterogeneous groups; (2) Human-in-the-loop MES, enhancing the Method of Equal Shares algorithm with real-time feedback, giving participants control over algorithmic decision-making; and (3) the ReadTheRoom method, using opinion mapping to identify agreement and divergence while tracking opinion shifts during deliberation. These actionable frameworks extend in-person deliberation with scalable digital methods that address the complexities of modern participatory decision-making.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732205
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732205
+ER  - 
+
+TY  - CONF
+TI  - How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models
+AU  - Lim, Hyunseung
+AU  - Choi, Dasom
+AU  - Hong, Hwajung
+PY  - 2025
+AB  - Warning: This article contains stereotypical and offensive contents.Stereotypical biases in large language models (LLMs) have the potential to result in discriminatory responses, posing harm to users and disrupting interactions. While prior research has predominantly focused on assessing stereotypes in LLMs with fairness metrics, there is a limited understanding of how users identify and perceive stereotypes in LLMs. To address this gap, we introduce StereoHunter, a research probe tool designed to examine how individuals identify and perceive stereotypes by observing interactions in which users elicit stereotypical responses from LLMs. Our findings reveal the nuanced considerations and challenges participants faced when evaluating these stereotypes, which varied based on their backgrounds and preconceptions about LLMs. Based on these insights, we discuss how diverse user perspectives can be reflected in identifying stereotypes and informing fairness metrics for mitigating biases in LLMs.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732207
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732207
+ER  - 
+
+TY  - CONF
+TI  - “Since Lawyers are Males..”: Examining Implicit Gender Bias in Hindi Language Generation by LLMs
+AU  - Gupta, Ishita
+AU  - Joshi, Ishika
+AU  - Dey, Adrita
+AU  - Parikh, Tapan
+PY  - 2025
+AB  - Large Language Models (LLMs) are increasingly being used to generate text across various languages, for tasks such as translation, customer support, and education. Despite these advancements, LLMs show notable gender biases in English, which become even more pronounced when generating content in relatively underrepresented languages like Hindi. This study explores implicit gender biases in Hindi text generation and compares them to those in English. We developed Hindi datasets, HinStereo-100 and HEAStereo-50, inspired by WinoBias [92] to examine stereotypical patterns in responses from models like GPT-4o and Claude-3 sonnet. Our results reveal a significant gender bias in Hindi, which is considerably higher than the bias detected in English text generation, with Hindi responses frequently relying on gender stereotypes related to occupations, power hierarchies, and social class. Along with the datasets, this research contributes to underscoring the variation in gender biases across understudied Indic languages and provides a discussion of the considerations for navigating these biases in generative AI systems. The paper reinstates the importance of understanding the differences in culture and context when exploring biases in such systems.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732208
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732208
+ER  - 
+
+TY  - CONF
+TI  - Human-Centered Evaluation of Aesthetic Quality Assessment Models Using a Smartphone Camera Application
+AU  - Goree, Samuel
+AU  - Domingo, Jackson
+AU  - Crandall, David
+PY  - 2025
+AB  - Human-centered artificial intelligence is caught between two approaches to subjectivity in evaluation, which can inhibit communication between engineers and designers on subjective problems. To better understand this tension, we study a test problem from computer vision: aesthetic quality assessment (AQA). We propose an approach to human-centered evaluation for this problem based on feminist epistemology, which transforms the benchmarking process into a design, engineering and user testing process. We demonstrate this approach for AQA by designing a smartphone camera application that takes photos based on the output of an AQA model. Through a user study, we examine both the performance of our interface and the underlying models. We find that a design goal of legibility is crucial for the success of both the interface and the underlying models, and recommend that human-centered evaluations are integrated early into the modeling process for these problems, before formalizing the problem statement.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732209
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732209
+ER  - 
+
+TY  - CONF
+TI  - Fairness Beyond the Algorithmic Frame: Actionable Recommendations for an Intersectional Approach
+AU  - Vethman, Steven
+AU  - Smit, Quirine T. S.
+AU  - van Liebergen, Nina M.
+AU  - Veenman, Cor J.
+PY  - 2025
+AB  - Achieving fair use of AI systems is a multi-faceted challenge. Intersectionality, rooted in Black Feminist movements, is increasingly used to address the interconnected nature of discrimination such as racism, ableism, and sexism. Yet in AI research, intersectionality is often reduced to a narrow technical lens, focused on algorithmic bias between subgroups defined by protected attributes and addressed through fairness metrics. This algorithmic frame sidelines key aspects of intersectionality, such as power relations, social justice, and structural inequality. Still, AI experts play a central role in development and deployment, and therefore should act to limit unjust outcomes. This study offers actionable guidance for AI experts, grounded in a broader intersectional perspective. Through a thematic analysis of AI fairness papers on key aspects of intersectionality, evaluated through community engagement, we identify five themes with concrete recommendations: 1) insisting on collaboration in interdisciplinary teams, 2) embedding reflection and recognizing positionality, 3) approaching communities and facilitating co-ownership, 4) engaging with power dynamics and social context, and 5) assessing the framing and nuance of data and metrics. Participating experts noted barriers such as tech-optimism and fear of insufficient knowledge. Still, they valued the recommendations for communicating the importance of intersectionality and initiating more just AI practices. We call on AI experts to meet this challenge through interdisciplinary collaboration with diverse communities.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732210
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732210
+ER  - 
+
+TY  - CONF
+TI  - Trustworthy ML Regulation as a Principal-Agent Problem
+AU  - Yaghini, Mohammad
+AU  - Liu, Patty
+AU  - Magnuson, Andrew
+AU  - Dullerud, Natalie
+AU  - Papernot, Nicolas
+PY  - 2025
+AB  - As ML-enabled systems become increasingly prevalent, so do their societal risks, such as excessive privacy and fairness violations. Mitigating such risks is frequently at odds with the system’s overall performance. As a result, companies producing these systems and the public place different relative importance on these objectives—a case of misaligned incentives. Public regulators seeking to curb such risks are faced with designing regulations with a penalty structure that balances unmitigated societal risks and unnecessary financial burdens on a burgeoning industry. However, regulators often do not have access to the data or the training procedure of the model used by companies. Such access asymmetries can cause uncertainties in risk estimations that we show can lead to unintended over-regulation of law-abiding companies (1–7\% drop in accuracy on three vision datasets). The access asymmetries that enabled unintended over-regulation are an artifact of the separation of the company and the regulator. This realization leads us to formulate ML Regulation as a Principal-Agent Problem (PAP). We provide a taxonomy of PAPs in this domain and tackle the problem of optimal penalty design in a reduced setting, which allows us to align the company’s incentives with the public expectation of safety.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732211
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732211
+ER  - 
+
+TY  - CONF
+TI  - Actions Speak Louder than Words: Agent Decisions Reveal Implicit Biases in Language Models
+AU  - Li, Yuxuan
+AU  - Shirado, Hirokazu
+AU  - Das, Sauvik
+PY  - 2025
+AB  - While advances in fairness and alignment have helped mitigate overt biases exhibited by large language models (LLMs) when explicitly prompted, we hypothesize that these models may still exhibit implicit biases when simulating human behavior. To test this hypothesis, we propose a technique to systematically uncover such biases across a broad range of sociodemographic categories by assessing decision-making disparities among agents with LLM-generated, sociodemographically-informed personas. Using our technique, we tested six LLMs across three sociodemographic groups and four decision-making scenarios. Our results show that state-of-the-art LLMs exhibit significant sociodemographic disparities in nearly all simulations, with more advanced models exhibiting greater implicit biases despite reducing explicit biases. Furthermore, when comparing our findings to real-world disparities reported in empirical studies, we find that the biases we uncovered are directionally aligned but markedly amplified. This directional alignment highlights the utility of our technique in uncovering systematic biases in LLMs rather than random variations; moreover, the presence and amplification of implicit biases emphasizes the need for novel strategies to address these biases.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732212
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732212
+ER  - 
+
+TY  - CONF
+TI  - Reconciling Predictive Multiplicity in Practice
+AU  - Behzad, Tina
+AU  - Casacuberta, S\'{\i}lvia
+AU  - Diana, Emily Ruth
+AU  - Tolbert, Alexander Williams
+PY  - 2025
+AB  - Many machine learning applications predict individual probabilities, such as the likelihood that a person develops a particular illness. Since these probabilities are unknown, a key question is how to address situations in which different models trained on the same dataset produce varying predictions for certain individuals. This issue is exemplified by the model multiplicity (MM) phenomenon, where a set of comparable models yield inconsistent predictions. Roth, Tolbert, and Weinstein recently introduced a reconciliation procedure, the Reconcile algorithm, to address this problem. Given two disagreeing models, the algorithm leverages their disagreement to falsify and improve at least one of the models. In this paper, we empirically analyze the Reconcile algorithm using five widely-used fairness datasets: COMPAS, Communities and Crime, Adult, Statlog (German Credit Data), and the ACS Dataset. We examine how Reconcile fits within the model multiplicity literature and compare it to existing MM solutions, demonstrating its effectiveness. We also discuss potential improvements to the Reconcile algorithm theoretically and practically. Finally, we extend the Reconcile algorithm to the setting of causal inference, given that different competing estimators can again disagree on specific causal average treatment effect (CATE) values. We present the first extension of the Reconcile algorithm in causal inference, analyze its theoretical properties, and conduct empirical tests. Our results confirm the practical effectiveness of Reconcile and its applicability across various domains.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732216
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732216
+ER  - 
+
+TY  - CONF
+TI  - Impact of Agent-Generated Rationales on Online Social Conformity
+AU  - de Jong, Sander
+AU  - Jacobsen, Rune M\o{}berg
+AU  - Wester, Joel
+AU  - Wijenayake, Senuri
+AU  - Goncalves, Jorge
+AU  - van Berkel, Niels
+PY  - 2025
+AB  - Social conformity, in which individuals adjust their opinions to align with the majority, is a widely established phenomenon. As digital agents are increasingly integrated into group decision-making, while also having shown to convincingly present misinformation, it is crucial to understand their impact on online social conformity. In this paper, we investigate the effects of a large language model-powered agent on social conformity in an online multiple-choice quiz (N = 80). We present participants with an agent’s rationale for both informative (objective) and normative (subjective) questions. We collected participants’ judgements and confidence both prior to and following the presentation of both the agent’s judgement and rationale, as well as a fabricated distribution of other people’s judgements. Our results replicate majority conformance and show a significant influence of agent rationale on conformity. We discuss the implications of our results for the integration of LLM-based agents into people’s everyday decision-making tasks.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732217
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732217
+ER  - 
+
+TY  - CONF
+TI  - “I Hadn't Thought About That”: Creators of Human-like AI Weigh in on Ethics \&amp; Neurodivergence
+AU  - Rizvi, Naba
+AU  - Smith, Taggert
+AU  - Vidyala, Tanvi
+AU  - Bolds, Mya
+AU  - Strickland, Harper
+AU  - Begel, Andrew
+AU  - Williams, Rua
+AU  - Munyaka, Imani
+PY  - 2025
+AB  - Human-like AI agents such as robots and chatbots are becoming increasingly popular, but they present a variety of ethical concerns. The first concern is in how we define humanness, and how our definition impacts communities historically dehumanized by scientific research. Autistic people in particular have been dehumanized by being compared to robots, making it even more important to ensure this marginalization is not reproduced by AI that may promote neuronormative social behaviors. Second, the ubiquitous use of these agents raises concerns surrounding model biases and accessibility. In our work, we investigate the experiences of the people who build and design these technologies to gain insights into their understanding and acceptance of neurodivergence, and the challenges in making their work more accessible to users with diverse needs. Even though neurodivergent individuals are often marginalized for their unique communication styles, nearly all participants overlooked the conclusions their end-users and other AI system makers may draw about communication norms from the implementation and interpretation of humanness applied in participants’ work. This highlights a major gap in their broader ethical considerations, compounded by some participants’ neuronormative assumptions about the behaviors and traits that distinguish “humans” from “bots” and the replication of these assumptions in their work. We examine the impact this may have on autism inclusion in society and provide recommendations for additional systemic changes towards more ethical research directions.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732218
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732218
+ER  - 
+
+TY  - CONF
+TI  - Evaluating Model Explanations without Ground Truth
+AU  - Rawal, Kaivalya
+AU  - Fu, Zihao
+AU  - Delaney, Eoin
+AU  - Russell, Chris
+PY  - 2025
+AB  - There can be many competing and contradictory explanations for a single model prediction, making it difficult to select which one to use. Current explanation evaluation frameworks measure quality by comparing against ideal “ground-truth” explanations, or by verifying model sensitivity to important inputs. We outline the limitations of these approaches, and propose three desirable principles to ground the future development of explanation evaluation strategies for local feature importance explanations. We propose a ground-truth Agnostic eXplanation Evaluation framework (AXE) for evaluating and comparing model explanations that satisfies these principles. Unlike prior approaches, AXE does not require access to ideal ground-truth explanations for comparison, or rely on model sensitivity – providing an independent measure of explanation quality. We verify AXE by comparing with baselines, and show how it can be used to detect explanation fairwashing. Our code is available at https://github.com/KaiRawal/Evaluating-Model-Explanations-without-Ground-Truth.
+T2  - Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
+DO  - 10.1145/3715275.3732219
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3715275.3732219
+ER  - 
+

@@ -1,0 +1,876 @@
+TY  - CONF
+TI  - Binary Classifier Optimization for Large Language Model Alignment
+AU  - Jung, Seungjae
+AU  - Han, Gunsoo
+AU  - Nam, Daniel Wontae
+AU  - On, Kyoung-Woon
+PY  - 2025
+AB  - In real-world services such as ChatGPT, aligning models based on user feedback is crucial for improving model performance. However, due to the simplicity and convenience of providing feedback, users typically offer only basic binary signals, such as ‘thumbs-up’ or ‘thumbs-down’. Most existing alignment research, on the other hand, relies on preference-based approaches that require both positive and negative responses as a pair. We propose Binary Classifier Optimization (BCO), a technique that effectively aligns LLMs using only binary feedback. BCO trains a binary classifier, where the logit serves as an implicit reward, effectively minimizing the Direct Preference Optimization (DPO) loss. We demonstrate that the binary cross-entropy loss employed in classifier training acts as an upper bound for the DPO loss. Additionally, a novel reward shift technique further minimizes the gap between the losses. We validate our methodology in two settings: first, on a paired preference dataset, where our method performs on par with DPO; and second, on a Likert-5 scale annotation dataset which stems from real users’ queries. Our model consistently demonstrates effective and robust alignment across four base LLMs and three different datasets, showcasing the strength of our approach to learning from binary signals.
+UR  - https://aclanthology.org/2025.acl-long.93/
+DO  - 10.18653/v1/2025.acl-long.93
+ER  - 
+
+TY  - CONF
+TI  - Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals' Subjective Text Perceptions
+AU  - Orlikowski, Matthias
+AU  - Pei, Jiaxin
+AU  - R{\"o}ttger, Paul
+AU  - Cimiano, Philipp
+AU  - Jurgens, David
+AU  - Hovy, Dirk
+PY  - 2025
+AB  - People naturally vary in their annotations for subjective questions and some of this variation is thought to be due to the person’s sociodemographic characteristics. LLMs have also been used to label data, but recent work has shown that models perform poorly when prompted with sociodemographic attributes, suggesting limited inherent sociodemographic knowledge. Here, we ask whether LLMs can be trained to be accurate sociodemographic models of annotator variation. Using a curated dataset of five tasks with standardized sociodemographics, we show that models do improve in sociodemographic prompting when trained but that this performance gain is largely due to models learning annotator-specific behaviour rather than sociodemographic behaviours. Across all tasks, our results suggest that models learn little meaningful connection between sociodemographics and annotation, raising doubts about the current use of LLMs for simulating sociodemographic variation and behaviour.
+UR  - https://aclanthology.org/2025.acl-long.104/
+DO  - 10.18653/v1/2025.acl-long.104
+ER  - 
+
+TY  - CONF
+TI  - Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment
+AU  - Huang, Yongxin
+AU  - Wang, Kexin
+AU  - Glava{\v{s}}, Goran
+AU  - Gurevych, Iryna
+PY  - 2025
+AB  - Multilingual sentence encoders (MSEs) are commonly obtained by training multilingual language models to map sentences from different languages into a shared semantic space. As such, they are subject to curse of multilinguality, a loss of monolingual representational accuracy due to parameter sharing. Another limitation of MSEs is the trade-off between different task performance: cross-lingual alignment training distorts the optimal monolingual structure of semantic spaces of individual languages, harming the utility of sentence embeddings in monolingual tasks; cross-lingual tasks, such as cross-lingual semantic similarity and zero-shot transfer for sentence classification, may also require conflicting cross-lingual alignment strategies. In this work, we address both issues by means of modular training of sentence encoders. We first train language-specific monolingual modules to mitigate negative interference between languages (i.e., the curse). We then align all non-English sentence embeddings to the English by training cross-lingual alignment adapters, preventing interference with monolingual specialization from the first step. We train the cross-lingual adapters with two different types of data to resolve the conflicting requirements of different cross-lingual tasks. Monolingual and cross-lingual results on semantic text similarity and relatedness, bitext mining and sentence classification show that our modular solution achieves better and more balanced performance across all the tasks compared to full-parameter training of monolithic multilingual sentence encoders, especially benefiting low-resource languages.
+UR  - https://aclanthology.org/2025.acl-long.108/
+DO  - 10.18653/v1/2025.acl-long.108
+ER  - 
+
+TY  - CONF
+TI  - AndroidGen: Building an Android Language Agent under Data Scarcity
+AU  - Lai, Hanyu
+AU  - Gao, Junjie
+AU  - Liu, Xiao
+AU  - Xu, Yifan
+AU  - Zhang, Shudan
+AU  - Dong, Yuxiao
+AU  - Tang, Jie
+PY  - 2025
+AB  - Large language models have opened up a world of possibilities for various NLP tasks, sparking optimism for the future. Despite their potential, LLMs have yet to be widely used as agents on real mobile devices. The main challenge is the need for high-quality data sources. Time constraints and labor intensity often hinder human annotation. On the other hand, existing LLMs exhibit inadequate completion rates and need a robust data filtration strategy. Given these challenges, we develop a framework called AndroidGen to enhance the capabilities of LLM-based agents under data scarcity. In addition, we leverage AndroidGen to collect trajectories given human tasks and train open-source LLMs on these trajectories to develop an open-source mobile agent without manually labeled trajectories. We extensively evaluate AndroidGen with AndroidWorld, AitW, and various popular applications, demonstrating its improvements and revealing potential areas for future improvement. Code, model, and data are available at https://github.com/THUDM/AndroidGen.
+UR  - https://aclanthology.org/2025.acl-long.138/
+DO  - 10.18653/v1/2025.acl-long.138
+ER  - 
+
+TY  - CONF
+TI  - Prompt Candidates, then Distill: A Teacher-Student Framework for LLM-driven Data Annotation
+AU  - Xia, Mingxuan
+AU  - Wang, Haobo
+AU  - Li, Yixuan
+AU  - Yu, Zewei
+AU  - Wang, Jindong
+AU  - Zhao, Junbo
+AU  - Wu, Runze
+PY  - 2025
+AB  - Recently, Large Language Models (LLMs) have demonstrated significant potential for data annotation, markedly reducing the labor costs associated with downstream applications. However, existing methods mostly adopt an aggressive strategy by prompting LLM to determine a single gold label for each unlabeled sample. Due to the inherent uncertainty within LLMs, they often produce incorrect labels for difficult samples, severely compromising the data quality for downstream applications. Motivated by ambiguity aversion in human behaviors, we propose a novel candidate annotation paradigm wherein large language models are encouraged to output all possible labels when incurring uncertainty. To ensure unique labels are provided for downstream tasks, we develop a teacher-student framework CanDist that distills candidate annotations with a Small Language Model (SLM). We further provide a rigorous justification demonstrating that distilling candidate annotations from the teacher LLM offers superior theoretical guarantees compared to directly using single annotations. Extensive experiments across six text classification tasks validate the effectiveness of our proposed method. The source code is available at https://github.com/MingxuanXia/CanDist.
+UR  - https://aclanthology.org/2025.acl-long.139/
+DO  - 10.18653/v1/2025.acl-long.139
+ER  - 
+
+TY  - CONF
+TI  - Con Instruction: Universal Jailbreaking of Multimodal Large Language Models via Non-Textual Modalities
+AU  - Geng, Jiahui
+AU  - Tran, Thy Thy
+AU  - Nakov, Preslav
+AU  - Gurevych, Iryna
+PY  - 2025
+AB  - Existing attacks against multimodal language models often communicate instruction through text, either as an explicit malicious instruction or a crafted generic prompt, and accompanied by a toxic image. In contrast, here we exploit the capabilities of MLLMs in following non-textual instruction, i.e., an adversarial image or audio, namely Con Instruction. It is a novel gray-box attack method that generates adversarial images or audio to convey specific harmful instructions to MLLMs. We also find that combining our adversarial examples with certain non-empty text inputs amplifies attack success, while appending these after malicious text has limited effects. To evaluate whether an attack is successful, we introduce a new attack response categorization (ARC) that considers the response quality and relevancy concerning the malicious instruction. The results show that Con Instruction effectively bypasses the safety mechanisms in various visual and audio-language models, including LLaVA-v1.5, InternVL, Qwen-VL, and Qwen-Audio, across two standard benchmarks: AdvBench and SafeBench. Specifically, our method achieves the highest attack success rates, reaching 81.3% and 86.6% on LLaVA-v1.5 (13B). We show that larger models are more susceptible toCon Instruction, contrasting observations in their underlying LLMs. On the defense side, we explore various methods against our attacks and find substantial gaps among existing techniques. The code will be made available upon publication.
+UR  - https://aclanthology.org/2025.acl-long.146/
+DO  - 10.18653/v1/2025.acl-long.146
+ER  - 
+
+TY  - CONF
+TI  - Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training
+AU  - Yuan, Youliang
+AU  - Jiao, Wenxiang
+AU  - Wang, Wenxuan
+AU  - Huang, Jen-tse
+AU  - Xu, Jiahao
+AU  - Liang, Tian
+AU  - He, Pinjia
+AU  - Tu, Zhaopeng
+PY  - 2025
+AB  - This study addresses a critical gap in safety tuning practices for Large Language Models (LLMs) by identifying and tackling a refusal position bias within safety tuning data, which compromises the models’ ability to appropriately refuse generating unsafe content. We introduce a novel approach, Decoupled Refusal Training (DeRTa), designed to empower LLMs to refuse compliance to harmful prompts at any response position, significantly enhancing their safety capabilities. DeRTa incorporates two novel components: (1) Maximum Likelihood Estimation (MLE) with Harmful Response Prefix, which trains models to recognize and avoid unsafe content by appending a segment of harmful response to the beginning of a safe response, and (2) Reinforced Transition Optimization (RTO), which equips models with the ability to transition from potential harm to safety refusal consistently throughout the harmful response sequence. Our empirical evaluation, conducted using LLaMA3 and Mistral model families across six attack scenarios, demonstrates that our method not only improves model safety without compromising performance but also surpasses baseline methods in defending against attacks.
+UR  - https://aclanthology.org/2025.acl-long.158/
+DO  - 10.18653/v1/2025.acl-long.158
+ER  - 
+
+TY  - CONF
+TI  - QAEncoder: Towards Aligned Representation Learning in Question Answering Systems
+AU  - Wang, Zhengren
+AU  - Yu, Qinhan
+AU  - Wei, Shida
+AU  - Li, Zhiyu
+AU  - Xiong, Feiyu
+AU  - Wang, Xiaoxing
+AU  - Niu, Simin
+AU  - Liang, Hao
+AU  - Zhang, Wentao
+PY  - 2025
+AB  - Modern QA systems entail retrieval-augmented generation (RAG) for accurate and trustworthy responses. However, the inherent gap between user queries and relevant documents hinders precise matching. We introduce QAEncoder, a training-free approach to bridge this gap. Specifically, QAEncoder estimates the expectation of potential queries in the embedding space as a robust surrogate for the document embedding, and attaches document fingerprints to effectively distinguish these embeddings. Extensive experiments across diverse datasets, languages, and embedding models confirmed QAEncoder’s alignment capability, which offers a simple-yet-effective solution with zero additional index storage, retrieval latency, training costs, or catastrophic forgetting and hallucination issues. The repository is publicly available at https://github.com/IAAR-Shanghai/QAEncoder.
+UR  - https://aclanthology.org/2025.acl-long.217/
+DO  - 10.18653/v1/2025.acl-long.217
+ER  - 
+
+TY  - CONF
+TI  - Your Model is Overconfident, and Other Lies We Tell Ourselves
+AU  - Mickus, Timothee
+AU  - Sinha, Aman
+AU  - V{\'a}zquez, Ra{\'u}l
+PY  - 2025
+AB  - The difficulty intrinsic to a given example, rooted in its inherent ambiguity, is a key yet often overlooked factor in evaluating neural NLP models. We investigate the interplay and divergence among various metrics for assessing intrinsic difficulty, including annotator dissensus, training dynamics, and model confidence. Through a comprehensive analysis using 29 models on three datasets, we reveal that while correlations exist among these metrics, their relationships are neither linear nor monotonic. By disentangling these dimensions of uncertainty, we aim to refine our understanding of data complexity and its implications for evaluating and improving NLP models.
+UR  - https://aclanthology.org/2025.acl-long.269/
+DO  - 10.18653/v1/2025.acl-long.269
+ER  - 
+
+TY  - CONF
+TI  - Making FETCH! Happen: Finding Emergent Dog Whistles Through Common Habitats
+AU  - Sasse, Kuleen
+AU  - Aguirre, Carlos Alejandro
+AU  - Cachola, Isabel
+AU  - Levy, Sharon
+AU  - Dredze, Mark
+PY  - 2025
+AB  - Dog whistles are coded expressions with dual meanings: one intended for the general public (outgroup) and another that conveys a specific message to an intended audience (ingroup). Often, these expressions are used to convey controversial political opinions while maintaining plausible deniability and slip by content moderation filters. Identification of dog whistles relies on curated lexicons, which have trouble keeping up to date. We introduce FETCH!, a task for finding novel dog whistles in massive social media corpora. We find that state-of-the-art systems fail to achieve meaningful results across three distinct social media case studies. We present EarShot, a strong baseline system that combines the strengths of vector databases and Large Language Models (LLMs) to efficiently and effectively identify new dog whistles.
+UR  - https://aclanthology.org/2025.acl-long.284/
+DO  - 10.18653/v1/2025.acl-long.284
+ER  - 
+
+TY  - CONF
+TI  - Understanding Cross-Domain Adaptation in Low-Resource Topic Modeling
+AU  - Akash, Pritom Saha
+AU  - Chang, Kevin Chen-Chuan
+PY  - 2025
+AB  - Topic modeling plays a vital role in uncovering hidden semantic structures within text corpora, but existing models struggle in low-resource settings where limited target-domain data leads to unstable and incoherent topic inference. We address this challenge by formally introducing domain adaptation for low-resource topic modeling, where a high-resource source domain informs a low-resource target domain without overwhelming it with irrelevant content. We establish a finite-sample generalization bound showing that effective knowledge transfer depends on robust performance in both domains, minimizing latent-space discrepancy, and preventing overfitting to the data. Guided by these insights, we propose DALTA (Domain-Aligned Latent Topic Adaptation), a new framework that employs a shared encoder for domain-invariant features, specialized decoders for domain-specific nuances, and adversarial alignment to selectively transfer relevant information. Experiments on diverse low-resource datasets demonstrate that DALTA consistently outperforms state-of-the-art methods in terms of topic coherence, stability, and transferability.
+UR  - https://aclanthology.org/2025.acl-long.298/
+DO  - 10.18653/v1/2025.acl-long.298
+ER  - 
+
+TY  - CONF
+TI  - F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
+AU  - Chen, Yushen
+AU  - Niu, Zhikang
+AU  - Ma, Ziyang
+AU  - Deng, Keqi
+AU  - Wang, Chunhui
+AU  - JianZhao, JianZhao
+AU  - Yu, Kai
+AU  - Chen, Xie
+PY  - 2025
+AB  - This paper introduces F5-TTS, a fully non-autoregressive text-to-speech system based on flow matching with Diffusion Transformer (DiT). Without requiring complex designs such as duration model, text encoder, and phoneme alignment, the text input is simply padded with filler tokens to the same length as input speech, and then the denoising is performed for speech generation, which was originally proved feasible by E2 TTS. However, the original design of E2 TTS makes it hard to follow due to its slow convergence and low robustness. To address these issues, we first model the input with ConvNeXt to refine the text representation, making it easy to align with the speech. We further propose an inference-time Sway Sampling strategy, which significantly improves our model’s performance and efficiency. This sampling strategy for flow step can be easily applied to existing flow matching based models without retraining. Our design allows faster training and achieves an inference RTF of 0.15, which is greatly improved compared to state-of-the-art diffusion-based TTS models. Trained on a public 100K hours multilingual dataset, our F5-TTS exhibits highly natural and expressive zero-shot ability, seamless code-switching capability, and speed control efficiency. We have released all codes and checkpoints to promote community development, at https://SWivid.github.io/F5-TTS/.
+UR  - https://aclanthology.org/2025.acl-long.313/
+DO  - 10.18653/v1/2025.acl-long.313
+ER  - 
+
+TY  - CONF
+TI  - That is Unacceptable: the Moral Foundations of Canceling
+AU  - Lo, Soda Marem
+AU  - Araque, Oscar
+AU  - Sharma, Rajesh
+AU  - Stranisci, Marco Antonio
+PY  - 2025
+AB  - Canceling is a morally-driven phenomenon that hinders the development of safe social media platforms and contributes to ideological polarization. To address this issue we present the Canceling Attitudes Detection (CADE) dataset, an annotated corpus of canceling incidents aimed at exploring the factors of disagreements in evaluating people’s canceling attitudes on social media. Specifically, we study the impact of annotators’ morality in their perception of canceling, showing that morality is an independent axis for the explanation of disagreement on this phenomenon. Annotator’s judgments heavily depend on the type of controversial events and involved celebrities. This shows the need to develop more event-centric datasets to better understand how harms are perpetrated in social media and to develop more aware technologies for their detection.
+UR  - https://aclanthology.org/2025.acl-long.330/
+DO  - 10.18653/v1/2025.acl-long.330
+ER  - 
+
+TY  - CONF
+TI  - Hybrid Preferences: Learning to Route Instances for Human vs. AI Feedback
+AU  - Miranda, Lester James Validad
+AU  - Wang, Yizhong
+AU  - Elazar, Yanai
+AU  - Kumar, Sachin
+AU  - Pyatkin, Valentina
+AU  - Brahman, Faeze
+AU  - Smith, Noah A.
+AU  - Hajishirzi, Hannaneh
+AU  - Dasigi, Pradeep
+PY  - 2025
+AB  - Learning from human feedback has enabled the alignment of language models (LMs) with human preferences. However, collecting human preferences is expensive and time-consuming, with highly variable annotation quality. An appealing alternative is to distill preferences from LMs as a source of synthetic annotations, offering a cost-effective and scalable alternative, albeit susceptible to other biases and errors. In this work, we introduce HyPER, a Hybrid Preference routER that defers an annotation to either humans or LMs, achieving better annotation quality while reducing the cost of human-only annotation. We formulate this as an optimization problem: given a preference dataset and an evaluation metric, we (1) train a performance prediction model (PPM) to predict a reward model’s (RM) performance on an arbitrary combination of human and LM annotations and (2) employ a routing strategy that selects a combination that maximizes predicted performance. We train the PPM on MultiPref, a new preference dataset with 10K instances paired with human and LM labels. We show that the selected hybrid mixture of synthetic and direct human preferences using HyPER achieves better RM performance compared to using either one exclusively by 7-13% on RewardBench and generalizes across unseen preference datasets and other base models. We also observe the same trend in other benchmarks using Best-of-N reranking, where the hybrid mix has 2-3% better performance. Finally, we analyze features from HyPER and find that prompts with moderate safety concerns or complexity benefit the most from human feedback.
+UR  - https://aclanthology.org/2025.acl-long.355/
+DO  - 10.18653/v1/2025.acl-long.355
+ER  - 
+
+TY  - CONF
+TI  - CER: Confidence Enhanced Reasoning in LLMs
+AU  - Razghandi, Ali
+AU  - Hosseini, Seyed Mohammad Hadi
+AU  - Baghshah, Mahdieh Soleymani
+PY  - 2025
+AB  - Ensuring the reliability of Large Language Models (LLMs) in complex reasoning tasks remains a formidable challenge, particularly in scenarios that demand precise mathematical calculations and knowledge-intensive open-domain generation. In this work, we introduce an uncertainty-aware framework designed to enhance the accuracy of LLM responses by systematically incorporating model confidence at critical decision points. We propose an approach that encourages multi-step reasoning in LLMs and quantify the confidence of intermediate answers such as numerical results in mathematical reasoning and proper nouns in open-domain generation. Then, the overall confidence of each reasoning chain is evaluated based on confidence of these critical intermediate steps. Finally, we aggregate the answer of generated response paths in a way that reflects the reliability of each generated content (as opposed to self-consistency in which each generated chain contributes equally to majority voting). We conducted extensive experiments in five datasets, three mathematical datasets and two open-domain datasets, using four LLMs. The results consistently validate the effectiveness of our novel confidence-aggregation method, leading to an accuracy improvement of up to 7.4% and 5.8% over baseline approaches in math and open-domain generation tasks, respectively. Code is publicly available at https://github.com/sharif-ml-lab/CER.
+UR  - https://aclanthology.org/2025.acl-long.390/
+DO  - 10.18653/v1/2025.acl-long.390
+ER  - 
+
+TY  - CONF
+TI  - Explicit and Implicit Data Augmentation for Social Event Detection
+AU  - Ma, Congbo
+AU  - Wang, Yuxia
+AU  - Wu, Jia
+AU  - Yang, Jian
+AU  - Du, Jing
+AU  - Qiu, Zitai
+AU  - Li, Qing
+AU  - Wang, Hu
+AU  - Nakov, Preslav
+PY  - 2025
+AB  - Social event detection involves identifying and categorizing important events from social media, which relies on labeled data, but annotation is costly and labor-intensive. To address this problem, we propose Augmentation framework for Social Event Detection (SED-Aug), a plug-and-play dual augmentation framework, which combines explicit text-based and implicit feature-space augmentation to enhance data diversity and model robustness. The explicit augmentation utilizes LLMs to enhance textual information through five diverse generation strategies. For implicit augmentation, we design five novel perturbation techniques that operate in the feature space on structural fused embeddings. These perturbations are crafted to keep the semantic and relational properties of the embeddings and make them more diverse. Specifically, SED-Aug outperforms the best baseline model by approximately 17.67% on the Twitter2012 dataset and by about 15.57% on the Twitter2018 dataset in terms of the average F1 score.
+UR  - https://aclanthology.org/2025.acl-long.412/
+DO  - 10.18653/v1/2025.acl-long.412
+ER  - 
+
+TY  - CONF
+TI  - SCALE: Towards Collaborative Content Analysis in Social Science with Large Language Model Agents and Human Intervention
+AU  - Zhao, Chengshuai
+AU  - Tan, Zhen
+AU  - Wong, Chau-Wai
+AU  - Zhao, Xinyan
+AU  - Chen, Tianlong
+AU  - Liu, Huan
+PY  - 2025
+AB  - Content analysis breaks down complex and unstructured texts into theory-informed numerical categories. Particularly, in social science, this process usually relies on multiple rounds of manual annotation, domain expert discussion, and rule-based refinement. In this paper, we introduce SCALE, a novel multi-agent framework that effectively  ̲Simulates  ̲Content  ̲Analysis via  ̲Large language model (LLM) ag ̲Ents. SCALE imitates key phases of content analysis, including text coding, collaborative discussion, and dynamic codebook evolution, capturing the reflective depth and adaptive discussions of human researchers. Furthermore, by integrating diverse modes of human intervention, SCALE is augmented with expert input to further enhance its performance. Extensive evaluations on real-world datasets demonstrate that SCALE achieves human-approximated performance across various complex content analysis tasks, offering an innovative potential for future social science research.
+UR  - https://aclanthology.org/2025.acl-long.416/
+DO  - 10.18653/v1/2025.acl-long.416
+ER  - 
+
+TY  - CONF
+TI  - Building Better: Avoiding Pitfalls in Developing Language Resources when Data is Scarce
+AU  - Ousidhoum, Nedjma
+AU  - Beloucif, Meriem
+AU  - Mohammad, Saif M.
+PY  - 2025
+AB  - Language is a form of symbolic capital that affects people’s lives in many ways (Bourdieu1977,1991). As a powerful means of communication, it reflects identities, cultures, traditions, and societies more broadly. Therefore, data in a given language should be regarded as more than just a collection of tokens. Rigorous data collection and labeling practices are essential for developing more human-centered and socially aware technologies. Although there has been growing interest in under-resourced languages within the NLP community, work in this area faces unique challenges, such as data scarcity and limited access to qualified annotators.In this paper, we collect feedback from individuals directly involved in and impacted by NLP artefacts for medium- and low-resource languages. We conduct both quantitative and qualitative analyses of their responses and highlight key issues related to: (1) data quality, including linguistic and cultural appropriateness; and (2) the ethics of common annotation practices, such as the misuse of participatory research. Based on these findings, we make several recommendations for creating high-quality language artefacts that reflect the cultural milieu of their speakers, while also respecting the dignity and labor of data workers.
+UR  - https://aclanthology.org/2025.acl-long.435/
+DO  - 10.18653/v1/2025.acl-long.435
+ER  - 
+
+TY  - CONF
+TI  - Bitnet.cpp: Efficient Edge Inference for Ternary LLMs
+AU  - Wang, Jinheng
+AU  - Zhou, Hansong
+AU  - Song, Ting
+AU  - Cao, Shijie
+AU  - Xia, Yan
+AU  - Cao, Ting
+AU  - Wei, Jianyu
+AU  - Ma, Shuming
+AU  - Wang, Hongyu
+AU  - Wei, Furu
+PY  - 2025
+AB  - The advent of 1-bit large language models (LLMs), led by BitNet b1.58, has spurred interest in ternary LLMs. Despite this, research and practical applications focusing on efficient edge inference for ternary LLMs remain scarce. To bridge this gap, we introduce Bitnet.cpp, an inference system optimized for BitNet b1.58 and ternary LLMs. Given that mixed-precision matrix multiplication (mpGEMM) constitutes the bulk of inference time in ternary LLMs, Bitnet.cpp incorporates a novel mpGEMM library to facilitate sub-2-bits-per-weight, efficient and lossless inference. The library features two core solutions: Ternary Lookup Table (TL), which addresses spatial inefficiencies of previous bit-wise methods, and Int2 with a Scale (I2_S), which ensures lossless edge inference, both enabling high-speed inference. Our experiments show that Bitnet.cpp achieves up to a 6.25x increase in speed over full-precision baselines and up to 2.32x over low-bit baselines, setting new benchmarks in the field. Additionally, we expand TL to element-wise lookup table (ELUT) for low-bit LLMs in the appendix, presenting both theoretical and empirical evidence of its considerable potential. Bitnet.cpp is publicly available at https://github.com/microsoft/BitNet/tree/paper, offering a sophisticated solution for the efficient and practical deployment of edge LLMs.
+UR  - https://aclanthology.org/2025.acl-long.457/
+DO  - 10.18653/v1/2025.acl-long.457
+ER  - 
+
+TY  - CONF
+TI  - Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder
+AU  - Li, Siting
+AU  - Koh, Pang Wei
+AU  - Du, Simon Shaolei
+PY  - 2025
+AB  - Recent research has shown that CLIP models struggle with visual reasoning tasks that require grounding compositionality, understanding spatial relationships, or capturing fine-grained details. One natural hypothesis is that the CLIP vision encoder does not embed essential information for these tasks. However, we find that this is not always the case: The encoder gathers query-relevant visual information, while CLIP fails to extract it. In particular, we show that another branch of Vision-Language Models (VLMs), Generative Multimodal Large Language Models (MLLMs), achieve significantly higher accuracy than CLIP in many of these tasks using the *same* vision encoder and weights, indicating that these Generative MLLMs *perceive more*—as they extract and utilize visual information more effectively. We conduct a series of controlled experiments and reveal that their success is attributed to multiple key design choices, including patch tokens, position embeddings, and prompt-based weighting. On the other hand, enhancing the training data alone or applying a stronger text encoder does not suffice to solve the task, and additional text tokens offer little benefit. Interestingly, we find that fine-grained visual reasoning is not exclusive to generative models trained by an autoregressive loss: When converted into CLIP-like encoders by contrastive finetuning, these MLLMs still outperform CLIP under the same cosine similarity-based evaluation protocol. Our study highlights the importance of VLM architectural choices and suggests directions for improving the performance of CLIP-like contrastive VLMs.
+UR  - https://aclanthology.org/2025.acl-long.499/
+DO  - 10.18653/v1/2025.acl-long.499
+ER  - 
+
+TY  - CONF
+TI  - AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs
+AU  - Li, Hongxin
+AU  - Chen, Jingfan
+AU  - Su, Jingran
+AU  - Chen, Yuntao
+AU  - Qing, Li
+AU  - Zhang, Zhaoxiang
+PY  - 2025
+AB  - User interface understanding with vision-language models (VLMs) has received much attention due to its potential for enhancing software automation.However, existing datasets used to build UI-VLMs either only contain large-scale context-free element annotations or contextualized functional descriptions for elements at a small scale.In this work, we propose the AutoGUI pipeline for automatically annotating UI elements with detailed functionality descriptions at scale.Specifically, we leverage large language models (LLMs) to infer element functionality by comparing UI state changes before and after simulated interactions. To improve annotation quality, we propose LLM-aided rejection and verification, eliminating invalid annotations without human labor.We construct a high-quality AutoGUI-704k dataset using the proposed pipeline, featuring diverse and detailed functionality annotations that are hardly provided by previous datasets.Human evaluation shows that we achieve annotation correctness comparable to a trained human annotator. Extensive experiments show that our dataset remarkably enhances VLM’s UI grounding capabilities and exhibits significant scaling effects. We also show the interesting potential use of our dataset in UI agent tasks. Please view our project at https://autogui-project.github.io/.
+UR  - https://aclanthology.org/2025.acl-long.510/
+DO  - 10.18653/v1/2025.acl-long.510
+ER  - 
+
+TY  - CONF
+TI  - PPT: A Minor Language News Recommendation Model via Cross-Lingual Preference Pattern Transfer
+AU  - Zhang, Yiyang
+AU  - Chen, Nan
+PY  - 2025
+AB  - Rich user-item interactions are essential for building reliable recommender systems, as they reflect user preference patterns. However, minor language news recommendation platforms suffer from limited interactions due to a small user base. A natural solution is to apply well-established English recommender systems to minor language news recommendation, but the linguistic gap can lead to inaccurate modeling of minor language news content. Therefore, enabling few-shot minor language news recommender systems to capture both content information and preference patterns remains a challenge. Based on the observation that preference patterns are similar across languages, we propose a minor language news recommendation model by cross-lingual preference pattern transfer, named PPT. Our model adopts the widely used two-tower architecture and employs the large language model as the backbone of the news encoder. Through cross-lingual alignment, the strong English capability of the news encoder is extended to minor languages, thus enhancing news content representations. Additionally, through cross-lingual news augmentation, PPT simulates interactions of minor language news in the English domain, which facilitates the transfer of preference patterns from the many-shot English domain to the few-shot minor language domain. Extensive experiments on two real-world datasets across 15 minor languages demonstrate the superiority and generalization of our proposed PPT in addressing minor language news recommendation.
+UR  - https://aclanthology.org/2025.acl-long.526/
+DO  - 10.18653/v1/2025.acl-long.526
+ER  - 
+
+TY  - CONF
+TI  - TWIST: Text-encoder Weight-editing for Inserting Secret Trojans in Text-to-Image Models
+AU  - Li, Xindi
+AU  - Liu, Zhe
+AU  - Zhang, Tong
+AU  - Chen, Jiahao
+AU  - Li, Qingming
+AU  - Li, Jinbao
+AU  - Ji, Shouling
+PY  - 2025
+AB  - Text-to-image (T2I) models excel at generating high-quality images from text via powerful text encoders but training these encoders demands substantial computational resources. Consequently, many users seek pre-trained text encoders from model plugin-sharing platforms like Civitai and Hugging Face, which introduces an underexplored threat: the potential for adversaries to embed Trojans within these plugins. Existing Trojan attacks often require extensive training data and suffer from poor generalization across different triggers, limiting their effectiveness and scalability. To the best of our knowledge, this paper introduces the first **T**ext-encoder **W**eight-editing method for **I**nserting **S**ecret **T**rojans (**TWIST**). By identifying the *bottleneck MLP layer*—the critical point where minimal edits can dominantly control cross-modal alignment—TWIST achieves training-free and data-free Trojan insertion, which makes it highly efficient and practical. The experimental results across various triggers demonstrate that TWIST attains an average attack success rate of 91%, a 78% improvement over the state-of-the-art (SOTA) method proposed in 2024 and highlights the excellent generalization capability. Moreover, TWIST reduces modified parameters by 8-fold and cuts injection time to 25 seconds. Our findings underscore the security risks associated with text encoders in real-world applications and emphasize the need for more robust defense mechanisms.
+UR  - https://aclanthology.org/2025.acl-long.541/
+DO  - 10.18653/v1/2025.acl-long.541
+ER  - 
+
+TY  - CONF
+TI  - DebateCoder: Towards Collective Intelligence of LLMs via Test Case Driven LLM Debate for Code Generation
+AU  - Chen, Jizheng
+AU  - Du, Kounianhua
+AU  - Dai, Xinyi
+AU  - Zhang, Weiming
+AU  - Wang, Xihuai
+AU  - Wang, Yasheng
+AU  - Tang, Ruiming
+AU  - Zhang, Weinan
+AU  - Yu, Yong
+PY  - 2025
+AB  - With the impressive reasoning and text generation capabilities of large language models (LLMs), methods leveraging multiple LLMs to debate each other have garnered increasing attention. However, existing debate-based approaches remain limited in effectiveness in structured and detailed domains represented by code generation due to several reasons: 1) Reliance on different instances of the same LLM for debate, neglecting the potential benefits of integrating diverse models with varied internal knowledge for more comprehensive code generation, 2) under-utilization of test cases, and 3) reliance on third-party LLM moderators for result consolidation and decision-making, probably introducing hallucinations and judgment errors. To address these challenges, we propose DebateCoder to collect intelligence of LLMs via test case-driven debate for code generation. In DebateCoder, test cases serve as a medium for models to analyze code and identify bugs, while opposing models generate test cases to challenge each other’s code during the debate process. These test cases, along with their execution results, are elaborately leveraged to refine and enhance the code through a novel contrastive analysis process. Furthermore, DebateCoder leverages test case outcomes to assess code quality and determine convergence criteria. Unlike previous approaches, DebateCoder emphasizes the collaborative improvement of both models through competitive debate and interactive analysis. Abundant experimental results on two datasets demonstrate the effectiveness of DebateCoder.
+UR  - https://aclanthology.org/2025.acl-long.589/
+DO  - 10.18653/v1/2025.acl-long.589
+ER  - 
+
+TY  - CONF
+TI  - Phonotomizer: A Compact, Unsupervised, Online Training Approach to Real-Time, Multilingual Phonetic Segmentation
+AU  - Yantosca, Michael S.
+AU  - Cheng, Albert M. K.
+PY  - 2025
+AB  - Phonetic transcription requires significant time and expert training. Automated, state-of-the-art text-dependent methods still involve substantial pre-training annotation labor and may not generalize to multiple languages. Hallucination of speech amid silence or non-speech noise can also plague these methods, which fall short in real-time applications due to post hoc whole-phrase evaluation. This paper introduces Phonotomizer, a compact, unsupervised, online training approach to automatic, multilingual phonetic segmentation, a critical first stage in transcription. Unlike prior approaches, Phonotomizer trains on raw sound files alone and can modulate computational exactness. Preliminary evaluations on Irish and Twi, two underrepresented languages, exhibit segmentation comparable to current forced alignment technology, reducing acoustic model size and minimizing training epochs.
+UR  - https://aclanthology.org/2025.acl-long.592/
+DO  - 10.18653/v1/2025.acl-long.592
+ER  - 
+
+TY  - CONF
+TI  - A Multi-persona Framework for Argument Quality Assessment
+AU  - Jin, Bojun
+AU  - Bao, Jianzhu
+AU  - Hou, Yufang
+AU  - Sun, Yang
+AU  - Zhang, Yice
+AU  - Wang, Huajie
+AU  - Liang, Bin
+AU  - Xu, Ruifeng
+PY  - 2025
+AB  - Argument quality assessment faces inherent challenges due to its subjective nature, where different evaluators may assign varying quality scores for an argument based on personal perspectives. Although existing datasets collect opinions from multiple annotators to model subjectivity, most existing computational methods fail to consider multi-perspective evaluation. To address this issue, we propose MPAQ, a multi-persona framework for argument quality assessment that simulates diverse evaluator perspectives through large language models. It first dynamically generates targeted personas tailored to an input argument, then simulates each persona’s reasoning process to evaluate the argument quality from multiple perspectives. To effectively generate fine-grained quality scores, we develop a coarse-to-fine scoring strategy that first generates a coarse-grained integer score and then refines it into a fine-grained decimal score. Experiments on IBM-Rank-30k and IBM-ArgQ-5.3kArgs datasets demonstrate that MPAQ consistently outperforms strong baselines while providing comprehensive multi-perspective rationales.
+UR  - https://aclanthology.org/2025.acl-long.593/
+DO  - 10.18653/v1/2025.acl-long.593
+ER  - 
+
+TY  - CONF
+TI  - Single-to-mix Modality Alignment with Multimodal Large Language Model for Document Image Machine Translation
+AU  - Liang, Yupu
+AU  - Zhang, Yaping
+AU  - Zhang, Zhiyang
+AU  - Zhao, Yang
+AU  - Xiang, Lu
+AU  - Zong, Chengqing
+AU  - Zhou, Yu
+PY  - 2025
+AB  - Document Image Machine Translation (DIMT) aims to translate text within document images, facing generalization challenges due to limited training data and the complex interplay between visual and textual information. To address these challenges, we introduce M4Doc, a novel single-to-mix Modality alignment framework leveraging Multimodal Large Language Models (MLLMs). M4Doc aligns an imageonly encoder with the multimodal representations of an MLLM, pre-trained on large-scale document image datasets. This alignment enables a lightweight DIMT model to learn crucial visual-textual correlations during training. During inference, M4Doc bypasses the MLLM, maintaining computational efficiency while benefiting from its multimodal knowledge. Comprehensive experiments demonstrate substantial improvements in translation quality, especially in cross-domain generalization and challenging document image scenarios. The code will be released upon acceptance.
+UR  - https://aclanthology.org/2025.acl-long.606/
+DO  - 10.18653/v1/2025.acl-long.606
+ER  - 
+
+TY  - CONF
+TI  - KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors
+AU  - Qi, Zhiyang
+AU  - Kaneko, Takumasa
+AU  - Takamizo, Keiko
+AU  - Ukiyo, Mariko
+AU  - Inaba, Michimasa
+PY  - 2025
+AB  - Generating psychological counseling responses with language models relies heavily on high-quality datasets. Crowdsourced data collection methods require strict worker training, and data from real-world counseling environments may raise privacy and ethical concerns. While recent studies have explored using large language models (LLMs) to augment psychological counseling dialogue datasets, the resulting data often suffers from limited diversity and authenticity. To address these limitations, this study adopts a role-playing approach where trained counselors simulate counselor-client interactions, ensuring high-quality dialogues while mitigating privacy risks. Using this method, we construct KokoroChat, a Japanese psychological counseling dialogue dataset comprising 6,589 long-form dialogues, each accompanied by comprehensive client feedback. Experimental results demonstrate that fine-tuning open-source LLMs with KokoroChat improves both the quality of generated counseling responses and the automatic evaluation of counseling dialogues. The KokoroChat dataset is available at https://github.com/UEC-InabaLab/KokoroChat.
+UR  - https://aclanthology.org/2025.acl-long.608/
+DO  - 10.18653/v1/2025.acl-long.608
+ER  - 
+
+TY  - CONF
+TI  - Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models
+AU  - Xu, Fangzhi
+AU  - Sun, Qiushi
+AU  - Cheng, Kanzhi
+AU  - Liu, Jun
+AU  - Qiao, Yu
+AU  - Wu, Zhiyong
+PY  - 2025
+AB  - One of the primary driving forces contributing to the superior performance of Large Language Models (LLMs) is the extensive availability of human-annotated natural language data, which is used for alignment fine-tuning. This inspired researchers to investigate self-training methods to mitigate the extensive reliance on human annotations. However, the current success of self-training has been primarily observed in natural language scenarios, rather than in the increasingly important neural-symbolic scenarios. To this end, we propose an environment-guided neural-symbolic self-training framework named ENVISIONS. It aims to overcome two main challenges: (1) the scarcity of symbolic data, and (2) the limited proficiency of LLMs in processing symbolic language. Extensive evaluations conducted on three distinct domains demonstrate the effectiveness of our approach. Additionally, we have conducted a comprehensive analysis to uncover the factors contributing to ENVISIONS’s success, thereby offering valuable insights for future research in this area.
+UR  - https://aclanthology.org/2025.acl-long.635/
+DO  - 10.18653/v1/2025.acl-long.635
+ER  - 
+
+TY  - CONF
+TI  - Qwen2.5-xCoder: Multi-Agent Collaboration for Multilingual Code Instruction Tuning
+AU  - Yang, Jian
+AU  - Zhang, Wei
+AU  - Miao, Yibo
+AU  - Quan, Shanghaoran
+AU  - Wu, Zhenhe
+AU  - Peng, Qiyao
+AU  - Yang, Liqun
+AU  - Liu, Tianyu
+AU  - Cui, Zeyu
+AU  - Hui, Binyuan
+AU  - Lin, Junyang
+PY  - 2025
+AB  - Recent advancement in code understanding and generation demonstrates that code LLMs fine-tuned on a high-quality instruction dataset can gain powerful capabilities to address wide-ranging code-related tasks. However, most previous existing methods mainly view each programming language in isolation and ignore the knowledge transfer among different programming languages. To bridge the gap among different programming languages, we introduce a novel multi-agent collaboration framework to enhance multilingual instruction tuning for code LLMs, where multiple language-specific intelligent agent components with generation memory work together to transfer knowledge from one language to another efficiently and effectively. Specifically, we first generate the language-specific instruction data from the code snippets and then provide the generated data as the seed data for language-specific agents. Multiple language-specific agents discuss and collaborate to formulate a new instruction and its corresponding solution (A new programming language or existing programming language), To further encourage the cross-lingual transfer, each agent stores its generation history as memory and then summarizes its merits and faults. Finally, the high-quality multilingual instruction data is used to encourage knowledge transfer among different programming languages to train Qwen2.5-xCoder. Experimental results on multilingual programming benchmarks demonstrate the superior performance of Qwen2.5-xCoder in sharing common knowledge, highlighting its potential to reduce the cross-lingual gap.
+UR  - https://aclanthology.org/2025.acl-long.642/
+DO  - 10.18653/v1/2025.acl-long.642
+ER  - 
+
+TY  - CONF
+TI  - PQR: Improving Dense Retrieval via Potential Query Modeling
+AU  - Kang, Junfeng
+AU  - Li, Rui
+AU  - Liu, Qi
+AU  - Chen, Yanjiang
+AU  - Zhang, Zheng
+AU  - Jiang, Junzhe
+AU  - Yu, Heng
+AU  - Su, Yu
+PY  - 2025
+AB  - Dense retrieval has now become the mainstream paradigm in information retrieval. The core idea of dense retrieval is to align document embeddings with their corresponding query embeddings by maximizing their dot product. The current training data is quite sparse, with each document typically associated with only one or a few labeled queries. However, a single document can be retrieved by multiple different queries. Aligning a document with just one or a limited number of labeled queries results in a loss of its semantic information. In this paper, we propose a training-free Potential Query Retrieval (PQR) framework to address this issue. Specifically, we use a Gaussian mixture distribution to model all potential queries for a document, aiming to capture its comprehensive semantic information. To obtain this distribution, we introduce three sampling strategies to sample a large number of potential queries for each document and encode them into a semantic space. Using these sampled queries, we employ the Expectation-Maximization algorithm to estimate parameters of the distribution. Finally, we also propose a method to calculate similarity scores between user queries and documents under the PQR framework. Extensive experiments demonstrate the effectiveness of the proposed method.
+UR  - https://aclanthology.org/2025.acl-long.660/
+DO  - 10.18653/v1/2025.acl-long.660
+ER  - 
+
+TY  - CONF
+TI  - GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding
+AU  - Zhang, Ziyin
+AU  - Yu, Hang
+AU  - Lee, Sage
+AU  - Di, Peng
+AU  - Li, Jianguo
+AU  - Wang, Rui
+PY  - 2025
+AB  - Programming languages possess rich semantic information - such as data flow - that is represented by graphs and not available from the surface form of source code. Recent code language models have scaled to billions of parameters, but model source code solely as text tokens while ignoring any other structural information. Conversely, models that do encode structural information of code make modifications to the Transformer architecture, limiting their scale and compatibility with pretrained LLMs. In this work, we take the best of both worlds with GALLa - Graph Aligned Large Language Models. GALLa utilizes graph neural networks and cross-modal alignment technologies to inject the structural information of code into LLMs as an auxiliary task during finetuning. This framework is both model-agnostic and task-agnostic, as it can be applied to any code LLM for any code downstream task, and requires the structural graph data only at training time from a corpus unrelated to the finetuning data, while incurring no cost at inference time over the baseline LLM. Experiments on five code tasks with six different baseline LLMs ranging in size from 350M to 14B validate the effectiveness of GALLa, demonstrating consistent improvement over the baseline, even for powerful models such as LLaMA3 and Qwen2.5-Coder.
+UR  - https://aclanthology.org/2025.acl-long.676/
+DO  - 10.18653/v1/2025.acl-long.676
+ER  - 
+
+TY  - CONF
+TI  - SkillAggregation: Reference-free LLM-Dependent Aggregation
+AU  - Sun, Guangzhi
+AU  - Kagrecha, Anmol
+AU  - Manakul, Potsawee
+AU  - Woodland, Phil
+AU  - Gales, Mark
+PY  - 2025
+AB  - Large Language Models (LLMs) are increasingly used to assess NLP tasks due to their ability to generate human-like judgments. Single LLMs were used initially, however, recent work suggests using multiple LLMs as judges yields improved performance. An important step in exploiting multiple judgements is the combination stage, aggregation. Existing methods in NLP either assign equal weight to all LLM judgments or are designed for specific tasks such as hallucination detection. This work focuses on aggregating predictions from multiple systems where no reference labels are available. A new method called SkillAggregation is proposed, which learns to combine estimates from LLM judges without needing additional data or ground truth. It extends the Crowdlayer aggregation method, developed for image classification, to exploit the judge estimates during inference. The approach is compared to a range of standard aggregation methods on HaluEval-Dialogue, TruthfulQA and Chatbot Arena tasks. SkillAggregation outperforms Crowdlayer on all tasks, and yields the best performance over all approaches on the majority of tasks.
+UR  - https://aclanthology.org/2025.acl-long.756/
+DO  - 10.18653/v1/2025.acl-long.756
+ER  - 
+
+TY  - CONF
+TI  - ProxAnn: Use-Oriented Evaluations of Topic Models and Document Clustering
+AU  - Hoyle, Alexander
+AU  - Calvo-Bartolom{\'e}, Lorena
+AU  - Boyd-Graber, Jordan
+AU  - Resnik, Philip
+PY  - 2025
+AB  - Topic models and document-clustering evaluations either use automated metrics that align poorly with human preferences, or require expert labels that are intractable to scale. We design a scalable human evaluation protocol and a corresponding automated approximation that reflect practitioners’ real-world usage of models. Annotators—or an LLM-based proxy—review text items assigned to a topic or cluster, infer a category for the group, then apply that category to other documents. Using this protocol, we collect extensive crowdworker annotations of outputs from a diverse set of topic models on two datasets. We then use these annotations to validate automated proxies, finding that the best LLM proxy is statistically indistinguishable from a human annotator and can therefore serve as a reasonable substitute in automated evaluations.
+UR  - https://aclanthology.org/2025.acl-long.772/
+DO  - 10.18653/v1/2025.acl-long.772
+ER  - 
+
+TY  - CONF
+TI  - Mutual-Taught for Co-adapting Policy and Reward Models
+AU  - Shi, Tianyuan
+AU  - Huang, Canbin
+AU  - Wan, Fanqi
+AU  - Zhong, Longguang
+AU  - Yang, Ziyi
+AU  - Shen, Weizhou
+AU  - Quan, Xiaojun
+AU  - Yan, Ming
+PY  - 2025
+AB  - During the preference optimization of large language models (LLMs), distribution shifts may arise between newly generated model samples and the data used to train the reward model (RM). This shift reduces the efficacy of the RM, which in turn negatively impacts the performance of the policy model (PM). To address this challenge, we propose Mutual-Taught, a self-training method that iteratively improves both the PM and RM without requiring additional human annotation. Our approach mirrors the expectation-maximization (EM) algorithm. In the E-step, the PM is updated using feedback from the current RM, guiding the PM toward a better approximation of the latent optimal preference distribution.In the M-step, we update the RM by constructing training data from the outputs of the PM before and after the E-step update. This process ensures that the RM adapts to the evolving policy distribution. Experimental results demonstrate that this iterative approach leads to consistent improvements in both models. Specifically, our 8B policy model, LLaMA-3-8B-Instruct-MT, achieves a length-controlled win rate of 54.1% on AlpacaEval-2, while our 8B reward model, FsfairX-LLaMA3-RM-MT, performs on par with GPT-4o-2024-08-06 on RewardBench.
+UR  - https://aclanthology.org/2025.acl-long.794/
+DO  - 10.18653/v1/2025.acl-long.794
+ER  - 
+
+TY  - CONF
+TI  - MockConf: A Student Interpretation Dataset: Analysis, Word- and Span-level Alignment and Baselines
+AU  - Javorsk{\'y}, D{\'a}vid
+AU  - Bojar, Ond{\v{r}}ej
+AU  - Yvon, Fran{\c{c}}ois
+PY  - 2025
+AB  - In simultaneous interpreting, an interpreter renders the speech into another language with a very short lag, much sooner than sentences are finished. In order to understand and later reproduce this dynamic and complex task automatically, we need specialized datasets and tools for analysis, monitoring, and evaluation, such as parallel speech corpora, and tools for their automatic annotation. Existing parallel corpora of translated texts and associated alignment algorithms hardly fill this gap, as they fail to model long-range interactions between speech segments or specific types of divergences (e.g. shortening, simplification, functional generalization) between the original and interpreted speeches. In this work, we develop and explore MockConf, a student interpretation dataset that was collected from Mock Conferences run as part of the students’ curriculum. This dataset contains 7 hours of recordings in 5 European languages, transcribed and aligned at the level of spans and words. We further implement and release InterAlign, a modern web-based annotation tool for parallel word and span annotations on long inputs, suitable for aligning simultaneous interpreting. We propose metrics for the evaluation and a baseline for automatic alignment. Dataset and tools will be released to the community.
+UR  - https://aclanthology.org/2025.acl-long.797/
+DO  - 10.18653/v1/2025.acl-long.797
+ER  - 
+
+TY  - CONF
+TI  - Explaining Matters: Leveraging Definitions and Semantic Expansion for Sexism Detection
+AU  - Khan, Sahrish
+AU  - Jhumka, Arshad
+AU  - Pergola, Gabriele
+PY  - 2025
+AB  - The detection of sexism in online content remains an open problem, as harmful language disproportionately affects women and marginalized groups. While automated systems for sexism detection have been developed, they still face two key challenges: data sparsity and the nuanced nature of sexist language. Even in large, well-curated datasets like the Explainable Detection of Online Sexism (EDOS), severe class imbalance hinders model generalization. Additionally, the overlapping and ambiguous boundaries of fine-grained categories introduce substantial annotator disagreement, reflecting the difficulty of interpreting nuanced expressions of sexism. To address these challenges, we propose two prompt-based data augmentation techniques: Definition-based Data Augmentation (DDA), which leverages category-specific definitions to generate semantically-aligned synthetic examples, and Contextual Semantic Expansion (CSE), which targets systematic model errors by enriching examples with task-specific semantic features. To further improve reliability in fine-grained classification, we introduce an ensemble strategy that resolves prediction ties by aggregating complementary perspectives from multiple language models. Our experimental evaluation on the EDOS dataset demonstrates state-of-the-art performance across all tasks, with notable improvements of macro F1 by 1.5 points for binary classification (Task A) and 4.1 points for fine-grained classification (Task C).
+UR  - https://aclanthology.org/2025.acl-long.809/
+DO  - 10.18653/v1/2025.acl-long.809
+ER  - 
+
+TY  - CONF
+TI  - From Human Reading to NLM Understanding: Evaluating the Role of Eye-Tracking Data in Encoder-Based Models
+AU  - Dini, Luca
+AU  - Domenichelli, Lucia
+AU  - Brunato, Dominique
+AU  - Dell{'}Orletta, Felice
+PY  - 2025
+AB  - Cognitive signals, particularly eye-tracking data, offer valuable insights into human language processing. Leveraging eye-gaze data from the Ghent Eye-Tracking Corpus, we conducted a series of experiments to examine how integrating knowledge of human reading behavior impacts Neural Language Models (NLMs) across multiple dimensions: task performance, attention mechanisms, and the geometry of their embedding space. We explored several fine-tuning methodologies to inject eye-tracking features into the models. Our results reveal that incorporating these features does not degrade downstream task performance, enhances alignment between model attention and human attention patterns, and compresses the geometry of the embedding space.
+UR  - https://aclanthology.org/2025.acl-long.870/
+DO  - 10.18653/v1/2025.acl-long.870
+ER  - 
+
+TY  - CONF
+TI  - DNASpeech: A Contextualized and Situated Text-to-Speech Dataset with Dialogues, Narratives and Actions
+AU  - Cheng, Chuanqi
+AU  - Sun, Hongda
+AU  - Du, Bo
+AU  - Shang, Shuo
+AU  - Hu, Xinrong
+AU  - Yan, Rui
+PY  - 2025
+AB  - In this paper, we propose contextualized and situated text-to-speech (CS-TTS), a novel TTS task to promote more accurate and customized speech generation using prompts with Dialogues, Narratives, and Actions (DNA). While prompt-based TTS methods facilitate controllable speech generation, existing TTS datasets lack situated descriptive prompts aligned with speech data. To address this data scarcity, we develop an automatic annotation pipeline enabling multifaceted alignment among speech clips, content text, and their respective descriptions. Based on this pipeline, we present DNASpeech, a novel CS-TTS dataset with high-quality speeches with DNA prompt annotations. DNASpeech contains 2,395 distinct characters, 4,452 scenes, and 22,975 dialogue utterances, along with over 18 hours of high-quality speech recordings. To accommodate more specific task scenarios, we establish a leaderboard featuring two new subtasks for evaluation: CS-TTS with narratives and CS-TTS with dialogues. We also design an intuitive baseline model for comparison with existing state-of-the-art TTS methods on our leaderboard. Comprehensive experimental results demonstrate the quality and effectiveness of DNASpeech, validating its potential to drive advancements in the TTS field.
+UR  - https://aclanthology.org/2025.acl-long.911/
+DO  - 10.18653/v1/2025.acl-long.911
+ER  - 
+
+TY  - CONF
+TI  - From Outcomes to Processes: Guiding PRM Learning from ORM for Inference-Time Alignment
+AU  - Xie, Bin
+AU  - Xu, Bingbing
+AU  - Yuan, Yige
+AU  - Zhu, Shengmao
+AU  - Shen, Huawei
+PY  - 2025
+AB  - Inference-time alignment methods have gained significant attention for their efficiency and effectiveness in aligning large language models (LLMs) with human preferences. However, existing dominant approaches using reward-guided search (RGS) primarily rely on outcome reward models (ORMs), which suffer from a critical granularity mismatch: ORMs are designed to provide outcome rewards for complete responses, while RGS methods rely on process rewards to guide the policy, leading to inconsistent scoring and suboptimal alignment. To address this challenge, we introduce process reward models (PRMs) into RGS and argue that an ideal PRM should satisfy two objectives: Score Consistency, ensuring coherent evaluation across partial and complete responses, and Preference Consistency, aligning partial sequence assessments with human preferences. Based on these, we propose SP-PRM, a novel dual-consistency framework integrating score consistency-based and preference consistency-based partial evaluation modules without relying on human annotation. Extensive experiments on dialogue, summarization, and reasoning tasks demonstrate that SP-PRM substantially enhances existing RGS methods, achieving a 3.6%-10.3% improvement in GPT-4 evaluation scores across all tasks. Code is publicly available at https://github.com/xiebin23/SP-PRM.
+UR  - https://aclanthology.org/2025.acl-long.946/
+DO  - 10.18653/v1/2025.acl-long.946
+ER  - 
+
+TY  - CONF
+TI  - Adversarial Alignment with Anchor Dragging Drift ($A^3D^2$): Multimodal Domain Adaptation with Partially Shifted Modalities
+AU  - Sun, Jun
+AU  - Zhang, Xinxin
+AU  - Hong, Simin
+AU  - Zhu, Jian
+AU  - Zeng, Lingfang
+PY  - 2025
+AB  - Multimodal learning has celebrated remarkable success across diverse areas, yet faces the challenge of prohibitively expensive data collection and annotation when adapting models to new environments. In this context, domain adaptation has gained growing popularity as a technique for knowledge transfer, which, however, remains underexplored in multimodal settings compared with unimodal ones. This paper investigates multimodal domain adaptation, focusing on a practical partially shifting scenario where some modalities (referred to as anchors) remain domain-stable, while others (referred to as drifts) undergo a domain shift. We propose a bi-alignment scheme to simultaneously perform drift-drift and anchor-drift matching. The former is achieved through adversarial learning, aligning the representations of the drifts across source and target domains; the latter corresponds to an “anchor dragging drift” strategy, which matches the distributions of the drifts and anchors within the target domain using the optimal transport (OT) method. The overall design principle features Adversarial Alignment with Anchor Dragging Drift, abbreviated as A3D2, for multimodal domain adaptation with partially shifted modalities. Comprehensive empirical results verify the effectiveness of the proposed approach, and demonstrate that A3D2 achieves superior performance compared with state-of-the-art approaches. The code is available at: https://github.com/sunjunaimer/A3D2.git.
+UR  - https://aclanthology.org/2025.acl-long.967/
+DO  - 10.18653/v1/2025.acl-long.967
+ER  - 
+
+TY  - CONF
+TI  - Safer or Luckier? LLMs as Safety Evaluators Are Not Robust to Artifacts
+AU  - Chen, Hongyu
+AU  - Goldfarb-Tarrant, Seraphina
+PY  - 2025
+AB  - Large Language Models (LLMs) are increasingly employed as automated evaluators to assess the safety of generated content, yet their reliability in this role remains uncertain. This study evaluates a diverse set of 11 LLM judge models across critical safety domains, examining three key aspects: self-consistency in repeated judging tasks, alignment with human judgments, and susceptibility to input artifacts such as apologetic or verbose phrasing. Our findings reveal that biases in LLM judges can significantly distort the final verdict on which content source is safer, undermining the validity of comparative evaluations. Notably, apologetic language artifacts alone can skew evaluator preferences by up to 98%. Contrary to expectations, larger models do not consistently exhibit greater robustness, while smaller models sometimes show higher resistance to specific artifacts. To mitigate LLM evaluator robustness issues, we investigate jury-based evaluations aggregating decisions from multiple models. Although this approach both improves robustness and enhances alignment to human judgements, artifact sensitivity persists even with the best jury configurations. These results highlight the urgent need for diversified, artifact-resistant methodologies to ensure reliable safety assessments.
+UR  - https://aclanthology.org/2025.acl-long.970/
+DO  - 10.18653/v1/2025.acl-long.970
+ER  - 
+
+TY  - CONF
+TI  - AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation
+AU  - Zhang, Songming
+AU  - Zhang, Xue
+AU  - Zhang, Tong
+AU  - Hu, Bojie
+AU  - Chen, Yufeng
+AU  - Xu, Jinan
+PY  - 2025
+AB  - In modern large language models (LLMs), LLM alignment is of crucial importance and is typically achieved through methods such as reinforcement learning from human feedback (RLHF) and direct preference optimization (DPO). However, in most existing methods for LLM alignment, all tokens in the response are optimized using a sparse, response-level reward or preference annotation. The ignorance of token-level rewards may erroneously punish high-quality tokens or encourage low-quality tokens, resulting in suboptimal performance and slow convergence speed. To address this issue, we propose AlignDistil, a RLHF-equivalent distillation method for token-level reward optimization. Specifically, we introduce the reward learned by DPO into the RLHF objective and theoretically prove the equivalence between this objective and a token-level distillation process, where the teacher distribution linearly combines the logits from the DPO model and a reference model. On this basis, we further bridge the accuracy gap between the reward from the DPO model and the pure reward model, by building a contrastive DPO reward with a normal and a reverse DPO model. Moreover, to avoid under- and over-optimization on different tokens, we design a token adaptive logit extrapolation mechanism to construct an appropriate teacher distribution for each token. Experimental results demonstrate the superiority of our AlignDistil over existing methods and showcase fast convergence due to its token-level distributional reward optimization.
+UR  - https://aclanthology.org/2025.acl-long.972/
+DO  - 10.18653/v1/2025.acl-long.972
+ER  - 
+
+TY  - CONF
+TI  - On the Acquisition of Shared Grammatical Representations in Bilingual Language Models
+AU  - Arnett, Catherine
+AU  - Chang, Tyler A.
+AU  - Michaelov, James A.
+AU  - Bergen, Ben
+PY  - 2025
+AB  - Crosslingual transfer is crucial to contemporary language models’ multilingual capabilities, but how it occurs is not well understood. Weask what happens to a monolingual language model when it begins to be trained on a second language. Specifically, we train small bilingual models for which we control the amount of data for each language and the order of language exposure. To find evidence of shared multilingual representations, we turn to structural priming, a method used to study grammatical representations in humans. We first replicate previous crosslingual structural priming results and find that after controlling for training data quantity and language exposure, there are asymmetrical effects across language pairs and directions. We argue that this asymmetry may shape hypotheses about human structural priming effects. We also find that structural priming effects are less robust for less similar language pairs, highlighting potential limitations of crosslingual transfer learning and shared representations for typologically diverse languages.
+UR  - https://aclanthology.org/2025.acl-long.1010/
+DO  - 10.18653/v1/2025.acl-long.1010
+ER  - 
+
+TY  - CONF
+TI  - Automated CAD Modeling Sequence Generation from Text Descriptions via Transformer-Based Large Language Models
+AU  - Liao, JianXing
+AU  - Xu, Junyan
+AU  - Sun, Yatao
+AU  - Tang, Maowen
+AU  - He, Sicheng
+AU  - Liao, Jingxian
+AU  - Yu, Shui
+AU  - Li, Yun
+AU  - Guan, Xiaohong
+PY  - 2025
+AB  - Designing complex computer-aided design (CAD) models is often time-consuming due to challenges such as computational inefficiency and the difficulty of generating precise models. We propose a novel language-guided framework for industrial design automation to address these issues, integrating large language models (LLMs) with computer-automated design (CAutoD).Through this framework, CAD models are automatically generated from parameters and appearance descriptions, supporting the automation of design tasks during the detailed CAD design phase. Our approach introduces three key innovations: (1) a semi-automated data annotation pipeline that leverages LLMs and vision-language large models (VLLMs) to generate high-quality parameters and appearance descriptions; (2) a Transformer-based CAD generator (TCADGen) that predicts modeling sequences via dual-channel feature aggregation; (3) an enhanced CAD modeling generation model, called CADLLM, that is designed to refine the generated sequences by incorporating the confidence scores from TCADGen. Experimental results demonstrate that the proposed approach outperforms traditional methods in both accuracy and efficiency, providing a powerful tool for automating industrial workflows and generating complex CAD models from textual prompts.The code is available at https://jianxliao.github.io/cadllm-page/
+UR  - https://aclanthology.org/2025.acl-long.1054/
+DO  - 10.18653/v1/2025.acl-long.1054
+ER  - 
+
+TY  - CONF
+TI  - Evaluating Visual and Cultural Interpretation: The K-Viscuit Benchmark with Human-VLM Collaboration
+AU  - Park, ChaeHun
+AU  - Baek, Yujin
+AU  - Kim, Jaeseok
+AU  - Heo, Yu-Jung
+AU  - Chang, Du-Seong
+AU  - Choo, Jaegul
+PY  - 2025
+AB  - To create culturally inclusive vision-language models (VLMs), developing a benchmark that tests their ability to address culturally relevant questions is essential. Existing approaches typically rely on human annotators, making the process labor-intensive and creating a cognitive burden in generating diverse questions. To address this, we propose a semi-automated framework for constructing cultural VLM benchmarks, specifically targeting multiple-choice QA. This framework combines human-VLM collaboration, where VLMs generate questions based on guidelines, a small set of annotated examples, and relevant knowledge, followed by a verification process by native speakers. We demonstrate the effectiveness of this framework through the creation of K-Viscuit, a dataset focused on Korean culture. Our experiments on this dataset reveal that open-source models lag behind proprietary ones in understanding Korean culture, highlighting key areas for improvement. We also present a series of further analyses, including human evaluation, augmenting VLMs with external knowledge, and the evaluation beyond multiple-choice QA. Our dataset is available at https://huggingface.co/datasets/ddehun/k-viscuit.
+UR  - https://aclanthology.org/2025.acl-long.1066/
+DO  - 10.18653/v1/2025.acl-long.1066
+ER  - 
+
+TY  - CONF
+TI  - Flipping Knowledge Distillation: Leveraging Small Models' Expertise to Enhance LLMs in Text Matching
+AU  - Li, Mingzhe
+AU  - Xiang, Jing
+AU  - Zhang, Qishen
+AU  - Wan, Kaiyang
+AU  - Chen, Xiuying
+PY  - 2025
+AB  - Knowledge distillation typically involves transferring knowledge from a Large Language Model (LLM) to a Smaller Language Model (SLM). However, in tasks like text matching, smaller fine-tuned models often produce more effective domain-specific representations as they focus on optimizing the similarity between input pairs. To combine the specialized strengths of small models with the rich semantic understanding of LLMs, we propose a flipped knowledge distillation paradigm, where the LLM learns from the SLM. To bridge the architectural gap between commonly used decoder-only LLMs and the encoder-based frameworks of smaller models, we reinterpret LLMs as encoder-decoder models using LoRA. In this setup, the encoder generates compressed text representations, while the decoder transforms them into the output space. During training, the encoder produces text representations and computes their similarities, which are then aligned with the similarity scores produced by the teacher model. We achieve this alignment using our proposed Margin-aware Contrastive Learning (MCL) approach. MCL ensures accurate similarity for both positive and negative pairs, while also adaptively handling differences within positive and negative samples. We validate the effectiveness of our approach on financial and healthcare benchmarks as well as real-world online applications. Our model has been fully deployed in an online application environment, demonstrating its practical utility.
+UR  - https://aclanthology.org/2025.acl-long.1081/
+DO  - 10.18653/v1/2025.acl-long.1081
+ER  - 
+
+TY  - CONF
+TI  - Mining the uncertainty patterns of humans and models in the annotation of moral foundations and human values
+AU  - Falk, Neele
+AU  - Lapesa, Gabriella
+PY  - 2025
+AB  - The NLP community has converged on considering disagreement in annotation (or human label variation, HLV) as a constitutive feature of subjective tasks. This paper makes a further step by investigating the relationship between HLV and model uncertainty, and the impact of linguistic features of the items on both. We focus on the identification of moral foundations (e.g., care, fairness, loyalty) and human values (e.g., be polite, be honest) in text. We select three standard datasets and proceed into two steps. First, we focus on HLV and analyze the linguistic features (complexity, polarity, pragmatic phenomena, lexical choices) that correlate with HLV. Next, we proceed to uncertainty and its relationship to HLV. We experiment with RoBERTa and Flan-T5 in a number of training setups and evaluation metrics that test the calibration of uncertainty to HLV and its relationship to performance beyond majority vote; next, we analyze the impact of linguistic features on uncertainty. We find that RoBERTa with soft loss is better calibrated to HLV, and we find alignment between calibrated models and humans in the features (textual complexity and polarity) triggering variation.
+UR  - https://aclanthology.org/2025.acl-long.1116/
+DO  - 10.18653/v1/2025.acl-long.1116
+ER  - 
+
+TY  - CONF
+TI  - ChemActor: Enhancing Automated Extraction of Chemical Synthesis Actions with LLM-Generated Data
+AU  - Zhang, Yu
+AU  - Yu, Ruijie
+AU  - Tian, Jidong
+AU  - Zhu, Feng
+AU  - Liu, Jiapeng
+AU  - Yang, Xiaokang
+AU  - Jin, Yaohui
+AU  - Xu, Yanyan
+PY  - 2025
+AB  - With the increasing interest in robotic synthesis in the context of organic chemistry, the automated extraction of chemical procedures from literature is critical. However, this task remains challenging due to the inherent ambiguity of chemical language and the high cost of human annotation required for developing reliable computer-aided extraction protocols. Here, we present ChemActor, a fully fine-tuned large language model (LLM), as a chemical executor to convert between unstructured experimental procedures and structured action sequences. We propose a sequential LLM-generated data framework to address the challenges of insufficient and low-quality annotated data. This framework integrates a data selection module that selects data based on distribution divergence, with a general-purpose LLM, to generate machine-executable actions from a single molecule input. Additionally, we introduce a novel multi-round LLMs circle review metric, which reflects the model’s advanced understanding of chemical experimental procedures. Extensive experiments on reaction-to-description (R2D) and description-to-action (D2A) tasks demonstrate that ChemActor, augmented by LLM-generated data, achieves state-of-the-art performance, outperforming the baseline model by 10%. The code is available at: https://github.com/Zhanghahah/ChemActor.
+UR  - https://aclanthology.org/2025.acl-long.1183/
+DO  - 10.18653/v1/2025.acl-long.1183
+ER  - 
+
+TY  - CONF
+TI  - ALGEN: Few-shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment and Generation
+AU  - Chen, Yiyi
+AU  - Xu, Qiongkai
+AU  - Bjerva, Johannes
+PY  - 2025
+AB  - With the growing popularity of Large Language Models (LLMs) and vector databases, private textual data is increasingly processed and stored as numerical embeddings. However, recent studies have proven that such embeddings are vulnerable to inversion attacks, where original text is reconstructed to reveal sensitive information. Previous research has largely assumed access to millions of sentences to train attack models, e.g., through data leakage or nearly unrestricted API access. With our method, a single data point is sufficient for a partially successful inversion attack. With as little as 1k data samples, performance reaches an optimum across a range of black-box encoders, without training on leaked data. We present a Few-shot Textual Embedding Inversion Attack using Cross-Model **AL**ignment and **GEN**eration (__ALGEN__), by aligning victim embeddings to the attack space and using a generative model to reconstruct text. We find that __ALGEN__ attacks can be effectively transferred across domains and languages, revealing key information. We further examine a variety of defense mechanisms against **ALGEN**, and find that none are effective, highlighting the vulnerabilities posed by inversion attacks. By significantly lowering the cost of inversion and proving that embedding spaces can be aligned through one-step optimization, we establish a new textual embedding inversion paradigm with broader applications for embedding alignment in NLP.
+UR  - https://aclanthology.org/2025.acl-long.1185/
+DO  - 10.18653/v1/2025.acl-long.1185
+ER  - 
+
+TY  - CONF
+TI  - RefreshKV: Updating Small KV Cache During Long-form Generation
+AU  - Xu, Fangyuan
+AU  - Goyal, Tanya
+AU  - Choi, Eunsol
+PY  - 2025
+AB  - Generating long sequences of tokens given a long-context input is a very compute-intensive inference scenario for large language models (LLMs). One prominent inference speed-up approach is constructing a smaller key-value (KV) cache, relieving LLMs from computing attention over a long sequence of tokens. While such methods work well to generate short sequences, their performance degrades rapidly for long-form generation. Most KV compression happens once, prematurely removing tokens that can be useful later in the generation. We propose a new inference-time method, RefreshKV, that flexibly alternates between full context attention and attention over a subset of input tokens during generation. After each full attention step, we update the smaller KV cache based on the attention pattern over the entire input. Applying our method to off-the-shelf LLMs achieves comparable speedup to eviction-based methods while improving performance for various long-form generation tasks. Lastly, we show that continued pretraining with our inference setting brings further gains in performance.
+UR  - https://aclanthology.org/2025.acl-long.1211/
+DO  - 10.18653/v1/2025.acl-long.1211
+ER  - 
+
+TY  - CONF
+TI  - Improving Automatic Evaluation of Large Language Models (LLMs) in Biomedical Relation Extraction via LLMs-as-the-Judge
+AU  - Laskar, Md Tahmid Rahman
+AU  - Jahan, Israt
+AU  - Dolatabadi, Elham
+AU  - Peng, Chun
+AU  - Hoque, Enamul
+AU  - Huang, Jimmy
+PY  - 2025
+AB  - Large Language Models (LLMs) have demonstrated impressive performance in biomedical relation extraction, even in zero-shot scenarios. However, evaluating LLMs in this task remains challenging due to their ability to generate human-like text, often producing synonyms or abbreviations of gold-standard answers, making traditional automatic evaluation metrics unreliable. On the other hand, while human evaluation is more reliable, it is costly and time-consuming, making it impractical for real-world applications. This paper investigates the use of LLMs-as-the-Judge as an alternative evaluation method for biomedical relation extraction. We benchmark 8 LLMs as judges to evaluate the responses generated by 5 other LLMs across 3 biomedical relation extraction datasets. Unlike other text-generation tasks, we observe that LLM-based judges perform quite poorly (usually below 50% accuracy) in the biomedical relation extraction task. Our findings reveal that it happens mainly because relations extracted by LLMs do not adhere to any standard format. To address this, we propose structured output formatting for LLM-generated responses that helps LLM-Judges to improve their performance by about 15% (on average). We also introduce a domain adaptation technique to further enhance LLM-Judge performance by effectively transferring knowledge between datasets. We release both our human-annotated and LLM-annotated judgment data (36k samples in total) for public use here: https://github.com/tahmedge/llm_judge_biomedical_re.
+UR  - https://aclanthology.org/2025.acl-long.1238/
+DO  - 10.18653/v1/2025.acl-long.1238
+ER  - 
+
+TY  - CONF
+TI  - Just a Scratch: Enhancing LLM Capabilities for Self-harm Detection through Intent Differentiation and Emoji Interpretation
+AU  - Ghosh, Soumitra
+AU  - Singh, Gopendra Vikram
+AU  - Shambhavi
+AU  - Choudhury, Sabarna
+AU  - Ekbal, Asif
+PY  - 2025
+AB  - Self-harm detection on social media is critical for early intervention and mental health support, yet remains challenging due to the subtle, context-dependent nature of such expressions. Identifying self-harm intent aids suicide prevention by enabling timely responses, but current large language models (LLMs) struggle to interpret implicit cues in casual language and emojis. This work enhances LLMs’ comprehension of self-harm by distinguishing intent through nuanced language–emoji interplay. We present the Centennial Emoji Sensitivity Matrix (CESM-100)—a curated set of 100 emojis with contextual self-harm interpretations—and the Self-Harm Identification aNd intent Extraction with Supportive emoji sensitivity (SHINES) dataset, offering detailed annotations for self-harm labels, casual mentions (CMs), and serious intents (SIs). Our unified framework:a) enriches inputs using CESM-100;b) fine-tunes LLMs for multi-task learning—self-harm detection (primary) and CM/SI span detection (auxiliary);c) generate explainable rationales for self-harm predictions. We evaluate the framework on three state-of-the-art LLMs—Llama 3, Mental-Alpaca, and MentalLlama—across zero-shot, few-shot, and fine-tuned scenarios. By coupling intent differentiation with contextual cues, our approach commendably enhances LLM performance in both detection and explanation tasks, effectively addressing the inherent ambiguity in self-harm signals. The SHINES dataset, CESM-100 and codebase are publicly available at: https://www.iitp.ac.in/%7eai-nlp-ml/resources.html#SHINES
+UR  - https://aclanthology.org/2025.acl-long.1330/
+DO  - 10.18653/v1/2025.acl-long.1330
+ER  - 
+
+TY  - CONF
+TI  - PRISM: A Framework for Producing Interpretable Political Bias Embeddings with Political-Aware Cross-Encoder
+AU  - Sun, Yiqun
+AU  - Huang, Qiang
+AU  - Tung, Anthony Kum Hoe
+AU  - Yu, Jun
+PY  - 2025
+AB  - Semantic Text Embedding is a fundamental NLP task that encodes textual content into vector representations, where proximity in the embedding space reflects semantic similarity. While existing embedding models excel at capturing general meaning, they often overlook ideological nuances, limiting their effectiveness in tasks that require an understanding of political bias. To address this gap, we introduce PRISM, the first framework designed to Produce inteRpretable polItical biaS eMbeddings. PRISM operates in two key stages: (1) Controversial Topic Bias Indicator Mining, which systematically extracts fine-grained political topics and corresponding bias indicators from weakly labeled news data, and (2) Cross-Encoder Political Bias Embedding, which assigns structured bias scores to news articles based on their alignment with these indicators. This approach ensures that embeddings are explicitly tied to bias-revealing dimensions, enhancing both interpretability and predictive power. Through extensive experiments on large-scale datasets, we demonstrate that PRISM outperforms state-of-the-art text embedding models in political bias classification while offering highly interpretable representations that facilitate diversified retrieval and ideological analysis. The source code is available at https://anonymous.4open.science/r/PRISM-80B4/.
+UR  - https://aclanthology.org/2025.acl-long.1344/
+DO  - 10.18653/v1/2025.acl-long.1344
+ER  - 
+
+TY  - CONF
+TI  - GRAT: Guiding Retrieval-Augmented Reasoning through Process Rewards Tree Search
+AU  - Peng, Xianshu
+AU  - Wei, Wei
+PY  - 2025
+AB  - Enhancing large models for complex multi-hop question-answering has become a research focus in the Retrieval-augmented generation (RAG) area. Many existing approaches aim to mimic human thought processes by enabling large models to perform retrieval-augmented generation step by step. However, these methods can only perform single chain reasoning, which lacks the ability for multi-path exploration, strategic look-ahead, stepwise evaluation, and global selection. In addition, to effectively decompose complex problems, these methods can only rely on labor-intensive intermediate annotations for supervised fine-tuning. To address these issues, we propose GRAT, an algorithm guided by Monte Carlo Tree Search (MCTS) and process rewards. GRAT not only enables self-evaluation and self-correction but also assigns fine-grained rewards to each intermediate step in the search path. These fine-grained annotations can be used for model self-training, which enables GRAT to continuously self-update its problem analysis and reasoning capabilities. We conducted experiments on four multihop QA datasets: HotPotQA, 2WikiMultiHopQA, MuSiQue, and Bamboogle, demonstrating that GRAT outperforms various RAG-based methods. Additionally, incorporating self-training significantly enhances GRAT’s reasoning performance.
+UR  - https://aclanthology.org/2025.acl-long.1352/
+DO  - 10.18653/v1/2025.acl-long.1352
+ER  - 
+
+TY  - CONF
+TI  - T-REG: Preference Optimization with Token-Level Reward Regularization
+AU  - Zhou, Wenxuan
+AU  - Zhang, Shujian
+AU  - Zhao, Lingxiao
+AU  - Meng, Tao
+PY  - 2025
+AB  - Reinforcement Learning from Human Feedback (RLHF) has been pivotal in enabling Large Language Models (LLMs) to effectively follow instructions and produce meaningful alignment by leveraging human preference data. Traditionally, RLHF involves generating responses to a query and using a separate reward model to assign a score to the entire completion. This approach, however, presents challenges, as it provides a single, sparse reward at the end of a sequence, making optimization difficult for the model, in which both training and generation occur auto-regressively at token levels. While recent methods have attempted to address this by assigning token-level discrete or continuous rewards, these often rely on either a trained credit assignment model or AI annotators, which raises concerns about the quality and reliability of the token-level rewards. In this paper, we propose T-REG, which utilizes both sequence-level and token-level rewards for preference optimization. T-REG employs self-generated token-level rewards, derived through opposite prompting, as a weak supervision signal to guide the model in distributing sequence-level rewards at the token level, thereby achieving more effective token-level credit assignment and improving alignment performance. Experiments on the instruction following benchmarks, including Alpaca Eval 2 and Arena-Hard, show that our method consistently outperforms baseline methods by up to 3.8% and 4.4%, respectively.
+UR  - https://aclanthology.org/2025.acl-long.1353/
+DO  - 10.18653/v1/2025.acl-long.1353
+ER  - 
+
+TY  - CONF
+TI  - Reviving Cultural Heritage: A Novel Approach for Comprehensive Historical Document Restoration
+AU  - Zhang, Yuyi
+AU  - Zhang, Peirong
+AU  - Yang, Zhenhua
+AU  - Yan, Pengyu
+AU  - Shi, Yongxin
+AU  - Liu, Pengwei
+AU  - Guo, Fengjun
+AU  - Jin, Lianwen
+PY  - 2025
+AB  - Historical documents represent an invaluable cultural heritage, yet have undergone significant degradation over time through tears, water erosion, and oxidation. Existing Historical Document Restoration (HDR) methods primarily focus on single modality or limited-size restoration, failing to meet practical needs. To fill this gap, we present a full-page HDR dataset (FPHDR) and a novel automated HDR solution (AutoHDR). Specifically, FPHDR comprises 1,633 real and 6,543 synthetic images with character-level and line-level locations, as well as character annotations in different damage grades. AutoHDR mimics historians’ restoration workflows through a three-stage approach: OCR-assisted damage localization, vision-language context text prediction, and patch autoregressive appearance restoration. The modular architecture of AutoHDR enables seamless human-machine collaboration, allowing for flexible intervention and optimization at each restoration stage. Experiments demonstrate AutoHDR’s remarkable performance in HDR. When processing severely damaged documents, our system improves OCR accuracy from 46.83% to 84.05%, with further enhancement to 94.25% through human-machine collaboration. We believe this work represents a significant advancement in automated historical document restoration and contributes substantially to cultural heritage preservation. The model and dataset are available at https://github.com/SCUT-DLVCLab/AutoHDR.
+UR  - https://aclanthology.org/2025.acl-long.1402/
+DO  - 10.18653/v1/2025.acl-long.1402
+ER  - 
+
+TY  - CONF
+TI  - PopAlign: Diversifying Contrasting Patterns for a More Comprehensive Alignment
+AU  - Wang, Zekun Moore
+AU  - Wang, Shenzhi
+AU  - Zhu, King
+AU  - Liu, Jiaheng
+AU  - Xu, Ke
+AU  - Fu, Jie
+AU  - Zhou, Wangchunshu
+AU  - Huang, Wenhao
+PY  - 2025
+AB  - Alignment of large language models (LLMs) involves training models on preference-contrastive output pairs to adjust their responses according to human preferences. To obtain such contrastive pairs, traditional methods like RLHF and RLAIF rely on limited contrasting patterns, such as varying model variants or decoding temperatures. This singularity leads to two issues: (1) alignment is not comprehensive; and thereby (2) models are susceptible to harmful response tendencies. To address these issues, we investigate how to construct more comprehensive and diversified contrasting patterns to enhance preference data (RQ1) and verify the impact of the diversification of contrasting patterns on model alignment (RQ2). For RQ1, we propose PopAlign, a framework that integrates diversified contrasting patterns across the prompt, model, and pipeline levels, introducing six contrasting strategies that do not require additional feedback labeling procedures. Regarding RQ2, we conduct thorough experiments demonstrating that PopAlign significantly outperforms existing methods, leading to more comprehensive alignment.
+UR  - https://aclanthology.org/2025.acl-long.1403/
+DO  - 10.18653/v1/2025.acl-long.1403
+ER  - 
+
+TY  - CONF
+TI  - $\mathcalA^3$: Automatic Alignment Framework for Attributed Text Generation
+AU  - Wang, Yue
+AU  - Zhang, Haoke
+AU  - Li, Juntao
+AU  - Chang, Jinxiong
+AU  - Zhang, Min
+PY  - 2025
+AB  - Attributed text generation aims to enhance the reliability of content generated from large language models by providing citations for each claim, which thereby enables users to easily verify the correctness of the responses.However, the scarcity of high-quality training samples presents a significant challenge in aligning large language models to generate texts with citations, revealing considerable room for improvement in existing attribution systems.Besides, existing approaches of aligning large language models to follow user instructions can lead to an undue emphasis on irrelevant documents, which in turn reduces the quality of responses.To address the above problems, we propose Automatic Alignment Framework for Attributed Text Generation ( 𝒜3), a novel framework designed to automatically generate high-quality attributed query-response pairs for both supervised fine-tuning and preference optimization stages without human annotation.With the help of 𝒜3, Mistral-7B can achieve a citation recall of 84.4 and a precision of 87.0 precision on ASQA, which notably surpasses GPT-4’s citation recall of 73.0 and precision of 76.5.
+UR  - https://aclanthology.org/2025.acl-long.1407/
+DO  - 10.18653/v1/2025.acl-long.1407
+ER  - 
+
+TY  - CONF
+TI  - Performance Gap in Entity Knowledge Extraction Across Modalities in Vision Language Models
+AU  - Cohen, Ido
+AU  - Gottesman, Daniela
+AU  - Geva, Mor
+AU  - Giryes, Raja
+PY  - 2025
+AB  - Vision-language models (VLMs) excel at extracting and reasoning about information from images. Yet, their capacity to leverage internal knowledge about specific entities remains underexplored. This work investigates the disparity in model performance when answering factual questions about an entity described in text versus depicted in an image. Our results reveal a significant accuracy drop — reaching 18% for some models — when the entity is presented visually instead of textually. To study this gap we present PopVQA, a dataset which allows separating entity recognition and question answering, and use it to benchmark several models. We hypothesize that this decline arises from limitations in how information flows from image tokens to query tokens. Thus, we use mechanistic interpretability tools to reveal that, although image tokens are preprocessed by the vision encoder, meaningful information flow from these tokens occurs only in the much deeper layers. Furthermore, critical image processing happens in the language model’s middle layers, allowing few layers for consecutive reasoning, highlighting a potential inefficiency in how the model utilizes its layers for reasoning. These insights shed light on the internal mechanics of VLMs and offer pathways for enhancing their reasoning capabilities. PopVQA can be found at https://huggingface.co/datasets/idoco/PopVQA.
+UR  - https://aclanthology.org/2025.acl-long.1411/
+DO  - 10.18653/v1/2025.acl-long.1411
+ER  - 
+
+TY  - CONF
+TI  - Hanging in the Balance: Pivotal Moments in Crisis Counseling Conversations
+AU  - Nguyen, Vivian
+AU  - Lee, Lillian
+AU  - Danescu-Niculescu-Mizil, Cristian
+PY  - 2025
+AB  - During a conversation, there can come certain moments where its outcome hangs in the balance. In these pivotal moments, how one responds can put the conversation on substantially different trajectories leading to significantly different outcomes. Systems that can detect when such moments arise could assist conversationalists in domains with highly consequential outcomes, such as mental health crisis counseling.In this work, we introduce an unsupervised computational method for detecting such pivotal moments as they happen. The intuition is that a moment is pivotal if our expectation of the conversation’s outcome varies widely depending on what might be said next. By applying our method to crisis counseling conversations, we first validate it by showing that it aligns with human perception—counselors take significantly longer to respond during moments detected by our method—and with the eventual conversational trajectory—which is more likely to change course at these times. We then use our framework to explore the relation between the counselor’s response during pivotal moments and the eventual outcome of the session.
+UR  - https://aclanthology.org/2025.acl-long.1440/
+DO  - 10.18653/v1/2025.acl-long.1440
+ER  - 
+
+TY  - CONF
+TI  - PKU-SafeRLHF: Towards Multi-Level Safety Alignment for LLMs with Human Preference
+AU  - Ji, Jiaming
+AU  - Hong, Donghai
+AU  - Zhang, Borong
+AU  - Chen, Boyuan
+AU  - Dai, Josef
+AU  - Zheng, Boren
+AU  - Qiu, Tianyi Alex
+AU  - Zhou, Jiayi
+AU  - Wang, Kaile
+AU  - Li, Boxun
+AU  - Han, Sirui
+AU  - Guo, Yike
+AU  - Yang, Yaodong
+PY  - 2025
+AB  - In this work, we introduce the PKU-SafeRLHF dataset, designed to promote research on safety alignment in large language models (LLMs). As a sibling project to SafeRLHF and BeaverTails, we separate annotations of helpfulness and harmlessness for question-answering pairs, providing distinct perspectives on these coupled attributes. Overall, we provide 44.6k refined prompts and 265k question-answer pairs with safety meta-labels for 19 harm categories and three severity levels ranging from minor to severe, with answers generated by Llama-family models. Based on this, we collected 166.8k preference data, including dual-preference (helpfulness and harmlessness decoupled) and single-preference data (trade-off the helpfulness and harmlessness from scratch), respectively. Using the large-scale annotation data, we further train severity-sensitive moderation for the risk control of LLMs and safety-centric RLHF algorithms for the safety alignment of LLMs. We believe this dataset will be a valuable resource for the community, aiding in the safe deployment of LLMs.
+UR  - https://aclanthology.org/2025.acl-long.1544/
+DO  - 10.18653/v1/2025.acl-long.1544
+ER  - 
+
+TY  - CONF
+TI  - What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective
+AU  - Li, Ming
+AU  - Li, Yanhong
+AU  - Zhou, Tianyi
+PY  - 2025
+AB  - What makes a difference in the post-training of LLMs? We investigate the training patterns of different layers in large language models (LLMs) through the lens of the gradient. We are specifically interested in how fast vs. slow thinking affects the layer-wise gradients, given the recent popularity of training LLMs on reasoning paths such as chain-of-thoughts (CoT) and process rewards. In our study, fast thinking without CoT leads to larger gradients and larger differences of gradients across layers than slow thinking (Detailed CoT), indicating the learning stability brought by the latter. Additionally, we study whether the gradient patterns can reflect the correctness of responses when training different LLMs using slow vs. fast thinking paths. The results show that the gradients of slow thinking can distinguish correct and irrelevant reasoning paths. As a comparison, we conduct similar gradient analyses on non-reasoning knowledge learning tasks, on which, however, trivially increasing the response length does not lead to similar behaviors of slow thinking. Our study strengthens fundamental understandings of LLM training and sheds novel insights on its efficiency and stability, which pave the way towards building a generalizable System-2 agent.
+UR  - https://aclanthology.org/2025.acl-long.1545/
+DO  - 10.18653/v1/2025.acl-long.1545
+ER  - 
+
+TY  - CONF
+TI  - Optimizing Pre-Training Data Mixtures with Mixtures of Data Expert Models
+AU  - Belenki, Lior
+AU  - Agarwal, Alekh
+AU  - Shi, Tianze
+AU  - Toutanova, Kristina
+PY  - 2025
+AB  - We propose a method to optimize language model pre-training data mixtures through efficient approximation of the cross-entropy loss corresponding to each candidate mixture via a Mixture of Data Experts (MDE). We use this approximation as a source of additional features in a regression model, trained from observations of model loss for a small number of mixtures. Experiments with Transformer decoder-only language models in the range of 70M to 10B parameters on the SlimPajama dataset show that our method achieves significantly better performance than approaches that train regression models using only the mixture rates as input features. Combining this improved optimization method with an objective that takes into account cross-entropy on end task data leads to superior performance on few-shot downstream evaluations. We also provide theoretical insights on why aggregation of data expert predictions can provide good approximations to model losses for data mixtures.
+UR  - https://aclanthology.org/2025.acl-long.1564/
+DO  - 10.18653/v1/2025.acl-long.1564
+ER  - 
+
+TY  - CONF
+TI  - GRAM: Generative Recommendation via Semantic-aware Multi-granular Late Fusion
+AU  - Lee, Sunkyung
+AU  - Choi, Minjin
+AU  - Choi, Eunseong
+AU  - Kim, Hye-young
+AU  - Lee, Jongwuk
+PY  - 2025
+AB  - Generative recommendation is an emerging paradigm that leverages the extensive knowledge of large language models by formulating recommendations into a text-to-text generation task. However, existing studies face two key limitations in (i) incorporating implicit item relationships and (ii) utilizing rich yet lengthy item information. To address these challenges, we propose a Generative Recommender via semantic-Aware Multi-granular late fusion (GRAM), introducing two synergistic innovations. First, we design semantic-to-lexical translation to encode implicit hierarchical and collaborative item relationships into the vocabulary space of LLMs. Second, we present multi-granular late fusion to integrate rich semantics efficiently with minimal information loss. It employs separate encoders for multi-granular prompts, delaying the fusion until the decoding stage. Experiments on four benchmark datasets show that GRAM outperforms eight state-of-the-art generative recommendation models, achieving significant improvements of 11.5-16.0% in Recall@5 and 5.3-13.6% in NDCG@5. The source code is available at https://github.com/skleee/GRAM.
+UR  - https://aclanthology.org/2025.acl-long.1596/
+DO  - 10.18653/v1/2025.acl-long.1596
+ER  - 
+

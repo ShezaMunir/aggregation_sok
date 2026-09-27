@@ -1,0 +1,257 @@
+TY  - JOUR
+TI  - Wisdom of the Crowd Voting: Truthful Aggregation of Voter Information and Preferences
+AU  - Grant Schoenebeck
+AU  - Biaoshuai Tao
+PY  - 2021
+AB  - We consider two-alternative elections where voters' preferences depend on a state variable that is not directly observable. Each voter receives a private signal that is correlated to the state variable. As a special case, our model captures the common scenario where voters can be categorized into three types: those who always prefer one alternative, those who always prefer the other, and those contingent voters whose preferences depends on the state.  In this setting, even if every voter is a contingent voter, agents voting according to their private information need not result in the adoption of the universally preferred alternative, because the signals can be systematically biased.We present a mechanism that elicits and aggregates the private signals from the voters, and outputs the alternative that is favored by the majority.  In particular, voters truthfully reporting their signals forms a strong Bayes Nash equilibrium (where no coalition of voters can deviate and receive a better outcome).
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/0e900ad84f63618452210ab8baae0218-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Breaking the Dilemma of Medical Image-to-image Translation
+AU  - Lingke Kong
+AU  - Chenyu Lian
+AU  - Detian Huang
+AU  - zhenjiang li
+AU  - Yanle Hu
+AU  - Qichao Zhou
+PY  - 2021
+AB  - Supervised Pix2Pix and unsupervised Cycle-consistency are two modes that dominate the field of medical image-to-image translation. However, neither modes are ideal. The Pix2Pix mode has excellent performance. But it requires paired and well pixel-wise aligned images, which may not always be achievable due to respiratory motion or anatomy change between times that paired images are acquired. The Cycle-consistency mode is less stringent with training data and works well on unpaired or misaligned images. But its performance may not be optimal. In order to break the dilemma of the existing modes, we propose a new unsupervised mode called RegGAN for medical image-to-image translation. It is based on the theory of "loss-correction". In RegGAN, the misaligned target images are considered as noisy labels and the generator is trained with an additional registration network to fit the misaligned noise distribution adaptively. The goal is to search for the common optimal solution to both image-to-image translation and registration tasks. We incorporated RegGAN into a few state-of-the-art image-to-image translation methods and demonstrated that RegGAN could be easily combined with these methods to improve their performances. Such as a simple CycleGAN in our mode surpasses latest NICEGAN even though using less network parameters. Based on our results, RegGAN outperformed both Pix2Pix on aligned data and Cycle-consistency on misaligned or unpaired data. RegGAN is insensitive to noises which makes it a better choice for a wide range of scenarios, especially for medical image-to-image translation tasks in which well pixel-wise aligned data are not available. Code and dataset are available at https://github.com/Kid-Liet/Reg-GAN.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/0f2818101a7ac4b96ceeba38de4b934c-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic Distillation Network for Cross-Domain Few-Shot Recognition with Unlabeled Data
+AU  - Ashraful Islam
+AU  - Chun-Fu (Richard) Chen
+AU  - Rameswar Panda
+AU  - Leonid Karlinsky
+AU  - Rogerio Feris
+AU  - Richard J. Radke
+PY  - 2021
+AB  - Most existing works in few-shot learning rely on meta-learning the network on a large base dataset which is typically from the same domain as the target dataset. We tackle the problem of cross-domain few-shot learning where there is a large shift between the base and target domain. The problem of cross-domain few-shot recognition with unlabeled target data is largely unaddressed in the literature. STARTUP was the first method that tackles this problem using self-training. However, it uses a fixed teacher pretrained on a labeled base dataset to create soft labels for the unlabeled target samples. As the base dataset and unlabeled dataset are from different domains, projecting the target images in the class-domain of the base dataset with a fixed pretrained model might be sub-optimal. We propose a simple dynamic distillation-based approach to facilitate unlabeled images from the novel/base dataset. We impose consistency regularization by calculating predictions from the weakly-augmented versions of the unlabeled images from a teacher network and matching it with the strongly augmented versions of the same images from a student network. The parameters of the teacher network are updated as exponential moving average of the parameters of the student network. We show that the proposed network learns representation that can be easily adapted to the target domain even though it has not been trained with target-specific classes during the pretraining phase. Our model outperforms the current state-of-the art method by 4.4% for 1-shot and 3.6% for 5-shot classification in the BSCD-FSL benchmark, and also shows competitive performance on traditional in-domain few-shot learning task.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/1d6408264d31d453d556c60fe7d0459e-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Stability and Generalization of Bilevel Programming in Hyperparameter Optimization
+AU  - Fan Bao
+AU  - Guoqiang Wu
+AU  - Chongxuan LI
+AU  - Jun Zhu
+AU  - Bo Zhang
+PY  - 2021
+AB  - The (gradient-based) bilevel programming framework is widely used in hyperparameter optimization and has achieved excellent performance empirically. Previous theoretical work mainly focuses on its optimization properties, while leaving the analysis on generalization largely open. This paper attempts to address the issue by presenting an expectation bound w.r.t. the validation set based on uniform stability. Our results can explain some mysterious behaviours of the bilevel programming in practice, for instance, overfitting to the validation set. We also present an expectation bound for the classical cross-validation algorithm. Our results suggest that gradient-based algorithms can be better than cross-validation under certain conditions in a theoretical perspective. Furthermore, we prove that regularization terms in both the outer and inner levels can relieve the overfitting problem in  gradient-based algorithms. In experiments on feature learning and data reweighting for noisy labels, we corroborate our theoretical findings.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/2406a0a94c80406914ff2f6c9fdd67d5-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - A Theory-Driven Self-Labeling Refinement Method for Contrastive Representation Learning
+AU  - Pan Zhou
+AU  - Caiming Xiong
+AU  - Xiaotong Yuan
+AU  - Steven Chu Hong Hoi
+PY  - 2021
+AB  - For an image  query, unsupervised contrastive learning  labels crops of  the same image as positives,  and other image crops as  negatives. Although intuitive, such a native label assignment strategy cannot reveal the underlying semantic similarity between a  query and  its positives and negatives, and impairs performance,  since some negatives are  semantically similar to  the query or even share the same semantic class as the query.  In this work, we first  prove that for  contrastive learning,  inaccurate label assignment heavily  impairs its generalization for semantic instance discrimination, while accurate labels  benefit its generalization.  Inspired by this theory, we  propose   a novel self-labeling refinement approach for contrastive learning. It improves the label quality via two complementary  modules:  (i)  self-labeling refinery (SLR) to  generate accurate labels and (ii)  momentum mixup (MM)  to enhance similarity between query and its positive. SLR uses a positive of a query to estimate  semantic similarity between  a query and its positive and negatives, and  combines estimated similarity with  vanilla label assignment in contrastive learning to  iteratively generate  more accurate and informative soft labels. We theoretically show that our SLR can exactly recover the true semantic  labels of  label-corrupted  data, and  supervises   networks to achieve zero prediction  error on classification tasks.  MM randomly  combines   queries and  positives to increase  semantic similarity between the generated virtual queries and their positives so as to improves label accuracy.  Experimental results on CIFAR10,  ImageNet, VOC and COCO show the effectiveness of our method.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/310ce61c90f3a46e340ee8257bc70e93-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Visual Search Asymmetry: Deep Nets and Humans Share Similar Inherent Biases
+AU  - Shashi Kant Gupta
+AU  - Mengmi Zhang
+AU  - CHIA-CHIEN WU
+AU  - Jeremy Wolfe
+AU  - Gabriel Kreiman
+PY  - 2021
+AB  - Visual search is a ubiquitous and often challenging daily task, exemplified by looking for the car keys at home or a friend in a crowd. An intriguing property of some classical search tasks is an asymmetry such that finding a target A among distractors B can be easier than finding B among A. To elucidate the mechanisms responsible for asymmetry in visual search, we propose a computational model that takes a target and a search image as inputs and produces a sequence of eye movements until the target is found. The model integrates eccentricity-dependent visual recognition with target-dependent top-down cues. We compared the model against human behavior in six paradigmatic search tasks that show asymmetry in humans. Without prior exposure to the stimuli or task-specific training, the model provides a plausible mechanism for search asymmetry. We hypothesized that the polarity of search asymmetry arises from experience with the natural environment. We tested this hypothesis by training the model on augmented versions of ImageNet where the biases of natural images were either removed or reversed. The polarity of search asymmetry disappeared or was altered depending on the training protocol. This study highlights how classical perceptual properties can emerge in neural network models, without the need for task-specific training, but rather as a consequence of the statistical properties of the developmental diet fed to the model. All source code and data are publicly available at https://github.com/kreimanlab/VisualSearchAsymmetry.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/37f0e884fbad9667e38940169d0a3c95-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Open-set Label Noise Can Improve Robustness Against Inherent Label Noise
+AU  - Hongxin Wei
+AU  - Lue Tao
+AU  - RENCHUNZI XIE
+AU  - Bo An
+PY  - 2021
+AB  - Learning with noisy labels is a practically challenging problem in weakly supervised learning. In the existing literature, open-set noises are always considered to be poisonous for generalization, similar to closed-set noises. In this paper, we empirically show that open-set noisy labels can be non-toxic and even benefit the robustness against inherent noisy labels. Inspired by the observations, we propose a simple yet effective regularization by introducing Open-set samples with Dynamic Noisy Labels (ODNL) into training. With ODNL, the extra capacity of the neural network can be largely consumed in a way that does not interfere with learning patterns from clean data. Through the lens of SGD noise, we show that the noises induced by our method are random-direction, conflict-free and biased, which may help the model converge to a flat minimum with superior stability and enforce the model to produce conservative predictions on Out-of-Distribution instances. Extensive experimental results on benchmark datasets with various types of noisy labels demonstrate that the proposed method not only enhances the performance of many existing robust algorithms but also achieves significant improvement on Out-of-Distribution detection tasks even in the label noise setting.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/428fca9bc1921c25c5121f9da7815cde-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Gradual Domain Adaptation without Indexed Intermediate Domains
+AU  - Hong-You Chen
+AU  - Wei-Lun Chao
+PY  - 2021
+AB  - The effectiveness of unsupervised domain adaptation degrades when there is a large discrepancy between the source and target domains. Gradual domain adaption (GDA) is one promising way to mitigate such an issue, by leveraging additional unlabeled data that gradually shift from the source to the target. Through sequentially adapting the model along the "indexed" intermediate domains, GDA substantially improves the overall adaptation performance. In practice, however, the extra unlabeled data may not be separated into intermediate domains and indexed properly, limiting the applicability of GDA. In this paper, we investigate how to discover the sequence of intermediate domains when it is not already available. Concretely, we propose a coarse-to-fine framework, which starts with a coarse domain discovery step via progressive domain discriminator training. This coarse domain sequence then undergoes a fine indexing step via a novel cycle-consistency loss, which encourages the next intermediate domain to preserve sufficient discriminative knowledge of the current intermediate domain. The resulting domain sequence can then be used by a GDA algorithm. On benchmark data sets of GDA, we show that our approach, which we name Intermediate DOmain Labeler (IDOL), can lead to comparable or even better adaptation performance compared to the pre-defined domain sequence, making GDA more applicable and robust to the quality of domain sequences. Codes are available at https://github.com/hongyouc/IDOL.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/45017f6511f91be700fda3d118034994-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Combating Noise: Semi-supervised Learning by Region Uncertainty Quantification
+AU  - Zhenyu Wang
+AU  - Ya-Li Li
+AU  - Ye Guo
+AU  - Shengjin Wang
+PY  - 2021
+AB  - Semi-supervised learning aims to leverage a large amount of unlabeled data for performance boosting. Existing works primarily focus on image classification. In this paper, we delve into semi-supervised learning for object detection, where labeled data are more labor-intensive to collect. Current methods are easily distracted by noisy regions generated by pseudo labels. To combat the noisy labeling, we propose noise-resistant semi-supervised learning by quantifying the region uncertainty. We first investigate the adverse effects brought by different forms of noise associated with pseudo labels. Then we propose to quantify the uncertainty of regions by identifying the noise-resistant properties of regions over different strengths. By importing the region uncertainty quantification and promoting multi-peak probability distribution output, we introduce uncertainty into training and further achieve noise-resistant learning. Experiments on both PASCAL VOC and MS COCO demonstrate the extraordinary performance of our method.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/4f16c818875d9fcb6867c7bdc89be7eb-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - How does a Neural Network's Architecture Impact its Robustness to Noisy Labels?
+AU  - Jingling Li
+AU  - Mozhi Zhang
+AU  - Keyulu Xu
+AU  - John Dickerson
+AU  - Jimmy Ba
+PY  - 2021
+AB  - Noisy labels are inevitable in large real-world datasets. In this work, we explore an area understudied by previous works --- how the network's architecture impacts its robustness to noisy labels. We provide a formal framework connecting the robustness of a network to the alignments between its architecture and target/noise functions. Our framework measures a network's robustness via the predictive power in its representations --- the test performance of a linear model trained on the learned representations using a small set of clean labels. We hypothesize that a network is more robust to noisy labels if its architecture is more aligned with the target function than the noise. To support our hypothesis, we provide both theoretical and empirical evidence across various neural network architectures and different domains. We also find that when the network is well-aligned with the target function, its predictive power in representations could improve upon state-of-the-art (SOTA) noisy-label-training methods in terms of test accuracy and even outperform sophisticated methods that use clean labels.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - An Improved Analysis of Gradient Tracking for Decentralized Machine Learning
+AU  - Anastasiia Koloskova
+AU  - Tao Lin
+AU  - Sebastian U Stich
+PY  - 2021
+AB  - We consider decentralized machine learning over a network where the training data is distributed across $n$ agents, each of which can compute stochastic model updates on their local data. The agent's common goal is to find a model that minimizes the average of all local loss functions. While gradient tracking (GT) algorithms can overcome a key challenge, namely accounting for differences between workers' local data distributions, the known convergence rates for GT algorithms are not optimal with respect to their dependence on the mixing parameter $p$ (related to the spectral gap of the connectivity matrix).We provide a tighter analysis of the GT method in the stochastic strongly convex, convex and non-convex settings. We improve the dependency on $p$ from $\mathcal{O}(p^{-2})$ to $\mathcal{O}(p^{-1}c^{-1})$ in the noiseless case and from $\mathcal{O}(p^{-3/2})$ to $\mathcal{O}(p^{-1/2}c^{-1})$ in the general stochastic case, where $c \geq p$ is related to the negative eigenvalues of the connectivity matrix (and is a constant in most practical applications). This improvement was possible due to a new proof technique which could be of independent interest.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/5f25fbe144e4a81a1b0080b6c1032778-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Interactive Label Cleaning with Example-based Explanations
+AU  - Stefano Teso
+AU  - Andrea Bontempelli
+AU  - Fausto Giunchiglia
+AU  - Andrea Passerini
+PY  - 2021
+AB  - We tackle sequential learning under label noise in applications where a human supervisor can be queried to relabel suspicious examples. Existing approaches are flawed, in that they only relabel incoming examples that look "suspicious" to the model. As a consequence, those mislabeled examples that elude (or don't undergo) this cleaning step end up tainting the training data and the model with no further chance of being cleaned. We propose CINCER, a novel approach that cleans both new and past data by identifying \emph{pairs of mutually incompatible examples}. Whenever it detects a suspicious example, CINCER identifies a counter-example in the training set that - according to the model - is maximally incompatible with the suspicious example, and asks the annotator to relabel either or both examples, resolving this possible inconsistency. The counter-examples are chosen to be maximally incompatible, so to serve as \emph{explanations} of the model's suspicion, and highly influential, so to convey as much information as possible if relabeled. CINCER achieves this by leveraging an efficient and robust approximation of influence functions based on the Fisher information matrix (FIM). Our extensive empirical evaluation shows that clarifying the reasons behind the model's suspicions by cleaning the counter-examples helps in acquiring substantially better data and models, especially when paired with our FIM approximation.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/6c349155b122aa8ad5c877007e05f24f-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - DP-SSL: Towards Robust Semi-supervised Learning with A Few Labeled Samples
+AU  - Yi Xu
+AU  - Jiandong Ding
+AU  - Lu Zhang
+AU  - Shuigeng Zhou
+PY  - 2021
+AB  - The scarcity of labeled data is a critical obstacle to deep learning. Semi-supervised learning (SSL) provides a promising way to leverage unlabeled data by pseudo labels. However, when the size of labeled data is very small (say a few labeled samples per class), SSL performs poorly and unstably, possibly due to the low quality of learned pseudo labels. In this paper, we propose a new SSL method called DP-SSL that adopts an innovative data programming (DP) scheme to generate probabilistic labels for unlabeled data. Different from existing DP methods that rely on human experts to provide initial labeling functions (LFs), we develop a multiple-choice learning~(MCL) based approach to automatically generate LFs from scratch in SSL style. With the noisy labels produced by the LFs, we design a label model to resolve the conflict and overlap among the noisy labels, and finally infer probabilistic labels for unlabeled samples. Extensive experiments on four standard SSL benchmarks show that DP-SSL can provide reliable labels for unlabeled data and achieve better classification performance on test sets than existing SSL methods, especially when only a small number of labeled samples are available. Concretely, for CIFAR-10 with only 40 labeled samples, DP-SSL achieves 93.82% annotation accuracy on unlabeled data and 93.46% classification accuracy on test data, which are higher than the SOTA results.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/854d6fae5ee42911677c739ee1734486-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Can Less be More? When Increasing-to-Balancing Label Noise Rates Considered Beneficial
+AU  - Yang Liu
+AU  - Jialu Wang
+PY  - 2021
+AB  - In this paper, we answer the question of when inserting label noise (less informative labels) can instead return us more accurate and fair models. We are primarily inspired by three observations: 1) In contrast to reducing label noise rates, increasing the noise rates is easy to implement; 2) Increasing a certain class of instances' label noise to balance the noise rates (increasing-to-balancing) results in an easier learning problem; 3) Increasing-to-balancing improves fairness guarantees against label bias. In this paper, we first quantify the trade-offs introduced by increasing a certain group of instances' label noise rate w.r.t. the loss of label informativeness and the lowered learning difficulties. We analytically demonstrate when such an increase is beneficial, in terms of either improved generalization power or the fairness guarantees. Then we present a method to insert label noise properly for the task of learning with noisy labels, either without or with a fairness constraint. The primary technical challenge we face is due to the fact that we would not know which data instances are suffering from higher noise, and we would not have the ground truth labels to verify any possible hypothesis. We propose a detection method that informs us which group of labels might suffer from higher noise without using ground truth labels. We formally establish the effectiveness of the proposed solution and demonstrate it with extensive experiments.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/91e50fe1e39af2869d3336eaaeebdb43-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - EvoGrad: Efficient Gradient-Based Meta-Learning and Hyperparameter Optimization
+AU  - Ondrej Bohdal
+AU  - Yongxin Yang
+AU  - Timothy Hospedales
+PY  - 2021
+AB  - Gradient-based meta-learning and hyperparameter optimization have seen significant progress recently, enabling practical end-to-end training of neural networks together with many hyperparameters. Nevertheless, existing approaches are relatively expensive as they need to compute second-order derivatives and store a longer computational graph. This cost prevents scaling them to larger network architectures. We present EvoGrad, a new approach to meta-learning that draws upon evolutionary techniques to more efficiently compute hypergradients. EvoGrad estimates hypergradient with respect to hyperparameters without calculating second-order gradients, or storing a longer computational graph, leading to significant improvements in  efficiency. We evaluate EvoGrad on three substantial recent meta-learning applications, namely cross-domain few-shot learning with feature-wise transformations, noisy label learning with Meta-Weight-Net and low-resource cross-lingual learning with meta representation transformation. The results show that EvoGrad significantly improves efficiency and enables scaling meta-learning to bigger architectures such as from ResNet10 to ResNet34.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/bac49b876d5dfc9cd169c22ef5178ca7-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Representer Point Selection via Local Jacobian Expansion for Post-hoc Classifier Explanation of Deep Neural Networks and Ensemble Models
+AU  - Yi Sui
+AU  - Ga Wu
+AU  - Scott Sanner
+PY  - 2021
+AB  - Explaining the influence of training data on deep neural network predictions is a critical tool for debugging models through data curation.  A recent tractable and appealing approach for this task was provided via the concept of Representer Point Selection (RPS), i.e. a method the leverages the dual form of $l_2$ regularized optimization in the last layer of the neural network to identify the contribution of training points to the prediction.  However, two key drawbacks of RPS are that they (i) lead to disagreement between the originally trained network and the RP regularized network modification and (ii) often yield a static ranking of training data for the same class, independent of the data being classified.  Inspired by the RPS approach, we propose an alternative method based on a local Jacobian Taylor expansion (LJE) of the Jacobian.We empirically compared RPS-LJE with the original RPS-$l_2$ on image classification (with ResNet), text classification recurrent neural networks (with Bi-LSTM), and tabular classification (with XGBoost) tasks.Quantitatively, we show that RPS-LJE slightly outperforms RPS-$l_2$ and other state-of-the-art data explanation methods by up to 3\% on a data debugging task.  Qualitatively, we observe that RPS-LJE provides individualized explanations for each test data point rather than the class-specific static ranking of points in the original approach.  Overall, RPS-LJE represents a novel approach to RPS that provides a  powerful tool for data-oriented explanation and debugging.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/c460dc0f18fc309ac07306a4a55d2fd6-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - FINE Samples for Learning with Noisy Labels
+AU  - Taehyeon Kim
+AU  - Jongwoo Ko
+AU  - sangwook Cho
+AU  - JinHwan Choi
+AU  - Se-Young Yun
+PY  - 2021
+AB  - Modern deep neural networks (DNNs) become frail when the datasets contain noisy (incorrect) class labels. Robust techniques in the presence of noisy labels can be categorized into two folds: developing noise-robust functions or using noise-cleansing methods by detecting the noisy data. Recently, noise-cleansing methods have been considered as the most competitive noisy-label learning algorithms. Despite their success, their noisy label detectors are often based on heuristics more than a theory, requiring a robust classifier to predict the noisy data with loss values. In this paper, we propose a novel detector for filtering label noise. Unlike most existing methods, we focus on each data's latent representation dynamics and measure the alignment between the latent distribution and each representation using the eigen decomposition of the data gram matrix. Our framework, coined as filtering noisy instances via their eigenvectors (FINE), provides a robust detector with derivative-free simple methods having theoretical guarantees. Under our framework, we propose three applications of the FINE: sample-selection approach, semi-supervised learning approach, and collaboration with noise-robust loss functions. Experimental results show that the proposed methods consistently outperform corresponding baselines for all three applications on various benchmark datasets.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/ca91c5464e73d3066825362c3093a45f-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Understanding and Improving Early Stopping for Learning with Noisy Labels
+AU  - Yingbin Bai
+AU  - Erkun Yang
+AU  - Bo Han
+AU  - Yanhua Yang
+AU  - Jiatong Li
+AU  - Yinian Mao
+AU  - Gang Niu
+AU  - Tongliang Liu
+PY  - 2021
+AB  - The memorization effect of deep neural network (DNN) plays a pivotal role in many state-of-the-art label-noise learning methods.  To exploit this property, the early stopping trick, which stops the optimization at the early stage of training, is usually adopted. Current methods generally decide the early stopping point by considering a DNN as a whole. However, a DNN can be considered as a composition of a series of layers, and we find that the latter layers in a DNN are much more sensitive to label noise, while their former counterparts are quite robust. Therefore, selecting a stopping point for the whole network may make different DNN layers antagonistically affect each other, thus degrading the final performance. In this paper, we propose to separate a DNN into different parts and progressively train them to address this problem. Instead of the early stopping which trains a whole DNN all at once, we initially train former DNN layers by optimizing the DNN with a relatively large number of epochs. During training, we progressively train the latter DNN layers by using a smaller number of epochs with the preceding layers fixed to counteract the impact of noisy labels. We term the proposed method as progressive early stopping (PES). Despite its simplicity, compared with the traditional early stopping, PES can help to obtain more promising and stable results. Furthermore, by combining PES with existing approaches on noisy label training, we achieve state-of-the-art performance on image classification benchmarks. The code is made public at https://github.com/tmllab/PES.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning from Inside: Self-driven Siamese Sampling and Reasoning for Video Question Answering
+AU  - Weijiang Yu
+AU  - Haoteng Zheng
+AU  - Mengfei Li
+AU  - Lei Ji
+AU  - Lijun Wu
+AU  - Nong Xiao
+AU  - Nan Duan
+PY  - 2021
+AB  - Recent advances in the video question answering (i.e., VideoQA) task have achieved strong success by following the paradigm of fine-tuning each clip-text pair independently on the pretrained transformer-based model via supervised learning. Intuitively, multiple samples (i.e., clips) should be interdependent to capture similar visual and key semantic information in the same video. To consider the interdependent knowledge between contextual clips into the network inference, we propose a Siamese Sampling and Reasoning (SiaSamRea) approach, which consists of a siamese sampling mechanism to generate sparse and similar clips (i.e., siamese clips) from the same video, and a novel reasoning strategy for integrating the interdependent knowledge between contextual clips into the network. The reasoning strategy contains two modules: (1) siamese knowledge generation to learn the inter-relationship among clips; (2) siamese knowledge reasoning to produce the refined soft label by propagating the weights of inter-relationship to the predicted candidates of all clips. Finally, our SiaSamRea can endow the current multimodal reasoning paradigm with the ability of learning from inside via the guidance of soft labels. Extensive experiments demonstrate our SiaSamRea achieves state-of-the-art performance on five VideoQA benchmarks, e.g., a significant +2.1% gain on MSRVTT-QA, +2.9% on MSVD-QA, +1.0% on ActivityNet-QA, +1.8% on How2QA and +4.3% (action) on TGIF-QA.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/dea184826614d3f4c608731389ed0c74-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Improved Regularization and Robustness for Fine-tuning in Neural Networks
+AU  - Dongyue Li
+AU  - Hongyang Zhang
+PY  - 2021
+AB  - A widely used algorithm for transfer learning is fine-tuning, where a pre-trained model is fine-tuned on a target task with a small amount of labeled data. When the capacity of the pre-trained model is much larger than the size of the target data set, fine-tuning is prone to overfitting and "memorizing" the training labels. Hence, an important question is to regularize fine-tuning and ensure its robustness to noise. To address this question, we begin by analyzing the generalization properties of fine-tuning. We present a PAC-Bayes generalization bound that depends on the distance traveled in each layer during fine-tuning and the noise stability of the fine-tuned model. We empirically measure these quantities. Based on the analysis, we propose regularized self-labeling---the interpolation between regularization and self-labeling methods, including (i) layer-wise regularization to constrain the distance traveled in each layer; (ii) self label-correction and label-reweighting to correct mislabeled data points (that the model is confident) and reweight less confident data points. We validate our approach on an extensive collection of image and text data sets using multiple pre-trained model architectures. Our approach improves baseline methods by 1.76% (on average) for seven image classification tasks and 0.75% for a few-shot classification task. When the target data set includes noisy labels, our approach outperforms baseline methods by 3.56% on average in two noisy settings.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e4a93f0332b2519177ed55741ea4e5e7-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Label Noise SGD Provably Prefers Flat Global Minimizers
+AU  - Alex Damian
+AU  - Tengyu Ma
+AU  - Jason Lee
+PY  - 2021
+AB  - In overparametrized models, the noise in stochastic gradient descent (SGD) implicitly regularizes the optimization trajectory and determines which local minimum SGD converges to. Motivated by empirical studies that demonstrate that training with noisy labels improves generalization, we study the implicit regularization effect of SGD with label noise. We show that SGD with label noise converges to a stationary point of a regularized loss $L(\theta) +\lambda R(\theta)$, where $L(\theta)$ is the training loss, $\lambda$ is an effective regularization parameter depending on the step size, strength of the label noise, and the batch size, and $R(\theta)$ is an explicit regularizer that penalizes sharp minimizers. Our analysis uncovers an additional regularization effect of large learning rates beyond the linear scaling rule that penalizes large eigenvalues of the Hessian more than small ones. We also prove extensions to classification with general loss functions, significantly strengthening the prior work of Blanc et al. to global convergence and large learning rates and of HaoChen et al. to general models.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e6af401c28c1790eaef7d55c92ab6ab6-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning with Noisy Correspondence for Cross-modal Matching
+AU  - Zhenyu Huang
+AU  - Guocheng Niu
+AU  - Xiao Liu
+AU  - Wenbiao Ding
+AU  - Xinyan Xiao
+AU  - Hua Wu
+AU  - Xi Peng
+PY  - 2021
+AB  - Cross-modal matching, which aims to establish the correspondence between two different modalities, is fundamental to a variety of tasks such as cross-modal retrieval and vision-and-language understanding. Although a huge number of cross-modal matching methods have been proposed and achieved remarkable progress in recent years, almost all of these methods implicitly assume that the multimodal training data are correctly aligned. In practice, however, such an assumption is extremely expensive even impossible to satisfy. Based on this observation, we reveal and study a latent and challenging direction in cross-modal matching, named noisy correspondence, which could be regarded as a new paradigm of noisy labels. Different from the traditional noisy labels which mainly refer to the errors in category labels, our noisy correspondence refers to the mismatch paired samples. To solve this new problem, we propose a novel method for learning with noisy correspondence, named Noisy Correspondence Rectifier (NCR). In brief, NCR divides the data into clean and noisy partitions based on the memorization effect of neural networks and then rectifies the correspondence via an adaptive prediction model in a co-teaching manner. To verify the effectiveness of our method, we conduct experiments by using the image-text matching as a showcase. Extensive experiments on Flickr30K, MS-COCO, and Conceptual Captions verify the effectiveness of our method. The code could be accessed from www.pengxi.me .
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/f5e62af885293cf4d511ceef31e61c80-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Generalized Jensen-Shannon Divergence Loss for Learning with Noisy Labels
+AU  - Erik Englesson
+AU  - Hossein Azizpour
+PY  - 2021
+AB  - Prior works have found it beneficial to combine provably noise-robust loss functions e.g., mean absolute error (MAE) with standard categorical loss function e.g. cross entropy (CE) to improve their learnability. Here, we propose to use Jensen-Shannon divergence as a noise-robust loss function and show that it interestingly interpolate between CE and MAE with a controllable mixing parameter. Furthermore, we make a crucial observation that CE exhibit lower consistency around noisy data points. Based on this observation, we adopt a generalized version of the Jensen-Shannon divergence for multiple distributions to encourage consistency around data points. Using this loss function, we show state-of-the-art results on both synthetic (CIFAR), and real-world (e.g., WebVision) noise with varying noise rates.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/fe2d010308a6b3799a3d9c728ee74244-Abstract.html
+ER  - 
+

@@ -1,0 +1,597 @@
+TY  - CONF
+TI  - A Multi-Agent Approach to Combine Reasoning and Learning for an Ethical Behavior
+AU  - Chaput, R\'{e}my
+AU  - Duval, J\'{e}r\'{e}my
+AU  - Boissier, Olivier
+AU  - Guillermin, Mathieu
+AU  - Hassas, Salima
+PY  - 2021
+AB  - The recent field of Machine Ethics is experiencing rapid growth to answer the societal need for Artificial Intelligence (AI) algorithms imbued with ethical considerations, such as benevolence toward human users and actors. Several approaches already exist for this purpose, mostly either by reasoning over a set of predefined ethical principles (Top-Down), or by learning new principles (Bottom-Up). While both methods have their own advantages and drawbacks, only few works have explored hybrid approaches, such as using symbolic rules to guide the learning process for instance, combining the advantages of each. This paper draws upon existing works to propose a novel hybrid method using symbolic judging agents to evaluate the ethics of learning agents' behaviors, and accordingly improve their ability to ethically behave in dynamic multi-agent environments. Multiple benefits ensue from this separation between judging and learning agents: agents can evolve (or be updated by human designers) separately, benefiting from co-construction processes; judging agents can act as accessible proxies for non-expert human stakeholders or regulators; and finally, multiple points of view (one per judging agent) can be adopted to judge the behavior of the same agent, which produces a richer feedback. Our proposed approach is applied to an energy distribution problem, in the context of a Smart Grid simulator, with continuous and multi-dimensional states and actions. The experiments and results show the ability of learning agents to correctly adapt their behaviors to comply with the judging agents' rules, including when rules evolve over time.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462515
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462515
+ER  - 
+
+TY  - CONF
+TI  - Gender Bias and Under-Representation in Natural Language Processing Across Human Languages
+AU  - Chen, Yan
+AU  - Mahoney, Christopher
+AU  - Grasso, Isabella
+AU  - Wali, Esma
+AU  - Matthews, Abigail
+AU  - Middleton, Thomas
+AU  - Njie, Mariama
+AU  - Matthews, Jeanna
+PY  - 2021
+AB  - Natural Language Processing (NLP) systems are at the heart of many critical automated decision-making systems making crucial recommendations about our future world. However, these systems reflect a wide range of biases, from gender bias to a bias in which voices they represent. In this paper, a team including speakers of 9 languages - Chinese, Spanish, English, Arabic, German, French, Farsi, Urdu, and Wolof - reports and analyzes measurements of gender bias in the Wikipedia corpora for these 9 languages. In the process, we also document how our work exposes crucial gaps in the NLP-pipeline for many languages. Despite substantial investments in multilingual support, the modern NLP-pipeline still systematically and dramatically under-represents the majority of human voices in the NLP-guided decisions that are shaping our collective future. We develop extensions to profession-level and corpus-level gender bias metric calculations originally designed for English and apply them to 8 other languages, including languages like Spanish, Arabic, German, French and Urdu that have grammatically gendered nouns including different feminine, masculine and neuter profession words. We compare these gender bias measurements across the Wikipedia corpora in different languages as well as across some corpora of more traditional literature.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462530
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462530
+ER  - 
+
+TY  - CONF
+TI  - Blind Justice: Algorithmically Masking Race in Charging Decisions
+AU  - Chohlas-Wood, Alex
+AU  - Nudell, Joe
+AU  - Yao, Keniel
+AU  - Lin, Zhiyuan (Jerry)
+AU  - Nyarko, Julian
+AU  - Goel, Sharad
+PY  - 2021
+AB  - A prosecutor's decision to charge or dismiss a criminal case is a particularly high-stakes choice. There is concern, however, that these judgements may suffer from explicit or implicit racial bias, as with many other such actions in the criminal justice system. To reduce potential bias in charging decisions, we designed a system that algorithmically redacts race-related information from free-text case narratives. In a first-of-its-kind initiative, we deployed this system at a large American district attorney's office to help prosecutors make race-obscured charging decisions, where it was used to review many incoming felony cases. We report on both the design, efficacy, and impact of our tool for aiding equitable decision-making. We demonstrate that our redaction algorithm is able to accurately obscure race-related information, making it difficult for a human reviewer to guess the race of a suspect while preserving other information from the case narrative. In the jurisdiction we study, we found little evidence of disparate treatment in charging decisions even prior to deployment of our intervention. Thus, as expected, our tool did not substantially alter charging rates. Nevertheless, our study demonstrates the feasibility of race-obscured charging, and more generally highlights the promise of algorithms to bolster equitable decision-making in the criminal justice system.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462524
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462524
+ER  - 
+
+TY  - CONF
+TI  - On the Validity of Arrest as a Proxy for Offense: Race and the Likelihood of Arrest for Violent Crimes
+AU  - Fogliato, Riccardo
+AU  - Xiang, Alice
+AU  - Lipton, Zachary
+AU  - Nagin, Daniel
+AU  - Chouldechova, Alexandra
+PY  - 2021
+AB  - Re-offense risk is considered in decision-making at many stages of the criminal justice system, from pre-trial, to sentencing, to parole. To aid decision-makers in their assessments, institutions increasingly rely on algorithmic risk assessment instruments (RAIs). These tools assess the likelihood that an individual will be arrested for a new criminal offense within some time window following their release. However, since not all crimes result in arrest, RAIs do not directly assess the risk of re-offense. Furthermore, disparities in the likelihood of arrest can potentially lead to biases in the resulting risk scores. Several recent validations of RAIs have therefore focused on arrests for violent offenses, which are viewed as being more accurate and less biased reflections of offending behavior. In this paper, we investigate biases in violent arrest data by analysing racial disparities in the likelihood of arrest for White and Black violent offenders. We focus our study on 2007--2016 incident-level data of violent offenses from 16 US states as recorded in the National Incident Based Reporting System (NIBRS). Our analysis shows that the magnitude and direction of the racial disparities depend on various characteristics of the crimes. In addition, our investigation reveals large variations in arrest rates across geographical locations and offense types. We discuss the implications of the observed disconnect between re-arrest and re-offense in the context of RAIs and the challenges around the use of data from NIBRS to correct for the sampling bias.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462538
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462538
+ER  - 
+
+TY  - CONF
+TI  - Detecting Emergent Intersectional Biases: Contextualized Word Embeddings Contain a Distribution of Human-like Biases
+AU  - Guo, Wei
+AU  - Caliskan, Aylin
+PY  - 2021
+AB  - With the starting point that implicit human biases are reflected in the statistical regularities of language, it is possible to measure biases in English static word embeddings. State-of-the-art neural language models generate dynamic word embeddings dependent on the context in which the word appears. Current methods measure pre-defined social and intersectional biases that occur in contexts defined by sentence templates. Dispensing with templates, we introduce the Contextualized Embedding Association Test (CEAT), that can summarize the magnitude of overall bias in neural language models by incorporating a random-effects model. Experiments on social and intersectional biases show that CEAT finds evidence of all tested biases and provides comprehensive information on the variance of effect magnitudes of the same bias in different contexts. All the models trained on English corpora that we study contain biased representations. GPT-2 contains the smallest magnitude of overall bias followed by GPT, BERT, and then ELMo, negatively correlating with the contextualization levels of the models.Furthermore, we develop two methods, Intersectional Bias Detection (IBD) and Emergent Intersectional Bias Detection (EIBD), to automatically identify the intersectional biases and emergent intersectional biases from static word embeddings in addition to measuring them in contextualized word embeddings. We present the first algorithmic bias detection findings on how intersectional group members are strongly associated with unique emergent biases that do not overlap with the biases of their constituent minority identities. IBD achieves an accuracy of 81.6\% and 82.7\%, respectively, when detecting the intersectional biases of African American females and Mexican American females, where the random correct identification rates are 14.3\% and 13.3\%. EIBD reaches an accuracy of 84.7\% and 65.3\%, respectively, when detecting the emergent intersectional biases unique to African American females and Mexican American females, where the random correct identification rates are 9.2\% and 6.1\%. Our results indicate that intersectional biases associated with members of multiple minority groups, such as African American females and Mexican American females, have the highest magnitude across all neural language models.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462536
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462536
+ER  - 
+
+TY  - CONF
+TI  - Towards Unbiased and Accurate Deferral to Multiple Experts
+AU  - Keswani, Vijay
+AU  - Lease, Matthew
+AU  - Kenthapadi, Krishnaram
+PY  - 2021
+AB  - Machine learning models are often implemented in cohort with humans in the pipeline, with the model having an option to defer to a domain expert in cases where it has low confidence in its inference. Our goal is to design mechanisms for ensuring accuracy and fairness in such prediction systems that combine machine learning model inferences and domain expert predictions. Prior work on "deferral systems" in classification settings has focused on the setting of a pipeline with a single expert and aimed to accommodate the inaccuracies and biases of this expert to simultaneously learn an inference model and a deferral system. Our work extends this framework to settings where multiple experts are available, with each expert having their own domain of expertise and biases. We propose a framework that simultaneously learns a classifier and a deferral system, with the deferral system choosing to defer to one or more human experts in cases of input where the classifier has low confidence. We test our framework on a synthetic dataset and a content moderation dataset with biased synthetic experts, and show that it significantly improves the accuracy and fairness of the final predictions, compared to the baselines. We also collect crowdsourced labels for the content moderation task to construct a real-world dataset for the evaluation of hybrid machine-human frameworks and show that our proposed framework outperforms baselines on this real-world dataset as well.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462516
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462516
+ER  - 
+
+TY  - CONF
+TI  - Scaling Guarantees for Nearest Counterfactual Explanations
+AU  - Mohammadi, Kiarash
+AU  - Karimi, Amir-Hossein
+AU  - Barthe, Gilles
+AU  - Valera, Isabel
+PY  - 2021
+AB  - Counterfactual explanations (CFE) are being widely used to explain algorithmic decisions, especially in consequential decision-making contexts (e.g., loan approval or pretrial bail). In this context, CFEs aim to provide individuals affected by an algorithmic decision with the most similar individual (i.e., nearest individual) with a different outcome. However, while an increasing number of works propose algorithms to compute CFEs, such approaches either lack in optimality of distance (i.e., they do not return the nearest individual) and perfect coverage (i.e., they do not provide a CFE for all individuals); or they do not scale to complex models such as neural networks. In this work, we provide a framework based on Mixed-Integer Programming (MIP) to compute nearest counterfactual explanations for the outcomes of neural networks, with both provable guarantees and runtimes comparable to gradient-based approaches. Our experiments on the Adult, COMPAS, and Credit datasets show that, in contrast with previous methods, our approach allows for efficiently computing diverse CFEs with both distance guarantees and perfect coverage.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462514
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462514
+ER  - 
+
+TY  - CONF
+TI  - FairOD: Fairness-aware Outlier Detection
+AU  - Shekhar, Shubhranshu
+AU  - Shah, Neil
+AU  - Akoglu, Leman
+PY  - 2021
+AB  - Fairness and Outlier Detection (OD) are closely related, as it is exactly the goal of OD to spot rare, minority samples in a given population. However, when being a minority (as defined by protected variables, such as race/ethnicity/sex/age) does not reflect positive-class membership (such as criminal/fraud), OD produces unjust outcomes. Surprisingly, fairness-aware OD has been almost untouched in prior work, as fair machine learning literature mainly focuses on supervised settings. Our work aims to bridge this gap. Specifically, we develop desiderata capturing well-motivated fairness criteria for OD, and systematically formalize the fair OD problem. Further, guided by our desiderata, we propose FairOD, a fairness-aware outlier detector that has the following desirable properties: FairOD (1) exhibits treatment parity at test time, (2) aims to flag equal proportions of samples from all groups (i.e. obtain group fairness, via statistical parity), and (3) strives to flag truly high-risk samples within each group. Extensive experiments on a diverse set of synthetic and real world datasets show that FairOD produces outcomes that are fair with respect to protected variables, while performing comparable to (and in some cases, even better than) fairness-agnostic detectors in terms of detection performance.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462517
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462517
+ER  - 
+
+TY  - CONF
+TI  - On the Privacy Risks of Model Explanations
+AU  - Shokri, Reza
+AU  - Strobel, Martin
+AU  - Zick, Yair
+PY  - 2021
+AB  - Privacy and transparency are two key foundations of trustworthy machine learning. Model explanations offer insights into a model's decisions on input data, whereas privacy is primarily concerned with protecting information about the training data. We analyze connections between model explanations and the leakage of sensitive information about the model's training set. We investigate the privacy risks of feature-based model explanations using membership inference attacks: quantifying how much model predictions plus their explanations leak information about the presence of a datapoint in the training set of a model. We extensively evaluate membership inference attacks based on feature-based model explanations, over a variety of datasets. We show that backpropagation-based explanations can leak a significant amount of information about individual training datapoints. This is because they reveal statistical information about the decision boundaries of the model about an input, which can reveal its membership. We also empirically investigate the trade-off between privacy and explanation quality, by studying the perturbation-based model explanations.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462533
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462533
+ER  - 
+
+TY  - CONF
+TI  - Examining Religion Bias in AI Text Generators
+AU  - Muralidhar, Deepa
+PY  - 2021
+AB  - One of the biggest reasons artificial intelligence (AI) gets a backlash is because of inherent biases in AI software. Deep learning algorithms use data fed into the systems to find patterns to draw conclusions used to make application decisions. Patterns in data fed into machine learning algorithms have revealed that the AI software decisions have biases embedded within them. Algorithmic audits can certify that the software is making responsible decisions. These audits verify the standards centered around the various AI principles such as explainability, accountability, human-centered values, such as, fairness and transparency, to increase the trust in the algorithm and the software systems that implement AI algorithms.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462469
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462469
+ER  - 
+
+TY  - CONF
+TI  - Training for Implicit Norms in Deep Reinforcement Learning Agents through Adversarial Multi-Objective Reward Optimization
+AU  - Peschl, Markus
+PY  - 2021
+AB  - We propose a deep reinforcement learning algorithm that employs an adversarial training strategy for adhering to implicit human norms alongside optimizing for a narrow goal objective. Previous methods which incorporate human values into reinforcement learning algorithms either scale poorly or assume hand-crafted state features. Our algorithm drops these assumptions and is able to automatically infer norms from human demonstrations, which allows for integrating it into existing agents in the form of multi-objective optimization. We benchmark our approach in a search-and-rescue grid world and show that, conditioned on respecting human norms, our agent maintains optimal performance with respect to the predefined goal.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462473
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462473
+ER  - 
+
+TY  - CONF
+TI  - The Coloniality of Data Work in Latin America
+AU  - Posada, Julian
+PY  - 2021
+AB  - This presentation for the AIES '21 doctoral consortium examines the Latin American crowdsourcing market through a decolonial lens. This research is based on the analysis of the web traffic of ninety-three platforms, interviews with Venezuelan data workers of four platforms, and analysis of the documentation issued by these organizations. The findings show that (1) centuries-old global divisions of labor persist, in this case, with requesters located in advanced economies and workers in the Global South. (2) That the platforms' configuration of the labor process constrains the agency of these workers when producing annotations. And, (3) that ideologies originating from the Global North serve to legitimize and reinforce this global labor market configuration.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462471
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462471
+ER  - 
+
+TY  - CONF
+TI  - The Grey Hoodie Project: Big Tobacco, Big Tech, and the Threat on Academic Integrity
+AU  - Abdalla, Mohamed
+AU  - Abdalla, Moustafa
+PY  - 2021
+AB  - As governmental bodies rely on academics' expert advice to shape policy regarding Artificial Intelligence, it is important that these academics not have conflicts of interests that may cloud or bias their judgement. Our work explores how Big Tech can actively distort the academic landscape to suit its needs. By comparing the well-studied actions of another industry (Big Tobacco) to the current actions of Big Tech we see similar strategies employed by both industries. These strategies enable either industry to sway and influence academic and public discourse. We examine the funding of academic research as a tool used by Big Tech to put forward a socially responsible public image, influence events hosted by and decisions made by funded universities, influence the research questions and plans of individual scientists, and discover receptive academics who can be leveraged. We demonstrate how Big Tech can affect academia from the institutional level down to individual researchers. Thus, we believe that it is vital, particularly for universities and other institutions of higher learning, to discuss the appropriateness and the tradeoffs of accepting funding from Big Tech, and what limitations or conditions should be put in place.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462563
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462563
+ER  - 
+
+TY  - CONF
+TI  - Measuring Model Biases in the Absence of Ground Truth
+AU  - Aka, Osman
+AU  - Burke, Ken
+AU  - Bauerle, Alex
+AU  - Greer, Christina
+AU  - Mitchell, Margaret
+PY  - 2021
+AB  - The measurement of bias in machine learning often focuses on model performance across identity subgroups (such as man and woman) with respect to groundtruth labels. However, these methods do not directly measure the associations that a model may have learned, for example between labels and identity subgroups. Further, measuring a model's bias requires a fully annotated evaluation dataset which may not be easily available in practice.We present an elegant mathematical solution that tackles both issues simultaneously, using image classification as a working example. By treating a classification model's predictions for a given image as a set of labels analogous to a "bag of words", we rank the biases that a model has learned with respect to different identity labels. We use man, woman as a concrete example of an identity label set (although this set need not be binary), and present rankings for the labels that are most biased towards one identity or the other. We demonstrate how the statistical properties of different association metrics can lead to different rankings of the most "gender biased" labels, and conclude that normalized pointwise mutual information (nPMI) is most useful in practice. Finally, we announce an open-sourced nPMI visualization tool using TensorBoard.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462557
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462557
+ER  - 
+
+TY  - CONF
+TI  - Accounting for Model Uncertainty in Algorithmic Discrimination
+AU  - Ali, Junaid
+AU  - Lahoti, Preethi
+AU  - Gummadi, Krishna P.
+PY  - 2021
+AB  - Traditional approaches to ensure group fairness in algorithmic decision making aim to equalize "total" error rates for different subgroups in the population. In contrast, we argue that the fairness approaches should instead focus only on equalizing errors arising due to model uncertainty (a.k.a epistemic uncertainty), caused due to lack of knowledge about the best model or due to lack of data. In other words, our proposal calls for ignoring the errors that occur due to uncertainty inherent in the data, i.e., aleatoric uncertainty. We draw a connection between predictive multiplicity and model uncertainty and argue that the techniques from predictive multiplicity could be used to identify errors made due to model uncertainty. We propose scalable convex proxies to come up with classifiers that exhibit predictive multiplicity and empirically show that our methods are comparable in performance and up to four orders of magnitude faster than the current state-of-the-art. We further pro- pose methods to achieve our goal of equalizing group error rates arising due to model uncertainty in algorithmic decision making and demonstrate the effectiveness of these methods using synthetic and real-world datasets
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462630
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462630
+ER  - 
+
+TY  - CONF
+TI  - Beyond Reasonable Doubt: Improving Fairness in Budget-Constrained Decision Making using Confidence Thresholds
+AU  - Bakker, Michiel A.
+AU  - Tu, Duy Patrick
+AU  - Gummadi, Krishna P.
+AU  - Pentland, Alex Sandy
+AU  - Varshney, Kush R.
+AU  - Weller, Adrian
+PY  - 2021
+AB  - Prior work on fairness in machine learning has focused on settings where all the information needed about each individual is readily available. However, in many applications, further information may be acquired at a cost. For example, when assessing a customer's creditworthiness, a bank initially has access to a limited set of information but progressively improves the assessment by acquiring additional information before making a final decision. In such settings, we posit that a fair decision maker may want to ensure that decisions for all individuals are made with similar expected error rate, even if the features acquired for the individuals are different. We show that a set of carefully chosen confidence thresholds can not only effectively redistribute an information budget according to each individual's needs, but also serve to address individual and group fairness concerns simultaneously. Finally, using two public datasets, we confirm the effectiveness of our methods and investigate the limitations.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462575
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462575
+ER  - 
+
+TY  - CONF
+TI  - Person, Human, Neither: The Dehumanization Potential of Automated Image Tagging
+AU  - Barlas, P\i{}nar
+AU  - Kyriakou, Kyriakos
+AU  - Kleanthous, Styliani
+AU  - Otterbacher, Jahna
+PY  - 2021
+AB  - Following the literature on dehumanization via technology, we audit six proprietary image tagging algorithms (ITAs) for their potential to perpetuate dehumanization. We examine the ITAs' outputs on a controlled dataset of images depicting a diverse group of people for tags that indicate the presence of a human in the image. Through an analysis of the (mis)use of these tags, we find that there are some individuals whose 'humanness' is not recognized by an ITA, and that these individuals are often from marginalized social groups. Finally, we compare these findings with the use of the 'face' tag, which can be used for surveillance, revealing that people's faces are often recognized by an ITA even when their 'humanness' is not. Overall, we highlight the subtle ways in which ITAs may inflict widespread, disparate harm, and emphasize the importance of considering the social context of the resulting application.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462567
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462567
+ER  - 
+
+TY  - CONF
+TI  - Automating Procedurally Fair Feature Selection in Machine Learning
+AU  - Belitz, Clara
+AU  - Jiang, Lan
+AU  - Bosch, Nigel
+PY  - 2021
+AB  - In recent years, machine learning has become more common in everyday applications. Consequently, numerous studies have explored issues of unfairness against specific groups or individuals in the context of these applications. Much of the previous work on unfairness in machine learning has focused on the fairness of outcomes rather than process. We propose a feature selection method inspired by fair process (procedural fairness) in addition to fair outcome. Specifically, we introduce the notion of unfairness weight, which indicates how heavily to weight unfairness versus accuracy when measuring the marginal benefit of adding a new feature to a model. Our goal is to maintain accuracy while reducing unfairness, as defined by six common statistical definitions. We show that this approach demonstrably decreases unfairness as the unfairness weight is increased, for most combinations of metrics and classifiers used. A small subset of all the combinations of datasets (4), unfairness metrics (6), and classifiers (3), however, demonstrated relatively low unfairness initially. For these specific combinations, neither unfairness nor accuracy were affected as unfairness weight changed, demonstrating that this method does not reduce accuracy unless there is also an equivalent decrease in unfairness. We also show that this approach selects unfair features and sensitive features for the model less frequently as the unfairness weight increases. As such, this procedure is an effective approach to constructing classifiers that both reduce unfairness and are less likely to include unfair features in the modeling process.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462585
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462585
+ER  - 
+
+TY  - CONF
+TI  - Explainable AI and Adoption of Financial Algorithmic Advisors: An Experimental Study
+AU  - Ben David, Daniel
+AU  - Resheff, Yehezkel S.
+AU  - Tron, Talia
+PY  - 2021
+AB  - We study whether receiving advice from either a human or algorithmic advisor, accompanied by five types of Local and Global explanation labelings, has an effect on the readiness to adopt, willingness to pay, and trust in a financial AI consultant. We compare the differences over time and in various key situations using a unique experimental framework where participants play a web-based game with real monetary consequences. We observed that accuracy-based explanations of the model in initial phases leads to higher adoption rates. When the performance of the model is immaculate, there is less importance associated with the kind of explanation for adoption. Using more elaborate feature-based or accuracy-based explanations helps substantially in reducing the adoption drop upon model failure. Furthermore, using an autopilot increases adoption significantly. Participants assigned to the AI-labeled advice with explanations were willing to pay more for the advice than the AI-labeled advice with "No-explanation" alternative. These results add to the literature on the importance of XAI for algorithmic adoption and trust.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462565
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462565
+ER  - 
+
+TY  - CONF
+TI  - Ensuring Fairness under Prior Probability Shifts
+AU  - Biswas, Arpita
+AU  - Mukherjee, Suvam
+PY  - 2021
+AB  - Prior probability shift is a phenomenon where the training and test datasets differ structurally within population subgroups. This phenomenon can be observed in the yearly records of several real-world datasets, for example, recidivism records and medical expenditure surveys. If unaccounted for, such shifts can cause the predictions of a classifier to become unfair towards specific population subgroups. While the fairness notion called Proportional Equality (PE) accounts for such shifts, a procedure to ensure PE-fairness was unknown. In this work, we design an algorithm, called CAPE, that ensures fair classification under such shifts. We introduce a metric, called prevalence difference, which CAPE attempts to minimize in order to achieve fairness under prior probability shifts. We theoretically establish that this metric exhibits several properties that are desirable for a fair classifier. We evaluate the efficacy of CAPE via a thorough empirical evaluation on synthetic datasets. We also compare the performance of CAPE with several state-of-the-art fair classifiers on real-world datasets like COMPAS (criminal risk assessment) and MEPS (medical expenditure panel survey). The results indicate that CAPE ensures a high degree of PE-fairness in its predictions, while performing well on other important metrics.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462596
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462596
+ER  - 
+
+TY  - CONF
+TI  - Envisioning Communities: A Participatory Approach Towards AI for Social Good
+AU  - Bondi, Elizabeth
+AU  - Xu, Lily
+AU  - Acosta-Navas, Diana
+AU  - Killian, Jackson A.
+PY  - 2021
+AB  - Research in artificial intelligence (AI) for social good presupposes some definition of social good, but potential definitions have been seldom suggested and never agreed upon. The normative question of what AI for social good research should be "for" is not thoughtfully elaborated, or is frequently addressed with a utilitarian outlook that prioritizes the needs of the majority over those who have been historically marginalized, brushing aside realities of injustice and inequity. We argue that AI for social good ought to be assessed by the communities that the AI system will impact, using as a guide the capabilities approach, a framework to measure the ability of different policies to improve human welfare equity. Furthermore, we lay out how AI research has the potential to catalyze social progress by expanding and equalizing capabilities. We show how the capabilities approach aligns with a participatory approach for the design and implementation of AI for social good research in a framework we introduce called PACT, in which community members affected should be brought in as partners and their input prioritized throughout the project. We conclude by providing an incomplete set of guiding questions for carrying out such participatory AI research in a way that elicits and respects a community's own definition of social good.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462612
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462612
+ER  - 
+
+TY  - CONF
+TI  - AI Alignment and Human Reward
+AU  - Butlin, Patrick
+PY  - 2021
+AB  - According to a prominent approach to AI alignment, AI agents should be built to learn and promote human values. However, humans value things in several different ways: we have desires and preferences of various kinds, and if we engage in reinforcement learning, we also have reward functions. One research project to which this approach gives rise is therefore to say which of these various classes of human values should be promoted. This paper takes on part of this project by assessing the proposal that human reward functions should be the target for AI alignment. There is some reason to believe that powerful AI agents which were aligned to values of this form would help us to lead good lives, but there is also considerable uncertainty about this claim, arising from unresolved empirical and conceptual issues in human psychology.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462570
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462570
+ER  - 
+
+TY  - CONF
+TI  - Reconfiguring Diversity and Inclusion for AI Ethics
+AU  - Chi, Nicole
+AU  - Lurie, Emma
+AU  - Mulligan, Deirdre K.
+PY  - 2021
+AB  - Activists, journalists, and scholars have long raised critical questions about the relationship between diversity, representation, and structural exclusions in data-intensive tools and services. We build on work mapping the emergent landscape of corporate AI ethics to center one outcome of these conversations: the incorporation of diversity and inclusion in corporate AI ethics activities. Using interpretive document analysis and analytic tools from the values in design field, we examine how diversity and inclusion work is articulated in public-facing AI ethics documentation produced by three companies that create application and services layer AI infrastructure: Google, Microsoft, and Salesforce.We find that as these documents make diversity and inclusion more tractable to engineers and technical clients, they reveal a drift away from civil rights justifications that resonates with the "managerialization of diversity" by corporations in the mid-1980s. The focus on technical artifacts - such as diverse and inclusive datasets - and the replacement of equity with fairness make ethical work more actionable for everyday practitioners. Yet, they appear divorced from broader DEI initiatives and relevant subject matter experts that could provide needed context to nuanced decisions around how to operationalize these values and new solutions. Finally, diversity and inclusion, as configured by engineering logic, positions firms not as "ethics owners" but as ethics allocators; while these companies claim expertise on AI ethics, the responsibility of defining who diversity and inclusion are meant to protect and where it is relevant is pushed downstream to their customers.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462622
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462622
+ER  - 
+
+TY  - CONF
+TI  - What's Fair about Individual Fairness?
+AU  - Fleisher, Will
+PY  - 2021
+AB  - One of the main lines of research in algorithmic fairness involves individual fairness (IF) methods. Individual fairness is motivated by an intuitive principle, similar treatment, which requires that similar individuals be treated similarly. IF offers a precise account of this principle using distance metrics to evaluate the similarity of individuals. Proponents of individual fairness have argued that it gives the correct definition of algorithmic fairness, and that it should therefore be preferred to other methods for determining fairness. I argue that individual fairness cannot serve as a definition of fairness. Moreover, IF methods should not be given priority over other fairness methods, nor used in isolation from them. To support these conclusions, I describe four in-principle problems for individual fairness as a definition and as a method for ensuring fairness: (1) counterexamples show that similar treatment (and therefore IF) are insufficient to guarantee fairness; (2) IF methods for learning similarity metrics are at risk of encoding human implicit bias; (3) IF requires prior moral judgments, limiting its usefulness as a guide for fairness and undermining its claim to define fairness; and (4) the incommensurability of relevant moral values makes similarity metrics impossible for many tasks. In light of these limitations, I suggest that individual fairness cannot be a definition of fairness, and instead should be seen as one tool among several for ameliorating algorithmic bias.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462621
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462621
+ER  - 
+
+TY  - CONF
+TI  - Learning to Generate Fair Clusters from Demonstrations
+AU  - Galhotra, Sainyam
+AU  - Saisubramanian, Sandhya
+AU  - Zilberstein, Shlomo
+PY  - 2021
+AB  - Fair clustering is the process of grouping similar entities together, while satisfying a mathematically well-defined fairness metric as a constraint. Due to the practical challenges in precise model specification, the prescribed fairness constraints are often incomplete and act as proxies to the intended fairness requirement. Clustering with proxies may lead to biased outcomes when the system is deployed. We examine how to identify the intended fairness constraint for a problem based on limited demonstrations from an expert. Each demonstration is a clustering over a subset of the data. We present an algorithm to identify the fairness metric from demonstrations and generate clusters using existing off-the-shelf clustering techniques, and analyze its theoretical properties. To extend our approach to novel fairness metrics for which clustering algorithms do not currently exist, we present a greedy method for clustering. Additionally, we investigate how to generate interpretable solutions using our approach. Empirical evaluation on three real-world datasets demonstrates the effectiveness of our approach in quickly identifying the underlying fairness and interpretability constraints, which are then used to generate fair and interpretable clusters.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462558
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462558
+ER  - 
+
+TY  - CONF
+TI  - The Dangers of Drowsiness Detection: Differential Performance, Downstream Impact, and Misuses
+AU  - Grzelak, Jakub
+AU  - Brandao, Martim
+PY  - 2021
+AB  - Drowsiness and fatigue are important factors in driving safety and work performance. This has motivated academic research into detecting drowsiness, and sparked interest in the deployment of related products in the insurance and work-productivity sectors. In this paper we elaborate on the potential dangers of using such algorithms. We first report on an audit of performance bias across subject gender and ethnicity, identifying which groups would be disparately harmed by the deployment of a state-of-the-art drowsiness detection algorithm. We discuss some of the sources of the bias, such as the lack of robustness of facial analysis algorithms to face occlusions, facial hair, or skin tone. We then identify potential downstream harms of this performance bias, as well as potential misuses of drowsiness detection technology---focusing on driving safety and experience, insurance cream-skimming and coverage-avoidance, worker surveillance, and job precarity.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462593
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462593
+ER  - 
+
+TY  - CONF
+TI  - Designing Shapelets for Interpretable Data-Agnostic Classification
+AU  - Guidotti, Riccardo
+AU  - Monreale, Anna
+PY  - 2021
+AB  - Time series shapelets are discriminatory subsequences which are representative of a class, and their similarity to a time series can be used for successfully tackling the time series classification problem. The literature shows that Artificial Intelligence (AI) systems adopting classification models based on time series shapelets can be interpretable, more accurate, and significantly fast. Thus, in order to design a data-agnostic and interpretable classification approach, in this paper we first extend the notion of shapelets to different types of data, i.e., images, tabular and textual data. Then, based on this extended notion of shapelets we propose an interpretable data-agnostic classification method. Since the shapelets discovery can be time consuming, especially for data types more complex than time series, we exploit a notion of prototypes for finding candidate shapelets, and reducing both the time required to find a solution and the variance of shapelets. A wide experimentation on datasets of different types shows that the data-agnostic prototype-based shapelets returned by the proposed method empower an interpretable classification which is also fast, accurate, and stable. In addition, we show and we prove that shapelets can be at the basis of explainable AI methods.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462553
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462553
+ER  - 
+
+TY  - CONF
+TI  - The Earth Is Flat and the Sun Is Not a Star: The Susceptibility of GPT-2 to Universal Adversarial Triggers
+AU  - Heidenreich, Hunter Scott
+AU  - Williams, Jake Ryland
+PY  - 2021
+AB  - This work considers universal adversarial triggers, a method of adversarially disrupting natural language models, and questions if it is possible to use such triggers to affect both the topic and stance of conditional text generation models. In considering four "controversial" topics, this work demonstrates success at identifying triggers that cause the GPT-2 model to produce text about targeted topics as well as influence the stance the text takes towards the topic. We show that, while the more fringe topics are more challenging to identify triggers for, they do appear to more effectively discriminate aspects like stance. We view this both as an indication of the dangerous potential for controllability and, perhaps, a reflection of the nature of the disconnect between conflicting views on these topics, something that future work could use to question the nature of filter bubbles and if they are reflected within models trained on internet content. In demonstrating the feasibility and ease of such an attack, this work seeks to raise the awareness that neural language models are susceptible to this influence--even if the model is already deployed and adversaries lack internal model access--and advocates the immediate safeguarding against this type of adversarial attack in order to prevent potential harm to human users.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462578
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462578
+ER  - 
+
+TY  - CONF
+TI  - Can We Obtain Fairness For Free?
+AU  - Islam, Rashidul
+AU  - Pan, Shimei
+AU  - Foulds, James R.
+PY  - 2021
+AB  - There is growing awareness that AI and machine learning systems can in some cases learn to behave in unfair and discriminatory ways with harmful consequences. However, despite an enormous amount of research, techniques for ensuring AI fairness have yet to see widespread deployment in real systems. One of the main barriers is the conventional wisdom that fairness brings a cost in predictive performance metrics such as accuracy which could affect an organization's bottom-line. In this paper we take a closer look at this concern. Clearly fairness/performance trade-offs exist, but are they inevitable? In contrast to the conventional wisdom, we find that it is frequently possible, indeed straightforward, to improve on a trained model's fairness without sacrificing predictive performance. We systematically study the behavior of fair learning algorithms on a range of benchmark datasets, showing that it is possible to improve fairness to some degree with no loss (or even an improvement) in predictive performance via a sensible hyper-parameter selection strategy. Our results reveal a pathway toward increasing the deployment of fair AI methods, with potentially substantial positive real-world impacts.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462614
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462614
+ER  - 
+
+TY  - CONF
+TI  - AI and Shared Prosperity
+AU  - Klinova, Katya
+AU  - Korinek, Anton
+PY  - 2021
+AB  - Future advances in AI that automate away human labor may have stark implications for labor markets and inequality. This paper proposes a framework to analyze the effects of specific types of AI systems on the labor market, based on how much labor demand they will create versus displace, while taking into account that productivity gains also make society wealthier and thereby contribute to additional labor demand. This analysis enables ethically-minded companies creating or deploying AI systems as well as researchers and policymakers to take into account the effects of their actions on labor markets and inequality, and therefore to steer progress in AI in a direction that advances shared prosperity and an inclusive economic future for all of humanity.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462619
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462619
+ER  - 
+
+TY  - CONF
+TI  - Towards Unifying Feature Attribution and Counterfactual Explanations: Different Means to the Same End
+AU  - Kommiya Mothilal, Ramaravind
+AU  - Mahajan, Divyat
+AU  - Tan, Chenhao
+AU  - Sharma, Amit
+PY  - 2021
+AB  - Feature attributions and counterfactual explanations are popular approaches to explain a ML model. The former assigns an importance score to each input feature, while the latter provides input examples with minimal changes to alter the model's predictions. To unify these approaches, we provide an interpretation based on the actual causality framework and present two key results in terms of their use. First, we present a method to generate feature attribution explanations from a set of counterfactual examples. These feature attributions convey how important a feature is to changing the classification outcome of a model, especially on whether a subset of features is necessary and/or sufficient for that change, which attribution-based methods are unable to provide. Second, we show how counterfactual examples can be used to evaluate the goodness of an attribution-based explanation in terms of its necessity and sufficiency. As a result, we highlight the complimentary of these two approaches. Our evaluation on three benchmark datasets --- Adult-Income, LendingClub, and German-Credit --- confirms the complimentary. Feature attribution methods like LIME and SHAP and counterfactual explanation methods like Wachter et al. and DiCE often do not agree on feature importance rankings. In addition, by restricting the features that can be modified for generating counterfactual examples, we find that the top-k features from LIME or SHAP are often neither necessary nor sufficient explanations of a model's prediction. Finally, we present a case study of different explanation methods on a real-world hospital triage problem.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462597
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462597
+ER  - 
+
+TY  - CONF
+TI  - Becoming Good at AI for Good
+AU  - Kshirsagar, Meghana
+AU  - Robinson, Caleb
+AU  - Yang, Siyu
+AU  - Gholami, Shahrzad
+AU  - Klyuzhin, Ivan
+AU  - Mukherjee, Sumit
+AU  - Nasir, Md
+AU  - Ortiz, Anthony
+AU  - Oviedo, Felipe
+AU  - Tanner, Darren
+AU  - Trivedi, Anusua
+AU  - Xu, Yixi
+AU  - Zhong, Ming
+AU  - Dilkina, Bistra
+AU  - Dodhia, Rahul
+AU  - Lavista Ferres, Juan M.
+PY  - 2021
+AB  - AI for good (AI4G) projects involve developing and applying artificial intelligence (AI) based solutions to further goals in areas such as sustainability, health, humanitarian aid, and social justice. Developing and deploying such solutions must be done in collaboration with partners who are experts in the domain in question and who already have experience in making progress towards such goals. Based on our experiences, we detail the different aspects of this type of collaboration broken down into four high-level categories: communication, data, modeling, and impact, and distill eleven takeaways to guide such projects in the future. We briefly describe two case studies to illustrate how some of these takeaways were applied in practice during our past collaborations.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462599
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462599
+ER  - 
+
+TY  - CONF
+TI  - Measuring Group Advantage: A Comparative Study of Fair Ranking Metrics
+AU  - Kuhlman, Caitlin
+AU  - Gerych, Walter
+AU  - Rundensteiner, Elke
+PY  - 2021
+AB  - Ranking evaluation metrics play an important role in information retrieval, providing optimization objectives during development and means of assessment of deployed performance. Recently, fairness of rankings has been recognized as crucial, especially as automated systems are increasingly used for high impact decisions. While numerous fairness metrics have been proposed, a comparative analysis to understand their interrelationships is lacking. Even for fundamental statistical parity metrics which measure group advantage, it remains unclear whether metrics measure the same phenomena, or when one metric may produce different results than another. To address these open questions, we formulate a conceptual framework for analytical comparison of metrics. We prove that under reasonable assumptions, popular metrics in the literature exhibit the same behavior and that optimizing for one optimizes for all. However, our analysis also shows that the metrics vary in the degree of unfairness measured, in particular when one group has a strong majority. Based on this analysis, we design a practical statistical test to identify whether observed data is likely to exhibit predictable group bias. We provide a set of recommendations for practitioners to guide the choice of an appropriate fairness metric.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462588
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462588
+ER  - 
+
+TY  - CONF
+TI  - Ethical Data Curation for AI: An Approach based on Feminist Epistemology and Critical Theories of Race
+AU  - Leavy, Susan
+AU  - Siapera, Eugenia
+AU  - O'Sullivan, Barry
+PY  - 2021
+AB  - The potential for bias embedded in data to lead to the perpetuation of social injustice though Artificial Intelligence (AI) necessitates an urgent reform of data curation practices for AI systems, especially those based on machine learning. Without appropriate ethical and regulatory frameworks there is a risk that decades of advances in human rights and civil liberties may be undermined. This paper proposes an approach to data curation for AI, grounded in feminist epistemology and informed by critical theories of race and feminist principles. The objective of this approach is to support critical evaluation of the social dynamics of power embedded in data for AI systems. We propose a set of fundamental guiding principles for ethical data curation that address the social construction of knowledge, call for inclusion of subjugated and new forms of knowledge, support critical evaluation of theoretical concepts within data and recognise the reflexive nature of knowledge. In developing this ethical framework for data curation, we aim to contribute to a virtue ethics for AI and ensure protection of fundamental and human rights.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462598
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462598
+ER  - 
+
+TY  - CONF
+TI  - RAWLSNET: Altering Bayesian Networks to Encode Rawlsian Fair Equality of Opportunity
+AU  - Liu, David
+AU  - Shafi, Zohair
+AU  - Fleisher, William
+AU  - Eliassi-Rad, Tina
+AU  - Alfeld, Scott
+PY  - 2021
+AB  - We present RAWLSNET, a system for altering Bayesian Network (BN) models to satisfy the Rawlsian principle of fair equality of opportunity (FEO). RAWLSNET's BN models generate aspirational data distributions: data generated to reflect an ideally fair, FEO-satisfying society. FEO states that everyone with the same talent and willingness to use it should have the same chance of achieving advantageous social positions (e.g., employment), regardless of their background circumstances (e.g., socioeconomic status). Satisfying FEO requires alterations to social structures such as school assignments. Our paper describes RAWLSNET, a method which takes as input a BN representation of an FEO application and alters the BN's parameters so as to satisfy FEO when possible, and minimize deviation from FEO otherwise. We also offer guidance for applying RAWLSNET, including on recognizing proper applications of FEO. We demonstrate the use of RAWLSNET with publicly available data sets. RAWLSNET's altered BNs offer the novel capability of generating aspirational data for FEO-relevant tasks. Aspirational data are free from biases of real-world data, and thus are useful for recognizing and detecting sources of unfairness in machine learning algorithms besides biased data.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462618
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462618
+ER  - 
+
+TY  - CONF
+TI  - How Do the Score Distributions of Subpopulations Influence Fairness Notions?
+AU  - Mazijn, Carmen
+AU  - Danckaert, Jan
+AU  - Ginis, Vincent
+PY  - 2021
+AB  - Automated decisions based on trained algorithms influence human life in an increasingly far-reaching way. In recent years, it has become clear that these decisions are often accompanied by bias and unfair treatment of different subpopulations.Meanwhile, several notions of fairness circulate in the scientific literature, with trade-offs between profit and fairness and between fairness metrics among themselves. Based on both analytical calculations and numerical simulations, we show in this study that some profit-fairness trade-offs and fairness-fairness trade-offs depend substantially on the underlying score distributions given to subpopulations and we present two complementary perspectives to visualize this influence. We further show that higher symmetry in scores of subpopulations can significantly reduce the trade-offs between fairness notions within a given acceptable strictness, even when sacrificing expressiveness. Our exploratory study may help to understand how to overcome the strict mathematical statements about the statistical incompatibility of certain fairness notions.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462601
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462601
+ER  - 
+
+TY  - CONF
+TI  - More Similar Values, More Trust? - the Effect of Value Similarity on Trust in Human-Agent Interaction
+AU  - Mehrotra, Siddharth
+AU  - Jonker, Catholijn M.
+AU  - Tielman, Myrthe L.
+PY  - 2021
+AB  - As AI systems are increasingly involved in decision making, it also becomes important that they elicit appropriate levels of trust from their users. To achieve this, it is first important to understand which factors influence trust in AI. We identify that a research gap exists regarding the role of personal values in trust in AI. Therefore, this paper studies how human and agent Value Similarity (VS) influences a human's trust in that agent. To explore this, 89 participants teamed up with five different agents, which were designed with varying levels of value similarity to that of the participants. In a within-subjects, scenario-based experiment, agents gave suggestions on what to do when entering the building to save a hostage. We analyzed the agent's scores on subjective value similarity, trust and qualitative data from open-ended questions. Our results show that agents rated as having more similar values also scored higher on trust, indicating a positive effect between the two. With this result, we add to the existing understanding of human-agent trust by providing insight into the role of value-similarity.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462576
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462576
+ER  - 
+
+TY  - CONF
+TI  - Causal Multi-level Fairness
+AU  - Mhasawade, Vishwali
+AU  - Chunara, Rumi
+PY  - 2021
+AB  - Algorithmic systems are known to impact marginalized groups severely, and more so, if all sources of bias are not considered. While work in algorithmic fairness to-date has primarily focused on addressing discrimination due to individually linked attributes, social science research elucidates how some properties we link to individuals can be conceptualized as having causes at macro (e.g. structural) levels, and it may be important to be fair to attributes at multiple levels. For example, instead of simply considering race as a causal, protected attribute of an individual, the cause may be distilled as perceived racial discrimination an individual experiences, which in turn can be affected by neighborhood-level factors. This multi-level conceptualization is relevant to questions of fairness, as it may not only be important to take into account if the individual belonged to another demographic group, but also if the individual received advantaged treatment at the macro-level. In this paper, we formalize the problem of multi-level fairness using tools from causal inference in a manner that allows one to assess and account for effects of sensitive attributes at multiple levels. We show importance of the problem by illustrating residual unfairness if macro-level sensitive attributes are not accounted for, or included without accounting for their multi-level nature. Further, in the context of a real-world task of predicting income based on macro and individual-level attributes, we demonstrate an approach for mitigating unfairness, a result of multi-level sensitive attributes.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462587
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462587
+ER  - 
+
+TY  - CONF
+TI  - Measuring Lay Reactions to Personal Data Markets
+AU  - Nielsen, Aileen
+PY  - 2021
+AB  - The recording, aggregation, and exchange of personal data is necessary to the development of socially-relevant machine learning applications. However, anecdotal and survey evidence show that ordinary people feel discontent and even anger regarding data collection practices that are currently typical and legal. This suggests that personal data markets in their current form do not adhere to the norms applied by ordinary people. The present study experimentally probes whether market transactions in a typical online scenario are accepted when evaluated by lay people. The results show that a high percentage of study participants refused to participate in a data pricing exercise, even in a commercial context where market rules would typically be expected to apply. For those participants who did price the data, the median price was an order of magnitude higher than the market price. These results call into question the notice and consent market paradigm that is used by technology firms and government regulators when evaluating data flows. The results also point to a conceptual mismatch between cultural and legal expectations regarding the use of personal data.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462582
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462582
+ER  - 
+
+TY  - CONF
+TI  - Disparate Impact of Artificial Intelligence Bias in Ridehailing Economy's Price Discrimination Algorithms
+AU  - Pandey, Akshat
+AU  - Caliskan, Aylin
+PY  - 2021
+AB  - Ridehailing applications that collect mobility data from individuals to inform smart city planning predict each trip's fare pricing with automated algorithms that rely on artificial intelligence (AI). This type of AI algorithm, namely a price discrimination algorithm, is widely used in the industry's black box systems for dynamic individualized pricing. Lacking transparency, studying such AI systems for fairness and disparate impact has not been possible without access to data used in generating the outcomes of price discrimination algorithms. Recently, in an effort to enhance transparency in city planning, the city of Chicago regulation mandated that transportation providers publish anonymized data on ridehailing. As a result, we present the first large-scale measurement of the disparate impact of price discrimination algorithms used by ridehailing applications.The application of random effects models from the meta-analysis literature combines the city-level effects of AI bias on fare pricing from census tract attributes, aggregated from the American Community Survey. An analysis of 100 million ridehailing samples from the city of Chicago indicates a significant disparate impact in fare pricing of neighborhoods due to AI bias learned from ridehailing utilization patterns associated with demographic attributes. Neighborhoods with larger non-white populations, higher poverty levels, younger residents, and high education levels are significantly associated with higher fare prices, with combined effect sizes, measured in Cohen's d, of -0.32, -0.28, 0.69, and 0.24 for each demographic, respectively. Further, our methods hold promise for identifying and addressing the sources of disparate impact in AI algorithms learning from datasets that contain U.S. geolocations.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462561
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462561
+ER  - 
+
+TY  - CONF
+TI  - Understanding the Representation and Representativeness of Age in AI Data Sets
+AU  - Park, Joon Sung
+AU  - Bernstein, Michael S.
+AU  - Brewer, Robin N.
+AU  - Kamar, Ece
+AU  - Morris, Meredith Ringel
+PY  - 2021
+AB  - A diverse representation of different demographic groups in AI training data sets is important in ensuring that the models will work for a large range of users. To this end, recent efforts in AI fairness and inclusion have advocated for creating AI data sets that are well-balanced across race, gender, socioeconomic status, and disability status. In this paper, we contribute to this line of work by focusing on the representation of age by asking whether older adults are represented proportionally to the population at large in AI data sets. We examine publicly-available information about 92 face data sets to understand how they codify age as a case study to investigate how the subjects' ages are recorded and whether older generations are represented. We find that older adults are very under-represented; five data sets in the study that explicitly documented the closed age intervals of their subjects included older adults (defined as older than 65 years), while only one included oldest-old adults (defined as older than 85 years). Additionally, we find that only 24 of the data sets include any age-related information in their documentation or metadata, and that there is no consistent method followed across these data sets to collect and record the subjects' ages. We recognize the unique difficulties in creating representative data sets in terms of age, but raise it as an important dimension that researchers and engineers interested in inclusive AI should consider.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462590
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462590
+ER  - 
+
+TY  - CONF
+TI  - GAEA: Graph Augmentation for Equitable Access via Reinforcement Learning
+AU  - Ramachandran, Govardana Sachithanandam
+AU  - Brugere, Ivan
+AU  - Varshney, Lav R.
+AU  - Xiong, Caiming
+PY  - 2021
+AB  - Disparate access to resources by different subpopulations is a prevalent issue in societal and sociotechnical networks. For example, urban infrastructure networks may enable certain racial groups to more easily access resources such as high-quality schools, grocery stores, and polling places. Similarly, social networks within universities and organizations may enable certain groups to more easily access people with valuable information or influence. Here we introduce a new class of problems, Graph Augmentation for Equitable Access (GAEA), to enhance equity in networked systems by editing graph edges under budget constraints. We prove such problems are NP-hard, and cannot be approximated within a factor of (1-1/3e). We develop a principled, sample- and time- efficient Markov Reward Process (MRP)-based mechanism design framework for GAEA. Our algorithm outperforms baselines on a diverse set of synthetic graphs. We further demonstrate the method on real-world networks, by merging public census, school, and transportation datasets for the city of Chicago and applying our algorithm to find human-interpretable edits to the bus network that enhance equitable access to high-quality schools across racial groups. Further experiments on Facebook networks of universities yield sets of new social connections that would increase equitable access to certain attributed nodes across gender groups.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462615
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462615
+ER  - 
+
+TY  - CONF
+TI  - A Step Toward More Inclusive People Annotations for Fairness
+AU  - Schumann, Candice
+AU  - Ricco, Susanna
+AU  - Prabhu, Utsav
+AU  - Ferrari, Vittorio
+AU  - Pantofaru, Caroline
+PY  - 2021
+AB  - The Open Images Dataset contains approximately 9 million images and is a widely accepted dataset for computer vision research. As is common practice for large datasets, the annotations are not exhaustive, with bounding boxes and attribute labels for only a subset of the classes in each image. In this paper, we present a new set of annotations on a subset of the Open Images dataset called the MIAP (More Inclusive Annotations for People) subset, containing bounding boxes and attributes for all of the people visible in those images. The attributes and labeling methodology for the MIAP subset were designed to enable research into model fairness. In addition, we analyze the original annotation methodology for the person class and its subclasses, discussing the resulting patterns in order to inform future annotation efforts. By considering both the original and exhaustive annotation sets, researchers can also now study how systematic patterns in training annotations affect modeling.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462594
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462594
+ER  - 
+
+TY  - CONF
+TI  - Comparing Equity and Effectiveness of Different Algorithms in an Application for the Room Rental Market
+AU  - Solans, David
+AU  - Fabbri, Francesco
+AU  - Calsamiglia, Caterina
+AU  - Castillo, Carlos
+AU  - Bonchi, Francesco
+PY  - 2021
+AB  - Machine Learning (ML) techniques have been increasingly adopted by the real estate market in the last few years. Applications include, among many others, predicting the market value of a property or an area, advanced systems for managing marketing and ads campaigns, and recommendation systems based on user preferences. While these techniques can provide important benefits to the business owners and the users of the platforms, algorithmic biases can result in inequalities and loss of opportunities for groups of people who are already disadvantaged in their access to housing. In this work, we present a comprehensive and independent algorithmic evaluation of a recommender system for the real estate market, designed specifically for finding shared apartments in metropolitan areas. We were granted full access to the internals of the platform, including details on algorithms and usage data during a period of 2 years.We analyze the performance of the various algorithms which are deployed for the recommender system and asses their effect across different population groups.Our analysis reveals that introducing a recommender system algorithm facilitates finding an appropriate tenant or a desirable room to rent, but at the same time, it strengthen performance inequalities between groups, further reducing opportunities of finding a rental for certain minorities.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462600
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462600
+ER  - 
+
+TY  - CONF
+TI  - Does Fair Ranking Improve Minority Outcomes? Understanding the Interplay of Human and Algorithmic Biases in Online Hiring
+AU  - S\"{u}hr, Tom
+AU  - Hilgard, Sophie
+AU  - Lakkaraju, Himabindu
+PY  - 2021
+AB  - Ranking algorithms are being widely employed in various online hiring platforms including LinkedIn, TaskRabbit, and Fiverr. Prior research has demonstrated that ranking algorithms employed by these platforms are prone to a variety of undesirable biases, leading to the proposal of fair ranking algorithms (e.g., Det-Greedy) which increase exposure of underrepresented candidates. However, there is little to no work that explores whether fair ranking algorithms actually improve real world outcomes (e.g., hiring decisions) for underrepresented groups. Furthermore, there is no clear understanding as to how other factors (e.g., job context, inherent biases of the employers) may impact the efficacy of fair ranking in practice.In this work, we analyze various sources of gender biases in online hiring platforms, including the job context and inherent biases of employers and establish how these factors interact with ranking algorithms to affect hiring decisions. To the best of our knowledge, this work makes the first attempt at studying the interplay between the aforementioned factors in the context of online hiring. We carry out a large-scale user study simulating online hiring scenarios with data from TaskRabbit, a popular online freelancing site. Our results demonstrate that while fair ranking algorithms generally improve the selection rates of underrepresented minorities, their effectiveness relies heavily on the job contexts and candidate profiles.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462602
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462602
+ER  - 
+
+TY  - CONF
+TI  - Differentially Private Normalizing Flows for Privacy-Preserving Density Estimation
+AU  - Waites, Chris
+AU  - Cummings, Rachel
+PY  - 2021
+AB  - Normalizing flow models have risen as a popular solution to the problem of density estimation, enabling high-quality synthetic data generation as well as exact probability density evaluation. However, in contexts where individuals are directly associated with the training data, releasing such a model raises privacy concerns. In this work, we propose the use of normalizing flow models that provide explicit differential privacy guarantees as a novel approach to the problem of privacy-preserving density estimation. We evaluate the efficacy of our approach empirically using benchmark datasets, and we demonstrate that our method substantially outperforms previous state-of-the-art approaches. We additionally show how our algorithm can be applied to the task of differentially private anomaly detection.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462625
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462625
+ER  - 
+
+TY  - CONF
+TI  - A Human-in-the-loop Framework to Construct Context-aware Mathematical Notions of Outcome Fairness
+AU  - Yaghini, Mohammad
+AU  - Krause, Andreas
+AU  - Heidari, Hoda
+PY  - 2021
+AB  - Existing mathematical notions of fairness fail to account for the context of decision-making. We argue that moral consideration of contextual factors is an inherently human task. So we present a framework to learn context-aware mathematical formulations of fairness by eliciting people's situated fairness assessments. Our family of fairness notions corresponds to a new interpretation of economic models of Equality of Opportunity (EOP), and it includes most existing notions of fairness as special cases. Our human-in-the-loop approach is designed to learn the appropriate parameters of the EOP family by utilizing human responses to pair-wise questions about decision subjects' circumstance and deservingness, and the harm/benefit imposed on them. We illustrate our framework in a hypothetical criminal risk assessment scenario by conducting a series of human-subject experiments on Amazon Mechanical Turk. Our work takes an important initial step toward empowering stakeholders to have a voice in the formulation of fairness for Machine Learning.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462583
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462583
+ER  - 
+
+TY  - CONF
+TI  - Who's Responsible? Jointly Quantifying the Contribution of the Learning Algorithm and Data
+AU  - Yona, Gal
+AU  - Ghorbani, Amirata
+AU  - Zou, James
+PY  - 2021
+AB  - A learning algorithm A trained on a dataset D is revealed to have poor performance on some subpopulation at test time. Where should the responsibility for this lay? It can be argued that the data is responsible, if for example training A on a more representative dataset D' would have improved the performance. But it can similarly be argued that A itself is at fault, if training a different variant A' on the same dataset D would have improved performance. As ML becomes widespread and such failure cases more common, these types of questions are proving to be far from hypothetical. With this motivation in mind, in this work we provide a rigorous formulation of the joint credit assignment problem between a learning algorithm A and a dataset D. We propose Extended Shapley as a principled framework for this problem, and experiment empirically with how it can be used to address questions of ML accountability.
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3461702.3462574
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3461702.3462574
+ER  - 
+

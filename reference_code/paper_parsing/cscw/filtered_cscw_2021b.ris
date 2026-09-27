@@ -1,0 +1,759 @@
+TY  - JOUR
+TI  - Understanding Human-side Impact of Sampling Image Batches in Subjective Attribute Labeling
+AU  - Chung, Chaeyeon
+AU  - Lee, Jungsoo
+AU  - Park, Kyungmin
+AU  - Lee, Junsoo
+AU  - Kim, Minjae
+AU  - Song, Mookyung
+AU  - Kim, Yeonwoo
+AU  - Choo, Jaegul
+AU  - Hong, Sungsoo Ray
+PY  - 2021
+AB  - Capturing human annotators' subjective responses in image annotation has become crucial as vision-based classifiers expand the range of application areas. While there has been significant progress in image annotation interface design in general, relatively little research has been conducted to understand how to elicit reliable and cost-efficient human annotation when the nature of the task includes a certain level of subjectivity. To bridge this gap, we aim to understand how different sampling methods in image batch labeling, a design that allows human annotators to label a batch of images simultaneously, can impact human annotation performances. In particular, we developed three different strategies in forming image batches: (1) uncertainty-based labeling (UL) that prioritizes images that a classifier predicts with the highest uncertainty, (2) certainty-based labeling (CL), a reverse strategy of UL, and (3) random, a baseline approach that randomly selects images. Although UL and CL solely select images to be labeled from a classifier's point of view, we hypothesized that human-side perception and labeling performance may also vary depending on the different sampling strategies. In our study, we observed that participants were able to recognize a different level of perceived cognitive load across three conditions (CL the easiest while UL the most difficult). We also observed a trade-off between annotation task effectiveness (CL and UL more reliable than random) and task efficiency (UL the most efficient while CL the least efficient). Based on the results, we discuss the implications of design and possible future research directions of image batch labeling.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476037
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476037
+ER  - 
+
+TY  - JOUR
+TI  - "The Smartest Decision for My Future": Social Media Reveals Challenges and Stress During Post-College Life Transition
+AU  - Gong, Crystal
+AU  - Saha, Koustuv
+AU  - Chancellor, Stevie
+PY  - 2021
+AB  - The post-college transition is a critical period where individuals experience unique challenges and stress before, during, and after graduation. Individuals often use social media to discuss and share information, advice, and support related to post-college challenges in online communities. These communities are important as they fill gaps in institutional support between college and post-college plans. We empirically study the challenges and stress expressed on social media around this transition as students graduate college and move into emerging adulthood. We assembled a dataset of about 299,000 Reddit posts between 2008 and 2020 about the post-college transition from 10 subreddits. We extracted top concerns, challenges, and conversation points using unsupervised Latent Dirichlet Allocation (LDA). Then, we combined the results of LDA with binary transfer learning to identify stress expressions in the dataset (classifier performance at F1=0.94). Finally, we explore temporal patterns in stress expressions, and the variance of per-topic stress levels throughout the year. Our work highlights more deliberate and focused understanding of the post-college transition, as well as useful research and design impacts to study transient cohorts in need of support.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476039
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476039
+ER  - 
+
+TY  - JOUR
+TI  - Don't Disturb Me: Challenges of Interacting with Software Bots on Open Source Software Projects
+AU  - Wessel, Mairieli
+AU  - Wiese, Igor
+AU  - Steinmacher, Igor
+AU  - Gerosa, Marco Aurelio
+PY  - 2021
+AB  - Software bots are used to streamline tasks in Open Source Software (OSS) projects' pull requests, saving development cost, time, and effort. However, their presence can be disruptive to the community. We identified several challenges caused by bots in pull request interactions by interviewing 21 practitioners, including project maintainers, contributors, and bot developers. In particular, our findings indicate noise as a recurrent and central problem. Noise affects both human communication and development workflow by overwhelming and distracting developers. Our main contribution is a theory of how human developers perceive annoying bot behaviors as noise on social coding platforms. This contribution may help practitioners understand the effects of adopting a bot, and researchers and tool designers may leverage our results to better support human-bot interaction on social coding platforms.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476042
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476042
+ER  - 
+
+TY  - JOUR
+TI  - Hide and Seek: Choices of Virtual Backgrounds in Video Chats and Their Effects on Perception
+AU  - Hwang, Angel Hsing-Chi
+AU  - Wang, Cheng Yao
+AU  - Yang, Yao-Yuan
+AU  - Won, Andrea Stevenson
+PY  - 2021
+AB  - In two studies, we investigate how users choose virtual backgrounds and how these backgrounds influence viewers' impressions. In Study 1, we created a web prototype allowing users to apply different virtual backgrounds to their camera views and asked users to select backgrounds that they believed would change viewers' perceptions of their personality traits. In Study 2, we then applied virtual backgrounds picked by participants in Study 1 to a subset of videos drawn from the First Impression Dataset. We then ran a series of three online experiments on Amazon Mechanical Turk (MTurk) to compare participants' personality trait ratings for subjects (1) with the selected virtual backgrounds, (2) with the original video backgrounds, and (3) with a gray screen as a background. The selected virtual backgrounds did not change the personality trait ratings in the intended direction. Instead, virtual background use of any kind results in a consistent "muting effect" that mitigates very high or low ratings (i.e., compressing ratings to the mean level) compared to the ratings of the video with the original background.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476044
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476044
+ER  - 
+
+TY  - JOUR
+TI  - Orienting, Framing, Bridging, Magic, and Counseling: How Data Scientists Navigate the Outer Loop of Client Collaborations in Industry and Academia
+AU  - Kross, Sean
+AU  - Guo, Philip
+PY  - 2021
+AB  - Data scientists often collaborate with clients to analyze data to meet a client's needs. What does the end-to-end workflow of a data scientist's collaboration with clients look like throughout the lifetime of a project? To investigate this question, we interviewed ten data scientists (5 female, 4 male, 1 non-binary) in diverse roles across industry and academia. We discovered that they work with clients in a six-stage outer-loop workflow, which involves 1) laying groundwork by building trust before a project begins, 2) orienting to the constraints of the client's environment, 3) collaboratively framing the problem, 4) bridging the gap between data science and domain expertise, 5) the inner loop of technical data analysis work, 6) counseling to help clients emotionally cope with analysis results. This novel outer-loop workflow contributes to CSCW by expanding the notion of what collaboration means in data science beyond the widely-known inner-loop technical workflow stages of acquiring, cleaning, analyzing, modeling, and visualizing data. We conclude by discussing the implications of our findings for data science education, parallels to design work, and unmet needs for tool development.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476052
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476052
+ER  - 
+
+TY  - JOUR
+TI  - Task Execution Quality Maximization for Mobile Crowdsourcing in Geo-Social Networks
+AU  - Wang, Liang
+AU  - Yu, Zhiwen
+AU  - Yang, Dingqi
+AU  - Wang, Tian
+AU  - Wang, En
+AU  - Guo, Bin
+AU  - Zhang, Daqing
+PY  - 2021
+AB  - With the rapid development of smart devices and high-quality wireless technologies, mobile crowdsourcing (MCS) has been drawing increasing attention with its great potential in collaboratively completing complicated tasks on a large scale. A key issue toward successful MCS is participant recruitment, where a MCS platform directly recruits suitable crowd participants to execute outsourced tasks by physically traveling to specified locations. Recently, a novel recruitment strategy, namely Word-of-Mouth(WoM)-based MCS, has emerged to effectively improve recruitment effectiveness, by fully exploring users' mobility traces and social relationships on geo-social networks. Against this background, we study in this paper a novel problem, namely Expected Task Execution Quality Maximization (ETEQM) for MCS in geo-social networks, which strives to search a subset of seed users to maximize the expected task execution quality of all recruited participants, under a given incentive budget. To characterize the MCS task propagation process over geo-social networks, we first adopt a propagation tree structure to model the autonomous recruitment between the referrers and the referrals. Based on the model, we then formalize the task execution quality and devise a novel incentive mechanism by harnessing the business strategy of multi-level marketing. We formulate our ETEQM problem as a combinatorial optimization problem, and analyze its NP hardness and high-dimensional characteristics. Based on a cooperative co-evolution framework, we proposed a divide-and-conquer problem-solving approach named ETEQM-CC. We conduct extensive simulation experiments and a case study, verifying the effectiveness of our proposed approach.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476053
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476053
+ER  - 
+
+TY  - JOUR
+TI  - The Effects of Network Outages on User Experience in Augmented Reality Based Remote Collaboration - An Empirical Study
+AU  - Ahsen, Tooba
+AU  - Lim, Zi Yi
+AU  - Gardony, Aaron L.
+AU  - Taylor, Holly A.
+AU  - Ruiter, Jan P de
+AU  - Dogar, Fahad
+PY  - 2021
+AB  - Augmented Reality (AR) applications can enable geographically distant users to collaborate using shared video feeds or interactive 3D holograms, and may be particularly useful in the socially distant context of the Covid-19 pandemic. However, a good user experience is key for their success and could be negatively impacted by network impairments, which are an inevitable occurrence in today's best-effort Internet. In this paper, we present the findings of an empirical user study, aimed at understanding the effects of network outages, on user experience and behavior, in a collaborative AR task. We highlight how network outages affected users in different ways depending on their role in the collaborative task, and how giving users explicit information about poor network conditions helped them deal with some of these negative effects. Furthermore, we report the strategies that users themselves adopted, to deal with outages, such as batching instructions, or shifting to a different spatial referencing style when communicating with their partners. Lastly, based on our findings, we present some design implications for future remote-collaborative AR applications.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476054
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476054
+ER  - 
+
+TY  - JOUR
+TI  - Do Datasets Have Politics? Disciplinary Values in Computer Vision Dataset Development
+AU  - Scheuerman, Morgan Klaus
+AU  - Hanna, Alex
+AU  - Denton, Remi
+PY  - 2021
+AB  - Data is a crucial component of machine learning. The field is reliant on data to train, validate, and test models. With increased technical capabilities, machine learning research has boomed in both academic and industry settings, and one major focus has been on computer vision. Computer vision is a popular domain of machine learning increasingly pertinent to real-world applications, from facial recognition in policing to object detection for autonomous vehicles. Given computer vision's propensity to shape machine learning research and impact human life, we seek to understand disciplinary practices around dataset documentation - how data is collected, curated, annotated, and packaged into datasets for computer vision researchers and practitioners to use for model tuning and development. Specifically, we examine what dataset documentation communicates about the underlying values of vision data and the larger practices and goals of computer vision as a field. To conduct this study, we collected a corpus of about 500 computer vision datasets, from which we sampled 114 dataset publications across different vision tasks. Through both a structured and thematic content analysis, we document a number of values around accepted data practices, what makes desirable data, and the treatment of humans in the dataset construction process. We discuss how computer vision datasets authors value efficiency at the expense of care; universality at the expense of contextuality; impartiality at the expense of positionality; and model work at the expense of data work. Many of the silenced values we identify sit in opposition with social computing practices. We conclude with suggestions on how to better incorporate silenced values into the dataset creation and curation process.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476058
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476058
+ER  - 
+
+TY  - JOUR
+TI  - Quantifying the Invisible Labor in Crowd Work
+AU  - Toxtli, Carlos
+AU  - Suri, Siddharth
+AU  - Savage, Saiph
+PY  - 2021
+AB  - Crowdsourcing markets provide workers with a centralized place to find paid work. What may not be obvious at first glance is that, in addition to the work they do for pay, crowd workers also have to shoulder a variety of unpaid invisible labor in these markets, which ultimately reduces workers' hourly wages. Invisible labor includes finding good tasks, messaging requesters, or managing payments. However, we currently know little about how much time crowd workers actually spend on invisible labor or how much it costs them economically. To ensure a fair and equitable future for crowd work, we need to be certain that workers are being paid fairly for all of the work they do. In this paper, we conduct a field study to quantify the invisible labor in crowd work. We build a plugin to record the amount of time that 100 workers on Amazon Mechanical Turk dedicate to invisible labor while completing 40,903 tasks. If we ignore the time workers spent on invisible labor, workers' median hourly wage was $3.76. But, we estimated that crowd workers in our study spent 33\% of their time daily on invisible labor, dropping their median hourly wage to $2.83. We found that the invisible labor differentially impacts workers depending on their skill level and workers' demographics. The invisible labor category that took the most time and that was also the most common revolved around workers having to manage their payments. The second most time-consuming invisible labor category involved hyper-vigilance, where workers vigilantly watched over requesters' profiles for newly posted work or vigilantly searched for labor. We hope that through our paper, the invisible labor in crowdsourcing becomes more visible, and our results help to reveal the larger implications of the continuing invisibility of labor in crowdsourcing.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476060
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476060
+ER  - 
+
+TY  - JOUR
+TI  - Using Worker Avatars to Improve Microtask Crowdsourcing
+AU  - Qiu, Sihang
+AU  - Bozzon, Alessandro
+AU  - Birk, Max V.
+AU  - Gadiraju, Ujwal
+PY  - 2021
+AB  - The future of crowd work has been identified to depend on worker satisfaction, but we lack a thorough understanding of how worker satisfaction can be increased in microtask crowdsourcing. Prior work has shown that one solution is to build tasks that are engaging. To facilitate engagement, two methods that have received attention in recent HCI literature are the use of video games and conversational interfaces. While these are largely different techniques, they aim for the same goal of reducing worker burden and increasing engagement in a task. On one hand, video games have huge motivation potential and translating game design elements for motivational purposes has shown positive effects. Recent work in games research has shown that the use of player avatars is effective in fostering interest, enjoyment, and other aspects pertaining to intrinsic motivation. On the other hand, conversational interfaces have been argued to have advantages over traditional GUIs due to facilitating a more human-like interaction. Conversational microtasking has recently been proposed to improve worker engagement in microtask marketplaces. The contexts of games and crowd work are underlined by the need to motivate and engage participants, yet the potential of using worker avatars to promote self-identification and improve worker satisfaction in microtask crowdsourcing has remained unexplored. Addressing this knowledge gap, we carried out a between-subject study involving 360 crowd workers. We investigated how worker avatars influence quality related outcomes of workers and their perceived experience, in conventional web and novel conversational interfaces. We equipped workers with the functionality of customizing their avatars, and selecting characterizations for their avatars, to understand whether identifying with an avatar can increase the motivation of workers. We found that using worker avatars with conversational interfaces can effectively reduce cognitive workload and increase worker retention. Our results indicate the occurrence of similarity and wishful avatar identification in crowdsourcing. Our findings have important implications in alleviating workers' perceived workload and on the design of crowdsourcing microtasks.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476063
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476063
+ER  - 
+
+TY  - JOUR
+TI  - Implications for Supporting Marginalized Job Seekers: Lessons from Employment Centers
+AU  - Dillahunt, Tawanna R.
+AU  - Garvin, Matthew
+AU  - Held, Marcy
+AU  - Hui, Julie
+PY  - 2021
+AB  - Rapid changes in technology are expected to limit the availability of decent work for millions of people worldwide. This particularly disadvantages socially and economically marginalized job seekers who are already being pushed into lower-wage precarious work with increasing levels of job insecurity. While the number of employment support tools that match job seekers to employers has been growing, marginalized job seekers still significantly rely on physical employment centers that have a track record of supporting the specific needs associated with marginalization and economic constraints. We drew from prior HCI and CSCW literature uncovering the employment and technology-related challenges that marginalized job seekers face and from the Psychology of Working Theory to frame our research questions and results. To complement this prior work, we investigated how employment center staff work with marginalized job seekers and moderate factors to securing decent work. We found in an interview of 21 employment center staff--career advisors and business services coordinators--that they performed significant work to prepare and encourage marginalized job seekers in applying to positions, while also training employers to be more inclusive and open-minded. Career advisors worked directly with job seekers to connect them with external resources, provide encouragement, strategize long-term goals, and mitigate feelings of stigma. Business services coordinators worked directly with employers to prepare job positions and employee support programs. Drawing from the expertise of employment centers, we contribute a framework for designing employment support tools that better serve the needs of marginalized job seekers, and outline tangible design implications that complement the support these organizations provide.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476065
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476065
+ER  - 
+
+TY  - JOUR
+TI  - A Human-Centered Systematic Literature Review of Cyberbullying Detection Algorithms
+AU  - Kim, Seunghyun
+AU  - Razi, Afsaneh
+AU  - Stringhini, Gianluca
+AU  - Wisniewski, Pamela J.
+AU  - De Choudhury, Munmun
+PY  - 2021
+AB  - Cyberbullying is a growing problem across social media platforms, inflicting short and long-lasting effects on victims. To mitigate this problem, research has looked into building automated systems, powered by machine learning, to detect cyberbullying incidents, or the involved actors like victims and perpetrators. In the past, systematic reviews have examined the approaches within this growing body of work, but with a focus on the computational aspects of the technical innovation, feature engineering, or performance optimization, without centering around the roles, beliefs, desires, or expectations of humans. In this paper, we present a human-centered systematic literature review of the past 10 years of research on automated cyberbullying detection. We analyzed 56 papers based on a three-prong human-centeredness algorithm design framework - spanning theoretical, participatory, and speculative design. We found that the past literature fell short of incorporating human-centeredness across multiple aspects, ranging from defining cyberbullying, establishing the ground truth in data annotation, evaluating the performance of the detection models, to speculating the usage and users of the models, including potential harms and negative consequences. Given the sensitivities of the cyberbullying experience and the deep ramifications cyberbullying incidents bear on the involved actors, we discuss takeaways on how incorporating human-centeredness in future research can aid with developing detection systems that are more practical, useful, and tuned to the diverse needs and contexts of the stakeholders.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476066
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476066
+ER  - 
+
+TY  - JOUR
+TI  - Negotiating Repairedness: How Artifacts Under Repair Become Contingently Stabilized
+AU  - Jung, Ju Yeon
+AU  - Steinberger, Tom
+AU  - King, John L.
+AU  - Ackerman, Mark S.
+PY  - 2021
+AB  - This paper examines "repairedness" - the contingently stable, working version of an artifact under repair that is negotiated out of multiple possible versions to bring about the temporary conclusion of repair work. Our paper draws on an ethnographic study of an analog electronics repair community in Seoul, South Korea to develop two contributions. First, studying processes of negotiating the repairedness of an artifact accounts for contingency in the properties of the artifact itself, which differs from contingencies in collaborative work practices that have been a focus of CSCW research on repair. Second, a concept of repairedness highlights how ongoing processes of interacting with an artifact nonetheless need to be brought to contingent conclusions, suggesting that an artifact's properties are a valuable site for sustainable engagement. These contributions help CSCW research on repair account for the multiplicity of artifacts highlighted by STS scholars as integral to how humans sustainably engage with artifacts in their practices.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476069
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476069
+ER  - 
+
+TY  - JOUR
+TI  - The Challenge of Variable Effort Crowdsourcing and How Visible Gold Can Help
+AU  - Hettiachchi, Danula
+AU  - Schaekermann, Mike
+AU  - McKinney, Tristan J.
+AU  - Lease, Matthew
+PY  - 2021
+AB  - We consider a class of variable effort human annotation tasks in which the number of labels required per item can greatly vary (e.g., finding all faces in an image, named entities in a text, bird calls in an audio recording, etc.). In such tasks, some items require far more effort than others to annotate. Furthermore, the per-item annotation effort is not known until after each item is annotated since determining the number of labels required is an implicit part of the annotation task itself. On an image bounding-box task with crowdsourced annotators, we show that annotator accuracy and recall consistently drop as effort increases. We hypothesize reasons for this drop and investigate a set of approaches to counteract it. Firstly, we benchmark on this task a set of general best-practice methods for quality crowdsourcing. Notably, only one of these methods actually improves quality: the use of visible gold questions that provide periodic feedback to workers on their accuracy as they work. Given these promising results, we then investigate and evaluate variants of the visible gold approach, yielding further improvement. Final results show a 7\% improvement in bounding-box accuracy over the baseline. We discuss the generality of the visible gold approach and promising directions for future research.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476073
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476073
+ER  - 
+
+TY  - JOUR
+TI  - Goldilocks: Consistent Crowdsourced Scalar Annotations with Relative Uncertainty
+AU  - Chen, Quan Ze
+AU  - Weld, Daniel S.
+AU  - Zhang, Amy X.
+PY  - 2021
+AB  - Human ratings have become a crucial resource for training and evaluating machine learning systems. However, traditional elicitation methods for absolute and comparative rating suffer from issues with consistency and often do not distinguish between uncertainty due to disagreement between annotators and ambiguity inherent to the item being rated. In this work, we present Goldilocks, a novel crowd rating elicitation technique for collecting calibrated scalar annotations that also distinguishes inherent ambiguity from inter-annotator disagreement. We introduce two main ideas: grounding absolute rating scales with examples and using a two-step bounding process to establish a range for an item's placement. We test our designs in three domains: judging toxicity of online comments, estimating satiety of food depicted in images, and estimating age based on portraits. We show that (1) Goldilocks can improve consistency in domains where interpretation of the scale is not universal, and that (2) representing items with ranges lets us simultaneously capture different sources of uncertainty leading to better estimates of pairwise relationship distributions.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476076
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476076
+ER  - 
+
+TY  - JOUR
+TI  - Computer-Mediated Peer Support Needs of Home Care Workers: Emotional Labor \&amp; the Politics of Professionalism
+AU  - Poon, Anthony
+AU  - Hussain, Vaidehi
+AU  - Loughman, Julia
+AU  - Avgar, Ariel C.
+AU  - Sterling, Madeline
+AU  - Dell, Nicola
+PY  - 2021
+AB  - Home care workers (HCWs) are increasingly central to post-acute and long-term health services in the United States. Despite being a critical component of the day-to-day care of home-dwelling adults, these workers often feel underappreciated and isolated on the job and come from low-income and marginalized backgrounds. Leveraging the support of peers is one potential way to empower HCWs, but peer support encompasses a broad range of activities and aspects. Traditional conceptions of workplace support may not be appropriate to the home care context, as HCWs are a distributed workforce who have few opportunities to interact with each other. In this study, we explore how HCWs value and conceptualize peer support. Our findings demonstrate the importance of peer support in performing the emotional labor of home care work and ongoing attempts to strategically frame the home care profession as essential and medical in nature. Our results ground design implications for technology-enabled peer support based on the power dynamics of our participants' context and allow us to engage with issues where technology design for empowerment intersects with exploitation in distributed or crowd work, emotional labor, and tacit knowledge.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476077
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476077
+ER  - 
+
+TY  - JOUR
+TI  - Exploring the Utility Versus Intrusiveness of Dynamic Audience Selection on Facebook
+AU  - Ernala, Sindhu Kiranmai
+AU  - Yang, Stephanie S.
+AU  - Wu, Yuxi
+AU  - Chen, Rachel
+AU  - Wells, Kristen
+AU  - Das, Sauvik
+PY  - 2021
+AB  - In contrast to existing, static audience controls that map poorly onto users' ideal audiences on social networking sites, dynamic audience selection (DAS) controls can make intelligent inferences to help users select their ideal audience given context and content. But does this potential utility outweigh its potential intrusiveness? We surveyed 250 participants to model users' ideal versus their chosen audiences with static controls and found a significant misalignment, suggesting that DAS might provide utility. We then designed a sensitizing prototype that allowed users to select audiences based on personal attributes, content, or context constraints. We evaluated DAS vis-a-vis Facebook's existing audience selection controls through a counterbalanced summative evaluation. We found that DAS's expressiveness, customizability, and scalability made participants feel more confident about the content they shared on Facebook. However, low transparency, distrust in algorithmic inferences, and the emergence of privacy-violating side channels made participants find the prototype unreliable or intrusive. We discuss factors that affected this trade-off between DAS's utility and intrusiveness and synthesize design implications for future audience selection tools.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476083
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476083
+ER  - 
+
+TY  - JOUR
+TI  - Naturally Together: A Systematic Approach for Multi-User Interaction With Natural Interfaces
+AU  - Shavitt, Carmel
+AU  - Kuzminykh, Anastasia
+AU  - Ridel, Itay
+AU  - Cauchard, Jessica R.
+PY  - 2021
+AB  - New technology is moving towards intuitive and natural interaction techniques that are increasingly embedded in human space (e.g., home and office environment) and aims to support multiple users, yet their interfaces do not cover it to the full. Imagine that you have a multi-user device, should it act differently in different situations, people, and group settings? Current Multi-User Interfaces address each of the users as an individual that works independently from others, and there is a lack of understanding of the mechanisms that impact shared usage of these products. Thus we have linked environmental (external) and user-centered (internal) factors to the way users interact with multi-user devices. We analyzed 124 papers that involve multi-user interfaces and created a classification model out of 8 factors. Both the model and factors were validated by a large-scale online study. Our model defines the factors affecting multi-user usage with a single device and leads to a decision on the most important ones in different situations. This paper is the first to identify these factors and to create a set of practical guidelines for designing Multi-User Interfaces.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3476090
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3476090
+ER  - 
+
+TY  - JOUR
+TI  - Data Work and Decision Making in Emergency Medical Services: A Distributed Cognition Perspective
+AU  - Zhang, Zhan
+AU  - Joy, Karen
+AU  - Upadhyayula, Pradeepti
+AU  - Ozkaynak, Mustafa
+AU  - Harris, Richard
+AU  - Adelgais, Kathleen
+PY  - 2021
+AB  - Emergency medical services (EMS) teams are first responders providing urgent medical care to severely ill or injured patients in the field. Despite their criticality, EMS work is one of the very few medical domains with limited technical support. This paper describes a study conducted to examine technology opportunities for supporting EMS data work and decision-making. We transcribed and analyzed 25 simulation videos. Using the distributed cognition framework, we examined EMS teams' work practices that support information acquisition and sharing. Our results showed that EMS teams leveraged various mechanisms (e.g., verbal communication and external cognitive aids) to distribute cognitive labor in managing, collecting, and using patient data. However, we observed a set of prominent challenges in EMS data work, including lack of detailed documentation in real time, situation recall issues, situation awareness problems, and challenges in decision making and communication. Based on the results, we discuss implications for technology opportunities to support rapid information acquisition, integration, and sharing in time-critical, high-risk medical settings.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479500
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479500
+ER  - 
+
+TY  - JOUR
+TI  - Automatically Labeling Low Quality Content on Wikipedia By Leveraging Patterns in Editing Behaviors
+AU  - Asthana, Sumit
+AU  - Tobar Thommel, Sabrina
+AU  - Halfaker, Aaron Lee
+AU  - Banovic, Nikola
+PY  - 2021
+AB  - Wikipedia articles aim to be definitive sources of encyclopedic content. Yet, only 0.6\% of Wikipedia articles have high quality according to its quality scale due to insufficient number of Wikipedia editors and enormous number of articles. Supervised Machine Learning (ML) quality improvement approaches that can automatically identify and fix content issues rely on manual labels of individual Wikipedia sentence quality. However, current labeling approaches are tedious and produce noisy labels. Here, we propose an automated labeling approach that identifies the semantic category (e.g., adding citations, clarifications) of historic Wikipedia edits and uses the modified sentences prior to the edit as examples that require that semantic improvement. Highest-rated article sentences are examples that no longer need semantic improvements. We show that training existing sentence quality classification algorithms on our labels improves their performance compared to training them on existing labels. Our work shows that editing behaviors of Wikipedia editors provide better labels than labels generated by crowdworkers who lack the context to make judgments that the editors would agree with.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479503
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479503
+ER  - 
+
+TY  - JOUR
+TI  - Atheists versus Theists: Religious Polarisation in Arab Online Communities
+AU  - Al Hariri, Youssef
+AU  - Magdy, Walid
+AU  - Wolters, Maria K.
+PY  - 2021
+AB  - In this study, we investigate the extent of polarisation among theist versus atheist groups on Arab Twitter and their networks. We find four main self-identified groups of Arab users that can be distinguished by different attitudes to religion. In addition to Atheists and Theists, there are Rationalists, who promote rational thinking regardless of religious affiliation, and Tanweeri, who promote religious reforms. Through a keyword search of Twitter account handles and biographies, we identified 2,673 active, public Twitter accounts that clearly state whether they are Atheists, Theists, Tanweeri or Rationalists and analysed the interactions among themselves and the accounts that are followed, retweeted, or mentioned the most in their networks. Depending on the network analysed, we found between four and seven sub-communities that highlight the rich socio-cultural context in which discussions of religion, non-religion, and religious reform unfold. While there was clear online polarisation between atheists and theists, Rationalist and Tanweeri accounts are spread among the two polarised sides, acting as natural bridges. We also found a clear separation between Arab atheists who engage with Arab accounts promoting atheism and those who primarily engage with Western accounts promoting atheism. We discuss implications for the study of religious debate and religious polarisation on social media.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479505
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479505
+ER  - 
+
+TY  - JOUR
+TI  - Task Assignment Strategies for Crowd Worker Ability Improvement
+AU  - Matsubara, Masaki
+AU  - Borromeo, Ria Mae
+AU  - Amer-Yahia, Sihem
+AU  - Morishima, Atsuyuki
+PY  - 2021
+AB  - Workers are the most important resource in crowdsourcing. However, only investing in worker-centric needs, such as skill improvement, often conflicts with short-term platform-centric needs, such as task throughput. This paper studies learning strategies in task assignment in crowdsourcing and their impact on platform-centric needs. We formalize learning potential of individual tasks and collaborative tasks, and devise an iterative task assignment and completion approach that implements strategies grounded in learning theories. We conduct experiments to compare several learning strategies in terms of skill improvement, and in terms of task throughput and contribution quality. We discuss how our findings open new research directions in learning and collaboration.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479519
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479519
+ER  - 
+
+TY  - JOUR
+TI  - Bodily Experiences of Illness and Treatment as Information Work: The Case of Chronic Kidney Disease
+AU  - Whitman, Samantha A.
+AU  - Pine, Kathleen H.
+AU  - Thorsteinsdottir, Bjorg
+AU  - Organick-Lee, Paige
+AU  - Thota, Anjali
+AU  - Espinoza Suarez, Nataly R.
+AU  - Johnston, Erik W.
+AU  - Boehmer, Kasey R.
+PY  - 2021
+AB  - CSCW has previously investigated the "information work" that patients do in relation to their health, illnesses, and treatments. Our study contributes to this ongoing stream of work by investigating the information work that chronically ill patients do in relation to their physical bodily experiences. We use an interpretivist approach and qualitative methods (semi-structured interviews and observations) to examine how patients in a midwestern U.S. city carry out information work related to their bodily experiences of Chronic Kidney Disease (CKD). Our findings highlight four themes related to such work: bodily experiences of CKD; making meaning of bodily experiences through experiential learning; communicating bodily experiences; and attuning daily life around bodily experiences. In so doing, we show how patients continuously engage in information work in relation to their bodily experiences. For example, we found participants experienced physical sensations such as pain, cramping, and extreme fatigue, which elicited complex labor, yet most patients received little education from health care professionals about what bodily sensations they might have and what these physical experiences might mean. While patients and clinicians worked collaboratively to adjust treatment based on bodily information, such collaborative adjustment often did not occur until patients learned to interpret and communicate bodily experiences through a difficult and physically painful "trial and error" learning process. Our empirical insights extend on the literature of information work that chronically ill patients do and inform design of information technologies and care processes for patients with chronic disease.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479527
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479527
+ER  - 
+
+TY  - JOUR
+TI  - E Pluribus Unum: Using Conceptual Metaphor Theory to Explore and Support Mixed-Ability Workplaces
+AU  - Cafaro, Francesco
+AU  - Brady, Erin
+AU  - Chandra, Sowmya
+AU  - Patil, Ulka
+AU  - Saxena, Abhijeet
+PY  - 2021
+AB  - Even when they are able to secure employment, people with cognitive disabilities typically encounter significant difficulties in the workplace. In this paper, we focus on Mixed-Ability workplaces: work settings in which people without disabilities and with different types of disabilities collaborate on a daily basis. The case study for our exploratory research is a university library that has been able to support a mixed-ability work setting for over four years. We describe how a theory from cognitive linguistics (Conceptual Metaphor Theory) can be used to explore the challenges that people encounter in mixed-ability workplaces, identify the cognitive processes that differ between neurotypical team leaders and workers with cognitive disabilities, and translate these findings into design recommendations for embodied technologies that support mixed-ability workplaces.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479528
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479528
+ER  - 
+
+TY  - JOUR
+TI  - "@alex, this fixes #9": Analysis of Referencing Patterns in Pull Request Discussions
+AU  - Chopra, Ashish
+AU  - Mo, Morgan
+AU  - Dodson, Samuel
+AU  - Beschastnikh, Ivan
+AU  - Fels, Sidney S.
+AU  - Yoon, Dongwook
+PY  - 2021
+AB  - Pull Requests (PRs) are a frequently used method for proposing changes to source code repositories. When discussing proposed changes in a PR discussion, stakeholders often reference a wide variety of information objects for establishing shared awareness and common ground. Previous work has not considered how the referential behavior impacts collaborative software development via PRs. This knowledge gap is the major barrier in evaluating the current support for referencing in PRs and improving them. We conducted an explorative analysis of textasciitilde7K references, collected from 450 public PRs on GitHub, and constructed taxonomies of referent types and expressions. Using our annotated dataset, we identified several patterns in the use of references. Referencing source code elements was prevalent but the authoring interface lacks support for it. Three classes of contextual factors influence referencing behaviors: referent type, discussion thread, and project attributes. Referencing patterns may indicate PR outcomes (e.g., merged PRs frequently reference issues, users, and tests). We conclude with design implications to support more effective referencing in PR discussion interfaces.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479529
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479529
+ER  - 
+
+TY  - JOUR
+TI  - On the State of Reporting in Crowdsourcing Experiments and a Checklist to Aid Current Practices
+AU  - Ram\'{\i}rez, Jorge
+AU  - Sayin, Burcu
+AU  - Baez, Marcos
+AU  - Casati, Fabio
+AU  - Cernuzzi, Luca
+AU  - Benatallah, Boualem
+AU  - Demartini, Gianluca
+PY  - 2021
+AB  - Crowdsourcing is being increasingly adopted as a platform to run studies with human subjects. Running a crowdsourcing experiment involves several choices and strategies to successfully port an experimental design into an otherwise uncontrolled research environment, e.g., sampling crowd workers, mapping experimental conditions to micro-tasks, or ensure quality contributions. While several guidelines inform researchers in these choices, guidance of how and what to report from crowdsourcing experiments has been largely overlooked. If under-reported, implementation choices constitute variability sources that can affect the experiment's reproducibility and prevent a fair assessment of research outcomes. In this paper, we examine the current state of reporting of crowdsourcing experiments and offer guidance to address associated reporting issues. We start by identifying sensible implementation choices, relying on existing literature and interviews with experts, to then extensively analyze the reporting of 171 crowdsourcing experiments. Informed by this process, we propose a checklist for reporting crowdsourcing experiments.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479531
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479531
+ER  - 
+
+TY  - JOUR
+TI  - Let Me Ask You This: How Can a Voice Assistant Elicit Explicit User Feedback?
+AU  - Xiao, Ziang
+AU  - Mennicken, Sarah
+AU  - Huber, Bernd
+AU  - Shonkoff, Adam
+AU  - Thom, Jennifer
+PY  - 2021
+AB  - Voice assistants offer users access to an increasing variety of personalized functionalities. Researchers and engineers who build these experiences rely on various signals from users to create the machine learning models powering them. One type of signal is explicit feedback. While collecting explicit user feedback in situ via voice assistants would help improve and inspect the underlying models, from a user perspective it can be disruptive to the overall experience, and the user might not feel compelled to respond. However, careful design can help alleviate the friction in the experience. In this paper, we explore the opportunities and the design space for voice assistant explicit feedback elicitation. First, we present four usage categories of explicit feedback in situ for model evaluation and improvement, derived from interviews with machine learning practitioners. Then, using realistic scenarios generated for each category, we conducted an online study to evaluate multiple voice assistant designs. Our results reveal that when the voice assistant is introduced as a learner or a collaborator, users were more willing to respond to its request for feedback and felt less disruptive. In addition, giving users instructions on how to initiate feedback themselves can reduce the perceived disruptiveness compared to asking users for feedback directly. Based on our findings, we discuss the implications and potential future directions for designing voice assistants to elicit user feedback for personalized voice experiences.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479532
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479532
+ER  - 
+
+TY  - JOUR
+TI  - Where Do Stories Come From? Examining the Exploration Process in Investigative Data Journalism
+AU  - Showkat, Dilruba
+AU  - Baumer, Eric P. S.
+PY  - 2021
+AB  - Investigative data journalists work with a variety of data sources to tell a story. Though prior work has indicated that there is a close relationship between journalists' data work practices and that of data scientists. However, these relationships and data work practices are not empirically examined, and understanding them is crucial to inform the design of tools that are used by different groups of people including data scientists and data journalists. Thus, to bridge this gap, we studied investigative reporters' data work practices with one non-profit investigative newsroom. Our study design includes two activities: 1) semi-structured interviews with journalists, and 2) a sketching activity allowing journalists to depict examples of their work practices. By analyzing these data and synthesizing them across related prior work, we propose the major phases in the data-driven investigative journalism story idea generation process. Our study findings show that the journalists employ a collection of multiple, iterative, cyclic processes to identify journalistically "interesting'' story ideas. These processes both significantly resemble and show subtle nuanced differences with data science work practices identified in prior research. We further verified our proposal through a member check with key informants. This work offers three primary contributions. First, it provides a close glimpse into the main phases of investigative journalists' data-driven story idea generation technique. Second, it complements prior work studying formal data science practices by examining data-driven investigative journalists, whose primary expertise lies outside computing. Third, it identifies particular points in the data exploration processes that would benefit from design interventions and suggests future research directions.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479534
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479534
+ER  - 
+
+TY  - JOUR
+TI  -  'Walking Into a Fire Hoping You Don't Catch': Strategies and Designs to Facilitate Cross-Partisan Online Discussions
+AU  - rajadesingan, ashwin
+AU  - Duran, Carolyn
+AU  - Resnick, Paul
+AU  - Budak, Ceren
+PY  - 2021
+AB  - While cross-partisan conversations are central to a vibrant deliberative democracy, these conversations are hard to have, especially amidst unprecedented levels of partisan animosity we observe today. We report on a qualitative study of 17 US residents who engage with outpartisans on Reddit to understand what they look for in these interactions, and the strategies they adopt. We find that users have multiple, sometimes contradictory expectations of these conversations, ranging from deliberative discussions to entertainment and banter. In aiming to foster 'good' cross-partisan discussions, users make strategic choices on which subreddits to participate in, who to engage with and how to talk to outpartisans, often establishing common ground, complimenting, and remaining dispassionate in their interactions. Further, contrary to offline settings where knowing more about outpartisan interlocutors help manage disagreements, on Reddit, users look to actively learn as little as possible about them for fear that such information may bias their interactions. However, through design probes, we find that users are actually open to knowing certain kinds of information about their interlocutors, such as non-political subreddits that they both participate in, and to having that information made visible to their interlocutors. However, making other information visible, such as the other subreddits that they participate in or their past comments, though potentially humanizing, raises concerns around privacy and misuse of that information for personal attacks especially among women and minority groups. Finally, we identify important challenges and opportunities in designing to improve online cross-partisan interactions in today's hyper-polarized environment.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479537
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479537
+ER  - 
+
+TY  - JOUR
+TI  - Examining Collaborative Support for Privacy and Security in the Broader Context of Tech Caregiving
+AU  - Kropczynski, Jess
+AU  - Ghaiumy Anaraky, Reza
+AU  - Akter, Mamtaj
+AU  - Godfrey, Amy J.
+AU  - Lipford, Heather
+AU  - Wisniewski, Pamela J.
+PY  - 2021
+AB  - Managing digital privacy and security is often a collaborative process, where groups of individuals work together to share information and give one another advice. Yet, this collaborative process is not always reciprocal or equally shared. In many cases, individuals with more expertise help others without receiving help in return. Therefore, we studied the phenomenon of "Tech Caregiving" by surveying 20 groups (112 individuals) comprised of friends, family members, and/or co-workers who identified at least one member of their group as a someone who provides informal technical support to the people they know. We found that tech caregivers reported significantly higher levels of power use and self-efficacy for digital privacy and security, compared to tech caregivees. However, caregivers and caregivees did not differ based on their self-reportedcommunity collective-efficacy for collaboratively managing privacy and security together as a group. This finding demonstrates the importance of tech caregiving and community belonging in building community collective efficacy for digital privacy and security. We also found that caregivers and caregivees most often communicated via text message or phone when coordinating support, which was most frequently needed when troubleshooting or setting up new devices. Meanwhile, discussions specific to privacy and security represented only a small fraction of the issues for which participants gave or received tech care. Thus, we conclude that educating tech caregivers on how to provide privacy and security-focused support, as well as designing technologies that facilitate such support, has the potential to create positive networks effects towards the collective management of digital privacy and security.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479540
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479540
+ER  - 
+
+TY  - JOUR
+TI  - Synchrony within Triads using Virtual Reality
+AU  - Miller, Mark Roman
+AU  - Sonalkar, Neeraj
+AU  - Mabogunje, Ade
+AU  - Leifer, Larry
+AU  - Bailenson, Jeremy
+PY  - 2021
+AB  - Synchrony, the natural time-dependence of behavior in human interaction, is a pervasive feature of communication. However, most studies of synchrony have focused on dyadic interaction. In the current work, we explore synchrony in three-person teams using immersive virtual reality. Participants spent about two hours collaborating on four separate design tasks. The tracking data from the VR system allowed precise measurement of head and hand movements, facilitating calculation of synchrony. Results replicated previous work that found nonverbal synchrony in dyads in immersive VR. Moreover, we manipulated the context of the task environment, an informal garage or a traditional conference room. The environment for the task influenced synchrony, with higher levels occurring in the conference room than the garage. We also explored different methods of extending synchrony from dyads to triads, and explore the relationship of synchrony to turn taking and gaze. This paper provides theoretical insights about nonverbal synchrony and how design work functions in triads and provides suggestions for designers of VR to support good collaboration.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479544
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479544
+ER  - 
+
+TY  - JOUR
+TI  - Towards Understanding and Supporting Journalistic Practices Using Semi-Automated News Discovery Tools
+AU  - Diakopoulos, Nicholas
+AU  - Trielli, Daniel
+AU  - Lee, Grace
+PY  - 2021
+AB  - Journalists are routinely challenged with monitoring vast information environments in order to identify what is newsworthy and of interest to report to a wider audience. In a process referred to as computational news discovery, alerts and leads based on data-driven algorithmic analysis can orient journalists' attention to events, documents, or anomalous patterns in data that are more likely to be newsworthy. In this paper we prototype one such news discovery tool, Algorithm Tips, which we designed to help journalists find newsworthy leads about algorithmic decision-making systems used across all levels of U.S. government. The tool incorporates algorithmic, crowdsourced, and expert evaluations into an integrated interface designed to support users in making editorial decisions about which news leads to pursue. We then present an evaluation of our prototype based on an extended deployment with eight professional journalists. Our findings offer insights into journalistic practices that are enabled and transformed by such news discovery tools, and suggest opportunities for improving computational news discovery tool designs to better support those practices.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479550
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479550
+ER  - 
+
+TY  - JOUR
+TI  - Understanding the Effect of Out-of-distribution Examples and Interactive Explanations on Human-AI Decision Making
+AU  - Liu, Han
+AU  - Lai, Vivian
+AU  - Tan, Chenhao
+PY  - 2021
+AB  - Although AI holds promise for improving human decision making in societally critical domains, it remains an open question how human-AI teams can reliably outperform AI alone and human alone in challenging prediction tasks (also known as complementary performance). We explore two directions to understand the gaps in achieving complementary performance. First, we argue that the typical experimental setup limits the potential of human-AI teams. To account for lower AI performance out-of-distribution than in-distribution because of distribution shift, we design experiments with different distribution types and investigate human performance for both in-distribution and out-of-distribution examples. Second, we develop novel interfaces to support interactive explanations so that humans can actively engage with AI assistance. Using virtual pilot studies and large-scale randomized experiments across three tasks, we demonstrate a clear difference between in-distribution and out-of-distribution, and observe mixed results for interactive explanations: while interactive explanations improve human perception of AI assistance's usefulness, they may reinforce human biases and lead to limited performance improvement. Overall, our work points out critical challenges and future directions towards enhancing human performance with AI assistance.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479552
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479552
+ER  - 
+
+TY  - JOUR
+TI  - Social Influence Leads to the Formation of Diverse Local Trends
+AU  - Epstein, Ziv
+AU  - Groh, Matthew
+AU  - Dubey, Abhimanyu
+AU  - Pentland, Alex
+PY  - 2021
+AB  - How does the visual design of digital platforms impact user behavior and the resulting environment? A body of work suggests that introducing social signals to content can increase both the inequality and unpredictability of its success, but has only been shown in the context of music listening. To further examine the effect of social influence on media popularity, we extend this research to the context of algorithmically-generated images by re-adapting Salganik et al's Music Lab experiment. On a digital platform where participants discover and curate AI-generated hybrid animals, we randomly assign both the knowledge of other participants' behavior and the visual presentation of the information. We successfully replicate the Music Lab's findings in the context of images, whereby social influence leads to an unpredictable winner-take-all market. However, we also find that social influence can lead to the emergence of local cultural trends that diverge from the status quo and are ultimately more diverse. We discuss the implications of these results for platform designers and animal conservation efforts.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479553
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479553
+ER  - 
+
+TY  - JOUR
+TI  - Beyond Entertainment: Unpacking Danmaku and Comments' Role of Information Sharing and Sentiment Expression in Online Crisis Videos
+AU  - He, Changyang
+AU  - He, Lu
+AU  - Lu, Tun
+AU  - Li, Bo
+PY  - 2021
+AB  - Online videos are playing an increasingly important role in timely information dissemination especially during public crises. Video commentary, synchronous or asynchronous, is indispensable in viewers' engagement and participation, and may in turn contribute to video with additional information and emotions. Yet, the roles of video commentary in crisis communications are largely unexplored, which we believe that an investigation not only provides timely feedback but also offers concrete guidelines for better information dissemination. In this work, we study two distinct commentary features of online videos: traditional asynchronous comments and emerging synchronous danmaku. We investigate how users utilize these two features to express their emotions and share information during a public health crisis. Through qualitative analysis and applying machine learning techniques on a large-scale danmaku and comment dataset of Chinese COVID-19-related videos, we uncover the distinctive roles of danmaku and comments in crisis communication, and propose comprehensive taxonomies for information themes and emotion categories of commentary. We also discover the unique patterns of crisis communications presented by danmaku, such as collective emotional resonance and style-based highlighting for emphasizing critical information. Our study captures the unique values and salient features of the emerging commentary interfaces, in particular danmaku, in the context of crisis videos, and further provides several design implications to enable more effective communications through online videos to engage and empower users during crises.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479555
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479555
+ER  - 
+
+TY  - JOUR
+TI  - Effective Strategies for Crowd-Powered Cognitive Reappraisal Systems: A Field Deployment of the Flip*Doubt Web Application for Mental Health
+AU  - Smith, C. Estelle
+AU  - Lane, William
+AU  - Miller Hillberg, Hannah
+AU  - Kluver, Daniel
+AU  - Terveen, Loren
+AU  - Yarosh, Svetlana
+PY  - 2021
+AB  - Online technologies offer great promise to expand models of delivery for therapeutic interventions to help users cope with increasingly common mental illnesses like anxiety and depression. For example, "cognitive reappraisal" is a skill that involves changing one's perspective on negative thoughts in order to improve one's emotional state. In this work, we present Flip*Doubt, a novel crowd-powered web application that provides users with cognitive reappraisals ("reframes") of negative thoughts. A one-month field deployment of Flip*Doubt with 13 graduate students yielded a data set of negative thoughts paired with positive reframes, as well as rich interview data about how participants interacted with the system. Through this deployment, our work contributes: (1) an in-depth qualitative understanding of how participants used a crowd-powered cognitive reappraisal system in the wild; and (2) detailed codebooks that capture informative context about negative input thoughts and reframes. Our results surface data-derived hypotheses that may help to explain what types of reframes are helpful for users, while also providing guidance to future researchers and developers interested in building collaborative systems for mental health. In our discussion, we outline implications for systems research to leverage peer training and support, as well as opportunities to integrate AI/ML-based algorithms to support the cognitive reappraisal task. (Note: This paper includes potentially triggering mentions of mental health issues and suicide.)
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479561
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479561
+ER  - 
+
+TY  - JOUR
+TI  - Algorithmic Risk Assessments Can Alter Human Decision-Making Processes in High-Stakes Government Contexts
+AU  - Green, Ben
+AU  - Chen, Yiling
+PY  - 2021
+AB  - Governments are increasingly turning to algorithmic risk assessments when making important decisions, such as whether to release criminal defendants before trial. Policymakers assert that providing public servants with algorithmic advice will improve human risk predictions and thereby lead to better (e.g., fairer) decisions. Yet because many policy decisions require balancing risk-reduction with competing goals, improving the accuracy of predictions may not necessarily improve the quality of decisions. If risk assessments make people more attentive to reducing risk at the expense of other values, these algorithms would diminish the implementation of public policy even as they lead to more accurate predictions. Through an experiment with 2,140 lay participants simulating two high-stakes government contexts, we provide the first direct evidence that risk assessments can systematically alter how people factor risk into their decisions. These shifts counteracted the potential benefits of improved prediction accuracy. In the pretrial setting of our experiment, the risk assessment made participants more sensitive to increases in perceived risk; this shift increased the racial disparity in pretrial detention by 1.9\%. In the government loans setting of our experiment, the risk assessment made participants more risk-averse; this shift reduced government aid by 8.3\%. These results demonstrate the potential limits and harms of attempts to improve public policy by incorporating predictive algorithms into multifaceted policy decisions. If these observed behaviors occur in practice, presenting risk assessments to public servants would generate unexpected and unjust shifts in public policy without being subject to democratic deliberation or oversight.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479562
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479562
+ER  - 
+
+TY  - JOUR
+TI  - What's in a Network? Infrastructures of Mutual Aid for Digital Platform Workers during COVID-19
+AU  - Qadri, Rida
+PY  - 2021
+AB  - This paper examines the role played by informal mutual aid networks in mediating precarity for gig workers in Jakarta during COVID-19. Using an original survey of 350 mobility platform drivers conducted in May 2020 and a pre-pandemic set of semi-structured interviews with driver communities, I find that mutual aid dispersed through associative, informal labor networks became an essential infrastructure of support for drivers during the pandemic. Most drivers in Jakarta were able to mobilize pre-existing labor networks for extensive material and emotional support. However, results indicate this support was not universally accessible: the pre-pandemic structures of a driver's community and the driver's own participation within the community correlated with the magnitude of community support a driver reported receiving. By putting CSCW literature in conversation with broader literature on informal urbanism, this paper shows how informal labor networks and mutual aid can be a transformative, even outside of formal union structures. By analyzing the forms and limits of these networks this paper also carries lessons in how to build solidarity amongst distributed workforces. At the same time, this study highlights the role of local socio-economic context in shaping gig worker experiences of the pandemic. Thus, it points to the need for more contextually driven analysis of both gig worker precarity and what are deemed effective forms of labor solidarity
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479563
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479563
+ER  - 
+
+TY  - JOUR
+TI  - Discovering and Validating AI Errors With Crowdsourced Failure Reports
+AU  - Cabrera, \'{A}ngel Alexander
+AU  - Druck, Abraham J.
+AU  - Hong, Jason I.
+AU  - Perer, Adam
+PY  - 2021
+AB  - AI systems can fail to learn important behaviors, leading to real-world issues like safety concerns and biases. Discovering these systematic failures often requires significant developer attention, from hypothesizing potential edge cases to collecting evidence and validating patterns. To scale and streamline this process, we introduce crowdsourced failure reports, end-user descriptions of how or why a model failed, and show how developers can use them to detect AI errors. We also design and implement Deblinder, a visual analytics system for synthesizing failure reports that developers can use to discover and validate systematic failures. In semi-structured interviews and think-aloud studies with 10 AI practitioners, we explore the affordances of the Deblinder system and the applicability of failure reports in real-world settings. Lastly, we show how collecting additional data from the groups identified by developers can improve model performance.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479569
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479569
+ER  - 
+
+TY  - JOUR
+TI  - The Impact of Algorithmic Risk Assessments on Human Predictions and its Analysis via Crowdsourcing Studies
+AU  - Fogliato, Riccardo
+AU  - Chouldechova, Alexandra
+AU  - Lipton, Zachary
+PY  - 2021
+AB  - As algorithmic risk assessment instruments (RAIs) are increasingly adopted to assist decision makers, their predictive performance and potential to promote inequity have come under scrutiny. However, while most studies examine these tools in isolation, researchers have come to recognize that assessing their impact requires understanding the behavior of their human interactants. In this paper, building off of several recent crowdsourcing works focused on criminal justice, we conduct a vignette study in which laypersons are tasked with predicting future re-arrests. Our key findings are as follows: (1) Participants often predict that an offender will be rearrested even when they deem the likelihood of re-arrest to be well below 50\%; (2) Participants do not anchor on the RAI's predictions; (3) The time spent on the survey varies widely across participants and most cases are assessed in less than 10 seconds; (4) Judicial decisions, unlike participants' predictions, depend in part on factors that are orthogonal to the likelihood of re-arrest. These results highlight the influence of several crucial but often overlooked design decisions and concerns around generalizability when constructing crowdsourcing studies to analyze the impacts of RAI
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479572
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479572
+ER  - 
+
+TY  - JOUR
+TI  - Datasheets for Datasets help ML Engineers Notice and Understand Ethical Issues in Training Data
+AU  - Boyd, Karen L.
+PY  - 2021
+AB  - The social computing community has demonstrated interest in the ethical issues sometimes produced by machine learning (ML) models, like violations of privacy, fairness, and accountability. This paper discovers what kinds of ethical considerations machine learning engineers recognize, how they build understanding, and what decisions they make when working with a real-world dataset. In particular, it illustrates ways in which Datasheets for Datasets, an accountability intervention designed to help engineers explore unfamiliar training data, scaffolds the process of issue discovery, understanding, and ethical decision-making. Participants were asked to review an intentionally ethically problematic dataset and asked to think aloud as they used it to solve a given ML problem. Out of 23 participants, 11 were given a Datasheet they could use while completing the task. Participants were ethically sensitive enough to identify concerns in the dataset; participants who had a Datasheet did open and refer to it; and those with Datasheets mentioned ethical issues during the think-aloud earlier and more often than than those without. The think-aloud protocol offered a grounded description of how participants recognized, understood, and made a decision about ethical problems in an unfamiliar dataset. The method used in this study can test other interventions that claim to encourage recognition, promote understanding, and support decision-making among technologists.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479582
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479582
+ER  - 
+
+TY  - JOUR
+TI  - Bringing Friends into the Loop of Recommender Systems: An Exploratory Study
+AU  - Piao, Jinghua
+AU  - Zhang, Guozhen
+AU  - Xu, Fengli
+AU  - Chen, Zhilong
+AU  - Zheng, Yu
+AU  - Gao, Chen
+AU  - Li, Yong
+PY  - 2021
+AB  - The recommender system (RS), as a computer-supported information filtering system, is ubiquitous and influences what we eat, watch, or even like. In online RS, interactions between users and the system form a feedback loop: users take actions based on the recommendations provided by RS, and RS updates its recommendations accordingly. As such interactions increase, the issue of recommendation homogeneity intensifies, which significantly impairs user experience. In the face of this long-standing issue, the newly-emerging social e-commerce offers a new solution -- bringing friends' recommendations into the loop (friend-in-the-loop). In this paper, we conduct an exploratory study on the benefits of friend-in-the-loop through mixed methods on a leading social e-commerce platform in China, Beidian. We reveal that friend-in-the-loop provides users with more accurate and diverse recommendations than merely RS, and significantly alleviates algorithmic homogeneity. Moreover, our qualitative results demonstrate that the introduction of friends' external knowledge, consumers' trust, and empathy accounts for these benefits. Overall, we elaborate that friend-in-the-loop comprehensively benefits both users and RS, and it is a promising HCI-based solution to recommendation homogeneity, which offers insightful implications on designing future human-algorithm collaboration models.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479583
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479583
+ER  - 
+
+TY  - JOUR
+TI  - Quality Control in Crowdsourcing based on Fine-Grained Behavioral Features
+AU  - Pei, Weiping
+AU  - Yang, Zhiju
+AU  - Chen, Monchu
+AU  - Yue, Chuan
+PY  - 2021
+AB  - Crowdsourcing is popular for large-scale data collection and labeling, but a major challenge is on detecting low-quality submissions. Recent studies have demonstrated that behavioral features of workers are highly correlated with data quality and can be useful in quality control. However, these studies primarily leveraged coarsely extracted behavioral features, and did not further explore quality control at the fine-grained level, i.e., the annotation unit level. In this paper, we investigate the feasibility and benefits of using fine-grained behavioral features, which are the behavioral features finely extracted from a worker's individual interactions with each single unit in a subtask, for quality control in crowdsourcing. We design and implement a framework named Fine-grained Behavior-based Quality Control (FBQC) that specifically extracts fine-grained behavioral features to provide three quality control mechanisms: (1) quality prediction for objective tasks, (2) suspicious behavior detection for subjective tasks, and (3) unsupervised worker categorization. Using the FBQC framework, we conduct two real-world crowdsourcing experiments and demonstrate that using fine-grained behavioral features is feasible and beneficial in all three quality control mechanisms. Our work provides clues and implications for helping job requesters or crowdsourcing platforms to further achieve better quality control.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479586
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479586
+ER  - 
+
+TY  - JOUR
+TI  - The Design of Reciprocal Learning Between Human and Artificial Intelligence
+AU  - Zagalsky, Alexey
+AU  - Te'eni, Dov
+AU  - Yahav, Inbal
+AU  - Schwartz, David G.
+AU  - Silverman, Gahl
+AU  - Cohen, Daniel
+AU  - Mann, Yossi
+AU  - Lewinsky, Dafna
+PY  - 2021
+AB  - The need for advanced automation and artificial intelligence (AI) in various fields, including text classification, has dramatically increased in the last decade, leaving us critically dependent on their performance and reliability. Yet, as we increasingly rely more on AI applications, their algorithms are becoming more nuanced, more complex, and less understandable precisely at a time we need to understand them better and trust them to perform as expected. Text classification in the medical and cybersecurity domains is a good example of a task where we may wish to keep the human in the loop. Human experts lack the capacity to deal with the high volume and velocity of data that needs to be classified, and ML techniques are often unexplainable and lack the ability to capture the required context needed to make the right decision and take action. We propose a new abstract configuration of Human-Machine Learning (HML) that focuses on reciprocal learning, where the human and the AI are collaborating partners. We employ design-science research (DSR) to learn and design an application of the HML configuration, which incorporates software to support combining human and artificial intelligences. We define the HML configuration by its conceptual components and their function. We then describe the development of a system called Fusion that supports human-machine reciprocal learning. Using two case studies of text classification from the cyber domain, we evaluate Fusion and the proposed HML approach, demonstrating benefits and challenges. Our results show a clear ability of domain experts to improve the ML classification performance over time, while both human and machine, collaboratively, develop their conceptualization, i.e., their knowledge of classification. We generalize our insights from the DSR process as actionable principles for researchers and designers of 'human in the learning loop' systems. We conclude the paper by discussing HML configurations and the challenge of capturing and representing knowledge gained jointly by human and machine, an area we feel has great potential.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479587
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479587
+ER  - 
+
+TY  - JOUR
+TI  - Case Studies on the Motivation and Performance of Contributors Who Verify and Maintain In-Flux Tabular Datasets
+AU  - Wallace, Shaun
+AU  - Papoutsaki, Alexandra
+AU  - Tan, Neilly H.
+AU  - Guo, Hua
+AU  - Huang, Jeff
+PY  - 2021
+AB  - The life cycle of a peer-produced dataset follows the phases of growth, maturity, and decline. Paying crowdworkers is a proven method to collect and organize information into structured tables. However, these tabular representations may contain inaccuracies due to errors or data changing over time. Thus, the maturation phase of a dataset can benefit from the additional human examination. One method to improve accuracy is to recruit additional paid crowdworkers to verify and correct errors. An alternative method relies on unpaid contributors, collectively editing the dataset during regular use. We describe two case studies to examine different strategies for human verification and maintenance of in-flux tabular datasets. The first case study examines traditional micro-task verification strategies with paid crowdworkers, while the second examines long-term maintenance strategies with unpaid contributions from non-crowdworkers. Two paid verification strategies that produced more accurate corrections at a lower cost per accurate correction were redundant data collection followed by final verification from a trusted crowdworker and allowing crowdworkers to review any data freely. In the unpaid maintenance strategies, contributors provided more accurate corrections when asked to review data matching their interests. This research identifies considerations and future approaches to collectively improving information accuracy and longevity of tabular information.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479592
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479592
+ER  - 
+
+TY  - JOUR
+TI  - #TeamTrees: Investigating How YouTubers Participate in a Social Media Campaign
+AU  - Niu, Shuo
+AU  - Mai, Cat
+AU  - McKim, Katherine G.
+AU  - McCrickard, Scott
+PY  - 2021
+AB  - YouTube is not only a platform for content creators to share videos but also a virtual venue for hosting community activities, such as social media campaigns (SMCs). SMCs for public awareness is a growing and reoccurring phenomenon on YouTube, during which content creators make videos to engage their audience and raise awareness of global challenges. However, how the unique celebrity culture on YouTube affects collective actions is an underexplored area. This work examines an SMC on YouTube, #TeamTrees, initiated by a YouTube celebrity and sought to raise people's awareness of tree-planting and climate change. The authors annotated and analyzed 992 #TeamTrees videos to explore how YouTube celebrities, professionals, and amateurs in different channel topics diagnose problems, present solutions, and motivate actions. This study also looks into whether platform identities and framing activities affect campaign reach and engagement. Results suggest that #TeamTrees reached creators who are generally not active in social issues. The participating YouTubers were likely to motivate the viewers to donate and join celebrities' and community's actions, but less involved in examining the environmental problems. Celebrities' videos dominated the campaign's influence. Amateurs' videos had a higher engagement level, although they need more support to frame campaign activities. Based on these findings, we discuss design implications for video-sharing platforms to support future SMCs.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479593
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479593
+ER  - 
+
+TY  - JOUR
+TI  - Image Cropping on Twitter: Fairness Metrics, their Limitations, and the Importance of Representation, Design, and Agency
+AU  - Yee, Kyra
+AU  - Tantipongpipat, Uthaipon
+AU  - Mishra, Shubhanshu
+PY  - 2021
+AB  - Twitter uses machine learning to crop images, where crops are centered around the part predicted to be the most salient. In fall 2020, Twitter users raised concerns that the automated image cropping system on Twitter favored light-skinned over dark-skinned individuals, as well as concerns that the system favored cropping woman's bodies instead of their heads. In order to address these concerns, we conduct an extensive analysis using formalized group fairness metrics. We find systematic disparities in cropping and identify contributing factors, including the fact that the cropping based on the single most salient point can amplify the disparities because of an effect we term argmax bias. However, we demonstrate that formalized fairness metrics and quantitative analysis on their own are insufficient for capturing the risk of representational harm in automatic cropping. We suggest the removal of saliency-based cropping in favor of a solution that better preserves user agency. For developing a new solution that sufficiently address concerns related to representational harm, our critique motivates a combination of quantitative and qualitative methods that include human-centered design.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479594
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479594
+ER  - 
+
+TY  - JOUR
+TI  - Data Work in Education: Enacting and Negotiating Care and Control in Teachers' Use of Data-Driven Classroom Surveillance Technology
+AU  - Lu, Alex Jiahong
+AU  - Dillahunt, Tawanna R.
+AU  - Marcu, Gabriela
+AU  - Ackerman, Mark S.
+PY  - 2021
+AB  - Today, teachers have been increasingly relying on data-driven technologies to track and monitor student behavior data for classroom management. Drawing insights from interviews with 20 K--8 teachers, in this paper we unpack how teachers enacted both care and control through their data work in collecting, interpreting, and using student behavior data. In this process, teachers found themselves subject to surveilling gazes from parents, school administrators, and students. As a result, teachers had to manipulate the student behavior data to navigate the balance between presenting a professional image to surveillants and enacting care/control that they deemed appropriate. In this paper we locate two nuanced forms of teachers' data work that have been under-studied in CSCW: (1) data work as recontextualizing meanings and (2) data work as resisting surveillance. We discuss teachers' struggle over (in)visibility and their negotiation of autonomy and subjectivity in these two forms of data work. We highlight the importance of foregrounding and making space for informal data workers' (in our case, teachers') resistance and negotiation of autonomy in light of datafication.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479596
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479596
+ER  - 
+
+TY  - JOUR
+TI  - Co-Designing Personal Health? Multidisciplinary Benefits and Challenges in Informing Diabetes Self-Care Technologies
+AU  - Ayobi, Amid
+AU  - Stawarz, Katarzyna
+AU  - Katz, Dmitri
+AU  - Marshall, Paul
+AU  - Yamagata, Taku
+AU  - Santos-Rodriguez, Raul
+AU  - Flach, Peter
+AU  - O'Kane, Aisling Ann
+PY  - 2021
+AB  - Co-design is a widely applied design process with well-documented values, including mutual learning and collective creativity. However, the real-world challenges of conducting multidisciplinary co-design research to inform the design of self-care technologies are not well established. We provide a qualitative account of a multidisciplinary project that aimed to co-design machine learning applications for Type 1 Diabetes (T1D) self-management. Through interviews, we identify not only perceived social, technological and strategic benefits of co-design but also organisational, translational and pragmatic design challenges: participants with T1D experienced difficulties in co-designing systems that met their individual self-care needs as part of group activities; HCI and AI researchers described challenges resulting from applying co-design outcomes to data-driven ML work; and industry collaborators highlighted academic data sharing regulations as cross-organisational challenges that can impede co-design efforts. Based on this understanding, we discuss opportunities for supporting multidisciplinary collaborations and aligning individual health needs with collaborative co-design activities.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479601
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479601
+ER  - 
+
+TY  - JOUR
+TI  - Dr.Aid: Supporting Data-governance Rule Compliance for Decentralized Collaboration in an Automated Way
+AU  - Zhao, Rui
+AU  - Atkinson, Malcolm
+AU  - Papapanagiotou, Petros
+AU  - Magnoni, Federica
+AU  - Fleuriot, Jacques
+PY  - 2021
+AB  - Collaboration across institutional boundaries is widespread and increasing today. It depends on federations sharing data that often have governance rules or external regulations restricting their use. However, the handling of data governance rules (aka. data-use policies) remains manual, time-consuming and error-prone, limiting the rate at which collaborations can form and respond to challenges and opportunities, inhibiting citizen science and reducing data providers' trust in compliance. Using an automated system to facilitate compliance handling reduces substantially the time needed for such non-mission work, thereby accelerating collaboration and improving productivity. We present a framework, Dr.Aid, that helps individuals, organisations and federations comply with data rules, using automation to track which rules are applicable as data is passed between processes and as derived data is generated. It encodes data-governance rules using a formal language and performs reasoning on multi-input-multi-output data-flow graphs in decentralised contexts. We test its power and utility by working with users performing cyclone tracking and earthquake modelling to support mitigation and emergency response. We query standard provenance traces to detach Dr.Aid from details of the tools and systems they are using, as these inevitably vary across members of a federation and through time. We evaluate the model in three aspects by encoding real-life data-use policies from diverse fields, showing its capability for real-world usage and its advantages compared with traditional frameworks. We argue that this approach will lead to more agile, more productive and more trustworthy collaborations and show that the approach can be adopted incrementally. This, in-turn, will allow more appropriate data policies to emerge opening up new forms of collaboration.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479604
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479604
+ER  - 
+
+TY  - JOUR
+TI  - A Human-Centered Systematic Literature Review of the Computational Approaches for Online Sexual Risk Detection
+AU  - Razi, Afsaneh
+AU  - Kim, Seunghyun
+AU  - Alsoubai, Ashwaq
+AU  - Stringhini, Gianluca
+AU  - Solorio, Thamar
+AU  - De Choudhury, Munmun
+AU  - Wisniewski, Pamela J.
+PY  - 2021
+AB  - In the era of big data and artificial intelligence, online risk detection has become a popular research topic. From detecting online harassment to the sexual predation of youth, the state-of-the-art in computational risk detection has the potential to protect particularly vulnerable populations from online victimization. Yet, this is a high-risk, high-reward endeavor that requires a systematic and human-centered approach to synthesize disparate bodies of research across different application domains, so that we can identify best practices, potential gaps, and set a strategic research agenda for leveraging these approaches in a way that betters society. Therefore, we conducted a comprehensive literature review to analyze 73 peer-reviewed articles on computational approaches utilizing text or meta-data/multimedia for online sexual risk detection. We identified sexual grooming (75\%), sex trafficking (12\%), and sexual harassment and/or abuse (12\%) as the three types of sexual risk detection present in the extant literature. Furthermore, we found that the majority (93\%) of this work has focused on identifying sexual predators after-the-fact, rather than taking more nuanced approaches to identify potential victims and problematic patterns that could be used to prevent victimization before it occurs. Many studies rely on public datasets (82\%) and third-party annotators (33\%) to establish ground truth and train their algorithms. Finally, the majority of this work (78\%) mostly focused on algorithmic performance evaluation of their model and rarely (4\%) evaluate these systems with real users. Thus, we urge computational risk detection researchers to integrate more human-centered approaches to both developing and evaluating sexual risk detection algorithms to ensure the broader societal impacts of this important work.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479609
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479609
+ER  - 
+
+TY  - JOUR
+TI  - Disproportionate Removals and Differing Content Moderation Experiences for Conservative, Transgender, and Black Social Media Users: Marginalization and Moderation Gray Areas
+AU  - Haimson, Oliver L.
+AU  - Delmonaco, Daniel
+AU  - Nie, Peipei
+AU  - Wegner, Andrea
+PY  - 2021
+AB  - Social media sites use content moderation to attempt to cultivate safe spaces with accurate information for their users. However, content moderation decisions may not be applied equally for all types of users, and may lead to disproportionate censorship related to people's genders, races, or political orientations. We conducted a mixed methods study involving qualitative and quantitative analysis of survey data to understand which types of social media users have content and accounts removed more frequently than others, what types of content and accounts are removed, and how content removed may differ between groups. We found that three groups of social media users in our dataset experienced content and account removals more often than others: political conservatives, transgender people, and Black people. However, the types of content removed from each group varied substantially. Conservative participants' removed content included content that was offensive or allegedly so, misinformation, Covid-related, adult, or hate speech. Transgender participants' content was often removed as adult despite following site guidelines, critical of a dominant group (e.g., men, white people), or specifically related to transgender or queer issues. Black participants' removed content was frequently related to racial justice or racism. More broadly, conservative participants' removals often involved harmful content removed according to site guidelines to create safe spaces with accurate information, while transgender and Black participants' removals often involved content related to expressing their marginalized identities that was removed despite following site policies or fell into content moderation gray areas. We discuss potential ways forward to make content moderation more equitable for marginalized social media users, such as embracing and designing specifically for content moderation gray areas.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479610
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479610
+ER  - 
+
+TY  - JOUR
+TI  - Putting Tools in Their Place: The Role of Time and Perspective in Human-AI Collaboration for Qualitative Analysis
+AU  - Feuston, Jessica L.
+AU  - Brubaker, Jed R.
+PY  - 2021
+AB  - Large datasets or 'big data' corpora are typically the domain of quantitative scholars, who work with computational tools to derive numerical and descriptive insights. However, recent work asks how computational tools and other technologies, such as AI, can support qualitative scholars in developing deep and complex insights from large amounts of data. Addressing this question, Jiang et al. found that qualitative scholars are generally opposed to incorporating AI in their practices of data analysis. In this paper, we provide nuance to these earlier findings, showing that the stage of qualitative analysis matters for how scholars believe AI can and should be used. Through interviews with 15 CSCW and HCI qualitative researchers, we explore how AI can be included throughout different stages of qualitative analysis. We find that qualitative scholars are amenable to working with AI in diverse ways, such as for data exploration and coding, as long as it assists rather than automates their analytic work practice. Based on our analysis, we discuss how incorporating AI into qualitative research can shift some analytic practices, and how designing for human-AI collaboration in qualitative analysis necessitates considering tradeoffs in scale, abstraction, and task delegation.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479856
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479856
+ER  - 
+
+TY  - JOUR
+TI  - ChamberBreaker: Mitigating the Echo Chamber Effect and Supporting Information Hygiene through a Gamified Inoculation System
+AU  - Jeon, Youngseung
+AU  - Kim, Bogoan
+AU  - Xiong, Aiping
+AU  - LEE, DONGWON
+AU  - Han, Kyungsik
+PY  - 2021
+AB  - Because of the increasingly negative impacts of the echo chamber effect, such as the dissemination of fake news and political polarization occurring in social networking services (SNSs), considerable efforts are being made to mitigate this effect. Prior HCI studies have presented the development of user interfaces to display information that reflects various standpoints, with the aim of nudging people to consume information in a more objective fashion. However, these efforts still lack the ability to highlight the characteristics, generation processes, and negative effects of echo chambers, so they may not be effective in helping people become sufficiently aware of the echo chamber effect and those who are already in an echo chamber. In this paper, we present ChamberBreaker (CB), which has been designed to help increase a player's awareness of and preemptively respond to an echo chamber effect based on psychological concepts: inoculation, heuristics for judging, and gamification. Through a user study with 882 participants (control group: 446, experimental group: 436), we demonstrated the feasibility of our game-based methodology to support the awareness of the echo chamber effect and the importance of maintaining diverse perspectives when consuming information. Our findings highlight the externalization of psychological standpoints in mitigating an echo chamber effect and suggest design implications for system development---the consideration of demographics, playing time, and the connection to fake news recognition---for digital literacy education. You can play CB at http://tiny.cc/chamberbreaker (The game only works with Chrome.)
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479859
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479859
+ER  - 
+
+TY  - JOUR
+TI  - The UX Factor: Using Comparative Peer Review to Evaluate Designs through User Preferences
+AU  - Bawabe, Sarah
+AU  - Wilson, Laura
+AU  - Zhou, Tongyu
+AU  - Marks, Ezra
+AU  - Huang, Jeff
+PY  - 2021
+AB  - Peer review has been used in both online and offline classrooms to inspire creativity, gather feedback, and lessen instructor grading loads, especially for design-based tasks without definitive rubrics. To explore the nuances and quality of peer feedback, we developed UX Factor, a peer grading platform that aims to characterize the behavior of peer reviews and the consistency of the ranking models used to aggregate these reviews. This system harnesses the power of pairwise comparisons to minimize bias and encourage context-driven analysis. We adopted UX Factor in a user interface course of 133 students and teaching assistants (TAs) across 3 different individual design projects over a semester and found that the system was effective in eliciting high-quality feedback. We saw that raters have higher agreement than random preferences, and with at least 15 ratings per submission, a simple average of ratings produced rankings that were consistent to both the raw ratings and other more complex models. These rankings were robust to disagreeable raters and changing class sizes, demonstrating the potential of comparative peer review to match the quality of expert feedback at scale.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479863
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479863
+ER  - 
+
+TY  - JOUR
+TI  - Understanding Driver-Passenger Interactions in Vehicular Crowdsensing
+AU  - Agarwal, Dhruv
+AU  - Agarwal, Srishti
+AU  - Singh, Vidur
+AU  - Kochupillai, Rohita
+AU  - Pierce-Messick, Rosemary
+AU  - Iyengar, Srinivasan
+AU  - Jain, Mohit
+PY  - 2021
+AB  - Smart city projects collect data on urban environments to identify problems, inform policymaking, and boost citizen engagement. Typically, this data is collected by static sensors placed around the city, which is not ideal for spatiotemporal needs of certain sensing applications such as air quality monitoring. Vehicular crowdsensing is an upcoming approach that addresses this problem by utilizing vehicles' mobility to collect fine-grained city-scale data. Prior work has mainly focused on designing vehicular crowdsensing systems and related components, including incentive schemes, vehicle selection, and application-specific sensing, without understanding the motivations and challenges faced by drivers and passengers, one of the two key stakeholders of any vehicular crowdsensing solution. Our work aims to fill this gap. To understand drivers' and passengers' perspectives, we developed Turn2Earn, a generic vehicular crowdsensing system that incentivizes drivers to take specific routes for data collection. Turn2Earn system was deployed with 13 auto-rickshaw drivers for two weeks in Bangalore, India. Our drivers took 709 trips using Turn2Earn covering 79.2\% of the city's grid cells. Interviews with 13 drivers and 15 passengers revealed innovative information-based strategies adopted by the drivers to convince passengers in taking alternative routes, and passengers' altruism in supporting the drivers. We uncovered novel insights, including viability of offered routes due to road closure, issues with electric vehicles, and selection bias among the drivers. We conclude with design recommendations to inform the future of vehicular crowdsensing, including engaging and incentivizing passengers, and criticality-based reward structure.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3479869
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3479869
+ER  - 
+

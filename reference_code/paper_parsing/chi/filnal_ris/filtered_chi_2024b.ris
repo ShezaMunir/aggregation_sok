@@ -1,0 +1,436 @@
+TY  - CONF
+TI  - CRTypist: Simulating Touchscreen Typing Behavior via Computational Rationality
+AU  - Shi, Danqing
+AU  - Zhu, Yujun
+AU  - Jokinen, Jussi P. P.
+AU  - Acharya, Aditya
+AU  - Putkonen, Aini
+AU  - Zhai, Shumin
+AU  - Oulasvirta, Antti
+PY  - 2024
+AB  - Touchscreen typing requires coordinating the fingers and visual attention for button-pressing, proofreading, and error correction. Computational models need to account for the associated fast pace, coordination issues, and closed-loop nature of this control problem, which is further complicated by the immense variety of keyboards and users. The paper introduces CRTypist, which generates human-like typing behavior. Its key feature is a reformulation of the supervisory control problem, with the visual attention and motor system being controlled with reference to a working memory representation tracking the text typed thus far. Movement policy is assumed to asymptotically approach optimal performance in line with cognitive and design-related bounds. This flexible model works directly from pixels, without requiring hand-crafted feature engineering for keyboards. It aligns with human data in terms of movements and performance, covers individual differences, and can generalize to diverse keyboard designs. Though limited to skilled typists, the model generates useful estimates of the typing performance achievable under various conditions.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642918
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642918
+ER  - 
+
+TY  - CONF
+TI  - WheelPose: Data Synthesis Techniques to Improve Pose Estimation Performance on Wheelchair Users
+AU  - Huang, William
+AU  - Ghahremani, Sam
+AU  - Pei, Siyou
+AU  - Zhang, Yang
+PY  - 2024
+AB  - Existing pose estimation models perform poorly on wheelchair users due to a lack of representation in training data. We present a data synthesis pipeline to address this disparity in data collection and subsequently improve pose estimation performance for wheelchair users. Our configurable pipeline generates synthetic data of wheelchair users using motion capture data and motion generation outputs simulated in the Unity game engine. We validated our pipeline by conducting a human evaluation, investigating perceived realism, diversity, and an AI performance evaluation on a set of synthetic datasets from our pipeline that synthesized different backgrounds, models, and postures. We found our generated datasets were perceived as realistic by human evaluators, had more diversity than existing image datasets, and had improved person detection and pose estimation performance when fine-tuned on existing pose estimation models. Through this work, we hope to create a foothold for future efforts in tackling the inclusiveness of AI in a data-centric and human-centric manner with the data synthesis techniques demonstrated in this work. Finally, for future works to extend upon, we open source all code in this research and provide a fully configurable Unity Environment used to generate our datasets. In the case of any models we are unable to share due to redistribution and licensing policies, we provide detailed instructions on how to source and replace said models. All materials can be found at https://github.com/hilab-open-source/wheelpose.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642555
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642555
+ER  - 
+
+TY  - CONF
+TI  - iPose: Interactive Human Pose Reconstruction from Video
+AU  - Liu, Jingyuan
+AU  - Wei, Li-Yi
+AU  - Shamir, Ariel
+AU  - Igarashi, Takeo
+PY  - 2024
+AB  - Reconstructing 3D human poses from video has wide applications, such as character animation and sports analysis. Automatic 3D pose reconstruction methods have demonstrated promising results, but failure cases can still appear due to the diversity of human actions, capturing conditions, and depth ambiguities. Thus, manual intervention remains indispensable, which can be time-consuming and require professional skills. We thus present iPose, an interactive tool that facilitates intuitive human pose reconstruction from a given video. Our tool incorporates both human perception in specifying pose appearance to achieve controllability, and video frame processing algorithms to achieve precision and automation. A user manipulates the projection of a 3D pose via 2D operations on top of video frames, and the 3D poses are updated correspondingly while satisfying both kinematic and video frame constraints. The pose updates are propagated temporally to reduce user workload. We evaluate the effectiveness of iPose with a user study on the 3DPW dataset and expert interviews.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3641944
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3641944
+ER  - 
+
+TY  - CONF
+TI  - Uncovering Human Traits in Determining Real and Spoofed Audio: Insights from Blind and Sighted Individuals
+AU  - Han, Chaeeun
+AU  - Mitra, Prasenjit
+AU  - Billah, Syed Masum
+PY  - 2024
+AB  - This paper explores how blind and sighted individuals perceive real and spoofed audio, highlighting differences and similarities between the groups. Through two studies, we find that both groups focus on specific human traits in audio–such as accents, vocal inflections, breathing patterns, and emotions–to assess audio authenticity. We further reveal that humans, irrespective of visual ability, can still outperform current state-of-the-art machine learning models in discerning audio authenticity; however, the task proves psychologically demanding. Moreover, detection accuracy scores between blind and sighted individuals are comparable, but each group exhibits unique strengths: the sighted group excels at detecting deepfake-generated audio, while the blind group excels at detecting text-to-speech (TTS) generated audio. These findings not only deepen our understanding of machine-manipulated and neural-renderer audio but also have implications for developing countermeasures, such as perceptible watermarks and human-AI collaboration strategies for spoofing detection.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642817
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642817
+ER  - 
+
+TY  - CONF
+TI  - Predicting the Noticeability of Dynamic Virtual Elements in Virtual Reality
+AU  - Li, Zhipeng
+AU  - Cheng, Yi Fei
+AU  - Yan, Yukang
+AU  - Lindlbauer, David
+PY  - 2024
+AB  - While Virtual Reality (VR) systems can present virtual elements such as notifications anywhere, designing them so they are not missed by or distracting to users is highly challenging for content creators. To address this challenge, we introduce a novel approach to predict the noticeability of virtual elements. It computes the visual saliency distribution of what users see, and analyzes the temporal changes of the distribution with respect to the dynamic virtual elements that are animated. The computed features serve as input for a long short-term memory (LSTM) model that predicts whether a virtual element will be noticed. Our approach is based on data collected from 24 users in different VR environments performing tasks such as watching a video or typing. We evaluate our approach (n = 12), and show that it can predict the timing of when users notice a change to a virtual element within 2.56 sec compared to a ground truth, and demonstrate the versatility of our approach with a set of applications. We believe that our predictive approach opens the path for computational design tools that assist VR content creators in creating interfaces that automatically adapt virtual elements based on noticeability.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642399
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642399
+ER  - 
+
+TY  - CONF
+TI  - A Systematic Review of Ability-diverse Collaboration through Ability-based Lens in HCI
+AU  - Xiao, Lan
+AU  - Bandukda, Maryam
+AU  - Angerbauer, Katrin
+AU  - Lin, Weiyue
+AU  - Bhatnagar, Tigmanshu
+AU  - Sedlmair, Michael
+AU  - Holloway, Catherine
+PY  - 2024
+AB  - In a world where diversity is increasingly recognised and celebrated, it is important for HCI to embrace the evolving methods and theories for technologies to reflect the diversity of its users and be ability-centric. Interdependence Theory, an example of this evolution, highlights the interpersonal relationships between humans and technologies and how technologies should be designed to meet shared goals and outcomes for people, regardless of their abilities. This necessitates a contemporary understanding of "ability-diverse collaboration," which motivated this review. In this review, we offer an analysis of 117 papers sourced from the ACM Digital Library spanning the last two decades. We contribute (1) a unified taxonomy and the Ability-Diverse Collaboration Framework, (2) a reflective discussion and mapping of the current design space, and (3) future research opportunities and challenges. Finally, we have released our data and analysis tool to encourage the HCI research community to contribute to this ongoing effort.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3641930
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3641930
+ER  - 
+
+TY  - CONF
+TI  - AccessLens: Auto-detecting Inaccessibility of Everyday Objects
+AU  - Kwon, Nahyun
+AU  - Lu, Qian
+AU  - Qazi, Muhammad Hasham
+AU  - Liu, Joanne
+AU  - Oh, Changhoon
+AU  - Kong, Shu
+AU  - Kim, Jeeeun
+PY  - 2024
+AB  - In our increasingly diverse society, everyday physical interfaces often present barriers, impacting individuals across various contexts. This oversight, from small cabinet knobs to identical wall switches that can pose different contextual challenges, highlights an imperative need for solutions. Leveraging low-cost 3D-printed augmentations such as knob magnifiers and tactile labels seems promising, yet the process of discovering unrecognized barriers remains challenging because disability is context-dependent. We introduce AccessLens, an end-to-end system designed to identify inaccessible interfaces in daily objects, and recommend 3D-printable augmentations for accessibility enhancement. Our approach involves training a detector using the novel AccessDB dataset designed to automatically recognize 21 distinct Inaccessibility Classes (e.g., bar-small and round-rotate) within 6 common object categories (e.g., handle and knob). AccessMeta serves as a robust way to build a comprehensive dictionary linking these accessibility classes to open-source 3D augmentation designs. Experiments demonstrate our detector’s performance in detecting inaccessible objects.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642767
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642767
+ER  - 
+
+TY  - CONF
+TI  - “I never realized sidewalks were a big deal”: A Case Study of a Community-Driven Sidewalk Accessibility Assessment using Project Sidewalk
+AU  - Li, Chu
+AU  - Ma, Katrina Oi Yau
+AU  - Saugstad, Michael
+AU  - Fujii, Kie
+AU  - Delaney, Molly
+AU  - Eisenberg, Yochai
+AU  - Labb\'{e}, Delphine
+AU  - Shanley, Judy L
+AU  - Snyder, Devon
+AU  - Thomas, Florian P P
+AU  - Froehlich, Jon E.
+PY  - 2024
+AB  - Despite decades of effort, pedestrian infrastructure in cities continues to be unsafe or inaccessible to people with disabilities. In this paper, we examine the potential of community-driven digital civics to assess sidewalk accessibility through a deployment study of an open-source crowdsourcing tool called Project Sidewalk. We explore Project Sidewalk’s potential as a platform for civic learning and service. Specifically, we assess its effectiveness as a tool for community members to learn about human mobility, urban planning, and accessibility advocacy. Our findings demonstrate that community-driven digital civics can support accessibility advocacy and education, raise community awareness, and drive pro-social behavioral change. We also outline key considerations for deploying digital civic tools in future community-led accessibility initiatives.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642003
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642003
+ER  - 
+
+TY  - CONF
+TI  - Farsight: Fostering Responsible AI Awareness During AI Application Prototyping
+AU  - Wang, Zijie J.
+AU  - Kulkarni, Chinmay
+AU  - Wilcox, Lauren
+AU  - Terry, Michael
+AU  - Madaio, Michael
+PY  - 2024
+AB  - Prompt-based interfaces for Large Language Models (LLMs) have made prototyping and building AI-powered applications easier than ever before. However, identifying potential harms that may arise from AI applications remains a challenge, particularly during prompt-based prototyping. To address this, we present Farsight, a novel in situ interactive tool that helps people identify potential harms from the AI applications they are prototyping. Based on a user’s prompt, Farsight highlights news articles about relevant AI incidents and allows users to explore and edit LLM-generated use cases, stakeholders, and harms. We report design insights from a co-design study with 10 AI prototypers and findings from a user study with 42 AI prototypers. After using Farsight, AI prototypers in our user study are better able to independently identify potential harms associated with a prompt and find our tool more useful and usable than existing resources. Their qualitative feedback also highlights that Farsight encourages them to focus on end-users and think beyond immediate harms. We discuss these findings and reflect on their implications for designing AI prototyping experiences that meaningfully engage with AI harms. Farsight is publicly accessible at: https://pair-code.github.io/farsight.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642335
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642335
+ER  - 
+
+TY  - CONF
+TI  - Graph4GUI: Graph Neural Networks for Representing Graphical User Interfaces
+AU  - Jiang, Yue
+AU  - Zhou, Changkong
+AU  - Garg, Vikas
+AU  - Oulasvirta, Antti
+PY  - 2024
+AB  - Present-day graphical user interfaces (GUIs) exhibit diverse arrangements of text, graphics, and interactive elements such as buttons and menus, but representations of GUIs have not kept up. They do not encapsulate both semantic and visuo-spatial relationships among elements. To seize machine learning’s potential for GUIs more efficiently, Graph4GUI&nbsp; exploits graph neural networks to capture individual elements’ properties and their semantic—visuo-spatial constraints in a layout. The learned representation demonstrated its effectiveness in multiple tasks, especially generating designs in a challenging GUI autocompletion task, which involved predicting the positions of remaining unplaced elements in a partially completed GUI. The new model’s suggestions showed alignment and visual appeal superior to the baseline method and received higher subjective ratings for preference. Furthermore, we demonstrate the practical benefits and efficiency advantages designers perceive when utilizing our model as an autocompletion plug-in.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642822
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642822
+ER  - 
+
+TY  - CONF
+TI  - Integrating Expertise in LLMs: Crafting a Customized Nutrition Assistant with Refined Template Instructions
+AU  - Szymanski, Annalisa
+AU  - Wimer, Brianna L
+AU  - Anuyah, Oghenemaro
+AU  - Eicher-Miller, Heather A
+AU  - Metoyer, Ronald A
+PY  - 2024
+AB  - Large Language Models (LLMs) have the potential to contribute to the fields of nutrition and dietetics in generating food product explanations that facilitate informed food selections. However, the extent to which these models offer effective and accurate information remains unverified. In collaboration with registered dietitians (RDs), we evaluate the strengths and weaknesses of LLMs in providing accurate and personalized nutrition information. Through a mixed-methods approach, RDs validated GPT-4 outputs at various levels of prompt specificity, which led to the development of design guidelines used to prompt LLMs for nutrition information. We tested these guidelines by creating a GPT prototype, The Food Product Nutrition Assistant, tailored for food product explanations. This prototype was refined and evaluated in focus groups with RDs. We find that the implementation of these dietitian-reviewed template instructions enhance the generation of detailed food product descriptions and tailored nutrition information.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3641924
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3641924
+ER  - 
+
+TY  - CONF
+TI  - Exploring an Extended Reality Floatation Tank Experience to Reduce the Fear of Being in Water
+AU  - Montoya, Maria F.
+AU  - Qiao, Hannah
+AU  - Sasikumar, Prasanth
+AU  - Elvitigala, Don Samitha
+AU  - Pell, Sarah Jane
+AU  - Nanayakkara, Suranga
+AU  - Mueller, Florian ‘Floyd’
+PY  - 2024
+AB  - People with a fear of being in water rarely engage in water activities and hence miss out on the associated health benefits. Prior research suggested virtual exposure to treat fears. However, when it comes to a fear of being in water, virtual water might not capture water’s immersive qualities, while real water can pose safety risks. We propose extended reality to combine both advantages: We conducted a study (N=12) where participants with a fear of being in water interacted with playful water-inspired virtual reality worlds while floating inside a floatation tank. Our findings, supported quantitatively by heart rate variability and qualitatively by interviews, suggest that playful extended reality could mitigate fear responses in an entertaining way. We also present insights for the design of future systems that aim to help people with a fear of being in water and other phobias by using the best of the virtual and physical worlds.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642285
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642285
+ER  - 
+
+TY  - CONF
+TI  - Dancing with the Roles: Towards Designing Technology that Supports the Multifaceted Roles of Caregivers for Older Adults
+AU  - Hsu, Long-Jing
+AU  - Chung, Chia-Fang
+PY  - 2024
+AB  - Caregivers of older adults often undertake their caregiving journey driven by filial obligation, facing inherent expectations and multifaceted roles. While Human-Computer Interaction (HCI) research has explored these roles, some invisible work in managing them remains under-examined. To address this gap, we interviewed 19 informal caregivers of older adults to uncover their invisible work and the potential role of technology in supporting these complex responsibilities. Our findings detail the caregivers’ lived experiences, highlighting the challenges and strategies they employ in managing multiple roles. We discuss design opportunities that include facilitating the identification and reflection on existing roles, leveraging this understanding for coordination, aiding in role-based scheduling with acknowledgment, and providing support for the dynamic roles transitioning between various responsibilities. These insights could inform future caregiving technology design, enhancing support for caregivers in their multifaceted roles.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642728
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642728
+ER  - 
+
+TY  - CONF
+TI  - How Do Data Analysts Respond to AI Assistance? A Wizard-of-Oz Study
+AU  - Gu, Ken
+AU  - Grunde-McLaughlin, Madeleine
+AU  - McNutt, Andrew
+AU  - Heer, Jeffrey
+AU  - Althoff, Tim
+PY  - 2024
+AB  - Data analysis is challenging as analysts must navigate nuanced decisions that may yield divergent conclusions. AI assistants have the potential to support analysts in planning their analyses, enabling more robust decision making. Though AI-based assistants that target code execution (e.g., Github Copilot) have received significant attention, limited research addresses assistance for both analysis execution and planning. In this work, we characterize helpful planning suggestions and their impacts on analysts’ workflows. We first review the analysis planning literature and crowd-sourced analysis studies to categorize suggestion content. We then conduct a Wizard-of-Oz study (n=13) to observe analysts’ preferences and reactions to planning assistance in a realistic scenario. Our findings highlight subtleties in contextual factors that impact suggestion helpfulness, emphasizing design implications for supporting different abstractions of assistance, forms of initiative, increased engagement, and alignment of goals between analysts and assistants.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3641891
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3641891
+ER  - 
+
+TY  - CONF
+TI  - The Role of Inclusion, Control, and Ownership in Workplace AI-Mediated Communication
+AU  - Kadoma, Kowe
+AU  - Aubin Le Quere, Marianne
+AU  - Fu, Xiyu Jenny
+AU  - Munsch, Christin
+AU  - Metaxa, Dana\"{e}
+AU  - Naaman, Mor
+PY  - 2024
+AB  - Given large language models’ (LLMs) increasing integration into workplace software, it is important to examine how biases in the models may impact workers. For example, stylistic biases in the language suggested by LLMs may cause feelings of alienation and result in increased labor for individuals or groups whose style does not match. We examine how such writer-style bias impacts inclusion, control, and ownership over the work when co-writing with LLMs. In an online experiment, participants wrote hypothetical job promotion requests using either hesitant or self-assured auto-complete suggestions from an LLM and reported their subsequent perceptions. We found that the style of the AI model did not impact perceived inclusion. However, individuals with higher perceived inclusion did perceive greater agency and ownership, an effect more strongly impacting participants of minoritized genders. Feelings of inclusion mitigated a loss of control and agency when accepting more AI suggestions.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642650
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642650
+ER  - 
+
+TY  - CONF
+TI  - Analysis and Implementation of Nanotargeting on LinkedIn Based on Publicly Available Non-PII
+AU  - Merino, \'{A}ngel
+AU  - Gonz\'{a}lez-Caba\~{n}as, Jos\'{e}
+AU  - Cuevas, \'{A}ngel
+AU  - Cuevas, Rub\'{e}n
+PY  - 2024
+AB  - The literature has shown that combining a few non-Personal Identifiable Information (non-PII) is enough to make a user unique in a dataset including millions of users. This work demonstrates that a combination of a few non-PII items can be activated to nanotarget users. We demonstrate that the combination of the location and 5 rare (13 random) skills in a LinkedIn profile is enough to become unique in a user base of ∼ 970M users with a probability of 75\%. The novelty is that these attributes are publicly accessible to anyone registered on LinkedIn and can be activated through advertising campaigns. We ran an experiment configuring ad campaigns using the location and skills of three of the paper’s authors, demonstrating how all the ads using ≥ 13 skills were delivered exclusively to the targeted user. We reported this vulnerability to LinkedIn, which initially ignored the problem, but fixed it as of November 2023.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642107
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642107
+ER  - 
+
+TY  - CONF
+TI  - ChunkyEdit: Text-first video interview editing via chunking
+AU  - Leake, Mackenzie
+AU  - Li, Wilmot
+PY  - 2024
+AB  - The early stages of video editing present many cognitively demanding tasks that require editors to remember and structure large amounts of video. In our formative work we learned that editors break down the editing process into smaller parts by labeling and organizing footage around central themes. Using current video editing tools, this process is slow and largely manual. We present a system called ChunkyEdit for helping editors group video interview clips into thematically coherent chunks, which can then be exported to existing video editing tools and composed into an edited narrative. By focusing on this intermediate step, we leverage computation to do tedious organizational tasks, while preserving the editor’s ability to control the primary storytelling decisions. We explore four different topic modeling approaches to creating video chunks. We then evaluate our tool with eight professional video editors to learn how a chunking-based approach could be incorporated into video editing workflows.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642667
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642667
+ER  - 
+
+TY  - CONF
+TI  - The Hidden Toll of Instant Messaging Use in Remote Work: Interaction Dynamics Between Subordinates and Supervisors
+AU  - Lee, Chia Hsin (Josette)
+AU  - Yuan, Chien Wen (Tina)
+PY  - 2024
+AB  - The research centers on examining the utilization of instant messaging (IM) in remote work interactions between supervisors and subordinates. Through a series of one-on-one in-depth interviews (n = 12), our findings unveil distinct nuances in how subordinates and supervisors perceive and engage with IM, encompassing aspects such as response strategies, interaction frequency, and interaction nature. Notably, a significant finding emerged concerning the practice of self-censorship in IM, acting as a strategy for impression management, predominantly adopted by subordinates in their interactions with supervisors. Additionally, our investigation sheds light on a contrasting viewpoint regarding the social use of IM. While supervisor participants acknowledged its potential to bolster work-related collaboration, this perspective appeared less pronounced among subordinate participants. Our study concludes by delving into the design implications for IM application design, offering insights that can shape collaborative dynamics within remote work environments.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642913
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642913
+ER  - 
+
+TY  - CONF
+TI  - Circle Back Next Week: The Effect of Meeting-Free Weeks on Distributed Workers’ Unstructured Time and Attention Negotiation
+AU  - Ferguson, Sharon A
+AU  - Massimi, Michael
+PY  - 2024
+AB  - While distributed workers rely on scheduled meetings for coordination and collaboration, these meetings can also challenge their ability to focus. Protecting worker focus has been addressed from a technical perspective, but companies are now attempting organizational interventions, such as meeting-free weeks. Recognizing distributed collaboration as a sociotechnical challenge, we first present an interview study with distributed workers participating in meeting-free weeks at an enterprise software company. We identify three orientations workers exhibit during these weeks: Focus, Collaborative, and Time-Bound, each with varying levels and use of unstructured time. These different orientations result in challenges in attention negotiation, which may be suited for technical interventions. This motivated a follow-up study investigating attention negotiation and the compensating mechanisms workers developed during meeting-free weeks. Our framework identified tensions between the attention-getting and attention-delegation strategies. We extend past work to show how workers adapt their virtual collaboration mechanisms in response to organizational interventions.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642175
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642175
+ER  - 
+
+TY  - CONF
+TI  - Mental Models of Meeting Goals: Supporting Intentionality in Meeting Technologies
+AU  - Scott, Ava Elizabeth
+AU  - Tankelevitch, Lev
+AU  - Rintel, Sean
+PY  - 2024
+AB  - Ineffective meetings due to unclear goals are major obstacles to productivity, yet support for intentionality is surprisingly scant in our meeting and allied workflow technologies. To design for intentionality, we need to understand workers’ attitudes and practices around goals. We interviewed 21 employees of a global technology company and identified contrasting mental models of meeting goals: meetings as a means to an end, and meetings as an end in themselves. We explore how these mental models impact how meeting goals arise, goal prioritization, obstacles to considering goals, and how lack of alignment around goals may create tension between organizers and attendees. We highlight the challenges in balancing preparation, constraining scope, and clear outcomes, with the need for intentional adaptability and discovery in meetings. Our findings have implications for designing systems which increase effectiveness in meetings by catalyzing intentionality and reducing tension in the organisation of meetings.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642670
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642670
+ER  - 
+
+TY  - CONF
+TI  - The Impact of Social Norms on Hybrid Workers’ Well-Being: A Cross-Cultural Comparison of Japan and the United States
+AU  - Akahori, Wataru
+AU  - Yamashita, Naomi
+AU  - Jamieson, Jack
+AU  - Nakatani, Momoko
+AU  - Hashimoto, Ryo
+AU  - Watanabe, Masahiro
+PY  - 2024
+AB  - Previous research has shown that workplace social norms influence employee well-being. However, such norms vary based on the cultures in which workplaces are embedded, suggesting that cultural differences may influence perceived norms about when and where work should occur. These differences, in turn, could impact employee well-being. Accordingly, through the lenses of cultural tightness-looseness and individualism-collectivism, this paper investigates cultural differences in perceived social norms, and the relationship between those norms and hybrid workers’ well-being. We conducted a survey of 1,000 Japanese and 1,000 American hybrid workers. Results indicated that American respondents perceived stronger norms and demonstrated a higher willingness to conform to norms compared to Japanese respondents. Additionally, strong injunctive norms were positively associated with well-being among Americans but not among Japanese. Interviews (N = 24) showed that Japanese perceived injunctive norms negatively, while Americans saw them positively. We discuss implications for future remote-collaboration technologies in hybrid-work settings.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3641928
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3641928
+ER  - 
+
+TY  - CONF
+TI  - Using Open Data to Automatically Generate Localized Analogies
+AU  - Spatharioti, Sofia Eleni
+AU  - Goldstein, Daniel G
+AU  - Hofman, Jake M
+PY  - 2024
+AB  - Numerical analogies (or “perspectives”) that translate unfamiliar measurements into comparisons with familiar reference objects (e.g., “275,000 square miles is roughly as large as Texas”) have been shown to aid readers’ recall, estimation, and error detection for numbers. However, because familiar reference objects are culture-specific, analogies do not always generalize across audiences. Crowdsourcing perspectives has proven effective but is limited by scalability issues and a lack of crowdworking markets in many regions. In this research, we develop an automated technique for generating localized perspectives. We utilize several open data sources for relevance signals and develop a surprisingly simple model capable of localizing analogies to new audiences without any retraining from human judges. We validate the model by testing it in both a new domain and with a different linguistic audience residing in another country. We release the compiled dataset of 400,000 reference objects to the research community.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642638
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642638
+ER  - 
+
+TY  - CONF
+TI  - Bridging the Gulf of Envisioning: Cognitive Challenges in Prompt Based Interactions with LLMs
+AU  - Subramonyam, Hari
+AU  - Pea, Roy
+AU  - Pondoc, Christopher
+AU  - Agrawala, Maneesh
+AU  - Seifert, Colleen
+PY  - 2024
+AB  - Large language models (LLMs) exhibit dynamic capabilities and appear to comprehend complex and ambiguous natural language prompts. However, calibrating LLM interactions is challenging for interface designers and end-users alike. A central issue is our limited grasp of how human cognitive processes begin with a goal and form intentions for executing actions, a blindspot even in established interaction models such as Norman’s gulfs of execution and evaluation. To address this gap, we theorize how end-users ‘envision’ translating their goals into clear intentions and craft prompts to obtain the desired LLM response. We define a process of Envisioning by highlighting three misalignments on not knowing: (1) what the task should be, (2) how to instruct the LLM to do the task, and (3) what to expect for the LLM’s output in meeting the goal. Finally, we make recommendations to narrow the gulf of envisioning in human-LLM interactions.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642754
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642754
+ER  - 
+
+TY  - CONF
+TI  - If in a Crowdsourced Data Annotation Pipeline, a GPT-4
+AU  - He, Zeyu
+AU  - Huang, Chieh-Yang
+AU  - Ding, Chien-Kuang Cornelia
+AU  - Rohatgi, Shaurya
+AU  - Huang, Ting-Hao Kenneth
+PY  - 2024
+AB  - Recent studies indicated GPT-4 outperforms online crowd workers in data labeling accuracy, notably workers from Amazon Mechanical Turk (MTurk). However, these studies were criticized for deviating from standard crowdsourcing practices and emphasizing individual workers’ performances over the whole data-annotation process. This paper compared GPT-4 and an ethical and well-executed MTurk pipeline, with 415 workers labeling 3,177 sentence segments from 200 scholarly articles using the CODA-19 scheme. Two worker interfaces yielded 127,080 labels, which were then used to infer the final labels through eight label-aggregation algorithms. Our evaluation showed that despite best practices, MTurk pipeline’s highest accuracy was 81.5\%, whereas GPT-4 achieved 83.6\%. Interestingly, when combining GPT-4’s labels with crowd labels collected via an advanced worker interface for aggregation, 2 out of the 8 algorithms achieved an even higher accuracy (87.5\%, 87.0\%). Further analysis suggested that, when the crowd’s and GPT-4’s labeling strengths are complementary, aggregating them could increase labeling accuracy.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642834
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642834
+ER  - 
+
+TY  - CONF
+TI  - ABScribe: Rapid Exploration \&amp; Organization of Multiple Writing Variations in Human-AI Co-Writing Tasks using Large Language Models
+AU  - Reza, Mohi
+AU  - Laundry, Nathan M
+AU  - Musabirov, Ilya
+AU  - Dushniku, Peter
+AU  - Yu, Zhi Yuan “Michael”
+AU  - Mittal, Kashish
+AU  - Grossman, Tovi
+AU  - Liut, Michael
+AU  - Kuzminykh, Anastasia
+AU  - Williams, Joseph Jay
+PY  - 2024
+AB  - Exploring alternative ideas by rewriting text is integral to the writing process. State-of-the-art Large Language Models (LLMs) can simplify writing variation generation. However, current interfaces pose challenges for simultaneous consideration of multiple variations: creating new variations without overwriting text can be difficult, and pasting them sequentially can clutter documents, increasing workload and disrupting writers’ flow. To tackle this, we present ABScribe, an interface that supports rapid, yet visually structured, exploration and organization of writing variations in human-AI co-writing tasks. With ABScribe, users can swiftly modify variations using LLM prompts, which are auto-converted into reusable buttons. Variations are stored adjacently within text fields for rapid in-place comparisons using mouse-over interactions on a popup toolbar. Our user study with 12 writers shows that ABScribe significantly reduces task workload (d = 1.20, p &lt; 0.001), enhances user perceptions of the revision process (d = 2.41, p &lt; 0.001) compared to a popular baseline workflow, and provides insights into how writers explore variations using LLMs.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3641899
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3641899
+ER  - 
+
+TY  - CONF
+TI  - Shaping Human-AI Collaboration: Varied Scaffolding Levels in Co-writing with Language Models
+AU  - Dhillon, Paramveer S.
+AU  - Molaei, Somayeh
+AU  - Li, Jiaqi
+AU  - Golub, Maximilian
+AU  - Zheng, Shaochun
+AU  - Robert, Lionel Peter
+PY  - 2024
+AB  - Advances in language modeling have paved the way for novel human-AI co-writing experiences. This paper explores how varying levels of scaffolding from large language models (LLMs) shape the co-writing process. Employing a within-subjects field experiment with a Latin square design, we asked participants (N=131) to respond to argumentative writing prompts under three randomly sequenced conditions: no AI assistance (control), next-sentence suggestions (low scaffolding), and next-paragraph suggestions (high scaffolding). Our findings reveal a U-shaped impact of scaffolding on writing quality and productivity (words/time). While low scaffolding did not significantly improve writing quality or productivity, high scaffolding led to significant improvements, especially benefiting non-regular writers and less tech-savvy users. No significant cognitive burden was observed while using the scaffolded writing tools, but a moderate decrease in text ownership and satisfaction was noted. Our results have broad implications for the design of AI-powered writing tools, including the need for personalized scaffolding mechanisms.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642134
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642134
+ER  - 
+
+TY  - CONF
+TI  - DiaryMate: Understanding User Perceptions and Experience in Human-AI Collaboration for Personal Journaling
+AU  - Kim, Taewan
+AU  - Shin, Donghoon
+AU  - Kim, Young-Ho
+AU  - Hong, Hwajung
+PY  - 2024
+AB  - With their generative capabilities, large language models (LLMs) have transformed the role of technological writing assistants from simple editors to writing collaborators. Such a transition emphasizes the need for understanding user perception and experience, such as balancing user intent and the involvement of LLMs across various writing domains in designing writing assistants. In this study, we delve into the less explored domain of personal writing, focusing on the use of LLMs in introspective activities. Specifically, we designed DiaryMate, a system that assists users in journal writing with LLM. Through a 10-day field study (N=24), we observed that participants used the diverse sentences generated by the LLM to reflect on their past experiences from multiple perspectives. However, we also observed that they are over-relying on the LLM, often prioritizing its emotional expressions over their own. Drawing from these findings, we discuss design considerations when leveraging LLMs in a personal writing practice.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642693
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642693
+ER  - 
+
+TY  - CONF
+TI  - AI-Augmented Brainwriting: Investigating the use of LLMs in group ideation
+AU  - Shaer, Orit
+AU  - Cooper, Angelora
+AU  - Mokryn, Osnat
+AU  - Kun, Andrew L
+AU  - Ben Shoshan, Hagit
+PY  - 2024
+AB  - The growing availability of generative AI technologies such as large language models (LLMs) has significant implications for creative work. This paper explores twofold aspects of integrating LLMs into the creative process – the divergence stage of idea generation, and the convergence stage of evaluation and selection of ideas. We devised a collaborative group-AI Brainwriting ideation framework, which incorporated an LLM as an enhancement into the group ideation process, and evaluated the idea generation process and the resulted solution space. To assess the potential of using LLMs in the idea evaluation process, we design an evaluation engine and compared it to idea ratings assigned by three expert and six novice evaluators. Our findings suggest that integrating LLM in Brainwriting could enhance both the ideation process and its outcome. We also provide evidence that LLMs can support idea evaluation. We conclude by discussing implications for HCI education and practice.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642414
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642414
+ER  - 
+
+TY  - CONF
+TI  - CharacterMeet: Supporting Creative Writers' Entire Story Character Construction Processes Through Conversation with LLM-Powered Chatbot Avatars
+AU  - Qin, Hua Xuan
+AU  - Jin, Shan
+AU  - Gao, Ze
+AU  - Fan, Mingming
+AU  - Hui, Pan
+PY  - 2024
+AB  - Support for story character construction is as essential as characters are for stories. Building upon past research on early character construction stages, we explore how conversation with chatbot avatars embodying characters powered by more recent technologies could support the entire character construction process for creative writing. Through a user study (N=14) with creative writers, we examine thinking and usage patterns of CharacterMeet, a prototype system allowing writers to progressively manifest characters through conversation while customizing context, character appearance, voice, and background image. We discover that CharacterMeet facilitates iterative character construction. Specifically, participants, including those with more linear usual approaches, alternated between writing and personalized exploration through visualization of ideas on CharacterMeet while visuals and audio enhanced immersion. Our findings support research on iterative creative processes and the growing potential of personalizable generative AI creativity support tools. We present design implications for leveraging chatbot avatars in the creative writing process.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642105
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642105
+ER  - 
+
+TY  - CONF
+TI  - PANDALens: Towards AI-Assisted In-Context Writing on OHMD During Travels
+AU  - Cai, Runze
+AU  - Janaka, Nuwan
+AU  - Chen, Yang
+AU  - Wang, Lucia
+AU  - Zhao, Shengdong
+AU  - Liu, Can
+PY  - 2024
+AB  - While effective for recording and sharing experiences, traditional in-context writing tools are relatively passive and unintelligent, serving more like instruments rather than companions. This reduces primary task (e.g., travel) enjoyment and hinders high-quality writing. Through formative study and iterative development, we introduce PANDALens, a Proactive AI Narrative Documentation Assistant built on an Optical See-Through Head Mounted Display that supports personalized documentation in everyday activities. PANDALens observes multimodal contextual information from user behaviors and environment to confirm interests and elicit contemplation, and employs Large Language Models to transform such multimodal information into coherent narratives with significantly reduced user effort. A real-world travel scenario comparing PANDALens with a smartphone alternative confirmed its effectiveness in improving writing quality and travel enjoyment while minimizing user effort. Accordingly, we propose design guidelines for AI-assisted in-context writing, highlighting the potential of transforming them from tools to intelligent companions.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642320
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642320
+ER  - 
+
+TY  - CONF
+TI  - The Impact of Sketch-guided vs. Prompt-guided 3D Generative AIs on the Design Exploration Process
+AU  - Lee, Seung Won
+AU  - Jo, Tae Hee
+AU  - Jin, Semin
+AU  - Choi, Jiin
+AU  - Yun, Kyungwon
+AU  - Bromberg, Sergio
+AU  - Ban, Seonghoon
+AU  - Hyun, Kyung Hoon
+PY  - 2024
+AB  - Various modalities have emerged in the field of 3D generative AI (GenAI) to enhance design outcomes. While some designers find inspiration in prompts to guide their design options, others prefer sketching to embody creative visions. Nonetheless, the impact of the different modalities of 3D GenAI on the design process remains largely unexplored. This study examines the utilization of prompt- and sketch-guided modalities within the design process by conducting linkography and workflow analyses with 12 designers. The results revealed that prompts played a pivotal role in stimulating initial ideation, whereas sketches played a crucial role in embodying design ideas. This investigation highlights the distinct contributions of these modalities at different phases of the design process, suggesting the potential for a more refined and synergistic collaboration between humans and AI. By elucidating the diverse functions of sketches and prompts, we propose prospective directions for the UX framework of the 3D GenAI.
+T2  - Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3613904.3642218
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3613904.3642218
+ER  - 
+

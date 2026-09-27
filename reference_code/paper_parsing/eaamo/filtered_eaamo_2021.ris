@@ -1,0 +1,52 @@
+TY  - CONF
+TI  - The Stereotyping Problem in Collaboratively Filtered Recommender Systems
+AU  - Guo, Wenshuo
+AU  - Krauth, Karl
+AU  - Jordan, Michael
+AU  - Garg, Nikhil
+PY  - 2021
+AB  - Recommender systems play a crucial role in mediating our access to online information. We show that such algorithms induce a particular kind of stereotyping: if preferences for a set of items are anti-correlated in the general user population, then those items may not be recommended together to a user, regardless of that user’s preferences and rating history. First, we introduce a notion of joint accessibility, which measures the extent to which a set of items can jointly be accessed by users. We then study joint accessibility under the standard factorization-based collaborative filtering framework, and provide theoretical necessary and sufficient conditions when joint accessibility is violated. Moreover, we show that these conditions can easily be violated when the users are represented by a single feature vector. To improve joint accessibility, we further propose an alternative modelling fix, which is designed to capture the diverse multiple interests of each user using a multi-vector representation. We conduct extensive experiments on real and simulated datasets, demonstrating the stereotyping problem with standard single-vector matrix factorization models.
+T2  - Proceedings of the 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3465416.3483298
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3465416.3483298
+ER  - 
+
+TY  - CONF
+TI  - Mitigating Racial Biases in Toxic Language Detection with an Equity-Based Ensemble Framework
+AU  - Halevy, Matan
+AU  - Harris, Camille
+AU  - Bruckman, Amy
+AU  - Yang, Diyi
+AU  - Howard, Ayanna
+PY  - 2021
+AB  - Recent research has demonstrated how racial biases against users who write African American English exists in popular toxic language datasets. While previous work has focused on a single fairness criteria, we propose to use additional descriptive fairness metrics to better understand the source of these biases. We demonstrate that different benchmark classifiers, as well as two in-process bias-remediation techniques, propagate racial biases even in a larger corpus. We then propose a novel ensemble-framework that uses a specialized classifier that is fine-tuned to the African American English dialect. We show that our proposed framework substantially reduces the racial biases that the model learns from these datasets. We demonstrate how the ensemble framework improves fairness metrics across all sample datasets with minimal impact on the classification performance, and provide empirical evidence for its ability to unlearn the annotation biases towards authors who use African American English. ** Please note that this work may contain examples of offensive words and phrases.
+T2  - Proceedings of the 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3465416.3483299
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3465416.3483299
+ER  - 
+
+TY  - CONF
+TI  - Open Data Standard and Analysis Framework: Towards Response Equity in Local Governments
+AU  - Hsu, Joy
+AU  - Ravichandran, Ramya
+AU  - Zhang, Edwin
+AU  - Keung, Christine
+PY  - 2021
+AB  - There is an increasing need for open data in governments and systems to analyze equity at large scale. Local governments often lack the necessary technical tools to identify and tackle inequities in their communities. Moreover, these tools may not generalize across departments and cities nor be accessible to the public. To this end, we propose a system that facilitates centralized analyses of publicly available government datasets through 1) a US Census-linked API, 2) an equity analysis playbook, and 3) an open data standard to regulate data intake and support equitable policymaking.
+T2  - Proceedings of the 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3465416.3483290
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3465416.3483290
+ER  - 
+
+TY  - CONF
+TI  - Breaking Taboos in Fair Machine Learning: An Experimental Study
+AU  - Nyarko, Julian
+AU  - Goel, Sharad
+AU  - Sommers, Roseanna
+PY  - 2021
+AB  - Many scholars, engineers, and policymakers believe that algorithmic fairness requires disregarding information about certain characteristics of individuals, such as their race or gender. Often, the mandate to “blind” algorithms in this way is conveyed as an unconditional ethical imperative—a minimal requirement of fair treatment—and any contrary practice is assumed to be morally and politically untenable. However, in some circumstances, prohibiting algorithms from considering information about race or gender can in fact lead to worse outcomes for racial minorities and women, complicating the rationale for blinding. In this paper, we conduct a series of randomized studies to investigate attitudes toward blinding algorithms, both among the general public as well as among computer scientists and professional lawyers. We find, first, that people are generally averse to the use of race and gender in algorithmic determinations of “pretrial risk”—the risk that criminal defendants pose to the public if released while awaiting trial. We find, however, that this preference for blinding shifts in response to a relatively mild intervention. In particular, we show that support for the use of race and gender in algorithmic decision-making increases substantially after respondents read a short passage about the possibility that blinding could lead to higher detention rates for Black and female defendants, respectively. Similar effect sizes are observed among the general public, computer scientists, and professional lawyers. These findings suggest that, while many respondents attest that they prefer blind algorithms, their preference is not based on an absolute principle. Rather, blinding is perceived as a way to ensure better outcomes for members of marginalized groups. Accordingly, in circumstances where blinding serves to disadvantage marginalized groups, respondents no longer view the exclusion of protected characteristics as a moral imperative, and the use of such information may become politically viable.
+T2  - Proceedings of the 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3465416.3483291
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3465416.3483291
+ER  - 
+

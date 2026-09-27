@@ -1,0 +1,642 @@
+TY  - CONF
+TI  - Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment
+AU  - Huang, Zijie
+AU  - Li, Zheng
+AU  - Jiang, Haoming
+AU  - Cao, Tianyu
+AU  - Lu, Hanqing
+AU  - Yin, Bing
+AU  - Subbian, Karthik
+AU  - Sun, Yizhou
+AU  - Wang, Wei
+PY  - 2022
+AB  - Predicting missing facts in a knowledge graph (KG) is crucial as modern KGs are far from complete. Due to labor-intensive human labeling, this phenomenon deteriorates when handling knowledge represented in various languages. In this paper, we explore multilingual KG completion, which leverages limited seed alignment as a bridge, to embrace the collective knowledge from multiple languages. However, language alignment used in prior works is still not fully exploited: (1) alignment pairs are treated equally to maximally push parallel entities to be close, which ignores KG capacity inconsistency; (2) seed alignment is scarce and new alignment identification is usually in a noisily unsupervised manner. To tackle these issues, we propose a novel self-supervised adaptive graph alignment (SS-AGA) method. Specifically, SS-AGA fuses all KGs as a whole graph by regarding alignment as a new edge type. As such, information propagation and noise influence across KGs can be adaptively controlled via relation-aware attention weights. Meanwhile, SS-AGA features a new pair generator that dynamically captures potential alignment pairs in a self-supervised paradigm. Extensive experiments on both the public multilingual DBPedia KG and newly-created industrial multilingual E-commerce KG empirically demonstrate the effectiveness of SS-AGA
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.36/
+DO  - 10.18653/v1/2022.acl-long.36
+ER  - 
+
+TY  - CONF
+TI  - HIBRIDS: Attention with Hierarchical Biases for Structure-aware Long Document Summarization
+AU  - Cao, Shuyang
+AU  - Wang, Lu
+PY  - 2022
+AB  - Document structure is critical for efficient information consumption. However, it is challenging to encode it efficiently into the modern Transformer architecture. In this work, we present HIBRIDS, which injects Hierarchical Biases foR Incorporating Document Structure into attention score calculation. We further present a new task, hierarchical question-summary generation, for summarizing salient content in the source document into a hierarchy of questions and summaries, where each follow-up question inquires about the content of its parent question-summary pair. We also annotate a new dataset with 6,153 question-summary hierarchies labeled on government reports. Experiment results show that our model produces better question-summary hierarchies than comparisons on both hierarchy quality and content coverage, a finding also echoed by human judges. Additionally, our model improves the generation of long-form summaries from long government reports and Wikipedia articles, as measured by ROUGE scores.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.58/
+DO  - 10.18653/v1/2022.acl-long.58
+ER  - 
+
+TY  - CONF
+TI  - HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation
+AU  - Cheng, Zhoujun
+AU  - Dong, Haoyu
+AU  - Wang, Zhiruo
+AU  - Jia, Ran
+AU  - Guo, Jiaqi
+AU  - Gao, Yan
+AU  - Han, Shi
+AU  - Lou, Jian-Guang
+AU  - Zhang, Dongmei
+PY  - 2022
+AB  - Tables are often created with hierarchies, but existing works on table reasoning mainly focus on flat tables and neglect hierarchical tables. Hierarchical tables challenge numerical reasoning by complex hierarchical indexing, as well as implicit relationships of calculation and semantics. We present a new dataset, HiTab, to study question answering (QA) and natural language generation (NLG) over hierarchical tables. HiTab is a cross-domain dataset constructed from a wealth of statistical reports and Wikipedia pages, and has unique characteristics: (1) nearly all tables are hierarchical, and (2) QA pairs are not proposed by annotators from scratch, but are revised from real and meaningful sentences authored by analysts. (3) to reveal complex numerical reasoning in statistical reports, we provide fine-grained annotations of quantity and entity alignment. Experiments suggest that this HiTab presents a strong challenge for existing baselines and a valuable benchmark for future research. Targeting hierarchical structure, we devise a hierarchy-aware logical form for symbolic reasoning over tables, which shows high effectiveness. Targeting table reasoning, we leverage entity and quantity alignment to explore partially supervised training in QA and conditional generation in NLG, and largely reduce spurious predictions in QA and produce better descriptions in NLG.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.78/
+DO  - 10.18653/v1/2022.acl-long.78
+ER  - 
+
+TY  - CONF
+TI  - There's a Time and Place for Reasoning Beyond the Image
+AU  - Fu, Xingyu
+AU  - Zhou, Ben
+AU  - Chandratreya, Ishaan
+AU  - Vondrick, Carl
+AU  - Roth, Dan
+PY  - 2022
+AB  - Images are often more significant than only the pixels to human eyes, as we can infer, associate, and reason with contextual information from other sources to establish a more complete picture. For example, in Figure 1, we can find a way to identify the news articles related to the picture through segment-wise understandings of the signs, the buildings, the crowds, and more. This reasoning could provide the time and place the image was taken, which will help us in subsequent tasks, such as automatic storyline construction, correction of image source in intended effect photographs, and upper-stream processing such as image clustering for certain location or time. In this work, we formulate this problem and introduce TARA: a dataset with 16k images with their associated news, time, and location, automatically extracted from New York Times, and an additional 61k examples as distant supervision from WIT. On top of the extractions, we present a crowdsourced subset in which we believe it is possible to find the images’ spatio-temporal information for evaluation purpose. We show that there exists a 70% gap between a state-of-the-art joint model and human performance, which is slightly filled by our proposed model that uses segment-wise reasoning, motivating higher-level vision-language joint models that can conduct open-ended reasoning with world knowledge. The data and code are publicly available at https://github.com/zeyofu/TARA.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.81/
+DO  - 10.18653/v1/2022.acl-long.81
+ER  - 
+
+TY  - CONF
+TI  - On The Ingredients of an Effective Zero-shot Semantic Parser
+AU  - Yin, Pengcheng
+AU  - Wieting, John
+AU  - Sil, Avirup
+AU  - Neubig, Graham
+PY  - 2022
+AB  - Semantic parsers map natural language utterances into meaning representations (e.g., programs). Such models are typically bottlenecked by the paucity of training data due to the required laborious annotation efforts. Recent studies have performed zero-shot learning by synthesizing training examples of canonical utterances and programs from a grammar, and further paraphrasing these utterances to improve linguistic diversity. However, such synthetic examples cannot fully capture patterns in real data. In this paper we analyze zero-shot parsers through the lenses of the language and logical gaps (Herzig and Berant, 2019), which quantify the discrepancy of language and programmatic patterns between the canonical examples and real-world user-issued ones. We propose bridging these gaps using improved grammars, stronger paraphrasers, and efficient learning methods using canonical examples that most likely reflect real user intents. Our model achieves strong performance on two semantic parsing benchmarks (Scholar, Geo) with zero labeled data.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.103/
+DO  - 10.18653/v1/2022.acl-long.103
+ER  - 
+
+TY  - CONF
+TI  - Toward Annotator Group Bias in Crowdsourcing
+AU  - Liu, Haochen
+AU  - Thekinen, Joseph
+AU  - Mollaoglu, Sinem
+AU  - Tang, Da
+AU  - Yang, Ji
+AU  - Cheng, Youlong
+AU  - Liu, Hui
+AU  - Tang, Jiliang
+PY  - 2022
+AB  - Crowdsourcing has emerged as a popular approach for collecting annotated data to train supervised machine learning models. However, annotator bias can lead to defective annotations. Though there are a few works investigating individual annotator bias, the group effects in annotators are largely overlooked. In this work, we reveal that annotators within the same demographic group tend to show consistent group bias in annotation tasks and thus we conduct an initial study on annotator group bias. We first empirically verify the existence of annotator group bias in various real-world crowdsourcing datasets. Then, we develop a novel probabilistic graphical framework GroupAnno to capture annotator group bias with an extended Expectation Maximization (EM) algorithm. We conduct experiments on both synthetic and real-world datasets. Experimental results demonstrate the effectiveness of our model in modeling annotator group bias in label aggregation and model learning over competitive baselines.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.126/
+DO  - 10.18653/v1/2022.acl-long.126
+ER  - 
+
+TY  - CONF
+TI  - Under the Morphosyntactic Lens: A Multifaceted Evaluation of Gender Bias in Speech Translation
+AU  - Savoldi, Beatrice
+AU  - Gaido, Marco
+AU  - Bentivogli, Luisa
+AU  - Negri, Matteo
+AU  - Turchi, Marco
+PY  - 2022
+AB  - Gender bias is largely recognized as a problematic phenomenon affecting language technologies, with recent studies underscoring that it might surface differently across languages. However, most of current evaluation practices adopt a word-level focus on a narrow set of occupational nouns under synthetic conditions. Such protocols overlook key features of grammatical gender languages, which are characterized by morphosyntactic chains of gender agreement, marked on a variety of lexical items and parts-of-speech (POS). To overcome this limitation, we enrich the natural, gender-sensitive MuST-SHE corpus (Bentivogli et al., 2020) with two new linguistic annotation layers (POS and agreement chains), and explore to what extent different lexical categories and agreement phenomena are impacted by gender skews. Focusing on speech translation, we conduct a multifaceted evaluation on three language directions (English-French/Italian/Spanish), with models trained on varying amounts of data and different word segmentation techniques. By shedding light on model behaviours, gender bias, and its detection at several levels of granularity, our findings emphasize the value of dedicated analyses beyond aggregated overall results.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.127/
+DO  - 10.18653/v1/2022.acl-long.127
+ER  - 
+
+TY  - CONF
+TI  - Vision-Language Pre-Training for Multimodal Aspect-Based Sentiment Analysis
+AU  - Ling, Yan
+AU  - Yu, Jianfei
+AU  - Xia, Rui
+PY  - 2022
+AB  - As an important task in sentiment analysis, Multimodal Aspect-Based Sentiment Analysis (MABSA) has attracted increasing attention inrecent years. However, previous approaches either (i) use separately pre-trained visual and textual models, which ignore the crossmodalalignment or (ii) use vision-language models pre-trained with general pre-training tasks, which are inadequate to identify fine-grainedaspects, opinions, and their alignments across modalities. To tackle these limitations, we propose a task-specific Vision-LanguagePre-training framework for MABSA (VLP-MABSA), which is a unified multimodal encoder-decoder architecture for all the pretrainingand downstream tasks. We further design three types of task-specific pre-training tasks from the language, vision, and multimodalmodalities, respectively. Experimental results show that our approach generally outperforms the state-of-the-art approaches on three MABSA subtasks. Further analysis demonstrates the effectiveness of each pre-training task. The source code is publicly released at https://github.com/NUSTM/VLP-MABSA.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.152/
+DO  - 10.18653/v1/2022.acl-long.152
+ER  - 
+
+TY  - CONF
+TI  - Learning Disentangled Textual Representations via Statistical Measures of Similarity
+AU  - Colombo, Pierre
+AU  - Staerman, Guillaume
+AU  - Noiry, Nathan
+AU  - Piantanida, Pablo
+PY  - 2022
+AB  - When working with textual data, a natural application of disentangled representations is the fair classification where the goal is to make predictions without being biased (or influenced) by sensible attributes that may be present in the data (e.g., age, gender or race). Dominant approaches to disentangle a sensitive attribute from textual representations rely on learning simultaneously a penalization term that involves either an adversary loss (e.g., a discriminator) or an information measure (e.g., mutual information). However, these methods require the training of a deep neural network with several parameter updates for each update of the representation model. As a matter of fact, the resulting nested optimization loop is both times consuming, adding complexity to the optimization dynamic, and requires a fine hyperparameter selection (e.g., learning rates, architecture). In this work, we introduce a family of regularizers for learning disentangled representations that do not require training. These regularizers are based on statistical measures of similarity between the conditional probability distributions with respect to the sensible attributes. Our novel regularizers do not require additional training, are faster and do not involve additional tuning while achieving better results both when combined with pretrained and randomly initialized text encoders.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.187/
+DO  - 10.18653/v1/2022.acl-long.187
+ER  - 
+
+TY  - CONF
+TI  - GL-CLeF: A Global--Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding
+AU  - Qin, Libo
+AU  - Chen, Qiguang
+AU  - Xie, Tianbao
+AU  - Li, Qixin
+AU  - Lou, Jian-Guang
+AU  - Che, Wanxiang
+AU  - Kan, Min-Yen
+PY  - 2022
+AB  - Due to high data demands of current methods, attention to zero-shot cross-lingual spoken language understanding (SLU) has grown, as such approaches greatly reduce human annotation effort. However, existing models solely rely on shared parameters, which can only perform implicit alignment across languages. We present Global-Local Contrastive Learning Framework (GL-CLeF) to address this shortcoming. Specifically, we employ contrastive learning, leveraging bilingual dictionaries to construct multilingual views of the same utterance, then encourage their representations to be more similar than negative example pairs, which achieves to explicitly align representations of similar sentences across languages. In addition, a key step in GL-CLeF is a proposed Local and Global component, which achieves a fine-grained cross-lingual transfer (i.e., sentence-level Local intent transfer, token-level Local slot transfer, and semantic-level Global transfer across intent and slot). Experiments on MultiATIS++ show that GL-CLeF achieves the best performance and successfully pulls representations of similar sentences across languages closer.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.191/
+DO  - 10.18653/v1/2022.acl-long.191
+ER  - 
+
+TY  - CONF
+TI  - A Meta-framework for Spatiotemporal Quantity Extraction from Text
+AU  - Ning, Qiang
+AU  - Zhou, Ben
+AU  - Wu, Hao
+AU  - Peng, Haoruo
+AU  - Fan, Chuchu
+AU  - Gardner, Matt
+PY  - 2022
+AB  - News events are often associated with quantities (e.g., the number of COVID-19 patients or the number of arrests in a protest), and it is often important to extract their type, time, and location from unstructured text in order to analyze these quantity events. This paper thus formulates the NLP problem of spatiotemporal quantity extraction, and proposes the first meta-framework for solving it. This meta-framework contains a formalism that decomposes the problem into several information extraction tasks, a shareable crowdsourcing pipeline, and transformer-based baseline models. We demonstrate the meta-framework in three domains—the COVID-19 pandemic, Black Lives Matter protests, and 2020 California wildfires—to show that the formalism is general and extensible, the crowdsourcing pipeline facilitates fast and high-quality data annotation, and the baseline system can handle spatiotemporal quantity extraction well enough to be practically useful. We release all resources for future research on this topic at https://github.com/steqe.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.195/
+DO  - 10.18653/v1/2022.acl-long.195
+ER  - 
+
+TY  - CONF
+TI  - Identifying Chinese Opinion Expressions with Extremely-Noisy Crowdsourcing Annotations
+AU  - Zhang, Xin
+AU  - Xu, Guangwei
+AU  - Sun, Yueheng
+AU  - Zhang, Meishan
+AU  - Wang, Xiaobin
+AU  - Zhang, Min
+PY  - 2022
+AB  - Recent works of opinion expression identification (OEI) rely heavily on the quality and scale of the manually-constructed training corpus, which could be extremely difficult to satisfy. Crowdsourcing is one practical solution for this problem, aiming to create a large-scale but quality-unguaranteed corpus. In this work, we investigate Chinese OEI with extremely-noisy crowdsourcing annotations, constructing a dataset at a very low cost. Following Zhang el al. (2021), we train the annotator-adapter model by regarding all annotations as gold-standard in terms of crowd annotators, and test the model by using a synthetic expert, which is a mixture of all annotators. As this annotator-mixture for testing is never modeled explicitly in the training phase, we propose to generate synthetic training samples by a pertinent mixup strategy to make the training and testing highly consistent. The simulation experiments on our constructed dataset show that crowdsourcing is highly promising for OEI, and our proposed annotator-mixup can further enhance the crowdsourcing modeling.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.200/
+DO  - 10.18653/v1/2022.acl-long.200
+ER  - 
+
+TY  - CONF
+TI  - Misinfo Reaction Frames: Reasoning about Readers' Reactions to News Headlines
+AU  - Gabriel, Saadia
+AU  - Hallinan, Skyler
+AU  - Sap, Maarten
+AU  - Nguyen, Pemi
+AU  - Roesner, Franziska
+AU  - Choi, Eunsol
+AU  - Choi, Yejin
+PY  - 2022
+AB  - Even to a simple and short news headline, readers react in a multitude of ways: cognitively (e.g. inferring the writer’s intent), emotionally (e.g. feeling distrust), and behaviorally (e.g. sharing the news with their friends). Such reactions are instantaneous and yet complex, as they rely on factors that go beyond interpreting factual content of news. We propose Misinfo Reaction Frames (MRF), a pragmatic formalism for modeling how readers might react to a news headline. In contrast to categorical schema, our free-text dimensions provide a more nuanced way of understanding intent beyond being benign or malicious. We also introduce a Misinfo Reaction Frames corpus, a crowdsourced dataset of reactions to over 25k news headlines focusing on global crises: the Covid-19 pandemic, climate change, and cancer. Empirical results confirm that it is indeed possible for neural models to predict the prominent patterns of readers’ reactions to previously unseen news headlines. Additionally, our user study shows that displaying machine-generated MRF implications alongside news headlines to readers can increase their trust in real news while decreasing their trust in misinformation. Our work demonstrates the feasibility and importance of pragmatic inferences on news headlines to help enhance AI-guided misinformation detection and mitigation.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.222/
+DO  - 10.18653/v1/2022.acl-long.222
+ER  - 
+
+TY  - CONF
+TI  - Adaptive Testing and Debugging of NLP Models
+AU  - Ribeiro, Marco Tulio
+AU  - Lundberg, Scott
+PY  - 2022
+AB  - Current approaches to testing and debugging NLP models rely on highly variable human creativity and extensive labor, or only work for a very restrictive class of bugs. We present AdaTest, a process which uses large scale language models (LMs) in partnership with human feedback to automatically write unit tests highlighting bugs in a target model. Such bugs are then addressed through an iterative text-fix-retest loop, inspired by traditional software development. In experiments with expert and non-expert users and commercial / research models for 8 different tasks, AdaTest makes users 5-10x more effective at finding bugs than current approaches, and helps users effectively fix bugs without adding new bugs.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.230/
+DO  - 10.18653/v1/2022.acl-long.230
+ER  - 
+
+TY  - CONF
+TI  - Right for the Right Reason: Evidence Extraction for Trustworthy Tabular Reasoning
+AU  - Gupta, Vivek
+AU  - Zhang, Shuo
+AU  - Vempala, Alakananda
+AU  - He, Yujie
+AU  - Choji, Temma
+AU  - Srikumar, Vivek
+PY  - 2022
+AB  - When pre-trained contextualized embedding-based models developed for unstructured data are adapted for structured tabular data, they perform admirably. However, recent probing studies show that these models use spurious correlations, and often predict inference labels by focusing on false evidence or ignoring it altogether. To study this issue, we introduce the task of Trustworthy Tabular Reasoning, where a model needs to extract evidence to be used for reasoning, in addition to predicting the label. As a case study, we propose a two-stage sequential prediction approach, which includes an evidence extraction and an inference stage. First, we crowdsource evidence row labels and develop several unsupervised and supervised evidence extraction strategies for InfoTabS, a tabular NLI benchmark. Our evidence extraction strategy outperforms earlier baselines. On the downstream tabular inference task, using only the automatically extracted evidence as the premise, our approach outperforms prior benchmarks.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.231/
+DO  - 10.18653/v1/2022.acl-long.231
+ER  - 
+
+TY  - CONF
+TI  - Cross-Task Generalization via Natural Language Crowdsourcing Instructions
+AU  - Mishra, Swaroop
+AU  - Khashabi, Daniel
+AU  - Baral, Chitta
+AU  - Hajishirzi, Hannaneh
+PY  - 2022
+AB  - Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. Despite the success of the conventional supervised learning on individual datasets, such models often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the human-readable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their human-authored instructions, and 193k task instances (input-output pairs). The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. Using this meta-dataset, we measure cross-task generalization by training models on seen tasks and measuring generalization to the remaining unseen ones. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks (19% better for models utilizing instructions). These models, however, are far behind an estimated performance upperbound indicating significant room for more progress in this direction.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.244/
+DO  - 10.18653/v1/2022.acl-long.244
+ER  - 
+
+TY  - CONF
+TI  - Improving Multi-label Malevolence Detection in Dialogues through Multi-faceted Label Correlation Enhancement
+AU  - Zhang, Yangjun
+AU  - Ren, Pengjie
+AU  - Deng, Wentao
+AU  - Chen, Zhumin
+AU  - de Rijke, Maarten
+PY  - 2022
+AB  - A dialogue response is malevolent if it is grounded in negative emotions, inappropriate behavior, or an unethical value basis in terms of content and dialogue acts. The detection of malevolent dialogue responses is attracting growing interest. Current research on detecting dialogue malevolence has limitations in terms of datasets and methods. First, available dialogue datasets related to malevolence are labeled with a single category, but in practice assigning a single category to each utterance may not be appropriate as some malevolent utterances belong to multiple labels. Second, current methods for detecting dialogue malevolence neglect label correlation. Therefore, we propose the task of multi-label dialogue malevolence detection and crowdsource a multi-label dataset, multi-label dialogue malevolence detection (MDMD) for evaluation. We also propose a multi-label malevolence detection model, multi-faceted label correlation enhanced CRF (MCRF), with two label correlation mechanisms, label correlation in taxonomy (LCT) and label correlation in context (LCC). Experiments on MDMD show that our method outperforms the best performing baseline by a large margin, i.e., 16.1%, 11.9%, 12.0%, and 6.1% on precision, recall, F1, and Jaccard score, respectively.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.248/
+DO  - 10.18653/v1/2022.acl-long.248
+ER  - 
+
+TY  - CONF
+TI  - Can Transformer be Too Compositional? Analysing Idiom Processing in Neural Machine Translation
+AU  - Dankers, Verna
+AU  - Lucas, Christopher
+AU  - Titov, Ivan
+PY  - 2022
+AB  - Unlike literal expressions, idioms’ meanings do not directly follow from their parts, posing a challenge for neural machine translation (NMT). NMT models are often unable to translate idioms accurately and over-generate compositional, literal translations. In this work, we investigate whether the non-compositionality of idioms is reflected in the mechanics of the dominant NMT model, Transformer, by analysing the hidden states and attention patterns for models with English as source language and one of seven European languages as target language. When Transformer emits a non-literal translation - i.e. identifies the expression as idiomatic - the encoder processes idioms more strongly as single lexical units compared to literal expressions. This manifests in idioms’ parts being grouped through attention and in reduced interaction between idioms and their context. In the decoder’s cross-attention, figurative inputs result in reduced attention on source-side tokens. These results suggest that Transformer’s tendency to process idioms as compositional expressions contributes to literal translations of idioms.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.252/
+DO  - 10.18653/v1/2022.acl-long.252
+ER  - 
+
+TY  - CONF
+TI  - An Investigation of the (In)effectiveness of Counterfactually Augmented Data
+AU  - Joshi, Nitish
+AU  - He, He
+PY  - 2022
+AB  - While pretrained language models achieve excellent performance on natural language understanding benchmarks, they tend to rely on spurious correlations and generalize poorly to out-of-distribution (OOD) data. Recent work has explored using counterfactually-augmented data (CAD)—data generated by minimally perturbing examples to flip the ground-truth label—to identify robust features that are invariant under distribution shift. However, empirical results using CAD during training for OOD generalization have been mixed. To explain this discrepancy, through a toy theoretical example and empirical analysis on two crowdsourced CAD datasets, we show that: (a) while features perturbed in CAD are indeed robust features, it may prevent the model from learning unperturbed robust features; and (b) CAD may exacerbate existing spurious correlations in the data. Our results thus show that the lack of perturbation diversity limits CAD’s effectiveness on OOD generalization, calling for innovative crowdsourcing procedures to elicit diverse perturbation of examples.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.256/
+DO  - 10.18653/v1/2022.acl-long.256
+ER  - 
+
+TY  - CONF
+TI  - ePiC: Employing Proverbs in Context as a Benchmark for Abstract Language Understanding
+AU  - Ghosh, Sayan
+AU  - Srivastava, Shashank
+PY  - 2022
+AB  - While large language models have shown exciting progress on several NLP benchmarks, evaluating their ability for complex analogical reasoning remains under-explored. Here, we introduce a high-quality crowdsourced dataset of narratives for employing proverbs in context as a benchmark for abstract language understanding. The dataset provides fine-grained annotation of aligned spans between proverbs and narratives, and contains minimal lexical overlaps between narratives and proverbs, ensuring that models need to go beyond surface-level reasoning to succeed. We explore three tasks: (1) proverb recommendation and alignment prediction, (2) narrative generation for a given proverb and topic, and (3) identifying narratives with similar motifs. Our experiments show that neural language models struggle on these tasks compared to humans, and these tasks pose multiple learning challenges.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.276/
+DO  - 10.18653/v1/2022.acl-long.276
+ER  - 
+
+TY  - CONF
+TI  - Multilingual Mix: Example Interpolation Improves Multilingual Neural Machine Translation
+AU  - Cheng, Yong
+AU  - Bapna, Ankur
+AU  - Firat, Orhan
+AU  - Cao, Yuan
+AU  - Wang, Pidong
+AU  - Macherey, Wolfgang
+PY  - 2022
+AB  - Multilingual neural machine translation models are trained to maximize the likelihood of a mix of examples drawn from multiple language pairs. The dominant inductive bias applied to these models is a shared vocabulary and a shared set of parameters across languages; the inputs and labels corresponding to examples drawn from different language pairs might still reside in distinct sub-spaces. In this paper, we introduce multilingual crossover encoder-decoder (mXEncDec) to fuse language pairs at an instance level. Our approach interpolates instances from different language pairs into joint ‘crossover examples’ in order to encourage sharing input and output spaces across languages. To ensure better fusion of examples in multilingual settings, we propose several techniques to improve example interpolation across dissimilar languages under heavy data imbalance. Experiments on a large-scale WMT multilingual dataset demonstrate that our approach significantly improves quality on English-to-Many, Many-to-English and zero-shot translation tasks (from +0.5 BLEU up to +5.5 BLEU points). Results on code-switching sets demonstrate the capability of our approach to improve model generalization to out-of-distribution multilingual examples. We also conduct qualitative and quantitative representation comparisons to analyze the advantages of our approach at the representation level.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.282/
+DO  - 10.18653/v1/2022.acl-long.282
+ER  - 
+
+TY  - CONF
+TI  - Zero-Shot Cross-lingual Semantic Parsing
+AU  - Sherborne, Tom
+AU  - Lapata, Mirella
+PY  - 2022
+AB  - Recent work in cross-lingual semantic parsing has successfully applied machine translation to localize parsers to new languages. However, these advances assume access to high-quality machine translation systems and word alignment tools. We remove these assumptions and study cross-lingual semantic parsing as a zero-shot problem, without parallel data (i.e., utterance-logical form pairs) for new languages. We propose a multi-task encoder-decoder model to transfer parsing knowledge to additional languages using only English-logical form paired data and in-domain natural language corpora in each new language. Our model encourages language-agnostic encodings by jointly optimizing for logical-form generation with auxiliary objectives designed for cross-lingual latent representation alignment. Our parser performs significantly above translation-based baselines and, in some cases, competes with the supervised upper-bound.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.285/
+DO  - 10.18653/v1/2022.acl-long.285
+ER  - 
+
+TY  - CONF
+TI  - Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis
+AU  - Shi, Wenxuan
+AU  - Li, Fei
+AU  - Li, Jingye
+AU  - Fei, Hao
+AU  - Ji, Donghong
+PY  - 2022
+AB  - The state-of-the-art model for structured sentiment analysis casts the task as a dependency parsing problem, which has some limitations: (1) The label proportions for span prediction and span relation prediction are imbalanced. (2) The span lengths of sentiment tuple components may be very large in this task, which will further exacerbates the imbalance problem. (3) Two nodes in a dependency graph cannot have multiple arcs, therefore some overlapped sentiment tuples cannot be recognized. In this work, we propose nichetargeting solutions for these issues. First, we introduce a novel labeling strategy, which contains two sets of token pair labels, namely essential label set and whole label set. The essential label set consists of the basic labels for this task, which are relatively balanced and applied in the prediction layer. The whole label set includes rich labels to help our model capture various token relations, which are applied in the hidden layer to softly influence our model. Moreover, we also propose an effective model to well collaborate with our labeling strategy, which is equipped with the graph attention networks to iteratively refine token representations, and the adaptive multi-label classifier to dynamically predict multiple relations between token pairs. We perform extensive experiments on 5 benchmark datasets in four languages. Experimental results show that our model outperforms previous SOTA models by a large margin.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.291/
+DO  - 10.18653/v1/2022.acl-long.291
+ER  - 
+
+TY  - CONF
+TI  - Understanding Multimodal Procedural Knowledge by Sequencing Multimodal Instructional Manuals
+AU  - Wu, Te-Lin
+AU  - Spangher, Alex
+AU  - Alipoormolabashi, Pegah
+AU  - Freedman, Marjorie
+AU  - Weischedel, Ralph
+AU  - Peng, Nanyun
+PY  - 2022
+AB  - The ability to sequence unordered events is evidence of comprehension and reasoning about real world tasks/procedures. It is essential for applications such as task planning and multi-source instruction summarization. It often requires thorough understanding of temporal common sense and multimodal information, since these procedures are often conveyed by a combination of texts and images. While humans are capable of reasoning about and sequencing unordered procedural instructions, the extent to which the current machine learning methods possess such capability is still an open question. In this work, we benchmark models’ capability of reasoning over and sequencing unordered multimodal instructions by curating datasets from online instructional manuals and collecting comprehensive human annotations. We find current state-of-the-art models not only perform significantly worse than humans but also seem incapable of efficiently utilizing multimodal information. To improve machines’ performance on multimodal event sequencing, we propose sequence-aware pretraining techniques exploiting the sequential alignment properties of both texts and images, resulting in > 5% improvements on perfect match ratio.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.310/
+DO  - 10.18653/v1/2022.acl-long.310
+ER  - 
+
+TY  - CONF
+TI  - WikiDiverse: A Multimodal Entity Linking Dataset with Diversified Contextual Topics and Entity Types
+AU  - Wang, Xuwu
+AU  - Tian, Junfeng
+AU  - Gui, Min
+AU  - Li, Zhixu
+AU  - Wang, Rui
+AU  - Yan, Ming
+AU  - Chen, Lihan
+AU  - Xiao, Yanghua
+PY  - 2022
+AB  - Multimodal Entity Linking (MEL) which aims at linking mentions with multimodal contexts to the referent entities from a knowledge base (e.g., Wikipedia), is an essential task for many multimodal applications. Although much attention has been paid to MEL, the shortcomings of existing MEL datasets including limited contextual topics and entity types, simplified mention ambiguity, and restricted availability, have caused great obstacles to the research and application of MEL. In this paper, we present WikiDiverse, a high-quality human-annotated MEL dataset with diversified contextual topics and entity types from Wikinews, which uses Wikipedia as the corresponding knowledge base. A well-tailored annotation procedure is adopted to ensure the quality of the dataset. Based on WikiDiverse, a sequence of well-designed MEL models with intra-modality and inter-modality attentions are implemented, which utilize the visual information of images more adequately than existing MEL models do. Extensive experimental analyses are conducted to investigate the contributions of different modalities in terms of MEL, facilitating the future research on this task.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.328/
+DO  - 10.18653/v1/2022.acl-long.328
+ER  - 
+
+TY  - CONF
+TI  - FaVIQ: FAct Verification from Information-seeking Questions
+AU  - Park, Jungsoo
+AU  - Min, Sewon
+AU  - Kang, Jaewoo
+AU  - Zettlemoyer, Luke
+AU  - Hajishirzi, Hannaneh
+PY  - 2022
+AB  - Despite significant interest in developing general purpose fact checking models, it is challenging to construct a large-scale fact verification dataset with realistic real-world claims. Existing claims are either authored by crowdworkers, thereby introducing subtle biases thatare difficult to control for, or manually verified by professional fact checkers, causing them to be expensive and limited in scale. In this paper, we construct a large-scale challenging fact verification dataset called FAVIQ, consisting of 188k claims derived from an existing corpus of ambiguous information-seeking questions. The ambiguities in the questions enable automatically constructing true and false claims that reflect user confusions (e.g., the year of the movie being filmed vs. being released). Claims in FAVIQ are verified to be natural, contain little lexical bias, and require a complete understanding of the evidence for verification. Our experiments show that the state-of-the-art models are far from solving our new task. Moreover, training on our data helps in professional fact-checking, outperforming models trained on the widely used dataset FEVER or in-domain data by up to 17% absolute. Altogether, our data will serve as a challenging benchmark for natural language understanding and support future progress in professional fact checking.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.354/
+DO  - 10.18653/v1/2022.acl-long.354
+ER  - 
+
+TY  - CONF
+TI  - Predicate-Argument Based Bi-Encoder for Paraphrase Identification
+AU  - Peng, Qiwei
+AU  - Weir, David
+AU  - Weeds, Julie
+AU  - Chai, Yekun
+PY  - 2022
+AB  - Paraphrase identification involves identifying whether a pair of sentences express the same or similar meanings. While cross-encoders have achieved high performances across several benchmarks, bi-encoders such as SBERT have been widely applied to sentence pair tasks. They exhibit substantially lower computation complexity and are better suited to symmetric tasks. In this work, we adopt a bi-encoder approach to the paraphrase identification task, and investigate the impact of explicitly incorporating predicate-argument information into SBERT through weighted aggregation. Experiments on six paraphrase identification datasets demonstrate that, with a minimal increase in parameters, the proposed model is able to outperform SBERT/SRoBERTa significantly. Further, ablation studies reveal that the predicate-argument based component plays a significant role in the performance gain.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.382/
+DO  - 10.18653/v1/2022.acl-long.382
+ER  - 
+
+TY  - CONF
+TI  - Measuring Fairness of Text Classifiers via Prediction Sensitivity
+AU  - Krishna, Satyapriya
+AU  - Gupta, Rahul
+AU  - Verma, Apurv
+AU  - Dhamala, Jwala
+AU  - Pruksachatkun, Yada
+AU  - Chang, Kai-Wei
+PY  - 2022
+AB  - With the rapid growth in language processing applications, fairness has emerged as an important consideration in data-driven solutions. Although various fairness definitions have been explored in the recent literature, there is lack of consensus on which metrics most accurately reflect the fairness of a system. In this work, we propose a new formulation – accumulated prediction sensitivity, which measures fairness in machine learning models based on the model’s prediction sensitivity to perturbations in input features. The metric attempts to quantify the extent to which a single prediction depends on a protected attribute, where the protected attribute encodes the membership status of an individual in a protected group. We show that the metric can be theoretically linked with a specific notion of group fairness (statistical parity) and individual fairness. It also correlates well with humans’ perception of fairness. We conduct experiments on two text classification datasets – Jigsaw Toxicity, and Bias in Bios, and evaluate the correlations between metrics and manual annotations on whether the model produced a fair outcome. We observe that the proposed fairness metric based on prediction sensitivity is statistically significantly more correlated with human annotation than the existing counterfactual fairness metric.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.401/
+DO  - 10.18653/v1/2022.acl-long.401
+ER  - 
+
+TY  - CONF
+TI  - An Effective and Efficient Entity Alignment Decoding Algorithm via Third-Order Tensor Isomorphism
+AU  - Mao, Xin
+AU  - Ma, Meirong
+AU  - Yuan, Hao
+AU  - Zhu, Jianchao
+AU  - Wang, ZongYu
+AU  - Xie, Rui
+AU  - Wu, Wei
+AU  - Lan, Man
+PY  - 2022
+AB  - Entity alignment (EA) aims to discover the equivalent entity pairs between KGs, which is a crucial step for integrating multi-source KGs.For a long time, most researchers have regarded EA as a pure graph representation learning task and focused on improving graph encoders while paying little attention to the decoding process. In this paper, we propose an effective and efficient EA Decoding Algorithm via Third-order Tensor Isomorphism (DATTI).Specifically, we derive two sets of isomorphism equations: (1) Adjacency tensor isomorphism equations and (2) Gramian tensor isomorphism equations. By combining these equations, DATTI could effectively utilize the adjacency and inner correlation isomorphisms of KGs to enhance the decoding process of EA.Extensive experiments on public datasets indicate that our decoding algorithm can deliver significant performance improvements even on the most advanced EA methods, while the extra required time is less than 3 seconds.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.405/
+DO  - 10.18653/v1/2022.acl-long.405
+ER  - 
+
+TY  - CONF
+TI  - Does Recommend-Revise Produce Reliable Annotations? An Analysis on Missing Instances in DocRED
+AU  - Huang, Quzhe
+AU  - Hao, Shibo
+AU  - Ye, Yuan
+AU  - Zhu, Shengqi
+AU  - Feng, Yansong
+AU  - Zhao, Dongyan
+PY  - 2022
+AB  - DocRED is a widely used dataset for document-level relation extraction. In the large-scale annotation, a recommend-revise scheme is adopted to reduce the workload. Within this scheme, annotators are provided with candidate relation instances from distant supervision, and they then manually supplement and remove relational facts based on the recommendations. However, when comparing DocRED with a subset relabeled from scratch, we find that this scheme results in a considerable amount of false negative samples and an obvious bias towards popular entities and relations. Furthermore, we observe that the models trained on DocRED have low recall on our relabeled dataset and inherit the same bias in the training data. Through the analysis of annotators’ behaviors, we figure out the underlying reason for the problems above: the scheme actually discourages annotators from supplementing adequate instances in the revision phase. We appeal to future research to take into consideration the issues with the recommend-revise scheme when designing new models and annotation schemes. The relabeled dataset is released at https://github.com/AndrewZhe/Revisit-DocRED, to serve as a more reliable test set of document RE models.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.432/
+DO  - 10.18653/v1/2022.acl-long.432
+ER  - 
+
+TY  - CONF
+TI  - CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations
+AU  - R. Menon, Rakesh
+AU  - Ghosh, Sayan
+AU  - Srivastava, Shashank
+PY  - 2022
+AB  - Supervised learning has traditionally focused on inductive learning by observing labeled examples of a task. In contrast, a hallmark of human intelligence is the ability to learn new concepts purely from language. Here, we explore training zero-shot classifiers for structured data purely from language. For this, we introduce CLUES, a benchmark for Classifier Learning Using natural language ExplanationS, consisting of a range of classification tasks over structured data along with natural language supervision in the form of explanations. CLUES consists of 36 real-world and 144 synthetic classification tasks. It contains crowdsourced explanations describing real-world tasks from multiple teachers and programmatically generated explanations for the synthetic tasks. To model the influence of explanations in classifying an example, we develop ExEnt, an entailment-based model that learns classifiers using explanations. ExEnt generalizes up to 18% better (relative) on novel tasks than a baseline that does not use explanations. We delineate key challenges for automated learning from explanations, addressing which can lead to progress on CLUES in the future. Code and datasets are available at: https://clues-benchmark.github.io.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.451/
+DO  - 10.18653/v1/2022.acl-long.451
+ER  - 
+
+TY  - CONF
+TI  - Low-Rank Softmax Can Have Unargmaxable Classes in Theory but Rarely in Practice
+AU  - Grivas, Andreas
+AU  - Bogoychev, Nikolay
+AU  - Lopez, Adam
+PY  - 2022
+AB  - Classifiers in natural language processing (NLP) often have a large number of output classes. For example, neural language models (LMs) and machine translation (MT) models both predict tokens from a vocabulary of thousands. The Softmax output layer of these models typically receives as input a dense feature representation, which has much lower dimensionality than the output. In theory, the result is some words may be impossible to be predicted via argmax, irrespective of input features, and empirically, there is evidence this happens in small language models (Demeter et al., 2020). In this paper we ask whether it can happen in practical large language models and translation models. To do so, we develop algorithms to detect such unargmaxable tokens in public models. We find that 13 out of 150 models do indeed have such tokens; however, they are very infrequent and unlikely to impact model quality. We release our algorithms and code to the public.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.465/
+DO  - 10.18653/v1/2022.acl-long.465
+ER  - 
+
+TY  - CONF
+TI  - What Makes Reading Comprehension Questions Difficult?
+AU  - Sugawara, Saku
+AU  - Nangia, Nikita
+AU  - Warstadt, Alex
+AU  - Bowman, Samuel
+PY  - 2022
+AB  - For a natural language understanding benchmark to be useful in research, it has to consist of examples that are diverse and difficult enough to discriminate among current and near-future state-of-the-art systems. However, we do not yet know how best to select text sources to collect a variety of challenging examples. In this study, we crowdsource multiple-choice reading comprehension questions for passages taken from seven qualitatively distinct sources, analyzing what attributes of passages contribute to the difficulty and question types of the collected examples. To our surprise, we find that passage source, length, and readability measures do not significantly affect question difficulty. Through our manual annotation of seven reasoning types, we observe several trends between passage sources and reasoning types, e.g., logical reasoning is more often required in questions written for technical passages. These results suggest that when creating a new benchmark dataset, selecting a diverse set of passages can help ensure a diverse range of question types, but that passage difficulty need not be a priority.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.479/
+DO  - 10.18653/v1/2022.acl-long.479
+ER  - 
+
+TY  - CONF
+TI  - Boundary Smoothing for Named Entity Recognition
+AU  - Zhu, Enwei
+AU  - Li, Jinpeng
+PY  - 2022
+AB  - Neural named entity recognition (NER) models may easily encounter the over-confidence issue, which degrades the performance and calibration. Inspired by label smoothing and driven by the ambiguity of boundary annotation in NER engineering, we propose boundary smoothing as a regularization technique for span-based neural NER models. It re-assigns entity probabilities from annotated spans to the surrounding ones. Built on a simple but strong baseline, our model achieves results better than or competitive with previous state-of-the-art systems on eight well-known NER benchmarks. Further empirical analysis suggests that boundary smoothing effectively mitigates over-confidence, improves model calibration, and brings flatter neural minima and more smoothed loss landscapes.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.490/
+DO  - 10.18653/v1/2022.acl-long.490
+ER  - 
+
+TY  - CONF
+TI  - Rethinking Negative Sampling for Handling Missing Entity Annotations
+AU  - Li, Yangming
+AU  - Liu, Lemao
+AU  - Shi, Shuming
+PY  - 2022
+AB  - Negative sampling is highly effective in handling missing annotations for named entity recognition (NER). One of our contributions is an analysis on how it makes sense through introducing two insightful concepts: missampling and uncertainty. Empirical studies show low missampling rate and high uncertainty are both essential for achieving promising performances with negative sampling. Based on the sparsity of named entities, we also theoretically derive a lower bound for the probability of zero missampling rate, which is only relevant to sentence length. The other contribution is an adaptive and weighted sampling distribution that further improves negative sampling via our former analysis. Experiments on synthetic datasets and well-annotated datasets (e.g., CoNLL-2003) show that our proposed approach benefits negative sampling in terms of F1 score and loss convergence. Besides, models with improved negative sampling have achieved new state-of-the-art results on real-world datasets (e.g., EC).
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.497/
+DO  - 10.18653/v1/2022.acl-long.497
+ER  - 
+
+TY  - CONF
+TI  - Is GPT-3 Text Indistinguishable from Human Text? Scarecrow: A Framework for Scrutinizing Machine Text
+AU  - Dou, Yao
+AU  - Forbes, Maxwell
+AU  - Koncel-Kedziorski, Rik
+AU  - Smith, Noah A.
+AU  - Choi, Yejin
+PY  - 2022
+AB  - Modern neural language models can produce remarkably fluent and grammatical text. So much, in fact, that recent work by Clark et al. (2021) has reported that conventional crowdsourcing can no longer reliably distinguish between machine-authored (GPT-3) and human-authored writing. As errors in machine generations become ever subtler and harder to spot, it poses a new challenge to the research community for robust machine text evaluation. We propose a new framework called Scarecrow for scrutinizing machine text via crowd annotation. To support the broad range of real machine errors that can be identified by laypeople, the ten error categories of Scarecrow—such as redundancy, commonsense errors, and incoherence—are identified through several rounds of crowd annotation experiments without a predefined ontology. We then use Scarecrow to collect over 41k error spans in human-written and machine-generated paragraphs of English language news text. We isolate factors for detailed analysis, including parameter count, training data, and various decoding-time configurations. Our approach successfully quantifies measurable gaps between human authored text and generations from models of several sizes, including fourteen configurations of GPT-3. In addition, our analysis unveils new insights, with detailed rationales provided by laypeople, e.g., that the commonsense capabilities have been improving with larger models while math capabilities have not, and that the choices of simple decoding hyperparameters can make remarkable differences on the perceived quality of machine text. We release our training material, annotation toolkit and dataset at https://yao-dou.github.io/scarecrow/.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.501/
+DO  - 10.18653/v1/2022.acl-long.501
+ER  - 
+
+TY  - CONF
+TI  - Few-shot Controllable Style Transfer for Low-Resource Multilingual Settings
+AU  - Krishna, Kalpesh
+AU  - Nathani, Deepak
+AU  - Garcia, Xavier
+AU  - Samanta, Bidisha
+AU  - Talukdar, Partha
+PY  - 2022
+AB  - Style transfer is the task of rewriting a sentence into a target style while approximately preserving content. While most prior literature assumes access to a large style-labelled corpus, recent work (Riley et al. 2021) has attempted “few-shot” style transfer using only 3-10 sentences at inference for style extraction. In this work we study a relevant low-resource setting: style transfer for languages where no style-labelled corpora are available. We notice that existing few-shot methods perform this task poorly, often copying inputs verbatim. We push the state-of-the-art for few-shot style transfer with a new method modeling the stylistic difference between paraphrases. When compared to prior work, our model achieves 2-3x better performance in formality transfer and code-mixing addition across seven languages. Moreover, our method is better at controlling the style transfer magnitude using an input scalar knob. We report promising qualitative results for several attribute transfer tasks (sentiment transfer, simplification, gender neutralization, text anonymization) all without retraining the model. Finally, we find model evaluation to be difficult due to the lack of datasets and metrics for many languages. To facilitate future research we crowdsource formality annotations for 4000 sentence pairs in four Indic languages, and use this data to design our automatic evaluations.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.514/
+DO  - 10.18653/v1/2022.acl-long.514
+ER  - 
+
+TY  - CONF
+TI  - Adapting Coreference Resolution Models through Active Learning
+AU  - Yuan, Michelle
+AU  - Xia, Patrick
+AU  - May, Chandler
+AU  - Van Durme, Benjamin
+AU  - Boyd-Graber, Jordan
+PY  - 2022
+AB  - Neural coreference resolution models trained on one dataset may not transfer to new, low-resource domains. Active learning mitigates this problem by sampling a small subset of data for annotators to label. While active learning is well-defined for classification tasks, its application to coreference resolution is neither well-defined nor fully understood. This paper explores how to actively label coreference, examining sources of model uncertainty and document reading costs. We compare uncertainty sampling strategies and their advantages through thorough error analysis. In both synthetic and human experiments, labeling spans within the same document is more effective than annotating spans across documents. The findings contribute to a more realistic development of coreference resolution models.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.519/
+DO  - 10.18653/v1/2022.acl-long.519
+ER  - 
+
+TY  - CONF
+TI  - Do self-supervised speech models develop human-like perception biases?
+AU  - Millet, Juliette
+AU  - Dunbar, Ewan
+PY  - 2022
+AB  - Self-supervised models for speech processing form representational spaces without using any external labels. Increasingly, they appear to be a feasible way of at least partially eliminating costly manual annotations, a problem of particular concern for low-resource languages. But what kind of representational spaces do these models construct?Human perception specializes to the sounds of listeners’ native languages. Does the same thing happen in self-supervised models? We examine the representational spaces of three kinds of state of the art self-supervised models: wav2vec, HuBERT and contrastive predictive coding (CPC), and compare them with the perceptual spaces of French-speaking and English-speaking human listeners, both globally and taking account of the behavioural differences between the two language groups. We show that the CPC model shows a small native language effect, but that wav2vec and HuBERT seem to develop a universal speech perception space which is not language specific. A comparison against the predictions of supervised phone recognisers suggests that all three self-supervised models capture relatively fine-grained perceptual phenomena, while supervised models are better at capturing coarser, phone-level effects, and effects of listeners’ native language, on perception.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.523/
+DO  - 10.18653/v1/2022.acl-long.523
+ER  - 
+
+TY  - CONF
+TI  - Learning to Generalize to More: Continuous Semantic Augmentation for Neural Machine Translation
+AU  - Wei, Xiangpeng
+AU  - Yu, Heng
+AU  - Hu, Yue
+AU  - Weng, Rongxiang
+AU  - Luo, Weihua
+AU  - Jin, Rong
+PY  - 2022
+AB  - The principal task in supervised neural machine translation (NMT) is to learn to generate target sentences conditioned on the source inputs from a set of parallel sentence pairs, and thus produce a model capable of generalizing to unseen instances. However, it is commonly observed that the generalization performance of the model is highly influenced by the amount of parallel data used in training. Although data augmentation is widely used to enrich the training data, conventional methods with discrete manipulations fail to generate diverse and faithful training samples. In this paper, we present a novel data augmentation paradigm termed Continuous Semantic Augmentation (CsaNMT), which augments each training instance with an adjacency semantic region that could cover adequate variants of literal expression under the same meaning. We conduct extensive experiments on both rich-resource and low-resource settings involving various language pairs, including WMT14 English→German,French, NIST Chinese→English and multiple low-resource IWSLT translation tasks. The provided empirical evidences show that CsaNMT sets a new level of performance among existing augmentation techniques, improving on the state-of-the-art by a large margin. The core codes are contained in Appendix E.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.546/
+DO  - 10.18653/v1/2022.acl-long.546
+ER  - 
+
+TY  - CONF
+TI  - Learning the Beauty in Songs: Neural Singing Voice Beautifier
+AU  - Liu, Jinglin
+AU  - Li, Chengxi
+AU  - Ren, Yi
+AU  - Zhu, Zhiying
+AU  - Zhao, Zhou
+PY  - 2022
+AB  - We are interested in a novel task, singing voice beautification (SVB). Given the singing voice of an amateur singer, SVB aims to improve the intonation and vocal tone of the voice, while keeping the content and vocal timbre. Current automatic pitch correction techniques are immature, and most of them are restricted to intonation but ignore the overall aesthetic quality. Hence, we introduce Neural Singing Voice Beautifier (NSVB), the first generative model to solve the SVB task, which adopts a conditional variational autoencoder as the backbone and learns the latent representations of vocal tone. In NSVB, we propose a novel time-warping approach for pitch correction: Shape-Aware Dynamic Time Warping (SADTW), which ameliorates the robustness of existing time-warping approaches, to synchronize the amateur recording with the template pitch curve. Furthermore, we propose a latent-mapping algorithm in the latent space to convert the amateur vocal tone to the professional one. To achieve this, we also propose a new dataset containing parallel singing recordings of both amateur and professional versions. Extensive experiments on both Chinese and English songs demonstrate the effectiveness of our methods in terms of both objective and subjective metrics. Audio samples are available at https://neuralsvb.github.io. Codes: https://github.com/MoonInTheRiver/NeuralSVB.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.549/
+DO  - 10.18653/v1/2022.acl-long.549
+ER  - 
+
+TY  - CONF
+TI  - Ditch the Gold Standard: Re-evaluating Conversational Question Answering
+AU  - Li, Huihan
+AU  - Gao, Tianyu
+AU  - Goenka, Manan
+AU  - Chen, Danqi
+PY  - 2022
+AB  - Conversational question answering aims to provide natural-language answers to users in information-seeking conversations. Existing conversational QA benchmarks compare models with pre-collected human-human conversations, using ground-truth answers provided in conversational history. It remains unclear whether we can rely on this static evaluation for model development and whether current systems can well generalize to real-world human-machine conversations. In this work, we conduct the first large-scale human evaluation of state-of-the-art conversational QA systems, where human evaluators converse with models and judge the correctness of their answers. We find that the distribution of human machine conversations differs drastically from that of human-human conversations, and there is a disagreement between human and gold-history evaluation in terms of model ranking. We further investigate how to improve automatic evaluations, and propose a question rewriting mechanism based on predicted history, which better correlates with human judgments. Finally, we analyze the impact of various modeling strategies and discuss future directions towards building better conversational question answering systems.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.555/
+DO  - 10.18653/v1/2022.acl-long.555
+ER  - 
+
+TY  - CONF
+TI  - Learning Disentangled Representations of Negation and Uncertainty
+AU  - Vasilakes, Jake
+AU  - Zerva, Chrysoula
+AU  - Miwa, Makoto
+AU  - Ananiadou, Sophia
+PY  - 2022
+AB  - Negation and uncertainty modeling are long-standing tasks in natural language processing. Linguistic theory postulates that expressions of negation and uncertainty are semantically independent from each other and the content they modify. However, previous works on representation learning do not explicitly model this independence. We therefore attempt to disentangle the representations of negation, uncertainty, and content using a Variational Autoencoder. We find that simply supervising the latent representations results in good disentanglement, but auxiliary objectives based on adversarial learning and mutual information minimization can provide additional disentanglement gains.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.574/
+DO  - 10.18653/v1/2022.acl-long.574
+ER  - 
+
+TY  - CONF
+TI  - French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English
+AU  - N{\'e}v{\'e}ol, Aur{\'e}lie
+AU  - Dupont, Yoann
+AU  - Bezan{\c{c}}on, Julien
+AU  - Fort, Kar{\"e}n
+PY  - 2022
+AB  - Warning: This paper contains explicit statements of offensive stereotypes which may be upsetting. Much work on biases in natural language processing has addressed biases linked to the social and cultural experience of English speaking individuals in the United States. We seek to widen the scope of bias studies by creating material to measure social bias in language models (LMs) against specific demographic groups in France. We build on the US-centered CrowS-pairs dataset to create a multilingual stereotypes dataset that allows for comparability across languages while also characterizing biases that are specific to each country and language. We introduce 1,679 sentence pairs in French that cover stereotypes in ten types of bias like gender and age. 1,467 sentence pairs are translated from CrowS-pairs and 212 are newly crowdsourced. The sentence pairs contrast stereotypes concerning underadvantaged groups with the same sentence concerning advantaged groups. We find that four widely used language models (three French, one multilingual) favor sentences that express stereotypes in most bias categories. We report on the translation process from English into French, which led to a characterization of stereotypes in CrowS-pairs including the identification of US-centric cultural traits. We offer guidelines to further extend the dataset to other languages and cultural environments.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.583/
+DO  - 10.18653/v1/2022.acl-long.583
+ER  - 
+
+TY  - CONF
+TI  - Generating Biographies on Wikipedia: The Impact of Gender Bias on the Retrieval-Based Generation of Women Biographies
+AU  - Fan, Angela
+AU  - Gardent, Claire
+PY  - 2022
+AB  - Generating factual, long-form text such as Wikipedia articles raises three key challenges: how to gather relevant evidence, how to structure information into well-formed text, and how to ensure that the generated text is factually correct. We address these by developing a model for English text that uses a retrieval mechanism to identify relevant supporting information on the web and a cache-based pre-trained encoder-decoder to generate long-form biographies section by section, including citation information. To assess the impact of available web evidence on the output text, we compare the performance of our approach when generating biographies about women (for which less information is available on the web) vs. biographies generally. To this end, we curate a dataset of 1,500 biographies about women. We analyze our generated text to understand how differences in available web evidence data affect generation. We evaluate the factuality, fluency, and quality of the generated texts using automatic metrics and human evaluation. We hope that these techniques can be used as a starting point for human writers, to aid in reducing the complexity inherent in the creation of long-form, factual text.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.586/
+DO  - 10.18653/v1/2022.acl-long.586
+ER  - 
+
+TY  - CONF
+TI  - Your Answer is Incorrect... Would you like to know why? Introducing a Bilingual Short Answer Feedback Dataset
+AU  - Filighera, Anna
+AU  - Parihar, Siddharth
+AU  - Steuer, Tim
+AU  - Meuser, Tobias
+AU  - Ochs, Sebastian
+PY  - 2022
+AB  - Handing in a paper or exercise and merely receiving “bad” or “incorrect” as feedback is not very helpful when the goal is to improve. Unfortunately, this is currently the kind of feedback given by Automatic Short Answer Grading (ASAG) systems. One of the reasons for this is a lack of content-focused elaborated feedback datasets. To encourage research on explainable and understandable feedback systems, we present the Short Answer Feedback dataset (SAF). Similar to other ASAG datasets, SAF contains learner responses and reference answers to German and English questions. However, instead of only assigning a label or score to the learners’ answers, SAF also contains elaborated feedback explaining the given score. Thus, SAF enables supervised training of models that grade answers and explain where and why mistakes were made. This paper discusses the need for enhanced feedback models in real-world pedagogical scenarios, describes the dataset annotation process, gives a comprehensive analysis of SAF, and provides T5-based baselines for future comparison.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.587/
+DO  - 10.18653/v1/2022.acl-long.587
+ER  - 
+
+TY  - CONF
+TI  - Bilingual alignment transfers to multilingual alignment for unsupervised parallel text mining
+AU  - Tien, Chih-chan
+AU  - Steinert-Threlkeld, Shane
+PY  - 2022
+AB  - This work presents methods for learning cross-lingual sentence representations using paired or unpaired bilingual texts. We hypothesize that the cross-lingual alignment strategy is transferable, and therefore a model trained to align only two languages can encode multilingually more aligned representations. We thus introduce dual-pivot transfer: training on one language pair and evaluating on other pairs. To study this theory, we design unsupervised models trained on unpaired sentences and single-pair supervised models trained on bitexts, both based on the unsupervised language model XLM-R with its parameters frozen. The experiments evaluate the models as universal sentence encoders on the task of unsupervised bitext mining on two datasets, where the unsupervised model reaches the state of the art of unsupervised retrieval, and the alternative single-pair supervised model approaches the performance of multilingually supervised models. The results suggest that bilingual training techniques as proposed can be applied to get sentence representations with multilingual alignment.
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.595/
+DO  - 10.18653/v1/2022.acl-long.595
+ER  - 
+

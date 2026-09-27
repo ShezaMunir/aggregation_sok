@@ -1,0 +1,169 @@
+TY  - CONF
+TI  - Anti-Regulatory AI: How "AI Safety" is Leveraged Against Regulatory Oversight
+AU  - Yew, Rui-Jie
+AU  - Judge, Brian
+PY  - 2025
+AB  - AI companies increasingly develop and deploy privacy-enhancing technologies, bias-constraining measures, evaluation frameworks, and alignment techniques — framing them as addressing concerns related to data privacy, algorithmic fairness, and AI safety. This paper examines the ulterior function of these technologies as mechanisms of legal influence. First, we examine how encryption, federated learning, and synthetic data — presented as enhancing privacy and reducing bias — can operate as mechanisms of avoidance with existing regulations in attempts to place data operations outside the scope of traditional regulatory frameworks. Second, we investigate how emerging AI safety practices including open-source model releases, evaluations, and alignment techniques can be used as mechanisms of change that direct regulatory focus towards industry-controlled voluntary standards and self-governance. We term this phenomenon anti-regulatory AI — the deployment of ostensibly protective technologies that simultaneously shapes the terms of regulatory oversight. Our analysis additionally reveals how technologies’ anti-regulatory functions are enabled through framing that legitimizes their deployment while obscuring their use as regulatory workarounds. This paper closes with a discussion of policy implications that centers on the consideration of business incentives that drive AI development and the role of technical expertise in assessing whether these technologies fulfill their purported protections.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3763017
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3763017
+ER  - 
+
+TY  - CONF
+TI  - Challenging the Validity of Personality Tests for Large Language Models
+AU  - S\"{u}hr, Tom
+AU  - Dorner, Florian E.
+AU  - Samadi, Samira
+AU  - Kelava, Augustin
+PY  - 2025
+AB  - With large language models (LLMs) like GPT-4 appearing to behave increasingly human-like in text-based interactions, it has become popular to attempt to evaluate personality traits of LLMs using questionnaires originally developed for humans. While reusing measures is a resource-efficient way to evaluate LLMs, careful adaptations are usually required to ensure that assessment results are valid even across human subpopulations. Works that have applied human personality tests to LLMs have not investigated whether these tests measure in LLMs what they measure in humans. In this work, we provide evidence that LLMs’ responses to personality tests systematically deviate from human responses, implying that the results of these tests cannot be interpreted in the same way. Concretely, reverse-coded items (false key items) (e.g. “I am introverted” vs. “I am extraverted”) are often both answered affirmatively. Furthermore, variation across prompts designed to steer LLMs to simulate particular personality types does not follow the clear separation into five independent personality factors, as it does in human samples. In light of these results, we believe that it is important to investigate tests’ validity for LLMs before drawing conclusions about potentially ill-defined concepts such as the “personality” of LLMs.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3763016
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3763016
+ER  - 
+
+TY  - CONF
+TI  - Epistemic vs. Counterfactual Fairness in Allocation of Resources
+AU  - Hosseini, Hadi
+AU  - Kavner, Joshua
+AU  - Sikdar, Sujoy
+AU  - Vaish, Rohit
+AU  - Xia, Lirong
+PY  - 2025
+AB  - Resource allocation is fundamental to a variety of societal decision-making settings, ranging from the distribution of charitable donations to assigning limited public housing among interested families. A central challenge in this context is ensuring fair outcomes, which often requires balancing conflicting preferences of various stakeholders. While extensive research has been conducted on theoretical and algorithmic solutions within the fair division framework, much of this work neglects the subjective perception of fairness by individuals. This study focuses on the fairness notion of envy-freeness (EF), which ensures that no agent prefers the allocation of another agent according to their own preferences. While the existence of exact EF allocations may not always be feasible, various approximate relaxations, such as counterfactual and epistemic EF, have been proposed. Through a series of experiments with human participants, we compare perceptions of fairness between three widely studied counterfactual and epistemic relaxations of EF. Our findings indicate that allocations based on epistemic EF are perceived as fairer than those based on counterfactual relaxations. Additionally, we examine a variety of factors, including scale, balance of outcomes, and cognitive effort involved in evaluating fairness and their role in the complexity of reasoning across treatments.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3763009
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3763009
+ER  - 
+
+TY  - CONF
+TI  - FairWAG: Fairness-aware Weighted Aggregation for Graph Learning in a Federated Setting
+AU  - Lo, Kuan-Chieh
+AU  - He, Yuntian
+AU  - Jiang, Yuze
+AU  - Parthasarathy, Srinivasan
+PY  - 2025
+AB  - Graph representation learning has revolutionized the modeling of complex relationships in networked data. While federated graph learning (FGL) enables privacy-preserving collaborative training across multiple clients, ensuring demographic fairness becomes challenging with heterogeneously distributed sensitive data. We identify that existing bias mitigation algorithms in federated learning struggle to maintain fairness when client data exhibits a high demographic skew. To address this, we introduce FairWAG (Fairness-aware Weighted Aggregation for Graphs). This novel federated framework preserves demographic fairness in graph representation learning across varying bias levels. Our approach leverages a core idea from cooperative game theory (Shapley Values) to quantify client models’ contributions to performance and fairness, enabling adaptive aggregation weights. Additionally, we measure model neuron sensitivities to class labels and sensitive attributes, allowing for fine-grained aggregation that further optimizes the performance-fairness trade-off. The experimental results demonstrate that our framework achieves superior performance-fairness trade-offs compared to existing algorithms across different scenarios.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3763013
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3763013
+ER  - 
+
+TY  - CONF
+TI  - From Incidents to Insights: Patterns of Responsibility following AI Harms
+AU  - Richards, Isabel
+AU  - Benn, Claire
+AU  - Zilka, Miri
+PY  - 2025
+AB  - The AI Incident Database (AIID) was inspired by aviation safety databases, which enable collective learning from failures to prevent future incidents. The database documents hundreds of AI Harm events, collected manually from the news and media. However, recent criticism highlights that the AIID’s reliance on media reporting limits its utility for learning about implementation failures. In this paper, we argue that the AIID’s value goes beyond technically-focused learning, since the dataset provides highly valuable insights into the reactions of developers, deployers, victims, wider society, and law-makers after AI failures. Through a three-tier mixed-methods analysis of 962 incidents and 4,743 related reports from the AIID, we examine patterns across incidents, focusing on cases with subsequent public responses tagged in the database. We identify common ‘typical’ incidents found in the AIID, from Tesla crashes to deepfake scams. Focusing on this interplay between relevant parties, we uncover patterns in accountability and social expectations of responsibility. We find that the presence of identifiable responsible parties does not necessarily lead to increased accountability. The likelihood of a response and what it amounts to depends highly on context, including who built the technology, who was harmed, and to what extent. Controversy-rich incidents provide valuable data about societal reactions, including insights around social expectations regarding responses. Equally informative are cases where expected controversy is notably absent. This work shows that the AIID’s value lies not just in preventing technical failures, but in documenting and making visible patterns of harms and of institutional response and social learning around AI incidents. These patterns offer crucial insights for understanding how society adapts to and governs emerging AI technologies.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3763018
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3763018
+ER  - 
+
+TY  - CONF
+TI  - How Much Effort Is Enough? Fairness in Algorithmic Recourse Through the Lens of Substantive Equality of Opportunity
+AU  - Bell, Andrew
+AU  - Fonseca, Joao
+AU  - Abrate, Carlo
+AU  - Bonchi, Francesco
+AU  - Stoyanovich, Julia
+PY  - 2025
+AB  - Algorithmic recourse, or enabling individuals to reverse a negative outcome, has gained attention as a means of supporting human agency in interactions with artificial intelligence (AI) systems. However, recent work has shown that even if a decision-making classifier is fair according to reasonable criteria, recourse itself may be unfair. Members of disadvantaged groups may have to work harder than their more privileged peers to reverse a negative outcome. In this paper, we introduce effort-aware fairness, which treats algorithmic recourse through the lens of substantive equality of opportunity. It acknowledges that individuals from different groups may not be comparably well-equipped to act on their recourse, resulting in disparities in their chances of reversing unfavorable outcomes. These disparities, shaped by differing effort distributions among demographic groups, can be exacerbated over time. We provide a formal definition of effort-aware fairness, propose fairness metrics, and then develop an intervention that improves recourse fairness by rewarding effort. Through empirical comparison with existing strategies, we demonstrate that this intervention successfully mitigates disparities. Our conceptual framework and experimental evaluation build upon prior work that uses an agent-based model for simulating real-world recourse over time.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3763014
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3763014
+ER  - 
+
+TY  - CONF
+TI  - Identity-related Speech Suppression in Generative AI Content Moderation
+AU  - Proebsting, Grace
+AU  - Anigboro, Oghenefejiro Isaacs
+AU  - Crawford, Charlie M.
+AU  - Metaxa, Dana\'{e}
+AU  - Friedler, Sorelle A.
+PY  - 2025
+AB  - Automated content moderation has long been used to help identify and filter undesired user-generated content online. But such systems have a history of incorrectly flagging content by and about marginalized identities for removal. Generative AI systems now use such filters to keep undesired generated content from being created by or shown to users. While a lot of focus has been given to making sure such systems do not produce undesired outcomes, considerably less attention has been paid to making sure appropriate text can be generated. From classrooms to Hollywood, as generative AI is increasingly used for creative or expressive text generation, whose stories will these technologies allow to be told, and whose will they suppress?In this paper, we define and introduce measures of speech suppression, focusing on speech related to different identity groups incorrectly filtered by a range of content moderation APIs. Using both short-form, user-generated datasets traditional in content moderation and longer generative AI-focused data, including two datasets we introduce in this work, we create a benchmark for measurement of speech suppression for nine identity groups. Across one traditional and four generative AI-focused automated content moderation services tested, we find that identity-related speech is more likely to be incorrectly suppressed than other speech. We find that reasons for incorrect flagging behavior vary by identity based on stereotypes and text associations, with, e.g., disability-related content more likely to be flagged for self-harm or health-related reasons while non-Christian content is more likely to be flagged as violent or hateful. As generative AI systems are increasingly used for creative work, we urge further attention to how this may impact the creation of identity-related content.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3763010
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3763010
+ER  - 
+
+TY  - CONF
+TI  - AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights
+AU  - Xu, Jiannan
+AU  - Li, Gujie
+AU  - Jiang, Jane Yi
+PY  - 2025
+AB  - As generative artificial intelligence (AI) tools become widely adopted, large language models (LLMs) are increasingly involved on both sides of decision-making processes, ranging from hiring to content moderation. This dual adoption raises a critical question: do LLMs systematically favor content that resembles their own outputs? Prior research in computer science has identified self-preference bias—the tendency of LLMs to favor their own generated content—but its real-world implications have not been empirically evaluated. We focus on the hiring context, where job applicants often rely on LLMs to refine resumes, while employers deploy them to screen those same resumes. Using a large-scale controlled resume correspondence experiment, we find that LLMs consistently prefer resumes generated by themselves over those written by humans or produced by alternative models, even when content quality is controlled. The bias against human-written resumes is particularly substantial, with self-preference bias ranging from (68\%) to (88\%) across major commercial and open-source models. To assess labor market impact, we simulate realistic hiring pipelines across 24 occupations. These simulations show that candidates using the same LLM as the evaluator are (23\%) to (60\%) more likely to be shortlisted than equally qualified applicants submitting human-written resumes, with the largest disadvantages observed in business-related fields such as sales and accounting. We further demonstrate that this bias can be reduced by more than (50\%) through simple interventions targeting LLMs’ self-recognition capabilities. These findings highlight an emerging but previously overlooked risk in AI-assisted decision making and call for expanded frameworks of AI fairness that address not only demographic-based disparities, but also biases in AI-AI interactions.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3767676
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3767676
+ER  - 
+
+TY  - CONF
+TI  - Africa Health Check: Probing Cultural Bias in Medical LLMs
+AU  - Nimo, Charles
+AU  - Essa, Irfan
+AU  - Best, Michael
+PY  - 2025
+AB  - Large language models (LLMs) are increasingly deployed in global healthcare, yet their outputs often reflect Western-centric training data and omit indigenous medical systems and region-specific treatments. This study investigates cultural bias in instruction-tuned medical LLMs using a curated dataset of African traditional herbal medicine. We evaluate model behavior across two complementary tasks, namely, multiple-choice questions and fill-in-the-blank completions, designed to capture both treatment preferences and responsiveness to cultural context. To quantify outcome preferences and prompt influences, we apply two complementary metrics: Cultural Bias Score (CBS) and Cultural Bias Attribution (CBA). Our results show that while prompt adaptation can reduce inherent bias and enhance cultural alignment, models vary in how responsive they are to contextual guidance. Persistent default to allopathic1 (Western) treatments in zero-shot scenarios suggest that many biases remain embedded in model training. These findings underscore the need for culturally informed evaluation strategies to guide the development of AI systems that equitably serve diverse global health contexts. By releasing our dataset and providing a dual-metric evaluation approach, we offer practical tools for developing more culturally aware and clinically grounded AI systems for healthcare settings in the Global South.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3767687
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3767687
+ER  - 
+
+TY  - CONF
+TI  - Direct Alignment with Heterogeneous Preferences
+AU  - Shirali, Ali
+AU  - Nasr-Esfahany, Arash
+AU  - Alomar, Abdullah Omar
+AU  - Mirtaheri, Parsa
+AU  - Abebe, Rediet
+AU  - Procaccia, Ariel D.
+PY  - 2025
+AB  - Alignment with human preferences is commonly framed using a universal reward function, even though human preferences are inherently heterogeneous. We formalize this heterogeneity by introducing user types and examine the limits of the homogeneity assumption. We show that aligning to heterogeneous preferences with a single policy is best achieved using the average reward across user types. However, this requires additional information about annotators. We examine improvements under different information settings, focusing on direct alignment methods. We find that minimal information can yield first-order improvements, while full feedback from each user type leads to consistent learning of the optimal policy. Surprisingly, however, no sample-efficient consistent direct loss exists in this latter setting. These results reveal a fundamental tension between consistency and sample efficiency in direct policy alignment.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3767678
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3767678
+ER  - 
+
+TY  - CONF
+TI  - Human-AI Collaboration with Misaligned Preferences
+AU  - Song, Jiaxin
+AU  - Shahkar, Parnian
+AU  - Donahue, Kate
+AU  - Chaudhury, Bhaskar Ray
+PY  - 2025
+AB  - In many real-life settings, algorithms play the role of assistants, while humans ultimately make the final decision. Often, algorithms specifically act as curators, narrowing down a wide range of options into a smaller subset that the human picks between: consider content recommendation or chatbot responses to questions with multiple valid answers. This type of role is one of the most common in human-algorithm systems, such as content recommendation, search, and some types of categorical prediction. For instance, when a user requests directions, Google Maps returns a small set of routes, and the user typically picks her final route from those routes presented. Crucially, humans may not know their own preferences perfectly either, but instead may only have access to a noisy sampling over preferences. Algorithms can assist humans by curating a smaller subset of items, but must also face the challenge of misalignment: humans may have different preferences from each other (and from the algorithm), and the algorithm may not know the exact preferences of the human they are facing at any point.In this paper, we model and theoretically study such a setting. There are two actors: an algorithm and a human in the human-algorithm collaboration model. A set of items M = x1, …, xm representing different outcomes (e.g., labels in prediction tasks, generative model output). The specific mode of interaction we assume is where the algorithm picks their top k from some noisy ranking over items, and the human picks their favorite among that set, according to their own noisy ranking over items.Our first finding is that there are settings where misalignment can be helpful. We consider the setting where the human may work with multiple algorithms with different ground-truth. We show instances where the human benefit by collaborating with a misaligned algorithm. Surprisingly, we show that humans gain more utility from a misaligned algorithm (which makes different mistakes) than from an aligned algorithm. The key insight is that appropriate misalignment on low-valued items can increase the likelihood that humans select high-valued items. Next, we build the algorithm by studying two welfare objectives: utilitarian welfare and uplift. Social welfare measures the expected utility of the human, while uplift requires each type of human to benefit from the collaboration. While these two objectives do not always align with each other (i.e., there exist instances where the utilitarian welfare maximizing algorithm does not achieve uplift and vice versa), we design different approaches for achieving these two objectives. For utilitarian welfare maximization, we show that it is NP-hard and design an MIP that solves it effectively in practice. Meanwhile, although an uplift algorithm may not always exist in general, we provide some special scenarios where a naturally designed algorithm can always achieve uplift. We conclude by discussing implications for designers of algorithmic tools and policymakers.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3767691
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3767691
+ER  - 
+
+TY  - CONF
+TI  - Labeling in Their Shoes: Improving Text Annotation with Cognitive Empathy Priming
+AU  - Kwon, Sung Hyun
+AU  - Clark, Jessica
+AU  - Hann, Il-Horn
+AU  - Ramaprasad, Jui
+PY  - 2025
+AB  - Labels created by human annotators are essential for developing and assessing machine learning systems, particularly in areas involving subjective judgment. In cases where personal viewpoints influence labeling decisions, crowd-sourced annotators often struggle to achieve agreement and consistently deviate from expert consensus. Detecting sexist material represents one such perspective-sensitive context. We find consistent disagreement both among annotators themselves and between annotators and experts consensus, a pattern that continues even with many annotators. This misalignment significantly impacts the performance of large language models when fine-tuned on these inconsistent annotations. To address this, we introduce cognitive empathy priming (CEP), a scalable psychological intervention that enhances annotators’ ability to consider perspectives beyond their own. CEP markedly enhances annotation accuracy: treated annotators demonstrate 8-20 percentage point improvements in alignment with expert consensus compared to those who did not receive priming. These enhancements directly translate directly to model performance. Large language models fine-tuned on CEP-treated labels show roughly 16\% better alignment with expert consensus labels compared to models trained on standard annotations. Additional robustness tests confirm these findings hold even when accounting for potential expert biases. This study provides a practical, cost-effective solution to enhance the quality of AI training datasets, with particular relevance for content filtering and bias detection.
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3767690
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3767690
+ER  - 
+
+TY  - CONF
+TI  - Why the Rooney Rule Fumbles: Limitations of Interview-stage Diversity Interventions in Labor Markets
+AU  - Farajollahzadeh, Setareh
+AU  - Lee, Soonbong
+AU  - Manshadi, Vahideh
+AU  - Monachou, Faidra
+PY  - 2025
+AB  - Many industries, including the NFL with the Rooney Rule and law firms with the Mansfield Rule, have adopted interview-stage diversity interventions requiring a minimum representation of disadvantaged groups in the interview set. However, the effectiveness of such policies remains inconclusive. In light of this, we develop a framework of a two-stage hiring process, where rational firms, with limited interview and hiring capacities, aim to maximize the match value of their hires. The labor market consists of two equally sized social groups, m and w, with identical ex-post match value distributions. Match values are revealed only post-interview, while interview decisions rely on partially informative pre-interview scores. Pre-interview scores are more informative for group m, while interviews reveal more for group w; as a result, if firms could interview all candidates, both groups would be equally hired. However, due to limited interview capacity and information asymmetry, we show that requiring equal representation in the interview stage does not translate into equal representation in the hiring outcome, even though interviews are more informative for group w. In certain regimes, with or without intervention, a firm may interview more group w candidates but still hire fewer. At an individual level, we show that strong candidates from both groups benefit from the intervention as the candidate-level competition weakens. For borderline candidates, only group w candidates gain at the expense of group m. To understand the impact of non-universal interview-stage interventions on the market, we study a model with two vertically differentiated firms, where only the top firm adopts the intervention. We characterize the unique equilibrium and demonstrate potentially negative effects: we show that in certain regimes the lower firm hires fewer group w candidates due to increased firm-level competition for them, and further find examples where overall fewer group w candidates are hired across the market. At an individual level, while superstar candidates in both groups benefit, surprisingly the impact on borderline candidates may reverse: the lower firm may replace borderline group w candidates with borderline group m candidates in its interview set, effectively reducing the chance of those borderline group w candidates being hired. Overall, our findings highlight challenges in diversifying the labor market at early hiring stages due to information asymmetry, filtering, and competition. Beyond our context, our natural framework of a market with two-stage hiring may be of independent interest.The full version of our paper is available at .
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3757887.3767686
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3757887.3767686
+ER  - 
+

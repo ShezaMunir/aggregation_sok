@@ -1,0 +1,1819 @@
+TY  - CONF
+TI  - LipType: A Silent Speech Recognizer Augmented with an Independent Repair Model
+AU  - Pandey, Laxmi
+AU  - Arif, Ahmed Sabbir
+PY  - 2021
+AB  - Speech recognition is unreliable in noisy places, compromises privacy and security when around strangers, and inaccessible to people with speech disorders. Lip reading can mitigate many of these challenges but the existing silent speech recognizers for lip reading are error prone. Developing new recognizers and acquiring new datasets is impractical for many since it requires enormous amount of time, effort, and other resources. To address these, first, we develop LipType, an optimized version of LipNet for improved speed and accuracy. We then develop an independent repair model that processes video input for poor lighting conditions, when applicable, and corrects potential errors in output for increased accuracy. We then test this model with LipType and other speech and silent speech recognizers to demonstrate its effectiveness.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445565
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445565
+ER  - 
+
+TY  - CONF
+TI  - RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniature Radar Sensor
+AU  - Hayashi, Eiji
+AU  - Lien, Jaime
+AU  - Gillian, Nicholas
+AU  - Giusti, Leonardo
+AU  - Weber, Dave
+AU  - Yamanaka, Jin
+AU  - Bedal, Lauren
+AU  - Poupyrev, Ivan
+PY  - 2021
+AB  - Gestures are a promising candidate as an input modality for ambient computing where conventional input modalities such as touchscreens are not available. Existing works have focused on gesture recognition using image sensors. However, their cost, high battery consumption, and privacy concerns made cameras challenging as an always-on solution. This paper introduces an efficient gesture recognition technique using a miniaturized 60 GHz radar sensor. The technique recognizes four directional swipes and an omni-swipe using a radar chip (6.5 \texttimes 5.0 mm) integrated into a mobile phone. We developed a convolutional neural network model efficient enough for battery powered and computationally constrained processors. Its model size and inference time is less than 1/5000 compared to an existing gesture recognition technique using radar. Our evaluations with large scale datasets consisting of 558,000 gesture samples and 3,920,000 negative samples demonstrated our algorithm’s efficiency, robustness, and readiness to be deployed outside of research laboratories.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445367
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445367
+ER  - 
+
+TY  - CONF
+TI  - Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison
+AU  - Wu, Aoyu
+AU  - Xie, Liwenhan
+AU  - Lee, Bongshin
+AU  - Wang, Yun
+AU  - Cui, Weiwei
+AU  - Qu, Huamin
+PY  - 2021
+AB  - We contribute a method to automate parameter configurations for chart layouts by learning from human preferences. Existing charting tools usually determine the layout parameters using predefined heuristics, producing sub-optimal layouts. People can repeatedly adjust multiple parameters (e.g., chart size, gap) to achieve visually appealing layouts. However, this trial-and-error process is unsystematic and time-consuming, without a guarantee of improvement. To address this issue, we develop Layout Quality Quantifier (LQ2), a machine learning model that learns to score chart layouts from paired crowdsourcing data. Combined with optimization techniques, LQ2 recommends layout parameters that improve the charts’ layout quality. We apply LQ2 on bar charts and conduct user studies to evaluate its effectiveness by examining the quality of layouts it produces. Results show that LQ2 can generate more visually appealing layouts than both laypeople and baselines. This work demonstrates the feasibility and usages of quantifying human preferences and aesthetics for chart layouts.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445179
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445179
+ER  - 
+
+TY  - CONF
+TI  - Modeling and Leveraging Analytic Focus During Exploratory Visual Analysis
+AU  - Zhou, Zhilan
+AU  - Wen, Ximing
+AU  - Wang, Yue
+AU  - Gotz, David
+PY  - 2021
+AB  - Visual analytics systems enable highly interactive exploratory data analysis. Across a range of fields, these technologies have been successfully employed to help users learn from complex data. However, these same exploratory visualization techniques make it easy for users to discover spurious findings. This paper proposes new methods to monitor a user’s analytic focus during visual analysis of structured datasets and use it to surface relevant articles that contextualize the visualized findings. Motivated by interactive analyses of electronic health data, this paper introduces a formal model of analytic focus, a computational approach to dynamically update the focus model at the time of user interaction, and a prototype application that leverages this model to surface relevant medical publications to users during visual analysis of a large corpus of medical records. Evaluation results with 24 users show that the modeling approach has high levels of accuracy and is able to surface highly relevant medical abstracts.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445674
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445674
+ER  - 
+
+TY  - CONF
+TI  - reVISit: Looking Under the Hood of Interactive Visualization Studies
+AU  - Nobre, Carolina
+AU  - Wootton, Dylan
+AU  - Cutler, Zach
+AU  - Harrison, Lane
+AU  - Pfister, Hanspeter
+AU  - Lex, Alexander
+PY  - 2021
+AB  - Quantifying user performance with metrics such as time and accuracy does not show the whole picture when researchers evaluate complex, interactive visualization tools. In such systems, performance is often influenced by different analysis strategies that statistical analysis methods cannot account for. To remedy this lack of nuance, we propose a novel analysis methodology for evaluating complex interactive visualizations at scale. We implement our analysis methods in reVISit, which enables analysts to explore participant interaction performance metrics and responses in the context of users’ analysis strategies. Replays of participant sessions can aid in identifying usability problems during pilot studies and make individual analysis processes salient. To demonstrate the applicability of reVISit to visualization studies, we analyze participant data from two published crowdsourced studies. Our findings show that reVISit can be used to reveal and describe novel interaction patterns, to analyze performance differences between different analysis strategies, and to validate or challenge design decisions.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445382
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445382
+ER  - 
+
+TY  - CONF
+TI  - Exploring Technology Design for Students with Vision Impairment in the Classroom and Remotely
+AU  - Gadiraju, Vinitha
+AU  - Doyle, Olwyn
+AU  - Kane, Shaun
+PY  - 2021
+AB  - Teachers of the Visually Impaired (TVIs) teach academic and functional living skills simultaneously to prepare students with vision impairment to be successful and independent. Current educational tools primarily focus on academic instruction rather than this multifaceted approach needed for students. Our work aims to understand how technology can integrate behavioral skills, like independence, and support TVIs in their preferred teaching strategy. We observed elementary classrooms at a school for the blind for six weeks to study how educators design lessons and use technology to supplement their instruction in different subjects. After the observational study, we conducted remote interviews with educators to understand how technology can support students in building academic and behavioral skills in-person and remotely. Educators suggested incorporating audio feedback that motivates students to play and learn consistently, student progress tracking for parents and educators, and designing features that help students build independence and develop collaborative skills.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445755
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445755
+ER  - 
+
+TY  - CONF
+TI  - LightWrite: Teach Handwriting to The Visually Impaired with A Smartphone
+AU  - Wu, Zihan
+AU  - Yu, Chun
+AU  - Xu, Xuhai
+AU  - Wei, Tong
+AU  - Zou, Tianyuan
+AU  - Wang, Ruolin
+AU  - Shi, Yuanchun
+PY  - 2021
+AB  - Learning to write is challenging for blind and low vision (BLV) people because of the lack of visual feedback. Regardless of the drastic advancement of digital technology, handwriting is still an essential part of daily life. Although tools designed for teaching BLV to write exist, many are expensive and require the help of sighted teachers. We propose LightWrite, a low-cost, easy-to-access smartphone application that uses voice-based descriptive instruction and feedback to teach BLV users to write English lowercase letters and Arabian digits in a specifically designed font. A two-stage study with 15 BLV users with little prior writing knowledge shows that LightWrite can successfully teach users to learn handwriting characters in an average of 1.09 minutes for each letter. After initial training and 20-minute daily practice for 5 days, participants were able to write an average of 19.9 out of 26 letters that are recognizable by sighted raters.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445322
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445322
+ER  - 
+
+TY  - CONF
+TI  - “Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI
+AU  - Sambasivan, Nithya
+AU  - Kapania, Shivani
+AU  - Highfill, Hannah
+AU  - Akrong, Diana
+AU  - Paritosh, Praveen
+AU  - Aroyo, Lora M
+PY  - 2021
+AB  - AI models are increasingly applied in high-stakes domains like health and conservation. Data quality carries an elevated significance in high-stakes AI due to its heightened downstream impact, impacting predictions like cancer detection, wildlife poaching, and loan allocations. Paradoxically, data is the most under-valued and de-glamorised aspect of AI. In this paper, we report on data practices in high-stakes AI, from interviews with 53 AI practitioners in India, East and West African countries, and USA. We define, identify, and present empirical evidence on Data Cascades—compounding events causing negative, downstream effects from data issues—triggered by conventional AI/ML practices that undervalue data quality. Data cascades are pervasive (92\% prevalence), invisible, delayed, but often avoidable. We discuss HCI opportunities in designing and incentivizing data excellence as a first-class citizen of AI, resulting in safer and more robust systems for all.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445518
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445518
+ER  - 
+
+TY  - CONF
+TI  - The Role of Working Memory in Program Tracing
+AU  - Crichton, Will
+AU  - Agrawala, Maneesh
+AU  - Hanrahan, Pat
+PY  - 2021
+AB  - Program tracing, or mentally simulating a program on concrete inputs, is an important part of general program comprehension. Programs involve many kinds of virtual state that must be held in memory, such as variable/value pairs and a call stack. In this work, we examine the influence of short-term working memory (WM) on a person’s ability to remember program state during tracing. We first confirm that previous findings in cognitive psychology transfer to the programming domain: people can keep about 7 variable/value pairs in WM, and people will accidentally swap associations between variables due to WM load. We use a restricted focus viewing interface to further analyze the strategies people use to trace through programs, and the relationship of tracing strategy to WM. Given a straight-line program, we find half of our participants traced a program from the top-down line-by-line (linearly), and the other half start at the bottom and trace upward based on data dependencies (on-demand). Participants with an on-demand strategy made more WM errors while tracing straight-line code than with a linear strategy, but the two strategies contained an equal number of WM errors when tracing code with functions. We conclude with the implications of these findings for the design of programming tools: first, programs should be analyzed to identify and refactor human-memory-intensive sections of code. Second, programming environments should interactively visualize variable metadata to reduce WM load in accordance with a person’s tracing strategy. Third, tools for program comprehension should enable externalizing program state while tracing.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445257
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445257
+ER  - 
+
+TY  - CONF
+TI  - Assessing the Impact of Automated Suggestions on Decision Making: Domain Experts Mediate Model Errors but Take Less Initiative
+AU  - Levy, Ariel
+AU  - Agrawal, Monica
+AU  - Satyanarayan, Arvind
+AU  - Sontag, David
+PY  - 2021
+AB  - Automated decision support can accelerate tedious tasks as users can focus their attention where it is needed most. However, a key concern is whether users overly trust or cede agency to automation. In this paper, we investigate the effects of introducing automation to annotating clinical texts&nbsp;—&nbsp;a multi-step, error-prone task of identifying clinical concepts (e.g., procedures) in medical notes, and mapping them to labels in a large ontology. We consider two forms of decision aid: recommending which labels to map concepts to, and pre-populating annotation suggestions. Through laboratory studies, we find that 18 clinicians generally build intuition of when to rely on automation and when to exercise their own judgement. However, when presented with fully pre-populated suggestions, these expert users exhibit less agency: accepting improper mentions, and taking less initiative in creating additional annotations. Our findings inform how systems and algorithms should be designed to mitigate the observed issues.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445522
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445522
+ER  - 
+
+TY  - CONF
+TI  - EventAnchor: Reducing Human Interactions in Event Annotation of Racket Sports Videos
+AU  - Deng, Dazhen
+AU  - Wu, Jiang
+AU  - Wang, Jiachen
+AU  - Wu, Yihong
+AU  - Xie, Xiao
+AU  - Zhou, Zheng
+AU  - Zhang, Hui
+AU  - Zhang, Xiaolong (Luke)
+AU  - Wu, Yingcai
+PY  - 2021
+AB  - The popularity of racket sports (e.g., tennis and table tennis) leads to high demands for data analysis, such as notational analysis, on player performance. While sports videos offer many benefits for such analysis, retrieving accurate information from sports videos could be challenging. In this paper, we propose EventAnchor, a data analysis framework to facilitate interactive annotation of racket sports video with the support of computer vision algorithms. Our approach uses machine learning models in computer vision to help users acquire essential events from videos (e.g., serve, the ball bouncing on the court) and offers users a set of interactive tools for data annotation. An evaluation study on a table tennis annotation system built on this framework shows significant improvement of user performances in simple annotation tasks on objects of interest and complex annotation tasks requiring domain knowledge.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445431
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445431
+ER  - 
+
+TY  - CONF
+TI  - Data-Centric Explanations: Explaining Training Data of Machine Learning Systems to Promote Transparency
+AU  - Anik, Ariful Islam
+AU  - Bunt, Andrea
+PY  - 2021
+AB  - Training datasets fundamentally impact the performance of machine learning (ML) systems. Any biases introduced during training (implicit or explicit) are often reflected in the system's behaviors leading to questions about fairness and loss of trust in the system. Yet, information on training data is rarely communicated to stakeholders. In this work, we explore the concept of data-centric explanations for ML systems that describe the training data to end-users. Through a formative study, we investigate the potential utility of such an approach, including the information about training data that participants find most compelling. In a second study, we investigate reactions to our explanations across four different system scenarios. Our results suggest that data-centric explanations have the potential to impact how users judge the trustworthiness of a system and to assist users in assessing fairness. We discuss the implications of our findings for designing explanations to support users’ perceptions of ML systems.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445736
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445736
+ER  - 
+
+TY  - CONF
+TI  - AutoDS: Towards Human-Centered Automation of Data Science
+AU  - Wang, Dakuo
+AU  - Andres, Josh
+AU  - Weisz, Justin D.
+AU  - Oduor, Erick
+AU  - Dugan, Casey
+PY  - 2021
+AB  - Data science (DS) projects often follow a lifecycle that consists of laborious tasks for data scientists and domain experts (e.g., data exploration, model training, etc.). Only till recently, machine learning(ML) researchers have developed promising automation techniques to aid data workers in these tasks. This paper introduces AutoDS, an automated machine learning (AutoML) system that aims to leverage the latest ML automation techniques to support data science projects. Data workers only need to upload their dataset, then the system can automatically suggest ML configurations, preprocess data, select algorithm, and train the model. These suggestions are presented to the user via a web-based graphical user interface and a notebook-based programming user interface. Our goal is to offer a systematic investigation of user interaction and perceptions of using an AutoDS system in solving a data science task. We studied AutoDS with 30 professional data scientists, where one group used AutoDS, and the other did not, to complete a data science project. As expected, AutoDS improves productivity; Yet surprisingly, we find that the models produced by the AutoDS group have higher quality and less errors, but lower human confidence scores. We reflect on the findings by presenting design implications for incorporating automation techniques into human work in the data science lifecycle.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445526
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445526
+ER  - 
+
+TY  - CONF
+TI  - Evaluating the Interpretability of Generative Models by Interactive Reconstruction
+AU  - Ross, Andrew
+AU  - Chen, Nina
+AU  - Hang, Elisa Zhao
+AU  - Glassman, Elena L.
+AU  - Doshi-Velez, Finale
+PY  - 2021
+AB  - For machine learning models to be most useful in numerous sociotechnical systems, many have argued that they must be human-interpretable. However, despite increasing interest in interpretability, there remains no firm consensus on how to measure it. This is especially true in representation learning, where interpretability research has focused on “disentanglement” measures only applicable to synthetic datasets and not grounded in human factors. We introduce a task to quantify the human-interpretability of generative model representations, where users interactively modify representations to reconstruct target instances. On synthetic datasets, we find performance on this task much more reliably differentiates entangled and disentangled models than baseline approaches. On a real dataset, we find it differentiates between representation learning methods widely believed but never shown to produce more or less interpretable models. In both cases, we ran small-scale think-aloud studies and large-scale experiments on Amazon Mechanical Turk to confirm that our qualitative and quantitative results agreed.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445296
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445296
+ER  - 
+
+TY  - CONF
+TI  - Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance
+AU  - Bansal, Gagan
+AU  - Wu, Tongshuang
+AU  - Zhou, Joyce
+AU  - Fok, Raymond
+AU  - Nushi, Besmira
+AU  - Kamar, Ece
+AU  - Ribeiro, Marco Tulio
+AU  - Weld, Daniel
+PY  - 2021
+AB  - Many researchers motivate explainable AI with studies showing that human-AI team performance on decision-making tasks improves when the AI explains its recommendations. However, prior studies observed improvements from explanations only when the AI, alone, outperformed both the human and the best team. Can explanations help lead to complementary performance, where team accuracy is higher than either the human or the AI working solo? We conduct mixed-method user studies on three datasets, where an AI with accuracy comparable to humans helps participants solve a task (explaining itself in some conditions). While we observed complementary improvements from AI augmentation, they were not increased by explanations. Rather, explanations increased the chance that humans will accept the AI’s recommendation, regardless of its correctness. Our result poses new challenges for human-centered AI: Can we develop explanatory approaches that encourage appropriate trust in AI, and therefore help generate (or improve) complementary performance?
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445717
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445717
+ER  - 
+
+TY  - CONF
+TI  - Designing Ground Truth and the Social Life of Labels
+AU  - Muller, Michael
+AU  - Wolf, Christine T.
+AU  - Andres, Josh
+AU  - Desmond, Michael
+AU  - Joshi, Narendra Nath
+AU  - Ashktorab, Zahra
+AU  - Sharma, Aabhas
+AU  - Brimijoin, Kristina
+AU  - Pan, Qian
+AU  - Duesterwald, Evelyn
+AU  - Dugan, Casey
+PY  - 2021
+AB  - Ground-truth labeling is an important activity in machine learning. Many studies have examined how crowdworkers apply labels to records in machine learning datasets. However, there have been few studies that have examined the work of domain experts when their knowledge and expertise are needed to apply labels. We provide a grounded account of the work of labeling teams with domain experts, including the experiences of labeling, collaborative configurations and work-practices, and quality issues. We show three major patterns in the social design of ground truth data: Principled design, Iterative design, and Improvisational design. We interpret our results through theories of from Human Centered Data Science, and particularly work on human interventions in data science work through the design and creation of data.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445402
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445402
+ER  - 
+
+TY  - CONF
+TI  - To Live in Their Utopia: Why Algorithmic Systems Create Absurd Outcomes
+AU  - Alkhatib, Ali
+PY  - 2021
+AB  - The promise AI’s proponents have made for decades is one in which our needs are predicted, anticipated, and met - often before we even realize it. Instead, algorithmic systems, particularly AIs trained on large datasets and deployed to massive scales, seem to keep making the wrong decisions, causing harm and rewarding absurd outcomes. Attempts to make sense of why AIs make wrong calls in the moment explain the instances of errors, but how the environment surrounding these systems precipitate those instances remains murky. This paper draws from anthropological work on bureaucracies, states, and power, translating these ideas into a theory describing the structural tendency for powerful algorithmic systems to cause tremendous harm. I show how administrative models and projections of the world create marginalization, just as algorithmic models cause representational and allocative harm. This paper concludes with a recommendation to avoid the absurdity algorithmic systems produce by denying them power.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445740
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445740
+ER  - 
+
+TY  - CONF
+TI  - DeepTake: Prediction of Driver Takeover Behavior using Multimodal Data
+AU  - Pakdamanian, Erfan
+AU  - Sheng, Shili
+AU  - Baee, Sonia
+AU  - Heo, Seongkook
+AU  - Kraus, Sarit
+AU  - Feng, Lu
+PY  - 2021
+AB  - Automated vehicles promise a future where drivers can engage in non-driving tasks without hands on the steering wheels for a prolonged period. Nevertheless, automated vehicles may still need to occasionally hand the control back to drivers due to technology limitations and legal requirements. While some systems determine the need for driver takeover using driver context and road condition to initiate a takeover request, studies show that the driver may not react to it. We present DeepTake, a novel deep neural network-based framework that predicts multiple aspects of takeover behavior to ensure that the driver is able to safely take over the control when engaged in non-driving tasks. Using features from vehicle data, driver biometrics, and subjective measurements, DeepTake predicts the driver’s intention, time, and quality of takeover. We evaluate DeepTake performance using multiple evaluation metrics. Results show that DeepTake reliably predicts the takeover intention, time, and quality, with an accuracy of 96\%, 93\%, and 83\%, respectively. Results also indicate that DeepTake outperforms previous state-of-the-art methods on predicting driver takeover time and quality. Our findings have implications for the algorithm development of driver monitoring and state detection.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445563
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445563
+ER  - 
+
+TY  - CONF
+TI  - An Examination of the Work Practices of Crowdfarms
+AU  - Wang, Yihong
+AU  - Papangelis, Konstantinos
+AU  - Saker, Michel
+AU  - Lykourentzou, Ioanna
+AU  - Khan, Vassilis-Javed
+AU  - Chamberlain, Alan
+AU  - Grudin, Jonathan
+PY  - 2021
+AB  - Crowdsourcing is a new value creation business model. Annual revenue of the Chinese market alone is hundreds of millions of dollars, yet few studies have focused on the practices of the Chinese crowdsourcing workforce, and those that do mainly focus on solo crowdworkers. We have extended our study of solo crowdworker practices to include crowdfarms, a relatively new entry to the gig economy: small companies that carry out crowdwork as a key part of their business. We report here on interviews of people who work in 53 crowdfarms. We describe how crowdfarms procure jobs, carry out macrotasks and microtasks, manage their reputation, and employ different management practices to motivate crowdworkers and customers.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445603
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445603
+ER  - 
+
+TY  - CONF
+TI  - Human-AI Interaction in Human Resource Management: Understanding Why Employees Resist Algorithmic Evaluation at Workplaces and How to Mitigate Burdens
+AU  - Park, Hyanghee
+AU  - Ahn, Daehwan
+AU  - Hosanagar, Kartik
+AU  - Lee, Joonhwan
+PY  - 2021
+AB  - Recently, Artificial Intelligence (AI) has been used to enable efficient decision-making in managerial and organizational contexts, ranging from employment to dismissal. However, to avoid employees’ antipathy toward AI, it is important to understand what aspects of AI employees like and/or dislike. In this paper, we aim to identify how employees perceive current human resource (HR) teams and future algorithmic management. Specifically, we explored what factors negatively influence employees’ perceptions of AI making work performance evaluations. Through in-depth interviews with 21 workers, we found that 1) employees feel six types of burdens (i.e., emotional, mental, bias, manipulation, privacy, and social) toward AI's introduction to human resource management (HRM), and that 2) these burdens could be mitigated by incorporating transparency, interpretability, and human intervention to algorithmic decision-making. Based on our findings, we present design efforts to alleviate employees’ burdens. To leverage AI for HRM in fair and trustworthy ways, we call for the HCI community to design human-AI collaboration systems with various HR stakeholders.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445304
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445304
+ER  - 
+
+TY  - CONF
+TI  - Effects of Semantic Segmentation Visualization on Trust, Situation Awareness, and Cognitive Load in Highly Automated Vehicles
+AU  - Colley, Mark
+AU  - Eder, Benjamin
+AU  - Rixen, Jan Ole
+AU  - Rukzio, Enrico
+PY  - 2021
+AB  - Autonomous vehicles could improve mobility, safety, and inclusion in traffic. While this technology seems within reach, its successful introduction depends on the intended user’s acceptance. A substantial factor for this acceptance is trust in the autonomous vehicle’s capabilities. Visualizing internal information processed by an autonomous vehicle could calibrate this trust by enabling the perception of the vehicle’s detection capabilities (and its failures) while only inducing a low cognitive load. Additionally, the simultaneously raised situation awareness could benefit potential take-overs. We report the results of two comparative online studies on visualizing semantic segmentation information for the human user of autonomous vehicles. Effects on trust, cognitive load, and situation awareness were measured using a simulation (N=32) and state-of-the-art panoptic segmentation on a pre-recorded real-world video (N=41). Results show that the visualization using Augmented Reality increases situation awareness while remaining low cognitive load.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445351
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445351
+ER  - 
+
+TY  - CONF
+TI  - Calibrating Pedestrians' Trust in Automated Vehicles: Does an Intent Display in an External HMI Support Trust Calibration and Safe Crossing Behavior?
+AU  - M. Faas, Stefanie
+AU  - Kraus, Johannes
+AU  - Schoenhals, Alexander
+AU  - Baumann, Martin
+PY  - 2021
+AB  - Policymakers recommend that automated vehicles (AVs) display their automated driving status using an external human-machine interface (eHMI). However, previous studies suggest that a status eHMI is associated with overtrust, which might be overcome by an additional yielding intent message. We conducted a video-based laboratory study (N = 67) to investigate pedestrians’ trust and crossing behavior in repeated encounters with AVs. In a 2x2 between-subjects design, we investigated (1) the occurrence of a malfunction (AV failing to yield) and (2) system transparency (status eHMI vs. status+intent eHMI). Results show that during initial encounters, trust gradually increases and crossing onset time decreases. After a malfunction, trust declines but recovers quickly. In the status eHMI group, trust was reduced more, and participants showed 7.3 times higher odds of colliding with the AV as compared to the status+intent group. We conclude that a status eHMI can cause pedestrians to overtrust AVs and advocate additional intent messages.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445738
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445738
+ER  - 
+
+TY  - CONF
+TI  - Disagree? You Must be a Bot! How Beliefs Shape Twitter Profile Perceptions
+AU  - Wischnewski, Magdalena
+AU  - Bernemann, Rebecca
+AU  - Ngo, Thao
+AU  - Kr\"{a}mer, Nicole
+PY  - 2021
+AB  - In this paper, we investigate the human ability to distinguish political social bots from humans on Twitter. Following motivated reasoning theory from social and cognitive psychology, our central hypothesis is that especially those accounts which are opinion-incongruent are perceived as social bot accounts when the account is ambiguous about its nature. We also hypothesize that credibility ratings mediate this relationship. We asked N = 151 participants to evaluate 24 Twitter accounts and decide whether the accounts were humans or social bots. Findings support our motivated reasoning hypothesis for a sub-group of Twitter users (those who are more familiar with Twitter): Accounts that are opinion-incongruent are evaluated as relatively more bot-like than accounts that are opinion-congruent. Moreover, it does not matter whether the account is clearly social bot or human or ambiguous about its nature. This was mediated by perceived credibility in the sense that congruent profiles were evaluated to be more credible resulting in lower perceptions as bots.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445109
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445109
+ER  - 
+
+TY  - CONF
+TI  - A Critique of Electrodermal Activity Practices at CHI
+AU  - Babaei, Ebrahim
+AU  - Tag, Benjamin
+AU  - Dingler, Tilman
+AU  - Velloso, Eduardo
+PY  - 2021
+AB  - Electrodermal activity data is widely used in HCI to capture rich and unbiased signals. Results from related fields, however, have suggested several methodological issues that can arise when practices do not follow established standards. In this paper, we present a systematic methodological review of CHI papers involving the use of EDA data according to best practices from the field of psychophysiology, where standards are well-established and mature. We found severe issues in our sample at all stages of the research process. To ensure the validity of future research, we highlight pitfalls and offer directions for how to improve community standards.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445370
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445370
+ER  - 
+
+TY  - CONF
+TI  - PrivacyMic: Utilizing Inaudible Frequencies for Privacy Preserving Daily Activity Recognition
+AU  - Iravantchi, Yasha
+AU  - Ahuja, Karan
+AU  - Goel, Mayank
+AU  - Harrison, Chris
+AU  - Sample, Alanson
+PY  - 2021
+AB  - Sound presents an invaluable signal source that enables computing systems to perform daily activity recognition. However, microphones are optimized for human speech and hearing ranges: capturing private content, such as speech, while omitting useful, inaudible information that can aid in acoustic recognition tasks. We simulated acoustic recognition tasks using sounds from 127 everyday household/workplace objects, finding that inaudible frequencies can act as a substitute for privacy-sensitive frequencies. To take advantage of these inaudible frequencies, we designed a Raspberry Pi-based device that captures inaudible acoustic frequencies with settings that can remove speech or all audible frequencies entirely. We conducted a perception study, where participants “eavesdropped’’ on PrivacyMic’s filtered audio and found that none of our participants could transcribe speech. Finally, PrivacyMic’s real-world activity recognition performance is comparable to our simulated results, with over 95\% classification accuracy across all environments, suggesting immediate viability in performing privacy-preserving daily activity recognition.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445169
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445169
+ER  - 
+
+TY  - CONF
+TI  - Assessing MyData Scenarios: Ethics, Concerns, and the Promise
+AU  - Alorwu, Andy
+AU  - Kheirinejad, Saba
+AU  - van Berkel, Niels
+AU  - Kinnula, Marianne
+AU  - Ferreira, Denzil
+AU  - Visuri, Aku
+AU  - Hosio, Simo
+PY  - 2021
+AB  - Public controversies around the unethical use of personal data are increasing, spotlighting data ethics as an increasingly important field of study. MyData is a related emerging vision that emphasizes individuals’ control of their personal data. In this paper, we investigate people’s perceptions of various data management scenarios by measuring the perceived ethicality and level of felt concern concerning the scenarios. We deployed a set of 96 unique scenarios to an online crowdsourcing platform for assessment and invited a representative sample of the participants to a second-stage questionnaire about the MyData vision and its potential in the field of healthcare. Our results provide a timely investigation into how topical data-related practices affect the perceived ethicality and the felt concern. The questionnaire analysis reveals great potential in the MyData vision. Through the combined quantitative and qualitative results, we contribute to the field of data ethics.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445213
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445213
+ER  - 
+
+TY  - CONF
+TI  - “Grip-that-there”: An Investigation of Explicit and Implicit Task Allocation Techniques for Human-Robot Collaboration
+AU  - Mahadevan, Karthik
+AU  - Sousa, Mauricio
+AU  - Tang, Anthony
+AU  - Grossman, Tovi
+PY  - 2021
+AB  - In ad-hoc human-robot collaboration (HRC), humans and robots work on a task without pre-planning the robot's actions prior to execution; instead, task allocation occurs in real-time. However, prior research has largely focused on task allocations that are pre-planned - there has not been a comprehensive exploration or evaluation of techniques where task allocation is adjusted in real-time. Inspired by HCI research on territoriality and proxemics, we propose a design space of novel task allocation techniques including both explicit techniques, where the user maintains agency, and implicit techniques, where the efficiency of automation can be leveraged. The techniques were implemented and evaluated using a tabletop HRC simulation in VR. A 16-participant study, which presented variations of a collaborative block stacking task, showed that implicit techniques enable efficient task completion and task parallelization, and should be augmented with explicit mechanisms to provide users with fine-grained control.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445355
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445355
+ER  - 
+
+TY  - CONF
+TI  - Sticky Goals: Understanding Goal Commitments for Behavioral Changes in the Wild
+AU  - Lee, Hyunsoo
+AU  - Kim, Auk
+AU  - Hong, Hwajung
+AU  - Lee, Uichin
+PY  - 2021
+AB  - A commitment device, an attempt to bind oneself for a successful goal achievement, has been used as an effective strategy to promote behavior change. However, little is known about how commitment devices are used in the wild, and what aspects of commitment devices are related to goal achievements. In this paper, we explore a large-scale dataset from stickK, an online behavior change support system that provides both financial and social commitments. We characterize the patterns of behavior change goals (e.g., topics and commitment setting) and then perform a series of multilevel regression analyses on goal achievements. Our results reveal that successful goal achievements are largely dependent on the configuration of financial and social commitment devices, and a mixed commitment setting is considered beneficial. We discuss how our findings could inform the design of effective commitment devices, and how large-scale data can be leveraged to support data-driven goal elicitation and customization.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445295
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445295
+ER  - 
+
+TY  - CONF
+TI  - Illustrating the Gaps and Needs in the Training Support of Community Health Workers in India
+AU  - Yadav, Deepika
+AU  - Malik, Prerna
+AU  - Dabas, Kirti
+AU  - Singh, Pushpendra
+PY  - 2021
+AB  - In India and other developing countries, Community Health Workers (CHWs) provide the first line of care in delivering necessary maternal and child health services. In this work, we assess the training and skill-building needs of CHWs, through a mobile-based training intervention deployed for six months to 500 CHWs for conducting 144 training sessions in rural India. We qualitatively probed 1178 questions, asked by CHWs, during training sessions, and conducted a content analysis of the learning material provided to CHWs. Further, we interviewed 48 CHWs to understand the rationale of information seeking and perceptions of training needs. We present our understanding of the knowledge gaps of CHWs and how the current learning material and training methods are ineffective in addressing it. Our study presents design implications for HCI4D researchers for mobile learning platforms targeted towards CHWs. We also provide policy-level suggestions to improve the training of CHWs in India or a similar context.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445111
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445111
+ER  - 
+
+TY  - CONF
+TI  - KiTT - The Kinaesthetics Transfer Teacher: Design and Evaluation of a Tablet-based System to Promote the Learning of Ergonomic Patient Transfers
+AU  - D\"{u}rr, Maximilian
+AU  - Borowski, Marcel
+AU  - Gr\"{o}schel, Carla
+AU  - Pfeil, Ulrike
+AU  - M\"{u}ller, Jens
+AU  - Reiterer, Harald
+PY  - 2021
+AB  - Nurses frequently transfer patients as part of their daily work. However, manual patient transfers pose a major risk to nurses’ health. Although the Kinaesthetics care conception can help address this issue, existing support to learn the concept is low. We present KiTT, a tablet-based system, to promote the learning of ergonomic patient transfers based on the Kinaesthetics care conception. KiTT supports the training of Kinaesthetics-based patient transfers by two nurses. The nurses are guided by the phases (i)&nbsp;interactive instructions, (ii)&nbsp;training of transfer conduct, and (iii)&nbsp;feedback and reflection. We evaluated KiTT with 26&nbsp;nursing-care students in a nursing-care school. Our results indicate that KiTT provides a good subjective support for the learning of Kinaesthetics. Our results also suggest that KiTT can promote the ergonomically correct conduct of patient transfers while providing a good user experience adequate to the nursing-school context, and reveal how KiTT can extend existing practices.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445496
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445496
+ER  - 
+
+TY  - CONF
+TI  - Manipulating and Measuring Model Interpretability
+AU  - Poursabzi-Sangdeh, Forough
+AU  - Goldstein, Daniel G
+AU  - Hofman, Jake M
+AU  - Wortman Vaughan, Jennifer Wortman
+AU  - Wallach, Hanna
+PY  - 2021
+AB  - With machine learning models being increasingly used to aid decision making even in high-stakes domains, there has been a growing interest in developing interpretable models. Although many supposedly interpretable models have been proposed, there have been relatively few experimental studies investigating whether these models achieve their intended effects, such as making people more closely follow a model’s predictions when it is beneficial for them to do so or enabling them to detect when a model has made a mistake. We present a sequence of pre-registered experiments (N = 3, 800) in which we showed participants functionally identical models that varied only in two factors commonly thought to make machine learning models more or less interpretable: the number of features and the transparency of the model (i.e., whether the model internals are clear or black box). Predictably, participants who saw a clear model with few features could better simulate the model’s predictions. However, we did not find that participants more closely followed its predictions. Furthermore, showing participants a clear model meant that they were less able to detect and correct for the model’s sizable mistakes, seemingly due to information overload. These counterintuitive findings emphasize the importance of testing over intuition when developing interpretable models.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445315
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445315
+ER  - 
+
+TY  - CONF
+TI  - Effects of Communication Directionality and AI Agent Differences in Human-AI Interaction
+AU  - Ashktorab, Zahra
+AU  - Dugan, Casey
+AU  - Johnson, James
+AU  - Pan, Qian
+AU  - Zhang, Wei
+AU  - Kumaravel, Sadhana
+AU  - Campbell, Murray
+PY  - 2021
+AB  - In Human-AI collaborative settings that are inherently interactive, direction of communication plays a role in how users perceive their AI partners. In an AI-driven cooperative game with partially observable information, players (be it the AI or the human player) require their actions to be interpreted accurately by the other player to yield a successful outcome. In this paper, we investigate social perceptions of AI agents with various directions of communication in a cooperative game setting. We measure subjective social perceptions (rapport, intelligence, and likeability) of participants towards their partners when participants believe they are playing with an AI or with a human and the nature of the communication (responsiveness and leading roles). We ran a large scale study on Mechanical Turk (n=199) of this collaborative game and find significant differences in gameplay outcome and social perception across different AI agents, different directions of communication and when the agent is perceived to be an AI/Human. We find that the bias against the AI that has been demonstrated in prior studies varies with the direction of the communication and with the AI agent.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445256
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445256
+ER  - 
+
+TY  - CONF
+TI  - What Do We See in Them? Identifying Dimensions of Partner Models for Speech Interfaces Using a Psycholexical Approach
+AU  - Doyle, Philip R
+AU  - Clark, Leigh
+AU  - Cowan, Benjamin R.
+PY  - 2021
+AB  - Perceptions of system competence and communicative ability, termed partner models, play a significant role in speech interface interaction. Yet we do not know what the core dimensions of this concept are. Taking a psycholexical approach, our paper is the first to identify the key dimensions that define partner models in speech agent interaction. Through a repertory grid study (N=21), a review of key subjective questionnaires, an expert review of resulting word pairs and an online study of 356 users of speech interfaces, we identify three key dimensions that make up a users’ partner model: 1) perceptions towards partner competence and dependability; 2) assessment of human-likeness; and 3) a system’s perceived cognitive flexibility. We discuss the implications for partner modelling as a concept, emphasising the importance of salience and the dynamic nature of these perceptions.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445206
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445206
+ER  - 
+
+TY  - CONF
+TI  - Effect of Information Presentation on Fairness Perceptions of Machine Learning Predictors
+AU  - van Berkel, Niels
+AU  - Goncalves, Jorge
+AU  - Russo, Daniel
+AU  - Hosio, Simo
+AU  - Skov, Mikael B.
+PY  - 2021
+AB  - The uptake of artificial intelligence-based applications raises concerns about the fairness and transparency of AI behaviour. Consequently, the Computer Science community calls for the involvement of the general public in the design and evaluation of AI systems. Assessing the fairness of individual predictors is an essential step in the development of equitable algorithms. In this study, we evaluate the effect of two common visualisation techniques (text-based and scatterplot) and the display of the outcome information (i.e., ground-truth) on the perceived fairness of predictors. Our results from an online crowdsourcing study (N = 80) show that the chosen visualisation technique significantly alters people’s fairness perception and that the presented scenario, as well as the participant’s gender and past education, influence perceived fairness. Based on these results we draw recommendations for future work that seeks to involve non-experts in AI fairness evaluations.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445365
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445365
+ER  - 
+
+TY  - CONF
+TI  - Experiencing Simulated Confrontations in Virtual Reality
+AU  - Dickinson, Patrick
+AU  - Jones, Arthur
+AU  - Christian, Wayne
+AU  - Westerside, Andrew
+AU  - Mulloy, Francis
+AU  - Gerling, Kathrin
+AU  - Hicks, Kieran
+AU  - Wilson, Liam
+AU  - Parke, Adrian
+PY  - 2021
+AB  - The use of virtual reality (VR) to simulate confrontational human behaviour has significant potential for use in training, where the recreation of uncomfortable feelings may help users to prepare for challenging real-life situations. In this paper we present a user study (n=68) in which participants experienced simulated confrontational behaviour performed by a virtual character either in immersive VR, or on a 2D display. Participants reported a higher elevation in anxiety in VR, which correlated positively with a perceived sense of physical space. Character believability was influenced negatively by visual elements of the simulation, and positively by behavioural elements, which complements findings from previous work. We recommend the use of VR for simulations of confrontational behaviour, where a realistic emotional response is part of the intended experience. We also discuss incorporation of domain knowledge of human behaviours, and carefully crafted motion-captured sequences, to increase users’ sense of believability.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445401
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445401
+ER  - 
+
+TY  - CONF
+TI  - ASL Sea Battle: Gamifying Sign Language Data Collection
+AU  - Bragg, Danielle
+AU  - Caselli, Naomi
+AU  - Gallagher, John W.
+AU  - Goldberg, Miriam
+AU  - Oka, Courtney J.
+AU  - Thies, William
+PY  - 2021
+AB  - The development of accurate machine learning models for sign languages like American Sign Language (ASL) has the potential to break down communication barriers for deaf signers. However, to date, no such models have been robust enough for real-world use. The primary barrier to enabling real-world applications is the lack of appropriate training data. Existing training sets suffer from several shortcomings: small size, limited signer diversity, lack of real-world settings, and missing or inaccurate labels. In this work, we present ASL Sea Battle, a sign language game designed to collect datasets that overcome these barriers, while also providing fun and education to users. We conduct a user study to explore the data quality that the game collects, and the user experience of playing the game. Our results suggest that ASL Sea Battle can reliably collect and label real-world sign language videos, and provides fun and education at the expense of data throughput.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445416
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445416
+ER  - 
+
+TY  - CONF
+TI  - What Makes Videos Accessible to Blind and Visually Impaired People?
+AU  - Liu, Xingyu
+AU  - Carrington, Patrick
+AU  - Chen, Xiang 'Anthony'
+AU  - Pavel, Amy
+PY  - 2021
+AB  - User-generated videos are an increasingly important source of information online, yet most online videos are inaccessible to blind and visually impaired (BVI) people. To find videos that are accessible, or understandable without additional description of the visual content, BVI people in our formative studies reported that they used a time-consuming trial-and-error approach: clicking on a video, watching a portion, leaving the video, and repeating the process. BVI people also reported video accessibility heuristics that characterize accessible and inaccessible videos. We instantiate 7 of the identified heuristics (2 audio-related, 2 video-related, and 3 audio-visual) as automated metrics to assess video accessibility. We collected a dataset of accessibility ratings of videos by BVI people and found that our automatic video accessibility metrics correlated with the accessibility ratings (Adjusted R2 = 0.642). We augmented a video search interface with our video accessibility metrics and predictions. BVI people using our augmented video search interface selected an accessible video more efficiently than when using the original search interface. By integrating video accessibility metrics, video hosting platforms could help people surface accessible videos and encourage content creators to author more accessible products, improving video accessibility for all.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445233
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445233
+ER  - 
+
+TY  - CONF
+TI  - Detecting and Defending Against Seizure-Inducing GIFs in Social Media
+AU  - South, Laura
+AU  - Saffo, David
+AU  - Borkin, Michelle A.
+PY  - 2021
+AB  - Despite recent improvements in online accessibility, the Internet remains an inhospitable place for users with photosensitive epilepsy, a chronic condition in which certain light stimuli can trigger seizures and even lead to death in extreme cases. In this paper, we explore how current risk detection systems have allowed attackers to take advantage of design oversights and target vulnerable users with photosensitivity on popular social media platforms. Through interviews with photosensitive individuals and a critical review of existing systems, we constructed design requirements for consumer-driven protective systems and developed a prototype browser extension for actively detecting and disarming potentially seizure-inducing GIFs and videos. We validate our system with a comprehensive dataset of simulated GIFs and GIFs collected from social media. Finally, we conduct a novel quantitative analysis of the prevalence of seizure-inducing GIFs across popular social media platforms and contribute recommendations for improving online accessibility for individuals with photosensitivity. All study materials are available at https://osf.io/5a3dy/.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445510
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445510
+ER  - 
+
+TY  - CONF
+TI  - Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels
+AU  - Zhang, Xiaoyi
+AU  - de Greef, Lilian
+AU  - Swearngin, Amanda
+AU  - White, Samuel
+AU  - Murray, Kyle
+AU  - Yu, Lisa
+AU  - Shan, Qi
+AU  - Nichols, Jeffrey
+AU  - Wu, Jason
+AU  - Fleizach, Chris
+AU  - Everitt, Aaron
+AU  - Bigham, Jeffrey P
+PY  - 2021
+AB  - Many accessibility features available on mobile platforms require applications (apps) to provide complete and accurate metadata describing user interface (UI) components. Unfortunately, many apps do not provide sufficient metadata for accessibility features to work as expected. In this paper, we explore inferring accessibility metadata for mobile apps from their pixels, as the visual interfaces often best reflect an app’s full functionality. We trained a robust, fast, memory-efficient, on-device model to detect UI elements using a dataset of 77,637 screens (from 4,068 iPhone apps) that we collected and annotated. To further improve UI detections and add semantic information, we introduced heuristics (e.g., UI grouping and ordering) and additional models (e.g., recognize UI content, state, interactivity). We built Screen Recognition to generate accessibility metadata to augment iOS VoiceOver. In a study with 9 screen reader users, we validated that our approach improves the accessibility of existing mobile apps, enabling even previously inaccessible apps to be used.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445186
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445186
+ER  - 
+
+TY  - CONF
+TI  - Comparison of Methods for Evaluating Complexity of Simplified Texts among Deaf and Hard-of-Hearing Adults at Different Literacy Levels
+AU  - Alonzo, Oliver
+AU  - Trussell, Jessica
+AU  - Dingman, Becca
+AU  - Huenerfauth, Matt
+PY  - 2021
+AB  - Research has explored using Automatic Text Simplification for reading assistance, with prior work identifying benefits and interests from Deaf and Hard-of-Hearing (DHH) adults. While the evaluation of these technologies remains a crucial aspect of research in the area, researchers lack guidance in terms of how to evaluate text complexity with DHH readers. Thus, in this work we conduct methodological research to evaluate metrics identified from prior work (including reading speed, comprehension questions, and subjective judgements of understandability and readability) in terms of their effectiveness for evaluating texts modified to be at various complexity levels with DHH adults at different literacy levels. Subjective metrics and low-linguistic-complexity comprehension questions distinguished certain text complexity levels with participants with lower literacy. Among participants with higher literacy, only subjective judgements of text readability distinguished certain text complexity levels. For all metrics, participants with higher literacy scored higher or provided more positive subjective judgements overall.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445038
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445038
+ER  - 
+
+TY  - CONF
+TI  - Optimal Action-based or User Prediction-based Haptic Guidance: Can You Do Even Better?
+AU  - Moon, Hee-Seung
+AU  - Seo, Jiwon
+PY  - 2021
+AB  - The recently advanced robotics technology enables robots to assist users in their daily lives. Haptic guidance (HG) improves users’ task performance through physical interaction between robots and users. It can be classified into optimal action-based HG (OAHG), which assists users with an optimal action, and user prediction-based HG (UPHG), which assists users with their next predicted action. This study aims to understand the difference between OAHG and UPHG and propose a combined HG (CombHG) that achieves optimal performance by complementing each HG type, which has important implications for HG design. We propose implementation methods for each HG type using deep learning-based approaches. A user study (n=20) in a haptic task environment indicated that UPHG induces better subjective evaluations, such as naturalness and comfort, than OAHG. In addition, the CombHG that we proposed further decreases the disagreement between the user intention and HG, without reducing the objective and subjective scores.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445115
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445115
+ER  - 
+
+TY  - CONF
+TI  - TapNet: The Design, Training, Implementation, and Applications of a Multi-Task Learning CNN for Off-Screen Mobile Input
+AU  - Huang, Michael Xuelin
+AU  - Li, Yang
+AU  - Nazneen, Nazneen
+AU  - Chao, Alexander
+AU  - Zhai, Shumin
+PY  - 2021
+AB  - To make off-screen interaction without specialized hardware practical, we investigate using deep learning methods to process the common built-in IMU sensor (accelerometers and gyroscopes) on mobile phones into a useful set of one-handed interaction events. We present the design, training, implementation and applications of TapNet, a multi-task network that detects tapping on the smartphone. With phone form factor as auxiliary information, TapNet can jointly learn from data across devices and simultaneously recognize multiple tap properties, including tap direction and tap location. We developed two datasets consisting of over 135K training samples, 38K testing samples, and 32 participants in total. Experimental evaluation demonstrated the effectiveness of the TapNet design and its significant improvement over the state of the art. Along with the datasets, codebase1, and extensive experiments, TapNet establishes a new technical foundation for off-screen mobile input.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445626
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445626
+ER  - 
+
+TY  - CONF
+TI  - A Simulation Model of Intermittently Controlled Point-and-Click Behaviour
+AU  - Do, Seungwon
+AU  - Chang, Minsuk
+AU  - Lee, Byungjoo
+PY  - 2021
+AB  - We present a novel simulation model of point-and-click behaviour that is applicable both when a target is stationary or moving. To enable more realistic simulation than existing models, the model proposed in this study takes into account key features of the user and the external environment, such as intermittent motor control, click decision-making, visual perception, upper limb kinematics and the effect of input device. The simulated user’s point-and-click behaviour is formulated as a Markov decision process (MDP), and the user’s policy of action is optimised through deep reinforcement learning. As a result, our model successfully and accurately reproduced the trial completion time, distribution of click endpoints, and cursor trajectories of real users. Through an ablation study, we showed how the simulation results change when the model’s sub-modules are individually removed. The implemented model and dataset are publicly available.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445514
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445514
+ER  - 
+
+TY  - CONF
+TI  - CapContact: Super-resolution Contact Areas from Capacitive Touchscreens
+AU  - Streli, Paul
+AU  - Holz, Christian
+PY  - 2021
+AB  - Touch input is dominantly detected using mutual-capacitance sensing, which measures the proximity of close-by objects that change the electric field between the sensor lines. The exponential drop-off in intensities with growing distance enables software to detect touch events, but does not reveal true contact areas. In this paper, we introduce CapContact, a novel method to precisely infer the contact area between the user’s finger and the surface from a single capacitive image. At 8 \texttimes super-resolution, our convolutional neural network generates refined touch masks from 16-bit capacitive images as input, which can even discriminate adjacent touches that are not distinguishable with existing methods. We trained and evaluated our method using supervised learning on data from 10 participants who performed touch gestures. Our capture apparatus integrates optical touch sensing to obtain ground-truth contact through high-resolution frustrated total internal reflection. We compare our method with a baseline using bicubic upsampling as well as the ground truth from FTIR images. We separately evaluate our method’s performance in discriminating adjacent touches. CapContact successfully separated closely adjacent touch contacts in 494 of 570 cases (87\%) compared to the baseline’s 43 of 570 cases (8\%). Importantly, we demonstrate that our method accurately performs even at half of the sensing resolution at twice the grid-line pitch across the same surface area, challenging the current industry-wide standard of a ∼ 4&nbsp;mm sensing pitch. We conclude this paper with implications for capacitive touch sensing in general and for touch-input accuracy in particular.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445621
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445621
+ER  - 
+
+TY  - CONF
+TI  - Vid2Doppler: Synthesizing Doppler Radar Data from Videos for Training Privacy-Preserving Activity Recognition
+AU  - Ahuja, Karan
+AU  - Jiang, Yue
+AU  - Goel, Mayank
+AU  - Harrison, Chris
+PY  - 2021
+AB  - Millimeter wave (mmWave) Doppler radar is a new and promising sensing approach for human activity recognition, offering signal richness approaching that of microphones and cameras, but without many of the privacy-invading downsides. However, unlike audio and computer vision approaches that can draw from huge libraries of videos for training deep learning models, Doppler radar has no existing large datasets, holding back this otherwise promising sensing modality. In response, we set out to create a software pipeline that converts videos of human activities into realistic, synthetic Doppler radar data. We show how this cross-domain translation can be successful through a series of experimental results. Overall, we believe our approach is an important stepping stone towards significantly reducing the burden of training such as human sensing systems, and could help bootstrap uses in human-computer interaction.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445138
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445138
+ER  - 
+
+TY  - CONF
+TI  - Conversational Futures: Emancipating Conversational Interactions for Futures Worth Wanting
+AU  - Lee, Minha
+AU  - Noortman, Renee
+AU  - Zaga, Cristina
+AU  - Starke, Alain
+AU  - Huisman, Gijs
+AU  - Andersen, Kristina
+PY  - 2021
+AB  - We present a vision for conversational user interfaces (CUIs) as probes for speculating with, rather than as objects to speculate about. Popular CUIs, e.g., Alexa, are changing the way we converse, narrate, and imagine the world(s) to come. Yet, current conversational interactions normatively may promote non-desirable ends, delivering a restricted range of request-response interactions with sexist and digital colonialist tendencies. Our critical design approach envisions alternatives by considering how future voices can reside in CUIs as enabling probes. We present novel explorations that illustrate the potential of CUIs as critical design material, by critiquing present norms and conversing with imaginary species. As micro-level interventions, we show that conversations with diverse futures through CUIs can persuade us to critically shape our discourse on macro-scale concerns of the present, e.g., sustainability. We reflect on how conversational interactions with pluralistic, imagined futures can contribute to how being human stands to change.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445244
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445244
+ER  - 
+
+TY  - CONF
+TI  - Spatial Labeling: Leveraging Spatial Layout for Improving Label Quality in Non-Expert Image Annotation
+AU  - Chang, Chia-Ming
+AU  - Lee, Chia-Hsien
+AU  - Igarashi, Takeo
+PY  - 2021
+AB  - Non-expert annotators (who lack sufficient domain knowledge) are often recruited for manual image labeling tasks owing to the lack of expert annotators. In such a case, label quality may be relatively low. We propose leveraging the spatial layout for improving label quality in non-expert image annotation. In the proposed system, an annotator first spatially lays out the incoming images and labels them on an open space, placing related items together. This serves as a working space (spatial organization) for tentative labeling. During the process, the annotator observes and organizes the similarities and differences between the items. Finally, the annotator provides definitive labels to the images based on the results of the spatial layout. We ran a user study comparing the proposed method and a traditional non-spatial layout in an image labeling task. The results demonstrated that annotators can complete the labeling tasks more accurately using the spatial layout interface than the non-spatial layout interface.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445165
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445165
+ER  - 
+
+TY  - CONF
+TI  - UMLAUT: Debugging Deep Learning Programs using Program Structure and Model Behavior
+AU  - Schoop, Eldon
+AU  - Huang, Forrest
+AU  - Hartmann, Bjoern
+PY  - 2021
+AB  - Training deep neural networks can generate non-descriptive error messages or produce unusual output without any explicit errors at all. While experts rely on tacit knowledge to apply debugging strategies, non-experts lack the experience required to interpret model output and correct Deep Learning (DL) programs. In this work, we identify DL debugging heuristics and strategies used by experts, andIn this work, we categorize the types of errors novices run into when writing ML code, and map them onto opportunities where tools could help. We use them to guide the design of Umlaut. Umlaut&nbsp;checks DL program structure and model behavior against these heuristics; provides human-readable error messages to users; and annotates erroneous model output to facilitate error correction. Umlaut&nbsp;links code, model output, and tutorial-driven error messages in a single interface. We evaluated Umlaut&nbsp;in a study with 15 participants to determine its effectiveness in helping developers find and fix errors in their DL programs. Participants using Umlaut&nbsp;found and fixed significantly more bugs and were able to implement fixes for more bugs compared to a baseline condition.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445538
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445538
+ER  - 
+
+TY  - CONF
+TI  - TweakIt: Supporting End-User Programmers Who Transmogrify Code
+AU  - Lau, Sam
+AU  - Srinivasa Ragavan, Sruti Srinivasa
+AU  - Milne, Ken
+AU  - Barik, Titus
+AU  - Sarkar, Advait
+PY  - 2021
+AB  - End-user programmers opportunistically copy-and-paste code snippets from colleagues or the web to accomplish their tasks. Unfortunately, these snippets often don’t work verbatim, so these people—who are non-specialists in the programming language—make guesses and tweak the code to understand and apply it successfully. To support their desired workflow and facilitate tweaking and understanding, we built a prototype tool, TweakIt, that provides users with a familiar live interaction to help them understand, introspect, and reify how different code snippets would transform their data. Through a usability study with 14 data analysts, participants found the tool to be useful to understand the function of otherwise unfamiliar code, to increase their confidence about what the code does, to identify relevant parts of code specific to their task, and to proactively explore and evaluate code. Overall, our participants were enthusiastic about incorporating TweakIt in their own day-to-day work.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445265
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445265
+ER  - 
+
+TY  - CONF
+TI  - Spacewalker: Rapid UI Design Exploration Using Lightweight Markup Enhancement and Crowd Genetic Programming
+AU  - Zhong, Mingyuan
+AU  - Li, Gang
+AU  - Li, Yang
+PY  - 2021
+AB  - User interface design is a complex task that involves designers examining a wide range of options. We present Spacewalker, a tool that allows designers to rapidly search a large design space for an optimal web UI with integrated support. Designers first annotate each attribute they want to explore in a typical HTML page, using a simple markup extension we designed. Spacewalker then parses the annotated HTML specification, and intelligently generates and distributes various configurations of the web UI to crowd workers for evaluation. We enhanced a genetic algorithm to accommodate crowd worker responses from pairwise comparison of UI designs, which is crucial for obtaining reliable feedback. Based on our experiments, Spacewalker allows designers to effectively search a large design space of a UI, using the language they are familiar with, and improve their design rapidly at a minimal cost.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445326
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445326
+ER  - 
+
+TY  - CONF
+TI  - GestureMap: Supporting Visual Analytics and Quantitative Analysis of Motion Elicitation Data by Learning 2D Embeddings
+AU  - Dang, Hai
+AU  - Buschek, Daniel
+PY  - 2021
+AB  - This paper presents GestureMap, a visual analytics tool for gesture elicitation which directly visualises the space of gestures. Concretely, a Variational Autoencoder embeds gestures recorded as 3D skeletons on an interactive 2D map. GestureMap further integrates three computational capabilities to connect exploration to quantitative measures: Leveraging DTW Barycenter Averaging (DBA), we compute average gestures to 1) represent gesture groups at a glance; 2) compute a new consensus measure (variance around average gesture); and 3) cluster gestures with k-means. We evaluate GestureMap and its concepts with eight experts and an in-depth analysis of published data. Our findings show how GestureMap facilitates exploring large datasets and helps researchers to gain a visual understanding of elicited gesture spaces. It further opens new directions, such as comparing elicitations across studies. We discuss implications for elicitation studies and research, and opportunities to extend our approach to additional tasks in gesture elicitation.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445765
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445765
+ER  - 
+
+TY  - CONF
+TI  - UISketch: A Large-Scale Dataset of UI Element Sketches
+AU  - Sermuga Pandian, Vinoth Pandian
+AU  - Suleri, Sarah
+AU  - Jarke, Prof. Dr. Matthias
+PY  - 2021
+AB  - This paper contributes the first large-scale dataset of 17,979 hand-drawn sketches of 21 UI element categories collected from 967 participants, including UI/UX designers, front-end developers, HCI, and CS grad students, from 10 different countries. We performed a perceptual study with this dataset and found out that UI/UX designers can recognize the UI element sketches with ~96\% accuracy. To compare human performance against computational recognition methods, we trained the state-of-the-art DNN-based image classification models to recognize the UI elements sketches. This study revealed that the ResNet-152 model outperforms other classification networks and detects unknown UI element sketches with 91.77\% accuracy (chance is 4.76\%). We have open-sourced the entire dataset of UI element sketches to the community intending to pave the way for further research in utilizing AI to assist the conversion of lo-fi UI sketches to higher fidelities.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445784
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445784
+ER  - 
+
+TY  - CONF
+TI  - Secrets of Gosu: Understanding Physical Combat Skills of Professional Players in First-Person Shooters
+AU  - Park, Eunji
+AU  - Lee, Sangyoon
+AU  - Ham, Auejin
+AU  - Choi, Minyeop
+AU  - Kim, Sunjun
+AU  - Lee, Byungjoo
+PY  - 2021
+AB  - In first-person shooters (FPS), professional players (a.k.a., Gosu) outperform amateur players. The secrets behind the performance of professional FPS players have been debated in online communities with many conjectures; however, attempts of scientific verification have been limited. We addressed this conundrum through a data-collection study of the gameplay of eight professional and eight amateur players in the commercial FPS Counter-Strike: Global Offensive. The collected data cover behavioral data from six sensors (motion capture, eye tracker, mouse, keyboard, electromyography armband, and pulse sensor) and in-game data (player data and event logs). We examined conjectures in four categories: aiming, character movement, physicality, and device and settings. Only 6 out of 13 conjectures were supported with statistically sufficient evidence.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445217
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445217
+ER  - 
+
+TY  - CONF
+TI  - What Life Events are Disclosed on Social Media, How, When, and By Whom?
+AU  - Saha, Koustuv
+AU  - Seybolt, Jordyn
+AU  - Mattingly, Stephen M
+AU  - Aledavood, Talayeh
+AU  - Konjeti, Chaitanya
+AU  - Martinez, Gonzalo J.
+AU  - Grover, Ted
+AU  - Mark, Gloria
+AU  - De Choudhury, Munmun
+PY  - 2021
+AB  - Social media platforms continue to evolve as archival platforms, where important milestones in an individual’s life are socially disclosed for support, solidarity, maintaining and gaining social capital, or to meet therapeutic needs. However, a limited understanding of how and what life events are disclosed (or not) prevents designing platforms to be sensitive to life events. We ask what life events individuals disclose on a 256 participants’ year-long Facebook dataset of 14K posts against their self-reported life events. We contribute a codebook to identify life event disclosures and build regression models on factors explaining life events’ disclosures. Positive and anticipated events are more likely, whereas significant, recent, and intimate events are less likely to be disclosed on social media. While all life events may not be disclosed, online disclosures can reflect complementary information to self-reports. Our work bears practical and platform design implications in providing support and sensitivity to life events.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445405
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445405
+ER  - 
+
+TY  - CONF
+TI  - The Psychological Well-Being of Content Moderators: The Emotional Labor of Commercial Moderation and Avenues for Improving Support
+AU  - Steiger, Miriah
+AU  - Bharucha, Timir J
+AU  - Venkatagiri, Sukrit
+AU  - Riedl, Martin J.
+AU  - Lease, Matthew
+PY  - 2021
+AB  - An estimated 100,000 people work today as commercial content moderators. These moderators are often exposed to disturbing content, which can lead to lasting psychological and emotional distress. This literature review investigates moderators’ psychological symptomatology, drawing on other occupations involving trauma exposure to further guide understanding of both symptoms and support mechanisms. We then introduce wellness interventions and review both programmatic and technological approaches to improving wellness. Additionally, we review methods for evaluating intervention efficacy. Finally, we recommend best practices and important directions for future research. Content Warning: we discuss the intense labor and psychological effects of CCM, including graphic descriptions of mental distress and illness.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445092
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445092
+ER  - 
+
+TY  - CONF
+TI  - Fighting Fires and Powering Steam Locomotives: Distribution of Control and Its Role in Social Interaction at Tangible Interactive Museum Exhibits
+AU  - Clarke, Loraine
+AU  - Hornecker, Eva
+AU  - Ruthven, Ian
+PY  - 2021
+AB  - We present a video-analysis study of museum visitors’ interactions at two tangible interactive exhibits in a transport museum. Our focus is on groups’ social and shared interactions, in particular how exhibit setup and structure influence collaboration patterns. Behaviors at the exhibits included individuals focusing beyond their personal activity towards companions’ interaction, adults participating via physical interaction, and visitors taking opportunities to interact when companions moved between sections of the exhibit or stepped back from interaction. We demonstrate how exhibits’ physical configuration and interactive control engendered behavioral patterns. Systematic analysis reveals how different configurations (concerning physical-spatial hardware and interactive software) distribute control differently amongst visitors. We present four mechanisms for how control can be distributed at an interactive installation: functional, temporal, physical and indirect verbal. In summary, our work explores how mechanisms that distribute control influence patterns of shared interaction with the exhibits and social interaction between museum visitor companions.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445534
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445534
+ER  - 
+
+TY  - CONF
+TI  - Remote Learners, Home Makers: How Digital Fabrication Was Taught Online During a Pandemic
+AU  - Benabdallah, Gabrielle
+AU  - Bourgault, Sam
+AU  - Peek, Nadya
+AU  - Jacobs, Jennifer
+PY  - 2021
+AB  - Digital fabrication courses that relied on physical makerspaces were severely disrupted by COVID-19. As universities shut down in Spring 2020, instructors developed new models for digital fabrication at a distance. Through interviews with faculty and students and examination of course materials, we recount the experiences of eight remote digital fabrication courses. We found that learning with hobbyist equipment and online social networks could emulate using industrial equipment in shared workshops. Furthermore, at-home digital fabrication offered unique learning opportunities including more iteration, machine tuning, and maintenance. These opportunities depended on new forms of labor and varied based on student living situations. Our findings have implications for remote and in-person digital fabrication instruction. They indicate how access to tools was important, but not as critical as providing opportunities for iteration; they show how remote fabrication exacerbated student inequities; and they suggest strategies for evaluating trade-offs in remote fabrication models with respect to learning objectives.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445450
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445450
+ER  - 
+
+TY  - CONF
+TI  - Older Adults’ Think-Aloud Verbalizations and Speech Features for Identifying User Experience Problems
+AU  - Fan, Mingming
+AU  - Zhao, Qiwen
+AU  - Tibdewal, Vinita
+PY  - 2021
+AB  - Subtle patterns in users’ think-aloud (TA) verbalizations and speech features are shown to be telltale signs of User Experience (UX) problems. However, such patterns were uncovered among young adults. Whether such patterns apply for older adults remains unknown. We conducted TA usability testing with older adults using physical and digital products. We analyzed their verbalizations, extracted speech features, identified UX problems, and uncovered the patterns that indicate UX problems. Our results show that when older adults encounter problems, their verbalizations tend to include observations (remarks), negations, question words and words with negative sentiments; and their voices tend to include high loudness, high pitch and high speech rate. We compare these subtle patterns with those of young adults uncovered in recent studies and discuss the implications of these patterns for the design of Human-AI collaborative UX analysis tools to better pinpoint UX problems.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445680
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445680
+ER  - 
+
+TY  - CONF
+TI  - “I Am Iron Man”: Priming Improves the Learnability and Memorability of User-Elicited Gestures
+AU  - Ali, Abdullah
+AU  - Ringel Morris, Meredith
+AU  - O. Wobbrock, Jacob
+PY  - 2021
+AB  - Priming is used as a way of increasing the diversity of proposals in end-user elicitation studies, but priming has not been investigated thoroughly in this context. We conduct a distributed end-user elicitation study with 167 participants, which had three priming groups: a no-priming control group, sci-fi priming, and a creative mindset group. We evaluated the gestures proposed by these groups in a distributed learnability and memorability study with 18 participants. We found that the user-elicited gestures from the sci-fi group were significantly faster to learn, requiring an average of 1.22 viewings to learn compared to 1.60 viewings required to learn the control gestures, and 1.56 viewings to learn the gestures elicited from the creative mindset group. In addition, both primed gesture groups had higher memorability with 80\% of the sci-fi-primed gestures and 73\% of the creative mindset group gestures were recalled correctly after one week without practice compared to 43\% of the control group gestures.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445758
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445758
+ER  - 
+
+TY  - CONF
+TI  - What Makes a “Bad” Ad? User Perceptions of Problematic Online Advertising
+AU  - Zeng, Eric
+AU  - Kohno, Tadayoshi
+AU  - Roesner, Franziska
+PY  - 2021
+AB  - Online display advertising on websites is widely disliked by users, with many turning to ad blockers to avoid “bad” ads. Recent evidence suggests that today’s ads contain potentially problematic content, in addition to well-studied concerns about the privacy and intrusiveness of ads. However, we lack knowledge of which types of ad content users consider problematic and detrimental to their browsing experience. Our work bridges this gap: first, we create a taxonomy of 15 positive and negative user reactions to online advertising from a survey of 60 participants. Second, we characterize classes of online ad content that users dislike or find problematic, using a dataset of 500 ads crawled from popular websites, labeled by 1000 participants using our taxonomy. Among our findings, we report that users consider a substantial amount of ads on the web today to be clickbait, untrustworthy, or distasteful, including ads for software downloads, listicles, and health \&amp; supplements.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445459
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445459
+ER  - 
+
+TY  - CONF
+TI  - Context-Based Interface Prototyping: Understanding the Effect of Prototype Representation on User Feedback
+AU  - Hoggenm\"{u}ller, Marius
+AU  - Tomitsch, Martin
+AU  - Hespanhol, Luke
+AU  - Tran, Tram Thi Minh
+AU  - Worrall, Stewart
+AU  - Nebot, Eduardo
+PY  - 2021
+AB  - The rise of autonomous systems in cities, such as automated vehicles (AVs), requires new approaches for prototyping and evaluating how people interact with those systems through context-based user interfaces, such as external human-machine interfaces (eHMIs). In this paper, we present a comparative study of three prototype representations (real-world VR, computer-generated VR, real-world video) of an eHMI in a mixed-methods study with 42 participants. Quantitative results show that while the real-world VR representation results in higher sense of presence, no significant differences in user experience and trust towards the AV itself were found. However, interview data shows that participants focused on different experiential and perceptual aspects in each of the prototype representations. These differences are linked to spatial awareness and perceived realism of the AV behaviour and its context, affecting in turn how participants assess trust and the eHMI. The paper offers guidelines for prototyping and evaluating context-based interfaces through simulations.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445159
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445159
+ER  - 
+
+TY  - CONF
+TI  - What Do We Mean by “Accessibility Research”? A Literature Survey of Accessibility Papers in CHI and ASSETS from 1994 to 2019
+AU  - Mack, Kelly
+AU  - McDonnell, Emma
+AU  - Jain, Dhruv
+AU  - Lu Wang, Lucy
+AU  - E. Froehlich, Jon
+AU  - Findlater, Leah
+PY  - 2021
+AB  - Accessibility research has grown substantially in the past few decades, yet there has been no literature review of the field. To understand current and historical trends, we created and analyzed a dataset of accessibility papers appearing at CHI and ASSETS since ASSETS’ founding in 1994. We qualitatively coded areas of focus and methodological decisions for the past 10 years (2010-2019, N=506 papers), and analyzed paper counts and keywords over the full 26 years (N=836 papers). Our findings highlight areas that have received disproportionate attention and those that are underserved—for example, over 43\% of papers in the past 10 years are on accessibility for blind and low vision people. We also capture common study characteristics, such as the roles of disabled and nondisabled participants as well as sample sizes (e.g., a median of 13 for participant groups with disabilities and older adults). We close by critically reflecting on gaps in the literature and offering guidance for future work in the field.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445412
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445412
+ER  - 
+
+TY  - CONF
+TI  - “It’s Complicated”: Negotiating Accessibility and (Mis)Representation in Image Descriptions of Race, Gender, and Disability
+AU  - Bennett, Cynthia L.
+AU  - Gleason, Cole
+AU  - Scheuerman, Morgan Klaus
+AU  - Bigham, Jeffrey P.
+AU  - Guo, Anhong
+AU  - To, Alexandra
+PY  - 2021
+AB  - Content creators are instructed to write textual descriptions of visual content to make it accessible; yet existing guidelines lack specifics on how to write about people’s appearance, particularly while remaining mindful of consequences of (mis)representation. In this paper, we report on interviews with screen reader users who were also Black, Indigenous, People of Color, Non-binary, and/or Transgender on their current image description practices and preferences, and experiences negotiating theirs and others’ appearances non-visually. We discuss these perspectives, and the ethics of humans and AI describing appearance characteristics that may convey the race, gender, and disabilities of those photographed. In turn, we share considerations for more carefully describing appearance, and contexts in which such information is perceived salient. Finally, we offer tensions and questions for accessibility research to equitably consider politics and ecosystems in which technologies will embed, such as potential risks of human and AI biases amplifying through image descriptions.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445498
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445498
+ER  - 
+
+TY  - CONF
+TI  - Nuanced Perspectives Toward Disability Simulations from Digital Designers, Blind, Low Vision, and Color Blind People
+AU  - Tigwell, Garreth W.
+PY  - 2021
+AB  - Designers of digital content have access to various resources that they use to help them meet disabled people’s accessibility needs. Disability simulations are one resource, but often criticized for failing to guide digital designers appropriately, and it is unclear if digital designers are aware of the issues surrounding disability simulations. I surveyed 92 digital designers to understand their perspectives toward disability simulations (both perceived advantages and disadvantages). I then shared work process challenges faced by digital designers and their reasons for using disability simulations with 17 people with vision impairments to facilitate a discussion on this topic. The interviewees discussed ideas that suggest many paths can be explored to connect digital designers and disabled people, in general, to reduce reliance on simulations, and a change is needed within workplace processes, culture, and staffing to further support positive change. There are research opportunities to investigate establishing avenues for connecting digital designers and disabled people in a way that is beneficial to both groups.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445620
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445620
+ER  - 
+
+TY  - CONF
+TI  - Investigating the Accessibility of Crowdwork Tasks on Mechanical Turk
+AU  - Uzor, Stephen
+AU  - Jacques, Jason T.
+AU  - Dudley, John J
+AU  - Kristensson, Per Ola
+PY  - 2021
+AB  - Crowdwork can enable invaluable opportunities for people with disabilities, not least the work flexibility and the ability to work from home, especially during the current Covid-19 pandemic. This paper investigates how engagement in crowdwork tasks is affected by individual disabilities and the resulting implications for HCI. We first surveyed 1,000 Amazon Mechanical Turk (AMT) workers to identify demographics of crowdworkers who identify as having various disabilities within the AMT ecosystem—including vision, hearing, cognition/mental, mobility, reading and motor impairments. Through a second focused survey and follow-up interviews, we provide insights into how respondents cope with crowdwork tasks. We found that standard task factors, such as task completion time and presentation, often do not account for the needs of users with disabilities, resulting in anxiety and a feeling of depression on occasion. We discuss how to alleviate barriers to enable effective interaction for crowdworkers with disabilities.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445291
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445291
+ER  - 
+
+TY  - CONF
+TI  - SEMOUR: A Scripted Emotional Speech Repository for Urdu
+AU  - Zaheer, Nimra
+AU  - Ahmad, Obaid Ullah
+AU  - Ahmed, Ammar
+AU  - Khan, Muhammad Shehryar
+AU  - Shabbir, Mudassir
+PY  - 2021
+AB  - Designing reliable Speech Emotion Recognition systems is a complex task that inevitably requires sufficient data for training purposes. Such extensive datasets are currently available in only a few languages, including English, German, and Italian. In this paper, we present SEMOUR, the first scripted database of emotion-tagged speech in the Urdu language, to design an Urdu Speech Recognition System. Our gender-balanced dataset contains 15,040 unique instances recorded by eight professional actors eliciting a syntactically complex script. The dataset is phonetically balanced, and reliably exhibits a varied set of emotions as marked by the high agreement scores among human raters in experiments. We also provide various baseline speech emotion prediction scores on the database, which could be used for various applications like personalized robot assistants, diagnosis of psychological disorders, and getting feedback from a low-tech-enabled population, etc. On a random test sample, our model correctly predicts an emotion with a state-of-the-art 92\% accuracy.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445171
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445171
+ER  - 
+
+TY  - CONF
+TI  - Finding the Needle in a Haystack: On the Automatic Identification of Accessibility User Reviews
+AU  - AlOmar, Eman Abdullah
+AU  - Aljedaani, Wajdi
+AU  - Tamjeed, Murtaza
+AU  - Mkaouer, Mohamed Wiem
+AU  - El-Glaly, Yasmine N.
+PY  - 2021
+AB  - In recent years, mobile accessibility has become an important trend with the goal of allowing all users the possibility of using any app without many limitations. User reviews include insights that are useful for app evolution. However, with the increase in the amount of received reviews, manually analyzing them is tedious and time-consuming, especially when searching for accessibility reviews. The goal of this paper is to support the automated identification of accessibility in user reviews, to help technology professionals in prioritizing their handling, and thus, creating more inclusive apps. Particularly, we design a model that takes as input accessibility user reviews, learns their keyword-based features, in order to make a binary decision, for a given review, on whether it is about accessibility or not. The model is evaluated using a total of 5,326 mobile app reviews. The findings show that (1) our model can accurately identify accessibility reviews, outperforming two baselines, namely keyword-based detector and a random classifier; (2) our model achieves an accuracy of 85\% with relatively small training dataset; however, the accuracy improves as we increase the size of the training dataset.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445281
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445281
+ER  - 
+
+TY  - CONF
+TI  - The Disagreement Deconvolution: Bringing Machine Learning Performance Metrics In Line With Reality
+AU  - Gordon, Mitchell L.
+AU  - Zhou, Kaitlyn
+AU  - Patel, Kayur
+AU  - Hashimoto, Tatsunori
+AU  - Bernstein, Michael S.
+PY  - 2021
+AB  - Machine learning classifiers for human-facing tasks such as comment toxicity and misinformation often score highly on metrics such as ROC AUC but are received poorly in practice. Why this gap? Today, metrics such as ROC AUC, precision, and recall are used to measure technical performance; however, human-computer interaction observes that evaluation of human-facing systems should account for people’s reactions to the system. In this paper, we introduce a transformation that more closely aligns machine learning classification metrics with the values and methods of user-facing performance measures. The disagreement deconvolution takes in any multi-annotator (e.g., crowdsourced) dataset, disentangles stable opinions from noise by estimating intra-annotator consistency, and compares each test set prediction to the individual stable opinions from each annotator. Applying the disagreement deconvolution to existing social computing datasets, we find that current metrics dramatically overstate the performance of many human-facing machine learning tasks: for example, performance on a comment toxicity task is corrected from .95 to .73 ROC AUC.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445423
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445423
+ER  - 
+
+TY  - CONF
+TI  - Soliciting Stakeholders’ Fairness Notions in Child Maltreatment Predictive Systems
+AU  - Cheng, Hao-Fei
+AU  - Stapleton, Logan
+AU  - Wang, Ruiqi
+AU  - Bullock, Paige
+AU  - Chouldechova, Alexandra
+AU  - Wu, Zhiwei Steven Steven
+AU  - Zhu, Haiyi
+PY  - 2021
+AB  - Recent work in fair machine learning has proposed dozens of technical definitions of algorithmic fairness and methods for enforcing these definitions. However, we still lack an understanding of how to develop machine learning systems with fairness criteria that reflect relevant stakeholders’ nuanced viewpoints in real-world contexts. To address this gap, we propose a framework for eliciting stakeholders’ subjective fairness notions. Combining a user interface that allows stakeholders to examine the data and the algorithm’s predictions with an interview protocol to probe stakeholders’ thoughts while they are interacting with the interface, we can identify stakeholders’ fairness beliefs and principles. We conduct a user study to evaluate our framework in the setting of a child maltreatment predictive system. Our evaluations show that the framework allows stakeholders to comprehensively convey their fairness viewpoints. We also discuss how our results can inform the design of predictive systems.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445308
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445308
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing More Effective Initializations for Single-Target Trackers Through Automatic Re-querying
+AU  - Lemmer, Stephan J.
+AU  - Song, Jean Y.
+AU  - Corso, Jason J.
+PY  - 2021
+AB  - In single-target video object tracking, an initial bounding box is drawn around a target object and propagated through a video. When this bounding box is provided by a careful human expert, it is expected to yield strong overall tracking performance that can be mimicked at scale by novice crowd workers with the help of advanced quality control methods. However, we show through an investigation of 900 crowdsourced initializations that such quality control strategies are inadequate for this task in two major ways: first, the high level of redundancy in these methods (e.g., averaging multiple responses to reduce error) is unnecessary, as 23\% of crowdsourced initializations perform just as well as the gold-standard initialization. Second, even nearly perfect initializations can lead to degraded long-term performance due to the complexity of object tracking. Considering these findings, we evaluate novel approaches for automatically selecting bounding boxes to re-query, and introduce Smart Replacement, an efficient method that decides whether to use the crowdsourced replacement initialization.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445181
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445181
+ER  - 
+
+TY  - CONF
+TI  - A Human-AI Collaborative Approach for Clinical Decision Making on Rehabilitation Assessment
+AU  - Lee, Min Hun
+AU  - Siewiorek, Daniel P.
+AU  - Smailagic, Asim
+AU  - Bernardino, Alexandre
+AU  - Berm\'{u}dez i Badia, Sergi Berm\'{u}dez
+PY  - 2021
+AB  - Advances in artificial intelligence (AI) have made it increasingly applicable to supplement expert’s decision-making in the form of a decision support system on various tasks. For instance, an AI-based system can provide therapists quantitative analysis on patient’s status to improve practices of rehabilitation assessment. However, there is limited knowledge on the potential of these systems. In this paper, we present the development and evaluation of an interactive AI-based system that supports collaborative decision making with therapists for rehabilitation assessment. This system automatically identifies salient features of assessment to generate patient-specific analysis for therapists, and tunes with their feedback. In two evaluations with therapists, we found that our system supports therapists significantly higher agreement on assessment (0.71 average F1-score) than a traditional system without analysis (0.66 average F1-score, p &lt; 0.05). After tuning with therapist’s feedback, our system significantly improves its performance from 0.8377 to 0.9116 average F1-scores (p &lt; 0.01). This work discusses the potential of a human-AI collaborative system to support more accurate decision making while learning from each other’s strengths.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445472
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445472
+ER  - 
+
+TY  - CONF
+TI  - Directed Diversity: Leveraging Language Embedding Distances for Collective Creativity in Crowd Ideation
+AU  - Cox, Samuel Rhys
+AU  - Wang, Yunlong
+AU  - Abdul, Ashraf
+AU  - von der Weth, Christian
+AU  - Y. Lim, Brian
+PY  - 2021
+AB  - Crowdsourcing can collect many diverse ideas by prompting ideators individually, but this can generate redundant ideas. Prior methods reduce redundancy by presenting peers’ ideas or peer-proposed prompts, but these require much human coordination. We introduce Directed Diversity, an automatic prompt selection approach that leverages language model embedding distances to maximize diversity. Ideators can be directed towards diverse prompts and away from prior ideas, thus improving their collective creativity. Since there are diverse metrics of diversity, we present a Diversity Prompting Evaluation Framework consolidating metrics from several research disciplines to analyze along the ideation chain — prompt selection, prompt creativity, prompt-ideation mediation, and ideation creativity. Using this framework, we evaluated Directed Diversity in a series of a simulation study and four user studies for the use case of crowdsourcing motivational messages to encourage physical activity. We show that automated diverse prompting can variously improve collective creativity across many nuanced metrics of diversity.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445782
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445782
+ER  - 
+
+TY  - CONF
+TI  - Cody: An AI-Based System to Semi-Automate Coding for Qualitative Research
+AU  - Rietz, Tim
+AU  - Maedche, Alexander
+PY  - 2021
+AB  - Qualitative research can produce a rich understanding of a phenomenon but requires an essential and strenuous data annotation process known as coding. Coding can be repetitive and time-consuming, particularly for large datasets. Existing AI-based approaches for partially automating coding, like supervised machine learning (ML) or explicit knowledge represented in code rules, require high technical literacy and lack transparency. Further, little is known about the interaction of researchers with AI-based coding assistance. We introduce Cody, an AI-based system that semi-automates coding through code rules and supervised ML. Cody supports researchers with interactively (re)defining code rules and uses ML to extend coding to unseen data. In two studies with qualitative researchers, we found that (1) code rules provide structure and transparency, (2) explanations are commonly desired but rarely used, (3) suggestions benefit coding quality rather than coding speed, increasing the intercoder reliability, calculated with Krippendorff’s Alpha, from 0.085 (MAXQDA) to 0.33 (Cody).
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445591
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445591
+ER  - 
+
+TY  - CONF
+TI  - Exploring Semi-Supervised Learning for Predicting Listener Backchannels
+AU  - Jain, Vidit
+AU  - Leekha, Maitree
+AU  - Shah, Rajiv Ratn
+AU  - Shukla, Jainendra
+PY  - 2021
+AB  - Developing human-like conversational agents is a prime area in HCI research and subsumes many tasks. Predicting listener backchannels is one such actively-researched task. While many studies have used different approaches for backchannel prediction, they all have depended on manual annotations for a large dataset. This is a bottleneck impacting the scalability of development. To this end, we propose using semi-supervised techniques to automate the process of identifying backchannels, thereby easing the annotation process. To analyze our identification module’s feasibility, we compared the backchannel prediction models trained on (a) manually-annotated and (b) semi-supervised labels. Quantitative analysis revealed that the proposed semi-supervised approach could attain 95\% of the former’s performance. Our user-study findings revealed that almost 60\% of the participants found the backchannel responses predicted by the proposed model more natural. Finally, we also analyzed the impact of personality on the type of backchannel signals and validated our findings in the user-study.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445449
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445449
+ER  - 
+
+TY  - CONF
+TI  - Social Sensemaking with AI: Designing an Open-ended AI Experience with a Blind Child
+AU  - Morrison, Cecily
+AU  - Cutrell, Edward
+AU  - Grayson, Martin
+AU  - Thieme, Anja
+AU  - Taylor, Alex
+AU  - Roumen, Geert
+AU  - Longden, Camilla
+AU  - Tschiatschek, Sebastian
+AU  - Faia Marques, Rita
+AU  - Sellen, Abigail
+PY  - 2021
+AB  - AI technologies are often used to aid people in performing discrete tasks with well-defined goals (e.g., recognising faces in images). Emerging technologies that provide continuous, real-time information enable more open-ended AI experiences. In partnership with a blind child, we explore the challenges and opportunities of designing human-AI interaction for a system intended to support social sensemaking. Adopting a research-through-design perspective, we reflect upon working with the uncertain capabilities of AI systems in the design of this experience. We contribute: (i) a concrete example of an open-ended AI system that enabled a blind child to extend his own capabilities; (ii) an illustration of the delta between imagined and actual use, highlighting how capabilities derive from the human-AI interaction and not the AI system alone; and (iii) a discussion of design choices to craft an ongoing human-AI interaction that addresses the challenge of uncertain outputs of AI systems.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445290
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445290
+ER  - 
+
+TY  - CONF
+TI  - Diagnosing Bias in the Gender Representation of HCI Research Participants: How it Happens and Where We Are
+AU  - Offenwanger, Anna
+AU  - Milligan, Alan John
+AU  - Chang, Minsuk
+AU  - Bullard, Julia
+AU  - Yoon, Dongwook
+PY  - 2021
+AB  - In human-computer interaction (HCI) studies, bias in the gender representation of participants can jeopardize the generalizability of findings, perpetuate bias in data driven practices, and make new technologies dangerous for underrepresented groups. Key to progress towards inclusive and equitable gender practices is diagnosing the current status of bias and identifying where it comes from. In this mixed-methods study, we interviewed 13 HCI researchers to identify the potential bias factors, defined a systematic data collection procedure for meta-analysis of participant gender data, and created a participant gender dataset from 1,147 CHI papers. Our analysis provided empirical evidence for the underrepresentation of women, the invisibility of non-binary participants, deteriorating representation of women in MTurk studies, and characteristics of research topics prone to bias. Based on these findings, we make concrete suggestions for promoting inclusive community culture and equitable research practices in HCI.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445383
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445383
+ER  - 
+
+TY  - CONF
+TI  - You’re Making Me Sick: A Systematic Review of How Virtual Reality Research Considers Gender \&amp; Cybersickness
+AU  - MacArthur, Cayley
+AU  - Grinberg, Arielle
+AU  - Harley, Daniel
+AU  - Hancock, Mark
+PY  - 2021
+AB  - While multiple studies suggest that female-identified participants are more likely to experience cybersickness in virtual reality (VR), our systematic review of 71 eligible VR publications (59 studies and 12 surveys) pertaining to gender and cybersickness reveals a number of confounding factors in study design (e.g., a variety of technical specifications, tasks, content), a lack of demographic data, and a bias in participant recruitment. Our review shows an ongoing need within VR research to more consistently include and report on women’s experiences in VR to better understand the gendered possibility of cybersickness. Based on the gaps identified in our systematic review, we contribute study design recommendations for future work, arguing that gender considerations are necessary at every stage of VR study design, even when the study is not ‘about’ gender.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445701
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445701
+ER  - 
+
+TY  - CONF
+TI  - Selling Glossy, Easy Futures: A Feminist Exploration of Commercial Mental-Health-focused Self-Care Apps’ Descriptions in the Google Play Store
+AU  - Spors, Velvet
+AU  - Wagner, Hanne Gesine
+AU  - Flintham, Martin
+AU  - Brundell, Pat
+AU  - Murphy, David
+PY  - 2021
+AB  - Self-care apps offer a wide variety of different therapy paradigms, pedagogies and concepts for people to maintain and make sense of their mental health. However, as human-made artefacts, these apps are being imbued with their designers’ interests, opinions, biases and assumptions about self-care. This paper is interested in making these (often) implicit notions visible. After selecting 69 apps from the Google Play Store, we use Feminist Content Analysis to investigate the store descriptions of these apps: Inductively through thematic analysis and deductively through charting concepts found within the descriptions. Our findings indicate that commercial self-care apps portray themselves as “future creating” tools for individual self-discovery, but they also create narratives that propagate an overly simplistic, individualistic and potentially harmful view of mental distress. We conclude this paper by sketching out alternative design considerations for how self-care apps can portray themselves and communicate in a more transparent, plurality-embracing fashion.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445500
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445500
+ER  - 
+
+TY  - CONF
+TI  - CoCapture: Effectively Communicating UI Behaviors on Existing Websites by Demonstrating and Remixing
+AU  - Chen, Yan
+AU  - Lee, Sang Won
+AU  - Oney, Steve
+PY  - 2021
+AB  - User Interface (UI) mockups are commonly used as shared context during interface development collaboration. In practice, UI designers often use screenshots and sketches to create mockups of desired UI behaviors for communication. However, in the later stages of UI development, interfaces can be arbitrarily complex, making it labor-intensive to sketch, and static screenshots are limited in the types of interactive and dynamic behaviors they can express. We introduce CoCapture, a system that allows designers to easily create UI behavior mockups on existing web interfaces by demonstrating and remixing, and to accurately describe their requests to helpers by referencing the resulting mockups using hypertext. We showed that participants could more accurately describe UI behaviors with CoCapture than with existing sketch and communication tools and that the resulting descriptions were clear and easy to follow. Our approach can help teams develop UIs efficiently by bridging communication gaps with more accurate visual context.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445573
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445573
+ER  - 
+
+TY  - CONF
+TI  - VINS: Visual Search for Mobile User Interface Design
+AU  - Bunian, Sara
+AU  - Li, Kai
+AU  - Jemmali, Chaima
+AU  - Harteveld, Casper
+AU  - Fu, Yun
+AU  - Seif El-Nasr, Magy Seif
+PY  - 2021
+AB  - Searching for relative mobile user interface (UI) design examples can aid interface designers in gaining inspiration and comparing design alternatives. However, finding such design examples is challenging, especially as current search systems rely on only text-based queries and do not consider the UI structure and content into account. This paper introduces VINS, a visual search framework, that takes as input a UI image (wireframe, high-fidelity) and retrieves visually similar design examples. We first survey interface designers to better understand their example finding process. We then develop a large-scale UI dataset that provides an accurate specification of the interface’s view hierarchy (i.e., all the UI components and their specific location). By utilizing this dataset, we propose an object-detection based image retrieval framework that models the UI context and hierarchical structure. The framework achieves a mean Average Precision of 76.39\% for the UI detection and high performance in querying similar UI designs.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445762
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445762
+ER  - 
+
+TY  - CONF
+TI  - Journalistic Source Discovery: Supporting The Identification of News Sources in User Generated Content
+AU  - Wang, Yixue
+AU  - Diakopoulos, Nicholas
+PY  - 2021
+AB  - Many journalists and newsrooms now incorporate audience contributions in their sourcing practices by leveraging user-generated content (UGC). However, their sourcing needs and practices as they seek information from UGCs are still not deeply understood by researchers or well-supported in tools. This paper first reports the results of a qualitative interview study with nine professional journalists about their UGC sourcing practices, detailing what journalists typically look for in UGCs and elaborating on two UGC sourcing approaches: deep reporting and wide reporting. These findings then inform a human-centered design approach to prototype a UGC sourcing tool for journalists, which enables journalists to interactively filter and rank UGCs based on users’ example content. We evaluate the prototype with nine professional journalists who source UGCs in their daily routines to understand how UGC sourcing practices are enabled and transformed, while also uncovering opportunities for future research and design to support journalistic sourcing practices and sensemaking processes.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445266
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445266
+ER  - 
+
+TY  - CONF
+TI  - Large Scale Analysis of Multitasking Behavior During Remote Meetings
+AU  - Cao, Hancheng
+AU  - Lee, Chia-Jung
+AU  - Iqbal, Shamsi
+AU  - Czerwinski, Mary
+AU  - Wong, Priscilla N Y
+AU  - Rintel, Sean
+AU  - Hecht, Brent
+AU  - Teevan, Jaime
+AU  - Yang, Longqi
+PY  - 2021
+AB  - Virtual meetings are critical for remote work because of the need for synchronous collaboration in the absence of in-person interactions. In-meeting multitasking is closely linked to people’s productivity and wellbeing. However, we currently have limited understanding of multitasking in remote meetings and its potential impact. In this paper, we present what we believe is the most comprehensive study of remote meeting multitasking behavior through an analysis of a large-scale telemetry dataset collected from February to May 2020 of U.S. Microsoft employees and a 715-person diary study. Our results demonstrate that intrinsic meeting characteristics such as size, length, time, and type, significantly correlate with the extent to which people multitask, and multitasking can lead to both positive and negative outcomes. Our findings suggest important best-practice guidelines for remote meetings (e.g., avoid important meetings in the morning) and design implications for productivity tools (e.g., support positive remote multitasking).
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445243
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445243
+ER  - 
+
+TY  - CONF
+TI  - Comparing Generic and Community-Situated Crowdsourcing for Data Validation in the Context of Recovery from Substance Use Disorders
+AU  - Rubya, Sabirat
+AU  - Numainville, Joseph
+AU  - Yarosh, Svetlana
+PY  - 2021
+AB  - Targeting the right group of workers for crowdsourcing often achieves better quality results. One unique example of targeted crowdsourcing is seeking community-situated workers whose familiarity with the background and the norms of a particular group can help produce better outcome or accuracy. These community-situated crowd workers can be recruited in different ways from generic online crowdsourcing platforms or from online recovery communities. We evaluate three different approaches to recruit generic and community-situated crowd in terms of the time and the cost of recruitment, and the accuracy of task completion. We consider the context of Alcoholics Anonymous (AA), the largest peer support group for recovering alcoholics, and the task of identifying and validating AA meeting information. We discuss the benefits and trade-offs of recruiting paid vs. unpaid community-situated workers and provide implications for future research in the recovery context and relevant domains of HCI, and for the design of crowdsourcing ICT systems.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445399
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445399
+ER  - 
+
+TY  - CONF
+TI  - Designing Telepresence Drones to Support Synchronous, Mid-air Remote Collaboration: An Exploratory Study
+AU  - Sabet, Mehrnaz
+AU  - Orand, Mania
+AU  - W. McDonald, David
+PY  - 2021
+AB  - Drones are increasingly used to support humanitarian crises and events that involve dangerous or costly tasks. While drones have great potential for remote collaborative work and aerial telepresence, existing drone technology is limited in its support for synchronous collaboration among multiple remote users. Through three design iterations and evaluations, we prototyped Squadrone, a novel aerial telepresence platform that supports synchronous mid-air collaboration among multiple remote users. We present our design and report results from evaluating our iterations with 13 participants in 3 different collaboration configurations. Our first design iteration validates the basic functionality of the platform. Then, we establish the effectiveness of collaboration using a 360-degree shared aerial display. Finally, we simulate a type of search task in an open environment to see if collaborative telepresence impacts members’ participation. The results validate some initial goals for Squadrone and are used to reflect back on a recent telepresence design framework.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445041
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445041
+ER  - 
+
+TY  - CONF
+TI  - Uncovering the Promises and Challenges of Social Media Use in the Low-Wage Labor Market: Insights from Employers
+AU  - Lu, Alex Jiahong
+AU  - Dillahunt, Tawanna R.
+PY  - 2021
+AB  - Social media has become an effective recruitment tool for higher-waged and white-collar professionals. Yet, past studies have questioned its effectiveness for the recruitment of lower-waged workers. It is also unclear whether or how employers leverage social media in their recruitment of low-wage job seekers, and how social media could better support the needs of both stakeholders. Therefore, we conducted 15 semi-structured interviews with employers of low-wage workers in the U.S. We found that employers: use social media, primarily Facebook, to access large pools of active low-wage job seekers; and recognize indirect signals about low-wage job seekers’ commitment and job readiness. Our work suggests that there remains a visible, yet unaddressed power imbalance between low-wage workers and employers in the use of social media, which risks further destabilizing the precarious labor market.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445774
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445774
+ER  - 
+
+TY  - CONF
+TI  - Haptic and Visual Comprehension of a 2D Graph Layout Through Physicalisation
+AU  - Drogemuller, Adam
+AU  - Cunningham, Andrew
+AU  - Walsh, James A
+AU  - Baumeister, James
+AU  - Smith, Ross T.
+AU  - Thomas, Bruce H
+PY  - 2021
+AB  - Data physicalisations afford people the ability to directly interact with data using their hands, potentially achieving a more comprehensive understanding of a dataset. Due to their complex nature, the representation of graphs and networks could benefit from physicalisation, bringing the dataset from the digital world into the physical one. However, no empirical work exists investigating the effects physicalisations have upon comprehension as they relate to graph representations. In this work, we present initial design considerations for graph physicalisations, as well as an empirical study investigating differences in comprehension between virtual and physical representations. We found that participants perceived themselves as being more accurate via touch and sight (visual-haptic) than the graphical-only modality, and perceived a triangle count task as less difficult in visual-haptic than in the graphical-only modality. Additionally, we found that participants significantly preferred interacting with visual-haptic over other conditions, despite no significant effect on task time or error.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445704
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445704
+ER  - 
+
+TY  - CONF
+TI  - Collecting and Characterizing Natural Language Utterances for Specifying Data Visualizations
+AU  - Srinivasan, Arjun
+AU  - Nyapathy, Nikhila
+AU  - Lee, Bongshin
+AU  - Drucker, Steven M.
+AU  - Stasko, John
+PY  - 2021
+AB  - Natural language interfaces (NLIs) for data visualization are becoming increasingly popular both in academic research and in commercial software. Yet, there is a lack of empirical understanding of how people specify visualizations through natural language. We conducted an online study (N = 102), showing participants a series of visualizations and asking them to provide utterances they would pose to generate the displayed charts. From the responses, we curated a dataset of 893 utterances and characterized the utterances according to (1) their phrasing (e.g., commands, queries, questions) and (2) the information they contained (e.g., chart types, data aggregations). To help guide future research and development, we contribute this utterance dataset and discuss its applications toward the creation and benchmarking of NLIs for visualization.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445400
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445400
+ER  - 
+
+TY  - CONF
+TI  - Pedagogical Agents in Educational VR: An in the Wild Study
+AU  - Petersen, Gustav B\o{}g
+AU  - Mottelson, Aske
+AU  - Makransky, Guido
+PY  - 2021
+AB  - Pedagogical agents are theorized to increase humans’ effort to understand computerized instructions. Despite the pedagogical promises of VR, the usefulness of pedagogical agents in VR remains uncertain. Based on this gap, and inspired by global efforts to advance remote learning during the COVID-19 pandemic, we conducted an educational VR study in-the-wild (N = 161). With a 2 \texttimes 2 + 1 between subjects design, we manipulated the appearance and behavior of a virtual museum guide in an exhibition about viruses. Factual and conceptual learning outcomes as well as subjective learning experience measures were collected. In general, participants reported high enjoyment and had significant knowledge acquisition. We found that the agent’s appearance and behavior impacted factual knowledge gain. We also report an interaction effect between behavioral and visual realism for conceptual knowledge gain. Our findings nuance classical multimedia learning theories and provide directions for employing agents in immersive learning environments.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445760
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445760
+ER  - 
+
+TY  - CONF
+TI  - BodyStylus: Freehand On-Body Design and Fabrication of Epidermal Interfaces
+AU  - Pourjafarian, Narjes
+AU  - Koelle, Marion
+AU  - Fruchard, Bruno
+AU  - Mavali, Sahar
+AU  - Klamka, Konstantin
+AU  - Groeger, Daniel
+AU  - Strohmeier, Paul
+AU  - Steimle, J\"{u}rgen
+PY  - 2021
+AB  - In traditional body-art, designs are adjusted to the body as they are applied, enabling creative improvisation and exploration. Conventional design and fabrication methods of epidermal interfaces, however, separate these steps. With BodyStylus we present the first computer-assisted approach for on-body design and fabrication of epidermal interfaces. Inspired by traditional techniques, we propose a hand-held tool that augments freehand inking with digital support: projected in-situ guidance assists creating valid on-body circuits and aesthetic ornaments that align with the human bodyscape, while pro-active switching between inking and non-inking creates error preventing constraints. We contribute BodyStylus’s design rationale and interaction concept along with an interactive prototype that uses self-sintering conductive ink. Results of two focus group explorations showed that guidance was more appreciated by artists, while constraints appeared more useful to engineers, and that working on the body inspired critical reflection on the relationship between bodyscape, interaction, and designs.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445475
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445475
+ER  - 
+
+TY  - CONF
+TI  - RCEA-360VR: Real-time, Continuous Emotion Annotation in 360° VR Videos for Collecting Precise Viewport-dependent Ground Truth Labels
+AU  - Xue, Tong
+AU  - El Ali, Abdallah
+AU  - Zhang, Tianyi
+AU  - Ding, Gangyi
+AU  - Cesar, Pablo
+PY  - 2021
+AB  - Precise emotion ground truth labels for 360° virtual reality (VR) video watching are essential for fine-grained predictions under varying viewing behavior. However, current annotation techniques either rely on post-stimulus discrete self-reports, or real-time, continuous emotion annotations (RCEA) but only for desktop/mobile settings. We present RCEA for 360° VR videos (RCEA-360VR), where we evaluate in a controlled study (N=32) the usability of two peripheral visualization techniques: HaloLight and DotSize. We furthermore develop a method that considers head movements when fusing labels. Using physiological, behavioral, and subjective measures, we show that (1) both techniques do not increase users’ workload, sickness, nor break presence (2) our continuous valence and arousal annotations are consistent with discrete within-VR and original stimuli ratings (3) users exhibit high similarity in viewing behavior, where fused ratings perfectly align with intended labels. Our work contributes usable and effective techniques for collecting fine-grained viewport-dependent emotion labels in 360° VR.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445487
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445487
+ER  - 
+
+TY  - CONF
+TI  - From Detectables to Inspectables: Understanding Qualitative Analysis of Audiovisual Data
+AU  - Subramanian, Krishna
+AU  - Maas, Johannes
+AU  - Borchers, Jan
+AU  - Hollan, James
+PY  - 2021
+AB  - Audiovisual recordings of user studies and interviews provide important data in qualitative HCI research. Even when a textual transcription is available, researchers frequently turn to these recordings due to their rich information content. However, the temporal, unstructured nature of audiovisual recordings makes them less efficient to work with than text. Through interviews and a survey, we explored how HCI researchers work with audiovisual recordings. We investigated researchers’ transcription and annotation practice, their overall analysis workflow, and the prevalence of direct analysis of audiovisual recordings. We found that a key task was locating and analyzing inspectables, interesting segments in recordings. Since locating inspectables can be time consuming, participants look for detectables, visual or auditory cues that indicate the presence of an inspectable. Based on our findings, we discuss the potential for automation in locating detectables in qualitative audiovisual analysis.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445458
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445458
+ER  - 
+
+TY  - CONF
+TI  - Remote and Collaborative Virtual Reality Experiments via Social VR Platforms
+AU  - Saffo, David
+AU  - Di Bartolomeo, Sara
+AU  - Yildirim, Caglar
+AU  - Dunne, Cody
+PY  - 2021
+AB  - Virtual reality (VR) researchers struggle to conduct remote studies. Previous work has focused on working around limitations imposed by traditional crowdsourcing methods. However, the potential for leveraging social VR platforms for HCI evaluations is largely unexplored. These platforms have large VR-ready user populations, distributed synchronous virtual environments, and support for user-generated content. We demonstrate how social VR platforms can be used to practically and ethically produce valid research results by replicating two studies using one such platform (VRChat): a quantitative study on Fitts’ Law and a qualitative study on tabletop collaboration. Our replication studies exhibited analogous results to the originals, indicating the research validity of this approach. Moreover, we easily recruited experienced VR users with their own hardware for synchronous, remote, and collaborative participation. We further provide lessons learned for future researchers experimenting using social VR platforms. This paper and all supplemental materials are available at osf.io/c2amz.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445426
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445426
+ER  - 
+
+TY  - CONF
+TI  - Effects of Emotion and Agency on Presence in Virtual Reality
+AU  - Jicol, Crescent
+AU  - Wan, Chun Hin
+AU  - Doling, Benjamin
+AU  - Illingworth, Caitlin H
+AU  - Yoon, Jinha
+AU  - Headey, Charlotte
+AU  - Lutteroth, Christof
+AU  - Proulx, Michael J
+AU  - Petrini, Karin
+AU  - O'Neill, Eamonn
+PY  - 2021
+AB  - Arguably one of the most important characteristics of virtual reality (VR) is its ability to induce higher feelings of presence. Still, research has remained inconclusive on how presence is affected by human factors such as emotion and agency. Here we adopt a novel design to investigate their effects by testing virtual environments inducing either happiness or fear, with or without user agency. Results from 121 participants showed that the dominant emotion induced by a virtual environment is positively correlated with presence. In addition, agency had a significant positive effect on presence and, furthermore, moderated the effect of emotion on presence. We show for the first time that the effects of emotion and agency on presence are not straightforward but they can be modelled by separating design factors from subjective measures. We discuss how these findings can explain seemingly conflicting results of related work and their implications for VR design.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445588
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445588
+ER  - 
+
+TY  - CONF
+TI  - Overlooking Context: How do Defaults and Framing Reduce Deliberation in Smart Home Privacy Decision-Making?
+AU  - Bahirat, Paritosh
+AU  - Willemsen, Martijn
+AU  - He, Yangyang
+AU  - Sun, Qizhang
+AU  - Knijnenburg, Bart
+PY  - 2021
+AB  - Research has demonstrated that users’ heuristic decision-making processes cause external factors like defaults and framing to influence the outcome of privacy decisions. Proponents of “privacy nudging” have proposed leveraging these effects to guide users’ decisions. Our research shows that defaults and framing not only influence the outcome of privacy decisions, but also the process of evaluating the contextual factors associated with the decision, effectively making the decision-making process more heuristic. In our analysis of an existing dataset of scenario-based smart home privacy decisions, we demonstrate that defaults and framing not only have a direct effect on participants’ decisions; they also moderate the effect of their cognitive appraisals of the presented scenarios on the decision. These results suggest that nudges like defaults and framing exacerbate the well-researched problem that people often employ heuristics rather than making deliberate privacy decisions, and that privacy-setting interfaces should avoid the effects of heuristic decision-making.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445672
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445672
+ER  - 
+
+TY  - CONF
+TI  - Ask Me or Tell Me? Enhancing the Effectiveness of Crowdsourced Design Feedback
+AU  - Lekschas, Fritz
+AU  - Ampanavos, Spyridon
+AU  - Siangliulue, Pao
+AU  - Pfister, Hanspeter
+AU  - Gajos, Krzysztof Z.
+PY  - 2021
+AB  - Crowdsourced design feedback systems are emerging resources for getting large amounts of feedback in a short period of time. Traditionally, the feedback comes in the form of a declarative statement, which often contains positive or negative sentiment. Prior research has shown that overly negative or positive sentiment can strongly influence the perceived usefulness and acceptance of feedback and, subsequently, lead to ineffective design revisions. To enhance the effectiveness of crowdsourced design feedback, we investigate a new approach for mitigating the effects of negative or positive feedback by combining open-ended and thought-provoking questions with declarative feedback statements. We conducted two user studies to assess the effects of question-based feedback on the sentiment and quality of design revisions in the context of graphic design. We found that crowdsourced question-based feedback contains more neutral sentiment than statement-based feedback. Moreover, we provide evidence that presenting feedback as questions followed by statements leads to better design revisions than question- or statement-based feedback alone.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445507
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445507
+ER  - 
+
+TY  - CONF
+TI  - Galileo: Citizen-led Experimentation Using a Social Computing System
+AU  - Pandey, Vineet
+AU  - Koul, Tushar
+AU  - Yang, Chen
+AU  - McDonald, Daniel
+AU  - Price Ball, Mad
+AU  - Greshake Tzovaras, Bastian
+AU  - Knight, Rob
+AU  - Klemmer, Scott
+PY  - 2021
+AB  - People have scientific questions and folk theories; yet most lack the expertise to investigate them. How might people transform their questions into experiments that inform both science and their lives? This paper demonstrates how online volunteers can collaboratively design and run experiments using a novel social computing system. The Galileo system provides procedural support using three techniques: 1) experimental design workflow that provides just-in-time training; 2) review workflow with scaffolded questions; and 3) automated routines for data collection. We present two empirical investigations: a study and a field deployment with online volunteers across 16 and 8 countries respectively. People generated structurally-sound experiments on personally meaningful topics; three communities ran a week-long experiment each. We identify two key challenges for citizen-led experimentation—supporting different expertise levels and providing recruitment guidance—and provide specific suggestions from the social computing literature. Our results highlight the promise and challenges of citizen-led knowledge work like experimentation.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445668
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445668
+ER  - 
+
+TY  - CONF
+TI  - Karamad: A Voice-based Crowdsourcing Platform for Underserved Populations
+AU  - Randhawa, Shan M
+AU  - Ahmad, Tallal
+AU  - Chen, Jay
+AU  - Raza, Agha Ali
+PY  - 2021
+AB  - Crowdsourcing enables the completion of large-scale and hard-to-automate tasks, while allowing people to earn money. However, 3.6 billion people – a workforce comprising 46.4\% of the world population – who could benefit most from this source of income lack the access and literacy to use computers, smartphones, and the internet. In this paper we present Karamad, a voice-based crowdsourcing platform that allows workers in low-resource regions to complete crowd work using low-end phones and receive payments as mobile airtime balance. We explore the usefulness, scalability, and sustainability of Karamad in Pakistan through a 6-month deployment. Without any advertising, training, or airtime subsidies, Karamad organically engaged 725 workers who completed 3,939 tasks (involving 43,006 components) including translations, dataset generation, and surveys on demographics, accessibility, disability, health, employment, and literacy. Collectively, the workers produced a valuable service market for potential customers and included female, unemployed, non-literate, and blind users.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445417
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445417
+ER  - 
+
+TY  - CONF
+TI  - Hardhats and Bungaloos: Comparing Crowdsourced Design Feedback with Peer Design Feedback in the Classroom
+AU  - Oppenlaender, Jonas
+AU  - Kuosmanen, Elina
+AU  - Lucero, Andr\'{e}s
+AU  - Hosio, Simo
+PY  - 2021
+AB  - Feedback is an important aspect of design education, and crowdsourcing has emerged as a convenient way to obtain feedback at scale. In this paper, we investigate how crowdsourced design feedback compares to peer design feedback within a design-oriented HCI class and across two metrics: perceived quality and perceived fairness. We also examine the perceived monetary value of crowdsourced feedback, which provides an interesting contrast to the typical requester-centric view of the value of labor on crowdsourcing platforms. Our results reveal that the students (N = 106) perceived the crowdsourced design feedback as inferior to peer design feedback in multiple ways. However, they also identified various positive aspects of the online crowds that peers cannot provide. We discuss the meaning of the findings and provide suggestions for teachers in HCI and other researchers interested in crowd feedback systems on using crowds as a potential complement to peers.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445380
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445380
+ER  - 
+
+TY  - CONF
+TI  - Investigating the Homogenization of Web Design: A Mixed-Methods Approach
+AU  - Goree, Samuel
+AU  - Doosti, Bardia
+AU  - Crandall, David
+AU  - Su, Norman Makoto
+PY  - 2021
+AB  - Visual design provides the backdrop to most of our interactions over the Internet, but has not received as much analytical attention as textual content. Combining computational with qualitative approaches, we investigate the growing concern that visual design of the World Wide Web has homogenized over the past decade. By applying computer vision techniques to a large dataset of representative websites images from 2003–2019, we show that designs have become significantly more similar since 2007, especially for page layouts where the average distance between sites decreased by over 30\%. Synthesizing interviews from 11 experienced web design professionals with our computational analyses, we discuss causes of this homogenization including overlap in source code and libraries, color scheme standardization, and support for mobile devices. Our results seek to motivate future discussion of the factors that influence designers and their implications on the future trajectory of web design.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445156
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445156
+ER  - 
+
+TY  - CONF
+TI  - Screen2Vec: Semantic Embedding of GUI Screens and GUI Components
+AU  - Li, Toby Jia-Jun
+AU  - Popowski, Lindsay
+AU  - Mitchell, Tom
+AU  - Myers, Brad A
+PY  - 2021
+AB  - Representing the semantics of GUI screens and components is crucial to data-driven computational methods for modeling user-GUI interactions and mining GUI designs. Existing GUI semantic representations are limited to encoding either the textual content, the visual design and layout patterns, or the app contexts. Many representation techniques also require significant manual data annotation efforts. This paper presents Screen2Vec, a new self-supervised technique for generating representations in embedding vectors of GUI screens and components that encode all of the above GUI features without requiring manual annotation using the context of user interaction traces. Screen2Vec is inspired by the word embedding method Word2Vec, but uses a new two-layer pipeline informed by the structure of GUIs and interaction traces and incorporates screen- and app-specific metadata. Through several sample downstream tasks, we demonstrate Screen2Vec’s key useful properties: representing between-screen similarity through nearest neighbors, composability, and capability to represent user tasks.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445049
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445049
+ER  - 
+
+TY  - CONF
+TI  - AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media
+AU  - Saha, Koustuv
+AU  - Liu, Yozen
+AU  - Vincent, Nicholas
+AU  - Chowdhury, Farhan Asif
+AU  - Neves, Leonardo
+AU  - Shah, Neil
+AU  - Bos, Maarten W.
+PY  - 2021
+AB  - Showing ads delivers revenue for online content distributors, but ad exposure can compromise user experience and cause user fatigue and frustration. Correctly balancing ads with other content is imperative. Currently, ad allocation relies primarily on demographics and inferred user interests, which are treated as static features and can be privacy-intrusive. This paper uses person-centric and momentary context features to understand optimal ad-timing. In a quasi-experimental study on a three-month longitudinal dataset of 100K Snapchat users, we find ad timing influences ad effectiveness. We draw insights on the relationship between ad effectiveness and momentary behaviors such as duration, interactivity, and interaction diversity. We simulate ad reallocation, finding that our study-driven insights lead to greater value for the platform. This work advances our understanding of ad consumption and bears implications for designing responsible ad allocation systems, improving both user and platform outcomes. We discuss privacy-preserving components and ethical implications of our work.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445394
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445394
+ER  - 
+
+TY  - CONF
+TI  - AI as Social Glue: Uncovering the Roles of Deep Generative AI during Social Music Composition
+AU  - Suh, Minhyang (Mia)
+AU  - Youngblom, Emily
+AU  - Terry, Michael
+AU  - Cai, Carrie J
+PY  - 2021
+AB  - Recent advances in deep generative neural networks have made it possible for artificial intelligence to actively collaborate with human beings in co-creating novel content (e.g. music, art). While substantial research focuses on (individual) human-AI collaborations, comparatively less research examines how AI can play a role in human-human collaborations during co-creation. In a qualitative lab study, we observed 30 participants (15 pairs) compose a musical phrase in pairs, both with and without AI. Our findings reveal that AI may play important roles in influencing human social dynamics during creativity, including: 1) implicitly seeding a common ground at the start of collaboration, 2) acting as a psychological safety net in creative risk-taking, 3) providing a force for group progress, 4) mitigating interpersonal stalling and friction, and 5) altering users’ collaborative and creative roles. This work contributes to the future of generative AI in social creativity by providing implications for how AI could enrich, impede, or alter creative social dynamics in the years to come.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445219
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445219
+ER  - 
+
+TY  - CONF
+TI  - AdaptiFont: Increasing Individuals’ Reading Speed with a Generative Font Model and Bayesian Optimization
+AU  - Kadner, Florian
+AU  - Keller, Yannik
+AU  - Rothkopf, Constantin
+PY  - 2021
+AB  - Digital text has become one of the primary ways of exchanging knowledge, but text needs to be rendered to a screen to be read. We present AdaptiFont, a human-in-the-loop system that is aimed at interactively increasing readability of text displayed on a monitor. To this end, we first learn a generative font space with non-negative matrix factorization from a set of classic fonts. In this space we generate new true-type-fonts through active learning, render texts with the new font, and measure individual users’ reading speed. Bayesian optimization sequentially generates new fonts on the fly to progressively increase individuals’ reading speed. The results of a user study show that this adaptive font generation system finds regions in the font space corresponding to high reading speeds, that these fonts significantly increase participants’ reading speed, and that the found fonts are significantly different across individual readers.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445140
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445140
+ER  - 
+
+TY  - CONF
+TI  - Perspectives of Bioartists and Community Lab Organizers on Working with Living Organisms
+AU  - Asgarali-Hoffman, S. Nisa
+AU  - Hamidi, Foad
+PY  - 2021
+AB  - There is increasing interest within the HCI community about working with living organisms&nbsp;in the design of interactive systems. Bioartists and community lab participants have worked with living organisms for decades. Their motivations for doing so include artistic expression, design innovation, and activism. We interviewed 12 artists, community lab organizers, and researchers who work with or facilitate work with living organisms. Participants expressed perspectives on working with living organisms and described bioart as an effective practice for engaging and informing the public, fostering transdisciplinary collaborations, and facilitating inspiration and learning from organic processes. They also discussed questions of agency and consent, among other ethical issues in this context. Based on our findings, we present future directions to investigate the potential of hybrid living media interfaces to engage and educate human users, open up possibilities for transdisciplinary collaborations, and participate in ethical dialogues on emerging technologies in a new way.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445060
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445060
+ER  - 
+
+TY  - CONF
+TI  - User Ex Machina : Simulation as a Design Probe in Human-in-the-Loop Text Analytics
+AU  - Crisan, Anamaria
+AU  - Correll, Michael
+PY  - 2021
+AB  - Topic models are widely used analysis techniques for clustering documents and surfacing thematic elements of text corpora. These models remain challenging to optimize and often require a “human-in-the-loop” approach where domain experts use their knowledge to steer and adjust. However, the fragility, incompleteness, and opacity of these models means even minor changes could induce large and potentially undesirable changes in resulting model. In this paper we conduct a simulation-based analysis of human-centered interactions with topic models, with the objective of measuring the sensitivity of topic models to common classes of user actions. We find that user interactions have impacts that differ in magnitude but often negatively affect the quality of the resulting modelling in a way that can be difficult for the user to evaluate. We suggest the incorporation of sensitivity and “multiverse” analyses to topic model interfaces to surface and overcome these deficiencies. Code and Data Availability: https://osf.io/zgqaw
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445425
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445425
+ER  - 
+
+TY  - CONF
+TI  - Fits and Starts: Enterprise Use of AutoML and the Role of Humans in the Loop
+AU  - Crisan, Anamaria
+AU  - Fiore-Gartland, Brittany
+PY  - 2021
+AB  - AutoML systems can speed up routine data science work and make machine learning available to those without expertise in statistics and computer science. These systems have gained traction in enterprise settings where pools of skilled data workers are limited. In this study, we conduct interviews with 29 individuals from organizations of different sizes to characterize how they currently use, or intend to use, AutoML systems in their data science work. Our investigation also captures how data visualization is used in conjunction with AutoML systems. Our findings identify three usage scenarios for AutoML that resulted in a framework summarizing the level of automation desired by data workers with different levels of expertise. We surfaced the tension between speed and human oversight and found that data visualization can do a poor job balancing the two. Our findings have implications for the design and implementation of human-in-the-loop visual analytics approaches.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445775
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445775
+ER  - 
+
+TY  - CONF
+TI  - Causal Perception in Question-Answering Systems
+AU  - Law, Po-Ming
+AU  - Lo, Leo Yu-Ho
+AU  - Endert, Alex
+AU  - Stasko, John
+AU  - Qu, Huamin
+PY  - 2021
+AB  - Root cause analysis is a common data analysis task. While question-answering systems enable people to easily articulate a why question (e.g., why students in Massachusetts have high ACT Math scores on average) and obtain an answer, these systems often produce questionable causal claims. To investigate how such claims might mislead users, we conducted two crowdsourced experiments to study the impact of showing different information on user perceptions of a question-answering system. We found that in a system that occasionally provided unreasonable responses, showing a scatterplot increased the plausibility of unreasonable causal claims. Also, simply warning participants that correlation is not causation seemed to lead participants to accept reasonable causal claims more cautiously. We observed a strong tendency among participants to associate correlation with causation. Yet, the warning appeared to reduce the tendency. Grounded in the findings, we propose ways to reduce the illusion of causality when using question-answering systems.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445444
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445444
+ER  - 
+
+TY  - CONF
+TI  - Understanding Narrative Linearity for Telling Expressive Time-Oriented Stories
+AU  - Lan, Xingyu
+AU  - Xu, Xinyue
+AU  - Cao, Nan
+PY  - 2021
+AB  - Creating expressive narrative visualization often requires choosing a well-planned narrative order that invites the audience in. The narrative can either follow the linear order of story events (chronology), or deviate from linearity (anachronies). While evidence exists that anachronies in novels and films can enhance story expressiveness, little is known about how they can be incorporated into narrative visualization. To bridge this gap, this work introduces the idea of narrative linearity to visualization and investigates how different narrative orders affect the expressiveness of time-oriented stories. First, we conducted preliminary interviews with seven experts to clarify the motivations and challenges of manipulating narrative linearity in time-oriented stories. Then, we analyzed a corpus of 80 time-oriented stories and identified six most salient patterns of narrative orders. Next, we conducted a crowdsourcing study with 221 participants. Results indicated that anachronies have the potential to make time-oriented stories more expressive without hindering comprehensibility.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445344
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445344
+ER  - 
+
+TY  - CONF
+TI  - Understanding Data Accessibility for People with Intellectual and Developmental Disabilities
+AU  - Wu, Keke
+AU  - Petersen, Emma
+AU  - Ahmad, Tahmina
+AU  - Burlinson, David
+AU  - Tanis, Shea
+AU  - Szafir, Danielle Albers
+PY  - 2021
+AB  - Using visualization requires people to read abstract visual imagery, estimate statistics, and retain information. However, people with Intellectual and Developmental Disabilities (IDD) often process information differently, which may complicate connecting abstract visual information to real-world quantities. This population has traditionally been excluded from visualization design, and often has limited access to data related to their well being. We explore how visualizations may better serve this population. We identify three visualization design elements that may improve data accessibility: chart type, chart embellishment, and data continuity. We evaluate these elements with populations both with and without IDD, measuring accuracy and efficiency in a web-based online experiment with time series and proportion data. Our study identifies performance patterns and subjective preferences for people with IDD when reading common visualizations. These findings suggest possible solutions that may break the cognitive barriers caused by conventional design guidelines.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445743
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445743
+ER  - 
+
+TY  - CONF
+TI  - Does Interaction Improve Bayesian Reasoning with Visualization?
+AU  - Mosca, Ab
+AU  - Ottley, Alvitta
+AU  - Chang, Remco
+PY  - 2021
+AB  - Interaction enables users to navigate large amounts of data effectively, supports cognitive processing, and increases data representation methods. However, there have been few attempts to empirically demonstrate whether adding interaction to a static visualization improves its function beyond popular beliefs. In this paper, we address this gap. We use a classic Bayesian reasoning task as a testbed for evaluating whether allowing users to interact with a static visualization can improve their reasoning. Through two crowdsourced studies, we show that adding interaction to a static Bayesian reasoning visualization does not improve participants’ accuracy on a Bayesian reasoning task. In some cases, it can significantly detract from it. Moreover, we demonstrate that underlying visualization design modulates performance and that people with high versus low spatial ability respond differently to different interaction techniques and underlying base visualizations. Our work suggests that interaction is not as unambiguously good as we often believe; a well designed static visualization can be as, if not more, effective than an interactive one.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445176
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445176
+ER  - 
+
+TY  - CONF
+TI  - Towards Understanding How Readers Integrate Charts and Captions: A Case Study with Line Charts
+AU  - Kim, Dae Hyun
+AU  - Setlur, Vidya
+AU  - Agrawala, Maneesh
+PY  - 2021
+AB  - Charts often contain visually prominent features that draw attention to aspects of the data and include text captions that emphasize aspects of the data. Through a crowdsourced study, we explore how readers gather takeaways when considering charts and captions together. We first ask participants to mark visually prominent regions in a set of line charts. We then generate text captions based on the prominent features and ask participants to report their takeaways after observing chart-caption pairs. We find that when both the chart and caption describe a high-prominence feature, readers treat the doubly emphasized high-prominence feature as the takeaway; when the caption describes a low-prominence chart feature, readers rely on the chart and report a higher-prominence feature as the takeaway. We also find that external information that provides context, helps further convey the caption’s message to the reader. We use these findings to provide guidelines for authoring effective chart-caption pairs.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445443
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445443
+ER  - 
+
+TY  - CONF
+TI  - Can Anthropographics Promote Prosociality?A Review and Large-Sample Study
+AU  - Morais, Luiz
+AU  - Jansen, Yvonne
+AU  - Andrade, Nazareno
+AU  - Dragicevic, Pierre
+PY  - 2021
+AB  - Visualizations designed to make readers compassionate with the persons whose data is represented have been called anthropographics and are commonly employed by practitioners. Empirical studies have recently examined whether anthropographics indeed promote empathy, compassion, or the likelihood of prosocial behavior, but findings have been inconclusive so far. This work contributes a detailed overview of past experiments, and two new experiments that use large samples and a combination of design strategies to maximize the possibility of finding an effect. We tested an information-rich anthropographic against a simple bar chart, asking participants to allocate hypothetical money in a crowdsourcing study. We found that the anthropographic had, at best, a small effect on money allocation. Such a small effect may be relevant for large-scale donation campaigns, but the large sample sizes required to observe an effect and the noise involved in measuring it make it very difficult to study in more depth. Data and code are available at https://osf.io/xqae2/.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445637
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445637
+ER  - 
+
+TY  - CONF
+TI  - Interpreting the Effect of Embellishment on Chart Visualizations
+AU  - Andry, Tiffany
+AU  - Hurter, Christophe
+AU  - Lambotte, Fran\c{c}ois
+AU  - Fastrez, Pierre
+AU  - Telea, Alexandru
+PY  - 2021
+AB  - Infographics range from minimalism that aims to convey the raw data to elaborately decorated, or embellished, graphics that aim to engage readers by telling a story. Several studies have shown evidence to negative, but also positive, effects on embellishments. We conducted a set of experiments to gauge more precisely how embellishments affect how people relate to infographics and make sense of the conveyed story. By analyzing questionnaires, interviews, and eye-tracking data simplified by bundling, we show that, within bounds, embellishments have a positive effect on how users get engaged in understanding an infographic, with very limited downside. To our knowledge, our work is the first that fuses the aforementioned three information sources to understand infographics. Our findings can help to design more fine-grained studies to quantify the effects of embellishments and also to design infographics that effectively use the embellishments’ positive aspects identified. I think the contribution does not appear well in the abstract. It’s not just that the visual embellishments are positive. We show a methodology that allows us to see what these effects are (in addition to engagement, memorization and recall) at several levels (scales, interviews, eye tracking) which are therefore physiological and emotional. We could include this idea in the abstract?
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445739
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445739
+ER  - 
+
+TY  - CONF
+TI  - Designing a Conversational Agent for Sexual Assault Survivors: Defining Burden of Self-Disclosure and Envisioning Survivor-Centered Solutions
+AU  - Park, Hyanghee
+AU  - Lee, Joonhwan
+PY  - 2021
+AB  - Sexual assault survivors hesitate to disclose their stories to others and even avoid case-reporting because of psychological, social, and cultural reasons. Thus, conversational agents (CAs) have gained much attention as a potential counselor because CAs’ characteristics (e.g., anonymity) could mitigate various difficulties of human-human interaction (HHI). Despite the potentials, it is difficult to design a CA for survivors because various aspects should be considered. Especially, with traditional HCI approaches only (e.g., need-finding and usability tests), designers could easily miss psychological and subjective burdens that survivors feel toward a new system. Hence, while envisioning a burden-free CA for survivors, we agilely designed and implemented an initial prototype CA (NamuBot) with professionals (the police and counselors). We then conducted a qualitative user study to identify and compare burdens caused by the CA vs. humans. Lastly, we codesigned design features that could reduce the CA-bound burdens with 36 participants (19 survivors and 17 professionals). Notably, our findings showed that 17 survivors preferred reporting their case to NamuBot over humans, expressing far less burden. Although CAs could also place burdens on survivors, the burdens could be alleviated by the features that the survivors and professionals designed. Finally, we present design implications and strategies to develop burden-mitigating CAs for survivors.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445133
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445133
+ER  - 
+
+TY  - CONF
+TI  - CorpSum: Towards an Enabling Tool-Design for Language Researchers to Explore, Analyze and Visualize Corpora
+AU  - \c{C}etin, Asil
+AU  - Moeller, Torsten
+AU  - Torsney-Weir, Thomas
+PY  - 2021
+AB  - Linguists use annotated text collections to validate, refute and refine a hypothesis about the written language. This research requires the creation and analysis of complex queries which are often above the technical expertise of the domain users. In this paper, we present a tool-design which enables language researchers to easily query annotated text corpora and conduct a comparative multi-faceted analysis on a single screen. The results of the iterative design process, including requirement analysis, multiple prototyping and user evaluation sessions, and expert reviews, are documented in detail. Our tool, called CorpSum, shows a 43.12 point increase in the mean SUS score in a randomized within-subjects test and an improvement of 3.18 times in mean task completion duration compared to a conventional solution. Two detailed case studies with linguists demonstrate a significant improvement for solving the real-world problems of the domain users.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445145
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445145
+ER  - 
+
+TY  - CONF
+TI  - “I Got Some Free Time”: Investigating Task-execution and Task-effort Metrics in Mobile Crowdsourcing Tasks
+AU  - Chiang, Chia-En
+AU  - Chen, Yu-Chun
+AU  - Lin, Fang-Yu
+AU  - Feng, Felicia
+AU  - Wu, Hao-An
+AU  - Lee, Hao-Ping
+AU  - Yang, Chang-Hsuan
+AU  - Chang, Yung-Ju
+PY  - 2021
+AB  - Using a mixed-methods approach over six weeks, we studied 30 smartphone users’ task choices, task execution and effort devoted to two commercial mobile crowdsourcing platforms in the wild. We focused on the influence of activity contexts, characterized by breakpoint situations and activity attributes. In line with their stated preferences, the participants were more likely to proactively perform mobile crowdsourcing tasks during transitions between activities than during an ongoing activity and during long breaks, respectively. Their task choices were influenced by various activity attributes, and more impacted by their current and preceding activities than their upcoming ones. Two of our three target outcomes, task execution and task choice, were also influenced by individuals’ stress and energy levels. Our qualitative data provide further insights into participants’ decisions about which crowdsourcing tasks to perform and when; and our results’ implications for the design of future mobile crowdsourcing task-prompting mechanisms are also discussed.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445477
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445477
+ER  - 
+
+TY  - CONF
+TI  - It’s About Time: A View of Crowdsourced Data Before and During the Pandemic
+AU  - Christoforou, Evgenia
+AU  - Barlas, Pinar
+AU  - Otterbacher, Jahna
+PY  - 2021
+AB  - Data attained through crowdsourcing have an essential role in the development of computer vision algorithms. Crowdsourced data might include reporting biases, since crowdworkers usually describe what is “worth saying” in addition to images’ content. We explore how the unprecedented events of 2020, including the unrest surrounding racial discrimination, and the COVID-19 pandemic, might be reflected in responses to an open-ended annotation task on people images, originally executed in 2018 and replicated in 2020. Analyzing themes of Identity and Health conveyed in workers’ tags, we find evidence that supports the potential for temporal sensitivity in crowdsourced data. The 2020 data exhibit more race-marking of images depicting non-Whites, as well as an increase in tags describing Weight. We relate our findings to the emerging research on crowdworkers’ moods. Furthermore, we discuss the implications of (and suggestions for) designing tasks on proprietary platforms, having demonstrated the possibility for additional, unexpected variation in crowdsourced data due to significant events.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445317
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445317
+ER  - 
+
+TY  - CONF
+TI  - Automating Clinical Documentation with Digital Scribes: Understanding the Impact on Physicians
+AU  - Li, Brenna
+AU  - Crampton, Noah
+AU  - Yeates, Thomas
+AU  - Xia, Yu
+AU  - Tian, Xirong
+AU  - Truong, Khai
+PY  - 2021
+AB  - Recently, digital scribe systems have been gaining popularity as a possible work-around solution to the Electronic Medical Record (EMR) documentation burden that affects many physicians. The proposed system would automate the clinical summary physicians take by capturing and extracting the patient-physician conversation during the consultation. While promising in concept, how this system would apply to real-world use and its limitations are still not well understood. To examine these issues, we designed a digital scribe prototype to generate notes of different qualities ranging from the reality of current state-of-the-art technology to the potential of future implementations. We conducted a ”Wizard of Oz” study with 24 primary care physicians using our digital scribe prototype in 4 simulated medical encounters followed by a semi-structured interview. This exploratory study provides an understanding of physicians’ interaction with digitally scribed notes, their perceptions on note quality, their perceived workflow impact and several directions for improvements.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445172
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445172
+ER  - 
+
+TY  - CONF
+TI  - Scrappy: Using Scrap Material as Infill to Make Fabrication More Sustainable
+AU  - Wall, Ludwig Wilhelm
+AU  - Jacobson, Alec
+AU  - Vogel, Daniel
+AU  - Schneider, Oliver
+PY  - 2021
+AB  - We present a software system for fused deposition modelling 3D printing that replaces infill material with scrap to reduce material and energy consumption. Example scrap objects include unused 3D prints from prototyping and calibration, household waste like coffee cups, and off-cuts from other fabrication projects. To achieve this, our system integrates into an existing CAD workflow and manages a database of common items, previous prints, and manually entered objects. While modelling in a standard CAD application, the system suggests objects to insert, ranked by how much infill material they could replace. This computation extends an existing nesting algorithm to determine which objects fit, optimize their alignment, and adjust the enclosing mesh geometry. While printing, the system uses custom tool-paths and animated instructions to enable anyone nearby to manually insert the scrap material.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445187
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445187
+ER  - 
+
+TY  - CONF
+TI  - Coupling Simulation and Hardware for Interactive Circuit Debugging
+AU  - Strasnick, Evan
+AU  - Agrawala, Maneesh
+AU  - Follmer, Sean
+PY  - 2021
+AB  - Simulation offers many advantages when designing analog circuits. Designers can explore alternatives quickly, without added cost or risk of hardware faults. However, it is challenging to use simulation as an aid during interactive debugging of physical circuits, due to difficulties in comparing simulated analyses with hardware measurements. Designers must continually configure simulations to match the state of the physical circuit (e.g. capturing sensor inputs), and must manually rework the hardware to replicate changes or analyses performed in simulation. We propose techniques leveraging instrumentation and programmable test hardware to create a tight coupling between a physical circuit and its simulated model. Bridging these representations helps designers to compare simulated and measured behaviors, and to quickly perform analytical techniques on hardware (e.g. parameter-response analysis) that are typically cumbersome outside of simulation. We implement these techniques in a prototype and show how it aids in efficiently debugging a variety of analog circuits.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445422
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445422
+ER  - 
+
+TY  - CONF
+TI  - Attitudes Surrounding an Imperfect AI Autograder
+AU  - Hsu, Silas
+AU  - Li, Tiffany Wenting
+AU  - Zhang, Zhilin
+AU  - Fowler, Max
+AU  - Zilles, Craig
+AU  - Karahalios, Karrie
+PY  - 2021
+AB  - Deployment of AI assessment tools in education is widespread, but work on students’ interactions and attitudes towards imperfect autograders is comparatively lacking. This paper presents students’ perceptions surrounding a ∼ 90\% accurate automated short-answer grader that determined homework and exam credit in a college-level computer science course. Using surveys and interviews, we investigated students’ knowledge about the autograder and their attitudes. We observed that misalignment between folk theories about how the autograder worked and how it actually worked could lead to suboptimal answer construction strategies. Students overestimated the autograder’s probability of marking correct answers as wrong, and estimates of this probability were associated with dissatisfaction and perceptions of unfairness. Many participants expressed a need for additional instruction on how to cater to the autograder. From these findings, we propose guidelines for incorporating imperfect short answer autograders into classroom in a manner that is considerate of students’ needs.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445424
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445424
+ER  - 
+
+TY  - CONF
+TI  - I Don’t Need an Expert! Making URL Phishing Features Human Comprehensible
+AU  - Althobaiti, Kholoud
+AU  - Meng, Nicole
+AU  - Vaniea, Kami
+PY  - 2021
+AB  - Judging the safety of a URL is something that even security experts struggle to do accurately without additional information. In this work, we aim to make experts’ tools accessible to non-experts and assist general users in judging the safety of URLs by providing them with a usable report based on the information professionals use. We designed the report by iterating with 8 focus groups made up of end users, HCI experts, and security experts to ensure that the report was usable as well as accurately interpreted the information. We also conducted an online evaluation with 153 participants to compare different report-length options. We find that the longer comprehensive report allows users to accurately judge URL safety (93\% accurate) and that summaries still provide benefit (83\% accurate) compared to domain highlighting (65\% accurate).
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445574
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445574
+ER  - 
+
+TY  - CONF
+TI  - “Brilliant AI Doctor” in Rural Clinics: Challenges in AI-Powered Clinical Decision Support System Deployment
+AU  - Wang, Dakuo
+AU  - Wang, Liuping
+AU  - Zhang, Zhan
+AU  - Wang, Ding
+AU  - Zhu, Haiyi
+AU  - Gao, Yvonne
+AU  - Fan, Xiangmin
+AU  - Tian, Feng
+PY  - 2021
+AB  - Artificial intelligence (AI) technology has been increasingly used in the implementation of advanced Clinical Decision Support Systems (CDSS). Research demonstrated the potential usefulness of AI-powered CDSS (AI-CDSS) in clinical decision making scenarios. However, post-adoption user perception and experience remain understudied, especially in developing countries. Through observations and interviews with 22 clinicians from 6 rural clinics in China, this paper reports the various tensions between the design of an AI-CDSS system (“Brilliant Doctor”) and the rural clinical context, such as the misalignment with local context and workflow, the technical limitations and usability barriers, as well as issues related to transparency and trustworthiness of AI-CDSS. Despite these tensions, all participants expressed positive attitudes toward the future of AI-CDSS, especially acting as “a doctor’s AI assistant” to realize a Human-AI Collaboration future in clinical settings. Finally we draw on our findings to discuss implications for designing AI-CDSS interventions for rural clinical contexts in developing countries.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445432
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445432
+ER  - 
+
+TY  - CONF
+TI  - Exploring Approaches to Data Literacy Through a Critical Race Theory Perspective
+AU  - Johnson, Britney
+AU  - Rydal Shapiro, Ben
+AU  - DiSalvo, Betsy
+AU  - Rothschild, Annabel
+AU  - DiSalvo, Carl
+PY  - 2021
+AB  - In this paper, we describe and analyze a workshop developed for a work training program called DataWorks. In this workshop, data workers chose a topic of their interest, sourced and processed data on that topic, and used that data to create presentations. Drawing from discourses of data literacy; epistemic agency and lived experience; and critical race theory, we analyze the workshops’ activities and outcomes. Through this analysis, three themes emerge: the tensions between epistemic agency and the context of work, encountering the ordinariness of racism through data work, and understanding the personal as communal and intersectional. Finally, critical race theory also prompts us to consider the very notions of data literacy that undergird our workshop activities. From this analysis, we offer a series of suggestions for approaching designing data literacy activities, taking into account critical race theory.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445141
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445141
+ER  - 
+
+TY  - CONF
+TI  - IdeaBot: Investigating Social Facilitation in Human-Machine Team Creativity
+AU  - Hwang, Angel Hsing-Chi
+AU  - Won, Andrea Stevenson
+PY  - 2021
+AB  - The present study investigates how human subjects collaborate with a computer-mediated chatbot in creative idea generation tasks. In three text-based between-group studies, we tested whether the perceived identity (i.e., whether a partner was believed to be a bot or as a human) or conversational style (human or robotic) of a teammate would moderate the outcomes of participants’ creative production. In Study 1, participants worked with either a chatbot or a human confederate. In Study 2, all participants worked with a human teammate but were informed that their partner was either a human or a chatbot. Conversely, all participants worked with a chatbot in Study 3, but their partner was described as either a chatbot or a human. We investigated differences in idea generation outcomes and found that participants consistently contributed more ideas and ideas of higher quality when they perceived their teamworking partner to be a bot. Furthermore, when the conversational style of the partner was robotic, participants with high anxiety in group communication reported greater creative self-efficacy in task performance. Finally, whether the perceived dominance of a partner and the pressure to come up with ideas during the task mediated positive outcomes of idea generation depended on whether the conversational style of the bot partner was robot- or human-like. Based on our findings, we discussed implications for future design of artificial agents as active team players in collaboration tasks.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445270
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445270
+ER  - 
+
+TY  - CONF
+TI  - Touchscreen Typing As Optimal Supervisory Control
+AU  - Jokinen, Jussi
+AU  - Acharya, Aditya
+AU  - Uzair, Mohammad
+AU  - Jiang, Xinhui
+AU  - Oulasvirta, Antti
+PY  - 2021
+AB  - Traditionally, touchscreen typing has been studied in terms of motor performance. However, recent research has exposed a decisive role of visual attention being shared between the keyboard and the text area. Strategies for this are known to adapt to the task, design, and user. In this paper, we propose a unifying account of touchscreen typing, regarding it as optimal supervisory control. Under this theory, rules for controlling visuo-motor resources are learned via exploration in pursuit of maximal typing performance. The paper outlines the control problem and explains how visual and motor limitations affect it. We then present a model, implemented via reinforcement learning, that simulates co-ordination of eye and finger movements. Comparison with human data affirms that the model creates realistic finger- and eye-movement patterns and shows human-like adaptation. We demonstrate the model’s utility for interface development in evaluating touchscreen keyboard designs.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445483
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445483
+ER  - 
+
+TY  - CONF
+TI  - “I Can’t Reply with That”: Characterizing Problematic Email Reply Suggestions
+AU  - Robertson, Ronald E
+AU  - Olteanu, Alexandra
+AU  - Diaz, Fernando
+AU  - Shokouhi, Milad
+AU  - Bailey, Peter
+PY  - 2021
+AB  - In email interfaces, providing users with reply suggestions may simplify or accelerate correspondence. While the “success” of such systems is typically quantified using the number of suggestions selected by users, this ignores the impact of social context, which can change how suggestions are perceived. To address this, we developed a mixed-methods framework involving qualitative interviews and crowdsourced experiments to characterize problematic email reply suggestions. Our interviews revealed issues with over-positive, dissonant, cultural, and gender-assuming replies, as well as contextual politeness. In our experiments, crowdworkers assessed email scenarios that we generated and systematically controlled, showing that contextual factors like social ties and the presence of salutations impacts users’ perceptions of email correspondence. These assessments created a novel dataset of human-authored corrections for problematic email replies. Our study highlights the social complexity of providing suggestions for email correspondence, raising issues that may apply to all social messaging systems.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445557
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445557
+ER  - 
+
+TY  - CONF
+TI  - Enhancing the Composition Task in Text Entry Studies: Eliciting Difficult Text and Improving Error Rate Calculation
+AU  - Gaines, Dylan
+AU  - Kristensson, Per Ola
+AU  - Vertanen, Keith
+PY  - 2021
+AB  - Participants in text entry studies usually copy phrases or compose novel messages. A composition task mimics actual user behavior and can allow researchers to better understand how a system might perform in reality. A problem with composition is that participants may gravitate towards writing simple text, that is, text containing only common words. Such simple text is insufficient to explore all factors governing a text entry method, such as its error correction features. We contribute to enhancing composition tasks in two ways. First, we show participants can modulate the difficulty of their compositions based on simple instructions. While it took more time to compose difficult messages, they were longer, had more difficult words, and resulted in more use of error correction features. Second, we compare two methods for obtaining a participant’s intended text, comparing both methods with a previously proposed crowdsourced judging procedure. We found participant-supplied references were more accurate.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445199
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445199
+ER  - 
+
+TY  - CONF
+TI  - ToonNote: Improving Communication in Computational Notebooks Using Interactive Data Comics
+AU  - Kang, DaYe
+AU  - Ho, Tony
+AU  - Marquardt, Nicolai
+AU  - Mutlu, Bilge
+AU  - Bianchi, Andrea
+PY  - 2021
+AB  - Computational notebooks help data analysts analyze and visualize datasets, and share analysis procedures and outputs. However, notebooks typically combine code (e.g., Python scripts), notes, and outputs (e.g., tables, graphs). The combination of disparate materials is known to hinder the comprehension of notebooks, making it difficult for analysts to collaborate with other analysts unfamiliar with the dataset. To mitigate this problem, we introduce ToonNote, a JupyterLab extension that enables the conversion of notebooks into “data comics.” ToonNote provides a simplified view of a Jupyter notebook, highlighting the most important results while supporting interactive and free exploration of the dataset. This paper presents the results of a formative study that motivated the system, its implementation, and an evaluation with 12 users, demonstrating the effectiveness of the produced comics. We discuss how our findings inform the future design of interfaces for computational notebooks and features to support diverse collaborators.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445434
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445434
+ER  - 
+
+TY  - CONF
+TI  - Assisting Manipulation and Grasping in Robot Teleoperation with Augmented Reality Visual Cues
+AU  - Arevalo Arboleda, Stephanie
+AU  - R\"{u}cker, Franziska
+AU  - Dierks, Tim
+AU  - Gerken, Jens
+PY  - 2021
+AB  - Teleoperating industrial manipulators in co-located spaces can be challenging. Facilitating robot teleoperation by providing additional visual information about the environment and the robot affordances using augmented reality (AR), can improve task performance in manipulation and grasping. In this paper, we present two designs of augmented visual cues, that aim to enhance the visual space of the robot operator through hints about the position of the robot gripper in the workspace and in relation to the target. These visual cues aim to improve the distance perception and thus, the task performance. We evaluate both designs against a baseline in an experiment where participants teleoperate a robotic arm to perform pick-and-place tasks. Our results show performance improvements in different levels, reflecting in objective and subjective measures with trade-offs in terms of time, accuracy, and participants’ views of teleoperation. These findings show the potential of AR not only in teleoperation, but in understanding the human-robot workspace.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445398
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445398
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing Design Guidance for Contextual Adaptation of Text Content in Augmented Reality
+AU  - Dudley, John J.
+AU  - Jacques, Jason T.
+AU  - Kristensson, Per Ola
+PY  - 2021
+AB  - Augmented Reality (AR) can deliver engaging user experiences that seamlessly meld virtual content with the physical environment. However, building such experiences is challenging due to the developer’s inability to assess how uncontrolled deployment contexts may influence the user experience. To address this issue, we demonstrate a method for rapidly conducting AR experiments and real-world data collection in the user’s own physical environment using a privacy-conscious mobile web application. The approach leverages the large number of distinct user contexts accessible through crowdsourcing to efficiently source diverse context and perceptual preference data. The insights gathered through this method complement emerging design guidance and sample-limited lab-based studies. The utility of the method is illustrated by re-examining the design challenge of adapting AR text content to the user’s environment. Finally, we demonstrate how gathered design insight can be operationalized to provide adaptive text content functionality in an AR headset.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445493
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445493
+ER  - 
+
+TY  - CONF
+TI  - The Impact of Multiple Parallel Phrase Suggestions on Email Input and Composition Behaviour of Native and Non-Native English Writers
+AU  - Buschek, Daniel
+AU  - Z\"{u}rn, Martin
+AU  - Eiband, Malin
+PY  - 2021
+AB  - We present an in-depth analysis of the impact of multi-word suggestion choices from a neural language model on user behaviour regarding input and text composition in email writing. Our study for the first time compares different numbers of parallel suggestions, and use by native and non-native English writers, to explore a trade-off of “efficiency vs ideation”, emerging from recent literature. We built a text editor prototype with a neural language model (GPT-2), refined in a prestudy with 30 people. In an online study (N=156), people composed emails in four conditions (0/1/3/6 parallel suggestions). Our results reveal (1) benefits for ideation, and costs for efficiency, when suggesting multiple phrases; (2) that non-native speakers benefit more from more suggestions; and (3) further insights into behaviour patterns. We discuss implications for research, the design of interactive suggestion systems, and the vision of supporting writers with AI instead of replacing them.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445372
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445372
+ER  - 
+
+TY  - CONF
+TI  - SoloFinger: Robust Microgestures while Grasping Everyday Objects
+AU  - Sharma, Adwait
+AU  - Hedderich, Michael A.
+AU  - Bhardwaj, Divyanshu
+AU  - Fruchard, Bruno
+AU  - McIntosh, Jess
+AU  - Nittala, Aditya Shekhar
+AU  - Klakow, Dietrich
+AU  - Ashbrook, Daniel
+AU  - Steimle, J\"{u}rgen
+PY  - 2021
+AB  - Using microgestures, prior work has successfully enabled gestural interactions while holding objects. Yet, these existing methods are prone to false activations caused by natural finger movements while holding or manipulating the object. We address this issue with SoloFinger, a novel concept that allows design of microgestures that are robust against movements that naturally occur during primary activities. Using a data-driven approach, we establish that single-finger movements are rare in everyday hand-object actions and infer a single-finger input technique resilient to false activation. We demonstrate this concept’s robustness using a white-box classifier on a pre-existing dataset comprising 36 everyday hand-object actions. Our findings validate that simple SoloFinger gestures can relieve the need for complex finger configurations or delimiting gestures and that SoloFinger is applicable to diverse hand-object actions. Finally, we demonstrate SoloFinger’s high performance on commodity hardware using random forest classifiers.
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3411764.3445197
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3411764.3445197
+ER  - 
+

@@ -1,0 +1,1785 @@
+TY  - CONF
+TI  - Understanding Gesture Input Articulation with Upper-Body Wearables for Users with Upper-Body Motor Impairments
+AU  - Vatavu, Radu-Daniel
+AU  - Ungurean, Ovidiu-Ciprian
+PY  - 2022
+AB  - We examine touchscreen stroke-gestures and mid-air motion-gestures articulated by users with upper-body motor impairments with devices worn on the wrist, finger, and head. We analyze users’ gesture input performance in terms of production time, articulation consistency, and kinematic measures, and contrast the performance of users with upper-body motor impairments with that of a control group of users without impairments. Our results, from two datasets of 7,290 stroke-gestures and 3,809 motion-gestures collected from 28 participants, reveal that users with upper-body motor impairments take twice as much time to produce stroke-gestures on wearable touchscreens compared to users without impairments, but articulate motion-gestures equally fast and with similar acceleration. We interpret our findings in the context of ability-based design and propose ten implications for accessible gesture input with upper-body wearables for users with upper-body motor impairments.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501964
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501964
+ER  - 
+
+TY  - CONF
+TI  - Stylette: Styling the Web with Natural Language
+AU  - Kim, Tae Soo
+AU  - Choi, DaEun
+AU  - Choi, Yoonseo
+AU  - Kim, Juho
+PY  - 2022
+AB  - End-users can potentially style and customize websites by editing them through in-browser developer tools. Unfortunately, end-users lack the knowledge needed to translate high-level styling goals into low-level code edits. We present Stylette, a browser extension that enables users to change the style of websites by expressing goals in natural language. By interpreting the user’s goal with a large language model and extracting suggestions from our dataset of 1.7 million web components, Stylette generates a palette of CSS properties and values that the user can apply to reach their goal. A comparative study (N=40) showed that Stylette lowered the learning curve, helping participants perform styling changes 35\% faster than those using developer tools. By presenting various alternatives for a single goal, the tool helped participants familiarize themselves with CSS through experimentation. Beyond CSS, our work can be expanded to help novices quickly grasp complex software or programming languages.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501931
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501931
+ER  - 
+
+TY  - CONF
+TI  - VocabEncounter: NMT-powered Vocabulary Learning by Presenting Computer-Generated Usages of Foreign Words into Users’ Daily Lives
+AU  - Arakawa, Riku
+AU  - Yakura, Hiromu
+AU  - Kobayashi, Sosuke
+PY  - 2022
+AB  - We demonstrate that recent natural language processing (NLP) techniques introduce a new paradigm of vocabulary learning that benefits from both micro and usage-based learning by generating and presenting the usages of foreign words based on the learner’s context. Then, without allocating dedicated time for studying, the user can become familiarized with how the words are used by seeing the example usages during daily activities, such as Web browsing. To achieve this, we introduce VocabEncounter, a vocabulary-learning system that suitably encapsulates the given words into materials the user is reading in near real time by leveraging recent NLP techniques. After confirming the system’s human-comparable quality of generating translated phrases by involving crowdworkers, we conducted a series of user studies, which demonstrated its effectiveness on learning vocabulary and its favorable experiences. Our work shows how NLP-based generation techniques can transform our daily activities into a field for vocabulary learning.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501839
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501839
+ER  - 
+
+TY  - CONF
+TI  - Affinder: Expressing Concepts of Situations that Afford Activities using Context-Detectors
+AU  - Louie, Ryan
+AU  - Gergle, Darren
+AU  - Zhang, Haoqi
+PY  - 2022
+AB  - Context-aware applications have the potential to act opportunistically to facilitate human experiences and activities, from reminding us of places to perform personal activities, to identifying coincidental moments to engage in digitally-mediated shared experiences. However, despite the availability of context-detectors and programming frameworks for defining how such applications should trigger, designers lack support for expressing their human concepts of a situation and the experiences and activities they afford (e.g., situations to toss a frisbee) when context-features are made available at the level of locations (e.g., parks). This paper introduces Affinder, a block-based programming environment that supports constructing concept expressions that effectively translate their conceptions of a situation into a machine representation using available context features. During pilot testing, we discovered three bridging challenges that arise when expressing situations that cannot be encoded directly by a single context-feature. To overcome these bridging challenges, Affinder provides designers (1) an unlimited vocabulary search for discovering features they may have forgotten; (2) prompts for reflecting and expanding their concepts of a situation and ideas for foraging for context-features; and (3) simulation and repair tools for identifying and resolving issues with the precision of concept expressions on real use-cases. In a comparison study, we found that Affinder’s core functions helped designers stretch their concepts of how to express a situation, find relevant context-features matching their concepts, and recognize when the concept expression operated differently than intended on real-world cases. These results show that Affinder and tools that support bridging can improve a designer’s ability to express their concepts of a human situation into detectable machine representations—thus pushing the boundaries of how computing systems support our activities in the world.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501902
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501902
+ER  - 
+
+TY  - CONF
+TI  - Two Heads Are Better Than One: A Dimension Space for Unifying Human and Artificial Intelligence in Shared Control
+AU  - Cimolino, Gabriele
+AU  - Graham, T.C. Nicholas
+PY  - 2022
+AB  - Shared control is an emerging interaction paradigm in which a human and an AI partner collaboratively control a system. Shared control unifies human and artificial intelligence, making the human’s interactions with computers more accessible, safe, precise, effective, creative, and playful. This form of interaction has independently emerged in contexts as varied as mobility assistance, driving, surgery, and digital games. These domains each have their own problems, terminology, and design philosophies. Without a common language for describing interactions in shared control, it is difficult for designers working in one domain to share their knowledge with designers working in another. To address this problem, we present a dimension space for shared control, based on a survey of 55 shared control systems from six different problem domains. This design space analysis tool enables designers to classify existing systems, make comparisons between them, identify higher-level design patterns, and imagine solutions to novel problems.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517610
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517610
+ER  - 
+
+TY  - CONF
+TI  - Supporting Serendipitous Discovery and Balanced Analysis of Online Product Reviews with Interaction-Driven Metrics and Bias-Mitigating Suggestions
+AU  - Jasim, Mahmood
+AU  - Collins, Christopher
+AU  - Sarvghad, Ali
+AU  - Mahyar, Narges
+PY  - 2022
+AB  - In this study, we investigate how supporting serendipitous discovery and analysis of online product reviews can encourage readers to explore reviews more comprehensively prior to making purchase decisions. We propose two interventions — Exploration Metrics that can help readers understand and track their exploration patterns through visual indicators and a Bias Mitigation Model that intends to maximize knowledge discovery by suggesting sentiment and semantically diverse reviews. We designed, developed, and evaluated a text analytics system called Serendyze, where we integrated these interventions. We asked 100 crowd workers to use Serendyze to make purchase decisions based on product reviews. Our evaluation suggests that exploration metrics enabled readers to efficiently cover more reviews in a balanced way, and suggestions from the bias mitigation model influenced readers to make confident data-driven decisions. We discuss the role of user agency and trust in text-level analysis systems and their applicability in domains beyond review exploration.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517649
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517649
+ER  - 
+
+TY  - CONF
+TI  - Shared Interest: Measuring Human-AI Alignment to Identify Recurring Patterns in Model Behavior
+AU  - Boggust, Angie
+AU  - Hoover, Benjamin
+AU  - Satyanarayan, Arvind
+AU  - Strobelt, Hendrik
+PY  - 2022
+AB  - Saliency methods&nbsp;—&nbsp;techniques to identify the importance of input features on a model’s output&nbsp;—&nbsp;are a common step in understanding neural network behavior. However, interpreting saliency requires tedious manual inspection to identify and aggregate patterns in model behavior, resulting in ad hoc or cherry-picked analysis. To address these concerns, we present Shared Interest: metrics for comparing model reasoning (via saliency) to human reasoning (via ground truth annotations). By providing quantitative descriptors, Shared Interest enables ranking, sorting, and aggregating inputs, thereby facilitating large-scale systematic analysis of model behavior. We use Shared Interest to identify eight recurring patterns in model behavior, such as cases where contextual features or a subset of ground truth features are most important to the model. Working with representative real-world users, we show how Shared Interest can be used to decide if a model is trustworthy, uncover issues missed in manual analyses, and enable interactive probing.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501965
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501965
+ER  - 
+
+TY  - CONF
+TI  - Preferences and Effectiveness of Sleep Data Visualizations for Smartwatches and Fitness Bands
+AU  - Islam, Alaul
+AU  - Aravind, Ranjini
+AU  - Blascheck, Tanja
+AU  - Bezerianos, Anastasia
+AU  - Isenberg, Petra
+PY  - 2022
+AB  - We present the findings of four studies related to the visualization of sleep data on wearables with two form factors: smartwatches and fitness bands. Our goal was to understand the interests, preferences, and effectiveness of different sleep visualizations by form factor. In a survey, we showed that wearers were mostly interested in weekly sleep duration, and nightly sleep phase data. Visualizations of this data were generally preferred over purely text-based representations, and the preferred chart type for fitness bands, and smartwatches was often the same. In one in-person pilot study, and two crowdsourced studies, we then tested the effectiveness of the most preferred representations for different tasks, and found that participants performed simple tasks effectively on both form factors but more complex tasks benefited from the larger smartwatch size. Lastly, we reflect on our crowdsourced study methodology for testing the effectiveness of visualizations for wearables. Supplementary material is available at https://osf.io/yz8ar/.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501921
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501921
+ER  - 
+
+TY  - CONF
+TI  - Do You See What You Mean? Using Predictive Visualizations to Reduce Optimism in Duration Estimates
+AU  - Koval, Morgane
+AU  - Jansen, Yvonne
+PY  - 2022
+AB  - Making time estimates, such as how long a given task might take, frequently leads to inaccurate predictions because of an optimistic bias. Previous attempts to alleviate this bias, including decomposing the task into smaller components and listing potential surprises, have not shown any major improvement. This article builds on the premise that these procedures may have failed because they involve compound probabilities and mixture distributions which are difficult to compute in one’s head. We hypothesize that predictive visualizations of such distributions would facilitate the estimation of task durations. We conducted a crowdsourced study in which 145 participants provided different estimates of overall and sub-task durations and we used these to generate predictive visualizations of the resulting mixture distributions. We compared participants’ initial estimates with their updated ones and found compelling evidence that predictive visualizations encourage less optimistic estimates.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502010
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502010
+ER  - 
+
+TY  - CONF
+TI  - Predicting and Explaining Mobile UI Tappability with Vision Modeling and Saliency Analysis
+AU  - Schoop, Eldon
+AU  - Zhou, Xin
+AU  - Li, Gang
+AU  - Chen, Zhourong
+AU  - Hartmann, Bjoern
+AU  - Li, Yang
+PY  - 2022
+AB  - UI designers often correct false affordances and improve the discoverability of features when users have trouble determining if elements are tappable. We contribute a novel system that models the perceived tappability of mobile UI elements with a vision-based deep neural network and helps provide design insights with dataset-level and instance-level explanations of model predictions. Our system retrieves designs from similar mobile UI examples from our dataset using the latent space of our model. We also contribute a novel use of an interpretability algorithm, XRAI, to generate a heatmap of UI elements that contribute to a given tappability prediction. Through several examples, we show how our system can help automate elements of UI usability analysis and provide insights for designers to iterate their designs. In addition, we share findings from an exploratory evaluation with professional designers to learn how AI-based tools can aid UI design and evaluation for tappability issues.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517497
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517497
+ER  - 
+
+TY  - CONF
+TI  - Towards Conviviality in NavigatingHealth Information on Social Media
+AU  - Karusala, Naveena
+AU  - Anderson, Richard
+PY  - 2022
+AB  - HCI is increasingly concerned with health information quality and spread of misinformation on social media. Despite many major platforms having been adopted across the world, the situated evaluation and sharing of health information is underexplored across diverse health systems and cultural and political contexts. Drawing on semi-structured interviews, we study the navigation of health information on social media in urban and rural South India, backdropped by plural knowledges around health and the specific politics and sociality of health and social media in this setting. We use Ivan Illich’s concept of tools for conviviality [49] to distinguish between how people creatively use tools versus how tools manage and impose values on people—participants aimed to use health information towards care beyond institutionalized healthcare, but insidious misinformation and information-sharing practices served to commodify, spark uncertainty in, and discipline caring behavior. We use our findings to expand understandings of the use of health information on social media and how positionality shapes how people are affected by and respond to misinformation. We also draw attention to the structural aspects of health misinformation in the Indian context and how the design of social media platforms might play a role in addressing it.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517622
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517622
+ER  - 
+
+TY  - CONF
+TI  - “A Second Voice”: Investigating Opportunities and Challenges for Interactive Voice Assistants to Support Home Health Aides
+AU  - Bartle, Vince
+AU  - Lyu, Janice
+AU  - El Shabazz-Thompson, Freesoul
+AU  - Oh, Yunmin
+AU  - Chen, Angela Anqi
+AU  - Chang, Yu-Jan
+AU  - Holstein, Kenneth
+AU  - Dell, Nicola
+PY  - 2022
+AB  - Home health aides are a vulnerable group of frontline caregivers who provide personal and medically-oriented care in patients’ homes. Their work is difficult and unpredictable, involving a mix of physical and emotional labor as they adapt to patients’ changing needs. Our paper presents an exploratory, qualitative study with 32 participants, that investigates design opportunities for Interactive Voice Assistants (IVAs) to support aides’ essential care work. We explore challenges and opportunities for IVAs to (1) fill gaps in aides’ access to information and care coordination, (2) assist with decision making and task completion, (3) advocate on behalf of aides, and (4) provide emotional support. We then discuss key implications of our work, including how materiality may impact perceived ownership and usage of IVAs, the need to carefully consider tensions around surveillance, accountability, data collection, and reporting, and the challenges of centering aides as essential workers in complex home health care contexts.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517683
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517683
+ER  - 
+
+TY  - CONF
+TI  - ‘It Is Not Always Discovery Time’: Four Pragmatic Approaches in Designing AI Systems
+AU  - Windl, Maximiliane
+AU  - Feger, Sebastian S.
+AU  - Zijlstra, Lara
+AU  - Schmidt, Albrecht
+AU  - Wozniak, Pawel W.
+PY  - 2022
+AB  - While systems that use Artificial Intelligence (AI) are increasingly becoming part of everyday technology use, we do not fully understand how AI changes design processes. A structured understanding of how designers work with AI is needed to improve the design process and educate future designers. To that end, we conducted interviews with designers who participated in projects which used AI. While past work focused on AI systems created by experienced designers, we focus on the perspectives of a diverse sample of interaction designers. Our results show that the design process of an interactive system is affected when AI is integrated and that design teams adapt their processes to accommodate AI. Based on our data, we contribute four approaches adopted by interaction designers working with AI: a priori, post-hoc, model-centric, and competence-centric. Our work contributes a pragmatic account of how design processes for AI systems are enacted.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501943
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501943
+ER  - 
+
+TY  - CONF
+TI  - Improving Human-AI Partnerships in Child Welfare: Understanding Worker Practices, Challenges, and Desires for Algorithmic Decision Support
+AU  - Kawakami, Anna
+AU  - Sivaraman, Venkatesh
+AU  - Cheng, Hao-Fei
+AU  - Stapleton, Logan
+AU  - Cheng, Yanghuidi
+AU  - Qing, Diana
+AU  - Perer, Adam
+AU  - Wu, Zhiwei Steven
+AU  - Zhu, Haiyi
+AU  - Holstein, Kenneth
+PY  - 2022
+AB  - AI-based decision support tools (ADS) are increasingly used to augment human decision-making in high-stakes, social contexts. As public sector agencies begin to adopt ADS, it is critical that we understand workers’ experiences with these systems in practice. In this paper, we present findings from a series of interviews and contextual inquiries at a child welfare agency, to understand how they currently make AI-assisted child maltreatment screening decisions. Overall, we observe how workers’ reliance upon the ADS is guided by (1) their knowledge of rich, contextual information beyond what the AI model captures, (2) their beliefs about the ADS’s capabilities and limitations relative to their own, (3) organizational pressures and incentives around the use of the ADS, and (4) awareness of misalignments between algorithmic predictions and their own decision-making objectives. Drawing upon these findings, we discuss design implications towards supporting more effective human-AI decision-making.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517439
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517439
+ER  - 
+
+TY  - CONF
+TI  - Telling Stories from Computational Notebooks: AI-Assisted Presentation Slides Creation for Presenting Data Science Work
+AU  - Zheng, Chengbo
+AU  - Wang, Dakuo
+AU  - Wang, April Yi
+AU  - Ma, Xiaojuan
+PY  - 2022
+AB  - Creating presentation slides is a critical but time-consuming task for data scientists. While researchers have proposed many AI techniques to lift data scientists’ burden on data preparation and model selection, few have targeted the presentation creation task. Based on the needs identified from a formative study, this paper presents NB2Slides, an AI system that facilitates users to compose presentations of their data science work. NB2Slides uses deep learning methods as well as example-based prompts to generate slides from computational notebooks, and take users’ input (e.g., audience background) to structure the slides. NB2Slides also provides an interactive visualization that links the slides with the notebook to help users further edit the slides. A follow-up user evaluation with 12 data scientists shows that participants believed NB2Slides can improve efficiency and reduces the complexity of creating slides. Yet, participants questioned the future of full automation and suggested a human-AI collaboration paradigm.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517615
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517615
+ER  - 
+
+TY  - CONF
+TI  - Human-AI Collaboration via Conditional Delegation: A Case Study of Content Moderation
+AU  - Lai, Vivian
+AU  - Carton, Samuel
+AU  - Bhatnagar, Rajat
+AU  - Liao, Q. Vera
+AU  - Zhang, Yunfeng
+AU  - Tan, Chenhao
+PY  - 2022
+AB  - Despite impressive performance in many benchmark datasets, AI models can still make mistakes, especially among out-of-distribution examples. It remains an open question how such imperfect models can be used effectively in collaboration with humans. Prior work has focused on AI assistance that helps people make individual high-stakes decisions, which is not scalable for a large amount of relatively low-stakes decisions, e.g., moderating social media comments. Instead, we propose conditional delegation as an alternative paradigm for human-AI collaboration where humans create rules to indicate trustworthy regions of a model. Using content moderation as a testbed, we develop novel interfaces to assist humans in creating conditional delegation rules and conduct a randomized experiment with two datasets to simulate in-distribution and out-of-distribution scenarios. Our study demonstrates the promise of conditional delegation in improving model performance and provides insights into design for this novel paradigm, including the effect of AI explanations.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501999
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501999
+ER  - 
+
+TY  - CONF
+TI  - Great Chain of Agents: The Role of Metaphorical Representation of Agents in Conversational Crowdsourcing
+AU  - Jung, Ji-Youn
+AU  - Qiu, Sihang
+AU  - Bozzon, Alessandro
+AU  - Gadiraju, Ujwal
+PY  - 2022
+AB  - Conversational agents are being widely adopted across several domains to serve a variety of purposes ranging from providing intelligent assistance to companionship. Recent literature has shown that users develop intuitive folk theories and a metaphorical understanding of conversational agents (CAs) due to the lack of a mental model of the agents. However, investigation of metaphorical agent representation in the HCI community has mainly focused on the human level, despite non-human metaphors for agents being prevalent in the real world. We adopted Lakoff and Turner’s ‘Great Chain of Being’ framework to systematically investigate the impact of using non-human metaphors to represent conversational agents on worker engagement in crowdsourcing marketplaces. We designed a text-based conversational agent that assists crowd workers in task execution. Through a between-subjects experimental study (N = 341), we explored how different human and non-human metaphors affect worker engagement, the perceived cognitive load of workers, intrinsic motivation, and their trust in the agents. Our findings bridge the gap of how users experience CAs with non-human metaphors in the context of conversational crowdsourcing.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517653
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517653
+ER  - 
+
+TY  - CONF
+TI  - Learning to Denoise Raw Mobile UI Layouts for Improving Datasets at Scale
+AU  - Li, Gang
+AU  - Baechler, Gilles
+AU  - Tragut, Manuel
+AU  - Li, Yang
+PY  - 2022
+AB  - The layout of a mobile screen is a critical data source for UI design research and semantic understanding of the screen. However, UI layouts in existing datasets are often noisy, have mismatches with their visual representation, or consists of generic or app-specific types that are difficult to analyze and model. In this paper, we propose the CLAY pipeline that uses a deep learning approach for denoising UI layouts, allowing us to automatically improve existing mobile UI layout datasets at scale. Our pipeline takes both the screenshot and the raw UI layout, and annotates the raw layout by removing incorrect nodes and assigning a semantically meaningful type to each node. To experiment with our data-cleaning pipeline, we create the CLAY dataset of 59,555 human-annotated screen layouts, based on screenshots and raw layouts from Rico, a public mobile UI corpus. Our deep models achieve high accuracy with F1 scores of 82.7\% for detecting layout objects that do not have a valid visual representation and 85.9\% for recognizing object types, which significantly outperforms a heuristic baseline. Our work lays a foundation for creating large-scale high quality UI layout datasets for data-driven mobile UI research and reduces the need of manual labeling efforts that are prohibitively expensive.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502042
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502042
+ER  - 
+
+TY  - CONF
+TI  - Understanding How Programmers Can Use Annotations on Documentation
+AU  - Horvath, Amber
+AU  - Liu, Michael Xieyang
+AU  - Hendriksen, River
+AU  - Shannon, Connor
+AU  - Paterson, Emma
+AU  - Jawad, Kazi
+AU  - Macvean, Andrew
+AU  - Myers, Brad A
+PY  - 2022
+AB  - Modern software development requires developers to find and effectively utilize new APIs and their documentation, but documentation has many well-known issues. Despite this, developers eventually overcome these issues but have no way of sharing what they learned. We investigate sharing this documentation-specific information through annotations, which have advantages over developer forums as the information is contextualized, not disruptive, and is short, thus easy to author. Developers can also author annotations to support their own comprehension. In order to support the documentation usage behaviors we found, we built the Adamite annotation tool, which provides features such as multiple anchors, annotation types, and pinning. In our user study, we found that developers are able to create annotations that are useful to themselves and are able to utilize annotations created by other developers when learning a new API, with readers of the annotations completing 67\% more of the task, on average, than the baseline.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502095
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502095
+ER  - 
+
+TY  - CONF
+TI  - How Much Do Platform Workers Value Reviews? An Experimental Method
+AU  - Holtz, David M
+AU  - Scult, Liane
+AU  - Suri, Siddharth
+PY  - 2022
+AB  - Previous qualitative work has documented that platform workers place an immense importance on their reputation due to the use of algorithmic management by online labor platforms. We provide a general experimental method, which can be used across platforms and time, for numerically quantifying the intensity with which platform workers experience reputation system-based algorithmic management. Our method works via an experiment where workers choose between a monetary bonus or a positive review. We demonstrate this method by measuring the value that freelancers assigned to positive feedback on Upwork in June 2020. The median freelancer in our sample valued a single positive review at ∼ $49 USD. We also find that less experienced freelancers valued a positive review more highly than those with more experience. Qualitative data collected during the experiment indicates that many freelancers considered issues related to reputation system-based algorithmic management while choosing between the monetary reward and the positive review.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501900
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501900
+ER  - 
+
+TY  - CONF
+TI  - Shifting Trust: Examining How Trust and Distrust Emerge, Transform, and Collapse in COVID-19 Information Seeking
+AU  - Zhang, Yixuan
+AU  - Suhaimi, Nurul
+AU  - Yongsatianchot, Nutchanon
+AU  - Gaggiano, Joseph D
+AU  - Kim, Miso
+AU  - Patel, Shivani A
+AU  - Sun, Yifan
+AU  - Marsella, Stacy
+AU  - Griffin, Jacqueline
+AU  - Parker, Andrea G
+PY  - 2022
+AB  - During crises like COVID-19, individuals are inundated with conflicting and time-sensitive information that drives a need for rapid assessment of the trustworthiness and reliability of information sources and platforms. This parallels evolutions in information infrastructures, ranging from social media to government data platforms. Distinct from current literature, which presumes a static relationship between the presence or absence of trust and people’s behaviors, our mixed-methods research focuses on situated trust, or trust that is shaped by people’s information-seeking and assessment practices through emerging information platforms (e.g., social media, crowdsourced systems, COVID data platforms). Our findings characterize the shifts in trustee (what/who people trust) from information on social media to the social media platform(s), how distrust manifests skepticism in issues of data discrepancy, the insufficient presentation of uncertainty, and how this trust and distrust shift over time. We highlight the deep challenges in existing information infrastructures that influence trust and distrust formation.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501889
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501889
+ER  - 
+
+TY  - CONF
+TI  - Annotating Line Charts for Addressing Deception
+AU  - Fan, Arlen
+AU  - Ma, Yuxin
+AU  - Mancenido, Michelle
+AU  - Maciejewski, Ross
+PY  - 2022
+AB  - Deceptive visualizations are visualizations that, whether intentionally or not, lead the reader to an understanding of the data which varies from the actual data. Examples of deceptive visualizations can be found in every digital platform, and, despite their widespread use in the wild, there have been limited efforts to alert laypersons to common deceptive visualization practices. In this paper, we present a tool for annotating line charts in the wild that reads line chart images and outputs text and visual annotations to assess the line charts for distortions and help guide the reader towards an honest understanding of the chart data. We demonstrate the usefulness of our tool through a series of case studies on real-world charts. Finally, we perform a crowdsourced experiment to evaluate the ability of the proposed tool to educate readers about potentially deceptive visualization practices.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502138
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502138
+ER  - 
+
+TY  - CONF
+TI  - Put a Label On It! Approaches for Constructing and Contextualizing Bar Chart Physicalizations
+AU  - Sauv\'{e}, Kim
+AU  - Ramirez Gomez, Argenis
+AU  - Houben, Steven
+PY  - 2022
+AB  - Physicalizations represent data through their tangible and material properties. In contrast to screen-based visualizations, there is currently very limited understanding of how to label or annotate physicalizations to support people in interpreting the data encoded by the physicalization. Because of its spatiality, contextualization through labeling or annotation is crucial to communicate data across different orientations. In this paper, we study labeling approaches as part of the overall construction process of bar chart physicalizations. We designed a toolkit of physical tokens and paper data labels and asked 16 participants to construct and contextualize their own data physicalizations. We found that (i) the construction and contextualization of physicalizations is a highly intertwined process, (ii) data labels are integrated with physical constructs in the final design, and (iii) these are both influenced by orientation changes. We contribute with an understanding of the role of data labeling in the creation and contextualization of physicalizations.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501952
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501952
+ER  - 
+
+TY  - CONF
+TI  - Visualization Accessibility in the Wild: Challenges Faced by Visualization Designers
+AU  - Joyner, Shakila Cherise S
+AU  - Riegelhuth, Amalia
+AU  - Garrity, Kathleen
+AU  - Kim, Yea-Seul
+AU  - Kim, Nam Wook
+PY  - 2022
+AB  - Data visualizations are now widely used across many disciplines. However, many of them are not easily accessible for visually impaired people. In this work, we use three-staged mixed methods to understand the current practice of accessible visualization design for visually impaired people. We analyzed 95 visualizations from various venues to inspect how they are made inaccessible. To understand the rationale and context behind the design choices, we also conducted surveys with 144 practitioners in the U.S. and follow-up interviews with ten selected survey participants. Our findings include the difficulties of handling modern complex and interactive visualizations and the lack of accessibility support from visualization tools in addition to personal and organizational factors making it challenging to perform accessible design practices.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517630
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517630
+ER  - 
+
+TY  - CONF
+TI  - OneLabeler: A Flexible System for Building Data Labeling Tools
+AU  - Zhang, Yu
+AU  - Wang, Yun
+AU  - Zhang, Haidong
+AU  - Zhu, Bin
+AU  - Chen, Siming
+AU  - Zhang, Dongmei
+PY  - 2022
+AB  - Labeled datasets are essential for supervised machine learning. Various data labeling tools have been built to collect labels in different usage scenarios. However, developing labeling tools is time-consuming, costly, and expertise-demanding on software development. In this paper, we propose a conceptual framework for data labeling and OneLabeler based on the conceptual framework to support easy building of labeling tools for diverse usage scenarios. The framework consists of common modules and states in labeling tools summarized through coding of existing tools. OneLabeler supports configuration and composition of common software modules through visual programming to build data labeling tools. A module can be a human, machine, or mixed computation procedure in data labeling. We demonstrate the expressiveness and utility of the system through ten example labeling tools built with OneLabeler. A user study with developers provides evidence that OneLabeler supports efficient building of diverse data labeling tools.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517612
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517612
+ER  - 
+
+TY  - CONF
+TI  - Promptiverse: Scalable Generation of Scaffolding Prompts Through Human-AI Hybrid Knowledge Graph Annotation
+AU  - Lee, Yoonjoo
+AU  - Chung, John Joon Young
+AU  - Kim, Tae Soo
+AU  - Song, Jean Y
+AU  - Kim, Juho
+PY  - 2022
+AB  - Online learners are hugely diverse with varying prior knowledge, but most instructional videos online are created to be one-size-fits-all. Thus, learners may struggle to understand the content by only watching the videos. Providing scaffolding prompts can help learners overcome these struggles through questions and hints that relate different concepts in the videos and elicit meaningful learning. However, serving diverse learners would require a spectrum of scaffolding prompts, which incurs high authoring effort. In this work, we introduce Promptiverse, an approach for generating diverse, multi-turn scaffolding prompts at scale, powered by numerous traversal paths over knowledge graphs. To facilitate the construction of the knowledge graphs, we propose a hybrid human-AI annotation tool, Grannotate. In our study (N=24), participants produced 40 times more on-par quality prompts with higher diversity, through Promptiverse and Grannotate, compared to hand-designed prompts. Promptiverse presents a model for creating diverse and adaptive learning experiences online.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502087
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502087
+ER  - 
+
+TY  - CONF
+TI  - Diff in the Loop: Supporting Data Comparison in Exploratory Data Analysis
+AU  - Wang, April Yi
+AU  - Epperson, Will
+AU  - DeLine, Robert A
+AU  - Drucker, Steven M.
+PY  - 2022
+AB  - Data science is characterized by evolution: since data science is exploratory, results evolve from moment to moment; since it can be collaborative, results evolve as the work changes hands. While existing tools help data scientists track changes in code, they provide less support for understanding the iterative changes that the code produces in the data. We explore the idea of visualizing differences in datasets as a core feature of exploratory data analysis, a concept we call Diff in the Loop (DITL). We evaluated DITL in a user study with 16 professional data scientists and found it helped them understand the implications of their actions when manipulating data. We summarize these findings and discuss how the approach can be generalized to different data science workflows.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502123
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502123
+ER  - 
+
+TY  - CONF
+TI  - Human-GDPR Interaction: Practical Experiences of Accessing Personal Data
+AU  - Bowyer, Alex
+AU  - Holt, Jack
+AU  - Go Jefferies, Josephine
+AU  - Wilson, Rob
+AU  - Kirk, David
+AU  - David Smeddinck, Jan
+PY  - 2022
+AB  - In our data-centric world, most services rely on collecting and using personal data. The EU's General Data Protection Regulation (GDPR) aims to enhance individuals’ control over their data, but its practical impact is not well understood. We present a 10-participant study, where each participant filed 4-5 data access requests. Through interviews accompanying these requests and discussions scrutinising returned data, it appears that GDPR falls short of its goals due to non-compliance and low-quality responses. Participants found their hopes to understand providers’ data practices or harness their own data unmet. This causes increased distrust without any subjective improvement in power, although more transparent providers do earn greater trust. We propose designing more effective, data-inclusive and open policies and data access systems to improve both customer relations and individual agency, and also that wider public use of GDPR rights could help with delivering accountability and motivating providers to improve data practices.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501947
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501947
+ER  - 
+
+TY  - CONF
+TI  - Embr: A Creative Framework for Hand Embroidered Liquid Crystal Textile Displays
+AU  - Endow, Shreyosi
+AU  - Rakib, Mohammad Abu Nasir
+AU  - Srivastava, Anvay
+AU  - Rastegarpouyani, Sara
+AU  - Torres, Cesar
+PY  - 2022
+AB  - Conductive thread is a common material in e-textile toolkits that allows practitioners to create connections between electronic components sewn on fabric. When powered, conductive threads are used as resistive heaters to activate thermochromic dyes or pigments on textiles to create interactive, aesthetic, and ambient textile displays. In this work, we introduce Embr, a creative framework for supporting hand-embroidered liquid crystal textile displays (LCTDs). This framework includes a characterization of conductive embroidery stitches, an expanded repertoire of thermal formgiving techniques, and a thread modeling tool used to simulate mechanical, thermal, and electrical behaviors of LCTDs. Through exemplar artifacts, we annotate a morphological design space of LCTDs and discuss the tensions and opportunities of satisfying the wider range of electrical, craft, cultural, aesthetic, and functional concerns inherent to e-textile practices.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502117
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502117
+ER  - 
+
+TY  - CONF
+TI  - Investigating Positive and Negative Qualities of Human-in-the-Loop Optimization for Designing Interaction Techniques
+AU  - Chan, Liwei
+AU  - Liao, Yi-Chi
+AU  - Mo, George B
+AU  - Dudley, John J
+AU  - Cheng, Chun-Lien
+AU  - Kristensson, Per Ola
+AU  - Oulasvirta, Antti
+PY  - 2022
+AB  - Designers reportedly struggle with design optimization tasks where they are asked to find a combination of design parameters that maximizes a given set of objectives. In HCI, design optimization problems are often exceedingly complex, involving multiple objectives and expensive empirical evaluations. Model-based computational design algorithms assist designers by generating design examples during design, however they assume a model of the interaction domain. Black box methods for assistance, on the other hand, can work with any design problem. However, virtually all empirical studies of this human-in-the-loop approach have been carried out by either researchers or end-users. The question stands out if such methods can help designers in realistic tasks. In this paper, we study Bayesian optimization as an algorithmic method to guide the design optimization process. It operates by proposing to a designer which design candidate to try next, given previous observations. We report observations from a comparative study with 40 novice designers who were tasked to optimize a complex 3D touch interaction technique. The optimizer helped designers explore larger proportions of the design space and arrive at a better solution, however they reported lower agency and expressiveness. Designers guided by an optimizer reported lower mental effort but also felt less creative and less in charge of the progress. We conclude that human-in-the-loop optimization can support novice designers in cases where agency is not critical.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501850
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501850
+ER  - 
+
+TY  - CONF
+TI  - Jury Learning: Integrating Dissenting Voices into Machine Learning Models
+AU  - Gordon, Mitchell L.
+AU  - Lam, Michelle S.
+AU  - Park, Joon Sung
+AU  - Patel, Kayur
+AU  - Hancock, Jeff
+AU  - Hashimoto, Tatsunori
+AU  - Bernstein, Michael S.
+PY  - 2022
+AB  - Whose labels should a machine learning (ML) algorithm learn to emulate? For ML tasks ranging from online comment toxicity to misinformation detection to medical diagnosis, different groups in society may have irreconcilable disagreements about ground truth labels. Supervised ML today resolves these label disagreements implicitly using majority vote, which overrides minority groups’ labels. We introduce jury learning, a supervised ML approach that resolves these disagreements explicitly through the metaphor of a jury: defining which people or groups, in what proportion, determine the classifier’s prediction. For example, a jury learning model for online toxicity might centrally feature women and Black jurors, who are commonly targets of online harassment. To enable jury learning, we contribute a deep learning architecture that models every annotator in a dataset, samples from annotators’ models to populate the jury, then runs inference to classify. Our architecture enables juries that dynamically adapt their composition, explore counterfactuals, and visualize dissent. A field evaluation finds that practitioners construct diverse juries that alter 14\% of classification outcomes.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502004
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502004
+ER  - 
+
+TY  - CONF
+TI  - What is Your Current Mindset?: Categories for a satisficing exploration of mobile point-of-interest recommendations
+AU  - Viswanathan, Sruthi
+AU  - Omidvar-Tehrani, Behrooz
+AU  - Renders, Jean-Michel
+PY  - 2022
+AB  - Is recommendation the new search? Recommender systems have shortened the search for information in everyday activities such as following the news, media, and shopping. In this paper, we address the challenges of capturing the situational needs of the user and linking them to the available datasets with the concept of Mindsets. Mindsets are categories such as “I’m hungry” and “Surprise me” designed to lead the users to explicitly state their intent, control the recommended content, save time, get inspired, and gain shortcuts for a satisficing exploration of POI recommendations. In our methodology, we first compiled Mindsets with a card sorting workshop and a formative evaluation. Using the insights gathered from potential end users, we then quantified Mindsets by linking them to POI utility measures using approximated lexicographic multi-objective optimisation. Finally, we ran a summative evaluation of Mindsets and derived guidelines for designing novel categories for recommender systems.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501912
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501912
+ER  - 
+
+TY  - CONF
+TI  - Unpacking Invisible Work Practices, Constraints, and Latent Power Relationships in Child Welfare through Casenote Analysis
+AU  - Saxena, Devansh
+AU  - Moon, Seh Young
+AU  - Shehata, Dahlia
+AU  - Guha, Shion
+PY  - 2022
+AB  - Caseworkers are trained to write detailed narratives about families in Child-Welfare (CW) which informs collaborative high-stakes decision-making. Unlike other administrative data, these narratives offer a more credible source of information with respect to workers’ interactions with families as well as underscore the role of systemic factors in decision-making. SIGCHI researchers have emphasized the need to understand human discretion at the street-level to be able to design human-centered algorithms for the public sector. In this study, we conducted computational text analysis of casenotes at a child-welfare agency in the midwestern United States and highlight patterns of invisible street-level discretionary work and latent power structures that have direct implications for algorithm design. Casenotes offer a unique lens for policymakers and CW leadership towards understanding the experiences of on-the-ground caseworkers. As a result of this study, we highlight how street-level discretionary work needs to be supported by sociotechnical systems developed through worker-centered design. This study offers the first computational inspection of casenotes and introduces them to the SIGCHI community as a critical data source for studying complex sociotechnical systems.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517742
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517742
+ER  - 
+
+TY  - CONF
+TI  - ARMY’s Magic Shop: Understanding the Collaborative Construction of Playful Places in Online Communities
+AU  - Ringland, Kathryn E.
+AU  - Bhattacharya, Arpita
+AU  - Weatherwax, Kevin
+AU  - Eagle, Tessa
+AU  - Wolf, Christine T.
+PY  - 2022
+AB  - Play is an essential part of the human experience and can be found throughout the lifespan. While play has long been of interest to the HCI community, research has often focused on the technologies supporting game play, the potential outcomes of play (e.g., skill-building, health improvements), or play among children. This paper explores what play looks like in online communities that are not specifically game-based and consist primarily of adults. From online ethnographic work of the ARMY (i.e., Adorable Representative M.C. for Youth), fandom of the South Korean musical group BTS, we explore how BTS and ARMY collaboratively construct a playful social environment using various social media platforms. A contribution of this work is to expand our conceptualization of how adults create playful places that are not specifically game-based and highlights the role of socio-technical systems in their community building.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517442
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517442
+ER  - 
+
+TY  - CONF
+TI  - Compete, Collaborate, Investigate: Exploring the Social Structures of Open Source Intelligence Investigations
+AU  - Belghith, Yasmine
+AU  - Venkatagiri, Sukrit
+AU  - Luther, Kurt
+PY  - 2022
+AB  - Online investigations are increasingly conducted by individuals with diverse skill levels and experiences, with mixed results. Novice investigations often result in vigilantism or doxxing, while expert investigations have greater success rates and fewer mishaps. Many of these experts are involved in a community of practice known as Open Source Intelligence (OSINT), with an ethos and set of techniques for conducting investigations using only publicly available data. Through semi-structured interviews with 14 expert OSINT investigators from nine different organizations, we examine the social dynamics of this community, including the collaboration and competition patterns that underlie their investigations. We also describe investigators’ use of and challenges with existing OSINT tools, and implications for the design of social computing systems to better support crowdsourced investigations.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517526
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517526
+ER  - 
+
+TY  - CONF
+TI  - Accessibility for Color Vision Deficiencies: Challenges and Findings of a Large Scale Study on Paper Figures
+AU  - Angerbauer, Katrin
+AU  - Rodrigues, Nils
+AU  - Cutura, Rene
+AU  - \"{O}ney, Seyda
+AU  - Pathmanathan, Nelusa
+AU  - Morariu, Cristina
+AU  - Weiskopf, Daniel
+AU  - Sedlmair, Michael
+PY  - 2022
+AB  - We present an exploratory study on the accessibility of images in publications when viewed with color vision deficiencies (CVDs). The study is based on 1,710 images sampled from a visualization dataset (VIS30K) over five years. We simulated four CVDs on each image. First, four researchers (one with a CVD) identified existing issues and helpful aspects in a subset of the images. Based on the resulting labels, 200 crowdworkers provided &nbsp;30,000 ratings on present CVD issues in the simulated images. We analyzed this data for correlations, clusters, trends, and free text comments to gain a first overview of paper figure accessibility. Overall, about 60&nbsp;\% of the images were rated accessible. Furthermore, our study indicates that accessibility issues are subjective and hard to detect. On a meta-level, we reflect on our study experience to point out challenges and opportunities of large-scale accessibility studies for future research directions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502133
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502133
+ER  - 
+
+TY  - CONF
+TI  - GAN’SDA Wrap: Geographic And Network Structured DAta on surfaces that Wrap around
+AU  - Chen, Kun-Ting
+AU  - Dwyer, Tim
+AU  - Yang, Yalong
+AU  - Bach, Benjamin
+AU  - Marriott, Kim
+PY  - 2022
+AB  - There are many methods for projecting spherical maps onto the plane. Interactive versions of these projections allow the user to centre the region of interest. However, the effects of such interaction have not previously been evaluated. In a study with 120 participants we find interaction provides significantly more accurate area, direction and distance estimation in such projections. The surface of 3D sphere and torus topologies provides a continuous surface for uninterrupted network layout. But how best to project spherical network layouts to 2D screens has not been studied, nor have such spherical network projections been compared to torus projections. Using the most successful interactive sphere projections from our first study, we compare spherical, standard and toroidal layouts of networks for cluster and path following tasks with 96 participants, finding benefits for both spherical and toroidal layouts over standard network layouts in terms of accuracy for cluster understanding tasks.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501928
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501928
+ER  - 
+
+TY  - CONF
+TI  - Investigating Perceptual Biases in Icon Arrays
+AU  - Xiong, Cindy
+AU  - Sarvghad, Ali
+AU  - Goldstein, Daniel G
+AU  - Hofman, Jake M
+AU  - Demiralp, \c{C}agatay
+PY  - 2022
+AB  - Icon arrays are graphical displays in which a subset of identical shapes are filled to convey probabilities. They are widely used for communicating probabilities to the general public. A primary design decision concerning icon arrays is how to fill and arrange these shapes. For example, a designer could fill the shapes from top to bottom or in a random fashion. We investigated the effect of different arrangements in icon arrays on probability perception. We showed participants icon arrays depicting probabilities between 0\% and 100\% in six different arrangements. Participants were more accurate in estimating probabilities when viewing the top, row, and diagonal arrangements, but they overestimated the proportions with the central arrangement and underestimated the proportions with the edge arrangement. They were biased to either overestimate or underestimate when viewing the random arrangement depending on the objective proportions, following a cyclical pattern consistent with existing findings in the psychophysics literature.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501874
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501874
+ER  - 
+
+TY  - CONF
+TI  - Juvenile Graphical Perception: A Comparison between Children and Adults
+AU  - Panavas, Liudas
+AU  - Worth, Amy E.
+AU  - Crnovrsanin, Tarik
+AU  - Sathyamurthi, Tejas
+AU  - Cordes, Sara
+AU  - Borkin, Michelle A.
+AU  - Dunne, Cody
+PY  - 2022
+AB  - Data visualization is pervasive in the lives of children as they encounter graphs and charts in early education and online media. In spite of this prevalence, our guidelines and understanding of how children perceive graphs stem primarily from studies conducted with adults. Previous psychology and education research indicates that children’s cognitive abilities are different from adults. Therefore, we conducted a classic graphical perception study on a population of children aged 8–12 enrolled in the Ivy After School Program in Boston, MA and adult computer science students enrolled in Northeastern University to determine how accurately participants judge differences in particular graphical encodings. We record the accuracy of participants’ answers for five encodings most commonly used with quantitative data. The results of our controlled experiment show that children have remarkably similar graphical perception to adults, but are consistently less accurate at interpreting the visual encodings. We found similar effectiveness rankings, relative differences in error between the different encodings, and patterns of bias across encoding types. Based on our findings, we provide design guidelines and recommendations for creating visualizations for children. This paper and all supplemental materials are available at https://osf.io/ygrdv.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501893
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501893
+ER  - 
+
+TY  - CONF
+TI  - Sad or just jealous? Using Experience Sampling to Understand and Detect Negative Affective Experiences on Instagram
+AU  - Ruensuk, Mintra
+AU  - Kim, Taewan
+AU  - Hong, Hwajung
+AU  - Oakley, Ian
+PY  - 2022
+AB  - Social Network Services (SNSs) evoke diverse affective experiences. While most are positive, many authors have documented both the negative emotions that can result from browsing SNS and their impact: Facebook depression is a common term for the more severe results. However, while the importance of the emotions experienced on SNSs is clear, methods to catalog them, and systems to detect them, are less well developed. Accordingly, this paper reports on two studies using a novel contextually triggered Experience Sampling Method to log surveys immediately after using Instagram, a popular image-based SNS, thus minimizing recall biases. The first study improves our understanding of the emotions experienced while using SNSs. It suggests that common negative experiences relate to appearance comparison and envy. The second study captures smartphone sensor data during Instagram sessions to detect these two emotions, ultimately achieving peak accuracies of 95.78\% (binary appearance comparison) and 93.95\% (binary envy).
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517561
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517561
+ER  - 
+
+TY  - CONF
+TI  - Understanding the Digital Lives of Youth: Analyzing Media Shared within Safe Versus Unsafe Private Conversations on Instagram
+AU  - Ali, Shiza
+AU  - Razi, Afsaneh
+AU  - Kim, Seunghyun
+AU  - Alsoubai, Ashwaq
+AU  - Gracie, Joshua
+AU  - De Choudhury, Munmun
+AU  - Wisniewski, Pamela J.
+AU  - Stringhini, Gianluca
+PY  - 2022
+AB  - We collected Instagram Direct Messages (DMs) from 100 adolescents and young adults (ages 13-21) who then flagged their own conversations as safe or unsafe. We performed a mixed-method analysis of the media files shared privately in these conversations to gain human-centered insights into the risky interactions experienced by youth. Unsafe conversations ranged from unwanted sexual solicitations to mental health related concerns, and images shared in unsafe conversations tended to be of people and convey negative emotions, while those shared in regular conversations more often conveyed positive emotions and contained objects. Further, unsafe conversations were significantly shorter, suggesting that youth disengaged when they felt unsafe. Our work uncovers salient characteristics of safe and unsafe media shared in private conversations and provides the foundation to develop automated systems for online risk detection and mitigation.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501969
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501969
+ER  - 
+
+TY  - CONF
+TI  - Trading Accuracy for Enjoyment? Data Quality and Player Experience in Data Collection Games
+AU  - Gundry, David
+AU  - Deterding, Sebastian
+PY  - 2022
+AB  - Games have become a popular way of collecting human subject data, based on the premise that they are more engaging than surveys or experiments, but generate equally valid data. However, this premise has not been empirically tested. In response, we designed a game for eliciting linguistic data following Intrinsic Elicitation – a design approach aiming to minimise validity threats in data collection games – and compared it to an equivalent linguistics experiment as control. In a preregistered study and replication (n=96 and n=136), using two different ways of operationalising accuracy, the game generated substantially more enjoyment (d=.70,.73) and substantially less accurate data (d=-.68, -.40) – though still more accurate than random responding. We conclude that for certain data types data collection games may present a serious trade-off between participant enjoyment and data quality, identify possible causes of lower data quality for future research, reflect on our design approach, and urge games HCI researchers to use careful controls where appropriate.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502025
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502025
+ER  - 
+
+TY  - CONF
+TI  - Capable but Amoral? Comparing AI and Human Expert Collaboration in Ethical Decision Making
+AU  - Tolmeijer, Suzanne
+AU  - Christen, Markus
+AU  - Kandul, Serhiy
+AU  - Kneer, Markus
+AU  - Bernstein, Abraham
+PY  - 2022
+AB  - While artificial intelligence (AI) is increasingly applied for decision-making processes, ethical decisions pose challenges for AI applications. Given that humans cannot always agree on the right thing to do, how would ethical decision-making by AI systems be perceived and how would responsibility be ascribed in human-AI collaboration? In this study, we investigate how the expert type (human vs. AI) and level of expert autonomy (adviser vs. decider) influence trust, perceived responsibility, and reliance. We find that participants consider humans to be more morally trustworthy but less capable than their AI equivalent. This shows in participants’ reliance on AI: AI recommendations and decisions are accepted more often than the human expert’s. However, AI team experts are perceived to be less responsible than humans, while programmers and sellers of AI systems are deemed partially responsible instead.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517732
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517732
+ER  - 
+
+TY  - CONF
+TI  - AI-Moderated Decision-Making: Capturing and Balancing Anchoring Bias in Sequential Decision Tasks
+AU  - Echterhoff, Jessica Maria
+AU  - Yarmand, Matin
+AU  - McAuley, Julian
+PY  - 2022
+AB  - Decision-making involves biases from past experiences, which are difficult to perceive and eliminate. We investigate a specific type of anchoring bias, in which decision-makers are anchored by their own recent decisions, e.g.&nbsp;a college admission officer sequentially reviewing students. We propose an algorithm that identifies existing anchored decisions, reduces sequential dependencies to previous decisions, and mitigates decision inaccuracies post-hoc with 2\% increased agreement to ground-truth on a large-scale college admission decision data set. A crowd-sourced study validates this algorithm on product preferences (5\% increased agreement). To avoid biased decisions ex-ante, we propose a procedure that presents instances in an order that reduces anchoring bias in real-time. Tested in another crowd-sourced study, it reduces bias and increases agreement to ground-truth by 7\%. Our work reinforces individuals with similar characteristics to be treated similarly, independent of when they were reviewed in the decision-making process.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517443
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517443
+ER  - 
+
+TY  - CONF
+TI  - How Child Welfare Workers Reduce Racial Disparities in Algorithmic Decisions
+AU  - Cheng, Hao-Fei
+AU  - Stapleton, Logan
+AU  - Kawakami, Anna
+AU  - Sivaraman, Venkatesh
+AU  - Cheng, Yanghuidi
+AU  - Qing, Diana
+AU  - Perer, Adam
+AU  - Holstein, Kenneth
+AU  - Wu, Zhiwei Steven
+AU  - Zhu, Haiyi
+PY  - 2022
+AB  - Machine learning tools have been deployed in various contexts to support human decision-making, in the hope that human-algorithm collaboration can improve decision quality. However, the question of whether such collaborations reduce or exacerbate biases in decision-making remains underexplored. In this work, we conducted a mixed-methods study, analyzing child welfare call screen workers’ decision-making over a span of four years, and interviewing them on how they incorporate algorithmic predictions into their decision-making process. Our data analysis shows that, compared to the algorithm alone, workers reduced the disparity in screen-in rate between Black and white children from 20\% to 9\%. Our qualitative data show that workers achieved this by making holistic risk assessments and adjusting for the algorithm’s limitations. Our analyses also show more nuanced results about how human-algorithm collaboration affects prediction accuracy, and how to measure these effects. These results shed light on potential mechanisms for improving human-algorithm collaboration in high-risk decision-making contexts.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501831
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501831
+ER  - 
+
+TY  - CONF
+TI  - To type or to speak? The effect of input modality on text understanding during note-taking
+AU  - Khan, Anam Ahmad
+AU  - Nawaz, Sadia
+AU  - Newn, Joshua
+AU  - Kelly, Ryan M.
+AU  - Lodge, Jason M.
+AU  - Bailey, James
+AU  - Velloso, Eduardo
+PY  - 2022
+AB  - Though recent technological advances have enabled note-taking through different modalities (e.g., keyboard, digital ink, voice), there is still a lack of understanding of the effect of the modality choice on learning. In this paper, we compared two note-taking input modalities—keyboard and voice—to study their effects on participants’ understanding of learning content. We conducted a study with 60 participants in which they were asked to take notes using voice or keyboard on two independent digital text passages while also making a judgment about their performance on an upcoming test. We built mixed-effects models to examine the effect of the note-taking modality on learners’ text comprehension, the content of notes and their meta-comprehension judgement. Our findings suggest that taking notes using voice leads to a higher conceptual understanding of the text when compared to typing the notes. We also found that using voice triggers generative processes that result in learners taking more elaborate and comprehensive notes. The findings of the study imply that note-taking tools designed for digital learning environments could incorporate voice as an input modality to promote effective note-taking and higher conceptual understanding of the text.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501974
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501974
+ER  - 
+
+TY  - CONF
+TI  - Interactive Robotic Plastering: Augmented Interactive Design and Fabrication for On-site Robotic Plastering
+AU  - Mitterberger, Daniela
+AU  - Ercan Jenny, Selen
+AU  - Vasey, Lauren
+AU  - Lloret-Fritschi, Ena
+AU  - Aejmelaeus-Lindstr\"{o}m, Petrus
+AU  - Gramazio, Fabio
+AU  - Kohler, Matthias
+PY  - 2022
+AB  - This paper presents Interactive Robotic Plastering (IRoP), a system enabling designers and skilled workers to engage intuitively with an in-situ robotic plastering process. The research combines three elements: interactive design tools, an augmented reality interface, and a robotic spraying system. Plastering is a complex process relying on tacit knowledge and craftsmanship, making it difficult to simulate and automate. However, our system utilizes a controller-based interaction system to enable diverse users to interactively create articulated plasterwork in-situ. A customizable computational toolset converts human intentions into robotic motions while respecting robotic and material constraints. To accomplish this, we developed both an interactive computational model to translate the data from a motion-tracking system into robotic trajectories using design and editing tools as well as an audio-visual guidance system for in-situ projection. We then conducted two user-studies of designers and skilled workers who used IRoP to design and fabricate a full-scale demonstrator.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501842
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501842
+ER  - 
+
+TY  - CONF
+TI  - How Accurate Does It Feel? – Human Perception of Different Types of Classification Mistakes
+AU  - Papenmeier, Andrea
+AU  - Kern, Dagmar
+AU  - Hienert, Daniel
+AU  - Kammerer, Yvonne
+AU  - Seifert, Christin
+PY  - 2022
+AB  - Supervised machine learning utilizes large datasets, often with ground truth labels annotated by humans. While some data points are easy to classify, others are hard to classify, which reduces the inter-annotator agreement. This causes noise for the classifier and might affect the user’s perception of the classifier’s performance. In our research, we investigated whether the classification difficulty of a data point influences how strongly a prediction mistake reduces the “perceived accuracy”. In an experimental online study, 225 participants interacted with three fictive classifiers with equal accuracy (73\%). The classifiers made prediction mistakes on three different types of data points (easy, difficult, impossible). After the interaction, participants judged the classifier’s accuracy. We found that not all prediction mistakes reduced the perceived accuracy equally. Furthermore, the perceived accuracy differed significantly from the calculated accuracy. To conclude, accuracy and related measures seem unsuitable to represent how users perceive the performance of classifiers.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501915
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501915
+ER  - 
+
+TY  - CONF
+TI  - Interpretable Directed Diversity: Leveraging Model Explanations for Iterative Crowd Ideation
+AU  - Wang, Yunlong
+AU  - Venkatesh, Priyadarshini
+AU  - Lim, Brian Y
+PY  - 2022
+AB  - Feedback in creativity support tools can help crowdworkers to improve their ideations. However, current feedback methods require human assessment from facilitators or peers. This is not scalable to large crowds. We propose Interpretable Directed Diversity to automatically predict ideation quality and diversity scores, and provide AI explanations — Attribution, Contrastive Attribution, and Counterfactual Suggestions — to feedback on why ideations were scored (low), and how to get higher scores. These explanations provide multi-faceted feedback as users iteratively improve their ideations. We conducted formative and controlled user studies to understand the usage and usefulness of explanations to improve ideation diversity and quality. Users appreciated that explanation feedback helped focus their efforts and provided directions for improvement. This resulted in explanations improving diversity compared to no feedback or feedback with scores only. Hence, our approach opens opportunities for explainable AI towards scalable and rich feedback for iterative crowd ideation and creativity support tools.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517551
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517551
+ER  - 
+
+TY  - CONF
+TI  - Ga11y: An Automated GIF Annotation System for Visually Impaired Users
+AU  - Zhang, Mingrui Ray
+AU  - Zhong, Mingyuan
+AU  - Wobbrock, Jacob O.
+PY  - 2022
+AB  - Animated GIF images have become prevalent in internet culture, often used to express richer and more nuanced meanings than static images. But animated GIFs often lack adequate alternative text descriptions, and it is challenging to generate such descriptions automatically, resulting in inaccessible GIFs for blind or low-vision (BLV) users. To improve the accessibility of animated GIFs for BLV users, we provide a system called Ga11y (pronounced “galley”), for creating GIF annotations. Ga11y combines the power of machine intelligence and crowdsourcing and has three components: an Android client for submitting annotation requests, a backend server and database, and a web interface where volunteers can respond to annotation requests. We evaluated three human annotation interfaces and employ the one that yielded the best annotation quality. We also conducted a multi-stage evaluation with 12 BLV participants from the United States and China, receiving positive feedback.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502092
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502092
+ER  - 
+
+TY  - CONF
+TI  - “I Didn’t Know I Looked Angry”: Characterizing Observed Emotion and Reported Affect at Work
+AU  - Kaur, Harmanpreet
+AU  - McDuff, Daniel
+AU  - Williams, Alex C.
+AU  - Teevan, Jaime
+AU  - Iqbal, Shamsi T.
+PY  - 2022
+AB  - With the growing prevalence of affective computing applications, Automatic Emotion Recognition (AER) technologies have garnered attention in both research and industry settings. Initially limited to speech-based applications, AER technologies now include analysis of facial landmarks to provide predicted probabilities of a common subset of emotions (e.g., anger, happiness) for faces observed in an image or video frame. In this paper, we study the relationship between AER outputs and self-reports of affect employed by prior work, in the context of information work at a technology company. We compare the continuous observed emotion output from an AER tool to discrete reported affect obtained via a one-day combined tool-use and diary study (N = 15). We provide empirical evidence showing that these signals do not completely align, and find that using additional workplace context only improves alignment up to 58.6\%. These results suggest affect must be studied in the context it is being expressed, and observed emotion signal should not replace internal reported affect for affective computing applications.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517453
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517453
+ER  - 
+
+TY  - CONF
+TI  - Close-up and Whispering: An Understanding of Multimodal and Parasocial Interactions in YouTube ASMR videos
+AU  - Niu, Shuo
+AU  - Manon, Hugh S.
+AU  - Bartolome, Ava
+AU  - Ha, Nguyen Binh
+AU  - Veazey, Keegan
+PY  - 2022
+AB  - ASMR (Autonomous Sensory Meridian Response) has grown to immense popularity on YouTube and drawn HCI designers’ attention to its effects and applications in design. YouTube ASMR creators incorporate visual elements, sounds, motifs of touching and tasting, and other scenarios in multisensory video interactions to deliver enjoyable and relaxing experiences to their viewers. ASMRtists engage viewers by social, physical, and task attractions. Research has identified the benefits of ASMR in mental wellbeing. However, ASMR remains an understudied phenomenon in the HCI community, constraining designers’ ability to incorporate ASMR in video-based designs. This work annotates and analyzes the interaction modalities and parasocial attractions of 2663 videos to identify unique experiences. YouTube comment sections are also analyzed to compare viewers’ responses to different ASMR interactions. We find that ASMR videos are experiences of multimodal social connection, relaxing physical intimacy, and sensory-rich activity observation. Design implications are discussed to foster future ASMR-augmented video interactions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517563
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517563
+ER  - 
+
+TY  - CONF
+TI  - Automatically Generating and Improving Voice Command Interface from Operation Sequences on Smartphones
+AU  - Pan, Lihang
+AU  - Yu, Chun
+AU  - Li, JiaHui
+AU  - Huang, Tian
+AU  - Bi, Xiaojun
+AU  - Shi, Yuanchun
+PY  - 2022
+AB  - Using voice commands to automate smartphone tasks (e.g., making a video call) can effectively augment the interactivity of numerous mobile apps. However, creating voice command interfaces requires a tremendous amount of effort in labeling and compiling the graphical user interface (GUI) and the utterance data. In this paper, we propose AutoVCI, a novel approach to automatically generate voice command interface (VCI) from smartphone operation sequences. The generated voice command interface has two distinct features. First, it automatically maps a voice command to GUI operations and fills in parameters accordingly, leveraging the GUI data instead of corpus or hand-written rules. Second, it launches a complementary Q&amp;A dialogue to confirm the intention in case of ambiguity. In addition, the generated voice command interface can learn and evolve from user interactions. It accumulates the history command understanding results to annotate the user’s input and improve its semantic understanding ability. We implemented this approach on Android devices and conducted a two-phase user study with 16 and 67 participants in each phase. Experimental results of the study demonstrated the practical feasibility of AutoVCI.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517459
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517459
+ER  - 
+
+TY  - CONF
+TI  - Bivariate Effective Width Method to Improve the Normalization Capability for Subjective Speed-accuracy Biases in Rectangular-target Pointing
+AU  - Yamanaka, Shota
+AU  - Usuba, Hiroki
+AU  - Miyashita, Homei
+PY  - 2022
+AB  - The effective width method of Fitts’ law can normalize speed-accuracy biases in 1D target pointing tasks. However, in graphical user interfaces, more meaningful target shapes are rectangular. To empirically determine the best way to normalize the subjective biases, we ran remote and crowdsourced user experiments with three speed-accuracy instructions. We propose to normalize the speed-accuracy biases by applying the effective sizes to existing Fitts’ law formulations including width W and height H. We call this target-size adjustment the bivariate effective width method. We found that, overall, Accot and Zhai’s weighted Euclidean model using the effective width and height independently showed the best fit to the data in which the three instruction conditions were mixed (i.e., the time data measured in all instructions were analyzed with a single regression expression). Our approach enables researchers to fairly compare two or more conditions (e.g., devices, input techniques, user groups) with the normalized throughputs.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517466
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517466
+ER  - 
+
+TY  - CONF
+TI  - StoryBuddy: A Human-AI Collaborative Chatbot for Parent-Child Interactive Storytelling with Flexible Parental Involvement
+AU  - Zhang, Zheng
+AU  - Xu, Ying
+AU  - Wang, Yanhao
+AU  - Yao, Bingsheng
+AU  - Ritchie, Daniel
+AU  - Wu, Tongshuang
+AU  - Yu, Mo
+AU  - Wang, Dakuo
+AU  - Li, Toby Jia-Jun
+PY  - 2022
+AB  - Despite its benefits for children’s skill development and parent-child bonding, many parents do not often engage in interactive storytelling by having story-related dialogues with their child due to limited availability or challenges in coming up with appropriate questions. While recent advances made AI generation of questions from stories possible, the fully-automated approach excludes parent involvement, disregards educational goals, and underoptimizes for child engagement. Informed by need-finding interviews and participatory design (PD) results, we developed StoryBuddy, an AI-enabled system for parents to create interactive storytelling experiences. StoryBuddy’s design highlighted the need for accommodating dynamic user needs between the desire for parent involvement and parent-child bonding and the goal of minimizing parent intervention when busy. The PD revealed varied assessment and educational goals of parents, which StoryBuddy addressed by supporting configuring question types and tracking child progress. A user study validated StoryBuddy’s usability and suggested design insights for future parent-AI collaboration systems.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517479
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517479
+ER  - 
+
+TY  - CONF
+TI  - Exploring Interactive Sound Design for Auditory Websites
+AU  - Zhang, Lotus
+AU  - Shao, Jingyao
+AU  - Liu, Augustina Ao
+AU  - Jiang, Lucy
+AU  - Stangl, Abigale
+AU  - Fourney, Adam
+AU  - Morris, Meredith Ringel
+AU  - Findlater, Leah
+PY  - 2022
+AB  - Auditory interfaces increasingly support access to website content, through recent advances in voice interaction. Typically, however, these interfaces provide only limited audio styling, collapsing rich visual design into a static audio output style with a single synthesized voice. To explore the potential for more aesthetic and intuitive sound design for websites, we prompted 14 professional sound designers to create auditory website mockups and interviewed them about their designs and rationale. Our findings reveal their prioritized design considerations (aesthetics and emotion, user engagement, audio clarity, information dynamics, and interactivity), specific sound design ideas to support each consideration (e.g., replacing spoken labels with short, memorable audio expressions), and challenges with applying sound design practices to auditory websites. These findings provide promising direction for how to support designers in creating richer auditory website experiences.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517695
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517695
+ER  - 
+
+TY  - CONF
+TI  - Family Learning Talk in AI Literacy Learning Activities
+AU  - Long, Duri
+AU  - Teachey, Anthony
+AU  - Magerko, Brian
+PY  - 2022
+AB  - The unique role that AI plays in making decisions that affect human lives creates a need to foster improved public understanding of AI systems. Informal learning spaces are particularly important contexts for fostering AI literacy, as they have the potential to reach a broader audience and provide spaces for children and parents to learn together. This paper explores 1) what types of dialogue family groups engage in when learning about AI in an at-home learning environment in order to inform our understanding of 2) how to design AI literacy activities for informal learning contexts. We present an analysis of family group dialogue surrounding three different AI education activities and use our findings to reflect on, update, and add to existing principles for designing AI literacy educational interventions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502091
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502091
+ER  - 
+
+TY  - CONF
+TI  - At-Home Pupillometry using Smartphone Facial Identification Cameras
+AU  - Barry, Colin
+AU  - de Souza, Jessica
+AU  - Xuan, Yinan
+AU  - Holden, Jason
+AU  - Granholm, Eric
+AU  - Wang, Edward Jay
+PY  - 2022
+AB  - With recent developments in medical and psychiatric research surrounding pupillary response, cheap and accessible pupillometers could enable medical benefits from early neurological disease detection to measurements of cognitive load. In this paper, we introduce a novel smartphone-based pupillometer to allow for future development in clinical research surrounding at-home pupil measurements. Our solution utilizes a NIR front-facing camera for facial recognition paired with the RGB selfie camera to perform tracking of absolute pupil dilation with sub-millimeter accuracy. In comparison to a gold standard pupillometer during a pupillary light reflex test, the smartphone-based system achieves a median MAE of 0.27mm for absolute pupil dilation tracking and a median error of 3.52\% for pupil dilation change tracking. Additionally, we remotely deployed the system to older adults as part of a usability study that demonstrates promise for future smartphone deployments to remotely collect data in older, inexperienced adult users operating the system themselves.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502493
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502493
+ER  - 
+
+TY  - CONF
+TI  - Method for Appropriating the Brief Implicit Association Test to Elicit Biases in Users
+AU  - Dingler, Tilman
+AU  - Tag, Benjamin
+AU  - Eccles, David A.
+AU  - van Berkel, Niels
+AU  - Kostakos, Vassilis
+PY  - 2022
+AB  - Implicit tendencies and cognitive biases play an important role in how information is perceived and processed, a fact that can be both utilised and exploited by computing systems. The Implicit Association Test (IAT) has been widely used to assess people’s associations of target concepts with qualitative attributes, such as the likelihood of being hired or convicted depending on race, gender, or age. The condensed version–the Brief IAT–aims to implicit biases by measuring the reaction time to concept classifications. To use this measure in HCI research, however, we need a way to construct and validate target concepts, which tend to quickly evolve and depend on geographical and cultural interpretations. In this paper, we introduce and evaluate a new method to appropriate the BIAT using crowdsourcing to measure people’s leanings on polarising topics. We present a web-based tool to test participants’ bias on custom themes, where self-assessments often fail. We validated our approach with 14 domain experts and assessed the fit of crowdsourced test construction. Our method allows researchers of different domains to create and validate bias tests that can be geographically tailored and updated over time. We discuss how our method can be applied to surface implicit user biases and run studies where cognitive biases may impede reliable results.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517570
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517570
+ER  - 
+
+TY  - CONF
+TI  - Birds of a feather don’t fact-check each other: Partisanship and the evaluation of news in Twitter’s Birdwatch crowdsourced fact-checking program
+AU  - Allen, Jennifer
+AU  - Martel, Cameron
+AU  - Rand, David G
+PY  - 2022
+AB  - There is a great deal of interest in the role that partisanship, and cross-party animosity in particular, plays in interactions on social media. Most prior research, however, must infer users’ judgments of others’ posts from engagement data. Here, we leverage data from Birdwatch, Twitter’s crowdsourced fact-checking pilot program, to directly measure judgments of whether other users’ tweets are misleading, and whether other users’ free-text evaluations of third-party tweets are helpful. For both sets of judgments, we find that contextual features – in particular, the partisanship of the users – are far more predictive of judgments than the content of the tweets and evaluations themselves. Specifically, users are more likely to write negative evaluations of tweets from counter-partisans; and are more likely to rate evaluations from counter-partisans as unhelpful. Our findings provide clear evidence that Birdwatch users preferentially challenge content from those with whom they disagree politically. While not necessarily indicating that Birdwatch is ineffective for identifying misleading content, these results demonstrate the important role that partisanship can play in content evaluation. Platform designers must consider the ramifications of partisanship when implementing crowdsourcing programs.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502040
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502040
+ER  - 
+
+TY  - CONF
+TI  - Remote Co-teaching in Rural Classroom: Current Practices, Impacts, and Challenges
+AU  - Guo, Siling
+AU  - Sun, Tianchen
+AU  - Gong, Jiangtao
+AU  - Lu, Zhicong
+AU  - Zhang, Liuxin
+AU  - Wang, Qianying
+PY  - 2022
+AB  - The shortage of high-quality teachers is one of the biggest educational problems faced by underdeveloped areas. With the development of information and communication technologies (ICTs), China has begun a remote co-teaching intervention program using ICTs for rural classes, forming a unique “co-teaching classroom”. We conducted semi-structured interviews with nine remote urban teachers and twelve local rural teachers. We identified the remote co-teaching classes’ standard practices and co-teachers’ collaborative work process. We also found that remote teachers’ high-quality class directly impacted local teachers and students. Furthermore, interestingly, local teachers were also actively involved in making indirect impacts on their students by deeply coordinating with remote teachers and adapting the resources offered by the remote teachers. We conclude by summarizing and discussing the challenges faced by teachers, lessons learned from the current program, and related design implications to achieve a more adaptive and sustainable ICT4D program design.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501924
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501924
+ER  - 
+
+TY  - CONF
+TI  - PneuMesh: Pneumatic-driven Truss-based Shape Changing System
+AU  - Gu, Jianzhe
+AU  - Lin, Yuyu
+AU  - Cui, Qiang
+AU  - Li, Xiaoqian
+AU  - Li, Jiaji
+AU  - Sun, Lingyun
+AU  - Yao, Cheng
+AU  - Ying, Fangtian
+AU  - Wang, Guanyun
+AU  - Yao, Lining
+PY  - 2022
+AB  - From transoceanic bridges to large-scale installations, truss structures have been known for their structural stability and shape complexity. In addition to the advantages of static trusses, truss structures have a large degree of freedom to change shape when equipped with rotatable joints and retractable beams. However, it is difficult to design a complex motion and build a control system for large numbers of trusses. In this paper, we present PneuMesh, a novel truss-based shape-changing system that is easy to design and build but still able to achieve a range of tasks. PneuMesh accomplishes this by introducing an air channel connection strategy and reconfigurable constraint design that drastically decreases the number of control units without losing the complexity of shape-changing. We develop a design tool with real-time simulation to assist users in designing the shape and motion of truss-based shape-changing robots and devices. A design session with seven participants demonstrates that PneuMesh empowers users to design and build truss structures with a wide range of shapes and various functional motions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502099
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502099
+ER  - 
+
+TY  - CONF
+TI  - Methods for Evaluating the Fluency of Automatically Simplified Texts with Deaf and Hard-of-Hearing Adults at Various Literacy Levels
+AU  - Alonzo, Oliver
+AU  - Trussell, Jessica
+AU  - Watkins, Matthew
+AU  - Lee, Sooyeon
+AU  - Huenerfauth, Matt
+PY  - 2022
+AB  - Research has revealed benefits and interest among Deaf and Hard-of-Hearing (DHH) adults in reading-assistance tools powered by Automatic Text Simplification (ATS), a technology whose development benefits from evaluations by specific user groups. While prior work has provided guidance for evaluating text complexity among DHH adults, researchers lack guidance for evaluating the fluency of automatically simplified texts, which may contain errors from the simplification process. Thus, we conduct methodological research on the effectiveness of metrics (including reading speed; comprehension questions; and subjective judgements of understandability, readability, grammaticality, and system performance) for evaluating texts controlled to be at different levels of fluency, when measured among DHH participants at different literacy levels. Reading speed and grammaticality judgements effectively distinguished fluency levels among participants across literacy levels. Readability and understandability judgements, however, only worked among participants with higher literacy. Our findings provide methodological guidance for designing ATS evaluations with DHH participants.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517566
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517566
+ER  - 
+
+TY  - CONF
+TI  - Get To The Point! Problem-Based Curated Data Views To Augment Care For Critically Ill Patients
+AU  - Zhang, Minfan
+AU  - Ehrmann, Daniel
+AU  - Mazwi, Mjaye
+AU  - Eytan, Danny
+AU  - Ghassemi, Marzyeh
+AU  - Chevalier, Fanny
+PY  - 2022
+AB  - Electronic health records in critical care medicine offer unprecedented opportunities for clinical reasoning and decision making. Paradoxically, these data-rich environments have also resulted in clinical decision support systems (CDSSs) that fit poorly into clinical contexts, and increase health workers cognitive load. In this paper, we introduce a novel approach to designing CDSSs that are embedded in clinical workflows, by presenting problem-based curated data views tailored for problem-driven discovery, team communication, and situational awareness. We describe the design and evaluation of one such CDSS, In-Sight, that embodies our approach and addresses the clinical problem of monitoring critically ill pediatric patients. Our work is the result of a co-design process, further informed by empirical data collected through formal usability testing, focus groups, and a simulation study with domain experts. We discuss the potential and limitations of our approach, and share lessons learned in our iterative co-design process.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501887
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501887
+ER  - 
+
+TY  - CONF
+TI  - Exploring Perceptions of Cross-Sectoral Data Sharing with People with Parkinson’s
+AU  - McNaney, Roisin
+AU  - Morgan, Catherine
+AU  - Kulkarni, Pranav
+AU  - Vega, Julio
+AU  - Heidarivincheh, Farnoosh
+AU  - McConville, Ryan
+AU  - Whone, Alan
+AU  - Kim, Mickey
+AU  - Kirkham, Reuben
+AU  - Craddock, Ian
+PY  - 2022
+AB  - In interdisciplinary spaces such as digital health, datasets that are complex to collect, require specialist facilities, and/or are collected with specific populations have value in a range of different sectors. In this study we collected a simulated free-living dataset, in a smart home, with 12 participants (six people with Parkinson’s, six carers). We explored their initial perceptions of the sensors through interviews and then conducted two data exploration workshops, wherein we showed participants the collected data and discussed their views on how this data, and other data relating to their Parkinson’s symptoms, might be shared across different sectors. We provide recommendations around how participants might be better engaged in considering data sharing in the early stages of research, and guidance for how research might be configured to allow for more informed data sharing practices in the future.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501984
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501984
+ER  - 
+
+TY  - CONF
+TI  - FaceOri: Tracking Head Position and Orientation Using Ultrasonic Ranging on Earphones
+AU  - Wang, Yuntao
+AU  - Ding, Jiexin
+AU  - Chatterjee, Ishan
+AU  - Salemi Parizi, Farshid
+AU  - Zhuang, Yuzhou
+AU  - Yan, Yukang
+AU  - Patel, Shwetak
+AU  - Shi, Yuanchun
+PY  - 2022
+AB  - Face orientation can often indicate users’ intended interaction target. In this paper, we propose FaceOri, a novel face tracking technique based on acoustic ranging using earphones. FaceOri can leverage the speaker on a commodity device to emit an ultrasonic chirp, which is picked up by the set of microphones on the user’s earphone, and then processed to calculate the distance from each microphone to the device. These measurements are used to derive the user’s face orientation and distance with respect to the device. We conduct a ground truth comparison and user study to evaluate FaceOri’s performance. The results show that the system can determine whether the user orients to the device at a 93.5\% accuracy within a 1.5 meters range. Furthermore, FaceOri can continuously track user’s head orientation with a median absolute error of 10.9 mm in the distance, 3.7° in yaw, and 5.8° in pitch. FaceOri can allow for convenient hands-free control of devices and produce more intelligent context-aware interactions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517698
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517698
+ER  - 
+
+TY  - CONF
+TI  - Feeling Proud, Feeling Embarrassed: Experiences of Low-income Women with Crowd Work
+AU  - Varanasi, Rama Adithya
+AU  - Siddarth, Divya
+AU  - Seshadri, Vivek
+AU  - Bali, Kalika
+AU  - Vashistha, Aditya
+PY  - 2022
+AB  - Women’s economic empowerment is central to gender equality. However, work opportunities available to low-income women in patriarchal societies are infrequent. While crowd work has the potential to increase labor participation of such women, much remains unknown about their engagement with crowd work and the resultant opportunities and tensions. To fill this gap, we critically examined the adoption and use of a crowd work platform by low-income women in India. Through a qualitative study, we found that women faced tremendous challenges, for example, in seeking permission from family members to do crowd work, lack of family support and encouragement, and often working in unfavorable environments where they had to hide their work lives. While crowd work took a toll on their physical and emotional wellbeing, it also led to increased confidence, agency, and autonomy. We discuss ways to reduce frictions and tensions in participation of low-income women on crowd work platforms.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501834
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501834
+ER  - 
+
+TY  - CONF
+TI  - ProtoSound: A Personalized and Scalable Sound Recognition System for Deaf and Hard-of-Hearing Users
+AU  - Jain, Dhruv
+AU  - Huynh Anh Nguyen, Khoa
+AU  - M. Goodman, Steven
+AU  - Grossman-Kahn, Rachel
+AU  - Ngo, Hung
+AU  - Kusupati, Aditya
+AU  - Du, Ruofei
+AU  - Olwal, Alex
+AU  - Findlater, Leah
+AU  - E. Froehlich, Jon
+PY  - 2022
+AB  - Recent advances have enabled automatic sound recognition systems for deaf and hard of hearing (DHH) users on mobile devices. However, these tools use pre-trained, generic sound recognition models, which do not meet the diverse needs of DHH users. We introduce ProtoSound, an interactive system for customizing sound recognition models by recording a few examples, thereby enabling personalized and fine-grained categories. ProtoSound is motivated by prior work examining sound awareness needs of DHH people and by a survey we conducted with 472 DHH participants. To evaluate ProtoSound, we characterized performance on two real-world sound datasets, showing significant improvement over state-of-the-art (e.g., +9.7\% accuracy on the first dataset). We then deployed ProtoSound's end-user training and real-time recognition through a mobile application and recruited 19 hearing participants who listened to the real-world sounds and rated the accuracy across 56 locations (e.g., homes, restaurants, parks). Results show that ProtoSound personalized the model on-device in real-time and accurately learned sounds across diverse acoustic contexts. We close by discussing open challenges in personalizable sound recognition, including the need for better recording interfaces and algorithmic improvements.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502020
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502020
+ER  - 
+
+TY  - CONF
+TI  - Analyzing Deaf and Hard-of-Hearing Users’ Behavior, Usage, and Interaction with a Personal Assistant Device that Understands Sign-Language Input
+AU  - Glasser, Abraham
+AU  - Watkins, Matthew
+AU  - Hart, Kira
+AU  - Lee, Sooyeon
+AU  - Huenerfauth, Matt
+PY  - 2022
+AB  - As voice-based personal assistant technologies proliferate, e.g., smart speakers in homes, and more generally as voice-control of technology becomes increasingly ubiquitous, new accessibility barriers are emerging for many Deaf and Hard of Hearing (DHH) users. Progress in sign-language recognition may enable devices to respond to sign-language commands and potentially mitigate these barriers, but research is needed to understand how DHH users would interact with these devices and what commands they would issue. In this work, we directly engage with the DHH community, using a Wizard-of-Oz prototype that appears to understand American Sign Language (ASL) commands. Our analysis of video recordings of DHH participants revealed how they woke-up the device to initiate commands, structured commands in ASL, and responded to device errors, providing guidance to future designers and researchers. We share our dataset of over 1400 commands, which may be of interest to sign-language-recognition researchers.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501987
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501987
+ER  - 
+
+TY  - CONF
+TI  - Elements of XR Prototyping: Characterizing the Role and Use of Prototypes in Augmented and Virtual Reality Design
+AU  - Krau\ss{}, Veronika
+AU  - Nebeling, Michael
+AU  - Jasche, Florian
+AU  - Boden, Alexander
+PY  - 2022
+AB  - Current research in augmented, virtual, and mixed reality (XR) reveals a lack of tool support for designing and, in particular, prototyping XR applications. While recent tools research is often motivated by studying the requirements of non-technical designers and end-user developers, the perspective of industry practitioners is less well understood. In an interview study with 17 practitioners from different industry sectors working on professional XR projects, we establish the design practices in industry, from early project stages to the final product. To better understand XR design challenges, we characterize the different methods and tools used for prototyping and describe the role and use of key prototypes in the different projects. We extract common elements of XR prototyping, elaborating on the tools and materials used for prototyping and establishing different views on the notion of fidelity. Finally, we highlight key issues for future XR tools research.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517714
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517714
+ER  - 
+
+TY  - CONF
+TI  - When is Machine Learning Data Good?: Valuing in Public Health Datafication
+AU  - Thakkar, Divy
+AU  - Ismail, Azra
+AU  - Kumar, Pratyush
+AU  - Hanna, Alex
+AU  - Sambasivan, Nithya
+AU  - Kumar, Neha
+PY  - 2022
+AB  - Data-driven approaches that form the foundation of advancements in machine learning (ML) are powered in large part by human infrastructures that enable the collection of large datasets. We study the movement of data through multiple stages of data processing in the context of public health in India, examining the data work performed by frontline health workers, data stewards, and ML developers. We conducted interviews with these stakeholders to understand their varied perspectives on valuing data across stages, working with data to attain this value, and challenges arising throughout. We discuss the tensions in valuing and how they might be addressed, as we emphasize the need for improved transparency and accountability when data are transformed from one stage of processing to the next.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501868
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501868
+ER  - 
+
+TY  - CONF
+TI  - Forgetting Practices in the Data Sciences
+AU  - Muller, Michael
+AU  - Strohmayer, Angelika
+PY  - 2022
+AB  - HCI engages with data science through many topics and themes. Researchers have addressed biased dataset problems, arguing that bad data can cause innocent software to produce bad outcomes. But what if our software is not so innocent? What if the human decisions that shape our data-processing software, inadvertently contribute their own sources of bias? And what if our data-work technology causes us to forget those decisions and operations? Based in feminisms and critical computing, we analyze forgetting practices in data work practices. We describe diverse beneficial and harmful motivations for forgetting. We contribute: (1) a taxonomy of data silences in data work, which we use to analyze how data workers forget, erase, and unknow aspects of data; (2) a detailed analysis of forgetting practices in machine learning; and (3) an analytic vocabulary for future work in remembering, forgetting, and erasing in HCI and the data sciences.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517644
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517644
+ER  - 
+
+TY  - CONF
+TI  - Consumption experiences in the research process
+AU  - Gould, Sandy J. J.
+PY  - 2022
+AB  - Data collection is often a laborious enterprise that forms part of the wider craft skill of doing research. In this essay, I try to understand whether parts of research processes in Human-Centred Computing (HCC) have been commodified, with a particular focus on data collection. If data collection has been commodified, do researchers act as producers or consumers in the process? And if researchers are consumers, has data collection become a consumption experience? If so, what are the implications of this? I explore these questions by considering the status of craft and consumption in the research process and by developing examples of consumption experiences. I note the benefits of commodity research artefacts, while highlighting the potentially deleterious effects consumption experiences could have on our ability to generate insights into the relations between people and technology. I finish the paper by relating consumption experiences to contemporary issues in HCC and lay out a programme of empirical work that would help answer some of the questions this paper raises.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502001
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502001
+ER  - 
+
+TY  - CONF
+TI  - Passages: Interacting with Text Across Documents
+AU  - Han, Han L.
+AU  - Yu, Junhang
+AU  - Bournet, Raphael
+AU  - Ciorascu, Alexandre
+AU  - Mackay, Wendy E.
+AU  - Beaudouin-Lafon, Michel
+PY  - 2022
+AB  - A key aspect of knowledge work is the analysis and manipulation of sets of related documents. We conducted interviews with 12 patent examiners and 12 scientists and found that all face difficulties using specialized tools for managing text from multiple documents across interconnected activities, including searching, collecting, annotating, organizing, writing and reviewing, while manually tracking their provenance. We introduce Passages, interactive objects that reify text selections and can then be manipulated, reused, and shared across multiple tools. Passages directly supports the above-listed activities as well as fluid transitions among them. Two user studies show that participants found Passages both elegant and powerful, facilitating their work practices and enabling greater reuse and novel strategies for analyzing and composing documents. We argue that Passages offers a general approach applicable to a wide variety of text-based interactions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502052
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502052
+ER  - 
+
+TY  - CONF
+TI  - HybridTrak: Adding Full-Body Tracking to VR Using an Off-the-Shelf Webcam
+AU  - Yang, Jackie (Junrui)
+AU  - Chen, Tuochao
+AU  - Qin, Fang
+AU  - Lam, Monica S.
+AU  - Landay, James A.
+PY  - 2022
+AB  - Full-body tracking in virtual reality improves presence, allows interaction via body postures, and facilitates better social expression among users. However, full-body tracking systems today require a complex setup fixed to the environment (e.g., multiple lighthouses/cameras) and a laborious calibration process, which goes against the desire to make VR systems more portable and integrated. We present HybridTrak, which provides accurate, real-time full-body tracking by augmenting inside-out1 upper-body VR tracking systems with a single external off-the-shelf RGB web camera. HybridTrak uses a full-neural solution to convert and transform users’ 2D full-body poses from the webcam to 3D poses leveraging the inside-out upper-body tracking data. We showed HybridTrak is more accurate than RGB or depth-based tracking methods on the MPI-INF-3DHP dataset. We also tested HybridTrak in the popular VRChat app and showed that body postures presented by HybridTrak are more distinguishable and more natural than a solution using an RGBD camera.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502045
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502045
+ER  - 
+
+TY  - CONF
+TI  - Integrating Gaze and Speech for Enabling Implicit Interactions
+AU  - Khan, Anam Ahmad
+AU  - Newn, Joshua
+AU  - Bailey, James
+AU  - Velloso, Eduardo
+PY  - 2022
+AB  - Gaze and speech are rich contextual sources of information that, when combined, can result in effective and rich multimodal interactions. This paper proposes a machine learning-based pipeline that leverages and combines users’ natural gaze activity, the semantic knowledge from their vocal utterances and the synchronicity between gaze and speech data to facilitate users’ interaction. We evaluated our proposed approach on an existing dataset, which involved 32 participants recording voice notes while reading an academic paper. Using a Logistic Regression classifier, we demonstrate that our proposed multimodal approach maps voice notes with accurate text passages with an average F1-Score of 0.90. Our proposed pipeline motivates the design of multimodal interfaces that combines natural gaze and speech patterns to enable robust interactions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502134
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502134
+ER  - 
+
+TY  - CONF
+TI  - Understanding and Modeling Viewers’ First Impressions with Images in Online Medical Crowdfunding Campaigns
+AU  - Guo, Qingyu
+AU  - Zhou, Siyuan
+AU  - Wu, Yifeng
+AU  - Peng, Zhenhui
+AU  - Ma, Xiaojuan
+PY  - 2022
+AB  - Online medical crowdfunding campaigns (OMCCs) help patients seek financial support. First impressions (FIs) of an OMCC, including perceived empathy, credibility, justice, impact, and attractiveness, could affect viewers’ donation decisions. Images play a crucial role in manifesting FIs, and it is beneficial for fundraisers to understand how viewers may judge their selected images for OMCCs beforehand. This work proposes a data-driven approach to assessing whether an OMCC image conveys appropriate FIs. We first crowdsource viewers’ perception of OMCC images. Statistical analysis confirms that agreement on all five dimensions of FIs exists, and these FIs positively correlate with donation intention. We compute image content, color, texture, and composition features, then analyze the correlation between these visual features and FIs. We further predict FIs based on these features, and the best model achieves an overall F1-score of 0.727. Finally, we discuss how our insights could benefit fundraisers and possible ethical concerns.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501830
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501830
+ER  - 
+
+TY  - CONF
+TI  - To Trust or to Stockpile: Modeling Human-Simulation Interaction in Supply Chain Shortages
+AU  - Mohaddesi, Omid
+AU  - Griffin, Jacqueline
+AU  - Ergun, Ozlem
+AU  - Kaeli, David
+AU  - Marsella, Stacy
+AU  - Harteveld, Casper
+PY  - 2022
+AB  - Understanding decision-making in dynamic and complex settings is a challenge yet essential for preventing, mitigating, and responding to adverse events (e.g., disasters, financial crises). Simulation games have shown promise to advance our understanding of decision-making in such settings. However, an open question remains on how we extract useful information from these games. We contribute an approach to model human-simulation interaction by leveraging existing methods to characterize: (1) system states of dynamic simulation environments (with Principal Component Analysis), (2) behavioral responses from human interaction with simulation (with Hidden Markov Models), and (3) behavioral responses across system states (with Sequence Analysis). We demonstrate this approach with our game simulating drug shortages in a supply chain context. Results from our experimental study with 135 participants show different player types (hoarders, reactors, followers), how behavior changes in different system states, and how sharing information impacts behavior. We discuss how our findings challenge existing literature.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502089
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502089
+ER  - 
+
+TY  - CONF
+TI  - RMS: Removing Barriers to Analyze the Availability and Surge Pricing of Ridesharing Services
+AU  - Khan, Hassan Ali
+AU  - Iqbal, Hassan
+AU  - Shahzad, Muhammad
+AU  - Jin, Guoliang
+PY  - 2022
+AB  - Ridesharing services do not make data of their availability (supply, utilization, idle time, and idle distance) and surge pricing publicly available. It limits the opportunities to study the spatiotemporal trends of the availability and surge pricing of these services. Only a few research studies conducted in North America analyzed these features for only Uber and Lyft. Despite the interesting observations, the results of prior works are not generalizable or reproducible because: i) the datasets collected in previous publications are spatiotemporally sensitive, i.e., previous works do not represent the current availability and surge pricing of ridesharing services in different parts of the world; and ii) the analyses presented in previous works are limited in scope (in terms of countries and ridesharing services they studied). Hence, prior works are not generally applicable to ridesharing services operating in different countries. This paper addresses the issue of ridesharing-data unavailability by presenting Ridesharing Measurement Suite (RMS). RMS removes the barrier of entry for analyzing the availability and surge pricing of ridesharing services for ridesharing users, researchers from various scientific domains, and regulators. RMS continuously collects the data of the availability and surge pricing of ridesharing services. It exposes real-time data of these services through i) graphical user interfaces and ii) public APIs to assist various stakeholders of these services and simplify the data collection and analysis process for future ridesharing research studies. To signify the utility of RMS, we deployed RMS to collect and analyze the availability and surge pricing data of 10 ridesharing services operating in nine countries for eight weeks in pre and during pandemic periods. Using the data collected and analyzed by RMS, we identify that previous articles miscalculated the utilization of ridesharing services as they did not count in the vehicles driving in multiple categories of the same service. We observe that during COVID-19, the supply of ridesharing services decreased by 54\%, utilization of available vehicles increased by 6\%, and a 5 \texttimes increase in the surge frequency of services. We also find that surge occurs in a small geographical region, and its intensity reduces by 50\% in about 0.5 miles away from the location of a surge. We present several other interesting observations on ridesharing services’ availability and surge pricing.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517464
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517464
+ER  - 
+
+TY  - CONF
+TI  - Semantic Gap in Predicting Mental Wellbeing through Passive Sensing
+AU  - Das Swain, Vedant
+AU  - Chen, Victor
+AU  - Mishra, Shrija
+AU  - Mattingly, Stephen M.
+AU  - Abowd, Gregory D.
+AU  - De Choudhury, Munmun
+PY  - 2022
+AB  - When modeling passive data to infer individual mental wellbeing, a common source of ground truth is self-reports. But these tend to represent the psychological facet of mental states, which might not align with the physiological facet of that state. Our paper demonstrates that when what people “feel” differs from what people “say they feel”, we witness a semantic gap that limits predictions. We show that predicting mental wellbeing with passive data (offline sensors or online social media) is related to how the ground-truth is measured (objective arousal or self-report). Features with psycho-social signals (e.g., language) were better at predicting self-reported anxiety and stress. Conversely, features with behavioral signals (e.g., sleep), were better at predicting stressful arousal. Regardless of the source of ground truth, integrating both signals boosted prediction. To reduce the semantic gap, we provide recommendations to evaluate ground truth measures and adopt parsimonious sensing.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502037
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502037
+ER  - 
+
+TY  - CONF
+TI  - FlatMagic: Improving Flat Colorization through AI-driven Design for Digital Comic Professionals
+AU  - Yan, Chuan
+AU  - Chung, John Joon Young
+AU  - Kiheon, Yoon
+AU  - Gingold, Yotam
+AU  - Adar, Eytan
+AU  - Hong, Sungsoo Ray
+PY  - 2022
+AB  - Creating digital comics involves multiple stages, some creative and some menial. For example, coloring a comic requires a labor-intensive stage known as ‘flatting,’ or masking segments of continuous color, as well as creative shading, lighting, and stylization stages. The use of AI can automate the colorization process, but early efforts have revealed limitations—technical and UX—to full automation. Via a formative study of professionals, we identify flatting as a bottleneck and key target of opportunity for human-guided AI-driven automation. Based on this insight, we built FlatMagic, an interactive, AI-driven flat colorization support tool for Photoshop. Our user studies found that using FlatMagic significantly reduced professionals’ real and perceived effort versus their current practice. While participants effectively used FlatMagic, we also identified potential constraints in interactions with AI and partially automated workflows. We reflect on implications for comic-focused tools and the benefits and pitfalls of intermediate representations and partial automation in designing human-AI collaboration tools for professionals.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502075
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502075
+ER  - 
+
+TY  - CONF
+TI  - AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts
+AU  - Wu, Tongshuang
+AU  - Terry, Michael
+AU  - Cai, Carrie Jun
+PY  - 2022
+AB  - Although large language models (LLMs) have demonstrated impressive potential on simple tasks, their breadth of scope, lack of transparency, and insufficient controllability can make them less effective when assisting humans on more complex tasks. In response, we introduce the concept of Chaining LLM steps together, where the output of one step becomes the input for the next, thus aggregating the gains per step. We first define a set of LLM primitive operations useful for Chain construction, then present an interactive system where users can modify these Chains, along with their intermediate results, in a modular way. In a 20-person user study, we found that Chaining not only improved the quality of task outcomes, but also significantly enhanced system transparency, controllability, and sense of collaboration. Additionally, we saw that users developed new ways of interacting with LLMs through Chains: they leveraged sub-tasks to calibrate model expectations, compared and contrasted alternative strategies by observing parallel downstream effects, and debugged unexpected model outputs by “unit-testing” sub-components of a Chain. In two case studies, we further explore how LLM Chains may be used in future applications.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517582
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517582
+ER  - 
+
+TY  - CONF
+TI  - Towards Complete Icon Labeling in Mobile Applications
+AU  - Chen, Jieshan
+AU  - Swearngin, Amanda
+AU  - Wu, Jason
+AU  - Barik, Titus
+AU  - Nichols, Jeffrey
+AU  - Zhang, Xiaoyi
+PY  - 2022
+AB  - Accurately recognizing icon types in mobile applications is integral to many tasks, including accessibility improvement, UI design search, and conversational agents. Existing research focuses on recognizing the most frequent icon types, but these technologies fail when encountering an unrecognized low-frequency icon. In this paper, we work towards complete coverage of icons in the wild. After annotating a large-scale icon dataset (327,879 icons) from iPhone apps, we found a highly uneven distribution: 98 common icon types covered 92.8\% of icons, while 7.2\% of icons were covered by more than 331 long-tail icon types. In order to label icons with widely varying occurrences in apps, our system uses an image classification model to recognize common icon types with an average of 3,000 examples each (96.3\% accuracy) and applies a few-shot learning model to classify long-tail icon types with an average of 67 examples each (78.6\% accuracy). Our system also detects contextual information that helps characterize icon semantics, including nearby text (95.3\% accuracy) and modifier symbols added to the icon (87.4\% accuracy). In a validation study with workers (n = 23), we verified the usefulness of our generated icon labels. The icon types supported by our work cover 99.5\% of collected icons, improving on the previously highest 78\% coverage in icon classification work.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502073
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502073
+ER  - 
+
+TY  - CONF
+TI  - CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities
+AU  - Lee, Mina
+AU  - Liang, Percy
+AU  - Yang, Qian
+PY  - 2022
+AB  - Large language models (LMs) offer unprecedented language generation capabilities and exciting opportunities for interaction design. However, their highly context-dependent capabilities are difficult to grasp and are often subjectively interpreted. In this paper, we argue that by curating and analyzing large interaction datasets, the HCI community can foster more incisive examinations of LMs’ generative capabilities. Exemplifying this approach, we present CoAuthor, a dataset designed for revealing GPT-3’s capabilities in assisting creative and argumentative writing. CoAuthor captures rich interactions between 63 writers and four instances of GPT-3 across 1445 writing sessions. We demonstrate that CoAuthor can address questions about GPT-3’s language, ideation, and collaboration capabilities, and reveal its contribution as a writing “collaborator” under various definitions of good collaboration. Finally, we discuss how this work may facilitate a more principled discussion around LMs’ promises and pitfalls in relation to interaction design. The dataset and an interface for replaying the writing sessions are publicly available at https://coauthor-stanford-edu.myaccess.library.utoronto.ca
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502030
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502030
+ER  - 
+
+TY  - CONF
+TI  - “Brush it Off”: How Women Workers Manage and Cope with Bias and Harassment in Gender-agnostic Gig Platforms
+AU  - Ma, Ning F.
+AU  - Rivera, Veronica A.
+AU  - Yao, Zheng
+AU  - Yoon, Dongwook
+PY  - 2022
+AB  - Women make up approximately half of the workforce in ride-hailing, food delivery, and home service platforms in North America. While studies have reported that gig workers face bias, harassment, and a gender pay gap, we have limited understanding of women’s perspectives of these issues and their coping mechanisms. We interviewed 20 women gig workers to hear their unique experiences with these challenges. We found that gig platforms are gender-agnostic, meaning they do not acknowledge women’s experiences and the value they bring. By not enforcing anti-harassment policies in design, gig platforms also leave women workers vulnerable to bias and harassment. Due to the lack of support for immediate actions and in fear of losing access to work, women workers “brush off” harassment. In addition, the platforms’ dispatching and recommendation mechanisms do not acknowledge women’s contributions in perceived safety for customers and social support for peer workers.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517524
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517524
+ER  - 
+
+TY  - CONF
+TI  - Recommendations for Visualization Recommendations: Exploring Preferences and Priorities in Public Health
+AU  - Bao, Calvin S.
+AU  - Li, Siyao
+AU  - Flores, Sarah G
+AU  - Correll, Michael
+AU  - Battle, Leilani
+PY  - 2022
+AB  - The promise of visualization recommendation systems is that analysts will be automatically provided with relevant and high-quality visualizations that will reduce the work of manual exploration or chart creation. However, little research to date has focused on what analysts value in the design of visualization recommendations. We interviewed 18 analysts in the public health sector and explored how they made sense of a popular in-domain dataset1 in service of generating visualizations to recommend to others. We also explored how they interacted with a corpus of both automatically- and manually-generated visualization recommendations, with the goal of uncovering how the design values of these analysts are reflected in current visualization recommendation systems. We find that analysts champion simple charts with clear takeaways that are nonetheless connected with existing semantic information or domain hypotheses. We conclude by recommending that visualization recommendation designers explore ways of integrating context and expectation into their systems.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501891
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501891
+ER  - 
+
+TY  - CONF
+TI  - VisGuide: User-Oriented Recommendations for Data Event Extraction
+AU  - Cao, Yu-Rong
+AU  - Li, Xiao-Han
+AU  - Pan, Jia-Yu
+AU  - Lin, Wen-Chieh
+PY  - 2022
+AB  - Data exploration systems have become popular tools with which data analysts and others can explore raw data and organize their observations. However, users of such systems who are unfamiliar with their datasets face several challenges when trying to extract data events of interest to them. Those challenges include progressively discovering informative charts, organizing them into a logical order to depict a meaningful fact, and arranging one or more facts to illustrate a data event. To alleviate them, we propose VisGuide—a data exploration system that generates personalized recommendations to aid users’ discovery of data events in breadth and depth by incrementally learning their data exploration preferences and recommending meaningful charts tailored to them. As well as user preferences, VisGuide’s recommendations simultaneously consider sequence organization and chart presentation. We conducted two user studies to evaluate 1) the usability of VisGuide and 2) user satisfaction with its recommendation system. The results of those studies indicate that VisGuide can effectively help users create coherent and user-oriented visualization trees that represent meaningful data events.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517648
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517648
+ER  - 
+
+TY  - CONF
+TI  - MyMove: Facilitating Older Adults to Collect In-Situ Activity Labels on a Smartwatch with Speech
+AU  - Kim, Young-Ho
+AU  - Chou, Diana
+AU  - Lee, Bongshin
+AU  - Danilovich, Margaret
+AU  - Lazar, Amanda
+AU  - Conroy, David E.
+AU  - Kacorri, Hernisa
+AU  - Choe, Eun Kyoung
+PY  - 2022
+AB  - Current activity tracking technologies are largely trained on younger adults’ data, which can lead to solutions that are not well-suited for older adults. To build activity trackers for older adults, it is crucial to collect training data with them. To this end, we examine the feasibility and challenges with older adults in collecting activity labels by leveraging speech. Specifically, we built MyMove, a speech-based smartwatch app to facilitate the in-situ labeling with a low capture burden. We conducted a 7-day deployment study, where 13 older adults collected their activity labels and smartwatch sensor data, while wearing a thigh-worn activity monitor. Participants were highly engaged, capturing 1,224 verbal reports in total. We extracted 1,885 activities with corresponding effort level and timespan, and examined the usefulness of these reports as activity labels. We discuss the implications of our approach and the collected dataset in supporting older adults through personalized activity tracking technologies.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517457
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517457
+ER  - 
+
+TY  - CONF
+TI  - Designing Human-Agent Collaborations: Commitment, responsiveness, and support
+AU  - Cila, Nazli
+PY  - 2022
+AB  - With the advancements in AI, agents (i.e., smart products, robots, software agents) are increasingly capable of working closely together with humans in a variety of ways while benefiting from each other. These human-agent collaborations have gained growing attention in the HCI community; however, the field lacks clear guidelines on how to design the agents’ behaviors in collaborations. In this paper, the qualities that are relevant for designers to create robust and pleasant human-agent collaborations were investigated. Bratman's Shared Cooperative Activity framework was used to identify the core characteristics of collaborations and survey the most important issues in the design of human-agent collaborations, namely code-of-conduct, task delegation, autonomy and control, intelligibility, common ground, offering help and requesting help. The aim of this work is to add structure to this growing and important facet of HCI research and operationalize the concept of human-agent collaboration with concrete design considerations.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517500
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517500
+ER  - 
+
+TY  - CONF
+TI  - Simulating Human Imprecision in Temporal Statements of Intelligent Virtual Agents
+AU  - Schmidt, Susanne
+AU  - Zimmermann, Sven
+AU  - Mason, Celeste
+AU  - Steinicke, Frank
+PY  - 2022
+AB  - Research on intelligent virtual agents (IVAs) often concerns the implementation of human-like behavior by integrating artificial intelligence algorithms. Thus far, few studies focused on mimicry of cognitive imperfections inherent to humans in IVAs. Neglecting to implement such imperfect behavior in IVAs might result in less believable or engaging human-agent interactions. In this paper, we simulate human imprecision in conversational IVAs’ temporal statements. We conducted a survey to identify temporal statement patterns, transferred them to a conversational IVA, and conducted a user study evaluating the effects of time precision on perceived anthropomorphism and usefulness. Statistical analyses reveal significant interaction between time precision and agents’ use of memory aids, indicating that (i) imprecise agents are perceived as more human-like than precise agents when responding immediately, and (ii) unnaturally high levels of temporal precision can be compensated for by memory aid use. Further findings underscore the value of continued inquiry into cultural variations.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517625
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517625
+ER  - 
+
+TY  - CONF
+TI  - Watch It, Don’t Imagine It: Creating a Better Caption-Occlusion Metric by Collecting More Ecologically Valid Judgments from DHH Viewers
+AU  - Amin, Akhter Al
+AU  - Hassan, Saad
+AU  - Lee, Sooyeon
+AU  - Huenerfauth, Matt
+PY  - 2022
+AB  - Television captions blocking visual information causes dissatisfaction among Deaf and Hard of Hearing (DHH) viewers, yet existing caption evaluation metrics do not consider occlusion. To create such a metric, DHH participants in a recent study imagined how bad it would be if captions blocked various on-screen text or visual content. To gather more ecologically valid data for creating an improved metric, we asked 24 DHH participants to give subjective judgments of caption quality after actually watching videos, and a regression analysis revealed which on-screen contents’ occlusion related to users’ judgments. For several video genres, a metric based on our new dataset out-performed the prior state-of-the-art metric for predicting the severity of captions occluding content during videos, which had been based on that prior study. We contribute empirical findings for improving DHH viewers’ experience, guiding the placement of captions to minimize occlusions, and automated evaluation of captioning quality in television broadcasts.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517681
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517681
+ER  - 
+
+TY  - CONF
+TI  - A Large-Scale Longitudinal Analysis of Missing Label Accessibility Failures in Android Apps
+AU  - Fok, Raymond
+AU  - Zhong, Mingyuan
+AU  - Ross, Anne Spencer
+AU  - Fogarty, James
+AU  - Wobbrock, Jacob O.
+PY  - 2022
+AB  - We present the first large-scale longitudinal analysis of missing label accessibility failures in Android apps. We developed a crawler and collected monthly snapshots of 312 apps over 16 months. We use this unique dataset in empirical examinations of accessibility not possible in prior datasets. Key large-scale findings include missing label failures in 55.6\% of unique image-based elements, longitudinal improvement in ImageButton elements but not in more prevalent ImageView elements, that 8.8\% of unique screens are unreachable without navigating at least one missing label failure, that app failure rate does not improve with number of downloads, and that effective labeling is neither limited to nor guaranteed by large software organizations. We then examine longitudinal data in individual apps, presenting illustrative examples of accessibility impacts of systematic improvements, incomplete improvements, interface redesigns, and accessibility regressions. We discuss these findings and potential opportunities for tools and practices to improve label-based accessibility.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502143
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502143
+ER  - 
+
+TY  - CONF
+TI  - Mobilizing Crowdwork:A Systematic Assessment of the Mobile Usability of HITs
+AU  - Dutta, Senjuti
+AU  - Linder, Rhema
+AU  - Lowe, Doug
+AU  - Rosenbalm, Richard
+AU  - Kuzminykh, Anastasia
+AU  - Williams, Alex C
+PY  - 2022
+AB  - There is a growing interest in extending crowdwork beyond traditional desktop-centric design to include mobile devices (e.g., smartphones). However, mobilizing crowdwork remains significantly tedious due to a lack of understanding about the mobile usability requirements of human intelligence tasks (HITs). We present a taxonomy of characteristics that defines the mobile usability of HITs for smartphone devices. The taxonomy is developed based on findings from a study of three consecutive steps. In Step 1, we establish an initial design of our taxonomy through a targeted literature analysis. In Step 2, we verify and extend the taxonomy through an online survey with Amazon Mechanical Turk crowdworkers. Finally, in Step 3 we demonstrate the taxonomy’s utility by applying it to analyze the mobile usability of a dataset of scraped HITs. In this paper, we present the iterative development of the taxonomy, highlighting the observed practices and preferences around mobile crowdwork. We conclude with the implications of our taxonomy for accessibly and ethically mobilizing crowdwork not only within the context of smartphone devices, but beyond them.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501876
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501876
+ER  - 
+
+TY  - CONF
+TI  - Supporting Accessible Data Visualization Through Audio Data Narratives
+AU  - Siu, Alexa
+AU  - S-H Kim, Gene
+AU  - O'Modhrain, Sile
+AU  - Follmer, Sean
+PY  - 2022
+AB  - Online data visualizations play an important role in informing public opinion but are often inaccessible to screen reader users. To address the need for accessible data representations on the web that provide direct, multimodal, and up-to-date access to the data, we investigate audio data narratives –which combine textual descriptions and sonification (the mapping of data to non-speech sounds). We conduct two co-design workshops with screen reader users to define design principles that guide the structure, content, and duration of a data narrative. Based on these principles and relevant auditory processing characteristics, we propose a dynamic programming approach to automatically generate an audio data narrative from a given dataset. We evaluate our approach with 16 screen reader users. Findings show with audio narratives, users gain significantly more insights from the data. Users describe data narratives help them better extract and comprehend the information in both the sonification and description.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517678
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517678
+ER  - 
+
+TY  - CONF
+TI  - Infosonics: Accessible Infographics for People who are Blind using Sonification and Voice
+AU  - Holloway, Leona M
+AU  - Goncu, Cagatay
+AU  - Ilsar, Alon
+AU  - Butler, Matthew
+AU  - Marriott, Kim
+PY  - 2022
+AB  - Data visualisations are increasingly used online to engage readers and enable independent analysis of the data underlying news stories. However, access to such infographics is problematic for readers who are blind or have low vision (BLV). Equitable access to information is a basic human right and essential for independence and inclusion. We introduce infosonics, the audio equivalent of infographics, as a new style of interactive sonification that uses a spoken introduction and annotation, non-speech audio and sound design elements to present data in an understandable and engaging way. A controlled user evaluation with 18 BLV adults found a COVID-19 infosonic enabled a clearer mental image than a traditional sonification. Further, infosonics prove complementary to text descriptions and facilitate independent understanding of the data. Based on our findings, we provide preliminary suggestions for infosonics design, which we hope will enable BLV people to gain equitable access to online news and information.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517465
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517465
+ER  - 
+
+TY  - CONF
+TI  - Solving Separation-of-Concerns Problems in Collaborative Design of Human-AI Systems through Leaky Abstractions
+AU  - Subramonyam, Hariharan
+AU  - Im, Jane
+AU  - Seifert, Colleen
+AU  - Adar, Eytan
+PY  - 2022
+AB  - In conventional software development, user experience (UX) designers and engineers collaborate through separation of concerns (SoC): designers create human interface specifications, and engineers build to those specifications. However, we argue that Human-AI systems thwart SoC because human needs must shape the design of the AI interface, the underlying AI sub-components, and training data. How do designers and engineers currently collaborate on AI and UX design? To find out, we interviewed 21 industry professionals (UX researchers, AI engineers, data scientists, and managers) across 14 organizations about their collaborative work practices and associated challenges. We find that hidden information encapsulated by SoC challenges collaboration across design and engineering concerns. Practitioners describe inventing ad-hoc representations exposing low-level design and implementation details (which we characterize as leaky abstractions) to “puncture” SoC and share information across expertise boundaries. We identify how leaky abstractions are employed to collaborate at the AI-UX boundary and formalize a process of creating and using leaky abstractions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517537
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517537
+ER  - 
+
+TY  - CONF
+TI  - CO/DA: Live-Coding Movement-Sound Interactions for Dance Improvisation
+AU  - Fran\c{c}oise, Jules
+AU  - Fdili Alaoui, Sarah
+AU  - Candau, Yves
+PY  - 2022
+AB  - We present a performance-led inquiry that involved a live coder programming movement-based interactive sound and two dance improvisers. During two years of collaboration, we developed a joint improvisation practice where the interactions between the dancers’ movement and the sound feedback are programmed on the fly through live coding and movement sensing. To that end, we designed a new live coding environment called CO/DA that facilitates the real-time manipulation of continuous streams of the dancers’ motion data for interactive sound synthesis. Through an autoethnographic inquiry, we describe our practice of sound and movement improvisation where live coding dynamically changes how the dancers’ movements generate sound, which in turn influences the dancers’ improvisation. We then discuss the value, potential and challenges of our dance/code improvisation practice, along with its implications as a design method.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501916
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501916
+ER  - 
+
+TY  - CONF
+TI  - Improving understandability of feature contributions in model-agnostic explainable AI tools
+AU  - Hadash, Sophia
+AU  - Willemsen, Martijn C.
+AU  - Snijders, Chris
+AU  - IJsselsteijn, Wijnand A.
+PY  - 2022
+AB  - Model-agnostic explainable AI tools explain their predictions by means of ’local’ feature contributions. We empirically investigate two potential improvements over current approaches. The first one is to always present feature contributions in terms of the contribution to the outcome that is perceived as positive by the user (“positive framing”). The second one is to add “semantic labeling”, that explains the directionality of each feature contribution (“this feature leads to +5\% eligibility”), reducing additional cognitive processing steps. In a user study, participants evaluated the understandability of explanations for different framing and labeling conditions for loan applications and music recommendations. We found that positive framing improves understandability even when the prediction is negative. Additionally, adding semantic labels eliminates any framing effects on understandability, with positive labels outperforming negative labels. We implemented our suggestions in a package ArgueView[11].
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517650
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517650
+ER  - 
+
+TY  - CONF
+TI  - FitVid: Responsive and Flexible Video Content Adaptation
+AU  - Kim, Jeongyeon
+AU  - Choi, Yubin
+AU  - Kahng, Minsuk
+AU  - Kim, Juho
+PY  - 2022
+AB  - Mobile video-based learning attracts many learners with its mobility and ease of access. However, most lectures are designed for desktops. Our formative study reveals mobile learners’ two major needs: more readable content and customizable video design. To support mobile-optimized learning, we present FitVid, a system that provides responsive and customizable video content. Our system consists of (1) an adaptation pipeline that reverse-engineers pixels to retrieve design elements (e.g., text, images) from videos, leveraging deep learning with a custom dataset, which powers (2) a UI that enables resizing, repositioning, and toggling in-video elements. The content adaptation improves the guideline compliance rate by 24\% and 8\% for word count and font size. The content evaluation study (n=198) shows that the adaptation significantly increases readability and user satisfaction. The user study (n=31) indicates that FitVid significantly improves learning experience, interactivity, and concentration. We discuss design implications for responsive and customizable video adaptation.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501948
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501948
+ER  - 
+
+TY  - CONF
+TI  - Katika: An End-to-End System for Authoring Amateur Explainer Motion Graphics Videos
+AU  - Jahanlou, Amir
+AU  - Chilana, Parmit K
+PY  - 2022
+AB  - Explainer motion graphics videos that use a combination of graphical elements and movement to convey a visual message are becoming increasingly popular among amateur creators in different domains. But, to author motion graphics videos, amateurs either have to face a steep learning curve with professional design tools or struggle with re-purposing slide-sharing tools that are easier to access but have limited animation capabilities. To simplify the process of motion graphics authoring, we present the design and implementation of Katika, an end-to-end system for creating shots based on a script, adding artworks and animation from a crowdsourced library, and editing the video using semi-automated transitions. Our observational study illustrates that participants (N=11) enjoyed using Katika and, within a one-hour session, managed to create an explainer motion graphics video. We identify opportunities for future HCI research to lower the barriers to entry and democratize the authoring of motion graphics videos.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517741
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517741
+ER  - 
+
+TY  - CONF
+TI  - (Dis)Appearables: A Concept and Method for Actuated Tangible UIs to Appear and Disappear based on Stages
+AU  - Nakagaki, Ken
+AU  - Tappa, Jordan L
+AU  - Zheng, Yi
+AU  - Forman, Jack
+AU  - Leong, Joanne
+AU  - Koenig, Sven
+AU  - Ishii, Hiroshi
+PY  - 2022
+AB  - (Dis)Appearables is an approach for actuated Tangible User Interfaces (TUIs) to appear and disappear. This technique is supported by Stages: physical platforms inspired by theatrical stages. Self-propelled TUI’s autonomously move between front and back stage allowing them to dynamically appear and disappear from users’ attention. This platform opens up a novel interaction design space for expressive displays with dynamic physical affordances. We demonstrate and explore this approach based on a proof-of-concept implementation using two-wheeled robots, and multiple stage design examples. We have implemented a stage design pipeline which allows users to plan and design stages that are composed with front and back stages, and transition portals such as trap doors or lifts. The pipeline includes control of the robots, which guides them on and off stage. With this proof-of-concept prototype, we demonstrated a range of applications including interactive mobility simulation, self re-configuring desktops, remote hockey, and storytelling/gaming. Inspired by theatrical stage designs, this is a new take on ‘controlling the existence of matter’ for user experience design.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501906
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501906
+ER  - 
+
+TY  - CONF
+TI  - Tangible Collaboration: A Human-Centered Approach for Sharing Control With an Actuated-Interface
+AU  - Zuckerman, Oren
+AU  - Press, Viva Sarah
+AU  - Barda, Ehud
+AU  - Megidish, Benny
+AU  - Erel, Hadas
+PY  - 2022
+AB  - Autonomous actuated-interfaces provide a unique research opportunity for shared-control interfaces, as the human and the interface collaborate using the physical interaction modality, manipulating the same physical elements at the same time. Prior studies show that sharing control with physical modality interfaces often results in frustration and low sense-of-control. We designed and implemented adaptive behavior for shared-control actuated-interfaces that extends prior work by providing humans the ability to anticipate the autonomous action, and then accept or override it. Results from a controlled study with 24 participants indicate better collaboration in the Adaptive condition compared with the Non-adaptive one, with improved sense-of-control, feelings of teamwork, and overall collaboration quality. Our work contributes to shared-control tangible, shape-change, and actuated interfaces. We show that leveraging minimal non-verbal social cues to physically communicate the actuated-interface’s intent, coupled with providing autonomy to the human to physically accept or override the shift-in-control, improves the shared-control collaboration.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517449
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517449
+ER  - 
+
+TY  - CONF
+TI  - Making Space for Cultural Infrastructure: The Breakdown and Maintenance Work of Independent Movie Theaters During Crisis
+AU  - Ankenbauer, Sam Addison
+AU  - Lu, Alex Jiahong
+PY  - 2022
+AB  - Independent movie theaters (IMTs) are a part of the cultural infrastructure that offers shared spaces for patron communities to access, share, and engage with cultural artifacts. In light of the COVID-19 pandemic, IMTs were mandated to shut down, resulting in unanticipated infrastructural breakdown. Drawing insights from a preliminary survey and interviews with staff members from 18 IMTs in the U.S., this paper attends to how this breakdown disrupted art and community engagement within patron communities. We investigate the sociotechnical practices of maintaining cultural infrastructure through 1) collaborating with community partners and external stakeholders, 2) screening films through online virtual cinema platforms, and 3) retaining community members through online platforms. Our work highlights the tensions and invisible human labor in this maintenance work. Together, this work intends to foreground cultural infrastructure and discuss how HCI can support and contribute to the design and oft-invisible maintenance of cultural infrastructure.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501840
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501840
+ER  - 
+
+TY  - CONF
+TI  - A Little Too Personal: Effects of Standardization versus Personalization on Job Acquisition, Work Completion, and Revenue for Online Freelancers
+AU  - Hsieh, Jane
+AU  - Hong, Yili
+AU  - Burtch, Gordon
+AU  - Zhu, Haiyi
+PY  - 2022
+AB  - As more individuals consider permanently working from home, the online labor market continues to grow as an alternative working environment. While the flexibility and autonomy of these online gigs attracts many workers, success depends critically upon self-management and workers’ efficient allocation of scarce resources. To achieve this, freelancers may develop alternative work strategies, employing highly standardized schedules and communication patterns while taking on large work volumes, or engaging in smaller numbers of jobs whilst tailoring their activities to build relationships with individual employers. In this study, we consider this contrast in relation to worker communication patterns. We demonstrate the heterogeneous effects of standardization versus personalization across different stages of a project and examine the relative impact on job acquisition, project completion, and earnings. Our findings can inform the design of platforms and various worker support tools for the gig economy.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517546
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517546
+ER  - 
+
+TY  - CONF
+TI  - Kills, Deaths, and (Computational) Assists: Identifying Opportunities for Computational Support in Esport Learning
+AU  - Kleinman, Erica
+AU  - Shergadwala, Murtuza N
+AU  - Seif El-Nasr, Magy
+PY  - 2022
+AB  - Esports play can cultivate real world skills. However, the path to mastery is not easy, and difficulty progressing can result in discontinuation. In the absence of a human coach, computational tools may provide much-needed guidance. However, the specific improvement activities that players engage in and the exact challenges they face are not well defined in the context of computational support. As such, most tools can only support players based on a high level understanding of their practices. We present the results of an interview study (n=17) that identified four improvement activities: practicing, leveraging the knowledge of others, tracking performance, and reflecting on gameplay and setting goals for the future, and four challenges: coordinating and collaborating with teammates, knowing what to do next, tracking game state, and tracking skill and improvement. We discuss six implications for future design and development based on these results.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517654
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517654
+ER  - 
+
+TY  - CONF
+TI  - A study of UX practitioners roles in designing real-world, enterprise ML systems
+AU  - Zdanowska, Sabah
+AU  - Taylor, Alex S
+PY  - 2022
+AB  - Opportunities for AI and machine learning (ML) are vast in current interactive systems development. However, comparatively little is known about how functionality for the system behind the interface is designed and how design methodologies such as user-centered design have influence. This research focuses on how interdisciplinary teams that include UX practitioners design real-world enterprise ML systems outside of big technology companies. We conducted a survey with product managers, and interviews with interdisciplinary teams and individual UX practitioners. The findings show that nontechnical UX practitioners are highly capable in designing AI/ML systems. In addition to applying UX and interaction design expertise to make decisions regarding functionality, they employ skills that aid collaboration across interdisciplinary teams. However, our findings suggest existing HCI design techniques such as prototyping and simulating complexity of enterprise ML systems are insufficient. We propose adaptations to design practices and conclude that some existing research should be reconsidered.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517607
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517607
+ER  - 
+
+TY  - CONF
+TI  - The Electronicists: Techno-aesthetic Encounters for Nonlinear and Art-based Inquiry in HCI
+AU  - Kang, Laewoo
+AU  - Jackson, Steven
+AU  - Pinch, Trevor
+PY  - 2022
+AB  - This paper offers a theoretical and methodological framework of ‘techno-aesthetic encounters’ that supports nonlinear (situated, materially-driven, and multi-sensory) and art-based modes of inquiry in HCI and the broader STEM fields. We first investigate recent literatures in HCI and science and technology studies (STS) that explore nonlinear modes of practice and creativity in processes of technology design, and argue that better recognition of these dynamics may open space for art-based and nonlinear leaners and makers to more actively engage in HCI research and design. To meet this need, we study three renowned art-and-engineering practitioners (Kl\"uver, Paik, Moog) and our own experimental project titled ‘The Electronicists’ in which participants from different disciplines collaborated to produce three hybrid works. Based on this work, we propose a framework of ‘techno-aesthetic encounters’ that pursues event-based creativity through the mediation of engineering, art, and humanistic engagements. We suggest trust-based experiments, error-engaged studio, and art-based ethnography as promising methodological tenets of this approach.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517506
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517506
+ER  - 
+
+TY  - CONF
+TI  - We Play and Learn Rhythmically: Gesture-based Rhythm Game for Children with Intellectual Developmental Disabilities to Learn Manual Sign
+AU  - Choi, Youjin
+AU  - Kim, JooYeong
+AU  - Park, Chan Woo
+AU  - Kim, Jeongyoun
+AU  - Yi, Ji Hyun
+AU  - Hong, Jin-Hyuk
+PY  - 2022
+AB  - Manual sign systems have been introduced to improve the communication of children with intellectual developmental disabilities (IDD). Due to the lack of learning support tools, teachers face many practical challenges in teaching manual sign to children, such as low attention span and the need for persistent intervention. To address these issues, we collaborated with teachers to develop the Sondam Rhythm Game, a gesture-based rhythm game that assists in teaching manual sign language, and ran a four-week empirical study with five teachers and eight children with IDD. Based on video annotation and post-hoc interviews, our game-based learning approach has the potential to be effective at teaching manual sign to children with IDD. Our approach improved children attention span and motivation while also increasing the number of voluntary gestures made without the need for prompting. Other practical issues and learning challenges were also uncovered to improve teaching paradigms for children with IDD.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517456
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517456
+ER  - 
+
+TY  - CONF
+TI  - Diffraction-in-action: Designerly Explorations of Agential Realism Through Lived Data
+AU  - Sanches, Pedro
+AU  - Howell, Noura
+AU  - Tsaknaki, Vasiliki
+AU  - Jenkins, Tom
+AU  - Helms, Karey
+PY  - 2022
+AB  - Recent design research has shown an interest in diffraction and agential realism, which promise to offer generative alternatives when designing with data that resist treating data as objective or neutral. We explore engaging diffractively with ‘lived data’ to surface felt and prospective aspects of data as it is entangled in everyday lives of designers. This paper presents five biodata-based case studies demonstrating how design researchers can create knowledge about human bodies and behaviors via strategies that allow them to engage data diffractively. These studies suggest that designers can find insights for designing with data as it is lived by working with it in a slow, open-ended fashion that leaves room for messiness and time for discovering difference. Finally, we discuss the role of ambiguous, open-ended data interpretations to help surface different meanings and entanglements of data in everyday lives.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502029
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502029
+ER  - 
+
+TY  - CONF
+TI  - One Week in the Future: Previs Design Futuring for HCI Research
+AU  - Ivanov, Alexander
+AU  - Au Yeung, Tim
+AU  - Blair, Kathryn
+AU  - Danyluk, Kurtis
+AU  - Freeman, Georgina
+AU  - Friedel, Marcus
+AU  - Hull, Carmen
+AU  - Hung, Michael Yuk-Shing
+AU  - Pratte, Sydney
+AU  - Willett, Wesley
+PY  - 2022
+AB  - We explore the use of cinematic “pre-visualization” (previs) techniques as a rapid ideation and design futuring method for human computer interaction (HCI) research. Previs approaches, which are widely used in animation and film production, use digital design tools to create medium-fidelity videos that capture richer interaction, motion, and context than sketches or static illustrations. When used as a design futuring method, previs can facilitate rapid, iterative discussions that reveal tensions, challenges, and opportunities for new research. We performed eight one-week design futuring sprints, in which individual HCI researchers collaborated with a lead designer to produce concept sketches, storyboards, and videos that examined future applications of their research. From these experiences, we identify recurring themes and challenges and present a One Week Futuring Workbook that other researchers can use to guide their own futuring sprints. We also highlight how variations of our approach could support other speculative design practices.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517584
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517584
+ER  - 
+
+TY  - CONF
+TI  - Dually Noted: Layout-Aware Annotations with Smartphone Augmented Reality
+AU  - Qian, Jing
+AU  - Sun, Qi
+AU  - Wigington, Curtis
+AU  - Han, Han L.
+AU  - Sun, Tong
+AU  - Healey, Jennifer
+AU  - Tompkin, James
+AU  - Huang, Jeff
+PY  - 2022
+AB  - Sharing annotations encourages feedback, discussion, and knowledge passing among readers and can be beneficial for personal and public use. Prior augmented reality (AR) systems have expanded these benefits to both digital and printed documents. However, despite smartphone AR now being widely available, there is a lack of research about how to use AR effectively for interactive document annotation. We propose Dually Noted, a smartphone-based AR annotation system that recognizes the layout of structural elements in a printed document for real-time authoring and viewing of annotations. We conducted experience prototyping with eight users to elicit potential benefits and challenges within smartphone AR, and this informed the resulting Dually Noted system and annotation interactions with the document elements. AR annotation is often unwieldy, but during a 12-user empirical study our novel structural understanding component allows Dually Noted to improve precise highlighting and annotation interaction accuracy by 13\%, increase interaction speed by 42\%, and significantly lower cognitive load over a baseline method without document layout understanding. Qualitatively, participants commented that Dually Noted was a swift and portable annotation experience. Overall, our research provides new methods and insights for how to improve AR annotations for physical documents.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502026
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502026
+ER  - 
+
+TY  - CONF
+TI  - The Voight-Kampff Machine for Automatic Custom Gesture Rejection Threshold Selection
+AU  - Taranta, Eugene Matthew
+AU  - Maslych, Mykola
+AU  - Ghamandi, Ryan
+AU  - LaViola, Joseph
+PY  - 2022
+AB  - Gesture recognition systems using nearest neighbor pattern matching are able to distinguish gesture from non-gesture actions by rejecting input whose recognition scores are poor. However, in the context of gesture customization, where training data is sparse, learning a tight rejection threshold that maximizes accuracy in the presence of continuous high activity (HA) data is a challenging problem. To this end, we present the Voight-Kampff Machine (VKM), a novel approach for rejection threshold selection. VKM uses new synthetic data techniques to select an initial threshold that the system thereafter adjusts based on the training set size and expected gesture production variability. We pair VKM with a state-of-the-art custom gesture segmenter and recognizer to evaluate our system across several HA datasets, where gestures are interleaved with non-gesture actions. Compared to alternative rejection threshold selection techniques, we show that our approach is the only one that consistently achieves high performance.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502000
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502000
+ER  - 
+
+TY  - CONF
+TI  - Barriers to Expertise in Citizen Science Games
+AU  - Miller, Josh Aaron
+AU  - Cooper, Seth
+PY  - 2022
+AB  - Expertise-centric citizen science games (ECCSGs) can be powerful tools for crowdsourcing scientific knowledge production. However, to be effective these games must train their players on how to become experts, which is difficult in practice. In this study, we investigated the path to expertise and the barriers involved by interviewing players of three ECCSGs: Foldit, Eterna, and Eyewire. We then applied reflexive thematic analysis to generate themes of their experiences and produce a model of expertise and its barriers. We found expertise is constructed through a cycle of exploratory and social learning but prevented by instructional design issues. Moreover, exploration is slowed by a lack of polish to the game artifact, and social learning is disrupted by a lack of clear communication. Based on our analysis we make several recommendations for CSG developers, including: collaborating with professionals of required skill sets; providing social features and feedback systems; and improving scientific communication.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517541
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517541
+ER  - 
+
+TY  - CONF
+TI  - Towards Modeling of Virtual Reality Welding Simulators to Promote Accessible and Scalable Training
+AU  - Ipsita, Ananya
+AU  - Erickson, Levi
+AU  - Dong, Yangzi
+AU  - Huang, Joey
+AU  - Bushinski, Alexa K
+AU  - Saradhi, Sraven
+AU  - Villanueva, Ana M
+AU  - Peppler, Kylie A
+AU  - Redick, Thomas S
+AU  - Ramani, Karthik
+PY  - 2022
+AB  - The US manufacturing industry is currently facing a welding workforce shortage which is largely due to inadequacy of widespread welding training. To address this challenge, we present a Virtual Reality (VR)-based training system aimed at transforming state-of-the-art-welding simulations and in-person instruction into a widely accessible and engaging platform. We applied backward design principles to design a low-cost welding simulator in the form of modularized units through active consulting with welding training experts. Using a minimum viable prototype, we conducted a user study with 24 novices to test the system’s usability. Our findings show (1) greater effectiveness of the system in transferring skills to real-world environments as compared to accessible video-based alternatives and, (2) the visuo-haptic guidance during virtual welding enhances performance and provides a realistic learning experience to users. Using the solution, we expect inexperienced users to achieve competencies faster and be better prepared to enter actual work environments.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517696
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517696
+ER  - 
+
+TY  - CONF
+TI  - GANSlider: How Users Control Generative Models for Images using Multiple Sliders with and without Feedforward Information
+AU  - Dang, Hai
+AU  - Mecke, Lukas
+AU  - Buschek, Daniel
+PY  - 2022
+AB  - We investigate how multiple sliders with and without feedforward visualizations influence users’ control of generative models. In an online study (N=138), we collected a dataset of people interacting with a generative adversarial network (StyleGAN2) in an image reconstruction task. We found that more control dimensions (sliders) significantly increase task difficulty and user actions. Visual feedforward partly mitigates this by enabling more goal-directed interaction. However, we found no evidence of faster or more accurate task performance. This indicates a tradeoff between feedforward detail and implied cognitive costs, such as attention. Moreover, we found that visualizations alone are not always sufficient for users to understand individual control dimensions. Our study quantifies fundamental UI design factors and resulting interaction behavior in this context, revealing opportunities for improvement in the UI design for interactive applications of generative models. We close by discussing design directions and further aspects.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502141
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502141
+ER  - 
+
+TY  - CONF
+TI  - The Trusted Listener: The Influence of Anthropomorphic Eye Design of Social Robots on User's Perception of Trustworthiness
+AU  - Zhu, Xinyu
+AU  - Zhang, Xingguo
+AU  - Chen, Zinan
+AU  - Dong, Zhanxun
+AU  - Gu, Zhenyu
+AU  - Chang, Danni
+PY  - 2022
+AB  - Nowadays, social robots have become human's important companions. The anthropomorphic features of robots, which are important in building natural user experience and trustable human-robot partnership, have attracted increasing attention. Among these features, eyes attract most audience's attention and are particularly important. This study aims to investigate the influence of robot eye design on users’ trustworthiness perception. Specifically, a simulation robot model was developed. Three sets of experiments involving sixty-six participants were conducted to investigate the effects of (i) visual complexity of eye design, (ii) blink rate, and (iii) gaze aversion of social robots on users’ perceived trustworthiness. Results indicate that high visual complexity and gaze aversion lead to higher perceived trustworthiness and reveal a positive correlation between the perceived anthropomorphic effect of eye design and users’ perceived trust, while a non-significant effect of blink rate has been found. Preliminary suggestions are provided for the design of social robots in future works.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517670
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517670
+ER  - 
+
+TY  - CONF
+TI  - Model Positionality and Computational Reflexivity: Promoting Reflexivity in Data Science
+AU  - Cambo, Scott Allen
+AU  - Gergle, Darren
+PY  - 2022
+AB  - Data science and machine learning provide indispensable techniques for understanding phenomena at scale, but the discretionary choices made when doing this work are often not recognized. Drawing from qualitative research practices, we describe how the concepts of positionality and reflexivity can be adapted to provide a framework for understanding, discussing, and disclosing the discretionary choices and subjectivity inherent to data science work. We first introduce the concepts of model positionality and computational reflexivity that can help data scientists to reflect on and communicate the social and cultural context of a model’s development and use, the data annotators and their annotations, and the data scientists themselves. We then describe the unique challenges of adapting these concepts for data science work and offer annotator fingerprinting and position mining as promising solutions. Finally, we demonstrate these techniques in a case study of the development of classifiers for toxic commenting in online communities.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501998
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501998
+ER  - 
+
+TY  - CONF
+TI  - Unpacking the Complexities of Community-led Violence Prevention Work
+AU  - Erete, Sheena
+AU  - Dickinson, Jessa
+AU  - Gonzalez, Alejandra C.
+AU  - Rankin, Yolanda A.
+PY  - 2022
+AB  - With increased public scrutiny of policing and growing calls for community-based violence prevention, street outreach programs that hire residents to mediate conflicts in their neighborhoods are gaining support. To understand how street outreach workers (SOWs) use information and communication technologies (ICTs) and how they envision future ICTs that better support their work, we interviewed 25 SOWs across three organizations. Results suggest that SOWs leverage ICTs to: 1) identify and mediate conflict; 2) support collaboration and teamwork; and 3) invoke community connections and trust. SOWs posit that new ICTs could provide a seamless infrastructure for communication among SOWs and between community members, assist with training to sharpen conflict negotiation skills, and provide insight on effective conflict mediation strategies.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502122
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502122
+ER  - 
+
+TY  - CONF
+TI  - Whose AI Dream? In search of the aspiration in data annotation.
+AU  - Wang, Ding
+AU  - Prabhat, Shantanu
+AU  - Sambasivan, Nithya
+PY  - 2022
+AB  - Data is fundamental to AI/ML models. This paper investigates the work practices concerning data annotation as performed in the industry, in India. Previous human-centred investigations have largely focused on annotators’ subjectivity, bias and efficiency. We present a wider perspective of the data annotation: following a grounded approach, we conducted three sets of interviews with 25 annotators, 10 industry experts and 12 ML/AI practitioners. Our results show that the work of annotators is dictated by the interests, priorities and values of others above their station. More than technical, we contend that data annotation is a systematic exercise of power through organizational structure and practice. We propose a set of implications for how we can cultivate and encourage better practice to balance the tension between the need for high quality data at low cost and the annotators’ aspiration for well-being, career perspective, and active participation in building the AI dream.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502121
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502121
+ER  - 
+
+TY  - CONF
+TI  - “It’s Freedom to Put Things Where My Mind Wants”: Understanding and Improving the User Experience of Structuring Data in Spreadsheets
+AU  - Chalhoub, George
+AU  - Sarkar, Advait
+PY  - 2022
+AB  - Despite efforts to augment or replace the 2-dimensional spreadsheet grid with formal data structures such as arrays and tables to ease formula authoring and reduce errors, the flexible grid remains overwhelmingly successful. Why? We interviewed a diverse sample of 21 spreadsheet users about their use of structure in spreadsheets. It emerges that data structuring is subject to a complex network of incentives and constraints, including factors extrinsic to spreadsheets such as the user’s expertise, auxiliary tools, and collaborator needs. Moreover, we find that table columns are an important abstraction, and that operations such as conditional formatting, data validation, and formula authoring can be implemented on table columns, rather than cell ranges. To probe this, we designed 4 click-through prototypes for a follow-up study with 20 participants. We found that although column operations improved the value proposition of structured tables, they are unlikely to supplant the advantages of the flexible grid.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501833
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501833
+ER  - 
+
+TY  - CONF
+TI  - The Deskilling of Domain Expertise in AI Development
+AU  - Sambasivan, Nithya
+AU  - Veeraraghavan, Rajesh
+PY  - 2022
+AB  - Field workers, like farmers and radiologists, play a crucial role in dataset collection for AI models in low-resource settings. However, we know little about how field workers’ expertise is leveraged in dataset and model development. Based on 68 interviews with AI developers building for low-resource contexts, we find that developers reduced field workers to data collectors. Attributing poor data quality to worker practices, developers conceived of workers as corrupt, lazy, non-compliant, and as datasets themselves, pursuing surveillance and gamification to discipline workers to collect better quality data. Even though models sought to emulate the expertise of field workers, AI developers treated workers as non-essential and deskilled their expertise in service of building machine intelligence. We make the case for why field workers should be recognised as domain experts and re-imagine domain expertise as an essential partnership for AI development.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517578
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517578
+ER  - 
+
+TY  - CONF
+TI  - Recruiting Participants With Programming Skills: A Comparison of Four Crowdsourcing Platforms and a CS Student Mailing List
+AU  - Tahaei, Mohammad
+AU  - Vaniea, Kami
+PY  - 2022
+AB  - Reliably recruiting participants with programming skills is an ongoing challenge for empirical studies involving software development technologies, often leading to the use of crowdsourcing platforms and computer science (CS) students. In this work, we use five existing survey instruments to explore the programming skills, privacy and security attitudes, and secure development self-efficacy of participants from a CS student mailing list and four crowdsourcing platforms (Appen, Clickworker, MTurk, and Prolific). We recruited 613 participants who claimed to have programming skills and assessed recruitment channels regarding costs, quality, programming skills, as well as privacy and security attitudes. We find that 27\% of crowdsourcing participants, 40\% of crowdsourcing participants who self-report to be developers, and 89\% of CS students answered all programming skill questions correctly. CS students were the most cost-effective recruitment channel and rated themselves lower than crowdsourcing participants about secure development self-efficacy.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501957
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501957
+ER  - 
+
+TY  - CONF
+TI  - Effects of Field of View on Egocentric Distance Perception in Virtual Reality
+AU  - Masnadi, Sina
+AU  - Pfeil, Kevin
+AU  - Sera-Josef, Jose-Valentin T
+AU  - LaViola, Joseph
+PY  - 2022
+AB  - We performed a mixed-design study with 56 participants to compare the effect of horizontal FOV (hfov) and vertical FOV (vfov) on egocentric distance perception in four different realistic virtual environments (VEs). We also compared VE attributes of indoor/outdoor and cluttered/uncluttered. The participants blind-walked towards four different targets at 3m, 4m, 5m, and 6m distance while wearing a backpack computer and a wide FOV head-mounted display (HMD). The combinations of 165°, 110° and 45° hfovs, and 110° and 35° vfovs was simulated in the same HMD. The results indicated more accurate distance judgement with larger hfov with no significant effect of vfov. More accurate distance judgement in indoor VEs compared to outdoor VEs was observed. Also, participants judged distances more accurately in cluttered environments versus uncluttered environments. These results highlight that the environment is important in distance-critical VR applications and wider hfov should be considered for an improved distance judgment.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517548
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517548
+ER  - 
+
+TY  - CONF
+TI  - Navigating Imaginaries of DNA-Based Digital Data Storage
+AU  - Kim, Raphael
+AU  - Linehan, Conor
+AU  - Pschetz, Larissa
+PY  - 2022
+AB  - DNA-based digital data storage technology is hailed as a potential solution for the issues around exponential global data production. However, while the technology continues to strive towards its full commercialization, there is a lack of discourse on how it could be applied to facilitate interactions that are meaningful, ethical, and socially sustainable. As an approach to address this gap, we hosted a series of online workshops, soliciting 15 participants to engage in grounded speculations on plausible futures of DNA data storage. Themes drawn from the resulting imaginaries and discussions were situated within a selection of existing HCI literature, to generate an initial set of design opportunities and challenges for DNA data storage. Early analysis suggests that the system could be designed to 1) facilitate meaningful interactions that are intangible and molecular, and 2) foster better human relationship with more-than-human entities. Furthermore, we highlight the imperative for cross-disciplinary collaborations and pedagogy, to ensure fair and high quality access to the technology.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3501911
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3501911
+ER  - 
+
+TY  - CONF
+TI  - Machine-Mediated Teaming: Mixture of Human and Machine in Physical Gaming Experience
+AU  - Maekawa, Azumi
+AU  - Saito, Hiroto
+AU  - Uriu, Daisuke
+AU  - Kasahara, Shunichi
+AU  - Inami, Masahiko
+PY  - 2022
+AB  - Technological advancement has opened up opportunities for new sports and physical activities. We introduce a concept called machine-mediated teaming, in which a human and a surrogate machine form a team to participate in physical sports games. To understand the experience of machine-mediated teaming and the guidelines for designing the system to achieve the concept, we built a case study system based on tug-of-war. Our system is a sports game played by two against two. One team consists of a player who actually pulls the rope and another player who participates in the physical game by controlling the machine’s actuators. We conducted user studies using this system to investigate the sport experience in this form and to reveal insights to inform future research on machine-mediated teaming. Based on the data obtained from the user studies, we clarified three perspectives, machine stamina, action space, and explicit feedback, that should be considered when designing future machine-mediated teaming systems. The research presented in this paper offers a first step towards exploring how humans and machines can coexist in highly dynamic physical interactions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517555
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517555
+ER  - 
+
+TY  - CONF
+TI  - Privacy, Surveillance, and Power in the Gig Economy
+AU  - Sannon, Shruti
+AU  - Sun, Billie
+AU  - Cosley, Dan
+PY  - 2022
+AB  - This paper addresses calls for more research on privacy in the gig economy across a range of work platforms. To understand privacy risks, behaviors, and consequences from the perspective of workers, we analyzed workers’ posts about privacy and surveillance from 12 Reddit forums representing four main types of work (crowdwork, freelancing, ridesharing, and delivery). We found that workers perceive both platform companies and customers as sources of unnecessary and opaque data collection and surveillance that can threaten their privacy, safety, and economic outcomes. Workers also engage in many risk mitigation strategies, including self-protective surveillance behaviors such as video recording themselves and customers, as a costly but necessary response to power imbalances created by surveillance. Based on our multi-platform analysis, we present a guiding set of questions that workers, designers, and researchers can use to assess the privacy implications of current and future gig work platforms.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502083
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502083
+ER  - 
+
+TY  - CONF
+TI  - To Self-Persuade or be Persuaded: Examining Interventions for Users’ Privacy Setting Selection
+AU  - Krsek, Isadora
+AU  - Wenzel, Kimi
+AU  - Das, Sauvik
+AU  - Hong, Jason I.
+AU  - Dabbish, Laura
+PY  - 2022
+AB  - User adoption of security and privacy (S&amp;P) best practices remains low, despite sustained efforts by researchers and practitioners. Social influence is a proven method for guiding user S&amp;P behavior, though most work has focused on studying peer influence, which is only possible with a known social graph. In a study of 104 Facebook users, we instead demonstrate that crowdsourced S&amp;P suggestions are significantly influential. We also tested how reflective writing affected participants’ S&amp;P decisions, with and without suggestions. With reflective writing, participants were less likely to accept suggestions — both social and Facebook default suggestions. Of particular note, when reflective writing participants were shown the Facebook default suggestion, they not only rejected it but also (unknowingly) configured their settings in accordance with expert recommendations. Our work suggests that both non-personal social influence and reflective writing can positively influence users’ S&amp;P decisions, but have negative interactions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502009
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502009
+ER  - 
+
+TY  - CONF
+TI  - Characterizing Practices, Limitations, and Opportunities Related to Text Information Extraction Workflows: A Human-in-the-loop Perspective
+AU  - Rahman, Sajjadur
+AU  - Kandogan, Eser
+PY  - 2022
+AB  - Information extraction (IE) approaches often play a pivotal role in text analysis and require significant human intervention. Therefore, a deeper understanding of existing IE practices and related challenges from a human-in-the-loop perspective is warranted. In this work, we conducted semi-structured interviews in an industrial environment and analyzed the reported IE approaches and limitations. We observed that data science workers often follow an iterative task model consisting of information foraging and sensemaking loops across all the phases of an IE workflow. The task model is generalizable and captures diverse goals across these phases (e.g., data preparation, modeling, evaluation.) We found several limitations in both foraging (e.g., data exploration) and sensemaking (e.g., qualitative debugging) loops stemming from a lack of adherence to existing cognitive engineering principles. Moreover, we identified that due to the iterative nature of an IE workflow, the requirement of provenance is often implied but rarely supported by existing systems. Based on these findings, we discuss design implications for supporting IE workflows and future research directions.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3502068
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3502068
+ER  - 
+
+TY  - CONF
+TI  - Care Workers Making Use of Robots: Results of a Three-Month Study on Human-Robot Interaction within a Care Home
+AU  - Carros, Felix
+AU  - Schwaninger, Isabel
+AU  - Preussner, Adrian
+AU  - Randall, Dave
+AU  - Wieching, Rainer
+AU  - Fitzpatrick, Geraldine
+AU  - Wulf, Volker
+PY  - 2022
+AB  - Research on social robots in care has often focused on either the care recipients or the technology itself, neglecting the care workers who, in and through their collaborative and coordinative practices, will need to work with the robots. To better understand these interactions with a social robot (Pepper), we undertook a 3 month long-term study within a care home to gain empirical insights into the way the robot was used. We observed how care workers learned to use the device, applied it to their daily work life, and encountered obstacles. Our findings show that the care workers used the robot regularly (1:07 hours/day) mostly in one-to-one interactions with residents. While the robot had a limited effect on reducing the workload of care workers, it had other positive effects, demonstrating the potential to enhance the quality of care.
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3491102.3517435
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3491102.3517435
+ER  - 
+

@@ -1,0 +1,655 @@
+TY  - JOUR
+TI  - 3DPFIX: Improving Remote Novices' 3D Printing Troubleshooting through Human-AI Collaboration Design
+AU  - Kwon, Nahyun
+AU  - Sun, Tong Steven
+AU  - Gao, Yuyang
+AU  - Zhao, Liang
+AU  - Wang, Xu
+AU  - Kim, Jeeeun
+AU  - Hong, Sungsoo Ray
+PY  - 2024
+AB  - The widespread consumer-grade 3D printers and learning resources online enable novices to self-train in remote settings. While troubleshooting plays an essential part of 3D printing, the process remains challenging for many remote novices even with the help of well-developed online sources, such as online troubleshooting archives and online community help. We conducted a formative study with 76 active 3D printing users to learn how remote novices leverage online resources in troubleshooting and their challenges. We found that remote novices cannot fully utilize online resources. For example, the online archives statically provide general information, making it hard to search and relate their unique cases with existing descriptions. Online communities can potentially ease their struggles by providing more targeted suggestions, but a helper who can provide custom help is rather scarce, making it hard to obtain timely assistance. We propose 3DPFIX, an interactive 3D troubleshooting system powered by the pipeline to facilitate Human-AI Collaboration, designed to improve novices' 3D printing experiences and thus help them easily accumulate their domain knowledge. We built 3DPFIX that supports automated diagnosis and solution-seeking. 3DPFIX was built upon shared dialogues about failure cases from Q&amp;A discourses accumulated in online communities. We leverage social annotations (i.e., comments) to build an annotated failure image dataset for AI classifiers and extract a solution pool. Our summative study revealed that using 3DPFIX helped participants spend significantly less effort in diagnosing failures and finding a more accurate solution than relying on their common practice. We also found that 3DPFIX users learn about 3D printing domain-specific knowledge. We discuss the implications of leveraging community-driven data in developing future Human-AI Collaboration designs.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637288
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637288
+ER  - 
+
+TY  - JOUR
+TI  - AppealMod: Inducing Friction to Reduce Moderator Workload of Handling User Appeals
+AU  - Atreja, Shubham
+AU  - Im, Jane
+AU  - Resnick, Paul
+AU  - Hemphill, Libby
+PY  - 2024
+AB  - As content moderation becomes a central aspect of all social media platforms and online communities, interest has grown in how to make moderation decisions contestable. On social media platforms where individual communities moderate their own activities, the responsibility to address user appeals falls on volunteers from within the community. While there is a growing body of work devoted to understanding and supporting the volunteer moderators' workload, little is known about their practice of handling user appeals. Through a collaborative and iterative design process with Reddit moderators, we found that moderators spend considerable effort in investigating user ban appeals and desired to directly engage with users and retain their agency over each decision. To fulfill their needs, we designed and built AppealMod, a system that induces friction in the appeals process by asking users to provide additional information before their appeals are reviewed by human moderators. In addition to giving moderators more information, we expected the friction in the appeal process would lead to a selection effect among users, with many insincere and toxic appeals being abandoned before getting any attention from human moderators. To evaluate our system, we conducted a randomized field experiment in a Reddit community of over 29 million users that lasted for four months. As a result of the selection effect, moderators viewed only 30\% of initial appeals and less than 10\% of the toxically worded appeals; yet they granted roughly the same number of appeals when compared with the control group. Overall, our system is effective at reducing moderator workload and minimizing their exposure to toxic content while honoring their preference for direct engagement and agency in appeals.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637296
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637296
+ER  - 
+
+TY  - JOUR
+TI  - Belief Miner: A Methodology for Discovering Causal Beliefs and Causal Illusions from General Populations
+AU  - Salim, Shahreen
+AU  - Hoque, Md Naimul
+AU  - Mueller, Klaus
+PY  - 2024
+AB  - Causal belief is a cognitive practice that humans apply everyday to reason about cause and effect relations between factors, phenomena, or events. Like optical illusions, humans are prone to drawing causal relations between events that are only coincidental (i.e., causal illusions). Researchers in domains such as cognitive psychology and healthcare often use logistically expensive experiments to understand causal beliefs and illusions. In this paper, we propose Belief Miner, a crowdsourcing method for evaluating people's causal beliefs and illusions. Our method uses the (dis)similarities between the causal relations collected from the crowds and experts to surface the causal beliefs and illusions. Through an iterative design process, we developed a web-based interface for collecting causal relations from a target population. We then conducted a crowdsourced experiment with 101 workers on Amazon Mechanical Turk and Prolific using this interface and analyzed the collected data with Belief Miner. We discovered a variety of causal beliefs and potential illusions, and we report the design implications for future research.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637298
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637298
+ER  - 
+
+TY  - JOUR
+TI  - Beyond Initial Removal: Lasting Impacts of Discriminatory Content Moderation to Marginalized Creators on Instagram
+AU  - Register, Yim
+AU  - Grasso, Izzi
+AU  - Weingarten, Lauren N.
+AU  - Fury, Lilith
+AU  - Chinea, Constanza Eliana
+AU  - Malloy, Tuck J.
+AU  - Spiro, Emma S.
+PY  - 2024
+AB  - Recent work has demonstrated how content moderation practices on social media may unfairly affect marginalized individuals, for example by censoring women's bodies and misidentifying reclaimed terms as hate speech. This study documents and explores the direct experiences of marginalized creators who have been impacted by discriminatory content moderation on Instagram. Collaborating with our participants for over a year, we contribute five co-constructed narratives of discriminatory content moderation from advocates in trauma-informed care, LGBTQ+ sex education, anti-racism education, and beauty and body politics. In sharing these detailed personal accounts, not only do we shed light on their experiences with being blocked, banned, or deleted unfairly, but we delve deeper into the lasting impacts of these experiences to their livelihoods and mental health. Reflecting on their stories, we observe that content moderation on social media is deeply entangled with the situated experiences of offline discrimination. As such, we document how each participant experiences moderation through the lens of their often intersectional identities. Using participatory research methods, we collectively strategize ways to learn from these individual accounts and resist discriminatory content moderation, as well as imagine possibilities for repair and accountability.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637300
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637300
+ER  - 
+
+TY  - JOUR
+TI  - Burnout in Cybersecurity Incident Responders: Exploring the Factors that Light the Fire
+AU  - Nepal, Subigya
+AU  - Hernandez, Javier
+AU  - Lewis, Robert
+AU  - Chaudhry, Ahad
+AU  - Houck, Brian
+AU  - Knudsen, Eric
+AU  - Rojas, Raul
+AU  - Tankus, Ben
+AU  - Prafullchandra, Hemma
+AU  - Czerwinski, Mary
+PY  - 2024
+AB  - As concerns about employee burnout and skilled staff shortages in cybersecurity grow, our study aims to better understand the contributing factors to burnout in this field. Utilizing a mixed-methods approach, we analyze self-reported job and personal characteristics, along with digital activity data from 35 incident responders, identifying several factors such as high workload, time pressure, and lack of support from management. Our findings reveal that over half of the participants experience burnout (N=19), which is linked to increased workload, limited control, poor teamwork, and inadequate recognition. Burned-out responders often work more than 40 hours per week, have poor sleep quality, and engage in more email activities, meetings, and after-hour collaborations. Through our research, we also identify coping strategies individuals use to mitigate these stressors. Based on our findings, we provide practical recommendations to help organizations better support their cybersecurity incident response teams. While our study acknowledges limitations and suggests future research directions, it contributes significantly to understanding the challenges faced by cybersecurity incident responders. Our insights offer a comprehensive understanding of burnout factors in this domain and have broader implications for other high-stress work environments consistent with the interdisciplinary nature of CSCW.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637304
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637304
+ER  - 
+
+TY  - JOUR
+TI  - CodeTree: A System for Learnersourcing Subgoal Hierarchies in Code Examples
+AU  - Jin, Hyoungwook
+AU  - Kim, Juho
+PY  - 2024
+AB  - Subgoal-labeled code examples help learners understand code patterns and apply them to different problem contexts. Subgoal labels are multi-level in nature and based on goal structures that define the hierarchical functional units in code. Data-driven methods and experts can supply the goal structures, but they do not work in environments with scarce data and limited availability of experts. Previous research has shown that learnersourcing is effective for sourcing high-quality subgoal labels of given goal structures. We extend this research by learnersourcing goal structures themselves, thereby making the generation of subgoal-labeled materials fully learner-driven. We introduce CodeTree, a system that generates multi-level goal structures by aggregating learner-generated subgoals from two subgoal learning activities---Generation and Selection. In a between-subjects study, 45 novices studied three code examples with either CodeTree or code explanations alone. The results showed that CodeTree could learnersource high-quality goal structures and subgoal labels for all three examples with just five learners. Learners reported a significantly higher learning gain and satisfaction compared to the baseline.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637308
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637308
+ER  - 
+
+TY  - JOUR
+TI  - Meeting Bridges: Designing Information Artifacts that Bridge from Synchronous Meetings to Asynchronous Collaboration
+AU  - Wang, Ruotong
+AU  - Qiu, Lin
+AU  - Cranshaw, Justin
+AU  - Zhang, Amy X.
+PY  - 2024
+AB  - A recent surge in remote meetings has led to complaints of Zoom fatigue" and collaboration overload," negatively impacting worker productivity and well-being. One way to alleviate the burden of meetings is to de-emphasize their synchronous participation by shifting work to and enabling sensemaking during post-meeting asynchronous activities. Towards this goal, we propose the design concept of meeting bridges, or information artifacts that can encapsulate meeting information towards bridging to and facilitating post-meeting activities. Through 13 interviews and a survey of 198 information workers, we learn how people use online meeting information after meetings are over, finding five main uses: as an archive, as task reminders, to onboard or support inclusion, for group sensemaking, and as a launching point for follow-on collaboration. However, we also find that current common meeting artifacts, such as notes and recordings, present challenges in serving as meeting bridges. After conducting co-design sessions with 16 participants, we distill key principles for the design of meeting bridges to optimally support asynchronous collaboration goals. Overall, our findings point to the opportunity of designing information artifacts that not only support users to access but also continue to transform and engage in meeting information post-meeting.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637312
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637312
+ER  - 
+
+TY  - JOUR
+TI  - Cooperation in the Gig Economy: Insights from Upwork Freelancers
+AU  - Fulker, Zachary
+AU  - Riedl, Christoph
+PY  - 2024
+AB  - Existing literature on online labor markets predominantly focuses on how freelancers individually complete tasks and projects. Our study examines freelancers' willingness to work collaboratively. We report results from a survey of 122 freelancers on a leading online labor market platform (Upwork) that examine freelancers' preferences for collaborative work arrangements, and that explore several antecedents of cooperative behaviors. We then test if actual cooperative behavior matches with freelancers' stated preferences through an incentivized social dilemma experiment. We find that respondents cooperate at a higher rate (85\%) than reported in previous comparable studies (between 50-75\%). This high rate of cooperation may be explained by an ingroup bias. Using a sequential mediation model, we demonstrate the importance of a sense of shared expectations and accountability for cooperation. We contribute to a better understanding of the potential for collaborative work on online labor market platforms by assessing if and what social factors and collective culture exist among freelancers. We discuss the implications of our results for platform designers by highlighting the importance of platform features that promote shared expectations and improve accountability. Overall, contrary to existing literature and predictions, our results suggest that freelancers in our sample display traits that are more consistent with belonging to a coherent group with a shared collective culture, rather than being anonymous actors in a transaction-based market.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637314
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637314
+ER  - 
+
+TY  - JOUR
+TI  - Data Work Between the Local and the Global: An Ethnography of a Healthcare Business Intelligence Unit
+AU  - Pedersen, Asbj\o{}rn Malte
+AU  - Bossen, Claus
+PY  - 2024
+AB  - This paper describes work practices at a public, non-profit healthcare business intelligence unit involved in creating BI reports and sharing these with healthcare management and professionals. Based on ethnographic fieldwork, we detail the various work tasks and processes involved in building data products that are applicable across various wards and healthcare professions, and, at the same time, intelligible and relevant for specific users: a challenge we frame as working with the tension between making the local and the global relevant to each other. We identified four ways in which this tension unfolds in the business intelligence unit's data work: consolidating standards, creating order out of chaos, engaging with healthcare professionals, and negotiating data and conflicts. We provide three contributions: we show how data work can unfold in close collaboration between professional data workers and domain experts; we nuance the existing research on data work by focusing on a less researched group of data workers; and we add to the few detailed ethnographies of business intelligence units.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637317
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637317
+ER  - 
+
+TY  - JOUR
+TI  - Designing for Appropriate Reliance: The Roles of AI Uncertainty Presentation, Initial User Decision, and User Demographics in AI-Assisted Decision-Making
+AU  - Cao, Shiye
+AU  - Liu, Anqi
+AU  - Huang, Chien-Ming
+PY  - 2024
+AB  - Appropriate reliance is critical to achieving synergistic human-AI collaboration. For instance, when users over-rely on AI assistance, their human-AI team performance is bounded by the model's capability. This work studies how the presentation of model uncertainty may steer users' decision-making toward fostering appropriate reliance. Our results demonstrate that showing the calibrated model uncertainty alone is inadequate. Rather, calibrating model uncertainty and presenting it in a frequency format allow users to adjust their reliance accordingly and help reduce the effect of confirmation bias on their decisions. Furthermore, the critical nature of our skin cancer screening task skews participants' judgment, causing their reliance to vary depending on their initial decision. Additionally, step-wise multiple regression analyses revealed how user demographics such as age and familiarity with probability and statistics influence human-AI collaborative decision-making. We discuss the potential for model uncertainty presentation, initial user decision, and user demographics to be incorporated in designing personalized AI aids for appropriate reliance.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637318
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637318
+ER  - 
+
+TY  - JOUR
+TI  - Emotion Work in Caregiving: The Role of Technology to Support Informal Caregivers of Persons Living With Dementia
+AU  - Smriti, Diva
+AU  - Wang, Lu
+AU  - Huh-Yoo, Jina
+PY  - 2024
+AB  - The CSCW and HCI community has increasingly examined ways to support informal caregivers through technology, given the increasing burden and its consequences on caregivers' emotional and physical health. In this paper, we interviewed 12 informal caregivers of Persons Living With Dementia (PLWD) to understand their needs and current coping strategies for overcoming caregiving burden, specifically around emotion work. The caregivers associated different personal meanings with caregiving. Participants wanted technology to take over some of the utilitarian, mundane caregiving tasks. At the same time, they did not want technology to take over the tasks that fostered personal connections with PLWD. As the disease progressed, caregivers started to lose their perceived bond with PLWD, making it more challenging to juggle between rewarding, positive emotions with negative experiences. We discuss such complexity of emotion work using the notion of Invisible Work to understand when technology should or should not support the emotion work engaged in informal caregiving.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637325
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637325
+ER  - 
+
+TY  - JOUR
+TI  - Empirically Understanding the Potential Impacts and Process of Social Influence in Human-AI Teams
+AU  - Flathmann, Christopher
+AU  - Duan, Wen
+AU  - Mcneese, Nathan J.
+AU  - Hauptman, Allyson
+AU  - Zhang, Rui
+PY  - 2024
+AB  - In the coming years, Artificial Intelligence (AI) will be applied as a teammate that works alongside and collaborates with humans. Prior research in teaming and CSCW has shown that teammates have the ability to change the thoughts and behaviors of each other through simple interactions in a process known as social influence. However, to date, research has yet to identify the social influence that AI teammates could have in these human-AI teams, which has led to a limited understanding of how AI teammates will change the behaviors of their human teammates. To remedy this gap, we conduct a mixed-methods study (N=33) with young individuals to explore how humans could behaviorally adapt and perceive their behavioral adaptation due to interaction with an AI teammate. Qualitative results report that perceived three unique stages they had to experience for the social influence of their AI teammate to lead to adaptation (i.e., perceiving a sense of control, identifying a technological or performative justification, and gaining first-hand experience). Quantitative results validate and illustrate the results of this perceived process, as results show that participants adapted their behaviors to complement the behaviors of different types of AI teammates. This study contributes to the CSCW/HCI field by developing an initial understanding of AI teammates' social influence in human-AI teams, which will be a pivotal design and research consideration in future efforts.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637326
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637326
+ER  - 
+
+TY  - JOUR
+TI  - Exploring the Future of Informed Consent: Applying a Service Design Approach
+AU  - McInnis, Brian James
+AU  - Pindus, Ramona
+AU  - Kareem, Daniah
+AU  - Gamboa, Savannah
+AU  - Nebeker, Camille
+PY  - 2024
+AB  - Informed consent is a cornerstone of ethical human subject research. This practice demonstrates the ethical principle of "respect for persons." Our study was designed to imagine an informed consent future, specifically in a digital health context in which informed consent processes are mediated by sociotechnical systems. Design speed-dating workshops were conducted to explore dimensions of the consent communication design space, including social media, interactive quizzes, chat-bots, annotation tools, and virtual learning sessions. To explore both the user experience and how futuristic consent processes might be facilitated, the workshops involved people eligible to participate in digital health research (N=21) and service providers (N=20), including researchers and IRB members. Our findings offer five principles to improve digital informed consent processes: be concise, promote transparency, value time and effort, cultivate trust, and navigate platform risks.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637330
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637330
+ER  - 
+
+TY  - JOUR
+TI  - Foundations for Enabling People to Recognise Misinformation in Social Media News based on Retracted Science
+AU  - Yaqub, Waheeb
+AU  - Kay, Judy
+AU  - Goldwater, Micah
+PY  - 2024
+AB  - For many people, social media is an important way to consume news on important topics like health. Unfortunately, some influential health news is misinformation because it is based on retracted scientific work. Ours is the first work to explore how people can understand this form of misinformation and how an augmented social media interface can enable them to make use of information about retraction. We report a between-subjects think-aloud study with 44 participants, where the experimental group used our augmented interface. Our results indicate that this helped them consider retraction when judging the credibility of news. Our key contributions are foundational insights for tackling the problem, revealing the interplay between people's understanding of scientific retraction, their prior beliefs about a topic and the way they use a social media interface that provides access to retraction information.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637335
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637335
+ER  - 
+
+TY  - JOUR
+TI  - Is a Seat at the Table Enough? Engaging Teachers and Students in Dataset Specification for ML in Education
+AU  - Tan, Mei
+AU  - Lee, Hansol
+AU  - Wang, Dakuo
+AU  - Subramonyam, Hari
+PY  - 2024
+AB  - Despite the promises of ML in education, its adoption in the classroom has surfaced numerous issues regarding fairness, accountability, and transparency, as well as concerns about data privacy and student consent. A root cause of these issues is the lack of understanding of the complex dynamics of education, including teacher-student interactions, collaborative learning, and classroom environments. To overcome these challenges and fully utilize the potential of ML in education, software practitioners need to work closely with educators and students to fully understand the context of the data (the backbone of ML applications) and collaboratively define the ML data specifications. To gain a deeper understanding of such a collaborative process, we conduct ten co-design sessions with ML software practitioners, educators, and students. In the sessions, teachers and students work with ML engineers, UX designers, and legal practitioners to define dataset characteristics for a given ML application. We find that stakeholders contextualize data based on their domain and procedural knowledge, proactively design data requirements to mitigate downstream harms and data reliability concerns, and exhibit role-based collaborative strategies and contribution patterns. Further, we find that beyond a seat at the table, meaningful stakeholder participation in ML requires structured supports: defined processes for continuous iteration and co-evaluation, shared contextual data quality standards, and information scaffolds for both technical and non-technical stakeholders to traverse expertise boundaries.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637358
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637358
+ER  - 
+
+TY  - JOUR
+TI  - "It's the most fair thing to do but it doesn't make any sense": Perceptions of Mathematical Fairness Notions by Hiring Professionals
+AU  - Sarkar, Priya
+AU  - Liem, Cynthia C. S.
+PY  - 2024
+AB  - We explore the alignment of organizational representatives involved in hiring processes with five different, commonly proposed fairness notions. In a qualitative study with 17 organizational professionals, for each notion, we investigate their perception of understandability, fairness, potential to increase diversity, and practical applicability in the context of early candidate selection in hiring. In this, we do not explicitly frame our questions as questions of algorithmic fairness, but rather relate them to current human hiring practice. As our findings show, while many notions are well understood, fairness, potential to increase diversity and practical applicability are rated differently, illustrating the importance of understanding the application domain and its nuances, and calling for more interdisciplinary and human-centered research into the perception of mathematical fairness notions.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637360
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637360
+ER  - 
+
+TY  - JOUR
+TI  - "It Felt Like Having a Second Mind": Investigating Human-AI Co-creativity in Prewriting with Large Language Models
+AU  - Wan, Qian
+AU  - Hu, Siying
+AU  - Zhang, Yu
+AU  - Wang, Piaohong
+AU  - Wen, Bo
+AU  - Lu, Zhicong
+PY  - 2024
+AB  - Prewriting is the process of discovering and developing ideas before writing a first draft, which requires divergent thinking and often implies unstructured strategies such as diagramming, outlining, free-writing, etc. Although large language models (LLMs) have been demonstrated to be useful for a variety of tasks including creative writing, little is known about how users would collaborate with LLMs to support prewriting. The preferred collaborative role and initiative of LLMs during such a creative process is also unclear. To investigate human-LLM collaboration patterns and dynamics during prewriting, we conducted a three-session qualitative study with 15 participants in two creative tasks: story writing and slogan writing. The findings indicated that during collaborative prewriting, there appears to be a three-stage iterative Human-AI Co-creativity process that includes Ideation, Illumination, and Implementation stages. This collaborative process champions the human in a dominant role, in addition to mixed and shifting levels of initiative that exist between humans and LLMs. This research also reports on collaboration breakdowns that occur during this process, user perceptions of using existing LLMs during Human-AI Co-creativity, and discusses design implications to support this co-creativity process.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637361
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637361
+ER  - 
+
+TY  - JOUR
+TI  - It Takes Two to Negotiate: Modeling Social Exchange in Online Multiplayer Games
+AU  - Jaidka, Kokil
+AU  - Ahuja, Hansin
+AU  - Ng, Lynnette Hui Xian
+PY  - 2024
+AB  - Online games are dynamic environments where players interact with each other, which offers a rich setting for understanding how players negotiate their way through the game to an ultimate victory. This work studies online player interactions during the turn-based strategy game, Diplomacy. We annotated a dataset of over 10,000 chat messages for different negotiation strategies and empirically examined their importance in predicting long- and short-term game outcomes. Although negotiation strategies can be predicted reasonably accurately through the linguistic modeling of the chat messages, more is needed for predicting short-term outcomes such as trustworthiness. On the other hand, they are essential in graph-aware reinforcement learning approaches to predict long-term outcomes, such as a player's success, based on their prior negotiation history. We close with a discussion of the implications and impact of our work.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637362
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637362
+ER  - 
+
+TY  - JOUR
+TI  - Like My Aunt Dorothy: Effects of Conversational Styles on Perceptions, Acceptance and Metaphorical Descriptions of Voice Assistants during Later Adulthood
+AU  - Chin, Jessie
+AU  - Desai, Smit
+AU  - Lin, Sheny (Cheng-Hsuan)
+AU  - Mejia, Shannon
+PY  - 2024
+AB  - Little research has investigated the design of conversational styles of voice assistants (VA) for adults in their later adulthood with varying personalities. In this Wizard of Oz experiment, 34 middle-aged (50 to 64 years old) and 24 older adults (65 to 80 years old) participated in a user study at a simulated home, interacting with a VA using either formal or informal language. Older adults with higher agreeableness perceived VA as being more likable than middle-aged adults. Middle-aged adults showed similar technology acceptance toward the informal and formal VA, and older adults preferred using informal VA, especially those with low agreeableness. Further, while both middle-aged and older adults frequently anthropomorphized VAs by using human metaphors for them, older adults compared formal VA with professionals (e.g., librarians, teachers) and informal VA with their close ones (e.g., spouses, relatives). Overall, the conversational style showed differential effects on the perceptions of middle-aged and older adults, suggesting personalized design implications.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637365
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637365
+ER  - 
+
+TY  - JOUR
+TI  - Linguistically Differentiating Acts and Recalls of Racial Microaggressions on Social Media
+AU  - Gunturi, Uma Sushmitha
+AU  - Kumar, Anisha
+AU  - Ding, Xiaohan
+AU  - Rho, Eugenia H.
+PY  - 2024
+AB  - In this work, we examine the linguistic signature of online racial microaggressions (acts) and how it differs from that of personal narratives recalling experiences of such aggressions (recalls) by Black social media users. We manually curate and annotate a corpus of acts and recalls fromin-the-wild social media discussions, and verify labels with Black workshop participants. We leverage Natural Language Processing (NLP) and qualitative analysis on this data to classify (RQ1), interpret (RQ2), and characterize (RQ3) the language underlying acts and recalls of racial microaggressions in the context of racism in the U.S. Our findings show that neural language models (LMs) can classify acts and recalls with high accuracy (RQ1) with contextual words revealing themes that associate Blacks with objects that reify negative stereotypes (RQ2). Furthermore, overlapping linguistic signatures between acts and recalls serve functionally different purposes (RQ3), providing broader implications to the current challenges in content moderation systems on social media.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637366
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637366
+ER  - 
+
+TY  - JOUR
+TI  - Making Data Work Count
+AU  - Chandhiramowuli, Srravya
+AU  - Taylor, Alex S.
+AU  - Heitlinger, Sara
+AU  - Wang, Ding
+PY  - 2024
+AB  - In this paper, we examine the work of data annotation. Specifically, we focus on the role of counting or quantification in organising annotation work. Based on an ethnographic study of data annotation in two outsourcing centres in India, we observe that counting practices and its associated logics are an integral part of day-to-day annotation activities. In particular, we call attention to the presumption of total countability observed in annotation - the notion that everything, from tasks, datasets and deliverables, to workers, work time, quality and performance, can be managed by applying the logics of counting. To examine this, we draw on sociological and socio-technical scholarship on quantification and develop the lens of a 'regime of counting' that makes explicit the specific counts, practices, actors and structures that underpin the pervasive counting in annotation. We find that within the AI supply chain and data work, counting regimes aid the assertion of authority by the AI clients (also called requesters) over annotation processes, constituting them as reductive, standardised, and homogenous. We illustrate how this has implications for i) how annotation work and workers get valued, ii) the role human discretion plays in annotation, and iii) broader efforts to introduce accountable and more just practices in AI. Through these implications, we illustrate the limits of operating within the logic of total countability. Instead, we argue for a view of counting as partial - located in distinct geographies, shaped by specific interests and accountable in only limited ways. This, we propose, sets the stage for a fundamentally different orientation to counting and what counts in data annotation.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637367
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637367
+ER  - 
+
+TY  - JOUR
+TI  - MetaWriter: Exploring the Potential and Perils of AI Writing Support in Scientific Peer Review
+AU  - Sun, Lu
+AU  - Tao, Stone
+AU  - Hu, Junjie
+AU  - Dow, Steven P.
+PY  - 2024
+AB  - Recent advances in Large Language Models (LLMs) show the potential to significantly augment or even replace complex human writing activities. However, for complex tasks where people need to make decisions as well as write a justification, the trade offs between making work efficient and hindering decisions remain unclear. In this paper, we explore this question in the context of designing intelligent scaffolding for writing meta-reviews for an academic peer review process. We prototyped a system called "MetaWriter'' trained on five years of open peer review data to support meta-reviewing. The system highlights common topics in the original peer reviews, extracts key points by each reviewer, and on request, provides a preliminary draft of a meta-review that can be further edited. To understand how novice and experienced meta-reviewers use MetaWriter, we conducted a within-subject study with 32 participants. Each participant wrote meta-reviews for two papers: one with and one without MetaWriter. We found that MetaWriter significantly expedited the authoring process and improved the coverage of meta-reviews, as rated by experts, compared to the baseline. While participants recognized the efficiency benefits, they raised concerns around trust, over-reliance, and agency. We also interviewed six paper authors to understand their opinions of using machine intelligence to support the peer review process and reported critical reflections. We discuss implications for future interactive AI writing tools to support complex synthesis work.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637371
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637371
+ER  - 
+
+TY  - JOUR
+TI  - Missed Opportunities for Human-Centered AI Research: Understanding Stakeholder Collaboration in Mental Health AI Research
+AU  - Yoo, Dong Whi
+AU  - Woo, Hayoung
+AU  - Pendse, Sachin R.
+AU  - Lu, Nathaniel Young
+AU  - Birnbaum, Michael L.
+AU  - Abowd, Gregory D.
+AU  - De Choudhury, Munmun
+PY  - 2024
+AB  - In the mental health domain, patient engagement is key to designing human-centered technologies. CSCW and HCI researchers have delved into various facets of collaboration in AI research; however, previous research neglects the individuals who both produce the data and will be most impacted by the resulting technologies, such as patients. This study examines how interdisciplinary researchers and mental health patients who donate their data for AI research collaborate and how we can improve human-centeredness in mental health AI research. We interviewed patient participants, AI researchers, and clinical researchers in a federally funded mental health AI research project. We used the concept of boundary objects to understand stakeholder collaboration. Our findings reveal that the social media data provided by patient participants functioned as boundary objects that facilitated stakeholder collaboration. Although the collaboration appeared to be successful, we argue that building consensus, or understanding each other's perspectives, can improve the human-centeredness of mental health AI research. Based on the findings, we provide suggestions for human-centered mental health AI research, working with data donors as domain experts, making invisible work visible, and privacy implications.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637372
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637372
+ER  - 
+
+TY  - JOUR
+TI  - OSINT Research Studios: A Flexible Crowdsourcing Framework to Scale Up Open Source Intelligence Investigations
+AU  - Mukhopadhyay, Anirban
+AU  - Venkatagiri, Sukrit
+AU  - Luther, Kurt
+PY  - 2024
+AB  - Open Source Intelligence (OSINT) investigations, which rely entirely on publicly available data such as social media, play an increasingly important role in solving crimes and holding governments accountable. The growing volume of data and complex nature of tasks, however, means there is a pressing need to scale and speed up OSINT investigations. Expert-led crowdsourcing approaches show promise, but tend to either focus on narrow tasks or domains, or require resource-intense, long-term relationships between expert investigators and crowds. We address this gap by providing a flexible framework that enables investigators across domains to enlist crowdsourced support for discovery and verification of OSINT. We use a design-based research (DBR) approach to develop OSINT Research Studios (ORS), a sociotechnical system in which novice crowds are trained to support professional investigators with complex OSINT investigations. Through our qualitative evaluation, we found that ORS facilitates ethical and effective OSINT investigations across multiple domains. We also discuss broader implications of expert-crowd collaboration and opportunities for future work.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637382
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637382
+ER  - 
+
+TY  - JOUR
+TI  - Productivity or Equity? Tradeoffs in Volunteer Microtasking in Humanitarian OpenStreetMap
+AU  - Yin, Yaxuan
+AU  - Guo, Longjie
+AU  - Thebault-Spieker, Jacob
+PY  - 2024
+AB  - Microtasking, the decomposition of tasks into small units of work, is prolific in human computation and crowdsourcing. Some peer production systems are beginning to leverage this same technique in volunteer contribution-based settings. While early research suggests that focusing volunteer work in this way using microtasking may be fruitful, the effects of microtasking on contributor behavior in volunteer peer production settings, like OpenStreetMap, remain unclear. This paper takes advantage of a natural experiment facilitated by the Humanitarian OpenStreetMap's Tasking Manager, a microtasking system, and employs causal inference analysis to evaluate the effects of a microtasking intervention on contributor dynamics. Our study systematically leverages a global dataset to analyze peer production dynamics, building on prior research to address a gap in peer production literature and informing the design of the microtasking interfaces. We causally show that, indeed, microtasking can be an effective intervention in peer production settings, but it may exacerbate power-law patterns that are common in such settings. By further analyzing project design decisions and characteristics, we develop implications for platform practitioners, with a focus on addressing engagement and contribution inequity issues prevalent in settings like OpenStreetMap.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637390
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637390
+ER  - 
+
+TY  - JOUR
+TI  - Security Patchworking in Lebanon: Infrastructuring Across Failing Infrastructures
+AU  - Mcclearn, Jessica
+AU  - Jensen, Rikke Bjerg
+AU  - Talhouk, Reem
+PY  - 2024
+AB  - In this paper we bring to light the infrastructuring work carried out by people in Lebanon to establish and maintain everyday security in response to multiple simultaneously failing infrastructures. We do so through interviews with 13 participants from 12 digital and human rights organisations and two weeks of ethnographically informed fieldwork in Beirut, Lebanon, in July 2022. Through our analysis we develop the notion of security patchworking that makes visible the infrastructuring work necessitated to secure basic needs such as electricity provision, identity authentication and financial resources. Such practices are rooted in differing mechanisms of protection that often result in new forms of insecurity. We discuss the implications for CSCW and HCI researchers and point to security patchworking as a lens to be used when designing technologies to support infrastructuring, while advocating for collaborative work across CSCW and security research.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637397
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637397
+ER  - 
+
+TY  - JOUR
+TI  - Smart "Error"! Exploring Imperfect AI to Support Creative Ideation
+AU  - Liu, Fang
+AU  - Lv, Junyan
+AU  - Cui, Shenglan
+AU  - Luan, Zhilong
+AU  - Wu, Kui
+AU  - Zhou, Tongqing
+PY  - 2024
+AB  - Designers widely accept AI as a partner in the design process for its efficient and intelligent decision-making. However, AI is often not perfect, and AI error often makes humans dumbfounded. Literature has pointed out the value of such AI error, while still leaving its inspiration essence and application strategies uncharted from the practice perspective. This work focuses on bridging the practice gap by looking into and exploiting the imaginative "mislabeled" objects of object detection models. To gain insights into the inspiration of AI "error", we collected a dedicated AI "error" dataset from object detection and invited eight designers to share divergent comments on the "mislabeled" objects. Coding was then performed on the comments, which summarizes the inspiration of AI "error" into six atomic dimensions. Subsequently, we took a step further to an exploratory study, a comparative ideation experiment with 20 designers, investigating how to apply these inspiration dimensions to create ideas. Questionnaire and interview results revealed that essential inspiration of AI "error" could positively activate creativity, especially the "Outline" dimension. A design model CETR is then formulated by summarizing the application of atomic inspiration of "error" into four forms of creativity, which could be taken as a guideline for cooperative design with AI "error". In addition, we also sketch two approaches to generate more inspiring and applicable AI "error", elaborate on two principal characteristics of AI "error" for promoting creativity, and propose three strategies for better co-creating with AI "error". Finally, we provide insight into design research about AI self-awareness and human-AI collaboration.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637398
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637398
+ER  - 
+
+TY  - JOUR
+TI  - The Soul of Work: Evaluation of Job Meaningfulness and Accountability in Human-AI Collaboration
+AU  - Sadeghian, Shadan
+AU  - Uhde, Alarith
+AU  - Hassenzahl, Marc
+PY  - 2024
+AB  - Work is an important part of our lives - not only as a way to earn a living but as a crucial source for experiencing meaningfulness. The introduction of autonomous systems (or in the widest sense "artificial intelligence", AI) will fundamentally impact work practices. However, while most existing models of human-AI collaboration focus on performance goals, less is known about their potential influence on job satisfaction. In this paper, we present an online experiment in which we compared the perception of job meaningfulness and accountability in a human-AI collaboration across three interaction paradigms: Supervisory, Advisory, and Interactive. Our results showed that, unlike the common notion of supervisory control, people find their job more satisfying when they directly interact with the AI and are involved and remain accountable for action and decision-making. Introducing AI as a teammate in the interactive paradigm was associated with the highest job meaningfulness.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637407
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637407
+ER  - 
+
+TY  - JOUR
+TI  - Toward Trauma-Informed Research Practices with Youth in HCI: Caring for Participants and Research Assistants When Studying Sensitive Topics
+AU  - Razi, Afsaneh
+AU  - Seberger, John S.
+AU  - Alsoubai, Ashwaq
+AU  - Naher, Nurun
+AU  - De Choudhury, Munmun
+AU  - Wisniewski, Pamela J.
+PY  - 2024
+AB  - Research involving sensitive data often leads to valuable human-centered insights. Yet, the effects of participating in and conducting research about sensitive data with youth are poorly understood. We conducted meta-level research to improve our understanding of these effects. We did the following: (i) asked youth (aged 13-21) to share their private Instagram Direct Messages (DMs) and flag their unsafe DMs; (ii) interviewed 30 participants about the experience of reflecting on this sensitive data; (iii) interviewed research assistants (RAs, n=12) about their experience analyzing youth's data. We found that reflecting about DMs brought discomfort for participants and RAs, although both benefited from increasing their awareness about online risks, their behavior, and privacy and social media practices. Participants had high expectations for safeguarding their private data while their concerns were mitigated by the potential to improve online safety. We provide implications for ethical research practices and the development of reflective practices among participants and RAs through applying trauma-informed principles to HCI research.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637411
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637411
+ER  - 
+
+TY  - JOUR
+TI  - Towards a Social Ecological Approach to Supporting Caseworkers in Promoting the Online Safety of Youth in Foster Care
+AU  - Badillo-Urquiola, Karla
+AU  - Agha, Zainab
+AU  - Abaquita, Denielle
+AU  - Harpin, Scott B.
+AU  - Wisniewski, Pamela J.
+PY  - 2024
+AB  - This research examines how caseworkers collaborate with foster families to address adolescent online safety. We interviewed 32 caseworkers who worked with teens (ages 13-17) in foster care within the past 5 years. Using thematic analysis, we found that case managers are most concerned about sexual-related risks that result in physical abuse (e.g., sex trafficking) or online interactions that facilitated offline risks (e.g., runaway, illegal drug activity), rather than risks that only manifested in virtual spaces. Yet, inadequate training and insufficient support left caseworkers at a loss for how to address these challenges on top of their already heavy caseloads, often making online safety an afterthought. We call on the foster care system to place a higher priority in providing collaborative and socio-technical ecological support for caseworkers, foster parents, and children, so that early risk prevention in online spaces can support the safety and well-being of foster youth offline.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637412
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637412
+ER  - 
+
+TY  - JOUR
+TI  - Towards Inclusive Futures for Worker Wellbeing
+AU  - Pendse, Sachin R.
+AU  - Massachi, Talie
+AU  - Mahdavimoghaddam, Jalehsadat
+AU  - Butler, Jenna
+AU  - Suh, Jina
+AU  - Czerwinski, Mary
+PY  - 2024
+AB  - The global COVID-19 pandemic has spurred on new collaborations across borders, and emphasized the importance of supporting wellbeing in the workplace, whether that workplace is hybrid, remote, or in-person. Work in CSCW, HCI, and organizational psychology has explored how people come to understand their wellbeing at work, and the role of identity, culture, and organizational factors in that process. In this study, we build on this past research and explore the importance of these factors when designing tools that support worker wellbeing for location-independent teams. We ask the question: how did organizational, cultural, and individual factors influence how workers understood their workplace wellbeing needs during the move to remote work? To investigate this question, we conduct a large scale linguistic analysis of 13,265 diary entries collected between 2020 - 2022, and complement it with in-depth interviews with 26 global employees, exploring intersections between technology, context, and wellbeing needs. We utilize this data to analyze the broader human infrastructure supporting hybrid and remote work, demonstrating how ideas around wellbeing are influenced by the (often technology-mediated) environment around both information and essential workers, and power differentials within it. Building on our findings, we provide recommendations for how technology design can better support more diverse and inclusive forms of worker wellbeing.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637414
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637414
+ER  - 
+
+TY  - JOUR
+TI  - Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism
+AU  - Nishal, Sachita
+AU  - Sinchai, Jasmine
+AU  - Diakopoulos, Nicholas
+PY  - 2024
+AB  - Science and technology journalists today face challenges in finding newsworthy leads due to increased workloads, reduced resources, and expanding scientific publishing ecosystems. Given this context, we explore computational methods to aid these journalists' news discovery in terms of their agency and time-efficiency. We prototyped three computational information subsidies into an interactive tool that we used as a probe to better understand how such a tool may offer utility or more broadly shape the practices of professional science journalists. Our findings highlight central considerations around science journalists' user agency, contexts of use, and professional responsibility that such tools can influence and could account for in design. Based on this, we suggest design opportunities for enhancing and extending user agency over the longer-term; incorporating contextual, personal and collaborative notions of newsworthiness; and leveraging flexible interfaces and generative models. Overall, our findings contribute a richer view of the sociotechnical system around computational news discovery tools, and suggest ways to improve such tools to better support the practices of science journalists.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637419
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637419
+ER  - 
+
+TY  - JOUR
+TI  - W4-Groups: Modeling the Who, What, When and Where of Group Behavior via Mobility Sensing
+AU  - Atrey, Akanksha
+AU  - Zakaria, Camellia
+AU  - Balan, Rajesh
+AU  - Shenoy, Prashant
+PY  - 2024
+AB  - Human social interactions occur in group settings of varying sizes and locations, depending on the type of social activity. The ability to distinguish group formations based on their purposes transforms how group detection mechanisms function. Not only should such tools support the effective detection of serendipitous encounters, but they can derive categories of relation types among users. Determining who is involved, what activity is performed, and when and where the activity occurs are critical to understanding group processes in greater depth, including supporting goal-oriented applications (e.g., performance, productivity, and mental health) that require sensing social factors. In this work, we propose W4-Groups that captures the functional perspective of variability and repeatability when automatically constructing short-term and long-term groups via multiple data sources (e.g., WiFi and location check-in data). We design and implement W4-Groups to detect and extract all four group features who-what-when-where from the user's daily mobility patterns. We empirically evaluate the framework using two real-world WiFi datasets and a location check-in dataset, yielding an average of 92\% overall accuracy, 96\% precision, and 94\% recall. Further, we supplement two case studies to demonstrate the application of W4-Groups for next-group activity prediction and analyzing changes in group behavior at a longitudinal scale, exemplifying short-term and long-term occurrences.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637427
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637427
+ER  - 
+
+TY  - JOUR
+TI  - Wage Theft and Technology in the Home Care Context
+AU  - Ming, Joy
+AU  - Gong, Dana
+AU  - Ngai, Chit Sum Eunice
+AU  - Sterling, Madeline
+AU  - Vashistha, Aditya
+AU  - Dell, Nicola
+PY  - 2024
+AB  - Home care workers (HCWs) are professionals who provide care to older adults and people with disabilities at home. However, HCWs are vulnerable and especially susceptible to wage theft, or not being paid their legally-entitled wages in full by their employers. Prior work has examined other low-wage work settings to show how technology is designed and deployed has the potential to both cause and address wage theft. We extend this work by examining the relationship between technology and wage theft in the home care context. We collaborated closely with a local grassroots organization to conduct interviews with workers and labor, legal, and payroll experts. We uncovered how the complex, volatile, and diverse nature of home care complicates the errors in time-tracking systems. Through design provocations and focus groups with workers and experts, we also investigated the potential of technology as a part of broader efforts to curb wage theft through educating and empowering isolated HCWs. While we found that approachable design could reduce errors in existing systems, make employer processes more transparent, and help workers exchange knowledge to build collective power, we also discuss concerns around burden, privacy, and accountability when designing technologies for HCWs and other low-wage workers.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637428
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637428
+ER  - 
+
+TY  - JOUR
+TI  - When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work
+AU  - DiSalvo, Carl
+AU  - Rothschild, Annabel
+AU  - Schenck, Lara L.
+AU  - Shapiro, Ben Rydal
+AU  - DiSalvo, Betsy
+PY  - 2024
+AB  - In this paper, we describe and reflect upon the development of critical consciousness and workplace democracy within an experimental workplace called DataWorks. Through DataWorks, we hire adults from communities historically minoritized in computing education and data careers, and train them in entry-level data skills developed through work on client projects. In this process, workers gain a range of skills. Some of these skills are technical, such as programming for data analysis; some are managerial, such as scoping and bidding projects; others are social, perhaps even political, such as the ability to say "No" to projects. In what follows, we describe a workshop series developed to build the workers' critical literacy and consciousness about their data work, specifically regarding the use of data in machine learning systems. After that, we describe a data project the workers questioned and resisted because they determined the work to be harmful. In that process, they demonstrated and enacted a critical consciousness towards data and machine learning. Reflecting on this enactment of data-focused critical consciousness, we identify themes that characterize a democratic workplace, describe the work of designing for organizational action and institutional relations, and discuss how worker and researcher positionality affects this work. In doing so, we argue for enabling workers to resist and refuse harmful data work and challenge the standard power structures of academic research and data work.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3637433
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3637433
+ER  - 
+
+TY  - JOUR
+TI  - Characterising CSCW Research on Human-Robot Collaboration
+AU  - Johansen, Stine S.
+AU  - Brophy, Claire
+AU  - Rittenbruch, Markus
+AU  - Donovan, Jared W.
+PY  - 2024
+AB  - Human-Robot Collaboration (HRC) is an increasingly prominent topic in CSCW. From telepresence systems through field robots for extreme missions to social robots in homes, HRC is becoming a recurring theme across a broad range of CSCW research. Based on the growing interest, we explore the coupling of the field of CSCW and research on robotics at this critical time. This paper presents a primary and secondary literature review of CSCW proceedings and venues for robotics research. We identified 29 CSCW papers that contribute to the body of HRC research and analyse the foundations on which these papers rely. Then, we identified 138 papers published in robotics outlets that either (1) cite one or more CSCW papers, or (2) use the term CSCW. We discuss how CSCW is currently contributing to HRC research through five research topics: Sociomateriality, teamwork, awareness, embodiment, and communication. The paper contributes by offering three key future pathways for expanding this area of research, outlining questions and gaps that have yet to be explored for (1) expanding the application domains and diversifying robot types for HRC, (2) methodological implications for HRC, and (3) learning from human collaboration.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3640999
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3640999
+ER  - 
+
+TY  - JOUR
+TI  - Designing for Agonism: 12 Workers' Perspectives on Contesting Technology Futures
+AU  - Jing, Felicia S.
+AU  - Berger, Sara E.
+AU  - Becerra Sandoval, Juana Catalina
+AU  - Pepper, Kristin
+AU  - Wheeler, April M.
+AU  - Mayoral, Paula Redondo
+AU  - Lokesh, Divya
+AU  - Feng, Alice
+AU  - Mijalkovic, Marija
+AU  - Bao, Chaoyun
+AU  - Dholakia, Sara
+AU  - Goyal, Mohit
+PY  - 2024
+AB  - In this paper, we gather 12 workers from a large technology company, as recent participants of a research initiative on the social impact of emerging technologies, to present a collaborative analysis of the opportunities and limitations of dissensus-based approaches to technology research and design. We introduce a series of speculative and deconstructive probes and present findings from their use in four collaborative design sessions. We then draw on the theoretical tradition of Agonism to identify moments of friction, refusal, and disagreement over the course of these sessions. We contend that this approach offers a politically important alternative to consensus-based collaborative design methods and can even surface new rhetorics of contestation within discourses on technology futures. We conclude with a discussion of the importance of worker-authored research and an initial set opportunities, challenges, and paradoxes as a resource for future efforts to "Design for Agonism."
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3641001
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3641001
+ER  - 
+
+TY  - JOUR
+TI  - Embedding Democratic Values into Social Media AIs via Societal Objective Functions
+AU  - Jia, Chenyan
+AU  - Lam, Michelle S.
+AU  - Mai, Minh Chau
+AU  - Hancock, Jeffrey T.
+AU  - Bernstein, Michael S.
+PY  - 2024
+AB  - Mounting evidence indicates that the artificial intelligence (AI) systems that rank our social media feeds bear nontrivial responsibility for amplifying partisan animosity: negative thoughts, feelings, and behaviors toward political out-groups. Can we design these AIs to consider democratic values such as mitigating partisan animosity as part of their objective functions? We introduce a method for translating established, vetted social scientific constructs into AI objective functions, which we term societal objective functions, and demonstrate the method with application to the political science construct of anti-democratic attitudes. Traditionally, we have lacked observable outcomes to use to train such models-however, the social sciences have developed survey instruments and qualitative codebooks for these constructs, and their precision facilitates translation into detailed prompts for large language models. We apply this method to create a democratic attitude model that estimates the extent to which a social media post promotes anti-democratic attitudes, and test this democratic attitude model across three studies. In Study 1, we first test the attitudinal and behavioral effectiveness of the intervention among US partisans (N=1,380) by manually annotating (alpha=.895) social media posts with anti-democratic attitude scores and testing several feed ranking conditions based on these scores. Removal (d=.20) and downranking feeds (d=.25) reduced participants' partisan animosity without compromising their experience and engagement. In Study 2, we scale up the manual labels by creating the democratic attitude model, finding strong agreement with manual labels (rho=.75). Finally, in Study 3, we replicate Study 1 using the democratic attitude model instead of manual labels to test its attitudinal and behavioral impact (N=558), and again find that the feed downranking using the societal objective function reduced partisan animosity (d=.25). This method presents a novel strategy to draw on social science theory and methods to mitigate societal harms in social media AIs.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3641002
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3641002
+ER  - 
+
+TY  - JOUR
+TI  - Neurodiversity and the Accessible University: Exploring Organizational Barriers, Access Labor and Opportunities for Change
+AU  - Borsotti, Valeria
+AU  - Begel, Andrew
+AU  - Bj\o{}rn, Pernille
+PY  - 2024
+AB  - The access needs of neurodivergent individuals in organizational settings are many and varied - and so are their everyday contributions to the creation of collective access. In this study, we contribute to the growing body of CSCW research on accessibility and investigate the invisible access labor of neurodivergent students in three computer science institutions. We use an exploratory, multi-stakeholder approach, combining semi-structured interviews (n=26) and document analysis. We adopted a broad definition of neurodiversity: our study included individuals with autism, dyslexia, ADHD, cyclothymia and individuals with neurological conditions that developed as a result of illness, trauma or injury. Our findings show that neurodivergent students face a number of structural and attitudinal barriers to access in the educational environment and within the disability support system. We identified barriers in three main areas: (i) assistive technology access barriers, (ii) cognitive and physical access barriers, and (iii) social access barriers. We examined how stigma, individualized understandings of disability and intersectional disadvantage shape organizational practices and explored how students are creatively improving collective access through micro-interventions, although these efforts are largely invisible. We then draw on our findings to identify opportunities for change. We propose access grafting as a bottom-up approach to rethinking and reorienting organizational strategies to improve equitable access.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3641011
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3641011
+ER  - 
+
+TY  - JOUR
+TI  -  'Not Just a Computer Screen:' Distributed Attunement in Virtual School Environments
+AU  - Jonas, Anne
+PY  - 2024
+AB  - Many digital platforms pit consumers or customers and service workers against one another or render human work invisible, concealing human labor for profit and the charismatic allure of automation. When schooling is digitized, what transformations occur to the relationships between teachers, parents, and students, and with what consequences? In pre-pandemic virtual and hybrid schooling, I find that teachers developed alternative strategies to practice caring responsiveness in online environments of low visibility through a process I call "distributed attunement.'' These strategies entailed building holistic relationships, collaborating with student families and fellow teachers, and interpreting student experiences using a combination of platform data and social information. Rather than giving in to digitization as a vehicle for removing or obscuring care work, this study illustrates that teachers centered relationships as core to the virtual schooling experience. The distributed attunement teachers in virtual schools created indicates the impossibility of separating technical and affective labor in a pedagogical context and provide promising sites to develop supports for high-quality online education. Further, teachers' navigation of limited visibility suggests tactics for CSCW researchers concerned with documenting invisible labor in the development of digital systems. Nevertheless, these strategies can be appropriated or undermined by employers in ways that threaten to diminish their efficacy, requiring ongoing advocacy to push for flourishing online schooling options.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3641012
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3641012
+ER  - 
+
+TY  - JOUR
+TI  - The Impact of Imperfect XAI on Human-AI Decision-Making
+AU  - Morrison, Katelyn
+AU  - Spitzer, Philipp
+AU  - Turri, Violet
+AU  - Feng, Michelle
+AU  - K\"{u}hl, Niklas
+AU  - Perer, Adam
+PY  - 2024
+AB  - Explainability techniques are rapidly being developed to improve human-AI decision-making across various cooperative work settings. Consequently, previous research has evaluated how decision-makers collaborate with imperfect AI by investigating appropriate reliance and task performance with the aim of designing more human-centered computer-supported collaborative tools. Several human-centered explainable AI (XAI) techniques have been proposed in hopes of improving decision-makers' collaboration with AI; however, these techniques are grounded in findings from previous studies that primarily focus on the impact of incorrect AI advice. Few studies acknowledge the possibility of the explanations being incorrect even if the AI advice is correct. Thus, it is crucial to understand how imperfect XAI affects human-AI decision-making. In this work, we contribute a robust, mixed-methods user study with 136 participants to evaluate how incorrect explanations influence humans' decision-making behavior in a bird species identification task, taking into account their level of expertise and an explanation's level of assertiveness. Our findings reveal the influence of imperfect XAI and humans' level of expertise on their reliance on AI and human-AI team performance. We also discuss how explanations can deceive decision-makers during human-AI collaboration. Hence, we shed light on the impacts of imperfect XAI in the field of computer-supported cooperative work and provide guidelines for designers of human-AI collaboration systems.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3641022
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3641022
+ER  - 
+
+TY  - JOUR
+TI  - The State of Pilot Study Reporting in Crowdsourcing: A Reflection on Best Practices and Guidelines
+AU  - Oppenlaender, Jonas
+AU  - Abbas, Tahir
+AU  - Gadiraju, Ujwal
+PY  - 2024
+AB  - Pilot studies are an essential cornerstone of the design of crowdsourcing campaigns, yet they are often only mentioned in passing in the scholarly literature. A lack of details surrounding pilot studies in crowdsourcing research hinders the replication of studies and the reproduction of findings, stalling potential scientific advances. We conducted a systematic literature review on the current state of pilot study reporting at the intersection of crowdsourcing and HCI research. Our review of ten years of literature included 171 articles published in the proceedings of the Conference on Human Computation and Crowdsourcing (AAAI HCOMP) and the ACM Digital Library. We found that pilot studies in crowdsourcing research (i.e., crowd pilot studies) are often under-reported in the literature. Important details, such as the number of workers and rewards to workers, are often not reported. On the basis of our findings, we reflect on the current state of practice and formulate a set of best practice guidelines for reporting crowd pilot studies in crowdsourcing research. We also provide implications for the design of crowdsourcing platforms and make practical suggestions for supporting crowd pilot study reporting.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3641023
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3641023
+ER  - 
+
+TY  - JOUR
+TI  - Understanding the Relationship Between Social Identity and Self-Expression Through Animated Gifs on Social Media
+AU  - Wang, Marx
+AU  - Bhuiyan, Md Momen
+AU  - Rho, Eugenia Ha Rim
+AU  - Luther, Kurt
+AU  - Lee, Sang Won
+PY  - 2024
+AB  - GIFs afford a high degree of personalization, as they are often created from popular movie and video clips with diverse and realistic characters, each expressing a nuanced emotional state through a combination of characters' own unique bodily gestures and distinctive visual backgrounds. These properties of high personalization and embodiment provide a unique window for exploring how individuals represent and express themselves on social media through the lens of the GIFs they use. In this study, we explore how Twitter users express their gender and racial identities through characters in GIFs. We conducted a behavioral study (n=398) to simulate a series of tweeting and GIF-picking scenarios. We annotated the gender and race identities of GIF characters, and we found that gender and race identities have significant impacts on users' GIF choices: men chose more gender-matching GIFs than women, and White participants chose more race-matching GIFs than Black participants. We also found that users' prior familiarity with the source of a GIF and perceptions about the composition of the audience (viz., having a matching identity) have significant effects on whether a user will choose race- and gender-matching GIFs. This work has implications for practitioners supporting personalized social identity construction and impression management mechanisms online.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3641031
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3641031
+ER  - 
+
+TY  - JOUR
+TI  - "We Have No Idea How Models will Behave in Production until Production": How Engineers Operationalize Machine Learning
+AU  - Shankar, Shreya
+AU  - Garcia, Rolando
+AU  - Hellerstein, Joseph M.
+AU  - Parameswaran, Aditya G.
+PY  - 2024
+AB  - Organizations rely on machine learning engineers (MLEs) to deploy models and maintain ML pipelines in production. Due to models' extensive reliance on fresh data, the operationalization of machine learning, or MLOps, requires MLEs to have proficiency in data science and engineering. When considered holistically, the job seems staggering---how do MLEs do MLOps, and what are their unaddressed challenges? To address these questions, we conducted semi-structured ethnographic interviews with 18 MLEs working on various applications, including chatbots, autonomous vehicles, and finance. We find that MLEs engage in a workflow of (i) data preparation, (ii) experimentation, (iii) evaluation throughout a multi-staged deployment, and (iv) continual monitoring and response. Throughout this workflow, MLEs collaborate extensively with data scientists, product stakeholders, and one another, supplementing routine verbal exchanges with communication tools ranging from Slack to organization-wide ticketing and reporting systems. We introduce the 3Vs of MLOps: velocity, visibility, and versioning --- three virtues of successful ML deployments that MLEs learn to balance and grow as they mature. Finally, we discuss design implications and opportunities for future work.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3653697
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3653697
+ER  - 
+
+TY  - JOUR
+TI  - Design Tensions in Online Freelancing Platforms: Using Speculative Participatory Design to Support Freelancers' Relationships with Clients
+AU  - Huang, Jessica
+AU  - Ma, Ning F.
+AU  - Rivera, Veronica A.
+AU  - Somani, Tabreek
+AU  - Lee, Patrick Yung Kang
+AU  - Mcgrenere, Joanna
+AU  - Yoon, Dongwook
+PY  - 2024
+AB  - This paper explores the design challenges that arise in supporting online freelancers to navigate relationships with clients. Prior studies have shown that current platform designs can lead to worker precarity in freelancer-client relationships, such as power imbalances, information asymmetry, and labor abuse. To envision alternative designs that empower workers in managing their relationships with clients, we engaged 22 Upwork freelancers in participatory speculative design activities. Through this co-design process, we identified design tensions that constrain design options as a result of conflicting values and priorities that could only be balanced and compromised rather than completely resolved. Six design tensions were identified in the context of designing for four different phases of freelancing. We observed three patterns in these tensions: 1) the freelancers' need for client involvement in their tasks and career growth, which conflicted with their skepticism that clients had sufficient incentives to be involved; 2) that there was often no viable balancing option for some tensions, but they could be addressed through changes in the platform's incentive structure; and 3) some tensions occurred not only between freelancers and clients, but also within the freelancer community. We present three approaches for addressing these design tensions and discuss how this research can support more equitable and healthy freelancer-client relationships.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3653700
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3653700
+ER  - 
+
+TY  - JOUR
+TI  - AI-Powered Reminders for Collaborative Tasks: Experiences and Futures
+AU  - Morrison, Katelyn
+AU  - Iqbal, Shamsi T.
+AU  - Horvitz, Eric
+PY  - 2024
+AB  - Email continues to serve as a central medium for managing collaborations. While unstructured email messaging is lightweight and conducive to coordination, it is easy to overlook commitments and requests for collaborations that are embedded in the text of free-flowing communications. Twenty-one years ago, Bellotti et al. proposed TaskMaster with the goal of redesigning the email interface to have explicit task management capabilities. Recently, AI-based task recognition and reminder services have been introduced in major email systems as one approach to managing asynchronous collaborations. While these services have been provided to millions of people around the world, there is little understanding of how people interact with and benefit from them. We explore knowledge workers' experiences with Microsoft's Viva Daily Briefing Email to better understand how AI-powered reminders can support asynchronous collaborations. Through semi-structured interviews and surveys, we shed light on how AI-powered reminders are incorporated into workflows to support asynchronous collaborations. We identify what knowledge workers prefer AI-powered reminders to remind them about and how they would like to interact with these reminders. Using mixed methods and a self-assessment methodology, we investigate the relationship between information workers' work styles and the perceived value of the Viva Daily Briefing Email to identify users who are more likely to benefit from AI-powered reminders for asynchronous collaborations. We conclude by discussing the experiences and futures of AI-powered reminders for collaborative tasks and asynchronous collaborations.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3653701
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3653701
+ER  - 
+
+TY  - JOUR
+TI  - Narrative Characteristics in Refugee Discourse: An Analysis of American Public Opinion on the Afghan Refugee Crisis After the Taliban Takeover
+AU  - Dogan, Hulya
+AU  - Nguyen, Kiet
+AU  - Lourentzou, Ismini
+PY  - 2024
+AB  - The United States (U.S.) military withdrawal from Afghanistan in August 2021 was met with turmoil as the Taliban regained control of most of the country, including Kabul. These events have affected many and were widely discussed on social media, especially in the U.S. In this work, we focus on Twitter discourse regarding these events, especially potential opinion shifts over time and the effect social media posts by established U.S. legislators might have had on online public reception. To this end, we investigate two datasets on the war in Afghanistan, consisting of Twitter posts by self-identified U.S. accounts and conversation threads initiated by U.S. politicians. We find that Twitter users' discussions revolve around the Kabul airport event, President Biden's handling of the situation, and people affected by the U.S. withdrawal. Microframe analysis indicates that discourse centers the humanitarianism underlying these occurrences and politically leans liberal, focusing on care and fairness. Lastly, network analysis shows that Republicans are far more active on Twitter compared to Democrats and there is more positive sentiment than negative in their conversations.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3653703
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3653703
+ER  - 
+
+TY  - JOUR
+TI  - "I will just have to keep driving": A Mixed-methods Investigation of Lack of Agency within the Thai Motorcycle Rideshare Driver Community
+AU  - Tieanklin, Nussara
+AU  - Breda, Joseph
+AU  - Althoff, Tim
+AU  - Heimerl, Kurtis
+PY  - 2024
+AB  - This paper presents a mixed-methods study of app-based motorcycle taxis in Thailand to explore the social dynamics of rideshare drivers and their exercised autonomy both through social pressure and a hostile work environment. As motorcycle taxis are open-air vehicles, drivers can be exposed to prolonged air pollution and other weather events, potentially impacting their health. In an initial quantitative study of server-side rideshare logs, we unexpectedly found that drivers do not exercise the autonomy provided by their rideshare platform to avoid air pollution events. This prompted a follow-on investigation through semi-structured interviews of both drivers and passengers in three provinces to explore why these drivers fail to experience the autonomy promised by gig-work in this context and elucidated further examples this lack of autonomy experienced by drivers. Our study sheds light on the social context that may constrain a driver's agency, including financial pressures, weather conditions, conflicts with local taxi organizations, and a false perception that drivers need to work around the ride assignment algorithm to avoid being blacklisted. We find that when leveraging app-based rideshare opportunities, drivers simultaneously perceive increased flexibility in their work hours and a lack of agency to prioritize their health and safety. We conclude with a discussion on potential interventions aimed at mitigating the forces preventing drivers from exercising their autonomy.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3653706
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3653706
+ER  - 
+
+TY  - JOUR
+TI  - Does More Advice Help? The Effects of Second Opinions in AI-Assisted Decision Making
+AU  - Lu, Zhuoran
+AU  - Wang, Dakuo
+AU  - Yin, Ming
+PY  - 2024
+AB  - AI assistance in decision-making has become popular, yet people's inappropriate reliance on AI often leads to unsatisfactory human-AI collaboration performance. In this paper, through three pre-registered, randomized human subject experiments, we explore whether and how the provision of second opinions may affect decision-makers' behavior and performance in AI-assisted decision-making. We find that if both the AI model's decision recommendation and a second opinion are always presented together, decision-makers reduce their over-reliance on AI while increase their under-reliance on AI, regardless whether the second opinion is generated by a peer or another AI model. However, if decision-makers have the control to decide when to solicit a peer's second opinion, we find that their active solicitations of second opinions have the potential to mitigate over-reliance on AI without inducing increased under-reliance in some cases. We conclude by discussing the implications of our findings for promoting effective human-AI collaborations in decision-making.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3653708
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3653708
+ER  - 
+

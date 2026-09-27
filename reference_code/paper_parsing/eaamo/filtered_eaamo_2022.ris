@@ -1,0 +1,78 @@
+TY  - CONF
+TI  - Tackling Documentation Debt: A Survey on Algorithmic Fairness Datasets
+AU  - Fabris, Alessandro
+AU  - Messina, Stefano
+AU  - Silvello, Gianmaria
+AU  - Susto, Gian Antonio
+PY  - 2022
+AB  - A growing community of researchers has been investigating the equity of algorithms, advancing the understanding of risks and opportunities of automated decision-making for historically disadvantaged populations. Progress in fair Machine Learning (ML) hinges on data, which can be appropriately used only if adequately documented. Unfortunately, the research community, as a whole, suffers from a collective data documentation debt caused by a lack of information on specific resources (opacity) and scatteredness of available information (sparsity). In this work, we survey over two hundred datasets employed in algorithmic fairness research, producing standardized and searchable documentation for each of them. Moreover we rigorously identify the three most popular fairness datasets, namely Adult, COMPAS, and German Credit, for which we compile in-depth documentation. This unifying documentation effort targets documentation sparsity and supports multiple contributions. In the first part of this work, we summarize the merits and limitations of Adult, COMPAS, and German Credit, adding to and unifying recent scholarship, calling into question their suitability as general-purpose fairness benchmarks. To overcome this limitation, we document hundreds of available alternatives, annotating their domain and the algorithmic fairness tasks they support, along with additional properties of interest for fairness practitioners and researchers, including their format, cardinality, and the sensitive attributes they encode. In the second part, we summarize this information, zooming in on the domains and tasks supported by these resources. Overall, we assemble and summarize sparse information on hundreds of datasets into a single resource, which we make available to the community, with the aim of tackling the data documentation debt.
+T2  - Proceedings of the 2nd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3551624.3555286
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3551624.3555286
+ER  - 
+
+TY  - CONF
+TI  - FairEGM: Fair Link Prediction and Recommendation via Emulated Graph Modification
+AU  - Current, Sean
+AU  - He, Yuntian
+AU  - Gurukar, Saket
+AU  - Parthasarathy, Srinivasan
+PY  - 2022
+AB  - As machine learning becomes more widely adopted across domains, it is critical that researchers and ML engineers think about the inherent biases in the data that may be perpetuated by the model. Recently, many studies have shown that such biases are also imbibed in Graph Neural Network (GNN) models if the input graph is biased, potentially to the disadvantage of underserved and underrepresented communities. In this work, we aim to mitigate the bias learned by GNNs by jointly optimizing two different loss functions: one for the task of link prediction and one for the task of demographic parity. We further implement three different techniques inspired by graph modification approaches: the Global Fairness Optimization (GFO), Constrained Fairness Optimization (CFO), and Fair Edge Weighting (FEW) models. These techniques mimic the effects of changing underlying graph structures within the GNN and offer a greater degree of interpretability over more integrated neural network methods. Our proposed models emulate microscopic or macroscopic edits to the input graph while training GNNs and learn node embeddings that are both accurate and fair under the context of link recommendations. We demonstrate the effectiveness of our approach on four real world datasets and show that we can improve the recommendation fairness by several factors at negligible cost to link prediction accuracy.
+T2  - Proceedings of the 2nd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3551624.3555287
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3551624.3555287
+ER  - 
+
+TY  - CONF
+TI  - Bias, Consistency, and Partisanship in U.S. Asylum Cases: A Machine Learning Analysis of Extraneous Factors in Immigration Court Decisions
+AU  - Raman, Vyoma
+AU  - Vera, Catherine
+AU  - Manna, CJ
+PY  - 2022
+AB  - In this study, we introduce a novel two-pronged scoring system to measure individual and systemic bias in immigration courts under the U.S. Executive Office of Immigration Review (EOIR). We analyze nearly 6 million immigration court proceedings and 228 case features to build on prior research showing that U.S. asylum decisions vary dramatically based on factors that are extraneous to the merits of a case. We close a critical gap in the literature of variability metrics that can span space and time. Using predictive modeling, we explain 58.54\% of the total decision variability using two metrics: partisanship and inter-judge cohort consistency. Thus, whether the EOIR grants asylum to an applicant or not depends in majority on the combined effects of the political climate and the individual variability of the presiding judge — not the individual merits of the case. Using time series analysis, we also demonstrate that partisanship increased in the early 1990s but plateaued following the turn of the century. These conclusions are striking to the extent that they diverge from the U.S. immigration system’s commitments to independence and due process. Our contributions expose systemic inequities in the U.S. asylum decision-making process, and we recommend improved and standardized variability metrics to better diagnose and monitor these issues.
+T2  - Proceedings of the 2nd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3551624.3555288
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3551624.3555288
+ER  - 
+
+TY  - CONF
+TI  - A Heterogeneous Schelling Model for Wealth Disparity and its Effect on Segregation
+AU  - Zhao, Zhanzhan
+AU  - Randall, Dana
+PY  - 2022
+AB  - The Schelling model of segregation was introduced in economics to show how micro-motives can influence macro-behavior. Agents on a lattice have two colors and try to move to a different location if the number of their neighbors with a different color exceeds some threshold. Simulations reveal that even such mild local color preferences, or homophily, are sufficient to cause segregation. In this work, we propose a stochastic generalization of the Schelling model, based on both race and wealth, to understand how carefully architected placement of incentives, such as urban infrastructure, might affect segregation. In our model, each agent is assigned one of two colors along with a label, rich or poor. Further, we designate certain vertices on the lattice as “urban sites,” providing civic infrastructure that most benefits the poorer population, thus incentivizing the occupation of such vertices by poor agents of either color. We look at the stationary distribution of a Markov process reflecting these preferences to understand the long-term effects. We prove that when incentives are large enough, we will have ”urbanization of poverty,” an observed effect whereby poor people tend to congregate on urban sites. Moreover, even when homophily preferences are very small, if the incentives are large and there is income inequality in the two-color classes, we can get racial segregation on urban sites but integration on non-urban sites. In contrast, we find an overall mitigation of segregation when the urban sites are distributed throughout the lattice and the incentives for urban sites exceed the homophily biases. We prove that in this case, no matter how strong homophily preferences are, it will be exponentially unlikely that a configuration chosen from stationarity will have large, homogeneous clusters of agents of either color, suggesting we will have racial integration with high probability.
+T2  - Proceedings of the 2nd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3551624.3555293
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3551624.3555293
+ER  - 
+
+TY  - CONF
+TI  - AI-Competent Individuals and Laypeople Tend to Oppose Facial Analysis AI
+AU  - Ullstein, Chiara
+AU  - Engelmann, Severin
+AU  - Papakyriakopoulos, Orestis
+AU  - Hohendanner, Michel
+AU  - Grossklags, Jens
+PY  - 2022
+AB  - Recent advances in computer vision analysis have led to a debate about the kinds of conclusions artificial intelligence (AI) should make about people based on their faces. Some scholars have argued for supposedly “common sense” facial inferences that can be reliably drawn from faces using AI. Other scholars have raised concerns about an automated version of “physiognomic practices” that facial analysis AI could entail. We contribute to this multidisciplinary discussion by exploring how individuals with AI competence and laypeople evaluate facial analysis AI inference-making. Ethical considerations of both groups should inform the design of ethical computer vision AI. In a two-scenario vignette study, we explore how ethical evaluations of both groups differ across a low-stake advertisement and a high-stake hiring context. Next to a statistical analysis of AI inference ratings, we apply a mixed methods approach to evaluate the justification themes identified by a qualitative content analysis of participants’ 2768 justifications. We find that people with AI competence (N=122) and laypeople (N=122; validation N=102) share many ethical perceptions about facial analysis AI. The application context has an effect on how AI inference-making from faces is perceived. While differences in AI competence did not have an effect on inference ratings, specific differences were observable for the ethical justifications. A validation laypeople dataset confirms these results. Our work offers a participatory AI ethics approach to the ongoing policy discussions on the normative dimensions and implications of computer vision AI. Our research seeks to inform, challenge, and complement conceptual and theoretical perspectives on computer vision AI ethics.
+T2  - Proceedings of the 2nd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3551624.3555294
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3551624.3555294
+ER  - 
+
+TY  - CONF
+TI  - Attrition of Workers with Minoritized Identities on AI Teams
+AU  - Brown, Jeffrey
+AU  - Park, Tina
+AU  - Chang, Jiyoo
+AU  - Andrus, Mckane
+AU  - Xiang, Alice
+AU  - Custis, Christine
+PY  - 2022
+AB  - The effects of AI systems are far-reaching and affect diverse communities all over the world. The demographics of AI teams, however, do not reflect this diversity. Instead, these teams, particularly at big tech companies, are dominated by Western, White, and male workers. Strategies for preventing harms done by AI must also include making these teams more representative of the diverse communities that these technologies affect. The pipeline of students from K-12 and university level contributes to this - those with minoritized identities are underrepresented or excluded from pursuing computer science careers. However there has been relatively little attention given to how the culture at tech companies, let alone AI teams, contribute to attrition of minoritized people in the workplace. The current study uses semi-structured interviews with minoritized workers on AI teams, managers of AI teams, and leaders working on diversity, equity, and inclusion (DEI) in the tech field (N = 43), to investigate the reasons why these workers leave these AI teams. The themes from these interviews describe how the culture and climate of these teams may contribute to attrition of minoritized workers, and strategies for making these teams more inclusive and representative of the diverse communities affected by technologies developed by these AI teams. Specifically, the current study found that AI teams in which minoritized workers thrive tend to foster a strong sense of interdisciplinary collaboration, support professional career development, and are run by diverse leaders who understand the importance of undoing the traditional White, Eurocentric, and male workplace norms. These go beyond the “quick fixes” that are prevalent in DEI practices.
+T2  - Proceedings of the 2nd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+DO  - 10.1145/3551624.3555304
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3551624.3555304
+ER  - 
+

@@ -1,0 +1,387 @@
+TY  - JOUR
+TI  - Investigating Differences in Crowdsourced News Credibility Assessment: Raters, Tasks, and Expert Criteria
+AU  - Bhuiyan, Md Momen
+AU  - Zhang, Amy X.
+AU  - Sehat, Connie Moon
+AU  - Mitra, Tanushree
+PY  - 2020
+AB  - Misinformation about critical issues such as climate change and vaccine safety is oftentimes amplified on online social and search platforms. The crowdsourcing of content credibility assessment by laypeople has been proposed as one strategy to combat misinformation by attempting to replicate the assessments of experts at scale. In this work, we investigate news credibility assessments by crowds versus experts to understand when and how ratings between them differ. We gather a dataset of over 4,000 credibility assessments taken from 2 crowd groups---journalism students and Upwork workers---as well as 2 expert groups---journalists and scientists---on a varied set of 50 news articles related to climate science, a topic with widespread disconnect between public opinion and expert consensus. Examining the ratings, we find differences in performance due to the makeup of the crowd, such as rater demographics and political leaning, as well as the scope of the tasks that the crowd is assigned to rate, such as the genre of the article and partisanship of the publication. Finally, we find differences between expert assessments due to differing expert criteria that journalism versus science experts use---differences that may contribute to crowd discrepancies, but that also suggest a way to reduce the gap by designing crowd tasks tailored to specific expert criteria. From these findings, we outline future research directions to better design crowd processes that are tailored to specific crowds and types of content.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415164
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415164
+ER  - 
+
+TY  - JOUR
+TI  - Human-AI Collaboration in a Cooperative Game Setting: Measuring Social Perception and Outcomes
+AU  - Ashktorab, Zahra
+AU  - Liao, Q. Vera
+AU  - Dugan, Casey
+AU  - Johnson, James
+AU  - Pan, Qian
+AU  - Zhang, Wei
+AU  - Kumaravel, Sadhana
+AU  - Campbell, Murray
+PY  - 2020
+AB  - Human-AI interaction is pervasive across many areas of our day to day lives. In this paper, we investigate human-AI collaboration in the context of a collaborative AI-driven word association game with partially observable information. In our experiments, we test various dimensions of subjective social perceptions (rapport, intelligence, creativity and likeability) of participants towards their partners when participants believe they are playing with an AI or with a human. We also test subjective social perceptions of participants towards their partners when participants are presented with a variety of confidence levels. We ran a large scale study on Mechanical Turk (n=164) of this collaborative game. Our results show that when participants believe their partners were human, they found their partners to be more likeable, intelligent, creative and having more rapport and use more positive words to describe their partner's attributes than when they believed they were interacting with an AI partner. We also found no differences in game outcome including win rate and turns to completion. Drawing on both quantitative and qualitative findings, we discuss AI agent transparency, include design implications for tools incorporating or supporting human-AI collaboration, and lay out directions for future research. Our findings lead to implications for other forms of human-AI interaction and communication.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415167
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415167
+ER  - 
+
+TY  - JOUR
+TI  - Using the Crowd to Prevent Harmful AI Behavior
+AU  - Mandel, Travis
+AU  - Best, Jahnu
+AU  - Tanaka, Randall H.
+AU  - Temple, Hiram
+AU  - Haili, Chansen
+AU  - Carter, Sebastian J.
+AU  - Schlechtinger, Kayla
+AU  - Szeto, Roy
+PY  - 2020
+AB  - To prevent harmful AI behavior, people need to specify constraints that forbid undesirable actions. Unfortunately, this is a complex task, since writing rules that distinguish harmful from non-harmful actions tends to be quite difficult in real-world situations. Therefore, such decisions have historically been made by a small group of powerful AI companies and developers, with limited community input. In this paper, we study how to enable a crowd of non-AI experts to work together to communicate high-quality, reliable constraints to AI systems. We first focus on understanding how humans reason about temporal dynamics in the context of AI behavior, finding through experiments on a novel game-based testbed that participants tend to adopt a long-term notion of harm, even in uncertain situations that do not affect them directly. Building off of this insight, we explore task design for long-term constraint specification, developing new filtering approaches and new methods of promoting user reflection. Next, we develop a novel rule-based interface which allows people to craft rules in an accessible fashion without programming knowledge. We test our approaches on a real-world AI problem in the domain of education, and find that our new filtering mechanisms and interfaces significantly improve constraint quality and human efficiency. We also demonstrate how these systems can be applied to other real-world AI problems (e.g. in social networks).
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415168
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415168
+ER  - 
+
+TY  - JOUR
+TI  - "I Hope This Is Helpful": Understanding Crowdworkers' Challenges and Motivations for an Image Description Task
+AU  - Simons, Rachel N.
+AU  - Gurari, Danna
+AU  - Fleischmann, Kenneth R.
+PY  - 2020
+AB  - AI image captioning challenges encourage broad participation in designing algorithms that automatically create captions for a variety of images and users. To create large datasets necessary for these challenges, researchers typically employ a shared crowdsourcing task design for image captioning. This paper discusses findings from our thematic analysis of 1,064 comments left by Amazon Mechanical Turk workers using this task design to create captions for images taken by people who are blind. Workers discussed difficulties in understanding how to complete this task, provided suggestions of how to improve the task, gave explanations or clarifications about their work, and described why they found this particular task rewarding or interesting. Our analysis provides insights both into this particular genre of task as well as broader considerations for how to employ crowdsourcing to generate large datasets for developing AI algorithms.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415176
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415176
+ER  - 
+
+TY  - JOUR
+TI  - CrowdCog: A Cognitive Skill based System for Heterogeneous Task Assignment and Recommendation in Crowdsourcing
+AU  - Hettiachchi, Danula
+AU  - van Berkel, Niels
+AU  - Kostakos, Vassilis
+AU  - Goncalves, Jorge
+PY  - 2020
+AB  - While crowd workers typically complete a variety of tasks in crowdsourcing platforms, there is no widely accepted method to successfully match workers to different types of tasks. Researchers have considered using worker demographics, behavioural traces, and prior task completion records to optimise task assignment. However, optimum task assignment remains a challenging research problem due to limitations of proposed approaches, which in turn can have a significant impact on the future of crowdsourcing. We present 'CrowdCog', an online dynamic system that performs both task assignment and task recommendations, by relying on fast-paced online cognitive tests to estimate worker performance across a variety of tasks. Our work extends prior work that highlights the effect of workers' cognitive ability on crowdsourcing task performance. Our study, deployed on Amazon Mechanical Turk, involved 574 workers and 983 HITs that span across four typical crowd tasks (Classification, Counting, Transcription, and Sentiment Analysis). Our results show that both our assignment method and recommendation method result in a significant performance increase (5\% to 20\%) as compared to a generic or random task assignment. Our findings pave the way for the use of quick cognitive tests to provide robust recommendations and assignments to crowd workers.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415181
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415181
+ER  - 
+
+TY  - JOUR
+TI  - Sochiatrist: Signals of Affect in Messaging Data
+AU  - Massachi, Talie
+AU  - Fong, Grant
+AU  - Mathur, Varun
+AU  - Pendse, Sachin R.
+AU  - Hoefer, Gabriela
+AU  - Fu, Jessica J.
+AU  - Wang, Chong
+AU  - Ramoji, Nikita
+AU  - Nugent, Nicole R.
+AU  - Ranney, Megan L.
+AU  - Dickstein, Daniel P.
+AU  - Armey, Michael F.
+AU  - Pavlick, Ellie
+AU  - Huang, Jeff
+PY  - 2020
+AB  - Messaging is a common mode of communication, with conversations written informally between individuals. Interpreting emotional affect from messaging data can lead to a powerful form of reflection or act as a support for clinical therapy. Existing analysis techniques for social media commonly use LIWC and VADER for automated sentiment estimation. We correlate LIWC, VADER, and ratings from human reviewers with affect scores from 25 participants. We explore differences in how and when each technique is successful. Results show that human review does better than VADER, the best automated technique, when humans are judging positive affect ($r_s=0.45$ correlation when confident, $r_s=0.30$ overall). Surprisingly, human reviewers only do slightly better than VADER when judging negative affect ($r_s=0.38$ correlation when confident, $r_s=0.29$ overall). Compared to prior literature, VADER correlates more closely with PANAS scores for private messaging than public social media. Our results indicate that while any technique that serves as a proxy for PANAS scores has moderate correlation at best, there are some areas to improve the automated techniques by better considering context and timing in conversations.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415182
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415182
+ER  - 
+
+TY  - JOUR
+TI  - Between Subjectivity and Imposition: Power Dynamics in Data Annotation for Computer Vision
+AU  - Miceli, Milagros
+AU  - Schuessler, Martin
+AU  - Yang, Tianling
+PY  - 2020
+AB  - The interpretation of data is fundamental to machine learning. This paper investigates practices of image data annotation as performed in industrial contexts. We define data annotation as a sense-making practice, where annotators assign meaning to data through the use of labels. Previous human-centered investigations have largely focused on annotators? subjectivity as a major cause of biased labels. We propose a wider view on this issue: guided by constructivist grounded theory, we conducted several weeks of fieldwork at two annotation companies. We analyzed which structures, power relations, and naturalized impositions shape the interpretation of data. Our results show that the work of annotators is profoundly informed by the interests, values, and priorities of other actors above their station. Arbitrary classifications are vertically imposed on annotators, and through them, on data. This imposition is largely naturalized. Assigning meaning to data is often presented as a technical matter. This paper shows it is, in fact, an exercise of power with multiple implications for individuals and society.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415186
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415186
+ER  - 
+
+TY  - JOUR
+TI  - Studying Politeness across Cultures using English Twitter and Mandarin Weibo
+AU  - Li, Mingyang
+AU  - Hickman, Louis
+AU  - Tay, Louis
+AU  - Ungar, Lyle
+AU  - Guntuku, Sharath Chandra
+PY  - 2020
+AB  - Modeling politeness across cultures helps to improve intercultural communication by uncovering what is considered appropriate and polite. We study the linguistic features associated with politeness across American English and Mandarin Chinese. First, we annotate 5,300 Twitter posts from the United States (US) and 5,300 Sina Weibo posts from China for politeness scores. Next, we develop an English and Chinese politeness feature set, 'PoliteLex'. Combining it with validated psycholinguistic dictionaries, we study the correlations between linguistic features and perceived politeness across cultures. We find that on Mandarin Weibo, future-focusing conversations, identifying with a group affiliation, and gratitude are considered more polite compared to English Twitter. Death-related taboo topics, use of pronouns (with the exception of honorifics), and informal language are associated with higher impoliteness on Mandarin Weibo than on English Twitter. Finally, we build language-based machine learning models to predict politeness with an F1 score of 0.886 on Mandarin Weibo and 0.774 on English Twitter.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415190
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415190
+ER  - 
+
+TY  - JOUR
+TI  - Advisory Service Support that Works: Enhancing Service Quality with a Mixed-reality System
+AU  - Dolata, Mateusz
+AU  - Agotai, Doris
+AU  - Schubiger, Simon
+AU  - Schwabe, Gerhard
+PY  - 2020
+AB  - Modern information technology promises to improve service encounters through automated documentation or better decision traceability. At the same time, research suggests a negative impact of technology on human-to-human advisory services: including the possibility that computers might degrade the quality of interpersonal communication and reinforce unpleasant behaviors. Consequently, despite obvious improvements, information technology might have a negative impact on how the participants perceive the service. This might imply serious consequences for the service provider: dissatisfied clients, ineffective information exchange, and/or lack of transparency. This scenario slows down the diffusion of computers into advisory services in banks and insurance companies, and so designing systems for use in interpersonal services remains a challenge. This article provides evidence that LivePaper, a system designed alongside the material practices of a financial advisory encounter, helps to improve important service quality dimensions, making the services not only more pleasant for the participants, but also improving key marketing and business metrics of the service. In experimental advisory services, the sessions supported with LivePaper outperformed conventional services with regard to overall bank service quality and satisfaction, salesperson listening and interaction rating scores, as well as information transparency. This shows that a carefully designed system not only preserves the perceived quality of a service, but might improve it objectively, and has implications for the marketing and business value of the service.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415191
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415191
+ER  - 
+
+TY  - JOUR
+TI  - From Lost to Found: Discover Missing UI Design Semantics through Recovering Missing Tags
+AU  - Chen, Chunyang
+AU  - Feng, Sidong
+AU  - Liu, Zhengyang
+AU  - Xing, Zhenchang
+AU  - Zhao, Shengdong
+PY  - 2020
+AB  - Design sharing sites provide UI designers with a platform to share their works and also an opportunity to get inspiration from others' designs. To facilitate management and search of millions of UI design images, many design sharing sites adopt collaborative tagging systems by distributing the work of categorization to the community. However, designers often do not know how to properly tag one design image with compact textual description, resulting in unclear, incomplete, and inconsistent tags for uploaded examples which impede retrieval, according to our empirical study and interview with four professional designers. Based on a deep neural network, we introduce a novel approach for encoding both the visual and textual information to recover the missing tags for existing UI examples so that they can be more easily found by text queries. We achieve 82.72\% accuracy in the tag prediction. Through a simulation test of 5 queries, our system on average returns hundreds more results than the default Dribbble search, leading to better relatedness, diversity and satisfaction.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415194
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415194
+ER  - 
+
+TY  - JOUR
+TI  - CrowdCO-OP: Sharing Risks and Rewards in Crowdsourcing
+AU  - Fan, Shaoyang
+AU  - Gadiraju, Ujwal
+AU  - Checco, Alessandro
+AU  - Demartini, Gianluca
+PY  - 2020
+AB  - Paid micro-task crowdsourcing has gained in popularity partly due to the increasing need for large-scale manually labelled datasets which are often used to train and evaluate Artificial Intelligence systems. Modern paid crowdsourcing platforms use a piecework approach to rewards, meaning that workers are paid for each task they complete, given that their work quality is considered sufficient by the requester or the platform. Such an approach creates risks for workers; their work may be rejected without being rewarded, and they may be working on poorly rewarded tasks, in light of the disproportionate time required to complete them. As a result, recent research has shown that crowd workers may tend to choose specific, simple, and familiar tasks and avoid new requesters to manage these risks. In this paper, we propose a novel crowdsourcing reward mechanism that allows workers to share these risks and achieve a standardized hourly wage equal for all participating workers. Reward-focused workers can thereby take up challenging and complex HITs without bearing the financial risk of not being rewarded for completed work. We experimentally compare different crowd reward schemes and observe their impact on worker performance and satisfaction. Our results show that 1) workers clearly perceive the benefits of the proposed reward scheme, 2) work effectiveness and efficiency are not impacted as compared to those of the piecework scheme, and 3) the presence of slow workers is limited and does not disrupt the proposed cooperation-based approaches.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415203
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415203
+ER  - 
+
+TY  - JOUR
+TI  - Food Aid Technology: The Experience of a Syrian Refugee Community in Coping with Food Insecurity
+AU  - Talhouk, Reem
+AU  - Coles-Kemp, Lizzie
+AU  - Jensen, Rikke Bjerg
+AU  - Balaam, Madeline
+AU  - Garbett, Andrew
+AU  - Ghattas, Hala
+AU  - Araujo-Soares, Vera
+AU  - Ahmad, Balsam
+AU  - Montague, Kyle
+PY  - 2020
+AB  - Over half of Syrian refugee households in Lebanon are food insecure with some reliant on an electronic voucher (e-voucher) system for food aid. The interplay between the digitisation of food aid, within the socio-technical context of refugees, and community collaborative practices is yet to be investigated. Through design engagements and interviews with refugees and shop owners we explore the experiences of a Syrian refugee community in Lebanon using the e-voucher system. We provide insights into the socio-technical environment in which the e-voucher system is dispensing aid, the information and power asymmetries experienced, refugee collaborative coping practices and how they interplay with the e-voucher system. We highlight the need for: (1) expanding refugee digital capabilities to encompass understandings of aid technologies and identifying trusted intermediaries and (2) for technologies to support in upholding humanitarian principles and mitigating power and information asymmetries. Lastly, we call for CSCW researchers and humanitarian innovators to consider how humanitarian technologies can enable refugee collaborative practices and adopt everyday security as a lens for designing aid technologies. The paper contributes to CSCW knowledge regarding the interplay between aid technologies and refugees? socio-technical contexts and practices that provides a basis for future technological designs for collaborative technologies for refugee food security.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415205
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415205
+ER  - 
+
+TY  - JOUR
+TI  - Effects of Shared Gaze on Audio- Versus Text-Based Remote Collaborations
+AU  - K\"{u}tt, Grete Helena
+AU  - Tanprasert, Teerapaun
+AU  - Rodolitz, Jay
+AU  - Moyza, Bernardo
+AU  - So, Samuel
+AU  - Kenderova, Georgia
+AU  - Papoutsaki, Alexandra
+PY  - 2020
+AB  - Remote collaborations are becoming ubiquitous, but, despite their many advantages, face unique challenges compared to collocated collaborations. Visualizing the collaborator's point of gaze on a shared screen has been explored as a promising way to alleviate some of these limitations by increasing shared awareness. However, prior studies on shared gaze have not considered the medium of communication and have only studied its effect on audio. This paper presents a study that compares the effects of shared gaze on collaboration performance during audio- and text-based communication. We find that for text, shared gaze improved task correctness and led collaborators to look at and talk more about shared content. Similar trends are found for gaze-augmented voice communication, but contrary to the slower performance in text, it also saw improvements in completion time as well as in cognitive workload. Our findings demonstrate the differences in how shared gaze impacts audio- versus text-based communication and highlight the need to further understand the nuances of the medium of communication when designing novel tools to support remote collaborators.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415207
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415207
+ER  - 
+
+TY  - JOUR
+TI  - Implicit Diversity in Image Summarization
+AU  - Celis, L. Elisa
+AU  - Keswani, Vijay
+PY  - 2020
+AB  - Studies have shown that the people depicted in image search results tend to be of majority groups with respect to socially salient attributes such as gender or race. This skew goes beyond that which already exists in the world - i.e., the search results for images of people are more imbalanced than the ground truth would suggest. For example, Kay et al. showed that although 28\% of CEOs in the U.S. are women, only 10\% of the top 100 results for "CEO" in Google Image Search are women. Similar observations abound across search terms and across socially salient attributes. Most existing approaches to correct for this kind of bias assume that the images of people include labels denoting the relevant socially salient attributes. These labels are explicitly used to either change the dataset, adjust the training of the algorithm, and/or in the execution of the method. However, such labels are often unknown. Further, using machine learning techniques to infer these labels may often not be possible within acceptable accuracy ranges and may not be desirable due to the additional biases this process could incur. As observed in prior work, alternate approaches consider the diversity of image features, which often do not translate to images of visibly diverse people. We develop a novel approach that takes as input a visibly diverse control set of images of people and uses this set as part of a procedure to select a set of images of people in response to a query. The goal is to have a resulting set that is more visibly diverse in a manner that emulates the diversity depicted in the control set. It accomplishes this by evaluating the similarity of the images selected by a black-box algorithm with the images in the diversity control set, and incorporating this "diversity score" into the final selection process. Importantly, this approach does not require images to be labelled at any point; effectively, it gives a way to implicitly diversify the set of images selected. We provide two variants of our approach: the first is a modification of the well known MMR algorithm to incorporate the diversity scores, and the second is a more efficient variant that does not consider within-list redundancy. We evaluate these approaches empirically on two image datasets: 1) a new dataset we collect which contains the top 100 Google Image results for 96 occupations, for which we evaluate gender and skin-tone diversity with respect to occupations and 2) the well-known CelebA dataset containing images of celebrities for which we can evaluate gender diversity with respect to facial features such as "smiling" or "glasses". Both of our approaches produce image sets that significantly improve the visible diversity of the results (i.e., include a larger fraction of anti-stereotypical images) with respect to current Google Image Search results and other state-of-the-art algorithms for diverse image summarization. Further, they seem to come at a minimal cost to accuracy. These empirical results demonstrate the effectiveness of simple label-independent interventions to diversify image search.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415210
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415210
+ER  - 
+
+TY  - JOUR
+TI  - A Framework for Understanding the Relationship between Social Media Discourse and Mental Health
+AU  - Mendu, Sanjana
+AU  - Baglione, Anna
+AU  - Baee, Sonia
+AU  - Wu, Congyu
+AU  - Ng, Brandon
+AU  - Shaked, Adi
+AU  - Clore, Gerald
+AU  - Boukhechba, Mehdi
+AU  - Barnes, Laura
+PY  - 2020
+AB  - Over 35\% of the world's population uses social media. Platforms like Facebook, Twitter, and Instagram have radically influenced the way individuals interact and communicate. These platforms facilitate both public and private communication with strangers and friends alike, providing rich insight into an individual's personality, health, and wellbeing. To date, many researchers have employed a variety of methods for extracting mental health-centric features from digital text communication (DTC) data, including natural language processing, social network analysis, and extraction of temporal discourse patterns. However, none have explored a hierarchical framework for extracting features from private messages with the goal of unifying approaches across methodological domains. Furthermore, while analyses of large, public corpora abound in existing literature, limited work has been done to explore the relationship between of private textual communications, personality traits, and symptoms of mental illness. We present a framework for constructing rich feature spaces from digital text communications. We then demonstrate the efficacy of our framework by applying it to a dataset of private Facebook messages in a college student population (N=103). Our results reveal key individual differences in temporal and relational behaviors, as well as language usage in relation to validated measures of trait-level anxiety, loneliness, and personality. This work represents a critical step forward in linking features of private social media messages to validated measures of mental health, wellbeing, and personality.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415215
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415215
+ER  - 
+
+TY  - JOUR
+TI  - ORES: Lowering Barriers with Participatory Machine Learning in Wikipedia
+AU  - Halfaker, Aaron
+AU  - Geiger, R. Stuart
+PY  - 2020
+AB  - Algorithmic systems---from rule-based bots to machine learning classifiers---have a long history of supporting the essential work of content moderation and other curation work in peer production projects. From counter-vandalism to task routing, basic machine prediction has allowed open knowledge projects like Wikipedia to scale to the largest encyclopedia in the world, while maintaining quality and consistency. However, conversations about how quality control should work and what role algorithms should play have generally been led by the expert engineers who have the skills and resources to develop and modify these complex algorithmic systems. In this paper, we describe ORES: an algorithmic scoring service that supports real-time scoring of wiki edits using multiple independent classifiers trained on different datasets. ORES decouples several activities that have typically all been performed by engineers: choosing or curating training data, building models to serve predictions, auditing predictions, and developing interfaces or automated agents that act on those predictions. This meta-algorithmic system was designed to open up socio-technical conversations about algorithms in Wikipedia to a broader set of participants. In this paper, we discuss the theoretical mechanisms of social change ORES enables and detail case studies in participatory machine learning around ORES from the 5 years since its deployment.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415219
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415219
+ER  - 
+
+TY  - JOUR
+TI  - Vision Skills Needed to Answer Visual Questions
+AU  - Zeng, Xiaoyu
+AU  - Wang, Yanan
+AU  - Chiu, Tai-Yin
+AU  - Bhattacharya, Nilavra
+AU  - Gurari, Danna
+PY  - 2020
+AB  - The task of answering questions about images has garnered attention as a practical service for assisting populations with visual impairments as well as a visual Turing test for the artificial intelligence community. Our first aim is to identify the common vision skills needed for both scenarios. To do so, we analyze the need for four vision skills--object recognition, text recognition, color recognition, and counting--on over 27,000 visual questions from two datasets representing both scenarios. We next quantify the difficulty of these skills for both humans and computers on both datasets. Finally, we propose a novel task of predicting what vision skills are needed to answer a question about an image. Our results reveal (mis)matches between aims of real users of such services and the focus of the AI community. We conclude with a discussion about future directions for addressing the visual question answering task.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415220
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415220
+ER  - 
+
+TY  - JOUR
+TI  - Designing Alternative Representations of Confusion Matrices to Support Non-Expert Public Understanding of Algorithm Performance
+AU  - Shen, Hong
+AU  - Jin, Haojian
+AU  - Cabrera, \'{A}ngel Alexander
+AU  - Perer, Adam
+AU  - Zhu, Haiyi
+AU  - Hong, Jason I.
+PY  - 2020
+AB  - Ensuring effective public understanding of algorithmic decisions that are powered by machine learning techniques has become an urgent task with the increasing deployment of AI systems into our society. In this work, we present a concrete step toward this goal by redesigning confusion matrices for binary classification to support non-experts in understanding the performance of machine learning models. Through interviews (n=7) and a survey (n=102), we mapped out two major sets of challenges lay people have in understanding standard confusion matrices: the general terminologies and the matrix design. We further identified three sub-challenges regarding the matrix design, namely, confusion about the direction of reading the data, layered relations and quantities involved. We then conducted an online experiment with 483 participants to evaluate how effective a series of alternative representations target each of those challenges in the context of an algorithm for making recidivism predictions. We developed three levels of questions to evaluate users' objective understanding. We assessed the effectiveness of our alternatives for accuracy in answering those questions, completion time, and subjective understanding. Our results suggest that (1) only by contextualizing terminologies can we significantly improve users' understanding and (2) flow charts, which help point out the direction of reading the data, were most useful in improving objective understanding. Our findings set the stage for developing more intuitive and generally understandable representations of the performance of machine learning models.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415224
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415224
+ER  - 
+
+TY  - JOUR
+TI  - Toward Interactively Balancing the Screen Time of Actors Based on Observable Phenotypic Traits in Live Telecast
+AU  - Hoque, Md Naimul
+AU  - Saquib, Nazmus
+AU  - Billah, Syed Masum
+AU  - Mueller, Klaus
+PY  - 2020
+AB  - Several prominent studies have shown that the imbalanced on-screen exposure of observable phenotypic traits like gender and skin-tone in movies, TV shows, live telecasts, and other visual media can reinforce gender and racial stereotypes in society. Researchers and human rights organizations alike have long been calling to make media producers more aware of such stereotypes. While awareness among media producers is growing, balancing the presence of different phenotypes in a video requires substantial manual effort and can typically only be done in the post-production phase. The task becomes even more challenging in the case of a live telecast where video producers must make instantaneous decisions with no post-production phase to refine or revert a decision. In this paper, we propose Screen-Balancer, an interactive tool that assists media producers in balancing the presence of different phenotypes in a live telecast. The design of Screen-Balancer is informed by a field study conducted in a professional live studio. Screen-Balancer analyzes the facial features of the actors to determine phenotypic traits using facial detection packages; it then facilitates real-time visual feedback for interactive moderation of gender and skin-tone distributions. To demonstrate the effectiveness of our approach, we conducted a user study with 20 participants and asked them to compose live telecasts from a set of video streams simulating different camera angles, and featuring several male and female actors with different skin-tones. The study revealed that the participants were able to reduce the difference of screen times of male and female actors by 43\%, and that of light-skinned and dark-skinned actors by 44\%, thus showing the promise and potential of using such a tool in commercial production systems.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415225
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415225
+ER  - 
+
+TY  - JOUR
+TI  - Co-Design and Evaluation of an Intelligent Decision Support System for Stroke Rehabilitation Assessment
+AU  - Lee, Min Hun
+AU  - Siewiorek, Daniel P.
+AU  - Smailagic, Asim
+AU  - Bernardino, Alexandre
+AU  - Berm\'{u}dez i Badia, Sergi
+PY  - 2020
+AB  - Clinical decision support systems have the potential to improve work flows of experts in practice (e.g. therapist's evidence-based rehabilitation assessment). However, the adoption of these systems is challenging, and the gains of these systems have not fully demonstrated yet. In this paper, we identified the needs of therapists to assess patient's functional abilities (e.g. alternative perspectives with quantitative information on patient's exercise motions). As a result, we co-designed and developed an intelligent decision support system that automatically identifies salient features of assessment using reinforcement learning to assess the quality of motion and generate patient-specific analysis. We evaluated this system with seven therapists using the dataset from 15 patients performing three exercises. The results show that therapists have higher usage intent on our system than a traditional system without patient-specific analysis ($p &lt; 0.05$). While presenting richer information ($p &lt; 0.10$), our system significantly reduces therapists' effort on assessment ($p &lt; 0.10$) and improves their agreement on assessment from 0.66 to 0.71 F1-scores ($p &lt; 0.01$). This work discusses the importance of human centered design and development of a machine learning-based decision support system that presents contextually relevant information and salient explanations on its prediction for better adoption in practice.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415227
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415227
+ER  - 
+
+TY  - JOUR
+TI  - Data and Power: Archival Appraisal Theory as a Framework for Data Preservation
+AU  - Schoenebeck, Sarita
+AU  - Conway, Paul
+PY  - 2020
+AB  - Digital data pervades everyday life, from personal photos shared on social media to voice commands for Amazon Alexa. A widespread industry culture of 'move fast and break things,' however, has compelled data management practices that prioritize profit over preservation. This paper draws from archival theories of appraisal to foreground control, power, subjectivity, and emotion in computing practices that treat data storage as a neutral or objective cost-center. We draw on postmodern archival appraisal theory that recognizes the archive as a powerful and subjective curator of identity and memory. The theoretical basis of archival decision practices, in turn, establishes the value of the archival record and thus the need to save it. With three primary issues of appraisal theory as a framework, we report on an interview study with adults (N=17), ages 51-72, who are in a transitional life-stage that focuses them on their experiences and memories that are worth keeping or discarding. We sketch implications for data management paths that forefront legacy, life transitions, precarity, and control.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415233
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415233
+ER  - 
+
+TY  - JOUR
+TI  - Conceptual Metaphors Impact Perceptions of Human-AI Collaboration
+AU  - Khadpe, Pranav
+AU  - Krishna, Ranjay
+AU  - Fei-Fei, Li
+AU  - Hancock, Jeffrey T.
+AU  - Bernstein, Michael S.
+PY  - 2020
+AB  - With the emergence of conversational artificial intelligence (AI) agents, it is important to understand the mechanisms that influence users' experiences of these agents. In this paper, we study one of the most common tools in the designer's toolkit: conceptual metaphors. Metaphors can present an agent as akin to a wry teenager, a toddler, or an experienced butler. How might a choice of metaphor influence our experience of the AI agent? Sampling a set of metaphors along the dimensions of warmth and competence---defined by psychological theories as the primary axes of variation for human social perception---we perform a study $(N=260)$ where we manipulate the metaphor, but not the behavior, of a Wizard-of-Oz conversational agent. Following the experience, participants are surveyed about their intention to use the agent, their desire to cooperate with the agent, and the agent's usability. Contrary to the current tendency of designers to use high competence metaphors to describe AI products, we find that metaphors that signal low competence lead to better evaluations of the agent than metaphors that signal high competence. This effect persists despite both high and low competence agents featuring identical, human-level performance and the wizards being blind to condition. A second study confirms that intention to adopt decreases rapidly as competence projected by the metaphor increases. In a third study, we assess effects of metaphor choices on potential users' desire to try out the system and find that users are drawn to systems that project higher competence and warmth. These results suggest that projecting competence may help attract new users, but those users may discard the agent unless it can quickly correct with a lower competence metaphor. We close with a retrospective analysis that finds similar patterns between metaphors and user attitudes towards past conversational agents such as Xiaoice, Replika, Woebot, Mitsuku, and Tay.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415234
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415234
+ER  - 
+
+TY  - JOUR
+TI  - Quality of and Attention to Instructions in Telementoring
+AU  - Semsar, Azin
+AU  - McGowan, Hannah
+AU  - Feng, Yuanyuan
+AU  - Zahiri, H. Reza
+AU  - Park, Adrian
+AU  - Kleinsmith, Andrea
+AU  - Mentis, Helena M.
+PY  - 2020
+AB  - There is a long-standing interest in CSCW on distributed instruction - both in how it differs from collocated instruction as well as the design of tools to reduce any deficiencies. In this study, we leveraged the unique environment of laparoscopic surgery to compare the efficacy and mechanism of instruction in a collocated and distributed condition. By implementing the same instructional technology in both conditions, we are able to evaluate the effect of distance on instruction without the confounding variable of medium of instruction. Surprisingly, our findings revealed trainees perceived a higher perceived quality of instruction in the distributed condition. Further investigation suggests that in a distributed learning environment, trainees change their behavior to attend more to the provided instructions resulting in this higher perceived quality of instruction. Finally, we discuss our findings with regards to media compensation theory, and we provide both social and technical insights on how to better support a distributed instructional process.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415236
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415236
+ER  - 
+
+TY  - JOUR
+TI  - Origins of Algorithmic Instabilities in Crowdsourced Ranking
+AU  - Burghardt, Keith
+AU  - Hogg, Tad
+AU  - D'Souza, Raissa
+AU  - Lerman, Kristina
+AU  - Posfai, Marton
+PY  - 2020
+AB  - Crowdsourcing systems aggregate decisions of many people to help users quickly identify high-quality options, such as the best answers to questions or interesting news stories. A long-standing issue in crowdsourcing is how option quality and human judgement heuristics interact to affect collective outcomes, such as the perceived popularity of options. We address this limitation by conducting a controlled experiment where subjects choose between two ranked options whose quality can be independently varied. We use this data to construct a model that quantifies how judgement heuristics and option quality combine when deciding between two options. The model reveals popularity-ranking can be unstable: unless the quality difference between the two options is sufficiently high, the higher quality option is not guaranteed to be eventually ranked on top. To rectify this instability, we create an algorithm that accounts for judgement heuristics to infer the best option and rank it first. This algorithm is guaranteed to be optimal if data matches the model. When the data does not match the model, however, simulations show that in practice this algorithm performs better or at least as well as popularity-based and recency-based ranking for any two-choice question. Our work suggests that algorithms relying on inference of mathematical models of user behavior can substantially improve outcomes in crowdsourcing systems.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415237
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415237
+ER  - 
+
+TY  - JOUR
+TI  - When Are Search Completion Suggestions Problematic?
+AU  - Olteanu, Alexandra
+AU  - Diaz, Fernando
+AU  - Kazai, Gabriella
+PY  - 2020
+AB  - Problematic web search query completion suggestions-perceived as biased, offensive, or in some other way harmful-can reinforce existing stereotypes and misbeliefs, and even nudge users towards undesirable patterns of behavior. Locating such suggestions is difficult, not only due to the long-tailed nature of web search, but also due to differences in how people assess potential harms. Grounding our study in web search query logs, we explore when system-provided suggestions might be perceived as problematic through a series of crowd-experiments where we systematically manipulate: the search query fragments provided by users, possible user search intents, and the list of query completion suggestions. To examine why query suggestions might be perceived as problematic, we contrast them to an inventory of known types of problematic suggestions. We report our observations around differences in the prevalence of a) suggestions that are problematic on their own versus b) suggestions that are problematic for the query fragment provided by a user, for both common informational needs and in the presence of web search voids-topics searched by few to no users. Our experiments surface a rich array of scenarios where suggestions are considered problematic, including due to the context in which they were surfaced. Compounded by the elusive nature of many such scenarios, the prevalence of suggestions perceived as problematic only for certain user inputs, raises concerns about blind spots due to data annotation practices that may lead to some types of problematic suggestions being overlooked.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415242
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415242
+ER  - 
+
+TY  - JOUR
+TI  - Sketchy: Drawing Inspiration from the Crowd
+AU  - Wallace, Shaun
+AU  - Le, Brendan
+AU  - Leiva, Luis A.
+AU  - Haq, Aman
+AU  - Kintisch, Ari
+AU  - Bufrem, Gabrielle
+AU  - Chang, Linda
+AU  - Huang, Jeff
+PY  - 2020
+AB  - In-person user studies show that designers draw inspiration by looking at their peers' work while sketching. To recreate this behavior in a virtual environment, we developed Sketchy, a web-based drawing application where users sketch in virtual rooms and use the "Peek'' functionality to gain ideas from their peers' sketches in real-time. To assess if "Peek'' supports individual creativity through finding inspiration, students from a Human-Computer Interaction class sketched user interface design tasks in two studies. Study 1 compares creativity measures with and without Peek between two groups of students, where self-reports reveal Peek increases satisfaction with their final sketch and better supports individual creativity. Study 2 took place in a large classroom, where 90 students, all with Peek enabled, completed different design tasks. Peeking led students to report an intention to change their sketch 18\% of the time in Study 1 and 17\% of the time in Study 2. Student designers were influenced by sketches that seem closer to completion, contain more details, and are carefully drawn. They were also about three times more likely to clear their canvas and start over if they found a sketch inspirational. Furthermore, sketches created by students with more sketching and design experience influence less experienced student designers. This work explores the directions and benefits of incorporating digital peeking to support individual creativity within a student designer's classroom experience to create more satisfactory final sketches.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415243
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415243
+ER  - 
+
+TY  - JOUR
+TI  - Information Summary for Chronic Disease Treatment: A Pediatric Hospital Case in China
+AU  - Fu, Jiaojiao
+AU  - Zhou, Yangfan
+AU  - Wang, Xin
+PY  - 2020
+AB  - The electronic medical record (EMR) systems face many challenges in supporting chronic disease treatment, especially in medical information summary. Many solutions have recently been proposed for hospitals in developed countries. However, these solutions maybe not suitable for hospitals in developing countries because their workflow and patterns may be quite different due to their resource limitations, especially in shortage of physicians. Investigating the information summary alternatives in treating chronic diseases in such hospitals can shed light on EMR system design, especially on that for developing countries. We study one of the best pediatric hospitals in China. It suffers from a severe shortage of physicians. We introduce its information summary alternative, fs. In particular, we study how and why pediatricians treat chronic diseases with the sheet. Our work unveils the intense work patterns and their corresponding information requirements of hospitals in China. We also demonstrate the characteristics of the fs and accordingly discuss how EMR systems can be optimized.
+T2  - Proc. ACM Hum.-Comput. Interact.
+DO  - 10.1145/3415248
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3415248
+ER  - 
+

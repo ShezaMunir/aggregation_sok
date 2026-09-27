@@ -1,0 +1,911 @@
+TY  - JOUR
+TI  - Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder
+AU  - Michael Bereket
+AU  - Theofanis Karaletsos
+PY  - 2023
+AB  - Generative models of observations under interventions have been a vibrant topic of interest across machine learning and the sciences in recent years. For example, in drug discovery, there is a need to model the effects of diverse interventions on cells in order to characterize unknown biological mechanisms of action. We propose the Sparse Additive Mechanism Shift Variational Autoencoder, SAMS-VAE, to combine compositionality, disentanglement, and interpretability for perturbation models. SAMS-VAE models the latent state of a perturbed sample as the sum of a local latent variable capturing sample-specific variation and sparse global variables of latent intervention effects. Crucially, SAMS-VAE sparsifies these global latent variables for individual perturbations to identify disentangled, perturbation-specific latent subspaces that are flexibly composable. We evaluate SAMS-VAE both quantitatively and qualitatively on a range of tasks using two popular single cell sequencing datasets.In order to measure perturbation-specific model-properties, we also introduce a framework for evaluation of perturbation models based on average treatment effects with links to posterior predictive checks. SAMS-VAE outperforms comparable models in terms of generalization across in-distribution and out-of-distribution tasks, including a combinatorial reasoning task under resource paucity, and yields interpretable latent structures which correlate strongly to known biological mechanisms. Our results suggest SAMS-VAE is an interesting addition to the modeling toolkit for machine learning-driven scientific discovery.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Defending against Data-Free Model Extraction by  Distributionally Robust Defensive Training
+AU  - Zhenyi Wang
+AU  - Li Shen
+AU  - Tongliang Liu
+AU  - Tiehang Duan
+AU  - Yanjun Zhu
+AU  - Donglin Zhan
+AU  - DAVID DOERMANN
+AU  - Mingchen Gao
+PY  - 2023
+AB  - Data-Free Model Extraction (DFME) aims to clone a black-box model without knowing its original training data distribution, making it much easier for attackers to steal commercial models. Defense against DFME faces several challenges: (i) effectiveness; (ii) efficiency; (iii) no prior on the attacker's query data distribution and strategy. However, existing defense methods: (1) are highly computation and memory inefficient; or (2) need strong assumptions about attack data distribution; or (3) can only delay the attack or prove a model theft after the model stealing has happened. In this work, we propose a Memory and Computation efficient defense approach, named MeCo, to prevent DFME from happening while maintaining the model utility simultaneously by distributionally robust defensive training on the target victim model. Specifically, we randomize the input so that it: (1) causes a mismatch of the knowledge distillation loss for attackers; (2) disturbs the zeroth-order gradient estimation; (3) changes the label prediction for the attack query data. Therefore, the attacker can only extract misleading information from the black-box model. Extensive experiments on defending against both decision-based and score-based DFME demonstrate that MeCo can significantly reduce the effectiveness of existing DFME methods and substantially improve running efficiency.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/0207c9ea9faf66c6e892c3fa3c167b75-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - A Scale-Invariant Sorting Criterion to Find a Causal Order in Additive Noise Models
+AU  - Alexander Reisach
+AU  - Myriam Tami
+AU  - Christof Seiler
+AU  - Antoine Chambaz
+AU  - Sebastian Weichwald
+PY  - 2023
+AB  - Additive Noise Models (ANMs) are a common model class for causal discovery from observational data. Due to a lack of real-world data for which an underlying ANM is known, ANMs with randomly sampled parameters are commonly used to simulate data for the evaluation of causal discovery algorithms. While some parameters may be fixed by explicit assumptions, fully specifying an ANM requires choosing all parameters. Reisach et al. (2021) show that, for many ANM parameter choices, sorting the variables by increasing variance yields an ordering close to a causal order and introduce ‘var-sortability’ to quantify this alignment. Since increasing variances may be unrealistic and cannot be exploited when data scales are arbitrary, ANM data are often rescaled to unit variance in causal discovery benchmarking.We show that synthetic ANM data are characterized by another pattern that is scale-invariant and thus persists even after standardization: the explainable fraction of a variable’s variance, as captured by the coefficient of determination $R^2$, tends to increase along the causal order. The result is high ‘$R^2$-sortability’, meaning that sorting the variables by increasing $R^2$ yields an ordering close to a causal order. We propose a computationally efficient baseline algorithm termed ‘$R^2$-SortnRegress’ that exploits high $R^2$-sortability and that can match and exceed the performance of established causal discovery algorithms. We show analytically that sufficiently high edge weights lead to a relative decrease of the noise contributions along causal chains, resulting in increasingly deterministic relationships and high $R^2$. We characterize $R^2$-sortability on synthetic data with different simulation parameters and find high values in common settings. Our findings reveal high $R^2$-sortability as an assumption about the data generating process relevant to causal discovery and implicit in many ANM sampling schemes. It should be made explicit, as its prevalence in real-world data is an open question. For causal discovery benchmarking, we provide implementations of $R^2$-sortability, the $R^2$-SortnRegress algorithm, and ANM simulation procedures in our library CausalDisco at https://causaldisco.github.io/CausalDisco/.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/027e86facfe7c1ea52ca1fca7bc1402b-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - InstanT: Semi-supervised Learning with Instance-dependent Thresholds
+AU  - Muyang Li
+AU  - Runze Wu
+AU  - Haoyu Liu
+AU  - Jun Yu
+AU  - Xun Yang
+AU  - Bo Han
+AU  - Tongliang Liu
+PY  - 2023
+AB  - Semi-supervised learning (SSL) has been a fundamental challenge in machine learning for decades. The primary family of SSL algorithms, known as pseudo-labeling, involves assigning pseudo-labels to confident unlabeled instances and incorporating them into the training set. Therefore, the selection criteria of confident instances are crucial to the success of SSL. Recently, there has been growing interest in the development of SSL methods that use dynamic or adaptive thresholds. Yet, these methods typically apply the same threshold to all samples, or use class-dependent thresholds for instances belonging to a certain class, while neglecting instance-level information. In this paper, we propose the study of instance-dependent thresholds, which has the highest degree of freedom compared with existing methods. Specifically, we devise a novel instance-dependent threshold function for all unlabeled instances by utilizing their instance-level ambiguity and the instance-dependent error rates of pseudo-labels, so instances that are more likely to have incorrect pseudo-labels will have higher thresholds. Furthermore, we demonstrate that our instance-dependent threshold function provides a bounded probabilistic guarantee for the correctness of the pseudo-labels it assigns.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/088d99765bc121c6df215da7d45bc4e9-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Double Auctions with Two-sided Bandit Feedback
+AU  - Soumya Basu
+AU  - Abishek Sankararaman
+PY  - 2023
+AB  - Double Auction enables decentralized transfer of goods between multiple buyers and sellers, thus underpinning functioning of many online marketplaces. Buyers and sellers compete in these markets through bidding, but do not often know their own valuation a-priori. As the allocation and pricing happens through bids, the profitability of participants, hence sustainability of such markets, depends crucially on learning respective valuations through repeated interactions. We initiate the study of Double Auction markets under bandit feedback on both buyers' and sellers' side. We show with confidence bound based bidding, and `Average Pricing' there is an efficient price discovery among the participants.  In particular, the regret on combined valuation of the buyers and the sellers -- a.k.a. the social regret -- is $O(\log(T)/\Delta)$ in $T$ rounds, where $\Delta$ is the minimum price gap. Moreover, the buyers and sellers exchanging goods attain $O(\sqrt{T})$ regret, individually. The buyers and sellers who do not benefit from exchange in turn only experience $O(\log{T}/ \Delta)$  regret individually in $T$ rounds.  We augment our upper bound by showing that $\omega(\sqrt{T})$ individual regret, and $\omega(\log{T})$ social regret is unattainable in certain Double Auction markets. Our paper is the first to provide decentralized learning algorithms in a two-sided market where \emph{both sides have uncertain preference} that need to be learned.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/0bcfb525c8f8f07ae10a93d0b2a40e00-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Understanding Deep Gradient Leakage via Inversion Influence Functions
+AU  - Haobo Zhang
+AU  - Junyuan Hong
+AU  - Yuyang Deng
+AU  - Mehrdad Mahdavi
+AU  - Jiayu Zhou
+PY  - 2023
+AB  - Deep Gradient Leakage (DGL) is a highly effective attack that recovers private training images from gradient vectors.This attack casts significant privacy challenges on distributed learning from clients with sensitive data, where clients are required to share gradients.  Defending against such attacks requires but lacks an understanding of when and how privacy leakage happens, mostly because of the black-box nature of deep networks.  In this paper, we propose a novel Inversion Influence Function (I$^2$F) that establishes a closed-form connection between the recovered images and the private gradients by implicitly solving the DGL problem.  Compared to directly solving DGL, I$^2$F is scalable for analyzing deep networks, requiring only oracle access to gradients and Jacobian-vector products.  We empirically demonstrate that I$^2$F effectively approximated the DGL generally on different model architectures, datasets, modalities, attack implementations, and perturbation-based defenses.  With this novel tool, we provide insights into effective gradient perturbation directions, the unfairness of privacy protection, and privacy-preferred model initialization.  Our codes are provided in https://github.com/illidanlab/inversion-influence-function.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/0c4dd7e3d9f528f0b4f2aca9fbcdca8d-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - DDCoT: Duty-Distinct Chain-of-Thought Prompting for Multimodal Reasoning in Language Models
+AU  - Ge Zheng
+AU  - Bin Yang
+AU  - Jiajin Tang
+AU  - Hong-Yu Zhou
+AU  - Sibei Yang
+PY  - 2023
+AB  - A long-standing goal of AI systems is to perform complex multimodal reasoning like humans. Recently, large language models (LLMs) have made remarkable strides in such multi-step reasoning on the language modality solely by leveraging the chain of thought (CoT) to mimic human thinking. However, the transfer of these advancements to multimodal contexts introduces heightened challenges, including but not limited to the impractical need for labor-intensive annotation and the limitations in terms of flexibility, generalizability, and explainability. To evoke CoT reasoning in multimodality, this work first conducts an in-depth analysis of these challenges posed by multimodality and presents two key insights: “keeping critical thinking” and “letting everyone do their jobs” in multimodal CoT reasoning. Furthermore, this study proposes a novel DDCoT prompting that maintains a critical attitude through negative-space prompting and incorporates multimodality into reasoning by first dividing the reasoning responsibility of LLMs into reasoning and recognition and then integrating the visual recognition capability of visual models into the joint reasoning process. The rationales generated by DDCoT not only improve the reasoning abilities of both large and small language models in zero-shot prompting and fine-tuning learning, significantly outperforming state-of-the-art methods but also exhibit impressive generalizability and explainability.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/108030643e640ac050e0ed5e6aace48f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Cause-Effect Inference in Location-Scale Noise Models: Maximum Likelihood vs. Independence Testing
+AU  - Xiangyu Sun
+AU  - Oliver Schulte
+PY  - 2023
+AB  - A fundamental problem of causal discovery is cause-effect inference, to learn the correct causal direction between two random variables. Significant progress has been made through modelling the effect as a function of its cause and a noise term, which allows us to leverage assumptions about the generating function class. The recently introduced heteroscedastic location-scale noise functional models (LSNMs) combine expressive power with identifiability guarantees. LSNM model selection based on maximizing likelihood achieves state-of-the-art accuracy, when the noise distributions are correctly specified. However, through an extensive empirical evaluation, we demonstrate that the accuracy deteriorates sharply when the form of the noise distribution is misspecified by the user. Our analysis shows that the failure occurs mainly when the conditional variance in the anti-causal direction is smaller than that in the causal direction. As an alternative, we find that causal model selection through residual independence testing is much more robust to noise misspecification and misleading conditional variance.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/11715d433f6f8b9106baae0df023deb3-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation
+AU  - Zhengyi Wang
+AU  - Cheng Lu
+AU  - Yikai Wang
+AU  - Fan Bao
+AU  - Chongxuan LI
+AU  - Hang Su
+AU  - Jun Zhu
+PY  - 2023
+AB  - Score distillation sampling (SDS) has shown great promise in text-to-3D generation by distilling pretrained large-scale text-to-image diffusion models, but suffers from over-saturation, over-smoothing, and low-diversity problems. In this work, we propose to model the 3D parameter as a random variable instead of a constant as in SDS and present *variational score distillation* (VSD), a principled particle-based variational framework to explain and address the aforementioned issues in text-to-3D generation. We show that SDS is a special case of VSD and leads to poor samples with both small and large CFG weights. In comparison, VSD works well with various CFG weights as ancestral sampling from diffusion models and simultaneously improves the diversity and sample quality with a common CFG weight (i.e., 7.5). We further present various improvements in the design space for text-to-3D such as distillation time schedule and density initialization, which are orthogonal to the distillation algorithm yet not well explored. Our overall approach, dubbed *ProlificDreamer*, can generate high rendering resolution (i.e., 512$\times$512) and high-fidelity NeRF with rich structure and complex effects (e.g., smoke and drops). Further, initialized from NeRF, meshes fine-tuned by VSD are meticulously detailed and photo-realistic.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/1a87980b9853e84dfb295855b425c262-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Towards Self-Interpretable Graph-Level Anomaly Detection
+AU  - Yixin Liu
+AU  - Kaize Ding
+AU  - Qinghua Lu
+AU  - Fuyi Li
+AU  - Leo Yu Zhang
+AU  - Shirui Pan
+PY  - 2023
+AB  - Graph-level anomaly detection (GLAD) aims to identify graphs that exhibit notable dissimilarity compared to the majority in a collection. However, current works primarily focus on evaluating graph-level abnormality while failing to provide meaningful explanations for the predictions, which largely limits their reliability and application scope. In this paper, we investigate a new challenging problem, explainable GLAD, where the learning objective is to predict the abnormality of each graph sample with corresponding explanations, i.e., the vital subgraph that leads to the predictions. To address this challenging problem, we propose a Self-Interpretable Graph aNomaly dETection model (SIGNET for short) that detects anomalous graphs as well as generates informative explanations simultaneously. Specifically, we first introduce the multi-view subgraph information bottleneck (MSIB) framework, serving as the design basis of our self-interpretable GLAD approach. This way SIGNET is able to not only measure the abnormality of each graph based on cross-view mutual information but also provide informative graph rationales by extracting bottleneck subgraphs from the input graph and its dual hypergraph in a self-supervised way. Extensive experiments on 16 datasets demonstrate the anomaly detection capability and self-interpretability of SIGNET.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/1c6f06863df46de009a7a41b41c95cad-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Task-Robust Pre-Training for Worst-Case Downstream Adaptation
+AU  - Jianghui Wang
+AU  - Yang Chen
+AU  - Xingyu Xie
+AU  - Cong Fang
+AU  - Zhouchen Lin
+PY  - 2023
+AB  - Pre-training has achieved remarkable success when transferred to downstream tasks. In machine learning, we care about not only the good performance of a model but also its behavior under reasonable shifts of condition. The same philosophy holds when pre-training a foundation model. However,  the foundation model may not uniformly behave well for a series of related downstream tasks. This happens, for example, when conducting mask recovery regression where the recovery ability or the training instances diverge like pattern features are extracted dominantly on pre-training, but semantic features are also required on a downstream task. This paper considers pre-training a model that guarantees a uniformly good performance over the downstream tasks. We call this goal asdownstream-task robustness.Our method first separates the upstream task into several representative ones and applies a simple minimax loss for pre-training. We then design an efficient algorithm to solve the minimax lossand prove its convergence in the convex setting. In the experiments, we show both on large-scale natural language processing and computer vision datasets our method increases the metrics on worse-case downstream tasks. Additionally, some theoretical explanations for why our loss is beneficial are provided. Specifically, we show fewer samples are inherently required for the most challenging downstream task in some cases.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/1e4322fddd833f83c855660ac65e428d-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - AttrSeg: Open-Vocabulary Semantic Segmentation via Attribute Decomposition-Aggregation
+AU  - Chaofan Ma
+AU  - Yang Yuhuan
+AU  - Chen Ju
+AU  - Fei Zhang
+AU  - Ya Zhang
+AU  - Yanfeng Wang
+PY  - 2023
+AB  - Open-vocabulary semantic segmentation is a challenging task that requires segmenting novel object categories at inference time. Recent works explore vision-language pre-training to handle this task, but suffer from unrealistic assumptions in practical scenarios, i.e., low-quality textual category names.For example, this paradigm assumes that new textual categories will be accurately and completely provided, and exist in lexicons during pre-training.However, exceptions often happen when meet with ambiguity for brief or incomplete names, new words that are not present in the pre-trained lexicons, and difficult-to-describe categories for users.To address these issues, this work proposes a novelattribute decomposition-aggregationframework,AttrSeg, inspired by human cognition in understanding new concepts. Specifically, in thedecompositionstage, we decouple class names into diverse attribute descriptions to complement semantic contexts from multiple perspectives.Two attribute construction strategies are designed: using large language models for common categories, and involving manually labelling for human-invented categories. In theaggregationstage, we group diverse attributes into an integrated global description, to form a discriminative classifier that distinguishes the target object from others. One hierarchical aggregation architecture is further proposed to achieve multi-level aggregation, leveraging the meticulously designed clustering module.The final result is obtained by computing the similarity between aggregated attributes and images embedding.To evaluate the effectiveness, we annotate three datasets with attribute descriptions, and conduct extensive experiments and ablation studies. The results show the superior performance of attribute decomposition-aggregation.We refer readers to the latest arXiv version at https://arxiv.org/abs/2309.00096.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/2093ed77c549eda95bd6f7212b735b43-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - VoxDet: Voxel Learning for Novel Instance Detection
+AU  - Bowen Li
+AU  - Jiashun Wang
+AU  - Yaoyu Hu
+AU  - Chen Wang
+AU  - Sebastian Scherer
+PY  - 2023
+AB  - Detecting unseen instances based on multi-view templates is a challenging problem due to its open-world nature. Traditional methodologies, which primarily rely on $2 \mathrm{D}$ representations and matching techniques, are often inadequate in handling pose variations and occlusions. To solve this, we introduce VoxDet, a pioneer 3D geometry-aware framework that fully utilizes the strong 3D voxel representation and reliable voxel matching mechanism. VoxDet first ingeniously proposes template voxel aggregation (TVA) module, effectively transforming multi-view 2D images into 3D voxel features. By leveraging associated camera poses, these features are aggregated into a compact 3D template voxel. In novel instance detection, this voxel representation demonstrates heightened resilience to occlusion and pose variations. We also discover that a $3 \mathrm{D}$ reconstruction objective helps to pre-train the 2D-3D mapping in TVA. Second, to quickly align with the template voxel, VoxDet incorporates a Query Voxel Matching (QVM) module. The 2D queries are first converted into their voxel representation with the learned 2D-3D mapping. We find that since the 3D voxel representations encode the geometry, we can first estimate the relative rotation and then compare the aligned voxels, leading to improved accuracy and efficiency. In addition to method, we also introduce the first instance detection benchmark, RoboTools, where 20 unique instances are video-recorded with camera extrinsic. RoboTools also provides 24 challenging cluttered scenarios with more than $9 \mathrm{k}$ box annotations. Exhaustive experiments are conducted on the demanding LineMod-Occlusion, YCB-video, and RoboTools benchmarks, where VoxDet outperforms various $2 \mathrm{D}$ baselines remarkably with faster speed. To the best of our knowledge, VoxDet is the first to incorporate implicit 3D knowledge for 2D novel instance detection tasks.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/21f1c5bbf2519321c1bee9bfa9edcd46-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Towards Last-layer Retraining for Group Robustness with Fewer Annotations
+AU  - Tyler LaBonte
+AU  - Vidya Muthukumar
+AU  - Abhishek Kumar
+PY  - 2023
+AB  - Empirical risk minimization (ERM) of neural networks is prone to over-reliance on spurious correlations and poor generalization on minority groups. The recent deep feature reweighting (DFR) technique achieves state-of-the-art group robustness via simple last-layer retraining, but it requires held-out group and class annotations to construct a group-balanced reweighting dataset. In this work, we examine this impractical requirement and find that last-layer retraining can be surprisingly effective with no group annotations (other than for model selection) and only a handful of class annotations. We first show that last-layer retraining can greatly improve worst-group accuracy even when the reweighting dataset has only a small proportion of worst-group data. This implies a "free lunch" where holding out a subset of training data to retrain the last layer can substantially outperform ERM on the entire dataset with no additional data, annotations, or computation for training. To further improve group robustness, we introduce a lightweight method called selective last-layer finetuning (SELF), which constructs the reweighting dataset using misclassifications or disagreements. Our experiments present the first evidence that model disagreement upsamples worst-group data, enabling SELF to nearly match DFR on four well-established benchmarks across vision and language tasks with no group annotations and less than 3% of the held-out class annotations.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/265bee74aee86df77e8e36d25e786ab5-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Diffusion-Based Probabilistic Uncertainty Estimation for Active Domain Adaptation
+AU  - Zhekai Du
+AU  - Jingjing Li
+PY  - 2023
+AB  - Active Domain Adaptation (ADA) has emerged as an attractive technique for assisting domain adaptation by actively annotating a small subset of target samples. Most ADA methods focus on measuring the target representativeness beyond traditional active learning criteria to handle the domain shift problem, while leaving the uncertainty estimation to be performed by an uncalibrated deterministic model. In this work, we introduce a probabilistic framework that captures both data-level and prediction-level uncertainties beyond a point estimate. Specifically, we use variational inference to approximate the joint posterior distribution of latent representation and model prediction. The variational objective of labeled data can be formulated by a variational autoencoder and a latent diffusion classifier, and the objective of unlabeled data can be implemented in a knowledge distillation framework. We utilize adversarial learning to ensure an invariant latent space. The resulting diffusion classifier enables efficient sampling of all possible predictions for each individual to recover the predictive distribution. We then leverage a t-test-based criterion upon the sampling and select informative unlabeled target samples based on the p-value, which encodes both prediction variability and cross-category ambiguity. Experiments on both ADA and Source-Free ADA settings show that our method provides more calibrated predictions than previous ADA methods and achieves favorable performance on three domain adaptation datasets.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/374050dc3f211267bd6bf0ea24eae184-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - FreeMask: Synthetic Images with Dense Annotations Make Stronger Segmentation Models
+AU  - Lihe Yang
+AU  - Xiaogang Xu
+AU  - Bingyi Kang
+AU  - Yinghuan Shi
+AU  - Hengshuang Zhao
+PY  - 2023
+AB  - Semantic segmentation has witnessed tremendous progress due to the proposal of various advanced network architectures. However, they are extremely hungry for delicate annotations to train, and the acquisition is laborious and unaffordable. Therefore, we present FreeMask in this work, which resorts to synthetic images from generative models to ease the burden of both data collection and annotation procedures. Concretely, we first synthesize abundant training images conditioned on the semantic masks provided by realistic datasets. This yields extra well-aligned image-mask training pairs for semantic segmentation models. We surprisingly observe that, solely trained with synthetic images, we already achieve comparable performance with real ones (e.g., 48.3 vs. 48.5 mIoU on ADE20K, and 49.3 vs. 50.5 on COCO-Stuff). Then, we investigate the role of synthetic images by joint training with real images, or pre-training for real images. Meantime, we design a robust filtering principle to suppress incorrectly synthesized regions. In addition, we propose to inequally treat different semantic masks to prioritize those harder ones and sample more corresponding synthetic images for them. As a result, either jointly trained or pre-trained with our filtered and re-sampled synthesized images, segmentation models can be greatly enhanced, e.g., from 48.7 to 52.0 on ADE20K.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/3ba7560b4c3e66d760fbdd472cf4a5a9-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Segment Everything Everywhere All at Once
+AU  - Xueyan Zou
+AU  - Jianwei Yang
+AU  - Hao Zhang
+AU  - Feng Li
+AU  - Linjie Li
+AU  - Jianfeng Wang
+AU  - Lijuan Wang
+AU  - Jianfeng Gao
+AU  - Yong Jae Lee
+PY  - 2023
+AB  - In this work, we present SEEM, a promotable and interactive model for segmenting everything everywhere all at once in an image. In SEEM, we propose a novel and versatile decoding mechanism that enables diverse prompting for all types of segmentation tasks, aiming at a universal interface that behaves like large language models (LLMs). More specifically, SEEM is designed with four desiderata:i) Versatility. We introduce a new visual prompt to unify different spatial queries including points, boxes, scribbles, and masks, which can further generalize to a different referring image; ii) Compositionality. We learn a joint visual-semantic space between text and visual prompts, which facilitates the dynamic composition of two prompt types required for various segmentation tasks, as shown in Fig. 1;iii) Interactivity. We further incorporate learnable memory prompts into the decoder to retain segmentation history through mask-guided cross-attention from the decoder to image features; iv) Semantic awareness. We use a text encoder to encode text queries and mask labels into the same semantic space for open-vocabulary segmentation. We conduct a comprehensive empirical study to validate the effectiveness of SEEM across diverse segmentation tasks. The results demonstrate that SEEM exhibits robust generalizing to unseen user intents as it learns to compose prompts of different types in a unified representation space. Our approach achieves competitive performance on interactive segmentation, generic segmentation, referring segmentation, and video object segmentation on 9 datasets with minimum 1/100 supervision in a single set of weights.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/3ef61f7e4afacf9a2c5b71c726172b86-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - No-Regret Learning with Unbounded Losses: The Case of Logarithmic Pooling
+AU  - Eric Neyman
+AU  - Tim Roughgarden
+PY  - 2023
+AB  - For each of $T$ time steps, $m$ experts report probability distributions over $n$ outcomes; we wish to learn to aggregate these forecasts in a way that attains a no-regret guarantee. We focus on the fundamental and practical aggregation method known as *logarithmic pooling* -- a weighted average of log odds -- which is in a certain sense the optimal choice of pooling method if one is interested in minimizing log loss (as we take to be our loss function). We consider the problem of learning the best set of parameters (i.e. expert weights) in an online adversarial setting.  We assume (by necessity) that the adversarial choices of outcomes and forecasts are consistent, in the sense that experts report calibrated forecasts. Imposing this constraint creates a (to our knowledge) novel semi-adversarial setting in which the adversary retains a large amount of flexibility. In this setting, we present an algorithm based on online mirror descent that learns expert weights in a way that attains $O(\sqrt{T} \log T)$ expected regret as compared with the best weights in hindsight.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/44ecfb60950e868a13172b935b7964a9-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Regularization properties of adversarially-trained linear regression
+AU  - Antonio Ribeiro
+AU  - Dave Zachariah
+AU  - Francis R. Bach
+AU  - Thomas Schön
+PY  - 2023
+AB  - State-of-the-art machine learning models can be vulnerable to very small input perturbations that are adversarially constructed. Adversarial training is an effective approach to defend against it. Formulated as a min-max problem, it searches for the best solution when the training data were corrupted by the worst-case attacks. Linear models are among the simple models where vulnerabilities can be observed and are the focus of our study. In this case, adversarial training leads to a convex optimization problem which can be formulated as the minimization of a finite sum. We provide a comparative analysis between the solution of adversarial training in linear regression and other regularization methods. Our main findings are that: (A) Adversarial training yields the  minimum-norm  interpolating solution in the overparameterized regime (more parameters than data), as long as the maximum disturbance radius is smaller than a threshold. And, conversely, the minimum-norm interpolator is the solution to adversarial training with a given radius. (B) Adversarial training can be equivalent to parameter shrinking methods (ridge regression and Lasso). This happens in the underparametrized region, for an appropriate choice of adversarial radius and zero-mean symmetrically distributed covariates. (C) For $\ell_\infty$-adversarial training---as in square-root Lasso---the choice of adversarial radius for optimal bounds does not depend on the additive noise variance. We confirm our theoretical findings with numerical examples.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/4aa13186c795a52ba88f5b822f4b77eb-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - SiT Dataset: Socially Interactive Pedestrian Trajectory Dataset for Social Navigation Robots
+AU  - Jong Wook Bae
+AU  - Jungho Kim
+AU  - Junyong Yun
+AU  - Changwon Kang
+AU  - Jeongseon Choi
+AU  - Chanhyeok Kim
+AU  - Junho Lee
+AU  - Jungwook Choi
+AU  - Jun Won Choi
+PY  - 2023
+AB  - To ensure secure and dependable mobility in environments shared by humans and robots, social navigation robots should possess the capability to accurately perceive and predict the trajectories of nearby pedestrians. In this paper, we present a novel dataset of pedestrian trajectories, referred to as Social Interactive Trajectory (SiT) dataset, which can be used to train pedestrian detection, tracking, and trajectory prediction models needed to design social navigation robots. Our dataset includes sequential raw data captured by two 3D LiDARs and five cameras covering a 360-degree view, two inertial measurement unit (IMU) sensors, and real-time kinematic positioning (RTK), as well as annotations including 2D & 3D boxes, object classes, and object IDs. Thus far, various human trajectory datasets have been introduced to support the development of pedestrian motion forecasting models. Our SiT dataset differs from these datasets in the following two respects. First, whereas the pedestrian trajectory data in other datasets was obtained from static scenes, our data was collected while the robot navigates in a crowded environment, capturing human-robot interactive scenarios in motion. Second, our dataset has been carefully organized to facilitate training and evaluation of end-to-end prediction models encompassing 3D detection, 3D multi-object tracking, and trajectory prediction. This design allows for an end-to-end unified modular approach across different tasks. We have introduced a comprehensive benchmark for assessing models across all aforementioned tasks, and have showcased the performance of multiple baseline models as part of our evaluation. Our dataset provides a strong foundation for future research in pedestrian trajectory prediction, which could expedite the development of safe and agile social navigation robots. The SiT dataset, devkit, and pre-trained models are publicly released at: https://spalaboratory.github.io/SiT
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/4d6a000c216974f59e597bc878cd6325-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset
+AU  - Jing Lin
+AU  - Ailing Zeng
+AU  - Shunlin Lu
+AU  - Yuanhao Cai
+AU  - Ruimao Zhang
+AU  - Haoqian Wang
+AU  - Lei Zhang
+PY  - 2023
+AB  - In this paper, we present Motion-X, a large-scale 3D expressive whole-body motion dataset. Existing motion datasets predominantly contain body-only poses, lacking facial expressions, hand gestures, and fine-grained pose descriptions. Moreover, they are primarily collected from limited laboratory scenes with textual descriptions manually labeled, which greatly limits their scalability. To overcome these limitations, we develop a whole-body motion and text annotation pipeline, which can automatically annotate motion from either single- or multi-view videos and provide comprehensive semantic labels for each video and fine-grained whole-body pose descriptions for each frame. This pipeline is of high precision, cost-effective, and scalable for further research. Based on it, we construct Motion-X, which comprises 15.6M precise 3D whole-body pose annotations (i.e., SMPL-X) covering 81.1K motion sequences from massive scenes. Besides, Motion-X provides 15.6M frame-level whole-body pose descriptions and 81.1K sequence-level semantic labels. Comprehensive experiments demonstrate the accuracy of the annotation pipeline and the significant benefit of Motion-X in enhancing expressive, diverse, and natural motion generation, as well as 3D whole-body human mesh recovery.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/4f8e27f6036c1d8b4a66b5b3a947dd7b-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Active Learning for Semantic Segmentation with Multi-class Label Query
+AU  - Sehyun Hwang
+AU  - Sohyun Lee
+AU  - Hoyoung Kim
+AU  - Minhyeon Oh
+AU  - Jungseul Ok
+AU  - Suha Kwak
+PY  - 2023
+AB  - This paper proposes a new active learning method for semantic segmentation. The core of our method lies in a new annotation query design. It samples informative local image regions ($\textit{e.g.}$, superpixels), and for each of such regions, asks an oracle for a multi-hot vector indicating all classes existing in the region. This multi-class labeling strategy is substantially more efficient than existing ones like segmentation, polygon, and even dominant class labeling in terms of annotation time per click. However, it introduces the class ambiguity issue in training as it assigns partial labels ($\textit{i.e.}$, a set of candidate classes) to individual pixels. We thus propose a new algorithm for learning semantic segmentation while disambiguating the partial labels in two stages. In the first stage, it trains a segmentation model directly with the partial labels through two new loss functions motivated by partial label learning and multiple instance learning. In the second stage, it disambiguates the partial labels by generating pixel-wise pseudo labels, which are used for supervised learning of the model. Equipped with a new acquisition function dedicated to the multi-class labeling, our method outperforms previous work on Cityscapes and PASCAL VOC 2012 while spending less annotation cost. Our code and results are available at [https://github.com/sehyun03/MulActSeg](https://github.com/sehyun03/MulActSeg).
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/559a0998fab1d19b80e7e43a5852401c-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Convergent Bregman Plug-and-Play Image Restoration for Poisson Inverse Problems
+AU  - Samuel Hurault
+AU  - Ulugbek Kamilov
+AU  - Arthur Leclaire
+AU  - Nicolas Papadakis
+PY  - 2023
+AB  - Plug-and-Play (PnP) methods are efficient iterative algorithms for solving ill-posed image inverse problems. PnP methods are obtained by using deep Gaussian denoisers instead of the proximal operator or the gradient-descent step within proximal algorithms. Current PnP schemes rely on data-fidelity terms that have either Lipschitz gradients or closed-form proximal operators, which is not applicable to Poisson inverse problems. Based on the observation that the Gaussian noise is not the adequate noise model in this setting, we propose to generalize PnP using the Bregman Proximal Gradient (BPG) method. BPG replaces the Euclidean distance with a Bregman divergence that can better capture the smoothness properties of the problem. We introduce the Bregman Score Denoiser specifically parametrized and trained for the new Bregman geometry and prove that it corresponds to the proximal operator of a nonconvex potential. We propose two PnP algorithms based on the Bregman Score Denoiser for solving Poisson inverse problems. Extending the convergence results of BPG in the nonconvex settings, we show that the proposed methods converge, targeting stationary points of an explicit global functional. Experimental evaluations conducted on various Poisson inverse problems validate the convergence results and showcase effective restoration performance.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/56db53e53db1b29ae658e53fb764f067-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - A Measure-Theoretic Axiomatisation of Causality
+AU  - Junhyung Park
+AU  - Simon Buchholz
+AU  - Bernhard Schölkopf
+AU  - Krikamol Muandet
+PY  - 2023
+AB  - Causality is a central concept in a wide range of research areas, yet there is still no universally agreed axiomatisation of causality. We view causality both as an extension of probability theory and as a study of what happens when one intervenes on a system, and argue in favour of taking Kolmogorov's measure-theoretic axiomatisation of probability as the starting point towards an axiomatisation of causality. To that end, we propose the notion of a causal space, consisting of a probability space along with a collection of transition probability kernels, called causal kernels, that encode the causal information of the space. Our proposed framework is not only rigorously grounded in measure theory, but it also sheds light on long-standing limitations of existing frameworks including, for example, cycles, latent variables and stochastic processes.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/5aadf1e309cc03cab3ec35afb7c9d0c8-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Relax, it doesn’t matter how you get there: A new self-supervised approach for multi-timescale behavior analysis
+AU  - Mehdi Azabou
+AU  - Michael Mendelson
+AU  - Nauman Ahad
+AU  - Maks Sorokin
+AU  - Shantanu Thakoor
+AU  - Carolina Urzay
+AU  - Eva Dyer
+PY  - 2023
+AB  - Unconstrained and natural  behavior consists of dynamics that are complex and  unpredictable, especially when trying to predict what will happen  multiple steps into the future. While some success has been found in building representations of animal behavior under constrained or simplified task-based conditions, many of these models cannot be applied to free and naturalistic settings where behavior becomes increasingly hard to model. In this work, we develop a multi-task representation learning model for animal behavior that combines two novel components: (i) an action-prediction objective that aims to predict the  distribution of actions over future timesteps, and (ii) a multi-scale architecture that builds separate latent spaces to accommodate short- and long-term dynamics. After demonstrating the ability of the method to build representations of both local and global dynamics in robots in varying environments and terrains, we apply our method to the MABe 2022 Multi-Agent Behavior challenge, where our model ranks first overall on both mice and fly benchmarks. In all of these cases, we show that our model can build representations that capture the many different factors that drive behavior and solve a wide range of downstream tasks.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/5aad86aa2a3c00b70c71e19bc4780319-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Label-efficient Segmentation via Affinity Propagation
+AU  - Wentong Li
+AU  - Yuqian Yuan
+AU  - Song Wang
+AU  - Wenyu Liu
+AU  - Dongqi Tang
+AU  - Jian liu
+AU  - Jianke Zhu
+AU  - Lei Zhang
+PY  - 2023
+AB  - Weakly-supervised segmentation with label-efficient sparse annotations has attracted increasing research attention to reduce the cost of laborious pixel-wise labeling process, while the pairwise affinity modeling techniques play an essential role in this task. Most of the existing approaches focus on using the local appearance kernel to model the neighboring pairwise potentials. However, such a local operation fails to capture the long-range dependencies and ignores the  topology of objects. In this work, we formulate the affinity modeling as an affinity propagation process, and propose a local and a global pairwise affinity terms to generate accurate soft pseudo labels. An efficient algorithm is also developed to reduce significantly the computational cost. The proposed approach can be conveniently plugged into existing segmentation networks. Experiments on three typical label-efficient segmentation tasks, i.e. box-supervised instance segmentation, point/scribble-supervised semantic segmentation and CLIP-guided semantic segmentation, demonstrate the superior performance of the proposed approach.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/5f6fae52f3b62c3334e288e3bc58230d-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - SimMTM: A Simple Pre-Training Framework for Masked Time-Series Modeling
+AU  - Jiaxiang Dong
+AU  - Haixu Wu
+AU  - Haoran Zhang
+AU  - Li Zhang
+AU  - Jianmin Wang
+AU  - Mingsheng Long
+PY  - 2023
+AB  - Time series analysis is widely used in extensive areas. Recently, to reduce labeling expenses and benefit various tasks, self-supervised pre-training has attracted immense interest. One mainstream paradigm is masked modeling, which successfully pre-trains deep models by learning to reconstruct the masked content based on the unmasked part. However, since the semantic information of time series is mainly contained in temporal variations, the standard way of randomly masking a portion of time points will seriously ruin vital temporal variations of time series, making the reconstruction task too difficult to guide representation learning. We thus present SimMTM, a Simple pre-training framework for Masked Time-series Modeling. By relating masked modeling to manifold learning, SimMTM proposes to recover masked time points by the weighted aggregation of multiple neighbors outside the manifold, which eases the reconstruction task by assembling ruined but complementary temporal variations from multiple masked series. SimMTM further learns to uncover the local structure of the manifold, which is helpful for masked modeling. Experimentally, SimMTM achieves state-of-the-art fine-tuning performance compared to the most advanced time series pre-training methods in two canonical time series analysis tasks: forecasting and classification, covering both in- and cross-domain settings.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/5f9bfdfe3685e4ccdbc0e7fb29cccf2a-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
+AU  - Yann Dubois
+AU  - Chen Xuechen Li
+AU  - Rohan Taori
+AU  - Tianyi Zhang
+AU  - Ishaan Gulrajani
+AU  - Jimmy Ba
+AU  - Carlos Guestrin
+AU  - Percy Liang
+AU  - Tatsunori B Hashimoto
+PY  - 2023
+AB  - Large language models (LLMs) such as ChatGPT have seen widespread adoption due to their ability to follow user instructions well.Developing these LLMs involves a complex yet poorly understood workflow requiring training with human feedback. Replicating and understanding this instruction-following process faces three major challenges: the high cost of data collection, the lack of trustworthy evaluation, and the absence of reference method implementations. We address these bottlenecks with AlpacaFarm, a simulator that enables research and development for learning from feedback at a low cost. First, we design LLM based simulator for human feedback that is 45x cheaper than crowdworkers and displays high agreement with humans. Second, we identify an evaluation dataset representative of real-world instructions and propose an automatic evaluation procedure. Third, we contribute reference implementations for several methods (PPO, best-of-n, expert iteration, among others) that learn from pairwise feedback. Finally, as an end-to-end validation of AlpacaFarm, we train and evaluate eleven models on 10k pairs of human feedback and show that rankings of models trained in AlpacaFarm match rankings of models trained on human data. As a demonstration of the research possible in AlpacaFarm, we find that methods that use a reward model can substantially improve over supervised fine-tuning and that our reference PPO implementation leads to a +10% win-rate improvement against Davinci003.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/5fc47800ee5b30b8777fdd30abcaaf3b-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Consensus and Subjectivity of Skin Tone Annotation for ML Fairness
+AU  - Candice Schumann
+AU  - Femi Olanubi
+AU  - Auriel Wright
+AU  - Ellis Monk
+AU  - Courtney Heldreth
+AU  - Susanna Ricco
+PY  - 2023
+AB  - Understanding different human attributes and how they affect model behavior may become a standard need for all model creation and usage, from traditional computer vision tasks to the newest multimodal generative AI systems. In computer vision specifically, we have relied on datasets augmented with perceived attribute signals (eg, gender presentation, skin tone, and age) and benchmarks enabled by these datasets. Typically labels for these tasks come from human annotators. However, annotating attribute signals, especially skin tone, is a difficult and subjective task. Perceived skin tone is affected by technical factors, like lighting conditions, and social factors that shape an annotator's lived experience.This paper examines the subjectivity of skin tone annotation through a series of annotation experiments using the Monk Skin Tone (MST) scale~\cite{Monk2022Monk}, a small pool of professional photographers, and a much larger pool of trained crowdsourced annotators. Along with this study we release the Monk Skin Tone Examples (MST-E) dataset, containing 1515 images and 31 videos spread across the full MST scale. MST-E is designed to help train human annotators to annotate MST effectively.Our study shows that annotators can reliably annotate skin tone in a way that aligns with an expert in the MST scale, even under challenging environmental conditions. We also find evidence that annotators from different geographic regions rely on different mental models of MST categories resulting in annotations that systematically vary across regions. Given this, we advise practitioners to use a diverse set of annotators and a higher replication count for each image when annotating skin tone for fairness research.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/60d25b3210c92f5ba2002a8e1f1adf1c-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Complex Query Answering on Eventuality Knowledge Graph with Implicit Logical Constraints
+AU  - Jiaxin Bai
+AU  - Xin Liu
+AU  - Weiqi Wang
+AU  - Chen Luo
+AU  - Yangqiu Song
+PY  - 2023
+AB  - Querying knowledge graphs (KGs) using deep learning approaches can naturally leverage the reasoning and generalization ability to learn to infer better answers. Traditional neural complex query answering (CQA) approaches mostly work on entity-centric KGs. However, in the real world, we also need to make logical inferences about events, states, and activities (i.e., eventualities or situations) to push learning systems from System I to System II, as proposed by Yoshua Bengio. Querying logically from an EVentuality-centric KG (EVKG) can naturally provide references to such kind of intuitive and logical inference. Thus, in this paper, we propose a new framework to leverage neural methods to answer complex logical queries based on an EVKG, which can satisfy not only traditional first-order logic constraints but also implicit logical constraints over eventualities concerning their occurrences and orders. For instance, if we know thatFood is badhappens beforePersonX adds soy sauce, thenPersonX adds soy sauceis unlikely to be the cause ofFood is baddue to implicit temporal constraint. To facilitate consistent reasoning on EVKGs, we propose Complex Eventuality Query Answering (CEQA), a more rigorous definition of CQA that considers the implicit logical constraints governing the temporal order and occurrence of eventualities. In this manner, we propose to leverage theorem provers for constructing benchmark datasets to ensure the answers satisfy implicit logical constraints. We also propose a Memory-Enhanced Query Encoding (MEQE) approach to significantly improve the performance of state-of-the-art neural query encoders on the CEQA task.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/6174c67b136621f3f2e4a6b1d3286f6b-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - From Pixels to UI Actions: Learning to Follow Instructions via Graphical User Interfaces
+AU  - Peter Shaw
+AU  - Mandar Joshi
+AU  - James Cohan
+AU  - Jonathan Berant
+AU  - Panupong Pasupat
+AU  - Hexiang Hu
+AU  - Urvashi Khandelwal
+AU  - Kenton Lee
+AU  - Kristina N Toutanova
+PY  - 2023
+AB  - Much of the previous work towards digital agents for graphical user interfaces (GUIs) has relied on text-based representations (derived from HTML or other structured data sources), which are not always readily available. These input representations have been often coupled with custom, task-specific action spaces.  This paper focuses on creating agents that interact with the digital world using the same conceptual interface that humans commonly use — via pixel-based screenshots and a generic action space corresponding to keyboard and mouse actions. Building upon recent progress in pixel-based pretraining, we show, for the first time, that it is possible for such agents to outperform human crowdworkers on the MiniWob++ benchmark of GUI-based instruction following tasks.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/6c52a8a4fadc9129c6e1d1745f2dfd0f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - A Causal Framework for Decomposing Spurious Variations
+AU  - Drago Plecko
+AU  - Elias Bareinboim
+PY  - 2023
+AB  - One of the fundamental challenges found throughout the data sciences is to explain why things happen in specific ways, or through which mechanisms a certain variable $X$ exerts influences over another variable $Y$. In statistics and machine learning, significant efforts have been put into developing machinery to estimate correlations across variables efficiently. In causal inference, a large body of literature is concerned with the decomposition of causal effects under the rubric of mediation analysis. However, many variations are spurious in nature, including different phenomena throughout the applied sciences. Despite the statistical power to estimate correlations and the identification power to decompose causal effects, there is still little understanding of the properties of spurious associations and how they can be decomposed in terms of the underlying causal mechanisms. In this manuscript, we develop formal tools for decomposing spurious variations in both Markovian and Semi-Markovian models. We prove the first results that allow a non-parametric decomposition of spurious effects and provide sufficient conditions for the identification of such decompositions. The described approach has several applications, ranging from explainable and fair AI to questions in epidemiology and medicine, and we empirically demonstrate its use.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/6cda6dae05ae5e42ea78be85d5a26f77-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Sample Complexity of Forecast Aggregation
+AU  - Tao Lin
+AU  - Yiling Chen
+PY  - 2023
+AB  - We consider a Bayesian forecast aggregation model where $n$ experts, after observing private signals about an unknown binary event, report their posterior beliefs about the event to a principal, who then aggregates the reports into a single prediction for the event. The signals of the experts and the outcome of the event follow a joint distribution that is unknown to the principal, but the principal has access to i.i.d. "samples" from the distribution, where each sample is a tuple of the experts' reports (not signals) and the realization of the event. Using these samples, the principal aims to find an $\varepsilon$-approximately optimal aggregator, where optimality is measured in terms of the expected squared distance between the aggregated prediction and the realization of the event. We show that the sample complexity of this problem is at least $\tilde \Omega(m^{n-2} / \varepsilon)$ for arbitrary discrete distributions, where $m$ is the size of each expert's signal space.  This sample complexity grows exponentially in the number of experts $n$. But, if the experts' signals are independent conditioned on the realization of the event, then the sample complexity is significantly reduced, to $\tilde O(1 / \varepsilon^2)$, which does not depend on $n$. Our results can be generalized to non-binary events.  The proof of our results uses a reduction from the distribution learning problem and reveals the fact that forecast aggregation is almost as difficult as distribution learning.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/70de9e3948645a1be2de657f14d85c6d-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - AbdomenAtlas-8K: Annotating 8,000 CT Volumes for Multi-Organ Segmentation in Three Weeks
+AU  - Chongyu Qu
+AU  - Tiezheng Zhang
+AU  - Hualin Qiao
+AU  - jie liu
+AU  - Yucheng Tang
+AU  - Alan L. Yuille
+AU  - Zongwei Zhou
+PY  - 2023
+AB  - Annotating medical images, particularly for organ segmentation, is laborious and time-consuming. For example, annotating an abdominal organ requires an estimated rate of 30-60 minutes per CT volume based on the expertise of an annotator and the size, visibility, and complexity of the organ. Therefore, publicly available datasets for multi-organ segmentation are often limited in data size and organ diversity. This paper proposes an active learning procedure to expedite the annotation process for organ segmentation and creates the largest multi-organ dataset (by far) with the spleen, liver, kidneys, stomach, gallbladder, pancreas, aorta, and IVC annotated in 8,448 CT volumes, equating to 3.2 million slices. The conventional annotation methods would take an experienced annotator up to 1,600 weeks (or roughly 30.8 years) to complete this task. In contrast, our annotation procedure has accomplished this task in three weeks (based on an 8-hour workday, five days a week) while maintaining a similar or even better annotation quality. This achievement is attributed to three unique properties of our method: (1) label bias reduction using multiple pre-trained segmentation models, (2) effective error detection in the model predictions, and (3) attention guidance for annotators to make corrections on the most salient errors. Furthermore, we summarize the taxonomy of common errors made by AI algorithms and annotators. This allows for continuous improvement of AI and annotations, significantly reducing the annotation costs required to create large-scale datasets for a wider variety of medical imaging tasks. Code and dataset are available at https://github.com/MrGiovanni/AbdomenAtlas
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/7331077e0449e94a91370c46b4f80f57-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Tracr: Compiled Transformers as a Laboratory for Interpretability
+AU  - David Lindner
+AU  - Janos Kramar
+AU  - Sebastian Farquhar
+AU  - Matthew Rahtz
+AU  - Tom McGrath
+AU  - Vladimir Mikulik
+PY  - 2023
+AB  - We show how to "compile" human-readable programs into standard decoder-only transformer models. Our compiler, Tracr, generates models with known structure. This structure can be used to design experiments. For example, we use it to study "superposition" in transformers that execute multi-step algorithms. Additionally, the known structure of Tracr-compiled models can serve asground-truthfor evaluating interpretability methods. Commonly, because the "programs" learned by transformers are unknown it is unclear whether an interpretation succeeded. We demonstrate our approach by implementing and examining programs including computing token frequencies, sorting, and parenthesis checking. We provide an open-source implementation of Tracr at https://github.com/google-deepmind/tracr.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/771155abaae744e08576f1f3b4b7ac0d-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Scientific Document Retrieval using Multi-level Aspect-based Queries
+AU  - Jianyou (Andre) Wang
+AU  - Kaicheng Wang
+AU  - Xiaoyue Wang
+AU  - Prudhviraj Naidu
+AU  - Leon Bergen
+AU  - Ramamohan Paturi
+PY  - 2023
+AB  - In scientific research, the ability to effectively retrieve relevant documents based on complex, multifaceted queries is critical. Existing evaluation datasets for this task are limited, primarily due to the high costs and effort required to annotate resources that effectively represent complex queries. To address this, we propose a novel task,  $\textbf{S}$cientific $\textbf{Do}$cument $\textbf{R}$etrieval using $\textbf{M}$ulti-level $\textbf{A}$spect-based qu$\textbf{E}$ries (DORIS-MAE), which is designed to handle the complex nature of user queries in scientific research. We developed a benchmark dataset within the field of computer science, consisting of 100 human-authored complex query cases. For each complex query, we assembled a collection of 100 relevant documents and produced annotated relevance scores for ranking them. Recognizing the significant labor of expert annotation, we also introduce Anno-GPT, a scalable framework for evaluating the viability of Large Language Models (LLMs) such as ChatGPT-3.5 for expert-level dataset annotation tasks. The application of Anno-GPT to annotate the DORIS-MAE dataset resulted in a 500x reduction in cost, without compromising quality. Furthermore, due to the multi-tiered structure of these complex queries, our DORIS-MAE dataset can be extended to over 4,000 sub-query test cases without requiring additional annotation. We evaluated 17 recent retrieval methods on DORIS-MAE, observing notable performance drops compared to traditional datasets. This highlights DORIS-MAE's challenges and the need for better approaches to handle complex, multifaceted queries in scientific research. Our dataset and codebase are available at https://github.com/Real-Doris-Mae/Doris-Mae-Dataset .
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/78f9c04bdcb06f1ada3902912d8b64ba-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - TMT-VIS: Taxonomy-aware Multi-dataset Joint Training for Video Instance Segmentation
+AU  - Rongkun Zheng
+AU  - Lu Qi
+AU  - Xi Chen
+AU  - Yi Wang
+AU  - Kun Wang
+AU  - Yu Qiao
+AU  - Hengshuang Zhao
+PY  - 2023
+AB  - Training on large-scale datasets can boost the performance of video instance segmentation while the annotated datasets for VIS are hard to scale up due to the high labor cost. What we possess are numerous isolated filed-specific datasets, thus, it is appealing to jointly train models across the aggregation of datasets to enhance data volume and diversity. However, due to the heterogeneity in category space, as mask precision increase with the data volume, simply utilizing multiple datasets will dilute the attention of models on different taxonomy. Thus, increasing the data scale and enriching taxonomy space while improving classification precision is important. In this work, we analyze that providing extra taxonomy information can help models concentrate on specific taxonomy, and propose our model named Taxonomy-aware Multi-dataset Joint Training for Video Instance Segmentation (TMT-VIS) to address this vital challenge. Specifically, we design a two-stage taxonomy aggregation module that first compiles taxonomy information from input videos and then aggregates these taxonomy priors into instance queries before the transformer decoder. We conduct extensive experimental evaluations on four popular and challenging benchmarks, including YouTube-VIS 2019, YouTube-VIS 2021, OVIS, and UVO. Our model shows significant improvement over the baseline solutions, and sets new state-of-the-art records on all these benchmarks. These appealing and encouraging results demonstrate the effectiveness and generality of our proposed approach. The code and trained models will be publicly available.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/7a62d9a4c03377d1175b8859b4cc16d4-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Speculative Decoding with Big Little Decoder
+AU  - Sehoon Kim
+AU  - Karttikeya Mangalam
+AU  - Suhong Moon
+AU  - Jitendra Malik
+AU  - Michael W. Mahoney
+AU  - Amir Gholami
+AU  - Kurt Keutzer
+PY  - 2023
+AB  - The recent emergence of Large Language Models based on the Transformer architecture has enabled dramatic advancements in the field of Natural Language Processing. However, these models have long inference latency, which limits their deployment and makes them prohibitively expensive for various real-time applications. The inference latency is further exacerbated by autoregressive generative tasks, as models need to run iteratively to generate tokens sequentially without leveraging token-level parallelization. To address this, we propose Big Little Decoder (BiLD), a framework that can improve inference efficiency and latency for a wide range of text generation applications. The BiLD framework contains two models with different sizes that collaboratively generate text. The small model runs autoregressively to generate text with a low inference cost, and the large model is only invoked occasionally to refine the small model’s inaccurate predictions in a non-autoregressive manner. To coordinate the small and large models, BiLD introduces two simple yet effective policies: (1) the fallback policy that determines when to hand control over to the large model; and (2) the rollback policy that determines when the large model needs to correct the small model's inaccurate predictions. To evaluate our framework across different tasks and models, we apply BiLD to various text generation scenarios encompassing machine translation on IWSLT 2017 De-En and WMT 2014 De-En, and summarization on XSUM and CNN/DailyMail. On an NVIDIA T4 GPU, our framework achieves a speedup of up to 2.12x speedup with minimal generation quality degradation. Furthermore, our framework is fully plug-and-play and can be applied without any modifications in the training process or model architecture. Our code is open-sourced.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/7b97adeafa1c51cf65263459ca9d0d7c-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Pre-training Contextualized World Models with In-the-wild Videos for Reinforcement Learning
+AU  - Jialong Wu
+AU  - Haoyu Ma
+AU  - Chaoyi Deng
+AU  - Mingsheng Long
+PY  - 2023
+AB  - Unsupervised pre-training methods utilizing large and diverse datasets have achieved tremendous success across a range of domains. Recent work has investigated such unsupervised pre-training methods for model-based reinforcement learning (MBRL) but is limited to domain-specific or simulated data. In this paper, we study the problem of pre-training world models with abundant in-the-wild videos for efficient learning of downstream visual control tasks. However, in-the-wild videos are complicated with various contextual factors, such as intricate backgrounds and textured appearance, which precludes a world model from extracting shared world knowledge to generalize better. To tackle this issue, we introduce Contextualized World Models (ContextWM) that explicitly separate context and dynamics modeling to overcome the complexity and diversity of in-the-wild videos and facilitate knowledge transfer between distinct scenes. Specifically, a contextualized extension of the latent dynamics model is elaborately realized by incorporating a context encoder to retain contextual information and empower the image decoder, which encourages the latent dynamics model to concentrate on essential temporal variations. Our experiments show that in-the-wild video pre-training equipped with ContextWM can significantly improve the sample efficiency of MBRL in various domains, including robotic manipulation, locomotion, and autonomous driving. Code is available at this repository: https://github.com/thuml/ContextWM.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/7ce1cbededb4b0d6202847ac1b484ee8-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Mr. HiSum: A Large-scale Dataset for Video Highlight Detection and Summarization
+AU  - Jinhwan Sul
+AU  - Jihoon Han
+AU  - Joonseok Lee
+PY  - 2023
+AB  - Video highlight detection is a task to automatically select the most engaging moments from a long video. This problem is highly challenging since it aims to learn a general way of finding highlights from a variety of videos in the real world.The task has an innate subjectivity because the definition of a highlight differs across individuals. Therefore, to detect consistent and meaningful highlights, prior benchmark datasets have been labeled by multiple (5-20) raters. Due to the high cost of manual labeling, most existing public benchmarks are in extremely small scale, containing only a few tens or hundreds of videos. This insufficient benchmark scale causes multiple issues such as unstable evaluation or high sensitivity in traintest splits. We present Mr. HiSum, a large-scale dataset for video highlight detection and summarization, containing 31,892 videos and reliable labels aggregated over 50,000+ users per video. We empirically prove reliability of the labels as frame importance by cross-dataset transfer and user study.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/7f880e3a325b06e3601af1384a653038-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Parameter and Computation Efficient Transfer Learning for Vision-Language Pre-trained Models
+AU  - Qiong Wu
+AU  - Wei Yu
+AU  - Yiyi Zhou
+AU  - Shubin Huang
+AU  - Xiaoshuai Sun
+AU  - Rongrong Ji
+PY  - 2023
+AB  - With ever increasing parameters and computation, vision-language pre-trained (VLP) models exhibit prohibitive expenditure in downstream task adaption. Recent endeavors mainly focus on parameter efficient transfer learning (PETL) for VLP models by only updating a small number of parameters. However, excessive computational overhead still plagues the application of VLPs. In this paper, we aim at parameter and computation efficient transfer learning (PCETL) for VLP models. In particular, PCETL not only needs to limit the number of trainable parameters in VLP models, but also to reduce the computational redundancy during inference, thus enabling a more efficient transfer. To approach this target, we propose a novel dynamic architecture skipping (DAS) approach towards effective PCETL. Instead of directly optimizing the intrinsic architectures of VLP models, DAS first observes the significances of their modules to downstream tasks via a reinforcement learning (RL) based process, and then skips the redundant ones with lightweight networks, i.e. adapters, according to the obtained rewards. In this case, the VLP model can well maintain the scale of trainable parameters while speeding up its inference on downstream tasks. To validate DAS, we apply it to two representative VLP models, namely ViLT and METER, and conduct extensive experiments on a bunch of VL tasks. The experimental results not only show the great advantages of DAS in reducing computational complexity, e.g. -11.97%  FLOPs of METER on VQA2.0, but also confirm its competitiveness against existing PETL methods in terms of parameter scale and performance. Our source code is given in our appendix.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/80e354fdac2c7fbf439a51f4853edbac-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Active Learning-Based Species Range Estimation
+AU  - Christian Lange
+AU  - Elijah Cole
+AU  - Grant Van Horn
+AU  - Oisin Mac Aodha
+PY  - 2023
+AB  - We propose a new active learning approach for efficiently estimating the geographic range of a species from a limited number of on the ground observations. We model the range of an unmapped species of interest as the weighted combination of estimated ranges obtained from a set of different species. We show that it is possible to generate this candidate set of ranges by using models that have been trained on large weakly supervised community collected observation data. From this, we develop a new active querying approach that sequentially selects geographic locations to visit that best reduce our uncertainty over an unmapped species’ range. We conduct a detailed evaluation of our approach and compare it to existing active learning methods using an evaluation dataset containing expert-derived ranges for one thousand species. Our results demonstrate that our method outperforms alternative active learning methods and approaches the performance of end-to-end trained models, even when only using a fraction of the data. This highlights the utility of active learning via transfer learned spatial representations for species range estimation. It also emphasizes the value of leveraging emerging large-scale crowdsourced datasets, not only for modeling a species' range, but also for actively discovering them.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/82eec786fdfbbfa53450c5feb7d1ac92-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - iSCAN: Identifying Causal Mechanism Shifts among Nonlinear Additive Noise Models
+AU  - Tianyu Chen
+AU  - Kevin Bello
+AU  - Bryon Aragam
+AU  - Pradeep K. Ravikumar
+PY  - 2023
+AB  - Structural causal models (SCMs) are widely used in various disciplines to represent causal relationships among variables in complex systems.Unfortunately, the underlying causal structure is often unknown, and estimating it from data remains a challenging task. In many situations, however, the end goal is to localize the changes (shifts) in the causal mechanisms between related datasets instead of learning the full causal structure of the individual datasets. Some applications include root cause analysis, analyzing gene regulatory network structure changes between healthy and cancerous individuals, or explaining distribution shifts. This paper focuses on identifying the causal mechanism shifts in two or more related datasets over the same set of variables---without estimating the entire DAG structure of each SCM.Prior work under this setting assumed linear models with Gaussian noises; instead, in this work we assume that each SCM belongs to the more general class ofnonlinearadditive noise models (ANMs).A key technical contribution of this work is to show that the Jacobian of the score function for themixture distributionallows for the identification of shifts under general non-parametric functional mechanisms.Once the shifted variables are identified, we leverage recent work to estimate the structural differences, if any, for the shifted variables.Experiments on synthetic and real-world data are provided to showcase the applicability of this approach.Code implementing the proposed method is open-source and publicly available at  https://github.com/kevinsbello/iSCAN.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/8c1d92835eb4e601f396c97ec60439fe-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Group Auxiliary Datasets for Molecule
+AU  - Tinglin Huang
+AU  - Ziniu Hu
+AU  - Rex Ying
+PY  - 2023
+AB  - The limited availability of annotations in small molecule datasets presents a challenge to machine learning models. To address this, one common strategy is to collaborate with additional auxiliary datasets. However, having more data does not always guarantee improvements. Negative transfer can occur when the knowledge in the target dataset differs or contradicts that of the auxiliary molecule datasets. In light of this, identifying the auxiliary molecule datasets that can benefit the target dataset when jointly trained remains a critical and unresolved problem. Through an empirical analysis, we observe that combining graph structure similarity and task similarity can serve as a more reliable indicator for identifying high-affinity auxiliary datasets. Motivated by this insight, we propose MolGroup, which separates the dataset affinity into task and structure affinity to predict the potential benefits of each auxiliary molecule dataset. MolGroup achieves this by utilizing a routing mechanism optimized through a bi-level optimization framework. Empowered by the meta gradient, the routing mechanism is optimized toward maximizing the target dataset's performance and quantifies the affinity as the gating score. As a result, MolGroup is capable of predicting the optimal combination of auxiliary datasets for each target dataset. Our extensive experiments demonstrate the efficiency and effectiveness of MolGroup, showing an average improvement of 4.41%/3.47% for GIN/Graphormer trained with the group of molecule datasets selected by MolGroup on 11 target molecule datasets.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/8e2571d13f432b301d4c5e3cc70227a6-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning Invariant Representations of Graph Neural Networks via Cluster Generalization
+AU  - Donglin Xia
+AU  - Xiao Wang
+AU  - Nian Liu
+AU  - Chuan Shi
+PY  - 2023
+AB  - Graph neural networks (GNNs) have become increasingly popular in modeling graph-structured data due to their ability to learn node representations by aggregating local structure information. However, it is widely acknowledged that the test graph structure may differ from the training graph structure, resulting in a structure shift. In this paper, we experimentally  find that the performance of GNNs drops significantly when the structure shift happens, suggesting that the learned models may be biased towards specific structure patterns. To address this challenge, we propose the Cluster Information Transfer (\textbf{CIT}) mechanism, which can learn invariant representations for GNNs, thereby improving their generalization ability to various and unknown test graphs with structure shift. The CIT mechanism achieves this by combining different cluster information with the nodes while preserving their cluster-independent information. By generating nodes across different clusters, the mechanism significantly enhances the diversity of the nodes and helps GNNs learn the invariant representations. We provide a theoretical analysis of the CIT mechanism, showing that the impact of changing clusters during structure shift can be mitigated after transfer. Additionally, the proposed mechanism is a plug-in that can be easily used to improve existing GNNs. We comprehensively evaluate our proposed method on three typical structure shift scenarios, demonstrating its effectiveness in enhancing GNNs' performance.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/8ed2293e714b7692b63117e330e551e8-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - PRED: Pre-training via Semantic Rendering on LiDAR Point Clouds
+AU  - Hao Yang
+AU  - Haiyang Wang
+AU  - Di Dai
+AU  - Liwei Wang
+PY  - 2023
+AB  - Pre-training is crucial in 3D-related fields such as autonomous driving where point cloud annotation is costly and challenging. Many recent studies on point cloud pre-training, however, have overlooked the issue of incompleteness, where only a fraction of the points are captured by LiDAR, leading to ambiguity during the training phase. On the other hand, images offer more comprehensive information and richer semantics that can bolster point cloud encoders in addressing the incompleteness issue inherent in point clouds. Yet, incorporating images into point cloud pre-training presents its own challenges due to occlusions, potentially causing misalignments between points and pixels. In this work, we propose PRED, a novel image-assisted pre-training framework for outdoor point clouds in an occlusion-aware manner. The main ingredient of our framework is a Birds-Eye-View (BEV) feature map conditioned semantic rendering, leveraging the semantics of images for supervision through neural rendering. We further enhance our model's performance by incorporating point-wise masking with a high mask ratio (95%). Extensive experiments demonstrate PRED's superiority over prior point cloud pre-training methods, providing significant improvements on various large-scale datasets for 3D perception tasks. Codes will be available at https://github.com/PRED4pc/PRED.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/903f778fe1341e5351b5b63e0e6b197f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Sharpness-Aware Minimization Leads to Low-Rank Features
+AU  - Maksym Andriushchenko
+AU  - Dara Bahri
+AU  - Hossein Mobahi
+AU  - Nicolas Flammarion
+PY  - 2023
+AB  - Sharpness-aware minimization (SAM) is a recently proposed method that minimizes the sharpness of the training loss of a neural network. While its generalization improvement is well-known and is the primary motivation, we uncover an additional intriguing effect of SAM: reduction of the feature rank which happens at different layers of a neural network. We show that this low-rank effect occurs very broadly: for different architectures such as fully-connected networks, convolutional networks, vision transformers and for different objectives such as regression, classification, language-image contrastive training. To better understand this phenomenon, we provide a mechanistic understanding of how low-rank features arise in a simple two-layer network. We observe that a significant number of activations gets entirely pruned by SAM which directly contributes to the rank reduction. We confirm this effect theoretically and check that it can also occur in deep networks, although the overall rank reduction mechanism can be more complex, especially for deep networks with pre-activation skip connections and self-attention layers.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/92dd1adab39f362046f99dfe3c39d90f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - MathNAS: If Blocks Have a Role in Mathematical Architecture Design
+AU  - Qinsi Wang
+AU  - Jinghan Ke
+AU  - Zhi Liang
+AU  - Sihai Zhang
+PY  - 2023
+AB  - Neural Architecture Search (NAS) has emerged as a favoured method for unearthing effective neural architectures. Recent development of large models has intensified the demand for faster search speeds and more accurate search results. However, designing large models by NAS is challenging due to the dramatical increase of search space and the associated huge performance evaluation cost. Consider a typical modular search space widely used in NAS, in which a neural architecture consists of $m$ block nodes and a block node has $n$ alternative blocks. Facing the space containing $n^m$ candidate networks, existing NAS methods attempt to find the best one by searching and evaluating candidate networks directly.Different from the general strategy that takes architecture search as a whole problem, we propose a novel divide-and-conquer strategy by making use of the modular nature of the search space.Here, we introduce MathNAS, a general NAS framework based on mathematical programming.  In MathNAS, the performances of all possible building blocks in the search space are calculated first, and then the performance of a network is directly predicted based on the performances of its building blocks.Although estimating block performances involves network training, just as what happens for network performance evaluation in existing NAS methods, predicting network performance is completely training-free and thus extremely fast. In contrast to the $n^m$ candidate networks to evaluate in existing NAS methods, which requires training and a formidable computational burden, there are only $m*n$ possible blocks to handle in MathNAS.Therefore, our approach effectively reduces the complexity of network performance evaluation. The superiority of MathNAS is validated on multiple large-scale CV and NLP benchmark datasets. Notably on ImageNet-1k, MathNAS achieves 82.5\% top-1 accuracy, 1.2\% and 0.96\% higher than Swin-T and LeViT-256, respectively. In addition, when deployed on mobile device, MathNAS achieves real-time search and dynamic network switching within 1s (0.4s on TX2 GPU), surpassing baseline dynamic networks in on-device performance.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/9410d94d47adfb07b41a0b226270f068-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Understanding and Mitigating Copying in Diffusion Models
+AU  - Gowthami Somepalli
+AU  - Vasu Singla
+AU  - Micah Goldblum
+AU  - Jonas Geiping
+AU  - Tom Goldstein
+PY  - 2023
+AB  - Images generated by diffusion models like Stable Diffusion are increasingly widespread. Recent works and even lawsuits have shown that these models are prone to replicating their training data, unbeknownst to the user. In this paper, we first analyze this memorization problem in text-to-image diffusion models.  While it is widely believed that duplicated images in the training set are responsible for content replication at inference time, we observe that the text conditioning of the model plays a similarly important role. In fact, we see in our experiments that data replication often does not happen for unconditional models, while it is common in the text-conditional case. Motivated by our findings, we then propose several techniques for reducing data replication at both training and inference time by randomizing and augmenting image captions in the training set. Code is available at https://github.com/somepago/DCR.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/9521b6e7f33e039e7d92e23f5e37bbf4-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Locality-Aware Generalizable Implicit Neural Representation
+AU  - Doyup Lee
+AU  - Chiheon Kim
+AU  - Minsu Cho
+AU  - WOOK SHIN HAN
+PY  - 2023
+AB  - Generalizable implicit neural representation (INR) enables a single continuous function, i.e., a coordinate-based neural network, to represent multiple data instances by modulating its weights or intermediate features using latent codes. However, the expressive power of the state-of-the-art modulation is limited due to its inability to localize and capture fine-grained details of data entities such as specific pixels and rays. To address this issue, we propose a novel framework for generalizable INR that combines a transformer encoder with a locality-aware INR decoder. The transformer encoder predicts a set of latent tokens from a data instance to encode local information into each latent token. The locality-aware INR decoder extracts a modulation vector by selectively aggregating the latent tokens via cross-attention for a coordinate input and then predicts the output by progressively decoding with coarse-to-fine modulation through multiple frequency bandwidths. The selective token aggregation and the multi-band feature modulation enable us to learn locality-aware representation in spatial and spectral aspects, respectively. Our framework significantly outperforms previous generalizable INRs and validates the usefulness of the locality-aware latents for downstream tasks such as image generation.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/9713d53ee4f31781304b1ca43266f8d1-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Annotator: A Generic Active Learning Baseline for LiDAR Semantic Segmentation
+AU  - Binhui Xie
+AU  - Shuang Li
+AU  - Qingju Guo
+AU  - Chi Liu
+AU  - Xinjing Cheng
+PY  - 2023
+AB  - Active learning, a label-efficient paradigm, empowers models to interactively query an oracle for labeling new data. In the realm of LiDAR semantic segmentation, the challenges stem from the sheer volume of point clouds, rendering annotation labor-intensive and cost-prohibitive. This paper presents Annotator, a general and efficient active learning baseline, in which a voxel-centric online selection strategy is tailored to efficiently probe and annotate the salient and exemplar voxel girds within each LiDAR scan, even under distribution shift. Concretely, we first execute an in-depth analysis of several common selection strategies such as Random, Entropy, Margin, and then develop voxel confusion degree (VCD) to exploit the local topology relations and structures of point clouds. Annotator excels in diverse settings, with a particular focus on active learning (AL), active source-free domain adaptation (ASFDA), and active domain adaptation (ADA). It consistently delivers exceptional performance across LiDAR semantic segmentation benchmarks, spanning both simulation-to-real and real-to-real scenarios. Surprisingly, Annotator exhibits remarkable efficiency, requiring significantly fewer annotations, e.g., just labeling five voxels per scan in the SynLiDAR → SemanticKITTI task. This results in impressive performance, achieving 87.8% fully-supervised performance under AL, 88.5% under ASFDA, and 94.4% under ADA. We envision that Annotator will offer a simple, general, and efficient solution for label-efficient 3D applications.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/976cc04f0cbaad7790ce0d665e44f90f-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Dual Mean-Teacher: An Unbiased Semi-Supervised Framework for Audio-Visual Source Localization
+AU  - Yuxin Guo
+AU  - Shijie Ma
+AU  - Hu Su
+AU  - Zhiqing Wang
+AU  - Yuhao Zhao
+AU  - Wei Zou
+AU  - Siyang Sun
+AU  - Yun Zheng
+PY  - 2023
+AB  - Audio-Visual Source Localization (AVSL) aims to locate sounding objects within video frames given the paired audio clips. Existing methods predominantly rely on self-supervised contrastive learning of audio-visual correspondence. Without any bounding-box annotations, they struggle to achieve precise localization, especially for small objects, and suffer from blurry boundaries and false positives. Moreover, the naive semi-supervised method is poor in effectively utilizing the abundance of unlabeled audio-visual pairs. In this paper, we propose a novel Semi-Supervised Learning framework for AVSL, namely Dual Mean-Teacher (DMT), comprising two teacher-student structures to circumvent the confirmation bias issue. Specifically, two teachers, pre-trained on limited labeled data, are employed to filter out noisy samples via the consensus between their predictions, and then generate high-quality pseudo-labels by intersecting their confidence maps. The optimal utilization of both labeled and unlabeled data combined with this unbiased framework enable DMT to outperform current state-of-the-art methods by a large margin, with CIoU of $\textbf{90.4\%}$ and $\textbf{48.8\%}$ on Flickr-SoundNet and VGG-Sound Source, obtaining $\textbf{8.9\%}$ and $\textbf{9.6\%}$ improvements respectively, given only $3\%$ of data positional-annotated. We also extend our framework to some existing AVSL methods and consistently boost their performance. Our code is publicly available at https://github.com/gyx-gloria/DMT.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/98143953a7fd1319175b491888fc8df5-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - ImageBrush: Learning Visual In-Context Instructions for Exemplar-Based Image Manipulation
+AU  - ya sheng sun
+AU  - Yifan Yang
+AU  - Houwen Peng
+AU  - Yifei Shen
+AU  - Yuqing Yang
+AU  - Han Hu
+AU  - Lili Qiu
+AU  - Hideki Koike
+PY  - 2023
+AB  - While language-guided image manipulation has made remarkable progress, the challenge of how to instruct the manipulation process faithfully reflecting human intentions persists. An accurate and comprehensive description of a manipulation task using natural language is laborious and sometimes even impossible, primarily due to the inherent uncertainty and ambiguity present in linguistic expressions. Is it feasible to accomplish image manipulation without resorting to external cross-modal language information? If this possibility exists, the inherent modality gap would be effortlessly eliminated. In this paper, we propose a novel  manipulation methodology, dubbed ImageBrush, that learns visual instructions for more accurate image editing.Our key idea is to employ a pair of transformation images as visual instructions, which not only precisely captures human intention but also facilitates accessibility in real-world scenarios. Capturing visual instructions is particularly challenging because it involves extracting the underlying intentions solely from visual demonstrations and then applying this operation to a new image. To address this challenge, we formulate visual instruction learning as a diffusion-based inpainting problem, where the contextual information is fully exploited through an iterative process of generation. A visual prompting encoder is carefully devised to enhance the model's capacity in uncovering human intent behind the visual instructions. Extensive experiments show that our method generates engaging manipulation results conforming to the transformations entailed in demonstrations. Moreover, our model exhibits robust generalization capabilities on various downstream tasks such as pose transfer, image translation and video inpainting.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/98530736e5d94e62b689dfc1fda89bd1-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - POP-3D: Open-Vocabulary 3D Occupancy Prediction from Images
+AU  - Antonin Vobecky
+AU  - Oriane Siméoni
+AU  - David Hurych
+AU  - Spyridon Gidaris
+AU  - Andrei Bursuc
+AU  - Patrick Pérez
+AU  - Josef Sivic
+PY  - 2023
+AB  - We describe an approach to predict open-vocabulary 3D semantic voxel occupancy map from input 2D images with the objective of enabling 3D grounding, segmentation and retrieval of free-form language queries. This is a challenging problem because of the 2D-3D ambiguity and the open-vocabulary nature of the target tasks, where obtaining annotated training data in 3D is difficult. The contributions of this work are three-fold. First, we design a new model architecture for open-vocabulary 3D semantic occupancy prediction.  The architecture consists of a 2D-3D encoder together with occupancy prediction and 3D-language heads. The output is a dense voxel map of 3D grounded language embeddings enabling a range of open-vocabulary tasks. Second, we develop a tri-modal self-supervised learning algorithm that leverages three modalities: (i) images, (ii) language and (iii) LiDAR point clouds, and enables training the proposed architecture using a strong pre-trained vision-language model without the need for any 3D manual language annotations. Finally, we demonstrate quantitatively the strengths of the proposed model on several open-vocabulary tasks:Zero-shot 3D semantic segmentation using existing datasets; 3D grounding and retrieval of free-form language queries, using a small dataset that we propose as an extension of nuScenes. You can find the project page here https://vobecant.github.io/POP3D.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/9e30acdeff572463c1db9b7de59de64c-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - WBCAtt: A White Blood Cell Dataset Annotated with Detailed Morphological Attributes
+AU  - Satoshi Tsutsui
+AU  - Winnie Pang
+AU  - Bihan Wen
+PY  - 2023
+AB  - The examination of blood samples at a microscopic level plays a fundamental role in clinical diagnostics. For instance, an in-depth study of White Blood Cells (WBCs), a crucial component of our blood, is essential for diagnosing blood-related diseases such as leukemia and anemia. While multiple datasets containing WBC images have been proposed, they mostly focus on cell categorization, often lacking the necessary morphological details to explain such categorizations, despite the importance of explainable artificial intelligence (XAI) in medical domains. This paper seeks to address this limitation by introducing comprehensive annotations for WBC images. Through collaboration with pathologists, a thorough literature review, and manual inspection of microscopic images, we have identified 11 morphological attributes associated with the cell and its components (nucleus, cytoplasm, and granules). We then annotated ten thousand WBC images with these attributes, resulting in 113k labels (11 attributes x 10.3k images). Annotating at this level of detail and scale is unprecedented, offering unique value to AI in pathology. Moreover, we conduct experiments to predict these attributes from cell images, and also demonstrate specific applications that can benefit from our detailed annotations. Overall, our dataset paves the way for interpreting WBC recognition models, further advancing XAI in the fields of pathology and hematology.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/9f34484e5b8d87f09cc58c292a1c9f5d-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - DICES Dataset: Diversity in Conversational AI Evaluation for Safety
+AU  - Lora Aroyo
+AU  - Alex Taylor
+AU  - Mark Díaz
+AU  - Christopher Homan
+AU  - Alicia Parrish
+AU  - Gregory Serapio-García
+AU  - Vinodkumar Prabhakaran
+AU  - Ding Wang
+PY  - 2023
+AB  - Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This requirement overly simplifies the natural subjectivity present in many tasks, and obscures the inherent diversity in human perceptions and opinions about many content items. Preserving the variance in content and diversity in human perceptions in datasets is often quite expensive and laborious. This is especially troubling when building safety datasets for conversational AI systems, as safety is socio-culturally situated in this context. To demonstrate this crucial aspect of conversational AI safety, and to facilitate in-depth model performance analyses, we introduce the DICES (Diversity In Conversational AI Evaluation for Safety) dataset that contains fine-grained demographics information about raters, high replication of ratings per item to ensure statistical power for analyses, and encodes rater votes as distributions across different demographics to allow for in-depth explorations of different aggregation strategies. The DICES dataset enables the observation and measurement of variance, ambiguity, and diversity in the context of safety for conversational AI. We further describe a set of metrics that show how rater diversity influences safety perception across different geographic regions, ethnicity groups, age groups, and genders. The goal of the DICES dataset is to be used as a shared resource and benchmark that respects diverse perspectives during safety evaluation of conversational AI systems.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/a74b697bce4cac6c91896372abaa8863-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - A benchmark of categorical encoders for binary classification
+AU  - Federico Matteucci
+AU  - Vadim Arzamasov
+AU  - Klemens Böhm
+PY  - 2023
+AB  - Categorical encoders transform categorical features into numerical representations that are indispensable for a wide range of machine learning models.Existing encoder benchmark studies lack generalizability because of their limited choice of (1) encoders, (2) experimental factors, and (3) datasets. Additionally, inconsistencies arise from the adoption of varying aggregation strategies.This paper is the most comprehensive benchmark of categorical encoders to date, including an extensive evaluation of 32 configurations of encoders from diverse families, with 36 combinations of experimental factors, and on 50 datasets.The study shows the profound influence of dataset selection, experimental factors, and aggregation strategies on the benchmark's conclusions~---~aspects disregarded in previous encoder benchmarks.Our code is available at \url{https://github.com/DrCohomology/EncoderBenchmarking}.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/ac01e21bb14609416760f790dd8966ae-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Bucks for Buckets (B4B): Active Defenses Against Stealing Encoders
+AU  - Jan Dubiński
+AU  - Stanisław Pawlak
+AU  - Franziska Boenisch
+AU  - Tomasz Trzcinski
+AU  - Adam Dziedzic
+PY  - 2023
+AB  - Machine Learning as a Service (MLaaS) APIs provide ready-to-use and high-utility encoders that generate vector representations for given inputs. Since these encoders are very costly to train, they become lucrative targets for model stealing attacks during which an adversary leverages query access to the API to replicate the encoder locally at a fraction of the original training costs. We proposeBucks for Buckets (B4B), the firstactive defensethat prevents stealing while the attack is happening without degrading representation quality for legitimate API users. Our defense relies on the observation that the representations returned to adversaries who try to steal the encoder's functionality cover a significantly larger fraction of the embedding space than representations of legitimate users who utilize the encoder to solve a particular downstream task. B4B leverages this to adaptively adjust the utility of the returned representations according to a user's coverage of the embedding space. To prevent adaptive adversaries from eluding our defense by simply creating multiple user accounts (sybils), B4B also individually transforms each user's representations. This prevents the adversary from directly aggregating representations over multiple accounts to create their stolen encoder copy. Our active defense opens a new path towards securely sharing and democratizing encoders over public APIs.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/ad1efab57a04d93f097e7fbb2d4fc054-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - A General Framework for Equivariant Neural Networks on Reductive Lie Groups
+AU  - Ilyes Batatia
+AU  - Mario Geiger
+AU  - Jose Munoz
+AU  - Tess Smidt
+AU  - Lior Silberman
+AU  - Christoph Ortner
+PY  - 2023
+AB  - Reductive Lie Groups, such as the orthogonal groups, the Lorentz group, or the unitary groups, play essential roles across scientific fields as diverse as high energy physics, quantum mechanics, quantum chromodynamics, molecular dynamics, computer vision, and imaging. In this paper, we present a general Equivariant Neural Network architecture capable of respecting the symmetries of the finite-dimensional representations of any reductive Lie Group. Our approach generalizes the successful ACE and MACE architectures for atomistic point clouds to any data equivariant to a reductive Lie group action. We also introduce the lie-nn software library, which provides all the necessary tools to develop and implement such general G-equivariant neural networks. It implements routines for the reduction of generic tensor products of representations into irreducible representations, making it easy to apply our architecture to a wide range of problems and groups. The generality and performance of our approach are demonstrated by applying it to the tasks of top quark decay tagging (Lorentz group) and shape recognition (orthogonal group).
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/ad1f2197941348b1c4373fd6c19ee0b4-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Contrast Everything: A Hierarchical Contrastive Framework for Medical Time-Series
+AU  - Yihe Wang
+AU  - Yu Han
+AU  - Haishuai Wang
+AU  - Xiang Zhang
+PY  - 2023
+AB  - Contrastive representation learning is crucial in medical time series analysis as it alleviates dependency on labor-intensive, domain-specific, and scarce expert annotations. However, existing contrastive learning methods primarily focus on one single data level, which fails to fully exploit the intricate nature of medical time series. To address this issue, we present COMET, an innovative hierarchical framework that leverages data consistencies at all inherent levels in medical time series. Our meticulously designed model systematically captures data consistency from four potential levels: observation, sample, trial, and patient levels. By developing contrastive loss at multiple levels, we can learn effective representations that preserve comprehensive data consistency, maximizing information utilization in a self-supervised manner. We conduct experiments in the challenging patient-independent setting. We compare COMET against six baselines using three diverse datasets, which include ECG signals for myocardial infarction and EEG signals for Alzheimer’s and Parkinson’s diseases. The results demonstrate that COMET consistently outperforms all baselines, particularly in setup with 10% and 1% labeled data fractions across all datasets. These results underscore the significant impact of our framework in advancing contrastive representation learning techniques for medical time series. The source code is available at https://github.com/DL4mHealth/COMET.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/ae7d9c77b5ff9e3b7833a68523b880f2-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Towards Distribution-Agnostic Generalized Category Discovery
+AU  - Jianhong Bai
+AU  - Zuozhu Liu
+AU  - Hualiang Wang
+AU  - Ruizhe Chen
+AU  - Lianrui Mu
+AU  - Xiaomeng Li
+AU  - Joey Tianyi Zhou
+AU  - YANG FENG
+AU  - Jian Wu
+AU  - Haoji Hu
+PY  - 2023
+AB  - Data imbalance and open-ended distribution are two intrinsic characteristics of the real visual world. Though encouraging progress has been made in tackling each challenge separately, few works dedicated to combining them towards real-world scenarios. While several previous works have focused on classifying close-set samples and detecting open-set samples during testing, it's still essential to be able to classify unknown subjects as human beings. In this paper, we formally define a more realistic task as distribution-agnostic generalized category discovery (DA-GCD): generating fine-grained predictions for both close- and open-set classes in a long-tailed open-world setting. To tackle the challenging problem, we propose a Self-BalancedCo-Advice contrastive framework (BaCon), which consists of a contrastive-learning branch and a pseudo-labeling branch, working collaboratively to provide interactive supervision to resolve the DA-GCD task. In particular, the contrastive-learning branch provides reliable distribution estimation to regularize the predictions of the pseudo-labeling branch, which in turn guides contrastive learning through self-balanced knowledge transfer and a proposed novel contrastive loss. We compare BaCon with state-of-the-art methods from two closely related fields: imbalanced semi-supervised learning and generalized category discovery. The effectiveness of BaCon is demonstrated with superior performance over all baselines and comprehensive analysis across various datasets. Our code is publicly available.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/b7216f4a324864e1f592c18de4d83d10-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Validated Image Caption Rating Dataset
+AU  - Lothar D Narins
+AU  - Andrew Scott
+AU  - Aakash Gautam
+AU  - Anagha Kulkarni
+AU  - Mar Castanon
+AU  - Benjamin Kao
+AU  - Shasta Ihorn
+AU  - Yue-Ting Siu
+AU  - James M. Mason
+AU  - Alexander Blum
+AU  - Ilmi Yoon
+PY  - 2023
+AB  - We present a new high-quality validated image caption rating (VICR) dataset. How well a caption fits an image can be difficult to assess due to the subjective nature of caption quality. How do we evaluate whether a caption is good? We generated a new dataset to help answer this question by using our new image caption rating system, which consists of a novel robust rating scale and gamified approach to gathering human ratings. We show that our approach is consistent and teachable. 113 participants were involved in generating the dataset, which is composed of 68,217 ratings among 15,646 image-caption pairs. Our new dataset has greater inter-rater agreement than the state of the art, and custom machine learning rating predictors that were trained on our dataset outperform previous metrics. We improve over Flickr8k-Expert in Kendall's $W$ by 12\% and in Fleiss' $\kappa$ by 19\%, and thus provide a new benchmark dataset for image caption rating.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/c0b91f9a3587bf35287f41dba5d20233-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Parameterize Visual Attributes for Open-set Fine-grained Retrieval
+AU  - Shijie Wang
+AU  - Jianlong Chang
+AU  - Haojie Li
+AU  - Zhihui Wang
+AU  - Wanli Ouyang
+AU  - Qi Tian
+PY  - 2023
+AB  - Open-set fine-grained retrieval is an emerging challenging task that allows to retrieve unknown categories beyond the training set. The best solution for handling unknown categories is to represent them using a set of visual attributes learnt from known categories, as widely used in zero-shot learning. Though important, attribute modeling usually requires significant manual annotations and thus is labor-intensive. Therefore, it is worth to investigate how to transform retrieval models trained by image-level supervision from category semantic extraction to attribute modeling. To this end, we propose a novel Visual Attribute Parameterization Network (VAPNet) to learn visual attributes from known categories and parameterize them into the retrieval model, without the involvement of any attribute annotations.In this way, VAPNet could utilize its parameters to parse a set of visual attributes from unknown categories and precisely represent them.Technically, VAPNet explicitly attains some semantics with rich details via making use of local image patches and distills the visual attributes from these discovered semantics. Additionally, it integrates the online refinement of these visual attributes into the training process to iteratively enhance their quality. Simultaneously, VAPNet treats these attributes as supervisory signals to tune the retrieval models, thereby achieving attribute parameterization. Extensive experiments on open-set fine-grained retrieval datasets validate the superior performance of our VAPNet over existing solutions.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/cc19e4ffde5540ac3fcda240e6d975cb-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding
+AU  - Hao Zheng
+AU  - Regina Lee
+AU  - Yuqian Lu
+PY  - 2023
+AB  - Understanding comprehensive assembly knowledge from videos is critical for futuristic ultra-intelligent industry. To enable technological breakthrough, we present HA-ViD – the first human assembly video dataset that features representative industrial assembly scenarios, natural procedural knowledge acquisition process, and consistent human-robot shared annotations. Specifically, HA-ViD captures diverse collaboration patterns of real-world assembly, natural human behaviors and learning progression during assembly, and granulate action annotations to subject, action verb, manipulated object, target object, and tool. We provide 3222 multi-view and multi-modality videos), 1.5M frames, 96K temporal labels and 2M spatial labels. We benchmark four foundational video understanding tasks: action recognition, action segmentation, object detection and multi-object tracking. Importantly, we analyze their performance and the further reasoning steps for comprehending knowledge in assembly progress, process efficiency, task collaboration, skill parameters and human intention. Details of HA-ViD is available at: https://iai-hrc.github.io/ha-vid.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/d40e6e4b3ee6c24f2bf2cb72c2412f4b-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - 3D molecule generation by denoising voxel grids
+AU  - Pedro O O. Pinheiro
+AU  - Joshua Rackers
+AU  - Joseph Kleinhenz
+AU  - Michael Maser
+AU  - Omar Mahmood
+AU  - Andrew Watkins
+AU  - Stephen Ra
+AU  - Vishnu Sresht
+AU  - Saeed Saremi
+PY  - 2023
+AB  - We propose a new score-based approach to generate 3D molecules represented as atomic densities on regular grids.First, we train a denoising neural network that learns to map from a smooth distribution of noisy molecules to the distribution of real molecules.Then, we follow theneural empirical Bayesframework [Saremi and Hyvarinen, 2019] and generate molecules in two steps: (i) sample noisy density grids from a smooth distribution via underdamped Langevin Markov chain Monte Carlo, and (ii) recover the "clean" molecule by denoising the noisy grid with a single step.Our method,VoxMol, generates molecules in a fundamentally different way than the current state of the art (ie, diffusion models applied to atom point clouds). It differs in terms of the data representation, the noise model, the network architecture and the generative modeling algorithm.Our experiments show that VoxMol captures the distribution of drug-like molecules better than state of the art, while being faster to generate samples.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/da1131a86ac3c70e0b7cae89c3d4df22-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Unsupervised Image Denoising with Score Function
+AU  - Yutong Xie
+AU  - Mingze Yuan
+AU  - Bin Dong
+AU  - Quanzheng Li
+PY  - 2023
+AB  - Though achieving excellent performance in some cases, current unsupervised learning methods for single image denoising usually have constraints in applications. In this paper, we propose a new approach which is more general and applicable to complicated noise models. Utilizing the property of score function, the gradient of logarithmic probability, we define a solving system for denoising. Once the score function of noisy images has been estimated, the denoised result can be obtained through the solving system. Our approach can be applied to multiple noise models, such as the mixture of multiplicative and additive noise combined with structured correlation. Experimental results show that our method is comparable when the noise model is simple, and has good performance in complicated cases where other methods are not applicable or perform poorly.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/dc9e095f668044e7a0909a4ea3926beb-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - ID and OOD Performance Are Sometimes Inversely Correlated on Real-world Datasets
+AU  - Damien Teney
+AU  - Yong Lin
+AU  - Seong Joon Oh
+AU  - Ehsan Abbasnejad
+PY  - 2023
+AB  - Several studies have compared the in-distribution (ID) and out-of-distribution (OOD) performance of models in computer vision and NLP. They report a frequent positive correlation and some surprisingly never even observe an inverse correlation indicative of a necessary trade-off. The possibility of inverse patterns is important to determine whether ID performance can serve as a proxy for OOD generalization capabilities.This paper shows that inverse correlations between ID and OOD performance do happen with multiple real-world datasets, not only in artificial worst-case settings. We explain theoretically how these cases arise and how past studies missed them because of improper methodologies that examined a biased selection of models.Our observations lead to recommendations that contradict those found in much of the current literature.- High OOD performance sometimes requires trading off ID performance.- Focusing on ID performance alone may not lead to optimal OOD performance. It may produce diminishing (eventually negative) returns in OOD performance.- In these cases, studies on OOD generalization that use ID performance for model selection (a common recommended practice) will necessarily miss the best-performing models, making these studies blind to a whole range of phenomena.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/e304d374c85e385eb217ed4a025b6b63-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - CoDA: Collaborative Novel Box Discovery and Cross-modal Alignment for Open-vocabulary 3D Object Detection
+AU  - Yang Cao
+AU  - Zeng Yihan
+AU  - Hang Xu
+AU  - Dan Xu
+PY  - 2023
+AB  - Open-vocabulary 3D Object Detection (OV-3DDet) aims to detect objects from an arbitrary list of categories within a 3D scene, which remains seldom explored in the literature. There are primarily two fundamental problems in OV-3DDet,i.e., localizing and classifying novel objects. This paper aims at addressing the two problems simultaneously via a unified framework, under the condition of limited base categories. To localize novel 3D objects, we propose an effective 3D Novel Object Discovery strategy, which utilizes both the 3D box geometry priors and 2D semantic open-vocabulary priors to generate pseudo box labels of the novel objects. To classify novel object boxes, we further develop a cross-modal alignment module based on discovered novel boxes, to align feature spaces between 3D pointcloud and image/text modalities. Specifically, the alignment process contains a class-agnostic and a class-discriminative alignment, incorporating not only the base objects with annotations but also the increasingly discovered novel objects, resulting in an iteratively enhanced alignment. The novel box discovery and crossmodal alignment are jointly learned to collaboratively benefit each other. Thenovel object discovery can directly impact the cross-modal alignment, while a better feature alignment can, in turn, boost the localization capability, leading to a unified OV-3DDet framework, namedCoDA, for simultaneous novel object localization and classification. Extensive experiments on two challenging datasets (i.e., SUN-RGBD and ScanNet) demonstrate the effectiveness of our method and also show a significant mAP improvement upon the best-performing alternative method by 80%. Codes and pre-trained models are released onthe project page.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/e352b765e625934ce86919995e2371aa-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Modality-Independent Teachers Meet Weakly-Supervised Audio-Visual Event Parser
+AU  - Yung-Hsuan Lai
+AU  - Yen-Chun Chen
+AU  - Frank Wang
+PY  - 2023
+AB  - Audio-visual learning has been a major pillar of multi-modal machine learning, where the community mostly focused on its $\textit{modality-aligned}$ setting, $\textit{i.e.}$, the audio and visual modality are $\textit{both}$ assumed to signal the prediction target.With the Look, Listen, and Parse dataset (LLP), we investigate the under-explored $\textit{unaligned}$ setting, where the goal is to recognize audio and visual events in a video with only weak labels observed.Such weak video-level labels only tell what events happen without knowing the modality they are perceived (audio, visual, or both).To enhance learning in this challenging setting, we incorporate large-scale contrastively pre-trained models as the modality teachers. A simple, effective, and generic method, termed $\textbf{V}$isual-$\textbf{A}$udio $\textbf{L}$abel Elab$\textbf{or}$ation (VALOR), is innovated to harvest modality labels for the training events.Empirical studies show that the harvested labels significantly improve an attentional baseline by $\textbf{8.0}$ in average F-score (Type@AV).Surprisingly, we found that modality-independent teachers outperform their modality-fused counterparts since they are noise-proof from the other potentially unaligned modality.Moreover, our best model achieves the new state-of-the-art on all metrics of LLP by a substantial margin ($\textbf{+5.4}$ F-score for Type@AV). VALOR is further generalized to Audio-Visual Event Localization and achieves the new state-of-the-art as well.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/e95e9f0c127aa1cfa2628adb2f3cb107-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - FIND: A Function Description Benchmark for Evaluating Interpretability Methods
+AU  - Sarah Schwettmann
+AU  - Tamar Shaham
+AU  - Joanna Materzynska
+AU  - Neil Chowdhury
+AU  - Shuang Li
+AU  - Jacob Andreas
+AU  - David Bau
+AU  - Antonio Torralba
+PY  - 2023
+AB  - Labeling neural network submodules with human-legible descriptions is useful for many downstream tasks: such descriptions can surface failures, guide interventions, and perhaps even explain important model behaviors. To date, most mechanistic descriptions of trained networks have involved small models, narrowly delimited phenomena, and large amounts of human labor. Labeling all human-interpretable sub-computations in models of increasing size and complexity will almost certainly require tools that can generate and validate descriptions automatically. Recently, techniques that use learned models in-the-loop for labeling have begun to gain traction, but methods for evaluating their efficacy are limited and ad-hoc. How should we validate and compare open-ended labeling tools? This paper introduces FIND (Function INterpretation and Description), a benchmark suite for evaluating the building blocks of automated interpretability methods. FIND contains functions that resemble components of trained neural networks, and accompanying descriptions of the kind we seek to generate. The functions are procedurally constructed across textual and numeric domains, and involve a range of real-world complexities, including noise, composition, approximation, and bias. We evaluate methods that use pretrained language models (LMs) to produce code-based and natural language descriptions of function behavior. Additionally, we introduce a new interactive method in which an Automated Interpretability Agent (AIA) generates function descriptions. We find that an AIA, built with an off-the-shelf LM augmented with black-box access to functions, can sometimes infer function structure—acting as a scientist by forming hypotheses, proposing experiments, and updating descriptions in light of new data. However, FIND also reveals that LM-based descriptions capture global function behavior while missing local details. These results suggest that FIND will be useful for characterizing the performance of more sophisticated interpretability methods before they are applied to real-world models.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/ef0164c1112f56246224af540857348f-Abstract-Datasets_and_Benchmarks.html
+ER  - 
+
+TY  - JOUR
+TI  - Parallel-mentoring for Offline Model-based Optimization
+AU  - Can (Sam) Chen
+AU  - Christopher Beckham
+AU  - Zixuan Liu
+AU  - Xue (Steve) Liu
+AU  - Chris Pal
+PY  - 2023
+AB  - We study offline model-based optimization to maximize a black-box objective function with a static dataset of designs and scores. These designs encompass a variety of domains, including materials, robots, DNA sequences, and proteins. A common approach trains a proxy on the static dataset and performs gradient ascent to obtain new designs. However, this often results in poor designs due to the proxy inaccuracies for out-of-distribution designs. Recent studies indicate that (a) gradient ascent with a mean ensemble of proxies generally outperforms simple gradient ascent, and (b) a trained proxy provides weak ranking supervision signals for design selection. Motivated by (a) and (b), we propose $\textit{parallel-mentoring}$ as an effective and novel method that facilitates mentoring among proxies, creating a more robust ensemble to mitigate the out-of-distribution issue. We focus on the three-proxy case in the main paper and our method consists of two modules. The first module, $\textit{voting-based pairwise supervision}$, operates on three parallel proxies and captures their ranking supervision signals as pairwise comparison labels. These labels are combined through majority voting to generate consensus labels, which incorporates ranking supervision signals from all proxies and enables mutual mentoring. Yet, label noise arises due to possible incorrect consensus. To alleviate this, we introduce an $\textit{adaptive soft-labeling}$ module with soft-labels initialized as consensus labels. Based on bi-level optimization, this module fine-tunes proxies in the inner level and learns more accurate labels in the outer level to adaptively mentor proxies, resulting in a more robust ensemble. Experiments validate the effectiveness of our method. Our code is available here.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/f189e7580acad0fc7fd45405817ddee3-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Dataset Diffusion: Diffusion-based Synthetic Data Generation for Pixel-Level Semantic Segmentation
+AU  - Quang Nguyen
+AU  - Truong Vu
+AU  - Anh Tran
+AU  - Khoi Nguyen
+PY  - 2023
+AB  - Preparing training data for deep vision models is a labor-intensive task. To address this, generative models have emerged as an effective solution for generating synthetic data. While current generative models produce image-level category labels, we propose a novel method for generating pixel-level semantic segmentation labels using the text-to-image generative model Stable Diffusion (SD). By utilizing the text prompts, cross-attention, and self-attention of SD, we introduce three new techniques: class-prompt appending, class-prompt cross-attention, and self-attention exponentiation. These techniques enable us to generate segmentation maps corresponding to synthetic images. These maps serve as pseudo-labels for training semantic segmenters, eliminating the need for labor-intensive pixel-wise annotation. To account for the imperfections in our pseudo-labels, we incorporate uncertainty regions into the segmentation, allowing us to disregard loss from those regions. We conduct evaluations on two datasets, PASCAL VOC and MSCOCO, and our approach significantly outperforms concurrent work. Our benchmarks and code will be released at https://github.com/VinAIResearch/Dataset-Diffusion.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/f2957e48240c1d90e62b303574871b47-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks
+AU  - Allen Nie
+AU  - Yuhui Zhang
+AU  - Atharva Shailesh Amdekar
+AU  - Chris Piech
+AU  - Tatsunori B Hashimoto
+AU  - Tobias Gerstenberg
+PY  - 2023
+AB  - Human commonsense understanding of the physical and social world is organized around intuitive theories. These theories support making causal and moral judgments. When something bad happens, we naturally ask: who did what, and why? A rich literature in cognitive science has studied people's causal and moral intuitions. This work has revealed a number of factors that systematically influence people's judgments, such as the violation of norms and whether the harm is avoidable or inevitable. We collected a dataset of stories from 24 cognitive science papers and developed a system to annotate each story with the factors they investigated. Using this dataset, we test whether large language models (LLMs) make causal and moral judgments about text-based scenarios that align with those of human participants. On the aggregate level, alignment has improved with more recent LLMs. However, using statistical analyses, we find that LLMs weigh the different factors quite differently from human participants. These results show how curated, challenge datasets combined with insights from cognitive science can help us go beyond comparisons based merely on aggregate metrics: we uncover LLMs implicit tendencies and show to what extent these align with human intuitions.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/f751c6f8bfb52c60f43942896fe65904-Abstract-Conference.html
+ER  - 
+
+TY  - JOUR
+TI  - Rehearsal Learning for Avoiding Undesired Future
+AU  - Tian Qin
+AU  - Tian-Zuo Wang
+AU  - Zhi-Hua Zhou
+PY  - 2023
+AB  - Machine learning (ML) models have been widely used to make predictions. Instead of a predictive statement about future outcomes, in many situations we want to pursue a decision: what can we do to avoid the undesired future if an ML model predicts so? In this paper, we present a rehearsal learning framework, in which decisions that can persuasively avoid the happening of undesired outcomes can be found and recommended. Based on the influence relation, we characterize the generative process of variables with structural rehearsal models, consisting of a probabilistic graphical model called rehearsal graphs and structural equations, and find actionable decisions that can alter the outcome by reasoning under a Bayesian framework. Moreover, we present a probably approximately correct bound to quantify the associated risk of a decision. Experiments validate the effectiveness of the proposed rehearsal learning framework and the informativeness of the bound.
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/fed1ea8dcc2a13f3835cc854e8c8294c-Abstract-Conference.html
+ER  - 
+

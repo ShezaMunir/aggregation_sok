@@ -1,0 +1,546 @@
+TY  - CONF
+TI  - Write It Like You See It: Detectable Differences in Clinical Notes by Race Lead to Differential Model Recommendations
+AU  - Adam, Hammaad
+AU  - Yang, Ming Ying
+AU  - Cato, Kenrick
+AU  - Baldini, Ioana
+AU  - Senteio, Charles
+AU  - Celi, Leo Anthony
+AU  - Zeng, Jiaming
+AU  - Singh, Moninder
+AU  - Ghassemi, Marzyeh
+PY  - 2022
+AB  - Clinical notes are becoming an increasingly important data source for machine learning (ML) applications in healthcare. Prior research has shown that deploying ML models can perpetuate existing biases against racial minorities, as bias can be implicitly embedded in data. In this study, we investigate the level of implicit race information available to ML models and human experts and the implications of model-detectable differences in clinical notes. Our work makes three key contributions. First, we find that models can identify patient self-reported race from clinical notes even when the notes are stripped of explicit indicators of race. Second, we determine that human experts are not able to accurately predict patient race from the same redacted clinical notes. Finally, we demonstrate the potential harm of this implicit information in a simulation study, and show that models trained on these race-redacted clinical notes can still perpetuate existing biases in clinical treatment decisions.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534203
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534203
+ER  - 
+
+TY  - CONF
+TI  - SCALES: From Fairness Principles to Constrained Decision-Making
+AU  - Balakrishnan, Sreejith
+AU  - Bi, Jianxin
+AU  - Soh, Harold
+PY  - 2022
+AB  - This paper proposes SCALES, a general framework that translates well-established fairness principles into a common representation based on the Constraint Markov Decision Process (CMDP). With the help of causal language, our framework can place constraints on both the procedure of decision making (procedural fairness) as well as the outcomes resulting from decisions (outcome fairness). Specifically, we show that well-known fairness principles can be encoded either as a utility component, a non-causal component, or a causal component in a SCALES-CMDP. We illustrate SCALES using a set of case studies involving a simulated healthcare scenario and the real-world COMPAS dataset. Experiments demonstrate that our framework produces fair policies that embody alternative fairness principles in single-step and sequential decision-making scenarios.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534190
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534190
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing Impacts: Exploring the Utility of Crowds for Anticipating Societal Impacts of Algorithmic Decision Making
+AU  - Barnett, Julia
+AU  - Diakopoulos, Nicholas
+PY  - 2022
+AB  - With the increasing pervasiveness of algorithms across industry and government, a growing body of work has grappled with how to understand their societal impact and ethical implications. Various methods have been used at different stages of algorithm development to encourage researchers and designers to consider the potential societal impact of their research. An understudied yet promising area in this realm is using participatory foresight to anticipate these different societal impacts. We employ crowdsourcing as a means of participatory foresight to uncover four different types of impact areas based on a set of governmental algorithmic decision making tools: (1) perceived valence, (2) societal domains, (3) specific abstract impact types, and (4) ethical algorithm concerns. Our findings suggest that this method is effective at leveraging the cognitive diversity of the crowd to uncover a range of issues. We further analyze the complexities within the interaction of the impact areas identified to demonstrate how crowdsourcing can illuminate patterns around the connections between impacts. Ultimately this work establishes crowdsourcing as an effective means of anticipating algorithmic impact which complements other approaches towards assessing algorithms in society by leveraging participatory foresight and cognitive diversity.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534145
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534145
+ER  - 
+
+TY  - CONF
+TI  - Aegis: An Agent for Multi-party Privacy Preservation
+AU  - Ben Salem, Rim
+AU  - A\"{\i}meur, Esma
+AU  - Hage, Hicham
+PY  - 2022
+AB  - The proliferation of social media set the foundation for the culture of over-disclosure where many people document every single event, incident, trip, etc. for everyone to see. Raising the individual's awareness of the privacy issues that they are subjecting themselves to can be challenging. This becomes more complex when the post being shared includes data "owned" by others. The existing approaches aiming to assist users in multi-party disclosure situations need to be revised to go beyond preferences to the "good" of the collective.This paper proposes an agent called Aegis to calculate the potential risk incurred by multi-party members in order to push privacy-preserving nudges to the sharer. Aegis is inspired by the consequentialist approach in normative ethical problem-solving techniques. The main contribution is the introduction of a social media-specific risk equation based on data valuation and the propagation of the post from intended to unintended audience. The proof-of-concept reports on how Aegis performs based on real-world data from the SNAP dataset and synthetically generated networks.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534134
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534134
+ER  - 
+
+TY  - CONF
+TI  - How Cognitive Biases Affect XAI-assisted Decision-making: A Systematic Review
+AU  - Bertrand, Astrid
+AU  - Belloum, Rafik
+AU  - Eagan, James R.
+AU  - Maxwell, Winston
+PY  - 2022
+AB  - The field of eXplainable Artificial Intelligence (XAI) aims to bring transparency to complex AI systems. Although it is usually considered an essentially technical field, effort has been made recently to better understand users' human explanation methods and cognitive constraints. Despite these advances, the community lacks a general vision of what and how cognitive biases affect explainability systems. To address this gap, we present a heuristic map which matches human cognitive biases with explainability techniques from the XAI literature, structured around XAI-aided decision-making. We identify four main ways cognitive biases affect or are affected by XAI systems: 1) cognitive biases affect how XAI methods are designed, 2) they can distort how XAI techniques are evaluated in user studies, 3) some cognitive biases can be successfully mitigated by XAI techniques, and, on the contrary, 4) some cognitive biases can be exacerbated by XAI techniques. We construct this heuristic map through the systematic review of 37 papers-drawn from a corpus of 285-that reveal cognitive biases in XAI systems, including the explainability method and the user and task types in which they arise. We use the findings from our review to structure directions for future XAI systems to better align with people's cognitive processes.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534164
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534164
+ER  - 
+
+TY  - CONF
+TI  - Gender Bias in Word Embeddings: A Comprehensive Analysis of Frequency, Syntax, and Semantics
+AU  - Caliskan, Aylin
+AU  - Ajay, Pimparkar Parth
+AU  - Charlesworth, Tessa
+AU  - Wolfe, Robert
+AU  - Banaji, Mahzarin R.
+PY  - 2022
+AB  - Word embeddings are numeric representations of meaning derived from word co-occurrence statistics in corpora of human-produced texts. The statistical regularities in language corpora encode well-known social biases into word embeddings (e.g., the word vector for family is closer to the vector women than to men). Although efforts have been made to mitigate bias in word embeddings, with the hope of improving fairness in downstream Natural Language Processing (NLP) applications, these efforts will remain limited until we more deeply understand the multiple (and often subtle) ways that social biases can be reflected in word embeddings. Here, we focus on gender to provide a comprehensive analysis of group-based biases in widely-used static English word embeddings trained on internet corpora (GloVe 2014, fastText 2017). While some previous research has helped uncover biases in specific semantic associations between a group and a target domain (e.g., women - family), using the Single-Category Word Embedding Association Test, we demonstrate the widespread prevalence of gender biases that also show differences in: (1) frequencies of words associated with men versus women; (b) part-of-speech tags in gender-associated words; (c) semantic categories in gender-associated words; and (d) valence, arousal, and dominance in gender-associated words. We leave the analysis of non-binary gender to future work due to the challenges in accurate group representation caused by limitations inherent in data.First, in terms of word frequency: we find that, of the 1,000 most frequent words in the vocabulary, 77\% are more associated with men than women, providing direct evidence of a masculine default in the everyday language of the English-speaking world. Second, turning to parts-of-speech: the top male-associated words are typically verbs (e.g., fight, overpower) while the top female-associated words are typically adjectives and adverbs (e.g., giving, emotionally). Gender biases in embeddings also permeate parts-of-speech. Third, for semantic categories: bottom-up, cluster analyses of the top 1,000 words associated with each gender. The top male-associated concepts include roles and domains of big tech, engineering, religion, sports, and violence; in contrast, the top female-associated concepts are less focused on roles, including, instead, female-specific slurs and sexual content, as well as appearance and kitchen terms. Fourth, using human ratings of word valence, arousal, and dominance from a ~20,000 word lexicon, we find that male-associated words are higher on arousal and dominance, while female-associated words are higher on valence. Ultimately, these findings move the study of gender bias in word embeddings beyond the basic investigation of semantic relationships to also study gender differences in multiple manifestations in text. Given the central role of word embeddings in NLP applications, it is essential to more comprehensively document where biases exist and may remain hidden, allowing them to persist without our awareness throughout large text corpora.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534162
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534162
+ER  - 
+
+TY  - CONF
+TI  - A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values
+AU  - Clarke, Sam
+AU  - Whittlestone, Jess
+PY  - 2022
+AB  - It is increasingly recognised that advances in artificial intelligence could have large and long-lasting impacts on society. However, what form those impacts will take, just how large and long-lasting they will be, and whether they will ultimately be positive or negative for humanity, is far from clear. Based on surveying literature on the societal impacts of AI, we identify and discuss five potential long-term impacts of AI: how AI could lead to long-term chances in science, cooperation, power, epistemics, and values. We review the state of existing research in each of these areas and highlight priority questions for future research.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534131
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534131
+ER  - 
+
+TY  - CONF
+TI  - Fairness via Explanation Quality: Evaluating Disparities in the Quality of Post hoc Explanations
+AU  - Dai, Jessica
+AU  - Upadhyay, Sohini
+AU  - Aivodji, Ulrich
+AU  - Bach, Stephen H.
+AU  - Lakkaraju, Himabindu
+PY  - 2022
+AB  - As post hoc explanation methods are increasingly being leveraged to explain complex models in high-stakes settings, it becomes critical to ensure that the quality of the resulting explanations is consistently high across all subgroups of a population. For instance, it should not be the case that explanations associated with instances belonging to, e.g., women, are less accurate than those associated with other genders. In this work, we initiate the study of identifying group-based disparities in explanation quality. To this end, we first outline several key properties that contribute to explanation quality-namely, fidelity (accuracy), stability, consistency, and sparsity-and discuss why and how disparities in these properties can be particularly problematic. We then propose an evaluation framework which can quantitatively measure disparities in the quality of explanations. Using this framework, we carry out an empirical analysis with three datasets, six post hoc explanation methods, and different model classes to understand if and when group-based disparities in explanation quality arise. Our results indicate that such disparities are more likely to occur when the models being explained are complex and non-linear. We also observe that certain post hoc explanation methods (e.g., Integrated Gradients, SHAP) are more likely to exhibit disparities. Our work sheds light on previously unexplored ways in which explanation methods may introduce unfairness in real world decision making.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534159
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534159
+ER  - 
+
+TY  - CONF
+TI  - Counterfactual Explanations for Prediction and Diagnosis in XAI
+AU  - Dai, Xinyue
+AU  - Keane, Mark T.
+AU  - Shalloo, Laurence
+AU  - Ruelle, Elodie
+AU  - Byrne, Ruth M.J.
+PY  - 2022
+AB  - We compared two sorts of explanations for decisions made by an AI system: counterfactual explanations about how an outcome could have been different in the past, and prefactual explanations about how it could be different in the future. We examined the effects of these alternative explanation strategies on the accuracy of users' judgments about the AI app's predictions about an outcome (inferred from information about the causes), compared to the accuracy of their judgments about the app's diagnoses of a cause (inferred from information about the outcome). The tasks were based on a simulated SmartAgriculture decision support system for grass growth outcomes on dairy farms in Experiment 1, and for an analogous alien planet domain in Experiment 2. The two experiments, with 243 participants, also tested users' confidence in their decisions, and their satisfaction with the explanations. Users made more accurate diagnoses of the presence of causes based on information about their outcome, compared to predictions of an outcome given information about the presence of causes. Their predictions and diagnoses were helped equally by counterfactual explanations and prefactual ones.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534144
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534144
+ER  - 
+
+TY  - CONF
+TI  - An Ontology for Fairness Metrics
+AU  - Franklin, Jade S.
+AU  - Bhanot, Karan
+AU  - Ghalwash, Mohamed
+AU  - Bennett, Kristin P.
+AU  - McCusker, Jamie
+AU  - McGuinness, Deborah L.
+PY  - 2022
+AB  - Recent research has revealed that many machine-learning models and the datasets they are trained on suffer from various forms of bias, and a large number of different fairness metrics have been created to measure this bias. However, determining which metrics to use, as well as interpreting their results, is difficult for a non-expert due to a lack of clear guidance and issues of ambiguity or alternate naming schemes between different research papers. To address this knowledge gap, we present the Fairness Metrics Ontology (FMO), a comprehensive and extensible knowledge resource that defines each fairness metric, describes their use cases, and details the relationships between them. We include additional concepts related to fairness and machine learning models, enabling the representation of specific fairness information within a resource description framework (RDF) knowledge graph. We evaluate the ontology by examining the process of how reasoning-based queries to the ontology were used to guide the fairness metric-based evaluation of a synthetic data model.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534137
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534137
+ER  - 
+
+TY  - CONF
+TI  - Practical Skills Demand Forecasting via Representation Learning of Temporal Dynamics
+AU  - Garcia de Macedo, Maysa Malfiza
+AU  - Clarke, Wyatt
+AU  - Lucherini, Eli
+AU  - Baldwin, Tyler
+AU  - Queiroz Neto, Dilermando
+AU  - de Paula, Rogerio Abreu
+AU  - Das, Subhro
+PY  - 2022
+AB  - Rapid technological innovation threatens to leave much of the global workforce behind. Today's economy juxtaposes white-hot demand for skilled labor against stagnant employment prospects for workers unprepared to participate in a digital economy. It is a moment of peril and opportunity for every country, with outcomes measured in long-term capital allocation and the life satisfaction of billions of workers. To meet the moment, governments and markets must find ways to quicken the rate at which the supply of skills reacts to changes in demand. More fully and quickly understanding labor market intelligence is one route. In this work, we explore the utility of time series forecasts to enhance the value of skill demand data gathered from online job advertisements. This paper presents a pipeline which makes one-shot multi-step forecasts into the future using a decade of monthly skill demand observations based on a set of recurrent neural network methods. We compare the performance of a multivariate model versus a univariate one, analyze how correlation between skills can influence multivariate model results, and present predictions of demand for a selection of skills practiced by workers in the information technology industry.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534183
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534183
+ER  - 
+
+TY  - CONF
+TI  - Understanding Decision Subjects' Fairness Perceptions and Retention in Repeated Interactions with AI-Based Decision Systems
+AU  - Gemalmaz, Meric Altug
+AU  - Yin, Ming
+PY  - 2022
+AB  - The wide application of AI-based decision systems in many high-stake domains has raised concerns regarding fairness of these systems. As these systems will lead to real-life consequences to people who are subject to their decisions, understanding what these decision subjects perceive as a fair or unfair system is of vital importance. In this paper, we extend prior work in this direction by taking a perspective of repeated interactions---We ask that when decision subjects interact with an AI-based decision system repeatedly and can strategically respond to the system by determining whether to stay in the system, what factors will affect the decision subjects' fairness perceptions and retention in the system and how. To answer these questions, we conducted two randomized human-subject experiments in the context of an AI-based loan lending system. Our results suggest that in repeated interactions with the AI-based decision system, overall, decision subjects' fairness perceptions and retention in the system are significantly affected by whether the system is in favor of the group that subjects themselves belong to, rather than whether the system treats different groups in an unbiased way. However, decision subjects with different qualification levels have different reactions to the AI system's biased treatment across groups or the AI system's tendency to favor/disfavor their own group. Finally, we also find that while subjects' retention in the AI-based decision system is largely driven by their own prospects of receiving the favorable decision from the system, their fairness perceptions of the system is influenced by the system's treatment to people in other groups in a complex way.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534201
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534201
+ER  - 
+
+TY  - CONF
+TI  - FairCanary: Rapid Continuous Explainable Fairness
+AU  - Ghosh, Avijit
+AU  - Shanbhag, Aalok
+AU  - Wilson, Christo
+PY  - 2022
+AB  - Systems that offer continuous model monitoring have emerged in response to (1) well-documented failures of deployed Machine Learning (ML) and Artificial Intelligence (AI) models and (2) new regulatory requirements impacting these models. Existing monitoring systems continuously track the performance of deployed ML models and compute feature importance (a.k.a. explanations) for each prediction to help developers identify the root causes of emergent model performance problems.We present Quantile Demographic Drift (QDD), a novel model bias quantification metric that uses quantile binning to measure differences in the overall prediction distributions over subgroups. QDD is ideal for continuous monitoring scenarios, does not suffer from the statistical limitations of conventional threshold-based bias metrics, and does not require outcome labels (which may not be available at runtime). We incorporate QDD into a continuous model monitoring system, called FairCanary, that reuses existing explanations computed for each individual prediction to quickly compute explanations for the QDD bias metrics. This optimization makes FairCanary an order of magnitude faster than previous work that has tried to generate feature-level bias explanations.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534157
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534157
+ER  - 
+
+TY  - CONF
+TI  - Learning Fairer Interventions
+AU  - He, Yuzi
+AU  - Burghardt, Keith
+AU  - Guo, Siyi
+AU  - Lerman, Kristina
+PY  - 2022
+AB  - Explicit and implicit bias clouds human judgment, leading to discriminatory treatment of disadvantaged groups. A fundamental goal of automated decisions is to avoid the pitfalls in human judgment by developing decision strategies that can be applied to all protected groups. Improving fairness of interventions via automated decision-inspired methods, however, has been under-utilized. In this paper, we propose a causal framework that learns optimal intervention policies from data subject to novel fairness constraints. We define two measures of treatment bias and infer treatment assignments that minimize the bias against protected groups while optimizing overall outcomes. We demonstrate the existence of trade-offs when balancing fairness and overall benefit; however, allowing preferential treatment of protected groups in certain circumstances (affirmative action) can dramatically improve the overall benefit while also preserving fairness. We apply our framework to data containing outcomes on standardized tests and show how it can be used to design real-world policies that fairly improve academic performance for different geographic areas. Our framework provides a principled way to learn fair treatment policies in real-world settings.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534172
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534172
+ER  - 
+
+TY  - CONF
+TI  - The Worst of Both Worlds: A Comparative Analysis of Errors in Learning from Data in Psychology and Machine Learning
+AU  - Hullman, Jessica
+AU  - Kapoor, Sayash
+AU  - Nanayakkara, Priyanka
+AU  - Gelman, Andrew
+AU  - Narayanan, Arvind
+PY  - 2022
+AB  - Arguments that machine learning (ML) is facing a reproducibility and replication crisis suggest that some published claims in research cannot be taken at face value. Concerns inspire analogies to the replication crisis affecting the social and medical sciences. A deeper understanding of what reproducibility concerns in supervised ML research have in common with the replication crisis in experimental science puts the new concerns in perspective, and helps researchers avoid "the worst of both worlds," where ML researchers begin borrowing methodologies from explanatory modeling without understanding their limitations and vice versa. We contribute a comparative analysis of concerns about inductive learning that arise in causal attribution as exemplified in psychology versus predictive modeling as exemplified in ML. We identify common themes in reform discussions, like overreliance on asymptotic theory and non-credible beliefs about real-world data generating processes. We argue that in both fields, claims from learning are implied to generalize outside the specific environment studied (e.g., the input dataset or subject sample, modeling implementation, etc.) but are often difficult to refute due to underspecification of key parts of the learning pipeline. We conclude by discussing risks that arise when sources of errors are misdiagnosed and the need to acknowledge the role of human inductive biases in learning and reform.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534196
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534196
+ER  - 
+
+TY  - CONF
+TI  - Civil War Twin: Exploring Ethical Challenges in Designing an Educational Face Recognition Application
+AU  - Kusuma, Manisha
+AU  - Mohanty, Vikram
+AU  - Wang, Marx
+AU  - Luther, Kurt
+PY  - 2022
+AB  - Facial recognition systems pose numerous ethical challenges around privacy, racial and gender bias, and accuracy, yet little guidance is available for designers and developers. We explore solutions to these challenges in a three-phase design process to create Civil War Twin (CWT), an educational web-based application where users can discover their lookalikes from the American Civil War era (1861--65) while learning more about facial recognition and history. Through this design process, we operationalize a framework for AI literacy, consult with scholars of history, gender, and race, and evaluate CWT in feedback sessions with diverse prospective users. We iteratively formulate design goals to incorporate transparency, inclusivity, speculative design, and empathy into our application. We found that users' perceived learning about the strengths and limitations of facial recognition and Civil War history improved after using CWT, and that our design successfully met users' ethical standards. We also discuss how our ethical design process can be applied to future facial recognition applications.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534141
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534141
+ER  - 
+
+TY  - CONF
+TI  - Data-Centric Factors in Algorithmic Fairness
+AU  - Li, Nianyun
+AU  - Goel, Naman
+AU  - Ash, Elliott
+PY  - 2022
+AB  - Notwithstanding the widely held view that data generation and data curation processes are prominent sources of bias in machine learning algorithms, there is little empirical research seeking to document and understand the specific data dimensions affecting algorithmic unfairness. Contra the previous work, which has focused on modeling using simple, small-scale benchmark datasets, we hold the model constant and methodically intervene on relevant dimensions of a much larger, more diverse dataset. For this purpose, we introduce a new dataset on recidivism in 1.5 million criminal cases from courts in the U.S. state of Wisconsin, 2000-2018. From this main dataset, we generate multiple auxiliary datasets to simulate different kinds of biases in the data. Focusing on algorithmic bias toward different race/ethnicity groups, we assess the relevance of training data size, base rate difference between groups, representation of groups in the training data, temporal aspects of data curation, including race/ethnicity or neighborhood characteristics as features, and training separate classifiers by race/ethnicity or crime type. We find that these factors often do influence fairness metrics holding the classifier specification constant, without having a corresponding effect on accuracy metrics. The methodology and the results in the paper provide a useful reference point for a data-centric approach to studying algorithmic fairness in recidivism prediction and beyond.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534147
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534147
+ER  - 
+
+TY  - CONF
+TI  - Towards Better Detection of Biased Language with Scarce, Noisy, and Biased Annotations
+AU  - Li, Zhuoyan
+AU  - Lu, Zhuoran
+AU  - Yin, Ming
+PY  - 2022
+AB  - Biased language is prevalent in today's online social media. To reduce the amount of online biased language, one critical first step is to accurately detect such biased language, ideally automatically. This is a challenging problem, however, as the annotated data necessary for training a biased language classifier is either scarce and costly (e.g., when collected from experts), or noisy and potentially biased on their own (e.g., when collected from crowd workers). The biased language classifier built based on these annotations may thus be inaccurate, and sometimes unfair (e.g., have systematic accuracy disparities across texts with different political leanings). In this paper, we propose a novel method, CLEARE, for biased language detection, in which we utilize self-supervised contrastive learning to enhance the biased language classifier---we learn a robust encoder of the textual data through solving a min-max optimization problem, so that the encoder could help achieve the best classification performance even if the worst data augmentation strategy is selected. Extensive evaluations suggest that CLEARE shows substantial improvements compared to the state-of-art biased language detection methods on several benchmark datasets, in terms of improving both the accuracy and the fairness of the detection.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534142
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534142
+ER  - 
+
+TY  - CONF
+TI  - Making Human-Like Moral Decisions
+AU  - Loreggia, Andrea
+AU  - Mattei, Nicholas
+AU  - Rahgooy, Taher
+AU  - Rossi, Francesca
+AU  - Srivastava, Biplav
+AU  - Venable, Kristen Brent
+PY  - 2022
+AB  - Many real-life scenarios require humans to make difficult trade-offs: do we always follow all the traffic rules or do we violate the speed limit in an emergency? In general, how should we account for and balance the ethical values, safety recommendations, and societal norms, when we are trying to achieve a certain objective? To enable effective AI-human collaboration, we must equip AI agents with a model of how humans make such trade-offs in environments where there is not only a goal to be reached, but there are also ethical constraints to be considered and to possibly align with. These ethical constraints could be both deontological rules on actions that should not be performed, or also consequentialist policies that recommend avoiding reaching certain states of the world. Our purpose is to build AI agents that can mimic human behavior in these ethically constrained decision environments, with a long term research goal to use AI to help humans in making better moral judgments and actions. To this end, we propose a computational approach where competing objectives and ethical constraints are orchestrated through a method that leverages a cognitive model of human decision making, called multi-alternative decision field theory (MDFT). Using MDFT, we build an orchestrator, called MDFT-Orchestrator (MDFT-O), that is both general and flexible. We also show experimentally that MDFT-O both generates better decisions than using a heuristic that takes a weighted average of competing policies (WA-O), but also performs better in terms of mimicking human decisions as collected through Amazon Mechanical Turk (AMT). Our methodology is therefore able to faithfully model human decision in ethically constrained decision environments.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534174
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534174
+ER  - 
+
+TY  - CONF
+TI  - DIME: Fine-grained Interpretations of Multimodal Models via Disentangled Local Explanations
+AU  - Lyu, Yiwei
+AU  - Liang, Paul Pu
+AU  - Deng, Zihao
+AU  - Salakhutdinov, Ruslan
+AU  - Morency, Louis-Philippe
+PY  - 2022
+AB  - The ability for a human to understand an Artificial Intelligence (AI) model's decision-making process is critical in enabling stakeholders to visualize model behavior, perform model debugging, promote trust in AI models, and assist in collaborative human-AI decision-making. As a result, the research fields of interpretable and explainable AI have gained traction within AI communities as well as interdisciplinary scientists seeking to apply AI in their subject areas. In this paper, we focus on advancing the state-of-the-art in interpreting multimodal models - a class of machine learning methods that tackle core challenges in representing and capturing interactions between heterogeneous data sources such as images, text, audio, and time-series data. Multimodal models have proliferated numerous real-world applications across healthcare, robotics, multimedia, affective computing, and human-computer interaction. By performing model disentanglement into unimodal contributions (UC) and multimodal interactions (MI), our proposed approach, DIME, enables accurate and fine-grained analysis of multimodal models while maintaining generality across arbitrary modalities, model architectures, and tasks. Through a comprehensive suite of experiments on both synthetic and real-world multimodal tasks, we show that DIME generates accurate disentangled explanations, helps users of multimodal models gain a deeper understanding of model behavior, and presents a step towards debugging and improving these models for real-world deployment.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534148
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534148
+ER  - 
+
+TY  - CONF
+TI  - Investigating Debiasing Effects on Classification and Explainability
+AU  - Marchiori Manerba, Marta
+AU  - Guidotti, Riccardo
+PY  - 2022
+AB  - During each stage of a dataset creation and development process, harmful biases can be accidentally introduced, leading to models that perpetuates marginalization and discrimination of minorities, as the role of the data used during the training is critical. We propose an evaluation framework that investigates the impact on classification and explainability of bias mitigation preprocessing techniques used to assess data imbalances concerning minorities' representativeness and mitigate the skewed distributions discovered. Our evaluation focuses on assessing fairness, explainability and performance metrics. We analyze the behavior of local model-agnostic explainers on the original and mitigated datasets to examine whether the proxy models learned by the explainability techniques to mimic the black-boxes disproportionately rely on sensitive attributes, demonstrating biases rooted in the explainers. We conduct several experiments about known biased datasets to demonstrate our proposal's novelty and effectiveness for evaluation and bias detection purposes.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534170
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534170
+ER  - 
+
+TY  - CONF
+TI  - Contrastive Counterfactual Fairness in Algorithmic Decision-Making
+AU  - Mutlu, Ece \c{C}i\u{g}dem
+AU  - Yousefi, Niloofar
+AU  - Ozmen Garibay, Ozlem
+PY  - 2022
+AB  - The widespread use of artificial intelligence algorithms and their role in decision-making with consequential decisions for human subjects has resulted in a growing interest in designing AI algorithms accounting for fairness considerations. There have been attempts to account for fairness of AI algorithms without compromising their accuracy to improve poorly designed algorithms that disregard sensitive attributes (e.g., age, race, and gender) at the peril of introducing or increasing bias against specific groups. Although many studies have examined the optimal trade-off between fairness and accuracy, it remains a challenge to understand the sources of unfairness in decision-making and mitigate it effectively. To tackle this problem, researchers have proposed fair causal learning approaches which assist us in modeling cause and effect knowledge structures, discovering bias sources, and refining AI algorithms to make them more transparent and explainable. In this study, we formalize probabilistic interpretations of both contrastive and counterfactual causality as essential features in order to encourage users' trust and to expand the applicability of such automated systems. We use this formalism to define a novel fairness criterion that we call contrastive counterfactual fairness. This paper introduces, to the best of our knowledge, the first probabilistic fairness-aware data augmentation approach that is based on contrastive counterfactual causality. We tested our approach on two well-known fairness-related datasets, UCI Adult and German Credit, and concluded that our proposed method has a promising ability to capture and mitigate unfairness in AI deployment. This model-agnostic approach can be used with any AI model because it is applied in pre-processing.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534143
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534143
+ER  - 
+
+TY  - CONF
+TI  - How Algorithms Shape the Distribution of Political Advertising: Case Studies of Facebook, Google, and TikTok
+AU  - Papakyriakopoulos, Orestis
+AU  - Tessono, Christelle
+AU  - Narayanan, Arvind
+AU  - Kshirsagar, Mihir
+PY  - 2022
+AB  - Online platforms play an increasingly important role in shaping democracy by influencing the distribution of political information to the electorate. In recent years, political campaigns have spent heavily on the platforms' algorithmic tools to target voters with online advertising. While the public interest in understanding how platforms perform the task of shaping the political discourse has never been higher, the efforts of the major platforms to make the necessary disclosures to understand their practices falls woefully short. In this study, we collect and analyze a dataset containing over 800,000 ads and 2.5 million videos about the 2020 U.S. presidential election from Facebook, Google, and TikTok. We conduct the first large scale data analysis of public data to critically evaluate how these platforms amplified or moderated the distribution of political advertisements. We conclude with recommendations for how to improve the disclosures so that the public can hold the platforms and political advertisers accountable.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534166
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534166
+ER  - 
+
+TY  - CONF
+TI  - A Dynamic Decision-Making Framework Promoting Long-Term Fairness
+AU  - Puranik, Bhagyashree
+AU  - Madhow, Upamanyu
+AU  - Pedarsani, Ramtin
+PY  - 2022
+AB  - With AI-based decisions playing an increasingly consequential role in our society, for example, in our financial and criminal justice systems, there is a great deal of interest in designing algorithms conforming to application-specific notions of fairness. In this work, we ask a complementary question: can AI-based decisions be designed to dynamically influence the evolution of fairness in our society over the long term? To explore this question, we propose a framework for sequential decision-making aimed at dynamically influencing long-term societal fairness, illustrated via the problem of selecting applicants from a pool consisting of two groups, one of which is under-represented. We consider a dynamic model for the composition of the applicant pool, in which admission of more applicants from a group in a given selection round positively reinforces more candidates from the group to participate in future selection rounds. Under such a model, we show the efficacy of the proposed Fair-Greedy selection policy which systematically trades the sum of the scores of the selected applicants ("greedy'') against the deviation of the proportion of selected applicants belonging to a given group from a target proportion ("fair''). In addition to experimenting on synthetic data, we adapt static real-world datasets on law school candidates and credit lending to simulate the dynamics of the composition of the applicant pool. We prove that the applicant pool composition converges to a target proportion set by the decision-maker when score distributions across the groups are identical.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534127
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534127
+ER  - 
+
+TY  - CONF
+TI  - Select Wisely and Explain: Active Learning and Probabilistic Local Post-hoc Explainability
+AU  - Saini, Aditya
+AU  - Prasad, Ranjitha
+PY  - 2022
+AB  - Albeit the tremendous performance improvements in designing complex artificial intelligence (AI) systems in data-intensive domains, the black-box nature of these systems leads to the lack of trustworthiness. Post-hoc interpretability methods explain the prediction of a black-box ML model for a single instance, and such explanations are being leveraged by domain experts to diagnose the underlying biases of these models. Despite their efficacy in providing valuable insights, existing approaches fail to deliver consistent and reliable explanations. In this paper, we propose an active learning-based technique called UnRAvEL (Uncertainty driven Robust Active learning based locally faithful Explanations), which consists of a novel acquisition function that is locally faithful and uses uncertainty-driven sampling based on the posterior distribution on the probabilistic locality using Gaussian process regression (GPR). We present a theoretical analysis of UnRAvEL by treating it as a local optimizer and analyzing its regret in terms of instantaneous regrets over a global optimizer. We demonstrate the efficacy of the local samples generated by UnRAvEL by incorporating different kernels such as the Matern and linear kernels in GPR. Through a series of experiments, we show that UnRAvEL outperforms the baselines with respect to stability and local fidelity on several real-world models and datasets. We show that UnRAvEL is an efficient surrogate dataset generator by deriving importance scores on this surrogate dataset using sparse linear models. We also showcase the sample efficiency and flexibility of the developed framework on the Imagenet dataset using a pre-trained ResNet model.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534191
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534191
+ER  - 
+
+TY  - CONF
+TI  - Towards Robust Off-Policy Evaluation via Human Inputs
+AU  - Singh, Harvineet
+AU  - Joshi, Shalmali
+AU  - Doshi-Velez, Finale
+AU  - Lakkaraju, Himabindu
+PY  - 2022
+AB  - Off-policy Evaluation (OPE) methods are crucial tools for evaluating policies in high-stakes domains such as healthcare, where direct deployment is often infeasible, unethical, or expensive. When deployment environments are expected to undergo changes (that is, dataset shifts), it is important for OPE methods to perform robust evaluation of the policies amidst such changes. Existing approaches consider robustness against a large class of shifts that can arbitrarily change any observable property of the environment. This often results in highly pessimistic estimates of the utilities, thereby invalidating policies that might have been useful in deployment. In this work, we address the aforementioned problem by investigating how domain knowledge can help provide more realistic estimates of the utilities of policies. We leverage human inputs on which aspects of the environments may plausibly change, and adapt the OPE methods to only consider shifts on these aspects. Specifically, we propose a novel framework, Robust OPE (ROPE), which considers shifts on a subset of covariates in the data based on user inputs, and estimates worst-case utility under these shifts. We then develop computationally efficient algorithms for OPE that are robust to the aforementioned shifts for contextual bandits and Markov decision processes. We also theoretically analyze the sample complexity of these algorithms. Extensive experimentation with synthetic and real world datasets from the healthcare domain demonstrates that our approach not only captures realistic dataset shifts accurately, but also results in less pessimistic policy evaluations.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534198
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534198
+ER  - 
+
+TY  - CONF
+TI  - Multi-CoPED: A Multilingual Multi-Task Approach for Coding Political Event Data on Conflict and Mediation Domain
+AU  - Skorupa Parolin, Erick
+AU  - Hosseini, MohammadSaleh
+AU  - Hu, Yibo
+AU  - Khan, Latifur
+AU  - Brandt, Patrick T.
+AU  - Osorio, Javier
+AU  - D'Orazio, Vito
+PY  - 2022
+AB  - Political and social scientists monitor, analyze and predict political unrest and violence, preventing (or mitigating) harm, and promoting the management of global conflict. They do so using event coder systems, which extract structured representations from news articles to design forecast models and event-driven continuous monitoring systems. Existing methods rely on expensive manual annotated dictionaries and do not support multilingual settings. To advance the global conflict management, we propose a novel model, Multi-CoPED (Multilingual Multi-Task Learning BERT for Coding Political Event Data), by exploiting multi-task learning and state-of-the-art language models for coding multilingual political events. This eliminates the need for expensive dictionaries by leveraging BERT models' contextual knowledge through transfer learning. The multilingual experiments demonstrate the superiority of Multi-CoPED over existing event coders, improving the absolute macro-averaged F1-scores by 23.3\% and 30.7\% for coding events in English and Spanish corpus, respectively. We believe that such expressive performance improvements can help to reduce harms to people at risk of violence.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534178
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534178
+ER  - 
+
+TY  - CONF
+TI  - Do Humans Trust Advice More if it Comes from AI? An Analysis of Human-AI Interactions
+AU  - Vodrahalli, Kailas
+AU  - Daneshjou, Roxana
+AU  - Gerstenberg, Tobias
+AU  - Zou, James
+PY  - 2022
+AB  - In decision support applications of AI, the AI algorithm's output is framed as a suggestion to a human user. The user may ignore this advice or take it into consideration to modify their decision. With the increasing prevalence of such human-AI interactions, it is important to understand how users react to AI advice. In this paper, we recruited over 1100 crowdworkers to characterize how humans use AI suggestions relative to equivalent suggestions from a group of peer humans across several experimental settings. We find that participants' beliefs about how human versus AI performance on a given task affects whether they heed the advice. When participants do heed the advice, they use it similarly for human and AI suggestions. Based on these results, we propose a two-stage, "activation-integration" model for human behavior and use it to characterize the factors that affect human-AI interactions.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534150
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534150
+ER  - 
+
+TY  - CONF
+TI  - Explainability's Gain is Optimality's Loss? How Explanations Bias Decision-making
+AU  - Wan, Charles
+AU  - Belo, Rodrigo
+AU  - Zejnilovic, Leid
+PY  - 2022
+AB  - Decisions in organizations are about evaluating alternatives and choosing the one that would best serve organizational goals. To the extent that the evaluation of alternatives could be formulated as a predictive task with appropriate metrics, machine learning algorithms are increasingly being used to improve the efficiency of the process. Explanations help to facilitate communication between the algorithm and the human decision-maker, making it easier for the latter to interpret and make decisions on the basis of predictions by the former. Feature-based explanations' semantics of causal models, however, induce leakage from the decision-maker's prior beliefs. Our findings from a field experiment demonstrate empirically how this leads to confirmation bias and disparate impact on the decision-maker's confidence in the predictions. Such differences can lead to sub-optimal and biased decision outcomes.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534156
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534156
+ER  - 
+
+TY  - CONF
+TI  - Enhancing Fairness in Face Detection in Computer Vision Systems by Demographic Bias Mitigation
+AU  - Yang, Yu
+AU  - Gupta, Aayush
+AU  - Feng, Jianwei
+AU  - Singhal, Prateek
+AU  - Yadav, Vivek
+AU  - Wu, Yue
+AU  - Natarajan, Pradeep
+AU  - Hedau, Varsha
+AU  - Joo, Jungseock
+PY  - 2022
+AB  - Fairness has become an important agenda in computer vision and artificial intelligence. Recent studies have shown that many computer vision models and datasets exhibit demographic biases and proposed mitigation strategies. These works attempt to address accuracy disparity, spurious correlations, or unbalanced representations in datasets in tasks such as face recognition, verification and expression and attribute classification. These tasks, however, all require face detection as the first preprocessing step, and surprisingly, there has been little effort in identifying or mitigating biases in face detection. Biased face detectors themselves pose a threat against fair and ethical AI systems, and their biases may be further passed on to subsequent downstream tasks such as face recognition in a computer vision pipeline. This paper therefore investigates the problem of biases in face detection, focusing on accuracy disparity of detectors between demographic groups including gender, age group, and skin tone. We collect perceived demographic attributes on a popular face detection benchmark dataset, WIDER FACE, report skewed demographic distributions, and compare detection performance between groups. In order to mitigate the biases, we apply three mitigation methods that have been introduced in the recent literature and also propose two novel methods. Experimental results show that these methods are effective in reducing demographic biases. We also discuss how the effectiveness varies by demographic attributes, detection easiness, and multiple detectors, which will shed light on this new topic of addressing face detection bias.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534153
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534153
+ER  - 
+
+TY  - CONF
+TI  - Identifying Bias in Data Using Two-Distribution Hypothesis Tests
+AU  - Yik, William
+AU  - Serafini, Limnanthes
+AU  - Lindsey, Timothy
+AU  - Monta\~{n}ez, George D.
+PY  - 2022
+AB  - As machine learning models become more widely used in important decision-making processes, the need for identifying and mitigating potential sources of bias has increased substantially. Using two-distribution (specified complexity) hypothesis tests, we identify biases in training data with respect to proposed distributions and without the need to train a model, distinguishing our methods from common output-based fairness tests. Furthermore, our methods allow us to return a "closest plausible explanation" for a given dataset, potentially revealing underlying biases in the processes that generated them. We also show that a binomial variation of this hypothesis test could be used to identify bias in certain directions, or towards certain outcomes, and again return a closest plausible explanation. The benefits of this binomial variation are compared with other hypothesis tests, including the exact binomial. Lastly, potential industrial applications of our methods are shown using two real-world datasets.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534169
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534169
+ER  - 
+
+TY  - CONF
+TI  - A Model for Governing Information Sharing in Smart Assistants
+AU  - Zhan, Xiao
+AU  - Sarkadi, Stefan
+AU  - Criado, Natalia
+AU  - Such, Jose
+PY  - 2022
+AB  - Smart Personal Assistants (SPAs), such as Amazon Alexa, Google Assistant and Apple Siri, leverage different AI techniques to provide convenient help and assistance to users. However, inappropriate information sharing decisions can lead SPAs to incorrectly disclose user information to undesired parties, or mistakenly block their reasonable access in specific scenarios to desired parties. In fact, reports about privacy violations in SPAs and associated user concerns are well known and understood in the related literature. It is difficult for SPAs to automatically decide how data should be shared with respect to the privacy preferences of the users. We argue norms, which are regarded as shared standards of acceptable behaviour of groups and/or individuals, can be used to govern and reason about the best course of action of SPAs with regards to information sharing, and our work is the first to propose a practical model to address the above issues and govern SPAs based on normative systems and the contextual integrity theory of privacy. We evaluated the performance of the model using a real dataset of user preferences for privacy in SPAs and the results showed a very marked and significant improvement in understanding user preferences and making the right decisions with respect to data sharing.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534129
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534129
+ER  - 
+
+TY  - CONF
+TI  - No Rage Against the Machines: Threat of Automation Does Not Change Policy Preferences
+AU  - Zhang, Baobao
+PY  - 2022
+AB  - Labor-saving technology has already decreased employment opportunities for middle-skill workers. Experts anticipate that advances in AI and robotics will cause even more significant disruptions in the labor market over the next two decades. This paper presents three experimental studies that investigate how this profound economic change could affect mass politics. Recent observational studies suggest that workers' exposure to automation risk predicts their support not only for redistribution but also for right-wing populist policies and candidates. Other observational studies, including my own, find that workers underestimate the impact of automation on their job security. Misdirected blame towards immigrants and workers in foreign countries, rather than concerns about workplace automation, could be driving support for right-wing populism. To correct American workers' beliefs about the threats to their jobs, I conducted three survey experiments in which I informed workers about the existent and future impact of workplace automation. While these informational treatments convinced workers that automation threatens American jobs, they failed to change respondents' preferences on welfare, immigration, and trade policies. My research finds that raising awareness about workplace automation did not decrease opposition to globalization or increase support for policies that will prepare workers for future technological disruptions.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534179
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534179
+ER  - 
+
+TY  - CONF
+TI  - Judging Instinct Exploitation in Statistical Data Explanations Based on Word Embedding
+AU  - Zhang, Kang
+AU  - Shinden, Hiroaki
+AU  - Mutsuro, Tatsuki
+AU  - Suzuki, Einoshin
+PY  - 2022
+AB  - This paper proposes 18 types of statistical data explanations and three kinds of procedures to investigate credibility in unethical and biased explanations due to exploitation of the 10 instincts proposed by Rosling et al. The explanation "women have lower math scores than men'' accompanied with the averages and the distributions of their scores is an example of such an explanation, as it exploits the gap instinct, i.e., our tendency to divide all kinds of things into two distinct and often conflicting groups. It becomes much less credible if we replace the word "math'' with "English'', even if we keep the data as they are, as the exploitation seems to fail. Our judging procedures are based on phrase embedding and carefully designed comparisons to judge the credibility. The results of our experiments comparing the 18 types with their variants show promising results and clues for further developments.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3534171
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3534171
+ER  - 
+
+TY  - CONF
+TI  - AI Alignment Dialogues: An Interactive Approach to AI Alignment in Support Agents
+AU  - Chen, Pei-Yu
+PY  - 2022
+AB  - This project proposes a different way of looking at AI alignment, namely by introducing AI Alignment Dialogues. We argue that alignment dialogues have a number of advantages in comparison to data-driven approaches, especially for behaviour support agents, which aim to support users in achieving their desired future behaviours rather than their current behaviours. The advantages of alignment dialogues include allowing the users to directly convey higher-level concepts to the agent and making the agent more transparent and trusted.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539531
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539531
+ER  - 
+
+TY  - CONF
+TI  - Hijacking Epistemic Agency: How Emerging Technologies Threaten our Wellbeing as Knowers
+AU  - Dorsch, John
+PY  - 2022
+AB  - The aim of this project to expose the reasons behind the pandemic of misinformation (henceforth, PofM) by examining the enabling conditions of epistemic agency and the emerging technologies that threaten it. I plan to research the emotional origin of epistemic agency, i.e. on the origin of our capacity to acquire justification for belief, as well as on the significance this emotional origin has for our lives as epistemic agents in our so-called Misinformation Age [1]. This project has three objectives. First, I plan to expose the degree to which epistemic agency is made possible by an under-researched species of emotion called epistemic feelings [2] [3]. Perhaps, the most epistemically significant is the feeling of confidence [4]. In particular, epistemic feelings make epistemic agency possible by making errors in reasoning salient or the potential lack thereof [5].Second, in order to diagnose the reasons for PofM, I will analyze the emotional basis of epistemic agency in the context of emerging technologies [6]. Epistemic feelings ought to be construed as motivators of epistemic acts, specifically acts following exposure to misinformation spread by social media [7]. For example, a recent study found that subjects on YouTube have a 6.3\% probability in five clicks to go from watching innocuous videos to misogynistic videos [8]. Accordingly, one prominent view holds that social media algorithms lead subjects down the proverbial rabbit hole, producing content that elicits strong emotional reactions [9] [10].But under-researched is the degree to which these emotions are intertwined with epistemic feelings, so that subjects are likely to misjudge the information as correct due to being primed to do so by processing the AI's suggested media. Thus, when this technology is used in epistemic practices, the result is invariably epistemically bad behavior because of how this manner of producing content motivates epistemic acts through the production of erroneous feelings of confidence, which result from the perceived ease of cognitive processing [11] [12]: the content is easy to process and so, the subject confidently misjudges, it is true. As of yet, an account of this cognitive and emotional decision-making process has not been used to analyze how emerging technologies are threatening epistemic agency, and thus our wellbeing as knowers.Finally, I plan to develop therapeutics for PofM by outlining how to reform our collective epistemic practices. Thus, this project complements existing research in virtue epistemology [13], specifically by articulating the challenges to cultivating epistemic virtues and warding off the vices of the mind [14]. In summation, the project aims to account for how emerging technologies are committing a form of epistemic injustice [15] through the exploitation of cognitive biases and the production of erroneous epistemic feelings, with the overarching goal being a framework for convalescing from the pandemic of misinformation plaguing our age.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539537
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539537
+ER  - 
+
+TY  - CONF
+TI  - Computational Philosophy
+AU  - Etienne, Hubert
+PY  - 2022
+AB  - The critical value of interdisciplinarity is increasingly accepted not only for promoting the responsible use of machine learning models, but also for increasing their performance. Social scientists can then help engineers better understand the population they are gathering data from. To be successful, however, interdisciplinary collaborations require more than just gathering researchers from various fields around a table. They call for addressing challenges such as developing a common language, understanding different ways of reasoning, and addressing epistemic controversies to agree on shared criteria upon which can be assessed the validity of the co-produced knowledge. Controversies bring about relevant epistemic questions to promote an ongoing reflection on scientific methods. In contrast, when a discipline leverages its own methods to approach a topic traditionally associated with another discipline, the unsolicited interference is often followed by a backlash which undermines the possibility of collaboration (e.g., [1], [2], [3]).New environments emerge in academic centers willing to welcome interdisciplinary research and a key challenge is creating practices and methodologies that could enable such research. Computational philosophy is the approach I develop to serve this goal. I present here two examples of such collaborations I have led, as a philosopher, alongside machine learning engineers. These collaborations resulted in great outcomes and significantly advanced the state of the art in the domain of online social interactions.The first example is an empirical study on misinformation based on an analysis of user-generated reports from Facebook and Instagram [4]. The mixed approach I developed with Onur \cCelebi allowed us to identify meaningful variations in the volumes and types of false news, as well as in the manipulative strategies developed to spread misinformation among countries and platforms. Thanks to an original typology we created to classify content, we were able to identify four distinct types of behaviors for users reporting content to moderators. This allowed us to propose explanations for up to 55\% of the inaccuracy in user reports, suggest solutions to improve the overall signal by taking action on the different sources of inaccuracy, and build a classifier capable of distinguishing credible user reports from others to support misinformation detection.The second example is an empirical study of social influencers on Instagram [5]. Fran\ccois Charton and I developed an original typology to classify Instagram influencers based on their source of legitimacy. This allowed us to identify different kinds of audiences characteristic of the different types of influencers, which we analyzed through Ren\'e Girard's mimetic desire theory [6]. This research enriched Girard's philosophical theory while it helped us advance the understanding of social interactions between influencers and their followers by superimposing a communication system inspired by Marshall McLuhan's media theory onto them [7]. Leveraging different signals, we were then able to identify for each category of influencer which kinds of posts were most likely to generate a positive response and negative feedback.I am now expanding my approach to hate speech, bringing together the psychological mechanisms of hate conceptualized by Girard [8] to better understand the manifestations of hate on Instagram. These three blocks should then allow me to present a holistic approach to online interactions upon which an ethical system for the moderation of problematic online interactions could be erected.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539562
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539562
+ER  - 
+
+TY  - CONF
+TI  - The Opacity of Automated Decision-Making Systems (ADMS) and its Challenges for Political Legitimacy in a Democracy
+AU  - Jim\'{e}nez, Mar\'{\i}a Carolina
+PY  - 2022
+AB  - This paper focuses specifically on Automated Decision-Making Systems (ADMS) based on Artificial Intelligence (AI). Since the last decades, AI systems are increasingly deployed by governments across the planet to manage public infrastructures and resources, as well as to engage with citizens for the provision of public services. Their introduction is advertised as a cost-cutting tool, as well as an instrument to combat traditional institutional disfunctions such as inefficiency, understaffing, corruption and human bias.While AI offers an incredible potential for progress, an emerging body of literature highlights the challenges that AI-driven decision-making may raise for a public sector ethics. A common trait of these challenges is their being related to some form of "epistemological opacity" that undermines the capacity of humans to explain and justify decisions based on AI systems, detect errors or unfairness and adopt corrective actions. The situation may entail public officers and citizens taking the outcomes of AI systems at face value, thus basing their actions (wholly or in part) on pieces of information that cannot be scrutinized and/or corrected if necessary.This paper intends to contribute to an emerging but still underdeveloped trend in normative political theory that study how AI-driven decision-making is reshaping the conceptualization and assessment of interactions between citizens and public officials. The overall goal of the paper is to analyze how various sources of "epistemological opacity" (algorithmic/legal/illiteracy/discursive) affecting AI systems, may undermine the democratic legitimacy of public decisions based on them.Broadly speaking, legitimacy is the property that grounds the exercise of political authority, where authority standardly means the right to rule [1]. In this paper, democratic legitimacy is understood as a distinctive form of political authority grounded in the recognition of citizens as joint legislators. The paper offers a conception of democratic legitimacy conditional on the capacity of decision-making procedures and outcomes to realize the principle of public equality, which requires citizens' control over public decision-making, as well as respect for their equal status as political decision-makers.Specifically, the paper argues that the "epistemological opacity" affecting AI-driven decision-making systems, brings about a mistreatment of citizens as coauthors of public decisions, which is a premise of the idea of democratic citizenship.The main conjecture is that different sources of "epistemological opacity" (algorithmic/legal/illiteracy/discursive) are causing the disengagement of citizens and public officers from public decision-making, either because they directly undermine necessary conditions for the realization of public equality (co-authorship/accountability/publicity), or because they hide from the public eye instances of illegitimate automation and privatization of decisional power.The paper offers a normative conception of democratic legitimacy that may contribute to efforts in various fields, including "AI fairness" and "Explainable AI", to better adapt technological tools to equality requirements distinctive of public decision-making within democratic societies.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539563
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539563
+ER  - 
+
+TY  - CONF
+TI  - AI and Legal Personhood: An African Perspective
+AU  - Naidoo, Meshandren
+PY  - 2022
+AB  - In recent years, artificial intelligence (AI) has posed challenges to the law - be it self-driving cars [1], auto-diagnostics [2], or DABUS, the AI inventor [3]. The law has been slow to catch up, but some solutions have been presented in global governance initiatives. However, these solutions are not without their challenges. Thus, a potential solution examined in this research is that of legal personhood for AI systems. The central question being whether there are compelling moral and legal reasons to grant some AI systems a degree of legal personhood.Within the global regulatory landscape, this position is heavily critiqued and labelled as ethically undesirable. However, this research contends that: (1) there may be moral reasons to grant specific AI with a sui generis form of legal personhood; and (2) there are strong legal rationales to endow some AI with a form of legal personhood.In terms of argument (1), this research finds that: (a) the debate in this area is largely unrepresentative of African philosophical thought. African philosophical thought tends to prize relationality (Metz, Eze, and Menketi) at its core; and (b) within this communitarian framework, this research finds that African philosophical thought may allow for some AI systems to be both subjects and objects of relationships.In terms of argument (2), this research contends that there are other important legal values for endowing some AI systems with legal personhood - such as legal efficiency, market efficiency, legal certainty, and accountability. The examples referred to which support this contention are: (i) AI inventiveness and creativity in intellectual property (IP) law; and (ii) liability in the instance where AI is an actor in healthcare. Furthermore, the strict liability route, as suggested by the European Union (EU), is problematic [5], especially for lower- middle-income countries (LMICs), such as South Africa. LMICs have smaller economies and often struggle with healthcare services, thus it is imperative that there exists an enabling environment for innovation. For this, LMICs regulatory regimes need to be more 'friendly' to developers and deployers of AI. As such, there is an imperative for out-of-the box legal solutions to these novel problems.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539548
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539548
+ER  - 
+
+TY  - CONF
+TI  - Bias in Artificial Intelligence Models in Financial Services
+AU  - Pav\'{o}n P\'{e}rez, \'{A}ngel
+PY  - 2022
+AB  - Nowadays, artificial intelligence models are widely used in financial services, from credit scoring to fraud detection, having a direct impact on our daily lives. Although such models have been developed to try to reduce human bias and thus bring greater fairness to financial services decisions, studies have found that there is still significant discrimination by both face-to-face and algorithmic lenders. In fact, Apple has recently been investigated for gender discrimination in assigning a credit limit to its users, demonstrating that there may still be inherent biases in the development of such algorithms and models. Furthermore, biases in financial services models may not only lead to unfair discrimination but were also linked to health problems and recovery prospects.This project aims to analyse and identify the different types of biases found in AI models and data used in the financial services industry. We propose a method using data analysis and explainable models to explain how these biases emerge throughout the process of developing AI models as well as applying state-of-the-art bias dealing techniques to avoid and mitigate them. Finally, we propose how to evaluate these models according to the business objectives and consider possible trade-offs between different definitions of fairness. Thus, the main questions that this project will try to answer are as follows: - What are the current biases in credit risk and fraud detection models and how to identify them? - In what ways understanding how biases emerge from the data can help us in bias mitigation? - To what extent could credit risk and fraud detection models bias be mitigated, and what are the implications of those mitigation techniques?Answering these questions, we hope to create a pipeline for building these models by understanding the key points where bias can emerge and the appropriate methods to avoid it.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539561
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539561
+ER  - 
+
+TY  - CONF
+TI  - Emotion Recognition Technology: Re-Shaping Human Relationships
+AU  - Pr\'{e}gent, Alexandra
+PY  - 2022
+AB  - Over the recent years, emotions have taken more and more place in relatively different spheres of society, including politics, sciences, and philosophy. Contradictory to what was preached in the 20th century, we now accept emotions as important part of ourselves that contributes to our reasoning and decision-making process. Furthermore, we recognized them as necessary components in the construction of relationships. This shift in the paradigm towards emotions has increased their value in the public eye. In a paradoxical way, we now tend to communicate more than ever this subjective experience and thus, as we communicate it, we insist on its personal and private status. Our emotions are ours and ours alone. But is it true? By being both recognized as a part of the inner life that is never completely reachable and as a necessary component of relationships, emotions appear to be at the edge of every concept of privacy.This research project will work on this specific blind spot in the literature through the analysis of emotion recognition software (ERS) as a threat to both the privacy of the inner life and the privacy of relationships. The main claims are that emotions must be both recognized as (1) being more than a part of the inner self, e.g., for instance, as actively contributing to communication and the construction of relationships, and (2) considered off-limits from scrutinization and monitoring by governments and corporate in contexts in which the use of ERS disrupt and restrict the possibility to freely experience them as inner affective states and/or to freely use them as a communication tool. The hypothesis is as follows. The first premise assume that the phenomenon of emotion is commonly accepted as being a fundamental component of human experience. From that first assumption is derive the second one; that it is, therefore, a necessary element to live a meaningful life.From that standpoint, I draw upon Helen Nissenbaum's framework of contextual integrity [1] and hypothesize that the context in which the individual shares his or her emotions daily should be recognized as a non-violable whole (set of natural, social, cultural conditions) whose integrity allows for the exercise of this fundamental component of human experience, which is a necessity for living a meaningful life. While emotions are seen as "in the public space" because we constantly use them to communicate, I want to argue that emotions "in the public space" should be considered a priori off-limit from monitoring and scrutinization by State and corporate until proven otherwise by the contextual integrity framework.The general stance is that a constant monitoring and scrutinization by ERS will have a disruptive effect on the way we experience and express emotions, which will have a direct impact on our way of building and maintaining relationships, putting at higher risk the possibility of achieving a meaningful life. Therefore, I want to draw what could be seen as a draconian line between what citizens on one side and what States and corporate on the other should be allowed to do and not do. Emotions should not be considered something that individuals should refrain from experiencing, communicating, and accessing, however, they should be considered highly sensitive and intimate information and, thus, States and corporate should refrain from monitoring and scrutinizing them. Furthermore, I argue that a massive deployment of ERS by government and private companies will transform the cultural and societal practices as well as affecting our fundamental rights and values.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539534
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539534
+ER  - 
+
+TY  - CONF
+TI  - Bias in Hate Speech and Toxicity Detection
+AU  - Reyero Lobo, Paula
+PY  - 2022
+AB  - Many Artificial Intelligence (AI) systems rely on finding patterns in large datasets, which are prone to bias and exacerbate existing segregation and inequalities of marginalised communities. Due to their socio-technical impact, bias in AI has become a pressing issue. In this work, we investigate discrimination prevention methods on the assumption that disparities of specific populations in the training samples are reproduced or even amplified in the AI system outcomes. We aim to identify the information from vulnerable groups in the training data, uncover potential inequalities in how data capture these groups and provide additional information about them to alleviate inequalities, e.g., stereotypical and generalised views that lead to learning discriminatory associations. We develop data preprocessing techniques in automated moderation (AI systems to flag or filter online abuse) due to its substantial social implications and existing challenges common to many AI applications.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539519
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539519
+ER  - 
+
+TY  - CONF
+TI  - Examining Trust in Conversational Systems: Conceptual and Empirical Findings on User Trust, Related Behavior, and System Trustworthiness
+AU  - Schmitt, Anuschka
+PY  - 2022
+AB  - Machine learning (ML)-based conversational systems represent a value enabler for human-machine interaction. Simultaneously, the opacity, complexity, and humanness accompanied by such systems introduce their own issues, including trust misalignment. While trust is viewed as a prerequisite for effective system use, few studies have considered calibrating for appropriate trust, and empirically testing the relationship between trust and related behavior. Moreover, the desired implications of transparency-enhancing design cues are ambiguous. My research aims to explore the impact of system performance on trust, the dichotomy between trust and behavior, and how transparency might help attenuate the effects caused by low system performance in the specific context of decision-making tasks assisted by ML-based conversational systems.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539525
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539525
+ER  - 
+
+TY  - CONF
+TI  - Fair, Robust, and Data-Efficient Machine Learning in Healthcare
+AU  - Singh, Harvineet
+PY  - 2022
+AB  - While machine learning systems have shown improvements, often, in carefully curated settings, challenges still exist to their wider deployment, especially for making consequential decisions. The research described here explores three challenges, particularly, emphasizing the interesting issues that arise at their intersection.How do we design machine learning systems to account for the systemic biases of the world, to act reliably under unseen settings, and to handle limited availability of data?Human-facing applications of machine learning such as personalized health commonly encounter these challenges, thus, these are important to address. The research has three components addressing different parts of the above central question. Here, we describe the work done on two components of the above central question and highlight the future work planned as part of the third one. We draw from methods in causal inference, algorithmic fairness, and interactive learning, and apply them to applications in health.
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+DO  - 10.1145/3514094.3539552
+UR  - https://doi-org.myaccess.library.utoronto.ca/10.1145/3514094.3539552
+ER  - 
+

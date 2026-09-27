@@ -1,0 +1,477 @@
+TY  - JOUR
+TI  - Dynamic Visual Reasoning by Learning Differentiable Physics Models from Video and Language
+AU  - Mingyu Ding
+AU  - Zhenfang Chen
+AU  - Tao Du
+AU  - Ping Luo
+AU  - Josh Tenenbaum
+AU  - Chuang Gan
+PY  - 2021
+AB  - In this work, we propose a unified framework, called Visual Reasoning with Differ-entiable Physics (VRDP), that can jointly learn visual concepts and infer physics models of objects and their interactions from videos and language. This is achieved by seamlessly integrating three components: a visual perception module, a concept learner, and a differentiable physics engine. The visual perception module parses each video frame into object-centric trajectories and represents them as latent scene representations. The concept learner grounds visual concepts (e.g., color, shape, and material) from these object-centric representations based on the language, thus providing prior knowledge for the physics engine. The differentiable physics model, implemented as an impulse-based differentiable rigid-body simulator, performs differentiable physical simulation based on the grounded concepts to infer physical properties, such as mass, restitution, and velocity, by fitting the simulated trajectories into the video observations. Consequently, these learned concepts and physical models can explain what we have seen and imagine what is about to happen in future and counterfactual scenarios. Integrating differentiable physics into the dynamic reasoning framework offers several appealing benefits.  More accurate dynamics prediction in learned physics models enables state-of-the-art performance on both synthetic and real-world benchmarks while still maintaining high transparency and interpretability; most notably, VRDP improves the accuracy of predictive and counterfactual questions by 4.5% and 11.5% compared to its best counterpart. VRDP is also highly data-efficient: physical parameters can be optimized from very few videos, and even a single video can be sufficient. Finally, with all physical parameters inferred, VRDP can quickly learn new concepts from a few examples.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/07845cd9aefa6cde3f8926d25138a3a2-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification
+AU  - Shengcai Liao
+AU  - Ling Shao
+PY  - 2021
+AB  - Transformers have recently gained increasing attention in computer vision. However, existing studies mostly use Transformers for feature representation learning, e.g. for image classification and dense predictions, and the generalizability of Transformers is unknown. In this work, we further investigate the possibility of applying Transformers for image matching and metric learning given pairs of images. We find that the Vision Transformer (ViT) and the vanilla Transformer with decoders are not adequate for image matching due to their lack of image-to-image attention. Thus, we further design two naive solutions, i.e. query-gallery concatenation in ViT, and query-gallery cross-attention in the vanilla Transformer. The latter improves the performance, but it is still limited. This implies that the attention mechanism in Transformers is primarily designed for global feature aggregation, which is not naturally suitable for image matching. Accordingly, we propose a new simplified decoder, which drops the full attention implementation with the softmax weighting, keeping only the query-key similarity computation. Additionally, global max pooling and a multilayer perceptron (MLP) head are applied to decode the matching result. This way, the simplified decoder is computationally more efficient, while at the same time more effective for image matching. The proposed method, called TransMatcher, achieves state-of-the-art performance in generalizable person re-identification, with up to 6.1% and 5.7% performance gains in Rank-1 and mAP, respectively, on several popular datasets. Code is available at https://github.com/ShengcaiLiao/QAConv.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/0f49c89d1e7298bb9930789c8ed59d48-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Discrete-Valued Neural Communication
+AU  - Dianbo Liu
+AU  - Alex M Lamb
+AU  - Kenji Kawaguchi
+AU  - Anirudh Goyal ALIAS PARTH GOYAL
+AU  - Chen Sun
+AU  - Michael Mozer
+AU  - Yoshua Bengio
+PY  - 2021
+AB  - Deep learning has advanced from fully connected architectures to structured models organized into components, e.g., the transformer composed of positional elements, modular architectures divided into slots, and graph neural nets made up of nodes. The nature of structured models is that communication among the components has a bottleneck, typically achieved by restricted connectivity and attention. In this work, we further tighten the bottleneck via discreteness of the representations transmitted between components. We hypothesize that this constraint serves as a useful form of inductive bias. Our hypothesis is motivated by past empirical work showing the benefits of discretization in non-structured architectures as well as our own theoretical results showing that discretization increases noise robustness and reduces the underlying dimensionality of the model. Building on an existing technique for discretization from the VQ-VAE, we consider multi-headed discretization with shared codebooks as the output of each architectural component. One motivating intuition is human language in which communication occurs through multiple discrete symbols. This form of communication is hypothesized to facilitate transmission of information between functional components of the brain by providing a common interlingua, just as it does for human-to-human communication. Our experiments show that discrete-valued neural communication (DVNC) substantially improves systematic generalization in a variety of architectures—transformers, modular architectures, and graph neural networks. We also show that the DVNC is robust to the choice of hyperparameters, making the method useful in practice.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/10907813b97e249163587e6246612e21-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Contextual Similarity Aggregation with Self-attention for Visual Re-ranking
+AU  - Jianbo Ouyang
+AU  - Hui Wu
+AU  - Min Wang
+AU  - Wengang Zhou
+AU  - Houqiang Li
+PY  - 2021
+AB  - In content-based image retrieval, the first-round retrieval result by simple visual feature comparison may be unsatisfactory, which can be refined by visual re-ranking techniques. In image retrieval, it is observed that the contextual similarity among the top-ranked images is an important clue to distinguish the semantic relevance. Inspired by this observation, in this paper, we propose a visual re-ranking method by contextual similarity aggregation with self-attention.  In our approach, for each image in the top-K ranking list, we represent it into an affinity feature vector by comparing it with a set of anchor images. Then, the affinity features of the top-K images are refined by aggregating the contextual information with a transformer encoder. Finally, the affinity features are used to recalculate the similarity scores between the query and the top-K images for re-ranking of the latter. To further improve the robustness of our re-ranking model and enhance the performance of our method, a new data augmentation scheme is designed. Since our re-ranking model is not directly involved with the visual feature used in the initial retrieval, it is ready to be applied to retrieval result lists obtained from various retrieval algorithms. We conduct comprehensive experiments on four benchmark datasets to demonstrate the generality and effectiveness of our proposed visual re-ranking method.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/18d10dc6e666eab6de9215ae5b3d54df-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Generate Realistic Noisy Images via Pixel-level Noise-aware  Adversarial Training
+AU  - Yuanhao Cai
+AU  - Xiaowan Hu
+AU  - Haoqian Wang
+AU  - Yulun Zhang
+AU  - Hanspeter Pfister
+AU  - Donglai Wei
+PY  - 2021
+AB  - Existing deep learning real denoising methods require a large amount of noisy-clean image pairs for supervision. Nonetheless, capturing a  real noisy-clean dataset is an unacceptable expensive and cumbersome procedure. To alleviate this problem, this work investigates how to generate realistic noisy images. Firstly, we formulate a simple yet reasonable noise model that treats each real noisy pixel as a random variable. This model splits the noisy image generation problem into two sub-problems: image domain alignment and noise domain alignment. Subsequently, we propose a novel framework, namely Pixel-level Noise-aware Generative Adversarial Network (PNGAN). PNGAN employs a pre-trained real denoiser to map the fake and real noisy images into a nearly noise-free solution space to perform image domain alignment. Simultaneously, PNGAN establishes a pixel-level adversarial training to conduct noise domain alignment. Additionally, for better noise fitting, we present an efficient architecture Simple Multi-scale Network (SMNet) as the generator. Qualitative validation shows that noise generated by PNGAN is highly similar to real noise in terms of intensity and distribution. Quantitative experiments demonstrate that a series of denoisers trained with the generated noisy images achieve state-of-the-art (SOTA) results on four real denoising benchmarks.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/1a5b1e4daae265b790965a275b53ae50-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Mixed Supervised Object Detection by Transferring Mask Prior and Semantic Similarity
+AU  - Yan Liu
+AU  - Zhijie Zhang
+AU  - Li Niu
+AU  - Junjie Chen
+AU  - Liqing Zhang
+PY  - 2021
+AB  - Object detection has achieved promising success, but requires large-scale fully-annotated data, which is time-consuming and labor-extensive. Therefore, we consider object detection with mixed supervision, which learns novel object categories using weak annotations with the help of full annotations of existing base object categories. Previous works using mixed supervision mainly learn the class-agnostic objectness from fully-annotated categories, which can be transferred to upgrade the weak annotations to pseudo full annotations for novel categories. In this paper, we further transfer mask prior and semantic similarity to bridge the gap between novel categories and base categories. Specifically, the ability of using mask prior to help detect objects is learned from base categories and transferred to novel categories. Moreover, the semantic similarity between objects learned from base categories is transferred to denoise the pseudo full annotations for novel categories. Experimental results on three benchmark datasets demonstrate the effectiveness of our method over existing methods. Codes are available at https://github.com/bcmi/TraMaS-Weak-Shot-Object-Detection.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/20885c72ca35d75619d6a378edea9f76-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Probabilistic Attention for Interactive Segmentation
+AU  - Prasad Gabbur
+AU  - Manjot Bilkhu
+AU  - Javier R. Movellan
+PY  - 2021
+AB  - We provide a probabilistic interpretation of attention and show that the standard dot-product attention in transformers is a special case of Maximum A Posteriori (MAP) inference. The proposed approach suggests the use of Expectation Maximization algorithms for on-line adaptation of key and value model parameters. This approach is  useful for cases in which external agents, e.g., annotators, provide inference-time information about the correct values of some tokens, e.g., the semantic category of some pixels,  and we need for this new information to propagate to other tokens in a principled manner. We illustrate the approach on an interactive semantic segmentation task in which annotators and models collaborate online to improve annotation efficiency. Using standard benchmarks, we observe that key adaptation boosts model performance ($\sim10\%$ mIoU) in the low feedback regime and value propagation improves model responsiveness in the high feedback regime. A PyTorch layer implementation of our probabilistic attention model is available here: https://github.com/apple/ml-probabilistic-attention.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/23937b42f9273974570fb5a56a6652ee-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Efficient Equivariant Network
+AU  - Lingshen He
+AU  - Yuxuan Chen
+AU  - zhengyang shen
+AU  - Yiming Dong
+AU  - Yisen Wang
+AU  - Zhouchen Lin
+PY  - 2021
+AB  - Convolutional neural networks (CNNs) have dominated the field of Computer Vision and achieved great success due to their built-in translation equivariance. Group equivariant CNNs (G-CNNs) that incorporate more equivariance can significantly improve the performance of conventional CNNs. However, G-CNNs are faced with two major challenges: \emph{spatial-agnostic problem} and \emph{expensive computational cost}. In this work, we propose a general framework of previous equivariant models, which includes G-CNNs and equivariant self-attention layers as special cases. Under this framework, we explicitly decompose the feature aggregation operation into a kernel generator and an encoder, and decouple the spatial and extra geometric dimensions in the computation. Therefore, our filters are essentially dynamic rather than being spatial-agnostic. We further show that our \emph{E}quivariant model is parameter \emph{E}fficient and computation \emph{E}fficient by complexity analysis, and also data \emph{E}fficient by experiments, so we call our model $E^4$-Net. Extensive experiments verify that our model can significantly improve previous works with smaller model size.Especially, under the setting of training on $1/5$ data of CIFAR10, our model improves G-CNNs by $5\%+$ accuracy,while using only $56\%$ parameters and $68\%$ FLOPs.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/2a79ea27c279e471f4d180b08d62b00a-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning
+AU  - Hyunsoo Chung
+AU  - Jungtaek Kim
+AU  - Boris Knyazev
+AU  - Jinhwi Lee
+AU  - Graham W. Taylor
+AU  - Jaesik Park
+AU  - Minsu Cho
+PY  - 2021
+AB  - Discovering a solution in a combinatorial space is prevalent in many real-world problems but it is also challenging due to diverse complex constraints and the vast number of possible combinations. To address such a problem, we introduce a novel formulation, combinatorial construction, which requires a building agent to assemble unit primitives (i.e., LEGO bricks) sequentially -- every connection between two bricks must follow a fixed rule, while no bricks mutually overlap. To construct a target object, we provide incomplete knowledge about the desired target (i.e., 2D images) instead of exact and explicit volumetric information to the agent. This problem requires a comprehensive understanding of partial information and long-term planning to append a brick sequentially, which leads us to employ reinforcement learning. The approach has to consider a variable-sized action space where a large number of invalid actions, which would cause overlap between bricks, exist. To resolve these issues, our model, dubbed Brick-by-Brick, adopts an action validity prediction network that efficiently filters invalid actions for an actor-critic network. We demonstrate that the proposed method successfully learns to construct an unseen object conditioned on a single image or multiple views of a target object.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/2d4027d6df9c0256b8d4474ce88f8c88-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Nested Counterfactual Identification from Arbitrary Surrogate Experiments
+AU  - Juan Correa
+AU  - Sanghack Lee
+AU  - Elias Bareinboim
+PY  - 2021
+AB  - The Ladder of Causation describes three qualitatively different types of activities an agent may be interested in engaging in, namely, seeing (observational), doing (interventional), and imagining (counterfactual) (Pearl and Mackenzie, 2018). The inferential challenge imposed by the causal hierarchy is that data is collected by an agent observing or intervening in a system (layers 1 and 2), while its goal may be to understand what would have happened had it taken a different course of action, contrary to what factually ended up happening (layer 3). While there exists a solid understanding of the conditions under which cross-layer inferences are allowed from observations to interventions, the results are somewhat scarcer when targeting counterfactual quantities. In this paper, we study the identification of nested counterfactuals from an arbitrary combination of observations and experiments. Specifically, building on a more explicit definition of nested counterfactuals, we prove the counterfactual unnesting theorem (CUT), which allows one to map arbitrary nested counterfactuals to unnested ones. For instance, applications in mediation and fairness analysis usually evoke notions of direct, indirect, and spurious effects, which naturally require nesting. Second, we introduce a sufficient and necessary graphical condition for counterfactual identification from an arbitrary combination of observational and experimental distributions. Lastly, we develop an efficient and complete algorithm for identifying nested counterfactuals; failure of the algorithm returning an expression for a query implies it is not identifiable.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/36bedb6eb7152f39b16328448942822b-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Self-Supervised Learning of Event-Based Optical Flow with Spiking Neural Networks
+AU  - Jesse Hagenaars
+AU  - Federico Paredes-Valles
+AU  - Guido de Croon
+PY  - 2021
+AB  - The field of neuromorphic computing promises extremely low-power and low-latency sensing and processing. Challenges in transferring learning algorithms from traditional artificial neural networks (ANNs) to spiking neural networks (SNNs) have so far prevented their application to large-scale, complex regression tasks. Furthermore, realizing a truly asynchronous and fully neuromorphic pipeline that maximally attains the abovementioned benefits involves rethinking the way in which this pipeline takes in and accumulates information. In the case of perception, spikes would be passed as-is and one-by-one between an event camera and an SNN, meaning all temporal integration of information must happen inside the network. In this article, we tackle these two problems. We focus on the complex task of learning to estimate optical flow from event-based camera inputs in a self-supervised manner, and modify the state-of-the-art ANN training pipeline to encode minimal temporal information in its inputs. Moreover, we reformulate the self-supervised loss function for event-based optical flow to improve its convexity. We perform experiments with various types of recurrent ANNs and SNNs using the proposed pipeline. Concerning SNNs, we investigate the effects of elements such as parameter initialization and optimization, surrogate gradient shape, and adaptive neuronal mechanisms. We find that initialization and surrogate gradient width play a crucial part in enabling learning with sparse inputs, while the inclusion of adaptivity and learnable neuronal parameters can improve performance. We show that the performance of the proposed ANNs and SNNs are on par with that of the current state-of-the-art ANNs trained in a self-supervised manner.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/39d4b545fb02556829aab1db805021c3-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - SADGA: Structure-Aware Dual Graph Aggregation Network for Text-to-SQL
+AU  - Ruichu Cai
+AU  - Jinjie Yuan
+AU  - Boyan Xu
+AU  - Zhifeng Hao
+PY  - 2021
+AB  - The Text-to-SQL task, aiming to translate the natural language of the questions into SQL queries, has drawn much attention recently.  One of the most challenging problems of Text-to-SQL is how to generalize the trained model to the unseen database schemas, also known as the cross-domain Text-to-SQL task. The key lies in the generalizability of (i) the encoding method to model the question and the database schema and (ii) the question-schema linking method to learn the mapping between words in the question and tables/columns in the database schema. Focusing on the above two key issues, we propose a \emph{Structure-Aware Dual Graph Aggregation Network} (SADGA) for cross-domain Text-to-SQL. In SADGA, we adopt the graph structure to provide a unified encoding model for both the natural language question and database schema. Based on the proposed unified modeling, we further devise a structure-aware aggregation method to learn the mapping between the question-graph and schema-graph. The structure-aware aggregation method is featured with \emph{Global Graph Linking}, \emph{Local Graph Linking} and \emph{Dual-Graph Aggregation Mechanism}. We not only study the performance of our proposal empirically but also achieved 3rd place on the challenging Text-to-SQL benchmark Spider at the time of writing.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/3f1656d9668dffcf8119e3ecff873558-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Forster Decomposition and Learning Halfspaces with Noise
+AU  - Ilias Diakonikolas
+AU  - Daniel Kane
+AU  - Christos Tzamos
+PY  - 2021
+AB  - A Forster transform is an operation that turns a multivariate distribution into one with good anti-concentration properties. While a Forster transform does not always exist, we show that any distribution can be efficiently decomposed as a disjoint mixture of few distributions for which a Forster transform exists and can be computed efficiently. As the main application of this result, we obtain the first polynomial-time algorithm for distribution-independent PAC learning of halfspaces in the Massart noise model with strongly polynomial sample complexity, i.e., independent of the bit complexity of the examples. Previous algorithms for this learning problem incurred sample complexity scaling polynomially with the bit complexity, even though such a dependence is not information-theoretically necessary.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/3ff4cea152080fd7d692a8286a587a67-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Multi-Facet Clustering Variational Autoencoders
+AU  - Fabian Falck
+AU  - Haoting Zhang
+AU  - Matthew Willetts
+AU  - George Nicholson
+AU  - Christopher Yau
+AU  - Chris C Holmes
+PY  - 2021
+AB  - Work in deep clustering focuses on finding a single partition of data. However, high-dimensional data, such as images, typically feature multiple interesting characteristics one could cluster over. For example, images of objects against a background could be clustered over the shape of the object and separately by the colour of the background. In this paper, we introduce Multi-Facet Clustering Variational Autoencoders (MFCVAE), a novel class of variational autoencoders with a hierarchy of latent variables, each with a Mixture-of-Gaussians prior, that learns multiple clusterings simultaneously, and is trained fully unsupervised and end-to-end. MFCVAE uses a progressively-trained ladder architecture which leads to highly stable performance. We provide novel theoretical results for optimising the ELBO analytically with respect to the categorical variational posterior distribution, correcting earlier influential theoretical work. On image benchmarks, we demonstrate that our approach separates out and clusters over different aspects of the data in a disentangled manner. We also show other advantages of our model: the compositionality of its latent space and that it provides controlled generation of samples.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/48cb136b65a69e8c2aa22913a0d91b2f-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Combating Noise: Semi-supervised Learning by Region Uncertainty Quantification
+AU  - Zhenyu Wang
+AU  - Ya-Li Li
+AU  - Ye Guo
+AU  - Shengjin Wang
+PY  - 2021
+AB  - Semi-supervised learning aims to leverage a large amount of unlabeled data for performance boosting. Existing works primarily focus on image classification. In this paper, we delve into semi-supervised learning for object detection, where labeled data are more labor-intensive to collect. Current methods are easily distracted by noisy regions generated by pseudo labels. To combat the noisy labeling, we propose noise-resistant semi-supervised learning by quantifying the region uncertainty. We first investigate the adverse effects brought by different forms of noise associated with pseudo labels. Then we propose to quantify the uncertainty of regions by identifying the noise-resistant properties of regions over different strengths. By importing the region uncertainty quantification and promoting multi-peak probability distribution output, we introduce uncertainty into training and further achieve noise-resistant learning. Experiments on both PASCAL VOC and MS COCO demonstrate the extraordinary performance of our method.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/4f16c818875d9fcb6867c7bdc89be7eb-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - On Provable Benefits of Depth in Training Graph Convolutional Networks
+AU  - Weilin Cong
+AU  - Morteza Ramezani
+AU  - Mehrdad Mahdavi
+PY  - 2021
+AB  - Graph Convolutional Networks (GCNs) are known to suffer from performance degradation as the number of layers increases, which is usually attributed to over-smoothing. Despite the apparent consensus, we observe that there exists a discrepancy between the theoretical understanding of over-smoothing and the practical capabilities of GCNs. Specifically, we argue that over-smoothing does not necessarily happen in practice, a deeper model is provably expressive, can converge to global optimum with linear convergence rate, and achieve very high training accuracy as long as properly trained. Despite being capable of achieving high training accuracy, empirical results show that the deeper models generalize poorly on the testing stage and existing theoretical understanding of such behavior remains elusive. To achieve better understanding, we carefully analyze the generalization capability of GCNs, and show that the training strategies to achieve high training accuracy significantly deteriorate the generalization capability of GCNs. Motivated by these findings, we propose a decoupled structure for GCNs that detaches weight matrices from feature propagation to preserve the expressive power and ensure good generalization performance. We conduct empirical evaluations on various synthetic and real-world datasets to validate the correctness of our theory.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/524265e8b942930fbbe8a5d979d29205-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Reliable Estimation of KL Divergence using a Discriminator in Reproducing Kernel Hilbert Space
+AU  - Sandesh Ghimire
+AU  - Aria Masoomi
+AU  - Jennifer Dy
+PY  - 2021
+AB  - Estimating Kullback–Leibler (KL) divergence from samples of two distributions is essential in many machine learning problems. Variational methods using neural network discriminator have been proposed to achieve this task in a scalable manner. However, we noticed that most of these methods using neural network discriminators suffer from high fluctuations (variance) in estimates and instability in training. In this paper, we look at this issue from statistical learning theory and function space complexity perspective to understand why this happens and how to solve it. We argue that the cause of these pathologies is lack of control over the complexity of the neural network discriminator function and could be mitigated by controlling it. To achieve this objective, we 1) present a novel construction of the discriminator in the Reproducing Kernel Hilbert Space (RKHS), 2) theoretically relate the error probability bound of the KL estimates to the complexity of the discriminator in the RKHS space, 3) present a scalable way to control the complexity (RKHS norm) of the discriminator for a reliable estimation of KL divergence, and 4) prove the consistency of the proposed estimator. In three different applications of KL divergence -- estimation of KL, estimation of mutual information and Variational Bayes -- we show that by controlling the complexity as developed in the theory, we are able to reduce the variance of KL estimates and stabilize the training.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/54a367d629152b720749e187b3eaa11b-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Distributed Zero-Order Optimization under Adversarial Noise
+AU  - Arya Akhavan
+AU  - Massimiliano Pontil
+AU  - Alexandre Tsybakov
+PY  - 2021
+AB  - We study the problem of distributed zero-order optimization for a class of strongly convex functions. They are formed by the average of local objectives, associated to different nodes in a prescribed network. We propose a distributed zero-order projected gradient descent algorithm to solve the problem. Exchange of information within the network is permitted only between neighbouring nodes. An important feature of our procedure is that it can query only function values, subject to a general noise model, that does not require zero mean or independent errors.  We derive upper bounds for the average cumulative regret and optimization error of the algorithm  which highlight the role played by a network connectivity parameter, the number of variables, the noise level, the strong convexity parameter, and smoothness properties of the local objectives. The bounds indicate some key improvements of our method over the state-of-the-art, both in the distributed and standard zero-order optimization settings.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/5487e79fa0ccd0b79e5d4a4c8ced005d-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Scalable Bayesian GPFA with automatic relevance determination and discrete noise models
+AU  - Kristopher Jensen
+AU  - Ta-Chu Kao
+AU  - Jasmine Stone
+AU  - Guillaume Hennequin
+PY  - 2021
+AB  - Latent variable models are ubiquitous in the exploratory analysis of neural population recordings, where they allow researchers to summarize the activity of large populations of neurons in lower dimensional ‘latent’ spaces. Existing methods can generally be categorized into (i) Bayesian methods that facilitate flexible incorporation of prior knowledge and uncertainty estimation, but which typically do not scale to large datasets; and (ii) highly parameterized methods without explicit priors that scale better but often struggle in the low-data regime. Here, we bridge this gap by developing a fully Bayesian yet scalable version of Gaussian process factor analysis (bGPFA), which models neural data as arising from a set of inferred latent processes with a prior that encourages smoothness over time. Additionally, bGPFA uses automatic relevance determination to infer the dimensionality of neural activity directly from the training data during optimization. To enable the analysis of continuous recordings without trial structure, we introduce a novel variational inference strategy that scales near-linearly in time and also allows for non-Gaussian noise models appropriate for electrophysiological recordings. We apply bGPFA to continuous recordings spanning 30 minutes with over 14 million data points from primate motor and somatosensory cortices during a self-paced reaching task. We show that neural activity progresses from an initial state at target onset to a reach- specific preparatory state well before movement onset. The distance between these initial and preparatory latent states is predictive of reaction times across reaches, suggesting that such preparatory dynamics have behavioral relevance despite the lack of externally imposed delay periods. Additionally, bGPFA discovers latent processes that evolve over slow timescales on the order of several seconds and contain complementary information about reaction time. These timescales are longer than those revealed by methods which focus on individual movement epochs and may reflect fluctuations in e.g. task engagement.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/58238e9ae2dd305d79c2ebc8c1883422-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Exploring Cross-Video and Cross-Modality Signals for Weakly-Supervised Audio-Visual Video Parsing
+AU  - Yan-Bo Lin
+AU  - Hung-Yu Tseng
+AU  - Hsin-Ying Lee
+AU  - Yen-Yu Lin
+AU  - Ming-Hsuan Yang
+PY  - 2021
+AB  - The audio-visual video parsing task aims to temporally parse a video into audio or visual event categories. However, it is labor intensive to temporally annotate audio and visual events and thus hampers the learning of a parsing model. To this end, we propose to explore additional cross-video and cross-modality supervisory signals to facilitate weakly-supervised audio-visual video parsing. The proposed method exploits both the common and diverse event semantics across videos to identify audio or visual events. In addition, our method explores event co-occurrence across audio, visual, and audio-visual streams. We leverage the explored cross-modality co-occurrence to localize segments of target events while excluding irrelevant ones. The discovered supervisory signals across different videos and modalities can greatly facilitate the training with only video-level annotations. Quantitative and qualitative results demonstrate that the proposed method performs favorably against existing methods on weakly-supervised audio-visual video parsing.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/5f93f983524def3dca464469d2cf9f3e-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Statistical Undecidability in Linear, Non-Gaussian Causal Models in the Presence of Latent Confounders
+AU  - Konstantin Genin
+PY  - 2021
+AB  - If causal relationships are linear and acyclic and noise terms are independent and Gaussian, causal orientation is not identified from observational data --- even if faithfulness is satisfied (Spirtes et al., 2002). Shimizu et al. (2006) showed that acyclic, linear, {\bf non}-Gaussian (LiNGAM) causal models {\em are} identified from observational data, so long as no latent confounders are present. That holds even when faithfulness fails. Genin and Mayo-Wilson (2020) refine that result:  not only are causal relationships identified, but causal orientation is {\em statistically decidable}. That means that for every $\epsilon>0,$ there is a method that converges in probability to the correct orientation and, at every sample size, outputs an incorrect orientation with probability less than $\epsilon.$ These results naturally raise questions about what happens in the presence of latent confounders. Hoyer et al. (2008) and Salehkaleybar et al. (2020) show that, although the causal model is not uniquely identified, causal orientation among observed variables is identified in the presence of latent confounders, so long as faithfulness is satisfied. This paper refines these results: although it is possible to converge to the right orientation in the limit, causal orientation is no longer statistically decidable---it is not possible to converge to the correct orientation with finite-sample bounds on the probability of orientation errors, even if faithfulness is satisfied. However, that limiting result suggests several adjustments to the LiNGAM model that may recover decidability.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/70d355680e628fe1c552221f690d8da4-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - PortaSpeech: Portable and High-Quality Generative Text-to-Speech
+AU  - Yi Ren
+AU  - Jinglin Liu
+AU  - Zhou Zhao
+PY  - 2021
+AB  - Non-autoregressive text-to-speech (NAR-TTS) models such as FastSpeech 2 and Glow-TTS can synthesize high-quality speech from the given text in parallel. After analyzing two kinds of generative NAR-TTS models (VAE and normalizing flow), we find that: VAE is good at capturing the long-range semantics features (e.g., prosody) even with small model size but suffers from blurry and unnatural results; and normalizing flow is good at reconstructing the frequency bin-wise details but performs poorly when the number of model parameters is limited. Inspired by these observations, to generate diverse speech with natural details and rich prosody using a lightweight architecture, we propose PortaSpeech, a portable and high-quality generative text-to-speech model. Specifically, 1) to model both the prosody and mel-spectrogram details accurately, we adopt a lightweight VAE with an enhanced prior followed by a flow-based post-net with strong conditional inputs as the main architecture. 2) To further compress the model size and memory footprint, we introduce the grouped parameter sharing mechanism to the affine coupling layers in the post-net. 3) To improve the expressiveness of synthesized speech and reduce the dependency on accurate fine-grained alignment between text and speech, we propose a linguistic encoder with mixture alignment combining hard word-level alignment and soft phoneme-level alignment, which explicitly extracts word-level semantic information.  Experimental results show that PortaSpeech outperforms other TTS models in both voice quality and prosody modeling in terms of subjective and objective evaluation metrics, and shows only a slight performance degradation when reducing the model parameters to 6.7M (about 4x model size and 3x runtime memory compression ratio compared with FastSpeech 2). Our extensive ablation studies demonstrate that each design in PortaSpeech is effective.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/748d6b6ed8e13f857ceaa6cfbdca14b8-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Optimizing Reusable Knowledge for Continual Learning via Metalearning
+AU  - Julio Hurtado
+AU  - Alain Raymond
+AU  - Alvaro Soto
+PY  - 2021
+AB  - When learning tasks over time, artificial neural networks suffer from a problem known as Catastrophic Forgetting (CF). This happens when the weights of a network are overwritten during the training of a new task causing forgetting of old information. To address this issue, we propose MetA Reusable Knowledge or MARK, a new method that fosters weight reusability instead of overwriting when learning a new task. Specifically, MARK keeps a set of shared weights among tasks. We envision these shared weights as a common Knowledge Base (KB) that is not only used to learn new tasks, but also enriched with new knowledge as the model learns new tasks. Key components behind MARK are two-fold. On the one hand, a metalearning approach provides the key mechanism to incrementally enrich the KB with new knowledge and to foster weight reusability among tasks. On the other hand, a set of trainable masks provides the key mechanism to selectively choose from the KB relevant weights to solve each task. By using MARK, we achieve state of the art results in several popular benchmarks, surpassing the best performing methods in terms of average accuracy by over 10% on the 20-Split-MiniImageNet dataset, while achieving almost zero forgetfulness using 55% of the number of parameters. Furthermore, an ablation study provides evidence that, indeed, MARK is learning reusable knowledge that is selectively used by each task.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/761e6675f9e54673cc778e7fdb2823d2-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Ground Multi-Agent Communication with Autoencoders
+AU  - Toru Lin
+AU  - Jacob Huh
+AU  - Christopher Stauffer
+AU  - Ser Nam Lim
+AU  - Phillip Isola
+PY  - 2021
+AB  - Communication requires having a common language, a lingua franca, between agents. This language could emerge via a consensus process, but it may require many generations of trial and error. Alternatively, the lingua franca can be given by the environment, where agents ground their language in representations of the observed world. We demonstrate a simple way to ground language in learned representations, which facilitates decentralized multi-agent communication and coordination. We find that a standard representation learning algorithm -- autoencoding -- is sufficient for arriving at a grounded common language. When agents broadcast these representations, they learn to understand and respond to each other's utterances and achieve surprisingly strong task performance across a variety of multi-agent communication environments.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/80fee67c8a4c4989bf8a580b4bbb0cd2-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Deformable Butterfly: A Highly Structured and Sparse Linear Transform
+AU  - Rui Lin
+AU  - Jie Ran
+AU  - King Hung Chiu
+AU  - Graziano Chesi
+AU  - Ngai Wong
+PY  - 2021
+AB  - We introduce a new kind of linear transform named Deformable Butterfly (DeBut) that generalizes the conventional butterfly matrices and can be adapted to various input-output dimensions. It inherits the fine-to-coarse-grained learnable hierarchy of traditional butterflies and when deployed to neural networks, the prominent structures and sparsity in a DeBut layer constitutes a new way for network compression. We apply DeBut as a drop-in replacement of standard fully connected and convolutional layers, and demonstrate its superiority in homogenizing a neural network and rendering it favorable properties such as light weight and low inference complexity, without compromising accuracy. The natural complexity-accuracy tradeoff arising from the myriad deformations of a DeBut layer also opens up new rooms for analytical and practical research. The codes and Appendix are publicly available at: https://github.com/ruilin0212/DeBut.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/86b122d4358357d834a87ce618a55de0-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - HSVA: Hierarchical Semantic-Visual Adaptation for Zero-Shot Learning
+AU  - Shiming Chen
+AU  - Guosen Xie
+AU  - Yang Liu
+AU  - Qinmu Peng
+AU  - Baigui Sun
+AU  - Hao Li
+AU  - Xinge You
+AU  - Ling Shao
+PY  - 2021
+AB  - Zero-shot learning (ZSL) tackles the unseen class recognition problem,  transferring semantic knowledge from seen classes to unseen ones. Typically, to guarantee desirable knowledge transfer, a common (latent) space is adopted for associating the visual and semantic domains in ZSL.  However, existing common space learning methods align the semantic and visual domains by merely mitigating distribution disagreement through one-step adaptation. This strategy is usually ineffective due to the heterogeneous nature of the feature representations in the two domains, which intrinsically contain both distribution and structure variations. To address this and advance ZSL, we propose a novel hierarchical semantic-visual adaptation (HSVA) framework. Specifically, HSVA aligns the semantic and visual domains by adopting a hierarchical two-step adaptation, i.e., structure adaptation and distribution adaptation. In the structure adaptation step, we take two task-specific encoders to encode the source data (visual domain) and the target data (semantic domain) into a structure-aligned common space. To this end, a  supervised adversarial discrepancy (SAD)  module is proposed to adversarially minimize the discrepancy between the predictions of two task-specific classifiers, thus making the visual and semantic feature manifolds more closely aligned. In the distribution adaptation step, we directly minimize the Wasserstein distance between the latent multivariate Gaussian distributions to align the visual and semantic distributions using a common encoder. Finally, the structure and distribution adaptation are derived in a unified framework under two partially-aligned variational autoencoders. Extensive experiments on four benchmark datasets demonstrate that HSVA achieves superior performance on both conventional and generalized ZSL. The code is available at \url{https://github.com/shiming-chen/HSVA}.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/8b0d268963dd0cfb808aac48a549829f-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Understanding the Under-Coverage Bias in Uncertainty Estimation
+AU  - Yu Bai
+AU  - Song Mei
+AU  - Huan Wang
+AU  - Caiming Xiong
+PY  - 2021
+AB  - Estimating the data uncertainty in regression tasks is often done by learning a quantile function or a prediction interval of the true label conditioned on the input. It is frequently observed that quantile regression---a vanilla algorithm for learning quantiles with asymptotic guarantees---tends to *under-cover* than the desired coverage level in reality. While various fixes have been proposed, a more fundamental understanding of why this under-coverage bias happens in the first place remains elusive.In this paper, we present a rigorous theoretical study on the coverage of uncertainty estimation algorithms in learning quantiles. We prove that quantile regression suffers from an inherent under-coverage bias, in a vanilla setting where we learn a realizable linear quantile function and there is more data than parameters. More quantitatively, for $\alpha>0.5$ and small $d/n$, the $\alpha$-quantile learned by quantile regression roughly achieves coverage $\alpha - (\alpha-1/2)\cdot d/n$ regardless of the noise distribution, where $d$ is the input dimension and $n$ is the number of training data. Our theory reveals that this under-coverage bias stems from a certain high-dimensional parameter estimation error that is not implied by existing theories on quantile regression. Experiments on simulated and real data verify our theory and further illustrate the effect of various factors such as sample size and model capacity on the under-coverage bias in more practical setups.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/9854d7afce413aa13cd0a1d39d0bcec5-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Decentralized Q-learning in Zero-sum Markov Games
+AU  - Muhammed Sayin
+AU  - Kaiqing Zhang
+AU  - David Leslie
+AU  - Tamer Basar
+AU  - Asuman Ozdaglar
+PY  - 2021
+AB  - We study multi-agent  reinforcement learning (MARL) in infinite-horizon discounted zero-sum Markov games. We focus on the practical but  challenging setting of decentralized MARL, where agents make decisions without coordination by a centralized controller, but only based on their own payoffs and local actions executed. The agents need not observe the opponent's actions or payoffs, possibly being even  oblivious to the presence of the opponent, nor be aware of the zero-sum structure of the underlying game, a setting also referred to as radically uncoupled in the literature of learning in games. In this paper, we develop a radically uncoupled Q-learning dynamics that is both rational and convergent: the learning dynamics converges to the best response to the opponent's strategy when the opponent follows an asymptotically stationary strategy;  when both agents adopt the learning dynamics, they converge to the Nash equilibrium of the game. The key challenge in this decentralized setting is the non-stationarity of the environment from an agent's perspective, since both her own payoffs and the system evolution depend on the actions of other agents, and each agent adapts her policies simultaneously and independently. To address this issue, we develop a two-timescale learning dynamics where each agent updates her local Q-function and value function estimates concurrently, with the latter happening at a slower timescale.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/985e9a46e10005356bbaf194249f6856-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - SubTab: Subsetting Features of Tabular Data for Self-Supervised Representation Learning
+AU  - Talip Ucar
+AU  - Ehsan Hajiramezanali
+AU  - Lindsay Edwards
+PY  - 2021
+AB  - Self-supervised learning has been shown to be very effective in learning useful representations, and yet much of the success is achieved in data types such as images, audio, and text. The success is mainly enabled by taking advantage of spatial, temporal, or semantic structure in the data through augmentation. However, such structure may not exist in tabular datasets commonly used in fields such as healthcare, making it difficult to design an effective augmentation method, and hindering a similar progress in tabular data setting. In this paper, we introduce a new framework, Subsetting features of Tabular data (SubTab), that turns the task of learning from tabular data into a multi-view representation learning problem by dividing the input features to multiple subsets. We argue that reconstructing the data from the subset of its features rather than its corrupted version in an autoencoder setting can better capture its underlying latent representation. In this framework, the joint representation can be expressed as the aggregate of latent variables of the subsets at test time, which we refer to as collaborative inference. Our experiments show that the SubTab achieves the state of the art (SOTA) performance of 98.31% on MNIST in tabular setting, on par with CNN-based SOTA models, and surpasses existing baselines on three other real-world datasets by a significant margin.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/9c8661befae6dbcd08304dbf4dcaf0db-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - NAS-Bench-x11 and the Power of Learning Curves
+AU  - Shen Yan
+AU  - Colin White
+AU  - Yash Savani
+AU  - Frank Hutter
+PY  - 2021
+AB  - While early research in neural architecture search (NAS) required extreme computational resources, the recent releases of tabular and surrogate benchmarks have greatly increased the speed and reproducibility of NAS research. However, two of the most popular benchmarks do not provide the full training information for each architecture. As a result, on these benchmarks it is not possible to evaluate many types of multi-fidelity algorithms, such as learning curve extrapolation, that require evaluating architectures at arbitrary epochs. In this work, we present a method using singular value decomposition and noise modeling to create surrogate benchmarks, NAS-Bench-111, NAS-Bench-311, and NAS-Bench-NLP11, that output the full training information for each architecture, rather than just the final validation accuracy. We demonstrate the power of using the full training information by introducing a learning curve extrapolation framework to modify single-fidelity algorithms, showing that it leads to improvements over popular single-fidelity algorithms which claimed to be state-of-the-art upon release.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/be3159ad04564bfb90db9e32851ebf9c-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Meta-learning to Improve Pre-training
+AU  - Aniruddh Raghu
+AU  - Jonathan Lorraine
+AU  - Simon Kornblith
+AU  - Matthew McDermott
+AU  - David K. Duvenaud
+PY  - 2021
+AB  - Pre-training (PT) followed by fine-tuning (FT) is an effective method for training neural networks, and has led to significant performance improvements in many domains.  PT can incorporate various design choices such as task and data reweighting strategies, augmentation policies, and noise models, all of which can significantly impact the quality of representations learned. The hyperparameters introduced by these strategies therefore must be tuned appropriately. However, setting the values of these hyperparameters is challenging. Most existing methods either struggle to scale to high dimensions, are too slow and memory-intensive, or cannot be directly applied to the two-stage PT and FT learning process. In this work, we propose an efficient, gradient-based algorithm to meta-learn PT hyperparameters. We formalize the PT hyperparameter optimization problem and propose a novel method to obtain PT hyperparameter gradients by combining implicit differentiation and backpropagation through unrolled optimization. We demonstrate that our method improves predictive performance on two real-world domains. First, we optimize high-dimensional task weighting hyperparameters for multitask pre-training on protein-protein interaction graphs and improve AUROC by up to 3.9%. Second, we optimize a data augmentation neural network for self-supervised PT with SimCLR on electrocardiography data and improve AUROC by up to 1.9%.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/c3810d4a9513b028fc0f2a83cb6d7b50-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Change Point Detection via Multivariate Singular Spectrum Analysis
+AU  - Arwa Alanqary
+AU  - Abdullah Alomar
+AU  - Devavrat Shah
+PY  - 2021
+AB  - The objective of change point detection (CPD) is to detect significant and abrupt changes in the dynamics of the underlying system of interest through multivariate time series observations. In this work, we develop and analyze an algorithm for CPD that is inspired by a variant of the classical singular spectrum analysis (SSA) approach for time series by combining it with the classical cumulative sum (CUSUM) statistic from sequential hypothesis testing. In particular, we model the underlying dynamics of multivariate time series observations through the spatio-temporal model introduced recently in the multivariate SSA (mSSA) literature. The change point in such a setting corresponds to a change in the underlying spatio-temporal model. As the primary contributions of this work, we develop an algorithm based on CUSUM-statistic to detect such change points in an online fashion. We extend the analysis of CUSUM statistics, traditionally done for the setting of independent observations, to the dependent setting of (multivariate) time series under the spatio-temporal model. Specifically, for a given parameter $h > 0$, our method achieves the following desirable trade-off: when a change happens, it detects it within $O(h)$ time delay on average, while in the absence of change, it does not declare false detection for at least $\exp(\Omega(h))$ time length on average. We conduct empirical experiments using benchmark and synthetic datasets. We find that the proposed method performs competitively or outperforms the state-of-the-art change point detection methods across datasets.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/c348616cd8a86ee661c7c98800678fad-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - MERLOT: Multimodal Neural Script Knowledge Models
+AU  - Rowan Zellers
+AU  - Ximing Lu
+AU  - Jack Hessel
+AU  - Youngjae Yu
+AU  - Jae Sung Park
+AU  - Jize Cao
+AU  - Ali Farhadi
+AU  - Yejin Choi
+PY  - 2021
+AB  - As humans, we understand events in the visual world contextually, performing multimodal reasoning across time to make inferences about the past, present, and future. We introduce MERLOT, a model that learns multimodal script knowledge by watching millions of YouTube videos with transcribed speech -- in an entirely label-free, self-supervised manner. By pretraining with a mix of both frame-level (spatial) and video-level (temporal) objectives, our model not only learns to match images to temporally corresponding words, but also to contextualize what is happening globally over time. As a result, MERLOT exhibits strong out-of-the-box representations of temporal commonsense, and achieves state-of-the-art performance on 12 different video QA datasets when finetuned. It also transfers well to the world of static images, allowing models to reason about the dynamic context behind visual scenes. On Visual Commonsense Reasoning, MERLOT~answers questions correctly with 80.6\% accuracy, outperforming state-of-the-art models of similar size by over 3\%, even those that make heavy use of auxiliary supervised data (like object bounding boxes).Ablation analyses demonstrate the complementary importance of: 1) training on videos versus static images; 2) scaling the magnitude and diversity of the pretraining video corpus; and 3) using diverse objectives that encourage full-stack multimodal reasoning, from the recognition to cognition level.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/c6d4eb15f1e84a36eff58eca3627c82e-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Adversarial Training Helps Transfer Learning via Better Representations
+AU  - Zhun Deng
+AU  - Linjun Zhang
+AU  - Kailas Vodrahalli
+AU  - Kenji Kawaguchi
+AU  - James Y Zou
+PY  - 2021
+AB  - Transfer learning aims to leverage models pre-trained on source data to efficiently adapt to target setting, where only limited data are available for model fine-tuning. Recent works empirically demonstrate that adversarial training in the source data can improve the ability of models to transfer to new domains. However, why this happens is not known. In this paper, we provide a theoretical model to rigorously analyze how adversarial training helps transfer learning. We show that adversarial training in the source data generates provably better representations, so fine-tuning on top of this representation leads to a more accurate predictor of the target data.  We further demonstrate both theoretically and empirically that semi-supervised learning in the source data can also improve transfer learning by similarly improving the representation. Moreover, performing adversarial training on top of semi-supervised learning can further improve transferability, suggesting that the two approaches have complementary benefits on representations.  We support our theories with experiments on popular data sets and deep learning architectures.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/d3aeec875c479e55d1cdeea161842ec6-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - ReLU Regression with Massart Noise
+AU  - Ilias Diakonikolas
+AU  - Jong Ho Park
+AU  - Christos Tzamos
+PY  - 2021
+AB  - We study the fundamental problem of ReLU regression, where the goal is to fit Rectified Linear Units (ReLUs) to data. This supervised learning task is efficiently solvable in the realizable setting, but is known to be computationally hard with adversarial label noise. In this work, we focus on ReLU regression in the Massart noise model,  a natural and well-studied semi-random noise model. In this model, the label of every point is generated according to a function in the class, but an adversary is allowed to change this value arbitrarily with some probability, which is {\em at most} $\eta < 1/2$. We develop an efficient algorithm that achieves exact parameter recovery in this model under mild anti-concentration assumptions on the underlying distribution. Such assumptions are necessary for exact recovery to be information-theoretically possible. We demonstrate that our algorithm significantly outperforms naive applications of $\ell_1$ and $\ell_2$ regression on both synthetic and real data.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/d9d3837ee7981e8c064774da6cdd98bf-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - The Limits of Optimal Pricing in the Dark
+AU  - Quinlan Dawkins
+AU  - Minbiao Han
+AU  - Haifeng Xu
+PY  - 2021
+AB  - A ubiquitous learning problem in today’s digital market is, during repeated interactions between a seller and a buyer, how a seller can gradually learn optimal pricing decisions based on the buyer’s past purchase responses. A fundamental challenge of learning in such a strategic setup is that the buyer will naturally have incentives to manipulate his responses in order to induce more favorable learning outcomes for him. To understand the limits of the seller’s learning when facing such a strategic and possibly manipulative buyer, we study a natural yet powerful buyer manipulation strategy. That is, before the pricing game starts, the buyer simply commits to “imitate” a different value function by pretending to always react optimally according to this imitative value function. We fully characterize the optimal imitative value function that the buyer should imitate as well as the resultant seller revenue and buyer surplus under this optimal buyer manipulation. Our characterizations reveal many useful insights about what happens at equilibrium. For example, a seller with concave production cost will obtain essentially 0 revenue at equilibrium whereas the revenue for a seller with convex production cost is the Bregman divergence of her cost function between no production and certain production. Finally, and importantly, we show that a more powerful class of pricing schemes does not necessarily increase, in fact, may be harmful to, the seller’s revenue. Our results not only lead to an effective prescriptive way for buyers to manipulate learning algorithms but also shed lights on the limits of what a seller can really achieve when pricing in the dark.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e0126439e08ddfbdf4faa952dc910590-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Universal Off-Policy Evaluation
+AU  - Yash Chandak
+AU  - Scott Niekum
+AU  - Bruno da Silva
+AU  - Erik Learned-Miller
+AU  - Emma Brunskill
+AU  - Philip S. Thomas
+PY  - 2021
+AB  - When faced with sequential decision-making problems, it is often useful to be able to predict what would happen if decisions were made using a new policy. Those predictions must often be based on data collected under some previously used decision-making rule.  Many previous methods enable such off-policy (or counterfactual) estimation of theexpectedvalue of a performance measure called the return.  In this paper, we take the first steps towards a 'universal off-policy estimator' (UnO)---one that provides off-policy estimates and high-confidence bounds foranyparameter of the return distribution. We use UnO for estimating and simultaneously bounding the mean, variance, quantiles/median, inter-quantile range, CVaR, and the entire cumulative distribution of returns. Finally, we also discuss UnO's applicability in various settings, including fully observable, partially observable (i.e., with unobserved confounders), Markovian, non-Markovian, stationary, smoothly non-stationary, and discrete distribution shifts.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e71e5cd119bbc5797164fb0cd7fd94a4-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - DeepSITH: Efficient Learning via Decomposition of What and When Across Time Scales
+AU  - Brandon Jacques
+AU  - Zoran Tiganj
+AU  - Marc Howard
+AU  - Per B Sederberg
+PY  - 2021
+AB  - Extracting temporal relationships over a range of scales is a hallmark ofhuman perception and cognition---and thus it is a critical feature of machinelearning applied to real-world problems.  Neural networks are either plaguedby the exploding/vanishing gradient problem in recurrent neural networks(RNNs) or must adjust their parameters to learn the relevant time scales(e.g., in LSTMs). This paper introduces DeepSITH, a deep network comprisingbiologically-inspired Scale-Invariant Temporal History (SITH) modules inseries with dense connections between layers. Each SITH module is simply aset of time cells coding what happened when with a geometrically-spaced set oftime lags.  The dense connections between layers change the definition of whatfrom one layer to the next.  The geometric series of time lags implies thatthe network codes time on a logarithmic scale, enabling DeepSITH network tolearn problems requiring memory over a wide range of time scales. We compareDeepSITH to LSTMs and other recent RNNs on several time series prediction anddecoding tasks. DeepSITH achieves results comparable to state-of-the-artperformance on these problems and continues to perform well even as the delaysare increased.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e7dfca01f394755c11f853602cb2608a-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - A Gaussian Process-Bayesian Bernoulli Mixture Model for Multi-Label Active Learning
+AU  - Weishi Shi
+AU  - Dayou Yu
+AU  - Qi Yu
+PY  - 2021
+AB  - Multi-label classification (MLC) allows complex dependencies among labels, making it more suitable to model many real-world problems. However, data annotation for training MLC models becomes much more labor-intensive due to the correlated (hence non-exclusive) labels and a potential large and sparse label space.  We propose to conduct multi-label active learning (ML-AL) through a novel integrated Gaussian Process-Bayesian Bernoulli Mixture model (GP-B$^2$M) to accurately quantify a data sample's overall contribution to a correlated label space and choose the most informative samples for cost-effective annotation. In particular, the B$^2$M encodes label correlations using a Bayesian Bernoulli mixture of label clusters, where each mixture component corresponds to a global pattern of label correlations. To tackle highly sparse labels under AL, the B$^2$M is further integrated with a predictive GP to connect data features as an effective inductive bias and achieve a feature-component-label mapping. The GP predicts coefficients of mixture components that help to recover the final set of labels of a data sample. A novel auxiliary variable based variational inference algorithm is developed to tackle the non-conjugacy introduced along with the mapping process for efficient end-to-end posterior inference.  The model also outputs a predictive  distribution that provides both the label prediction and their correlations in the form of a label covariance matrix. A principled sampling function is designed accordingly to naturally capture both the feature uncertainty (through GP) and label covariance (through B$^2$M) for effective data sampling. Experiments on real-world multi-label datasets demonstrate the state-of-the-art AL performance of the proposed GP-B$^2$M model.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e7e69cdf28f8ce6b69b4e1853ee21bab-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - You Never Cluster Alone
+AU  - Yuming Shen
+AU  - Ziyi Shen
+AU  - Menghan Wang
+AU  - Jie Qin
+AU  - Philip Torr
+AU  - Ling Shao
+PY  - 2021
+AB  - Recent advances in self-supervised learning with instance-level contrastive objectives facilitate unsupervised clustering. However, a standalone datum is not perceiving the context of the holistic cluster, and may undergo sub-optimal assignment. In this paper, we extend the mainstream contrastive learning paradigm to a cluster-level scheme, where all the data subjected to the same cluster contribute to a unified representation that encodes the context of each data group. Contrastive learning with this representation then rewards the assignment of each datum. To implement this vision, we propose twin-contrast clustering (TCC). We define a set of categorical variables as clustering assignment confidence, which links the instance-level learning track with the cluster-level one. On one hand, with the corresponding assignment variables being the weight, a weighted aggregation along the data points implements the set representation of a cluster. We further propose heuristic cluster augmentation equivalents to enable cluster-level contrastive learning. On the other hand, we derive the evidence lower-bound of the instance-level contrastive objective with the assignments. By reparametrizing the assignment variables, TCC is trained end-to-end, requiring no alternating steps. Extensive experiments show that TCC outperforms the state-of-the-art on benchmarked datasets.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e96ed478dab8595a7dbda4cbcbee168f-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Beware of the Simulated DAG! Causal Discovery Benchmarks May Be Easy to Game
+AU  - Alexander Reisach
+AU  - Christof Seiler
+AU  - Sebastian Weichwald
+PY  - 2021
+AB  - Simulated DAG models may exhibit properties that, perhaps inadvertently, render their structure identifiable and unexpectedly affect structure learning algorithms. Here, we show that marginal variance tends to increase along the causal order for generically sampled additive noise models. We introduce varsortability as a measure of the agreement between the order of increasing marginal variance and the causal order. For commonly sampled graphs and model parameters, we show that the remarkable performance of some continuous structure learning algorithms can be explained by high varsortability and matched by a simple baseline method. Yet, this performance may not transfer to real-world data where varsortability may be moderate or dependent on the choice of measurement scales. On standardized data, the same algorithms fail to identify the ground-truth DAG or its Markov equivalence class. While standardization removes the pattern in marginal variance, we show that data generating processes that incur high varsortability also leave a distinct covariance pattern that may be exploited even after standardization. Our findings challenge the significance of generic benchmarks with independently drawn parameters. The code is available at https://github.com/Scriddie/Varsortability.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/e987eff4a7c7b7e580d659feb6f60c1a-Abstract.html
+ER  - 
+
+TY  - JOUR
+TI  - Robust Allocations with Diversity Constraints
+AU  - Zeyu Shen
+AU  - Lodewijk Gelauff
+AU  - Ashish Goel
+AU  - Aleksandra Korolova
+AU  - Kamesh Munagala
+PY  - 2021
+AB  - We consider the problem of allocating divisible items among multiple agents, and consider the setting where any agent is allowed to introduce {\emph diversity constraints} on the items they are allocated. We motivate this via settings where the items themselves correspond to user ad slots or task workers with attributes such as race and gender on which the principal seeks to achieve demographic parity. We consider the following question: When an agent expresses diversity constraints into an allocation rule, is the allocation of other agents hurt significantly? If this happens, the cost of introducing such constraints is disproportionately borne by agents who do not benefit from diversity. We codify this via two desiderata capturing {\em robustness}. These are {\emph no negative externality} -- other agents are not hurt -- and {\emph monotonicity} -- the agent enforcing the constraint does not see a large increase in value. We show in a formal sense that the Nash Welfare rule that maximizes product of agent values is {\emph uniquely} positioned to be robust when diversity constraints are introduced, while almost all other natural allocation rules fail this criterion. We also show that the guarantees achieved by Nash Welfare are nearly optimal within a widely studied class of allocation rules. We finally perform an empirical simulation on real-world data that models ad allocations to show that this gap between Nash Welfare and other rules persists in the wild.
+UR  - https://papers.nips.cc/paper_files/paper/2021/hash/f7fbc4bafcc80cbf690acbef25f2ce1c-Abstract.html
+ER  - 
+
