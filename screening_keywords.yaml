@@ -1,0 +1,285 @@
+# =============================================================================
+# screening_keywords.yaml
+#
+# Shared keyword schema for the SoK on decision aggregation for negotiation and
+# conflict resolution. Venue-agnostic: every retrieval pipeline (ACL Anthology,
+# ACM DL, AAAI OJS, PMLR, OpenReview, DBLP, publisher exports) screens against
+# this one file.
+#
+# This file is a protocol artifact, not a config convenience. It goes in the
+# replication package, it is version-controlled, and every change to it is
+# recorded in the changelog at the bottom. Appendix B of the design document
+# requires that pilot demotions and drops be logged; `retired` below is that log.
+#
+# STRUCTURE
+#   sets.<name>.role = sufficient  -> a single match retains the record
+#   sets.<name>.role = conditional -> needs an anchor match to retain
+#   anchor_profiles.<name>         -> anchor term sets; venues map to a profile
+#
+# PATTERN SYNTAX
+#   Python `re` syntax, matched case-insensitively against
+#   title + abstract + author keywords. Use single-quoted YAML scalars so
+#   backslashes survive. Prefer \b boundaries: the ACL pilot found `mediat`
+#   matching "intermediate" on 207 records.
+#
+# EDITING
+#   Validate after any change:  python screening_schema.py --validate
+#   Test a phrase:              python screening_schema.py --test "your text"
+# =============================================================================
+
+version: "1.2"
+updated: "2026-09-15"
+
+settings:
+  # Design document §8. One start year for conferences and journals alike.
+  min_year: 2018
+  max_year: 2026
+  # Fields concatenated to form the text a record is screened against.
+  search_fields: [title, abstract, keywords]
+
+# -----------------------------------------------------------------------------
+# SUFFICIENT SETS -- one match retains
+# -----------------------------------------------------------------------------
+
+sets:
+
+  tier1:
+    role: sufficient
+    description: >
+      Signal Tier 1. Named families, techniques, and properties specific enough
+      that a single match justifies retention regardless of context.
+    terms:
+
+      # --- families and properties ---
+      aggregation rule: 'aggregation (?:rule|function|method|operator|scheme)'
+      voting rule: '\bvoting rule|\bvoting method'
+      social choice: 'social choice'
+      judgment aggregation: 'judg(?:e)?ment aggregation'
+      preference aggregation: 'preference aggregation'
+      opinion pooling: 'opinion pooling|probabilit(?:y|ies) (?:pooling|aggregation)'
+      belief merging: 'belief merging'
+      rank aggregation: 'rank(?:ing)? aggregation'
+      label aggregation: 'label aggregation|answer aggregation'
+      truth inference: 'truth inference|truth discovery'
+      forecast aggregation: 'forecast aggregation|aggregating forecasts'
+      wisdom of crowds: 'wisdom of (?:the )?crowds?'
+      peer prediction: 'peer prediction'
+      collective decision: 'collective decision|collective choice'
+      committee selection: 'committee selection|multiwinner|multi-winner'
+      participatory budgeting: 'participatory budgeting'
+      apportionment: 'apportionment'
+      fair division: 'fair division'
+      conflict resolution: 'conflict resolution'
+
+      # --- negotiation and bargaining ---
+      bargaining solution: 'bargaining (?:solution|problem|game)|axiomatic bargaining'
+      mediation:
+        pattern: 'automated mediation|computational mediation|\bmediator\b'
+        note: 'bare "mediat" removed after ACL pilot; matched "intermediate"'
+      integrative negotiation: 'integrative (?:negotiation|bargaining|agreement)'
+      multiparty negotiation: 'multi-?party negotiation|multilateral negotiation'
+      joint gains: 'joint gains|win-?win (?:solution|outcome|agreement)'
+      issue linkage: 'issue linkage|logrolling|log-rolling'
+      single negotiating text: 'single negotiating text'
+      coalition formation: 'coalition formation|coalition structure generation'
+
+      # --- routing, merging, decentralised ---
+      model merging: 'model merging|model fusion|weight averaging|model soup'
+      moe routing:
+        pattern: '\bMoErging\b|expert (?:routing|merging|recycling)|routing (?:among|between|over) (?:specialized )?(?:experts|models|agents)|mixture[- ]of[- ]experts (?:aggregation|merging|reuse|ensemble)'
+        note: 'narrowed after ACL pilot; bare "mixture-of-experts" retained 57 architecture papers excluded by §7.2'
+      federated aggregation: 'federated (?:averaging|aggregation)|\bFedAvg\b'
+      secure aggregation: 'secure aggregation'
+      private aggregation: 'differentially private aggregation|private aggregation of'
+
+      # --- named techniques ---
+      named voting rules: '\bBorda\b|\bCondorcet\b|\bCopeland\b|\bKemeny\b|\bSchulze\b|ranked pairs|single transferable vote|\bSTV\b|instant runoff'
+      approval rules: 'approval voting|proportional approval voting|\bPAV\b|Thiele rule|Phragm[eé]n|method of equal shares|Chamberlin[- ]Courant|knapsack voting'
+      lottery rules: 'maximal lotter(?:y|ies)|random dictatorship|randomi[sz]ed social choice'
+      crowd models: 'Dawid[- ]Skene|\bGLAD\b|\bMACE\b|minimax entropy'
+      preference models: 'Bradley[- ]Terry|Plackett[- ]Luce'
+      pooling rules: 'linear pooling|logarithmic pooling|geometric pooling|extremi[sz]ing|surprisingly popular|minimal pivoting'
+      robust aggregators: '\bKrum\b|\bBulyan\b|trimmed mean|geometric median|coordinate-?wise median'
+      merging methods: 'task arithmetic|TIES[- ]merging|Fisher merging|sign-?aware merging|soft merging of experts'
+      privacy methods: '\bDP-?SGD\b|differentially private stochastic gradient'
+      bargaining solutions: 'Nash bargaining|Kalai[- ]Smorodinsky|egalitarian solution|\bleximin\b|Nash social welfare|Shapley value'
+      delegation rules: 'liquid democracy|delegative voting|proxy voting|\bsortition\b'
+
+      # --- named properties and results ---
+      impossibility: 'Arrow''s? (?:theorem|impossibility)|Gibbard[- ]Satterthwaite|discursive dilemma|doctrinal paradox|Condorcet jury'
+      incentives: 'strategy-?proof|incentive compatib'
+      rationality: 'individually rational|individual rationality|disagreement point|\bBATNA\b'
+      pareto: 'Pareto (?:frontier|optimal|efficient|improving|improvement)'
+      core: 'core stability|in the core\b|core allocation|coalitional stability'
+      representation axioms: 'justified representation|proportional(?:ity)? degree'
+      distortion: 'metric distortion|distortion of (?:voting|social choice)'
+      bayesian pooling: 'external(?:ly)? Bayesian'
+      byzantine: 'Byzantine[- ](?:robust|resilient|tolerant)|breakdown point'
+      leakage: 'membership inference|training data extraction|extraction attack'
+      perspectivism: 'perspectivis|human label variation|annotator disagreement'
+      alignment:
+        pattern: '\bRLHF\b|\bRLAIF\b|\bDPO\b|reinforcement learning from (?:human|AI) feedback|preference optimi[sz]ation|reward model|human preference|preference (?:data|pairs?|tuning)|constitutional AI'
+        note: >
+          DECIDED 2026-09-15: retain broadly, including training-method papers
+          that are not themselves about aggregation. Rationale: the abstract
+          stage is deliberately permissive and the full-text stage removes them,
+          which is the same conservative-retention principle §11 Stage 1 applies
+          to metadata ambiguity generally. A training-method paper cannot be
+          distinguished from a preference-aggregation paper on the abstract
+          alone often enough to justify a precision-first rule here, and F7 is a
+          family the review cannot afford to under-sample. Pattern widened at
+          the same time from RLHF and preference optimisation only, which missed
+          DPO, reward-model and RLAIF papers that are squarely in F7. Expected
+          cost is a larger full-text set; see changelog for the measured figure.
+
+  preservation:
+    role: sufficient
+    requires_anchor: false
+    description: >
+      Standalone disagreement-preservation query. Matched WITHOUT an anchor
+      requirement, because D2 and D3 papers frequently describe what they do
+      without using aggregation vocabulary at all, and requiring an anchor would
+      systematically miss the sparse cells the review exists to characterise.
+      Precision is expected to be poor; the manual screening cost is accepted.
+    terms:
+      preserving disagreement: 'disagreement[- ]preserv|preserv\w* disagreement|disagreement as (?:a )?signal|disagreement is signal|disagreement[- ]aware|learning (?:from|with) disagreement'
+      typed disagreement: 'typed disagreement|structured disagreement|disagreement type'
+      divergence: 'divergence detection|surfacing divergence|where interests diverge|detect(?:ing)? divergen'
+      conflicting evidence: 'conflicting (?:evidence|sources|information|claims|judg(?:e)?ments|annotations|labels)|contested evidence|competing claims'
+      plural output: 'plural(?:istic)? output|non-?collapsing|refuse to aggregate|without collapsing|rather than collapsing'
+      disaggregated: 'disaggregated reporting|per-?annotator|per-?party|per-?source model|annotator-?level|rater-?level|individual annotator'
+      label variation: 'human label variation|label variation|annotator variation|soft label|label distribution|distribution over (?:annotators|labels)'
+      perspectives: 'multi-?perspectiv|diverse perspectives|annotator (?:identit|demographic|background)'
+      minority: 'minority (?:view|perspective|opinion|position|label|annotator)|dissent(?:ing)? (?:opinion|view|voice)|marginali[sz]ed (?:view|perspective)'
+      position mapping: 'position mapping|interest mapping|mapping (?:of )?positions'
+      epistemic plurality: 'epistemic plurality|value pluralism|epistemic (?:justice|erasure)'
+      defer on conflict: 'abstain(?:ing)? on (?:conflict|disagreement)|defer(?:ral)? on disagreement'
+      jury: 'jury learning|counterfactual jury|jury composition'
+
+# -----------------------------------------------------------------------------
+# CONDITIONAL SET -- needs an anchor
+# -----------------------------------------------------------------------------
+
+  tier2:
+    role: conditional
+    description: >
+      Signal Tier 2. Terms that indicate aggregation only in context. Retained
+      only in combination with an anchor from the venue's anchor profile.
+    terms:
+      consensus: '\bconsensus\b'
+      agreement: '\bagreement\b|\bdisagreement\b'
+      combining:
+        pattern: '\bcombining\b|\bmerging\b|\baggregating\b|fusion of (?:models|experts|judg|opinion|predictions|sources)'
+        note: 'bare "fusion" removed after ACL pilot; matched all multimodal work'
+      ensemble: '\bensembl'
+      routing:
+        pattern: 'routing (?:among|between|over|to)|query routing|model routing|\bcascade\b|\bdeferral\b|\bescalation\b|learning to defer'
+        note: 'narrowed after ACL pilot; bare "routing" matched MoE architecture'
+      delegation: '\bdelegation\b|\bdelegate\b|\bproxy vot'
+      adjudication:
+        pattern: 'adjudicat|reconcil|arbitrat|\bmediat(?:e|es|ed|ing|ion|or)\b'
+        note: '\b required; bare "mediat" matched "intermediate" on 207 ACL records'
+      negotiation: 'negotiat|bargain'
+      welfare: '\bwelfare\b|utilitarian|egalitarian'
+      fairness:
+        pattern: 'fair(?:ness)? (?:division|allocation|share|aggregation)|proportional fairness|envy-?free|fairness axiom'
+        note: 'narrowed after ACL pilot; bare "fairness" matched the fairness-in-NLP subfield on 530 records'
+      manipulation: 'manipulat|collusion|misreport|strategic (?:report|behaviou?r)'
+      privacy:
+        pattern: 'differential(?:ly)? privat|secure (?:aggregation|computation)|federated|decentrali[sz]ed (?:learning|aggregation)'
+        note: 'narrowed after ACL pilot; bare "privacy" matched 102 records with no aggregation content'
+      crowd: 'crowdsourc|crowd-?work|crowd-?sourced'
+      collective: '\bcollective\b|\bmajority\b|\bminority\b|\bplurality\b'
+      weighting: 'weighted (?:vot|aggregat|combin|average)|\bimputation\b'
+      exit: '\bwithdraw|\bopt-?out\b|\bveto\b|\bdefect'
+
+# -----------------------------------------------------------------------------
+# ANCHOR PROFILES
+# -----------------------------------------------------------------------------
+
+anchor_profiles:
+
+  default:
+    description: Signal Tier 3 general anchors.
+    terms:
+      formal: '\brule\b|\baxiom|\bmechanism\b|\bprofile\b'
+      sources: '\bvoter\b|\bballot\b|\bannotator\b|\brater\b|\bjudge\b|\bagent\b|\bclient\b|\bpart(?:y|ies)\b|\bnegotiator\b|\bstakeholder\b|\bexpert\b|\bforecaster\b|\bdelegate\b'
+      objects: '\blabel\b|\bjudgment\b|\bjudgement\b|\bpreference\b|\branking\b|\bvote\b|\bscore\b|\bforecast\b|\bgradient\b|\bparameter\b|\bpackage\b|\ballocation\b|\bissue\b|\bposition\b|\bexpert card\b'
+
+  restricted_ml:
+    description: >
+      Design document Appendix B.4. Large ML venues use aggregation vocabulary
+      incidentally at high rates, so generic data-centric anchors are excluded.
+    terms:
+      formal: '\brule\b|\baxiom|\bprofile\b'
+      sources: '\bvoter\b|\bballot\b|\bannotator\b|\brater\b|\bjudge\b|\bclient\b|\bpart(?:y|ies)\b|\bnegotiator\b|\bexpert card\b'
+      objects: 'social choice|welfare function|preference profile|disagreement point|\bcommittee\b'
+
+# Venue substrings mapped to an anchor profile. Matched case-insensitively
+# against source filename, venue key, booktitle, journal and series.
+venue_profiles:
+  restricted_ml: [neurips, nips, icml, iclr]
+
+# -----------------------------------------------------------------------------
+# RETIRED TERMS -- the pilot log required by Appendix B
+# -----------------------------------------------------------------------------
+
+retired:
+  - term: alignment
+    from_set: tier2
+    action: dropped
+    date: "2026-09-15"
+    venue_piloted: ACL 2025-2026
+    records_matched: 541
+    reason: >
+      Matched word alignment, not preference aggregation. The in-scope sense is
+      already covered by tier1.alignment.
+  - term: pooling
+    from_set: tier2
+    action: dropped
+    date: "2026-09-15"
+    venue_piloted: ACL 2025-2026
+    records_matched: 228
+    reason: Matched max-pooling and mean-pooling layers.
+  - term: annotation
+    from_set: tier2
+    action: dropped
+    date: "2026-09-15"
+    venue_piloted: ACL 2025-2026
+    records_matched: 459
+    reason: >
+      Matched every dataset paper. Correctly belongs as a Tier 3 anchor, where
+      it already appears, not as a Tier 2 signal.
+  - term: robustness
+    from_set: tier2
+    action: narrowed
+    date: "2026-09-15"
+    venue_piloted: ACL 2025-2026
+    records_matched: 410
+    reason: >
+      Matched adversarial robustness. Replaced by tier2.manipulation, which
+      targets the strategic sense relevant to condition C1.
+
+changelog:
+  - version: "1.0"
+    date: "2026-09-15"
+    change: Initial schema transcribed from design document Appendix B.
+  - version: "1.1"
+    date: "2026-09-15"
+    change: >
+      Appendix B pilot run on ACL 2025-2026 (3,824 records). Retention fell from
+      28.8% to 12.5% after four Tier 2 demotions, three narrowings, two regex
+      boundary fixes, and a widening of the preservation set from social-choice
+      vocabulary to NLP-native phrasing (5 hits to 26). Repeat this pilot on the
+      first venue of each new community before the full pass.
+  - version: "1.2"
+    date: "2026-09-15"
+    change: >
+      Scope decision recorded on tier1.alignment: retain training-method papers
+      at the abstract stage and filter at full text. Pattern widened to cover
+      DPO, RLAIF, reward models, human preference data and constitutional AI.
+      Measured on the ACL 2025-2026 pilot corpus (3,824 records): retention rose
+      from 479 (12.5%) to 600 (15.7%), with tier1 hits rising from 212 to 345.
+      The decision deliberately moves screening burden from title/abstract to
+      full text, so the §11 budget line for full-text screening should be
+      revisited if other venues behave similarly.
