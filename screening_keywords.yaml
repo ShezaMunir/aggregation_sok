@@ -1,10 +1,13 @@
 # =============================================================================
 # screening_keywords.yaml
 #
-# Shared keyword schema for the SoK on decision aggregation for negotiation and
-# conflict resolution. Venue-agnostic: every retrieval pipeline (ACL Anthology,
+# Shared keyword schema for the SoK on aggregation for disagreement (target
+# venue: ACM FAccT). Negotiation is a discussion item in the paper, not its
+# frame; bargaining vocabulary is retained because bargaining solutions remain
+# in scope as family F12. Venue-agnostic: every retrieval pipeline (ACL Anthology,
 # ACM DL, AAAI OJS, PMLR, OpenReview, DBLP, publisher exports) screens against
-# this one file.
+# this one file. Retrieval sources as of v1.3: ACM DL, AAAI OJS, OpenReview,
+# PMLR, ACL Anthology, DBLP, publisher exports.
 #
 # This file is a protocol artifact, not a config convenience. It goes in the
 # replication package, it is version-controlled, and every change to it is
@@ -27,12 +30,14 @@
 #   Test a phrase:              python screening_schema.py --test "your text"
 # =============================================================================
 
-version: "1.2"
-updated: "2026-09-15"
+version: "1.4"
+updated: "2026-09-27"
 
 settings:
-  # Design document §8. One start year for conferences and journals alike.
-  min_year: 2018
+  # Design document §8: journals 2020-2026, conferences 2021-2026. min_year is
+  # the global floor; the 2021 conference floor is applied per venue at
+  # retrieval, so pre-2021 conference records should never reach this screen.
+  min_year: 2020
   max_year: 2026
   # Fields concatenated to form the text a record is screened against.
   search_fields: [title, abstract, keywords]
@@ -71,7 +76,7 @@ sets:
       fair division: 'fair division'
       conflict resolution: 'conflict resolution'
 
-      # --- negotiation and bargaining ---
+      # --- negotiation and bargaining (F12; feeds design document §14.1) ---
       bargaining solution: 'bargaining (?:solution|problem|game)|axiomatic bargaining'
       mediation:
         pattern: 'automated mediation|computational mediation|\bmediator\b'
@@ -101,8 +106,9 @@ sets:
       pooling rules: 'linear pooling|logarithmic pooling|geometric pooling|extremi[sz]ing|surprisingly popular|minimal pivoting'
       robust aggregators: '\bKrum\b|\bBulyan\b|trimmed mean|geometric median|coordinate-?wise median'
       merging methods: 'task arithmetic|TIES[- ]merging|Fisher merging|sign-?aware merging|soft merging of experts'
-      privacy methods: '\bDP-?SGD\b|differentially private stochastic gradient'
-      bargaining solutions: 'Nash bargaining|Kalai[- ]Smorodinsky|egalitarian solution|\bleximin\b|Nash social welfare|Shapley value'
+      bargaining solutions:
+        pattern: 'Nash bargaining|Kalai[- ]Smorodinsky|egalitarian solution|Shapley value'
+        note: 'leximin and Nash social welfare moved to sets.welfare in v1.3; coverage unchanged'
       delegation rules: 'liquid democracy|delegative voting|proxy voting|\bsortition\b'
 
       # --- named properties and results ---
@@ -115,7 +121,6 @@ sets:
       distortion: 'metric distortion|distortion of (?:voting|social choice)'
       bayesian pooling: 'external(?:ly)? Bayesian'
       byzantine: 'Byzantine[- ](?:robust|resilient|tolerant)|breakdown point'
-      leakage: 'membership inference|training data extraction|extraction attack'
       perspectivism: 'perspectivis|human label variation|annotator disagreement'
       alignment:
         pattern: '\bRLHF\b|\bRLAIF\b|\bDPO\b|reinforcement learning from (?:human|AI) feedback|preference optimi[sz]ation|reward model|human preference|preference (?:data|pairs?|tuning)|constitutional AI'
@@ -131,6 +136,30 @@ sets:
           the same time from RLHF and preference optimisation only, which missed
           DPO, reward-model and RLAIF papers that are squarely in F7. Expected
           cost is a larger full-text set; see changelog for the measured figure.
+
+  welfare:
+    role: sufficient
+    description: >
+      Signal Tier 1, new in v1.3. Social welfare functions, named welfare
+      criteria, and welfare-theoretic properties (design document §4.2 and
+      Appendix B.2). Generic "social welfare" deliberately stays in tier2:
+      auction and mechanism-design papers at EC, AAAI and IJCAI use it as an
+      objective with no aggregation of disagreement, and a sufficient match on
+      it would retain most of EC. Not yet piloted; see changelog.
+    terms:
+      social welfare function:
+        pattern: '(?:social )?welfare (?:functions?|functionals?|orderings?)|\bSWFs?\b|\bwelfaris[mt]\b'
+        note: 'watch \bSWF\b in the EC pilot; demote to tier2 if it collides with unrelated acronyms'
+      utilitarian aggregation: 'utilitarian (?:social welfare|welfare|aggregation|rule|solution|objective|criterion|sum)|weighted utilitarian|Harsanyi(?:''s)? (?:aggregation|social aggregation|utilitarian)'
+      egalitarian and prioritarian:
+        pattern: 'egalitarian (?:social welfare|welfare|objective|rule|criterion)|prioritarian|maximin (?:welfare|social welfare|objective|criterion)|Rawlsian (?:welfare|social welfare|maximin|objective|criterion|fairness)'
+        note: '"Rawlsian fairness" retains minimax group-fairness papers; in scope only under the §7.3 convention, filtered at full text'
+      leximin: '\bleximin\b|lexicographic maximin'
+      nash welfare: 'Nash (?:social )?welfare|\bMNW\b|Nash product'
+      generalized means: 'generali[sz]ed (?:Gini|p-?means?|power means?)|(?:power|p)[- ]mean welfare|Atkinson (?:index|social welfare|inequality)|alpha[- ]fair|α-fair'
+      inequality aversion: 'inequality[- ]aver(?:se|sion)'
+      comparability: 'interpersonal(?:ly)? compar'
+      welfare properties: 'Pigou[- ]Dalton|Bergson[- ]Samuelson|price of fairness|maximin share|Paretian liberal|liberal paradox'
 
   preservation:
     role: sufficient
@@ -155,6 +184,12 @@ sets:
       epistemic plurality: 'epistemic plurality|value pluralism|epistemic (?:justice|erasure)'
       defer on conflict: 'abstain(?:ing)? on (?:conflict|disagreement)|defer(?:ral)? on disagreement'
       jury: 'jury learning|counterfactual jury|jury composition'
+      pluralism:
+        pattern: 'pluralis(?:m|tic) (?:alignment|values?|AI|evaluation)|agonis(?:m|tic)'
+        note: 'added v1.4 from the FAccT 2025 pilot; missed "The Value of Disagreement in AI Design, Evaluation, and Alignment" and "Agonistic Image Generation"'
+      suppressed disagreement:
+        pattern: '(?:suppress|eliminat|obscur|eras|homogeni[sz])\w* (?:\w+ ){0,2}(?:disagreement|dissent|perspectives)|perspectival homogeni'
+        note: 'added v1.4 from the FAccT 2025 pilot; papers arguing that pipelines remove disagreement, which is the D0 critique in the humanities strand'
 
 # -----------------------------------------------------------------------------
 # CONDITIONAL SET -- needs an anchor
@@ -180,7 +215,20 @@ sets:
         pattern: 'adjudicat|reconcil|arbitrat|\bmediat(?:e|es|ed|ing|ion|or)\b'
         note: '\b required; bare "mediat" matched "intermediate" on 207 ACL records'
       negotiation: 'negotiat|bargain'
-      welfare: '\bwelfare\b|utilitarian|egalitarian'
+      ai alignment:
+        pattern: '\b(?:AI|value|model|LLM|preference) alignment\b'
+        note: >
+          added v1.4 from the FAccT 2025 pilot, which missed "AI Alignment at
+          Your Discretion" and "The Hard Problem of AI Alignment: Value Forks in
+          Moral Judgment" because tier1.alignment fires only on training-method
+          terms (RLHF, DPO, reward model). This is a narrow form of the bare
+          "alignment" retired on 2026-09-15: the required prefix excludes word
+          and sequence alignment, which caused the ACL false positives. Kept
+          conditional (needs an anchor) for that reason; recheck its hit count
+          when ACL is rerun.
+      welfare:
+        pattern: '\bwelfare\b|utilitarian|egalitarian|distributive justice|sufficientarian'
+        note: '"distributive justice" and "sufficientarian" added v1.3; conditional because FAccT uses both outside aggregation'
       fairness:
         pattern: 'fair(?:ness)? (?:division|allocation|share|aggregation)|proportional fairness|envy-?free|fairness axiom'
         note: 'narrowed after ACL pilot; bare "fairness" matched the fairness-in-NLP subfield on 530 records'
@@ -208,7 +256,7 @@ anchor_profiles:
 
   restricted_ml:
     description: >
-      Design document Appendix B.4. Large ML venues use aggregation vocabulary
+      Design document §10. Large ML venues use aggregation vocabulary
       incidentally at high rates, so generic data-centric anchors are excluded.
     terms:
       formal: '\brule\b|\baxiom|\bprofile\b'
@@ -259,6 +307,29 @@ retired:
     reason: >
       Matched adversarial robustness. Replaced by tier2.manipulation, which
       targets the strategic sense relevant to condition C1.
+  - term: leakage
+    from_set: tier1
+    action: dropped
+    date: "2026-09-26"
+    venue_piloted: none (scope change, design document v7.0)
+    records_matched: null
+    reason: >
+      Membership inference and extraction attacks were in scope only through
+      the negotiation disclosure condition, which is no longer part of the
+      frame, and the security venues have been cut. At NeurIPS, ICML and ICLR
+      the terms would retain privacy-attack papers with no aggregation content.
+      Privacy-constrained aggregation remains covered by tier1 secure, private
+      and federated aggregation and by tier2.privacy.
+  - term: privacy methods
+    from_set: tier1
+    action: dropped
+    date: "2026-09-26"
+    venue_piloted: none (scope change, design document v7.0)
+    records_matched: null
+    reason: >
+      DP-SGD privatizes gradients over i.i.d. samples, not over sources holding
+      positions, so it falls under the §7.2 pooling exclusion. Private
+      aggregation across sources is still caught by tier2.privacy with an anchor.
 
 changelog:
   - version: "1.0"
@@ -283,3 +354,34 @@ changelog:
       The decision deliberately moves screening burden from title/abstract to
       full text, so the §11 budget line for full-text screening should be
       revisited if other venues behave similarly.
+  - version: "1.3"
+    date: "2026-09-26"
+    change: >
+      Reframed with design document v7.0 from aggregation for negotiation to
+      aggregation for disagreement, with negotiation as a discussion item.
+      Added sets.welfare (Signal Tier 1) for social welfare functions, named
+      welfare criteria and welfare-theoretic properties, and moved leximin and
+      Nash social welfare into it from tier1.bargaining_solutions. Widened
+      tier2.welfare with distributive justice and sufficientarian. Retired
+      tier1 leakage and privacy methods (see retired). Negotiation and
+      bargaining terms unchanged. min_year moved from 2018 to 2020 to match the
+      reduced window. Not yet measured: rerun the ACL 2025-2026 pilot to get
+      the retention delta, fill records_matched for the two retired sets, and
+      pilot one EC year and one humanities journal-year before the full pass,
+      since both are new communities and EC is the main risk for the welfare
+      set.
+  - version: "1.4"
+    date: "2026-09-27"
+    change: >
+      FAccT 2025 pilot (206 records, 100% abstract coverage). Under v1.3, 28
+      records were retained; three directly relevant papers were missed because
+      they describe disagreement in normative rather than technical vocabulary
+      and name AI alignment without training-method terms. Added
+      preservation.pluralism, preservation.suppressed_disagreement, and
+      tier2.ai_alignment (conditional). Retention rose to 33 of 206; of the 5
+      added records, 3 are relevant, 1 is borderline, and 1 is not. No Tier 1
+      term exceeded the 60 percent irrelevance threshold on this venue. The
+      welfare set matched nothing in FAccT 2025 and remains untested until the
+      EC pilot. Tier 2 "collective" (16 records) and "combining" (12) are the
+      noisiest terms; kept for now, to be reassessed after the AIES and EC
+      pilots.
