@@ -1,0 +1,855 @@
+TY  - CONF
+TI  - AI Knowledge: Improving AI Delegation through Human Enablement
+AU  - Pinski, Marc
+AU  - Adam, Martin
+AU  - Benlian, Alexander
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - When collaborating with artificial intelligence (AI), humans can often delegate tasks to leverage complementary AI competencies. However, humans often delegate inefficiently. Enabling humans with knowledge about AI can potentially improve inefficient AI delegation. We conducted a between-subjects experiment (two groups, n = 111) to examine how enabling humans with AI knowledge can improve AI delegation in human-AI collaboration. We find that AI knowledge-enabled humans align their delegation decisions more closely with their assessment of how suitable a task is for humans or AI (i.e., task appraisal). We show that delegation decisions closely aligned with task appraisal increase task performance. However, we also find that AI knowledge lowers future intentions to use AI, suggesting that AI knowledge is not strictly positive for human-AI collaboration. Our study contributes to HCI design guidelines with a new perspective on AI features, educating humans regarding general AI functioning and their own (human) performance and biases.
+DO  - 10.1145/3544548.3580794
+UR  - https://doi.org/10.1145/3544548.3580794
+KW  - AI delegation
+KW  - AI education
+KW  - AI literacy
+KW  - AI skill
+KW  - Cognitive appraisal theory
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=delegation; schema=v1.4
+AN  - 10.1145/3544548.3580794
+ER  - 
+
+TY  - CONF
+TI  - Augmenting Human Cognition with an AI-Mediated Intelligent Visual Feedback
+AU  - Xu, Songlin
+AU  - Zhang, Xinyu
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - In this paper, we introduce an AI-mediated framework that can provide intelligent feedback to augment human cognition. Specifically, we leverage deep reinforcement learning (DRL) to provide adaptive time pressure feedback to improve user performance in a math arithmetic task. Time pressure feedback could either improve or deteriorate user performance by regulating user attention and anxiety. Adaptive time pressure feedback controlled by a DRL policy according to users’ real-time performance could potentially solve this trade-off problem. However, the DRL training and hyperparameter tuning may require large amounts of data and iterative user studies. Therefore, we propose a dual-DRL framework that trains a regulation DRL agent to regulate user performance by interacting with another simulation DRL agent that mimics user cognition behaviors from an existing dataset. Our user study demonstrates the feasibility and effectiveness of the dual-DRL framework in augmenting user performance, in comparison to the baseline group.
+DO  - 10.1145/3544548.3580905
+UR  - https://doi.org/10.1145/3544548.3580905
+KW  - Human augmentation
+KW  - cognition regulation
+KW  - deep reinforcement learning
+KW  - human-AI integration
+KW  - machine learning
+KW  - time pressure
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3544548.3580905
+ER  - 
+
+TY  - CONF
+TI  - VRGit: A Version Control System for Collaborative Content Creation in Virtual Reality
+AU  - Zhang, Lei
+AU  - Agrawal, Ashutosh
+AU  - Oney, Steve
+AU  - Guo, Anhong
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Immersive authoring tools allow users to intuitively create and manipulate 3D scenes while immersed in Virtual Reality (VR). Collaboratively designing these scenes is a creative process that involves numerous edits, explorations of design alternatives, and frequent communication with collaborators. Version Control Systems (VCSs) help users achieve this by keeping track of the version history and creating a shared hub for communication. However, most VCSs are unsuitable for managing the version history of VR content because their underlying line differencing mechanism is designed for text and lacks the semantic information of 3D content; and the widely adopted commit model is designed for asynchronous collaboration rather than real-time awareness and communication in VR. We introduce VRGit, a new collaborative VCS that visualizes version history as a directed graph composed of 3D miniatures, and enables users to easily navigate versions, create branches, as well as preview and reuse versions directly in VR. Beyond individual uses, VRGit also facilitates synchronous collaboration in VR by providing awareness of users’ activities and version history through portals and shared history visualizations. In a lab study with 14 participants (seven groups), we demonstrate that VRGit enables users to easily manage version history both individually and collaboratively in VR.
+DO  - 10.1145/3544548.3581136
+UR  - https://doi.org/10.1145/3544548.3581136
+KW  - Collaboration
+KW  - Version Control System
+KW  - Virtual Reality
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3544548.3581136
+ER  - 
+
+TY  - CONF
+TI  - Digital Reading Rulers: Evaluating Inclusively Designed Rulers for Readers With Dyslexia and Without
+AU  - Niklaus, Aleena Gertrudes
+AU  - Cai, Tianyuan
+AU  - Bylinskii, Zoya
+AU  - Wallace, Shaun
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Physical reading rulers are simple yet effective interventions that help readers with dyslexia. Digital reading rulers may offer similar benefits. Given their potential value, we provide the following contributions: (1) We host focus group sessions including people with dyslexia to build upon their lived experiences, (2) We provide evidence for designs that are effective and preferred, (3) We measure reading gains of rulers for readers with and without dyslexia. Using inclusive design principles, we arrive at four digital ruler designs - Grey Bar, Lightbox, Shade, and Underline. For the first time, we offer a comprehensive evaluation of digital ruler effectiveness on 91 crowdsourced readers with dyslexia and 86 without. Considering reading speed, comprehension, and preference, many readers benefit from these rulers, with the largest gains among readers with dyslexia. Rulers designed by readers with dyslexia increased the reading speeds of readers with dyslexia, supporting the need for inclusive design practices.
+DO  - 10.1145/3544548.3581367
+UR  - https://doi.org/10.1145/3544548.3581367
+KW  - ADHD
+KW  - Ability-Based Design.
+KW  - Accessibility
+KW  - Color Overlay
+KW  - Dyslexia
+KW  - Highlighting
+KW  - Human-Computer Interaction
+KW  - Inclusive Design
+KW  - Readability
+KW  - Reading Ruler
+KW  - User Sensitive Inclusive Design
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3544548.3581367
+ER  - 
+
+TY  - CONF
+TI  - Empathic Accuracy and Mental Effort During Remote Assessments of Emotions
+AU  - Huber, Stephan
+AU  - Rathß, Natalie
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Observing users in remote settings is unfavorable because it adds filters altering the information that underlie judgement. Still, the COVID pandemic led to an unprecedented popularity of remote user experience tests. In this work, we revisited the question, which information is most important for evaluators to assess users’ emotions successfully and efficiently. In an online study, we asked N=55 participants to assess users’ emotions from short videos of 30 interaction situations. As independent variable, we manipulated the combination of the information channels video of users, video of the interactive technology, and audio within subjects. Our findings indicate that empathic accuracy is highest and mental effort is lowest when all stimuli are present. Surprisingly, empathic accuracy was lowest and mental effort highest, when only video of users was available. We discuss these findings in the light of emotion literature focusing on persons’ facial expressions and derive practical implications for remote observations.
+DO  - 10.1145/3544548.3580824
+UR  - https://doi.org/10.1145/3544548.3580824
+KW  - Remote user research
+KW  - emotion
+KW  - empathy
+KW  - meta-evaluation
+KW  - observations
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3544548.3580824
+ER  - 
+
+TY  - CONF
+TI  - Understanding Wheelchair Users’ Preferences for On-Body, In-Air, and On-Wheelchair Gestures
+AU  - Bilius, Laura-Bianca
+AU  - Ungurean, Ovidiu-Ciprian
+AU  - Vatavu, Radu-Daniel
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - We present empirical results from a gesture elicitation study conducted with eleven wheelchair users that proposed on-body, in-air, and on-wheelchair gestures to effect twenty-one referents representing common actions, types of digital content, and navigation commands for interactive systems. We report a large preference for on-body (47.6\%) and in-air (40.7\%) compared to on-wheelchair (11.7\%) gestures, mostly represented by touch input on different parts of the body and hand poses performed in mid-air with one hand. Following an agreement analysis that revealed low consensus (≤ 5.5\%) between users, although high perceived gesture ease, goodness, and social acceptability within users, we examine our participants’ gesture characteristics in relation to their self-reported motor impairments, e.g., low strength, rapid fatigue, etc. We highlight the need for personalized gesture sets, tailored to and reflective of both users’ preferences and specific motor abilities, an implication that we examine through the lenses of ability-based design.
+DO  - 10.1145/3544548.3580929
+UR  - https://doi.org/10.1145/3544548.3580929
+KW  - Gesture input
+KW  - gesture analysis
+KW  - gesture elicitation
+KW  - mid-air gestures
+KW  - mobility impairments
+KW  - motor impairments
+KW  - motor symptoms
+KW  - on-body input
+KW  - on-wheelchair gestures
+KW  - study
+KW  - wheelchair users
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=consensus; agreement; schema=v1.4
+AN  - 10.1145/3544548.3580929
+ER  - 
+
+TY  - CONF
+TI  - 12 Ways to Empower: Designing for Children’s Digital Autonomy
+AU  - Wang, Ge
+AU  - Zhao, Jun
+AU  - Van Kleek, Max
+AU  - Shadbolt, Nigel
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - In recent years, growing research has been made on supporting children to become more autonomous in the digital environment around them. However, there has been little consensus regarding the conceptualisation of digital autonomy for children in the HCI community and how best they can be supported. Through a systematic review of autonomy-supportive designs within HCI research, this paper makes three contributions: a landscape overview of the existing conceptualisation of Digital Autonomy for children within HCI; a framework of 12 distinct design mechanisms for supporting children’s digital autonomy, clustered into 5 categories by their common mechanisms; and an identification of 5 critical design considerations for future support of children’s digital autonomy. Our findings provide a critical understanding of current support for children’s digital autonomy in HCI. We highlight the importance of considering children’s digital autonomy from multi-perspectives and suggest critical factors and gaps to be considered for future autonomy-supportive designs.
+DO  - 10.1145/3544548.3580935
+UR  - https://doi.org/10.1145/3544548.3580935
+KW  - Autonomy
+KW  - Children
+KW  - Systematic Literature Review
+N1  - source=chi_2023.bib; retained_by=preservation; terms=perspectives; schema=v1.4
+AN  - 10.1145/3544548.3580935
+ER  - 
+
+TY  - CONF
+TI  - Visual Captions: Augmenting Verbal Communication with On-the-fly Visuals
+AU  - Liu, Xingyu "Bruce"
+AU  - Kirilyuk, Vladimir
+AU  - Yuan, Xiuxiu
+AU  - Olwal, Alex
+AU  - Chi, Peggy
+AU  - Chen, Xiang "Anthony"
+AU  - Du, Ruofei
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Video conferencing solutions like Zoom, Google Meet, and Microsoft Teams are becoming increasingly popular for facilitating conversations, and recent advancements such as live captioning help people better understand each other. We believe that the addition of visuals based on the context of conversations could further improve comprehension of complex or unfamiliar concepts. To explore the potential of such capabilities, we conducted a formative study through remote interviews (N=10) and crowdsourced a dataset of over 1500 sentence-visual pairs across a wide range of contexts. These insights informed Visual Captions, a real-time system that integrates with a video conferencing platform to enrich verbal communication. Visual Captions leverages a fine-tuned large language model to proactively suggest relevant visuals in open-vocabulary conversations. We present findings from a lab study (N=26) and an in-the-wild case study (N=10), demonstrating how Visual Captions can help improve communication through visual augmentation in various scenarios.
+DO  - 10.1145/3544548.3581566
+UR  - https://doi.org/10.1145/3544548.3581566
+KW  - AI agent
+KW  - augmented communication
+KW  - augmented reality
+KW  - collaborative work
+KW  - dataset
+KW  - large language models
+KW  - online meeting
+KW  - text-to-visual
+KW  - video-mediated communication
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; crowd; schema=v1.4
+AN  - 10.1145/3544548.3581566
+ER  - 
+
+TY  - CONF
+TI  - “Should I Follow the Human, or Follow the Robot?” — Robots in Power Can Have More Influence Than Humans on Decision-Making
+AU  - Hou, Yoyo Tsung-Yu
+AU  - Lee, Wen-Ying
+AU  - Jung, Malte
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Artificially intelligent (AI) agents such as robots are increasingly delegated power in work settings, yet it remains unclear how power functions in interactions with both humans and robots, especially when they directly compete for influence. Here we present an experiment where every participant was matched with one human and one robot to perform decision-making tasks. By manipulating who has power, we created three conditions: human as leader, robot as leader, and a no-power-difference control. The results showed that the participants were significantly more influenced by the leader, regardless of whether the leader was a human or a robot. However, they generally held a more positive attitude toward the human than the robot, although they considered whichever was in power as more competent. This study illustrates the importance of power for future Human-Robot Interaction (HRI) and Human-AI Interaction (HAI) research, as it addresses pressing concerns of society about AI-powered intelligent agents.
+DO  - 10.1145/3544548.3581066
+UR  - https://doi.org/10.1145/3544548.3581066
+KW  - artificial agent
+KW  - authority
+KW  - human-robot interaction
+KW  - influence
+KW  - intelligent agent
+KW  - power
+KW  - robot
+KW  - social power
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3544548.3581066
+ER  - 
+
+TY  - CONF
+TI  - Collaborating with a Text-Based Chatbot: An Exploration of Real-World Collaboration Strategies Enacted during Human-Chatbot Interactions
+AU  - Rapp, Amon
+AU  - Boldi, Arianna
+AU  - Curti, Lorenzo
+AU  - Perrucci, Alessandro
+AU  - Simeoni, Rossana
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - A central problem for chatbots in the customer care domain revolves around how people collaborate with the agent to achieve their own situated goals. The majority of the previous research, however, relied on experiments within artificial settings, rather than on observation of real-world interactions. Moreover, such research mostly analyzed users’ responses to communication breakdowns, rather than the wider collaboration strategies utilized during a conversation. In this paper, we qualitatively analyzed 12,477 real-world exchanges with a task-based chatbot using a Grounded Theory approach as a rigorous coding method to analyze the data. We identified two main aspects of collaboration, behavioral and conversational, and for each aspect we highlighted the different strategies that users perform to “work together” with the agent. These strategies may be utilized from the very beginning of the conversation or in response to misunderstandings in the course of ongoing interactions and may show different evolving dynamics.
+DO  - 10.1145/3544548.3580995
+UR  - https://doi.org/10.1145/3544548.3580995
+KW  - Conversational agents
+KW  - chatbots
+KW  - human-AI cooperation
+KW  - human-machine cooperation
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=collective; schema=v1.4
+AN  - 10.1145/3544548.3580995
+ER  - 
+
+TY  - CONF
+TI  - Design and Field Trial of Tunee in Shared Houses: Exploring Experiences of Sharing Individuals’ Current Noise-level Preferences with Housemates
+AU  - Kim, Nari
+AU  - Jang, Sangsu
+AU  - Kim, Hansol
+AU  - Lee, Jaeyeon
+AU  - Park, Young-Woo
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Being a little more careful about the sound that people produce is difficult in shared houses because individuals can generate several unintended living noises and sounds. We designed Tunee to help each housemate better understand the others’ context and desired noise-level. It is an interactive speaker that allows people to share noise-level preferences through the position change of nodes. Our three-week in-field study with four groups of participants revealed that expressing noise-level preference through nodes reduced the burden of verbally delivering issues about the trivial noises of everyday life, and the intentions of the lowered preference were referred to and deemed significant. We also identified how participants figured out what behavior was acceptable for others according to each noise-level. Our findings imply considerations in designing interfaces to support coordinating behaviors and awareness of social contexts in shared spaces.
+DO  - 10.1145/3544548.3581521
+UR  - https://doi.org/10.1145/3544548.3581521
+KW  - Mediated communication
+KW  - Noise
+KW  - Shared houses
+KW  - Social information
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3544548.3581521
+ER  - 
+
+TY  - CONF
+TI  - “There’s so much responsibility on users right now:” Expert Advice for Staying Safer From Hate and Harassment
+AU  - Wei, Miranda
+AU  - Consolvo, Sunny
+AU  - Kelley, Patrick Gage
+AU  - Kohno, Tadayoshi
+AU  - Roesner, Franziska
+AU  - Thomas, Kurt
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Online hate and harassment poses a threat to the digital safety of people globally. In light of this risk, there is a need to equip as many people as possible with advice to stay safer online. We interviewed 24 experts to understand what threats and advice internet users should prioritize to prevent or mitigate harm. As part of this, we asked experts to evaluate 45 pieces of existing hate-and-harassment-specific digital-safety advice to understand why they felt advice was viable or not. We find that experts frequently had competing perspectives for which threats and advice they would prioritize. We synthesize sources of disagreement, while also highlighting the primary threats and advice where experts concurred. Our results inform immediate efforts to protect users from online hate and harassment, as well as more expansive socio-technical efforts to establish enduring safety.
+DO  - 10.1145/3544548.3581229
+UR  - https://doi.org/10.1145/3544548.3581229
+KW  - Security and privacy
+KW  - advice
+KW  - harassment
+KW  - hate
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=agreement; schema=v1.4
+AN  - 10.1145/3544548.3581229
+ER  - 
+
+TY  - CONF
+TI  - Understanding People’s Perception and Usage of Plug-in Electric Hybrids
+AU  - Lee, Matthew L
+AU  - Carter, Scott
+AU  - Iliev, Rumen
+AU  - Bravo, Nayeli Suseth
+AU  - Van, Monica P
+AU  - Denoue, Laurent
+AU  - Kimani, Everlyne
+AU  - Filipowicz, Alexandre L. S.
+AU  - Shamma, David A.
+AU  - Sieck, Kate A
+AU  - Hogan, Candice
+AU  - Wu, Charlene C.
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Electrification is an important first step toward reducing the greenhouse emissions of passenger vehicles. However, how drivers drive, charge, and operate their electrified vehicles can have a large impact on their emissions, particularly for Plug-in Hybrid Electric vehicles (PHEVs) that combine all-electric driving with an internal combustion engine. In this paper, we investigate how and why drivers use their PHEVs and uncover design opportunities for interfaces that can support the efficient use of PHEVs. We used a mixed-method approach combining quantitative, qualitative, and concept elicitation methods with PHEV owners in the US. While past findings indicate that PHEV drivers are not motivated to charge regularly, our work contradicts this with evidence of (1) regular charging with home infrastructure, (2) high cost sensitivity, and (3) preference for driving in all-electric mode. Our results indicate that the most critical problem is inadequate user support for navigating poor charging infrastructure.
+DO  - 10.1145/3544548.3581301
+UR  - https://doi.org/10.1145/3544548.3581301
+KW  - automobiles
+KW  - behavioral science
+KW  - carbon
+KW  - hybrid
+KW  - phev
+KW  - plug-in
+KW  - prototyping
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3544548.3581301
+ER  - 
+
+TY  - CONF
+TI  - The Benefits of Passive Haptics and Perceptual Manipulation for Extended Reality Interactions in Constrained Passenger Spaces
+AU  - Medeiros, Daniel
+AU  - Wilson, Graham
+AU  - Mcgill, Mark
+AU  - Brewster, Stephen Anthony
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Extended Reality (XR) technology brings exciting possibilities for aeroplane passengers, allowing them to escape their limited cabin space. Using nearby physical surfaces enables a connection with the real world while improving the XR experience through touch. However, available surfaces may be located in awkward positions, reducing comfort and input performance and thus limiting their long-term use. We explore the usability of passive haptic surfaces in different orientations, assessing their effects on input performance, user experience and comfort. We then overcome ergonomic issues caused by the confined space by using perceptual manipulation techniques that remap the position and rotation of physical surfaces and user movements, assessing their effects on task workload, comfort and presence. Our results show that the challenges posed by constrained seating environments can be overcome by a combination of passive haptics and remapping the workspace with moderate translation and rotation manipulations. These manipulations allow for good input performance, low workload and comfortable interaction, opening up XR use while in transit.
+DO  - 10.1145/3544548.3581079
+UR  - https://doi.org/10.1145/3544548.3581079
+KW  - 3D User Interfaces
+KW  - Virtual Reality
+KW  - aeroplane
+KW  - airplane
+KW  - confined spaces
+KW  - passive haptics
+KW  - selection
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3544548.3581079
+ER  - 
+
+TY  - CONF
+TI  - AeroRigUI: Actuated TUIs for Spatial Interaction using Rigging Swarm Robots on Ceilings in Everyday Space
+AU  - Yu, Lilith
+AU  - Gao, Chenfeng
+AU  - Wu, David
+AU  - Nakagaki, Ken
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - We present AeroRigUI, an actuated tangible UI for 3D spatial embodied interaction. Using strings controlled by self-propelled swarm robots with a reeling mechanism on ceiling surfaces, our approach enables rigging (control through strings) physical objects’ position and orientation in the air. This can be applied to novel interactions in 3D space, including dynamic physical affordances, 3D information displays, and haptics. Utilizing the ceiling, an often underused room area, AeroRigUI can be applied for a range of applications such as room organization, data physicalization, and animated expressions. We demonstrate the applications based on our proof-of-concept prototype, which includes the hardware design of the rigging robots, named RigBots, and the software design for mid-air object control via interactive string manipulation. We also introduce technical evaluation and analysis of our approach prototype to address the hardware feasibility and safety. Overall, AeroRigUI enables a novel spatial and tangible UI system with great controllability and deployability.
+DO  - 10.1145/3544548.3581437
+UR  - https://doi.org/10.1145/3544548.3581437
+KW  - Actuated Tangible User Interface
+KW  - Human Robot Interaction
+KW  - Spatial User Interface Display
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3544548.3581437
+ER  - 
+
+TY  - CONF
+TI  - Affective Profile Pictures: Exploring the Effects of Changing Facial Expressions in Profile Pictures on Text-Based Communication
+AU  - Yang, Chi-Lan
+AU  - Yoshida, Shigeo
+AU  - Kuzuoka, Hideaki
+AU  - Narumi, Takuji
+AU  - Yamashita, Naomi
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - When receiving text messages from unacquainted colleagues in fully remote workplaces, insufficient mutual understanding and limited social cues can lead people to misinterpret the tone of the message and further influence their impression of remote colleagues. Emojis have been commonly used for supporting expressive communication; however, people seldom use emojis before they become acquainted with each other. Hence, we explored how changing facial expressions in profile pictures could be an alternative channel to communicate socio-emotional cues. By conducting an online controlled experiment with 186 participants, we established that changing facial expressions of profile pictures can influence the impression of the message receivers toward the sender and the message valence when receiving neutral messages. Furthermore, presenting incongruent profile pictures to positive messages negatively affected the interpretation of the message valence, but did not have much effect on negative messages. We discuss the implications of affective profile pictures in supporting text-based communication.
+DO  - 10.1145/3544548.3581061
+UR  - https://doi.org/10.1145/3544548.3581061
+KW  - Text-based communication
+KW  - affective communication
+KW  - computer-mediated communication
+KW  - impression formation
+KW  - message interpretation
+KW  - social cues
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3544548.3581061
+ER  - 
+
+TY  - CONF
+TI  - EquityWare: Co-Designing Wearables With And For Low Income Communities In The U.S.
+AU  - Cruz, Stefany
+AU  - Redding, Alexander
+AU  - Chau, Connie W.
+AU  - Lu, Claire
+AU  - Persche, Julia
+AU  - Hester, Josiah
+AU  - Jacobs, Maia
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Wearables are a potentially vital mechanism for individuals to monitor their health, track behaviors, and stay connected. Unfortunately, both price and a lack of consideration of the needs of low-SES communities have made these devices inaccessible and unusable for communities that would most substantially benefit from their affordances. To address this gap and better understand how members of low-SES communities perceive the potential benefits and barriers to using wearable devices, we conducted 19 semi-structured interviews with people from minority, high crime rate, low-SES communities. Participants emphasized a critical need for safety-related wearable devices in their communities. Still, existing tools do not yet address the specific needs of this community and are out of reach due to several barriers. We distill themes on perceived useful features and ongoing obstacles to guide a much-needed research agenda we term ’Equityware’: building wearable devices based on low-SES communities’ needs, comfortability, and limitations.
+DO  - 10.1145/3544548.3580980
+UR  - https://doi.org/10.1145/3544548.3580980
+KW  - Co-design
+KW  - Crime
+KW  - Low-socioeconomic status
+KW  - Neighborhoods
+KW  - Safety
+KW  - Wearables
+KW  - interviews
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=collective; schema=v1.4
+AN  - 10.1145/3544548.3580980
+ER  - 
+
+TY  - CONF
+TI  - AutoVis: Enabling Mixed-Immersive Analysis of Automotive User Interface Interaction Studies
+AU  - Jansen, Pascal
+AU  - Britten, Julian
+AU  - Häusele, Alexander
+AU  - Segschneider, Thilo
+AU  - Colley, Mark
+AU  - Rukzio, Enrico
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Automotive user interface (AUI) evaluation becomes increasingly complex due to novel interaction modalities, driving automation, heterogeneous data, and dynamic environmental contexts. Immersive analytics may enable efficient explorations of the resulting multilayered interplay between humans, vehicles, and the environment. However, no such tool exists for the automotive domain. With AutoVis, we address this gap by combining a non-immersive desktop with a virtual reality view enabling mixed-immersive analysis of AUIs. We identify design requirements based on an analysis of AUI research and domain expert interviews (N=5). AutoVis supports analyzing passenger behavior, physiology, spatial interaction, and events in a replicated study environment using avatars, trajectories, and heatmaps. We apply context portals and driving-path events as automotive-specific visualizations. To validate AutoVis against real-world analysis tasks, we implemented a prototype, conducted heuristic walkthroughs using authentic data from a case study and public datasets, and leveraged a real vehicle in the analysis process.
+DO  - 10.1145/3544548.3580760
+UR  - https://doi.org/10.1145/3544548.3580760
+KW  - Immersive analytics
+KW  - automotive user interfaces
+KW  - interaction analysis
+KW  - virtual reality
+KW  - visualization
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3544548.3580760
+ER  - 
+
+TY  - CONF
+TI  - “Who is the right homeless client?”: Values in Algorithmic Homelessness Service Provision and Machine Learning Research
+AU  - Showkat, Dilruba
+AU  - Smith, Angela D. R.
+AU  - Lingqing, Wang
+AU  - To, Alexandra
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Homelessness presents a long-standing problem worldwide. Like other welfare services, homeless services have gained increased traction in Machine Learning (ML) research. Unhoused persons are vulnerable and using their data in the ML pipeline raises serious concerns about the unintended harms and consequences of prioritizing different ML values. To address this, we conducted a critical analysis of 40 research papers identified through a systematic literature review in ML homelessness service provision research. We found that the values of novelty, performance, and identifying limitations were uplifted in these papers, whereas (in)efficiency, (low/high) cost, fast, (violated) privacy, and (homeless condition) reproducibility valuescollapse. Consequently, unhoused persons were lost (i.e., humans were deprioritized) at multi-level ML abstraction of predictors, categories, and algorithms. Our findings illuminate potential pathways forward at the intersection of data science, HCI and STS by situating humans at the center to support this vulnerable community.
+DO  - 10.1145/3544548.3581010
+UR  - https://doi.org/10.1145/3544548.3581010
+KW  - Homelessness
+KW  - Homelessness and Algorithms
+KW  - ML Values Collapse in Homelessness
+KW  - Machine Learning (ML) Values
+KW  - Values Collapse
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=welfare; schema=v1.4
+AN  - 10.1145/3544548.3581010
+ER  - 
+
+TY  - CONF
+TI  - Interface Design for Crowdsourcing Hierarchical Multi-Label Text Annotations
+AU  - Stureborg, Rickard
+AU  - Dhingra, Bhuwan
+AU  - Yang, Jun
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Human data labeling is an important and expensive task at the heart of supervised learning systems. Hierarchies help humans understand and organize concepts. We ask whether and how concept hierarchies can inform the design of annotation interfaces to improve labeling quality and efficiency. We study this question through annotation of vaccine misinformation, where the labeling task is difficult and highly subjective. We investigate 6 user interface designs for crowdsourcing hierarchical labels by collecting over 18,000 individual annotations. Under a fixed budget, integrating hierarchies into the design improves crowdsource workers’ F1 scores. We attribute this to (1) Grouping similar concepts, improving F1 scores by +0.16 over random groupings, (2) Strong relative performance on high-difficulty examples (relative F1 score difference of +0.40), and (3) Filtering out obvious negatives, increasing precision by +0.07. Ultimately, labeling schemes integrating the hierarchy outperform those that do not — achieving mean F1 of 0.70.
+DO  - 10.1145/3544548.3581431
+UR  - https://doi.org/10.1145/3544548.3581431
+KW  - crowdsourcing
+KW  - text annotation
+KW  - user experience design
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3544548.3581431
+ER  - 
+
+TY  - CONF
+TI  - ONYX: Assisting Users in Teaching Natural Language Interfaces Through Multi-Modal Interactive Task Learning
+AU  - Ruoff, Marcel
+AU  - Myers, Brad A
+AU  - Maedche, Alexander
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Users are increasingly empowered to personalize natural language interfaces (NLIs) by teaching how to handle new natural language (NL) inputs. However, our formative study found that when teaching new NL inputs, users require assistance in clarifying ambiguities that arise and want insight into which parts of the input the NLI understands. In this paper we introduce ONYX, an intelligent agent that interactively learns new NL inputs by combining NL programming and programming-by-demonstration, also known as multi-modal interactive task learning. To address the aforementioned challenges, ONYX provides suggestions on how ONYX could handle new NL inputs based on previously learned concepts or user-defined procedures, and poses follow-up questions to clarify ambiguities in user demonstrations, using visual and textual aids to clarify the connections. Our evaluation shows that users provided with ONYX’s new features achieved significantly higher accuracy in teaching new NL inputs (median: 93.3\%) in contrast to those without (median: 73.3\%).
+DO  - 10.1145/3544548.3580964
+UR  - https://doi.org/10.1145/3544548.3580964
+KW  - Data Visualization Tools
+KW  - End User Development
+KW  - Interactive Task Learning
+KW  - Natural Language Interfaces
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3544548.3580964
+ER  - 
+
+TY  - CONF
+TI  - A Field Test of Bandit Algorithms for Recommendations: Understanding the Validity of Assumptions on Human Preferences in Multi-armed Bandits
+AU  - Leqi, Liu
+AU  - Zhou, Giulio
+AU  - Kilinc-Karzan, Fatma
+AU  - Lipton, Zachary
+AU  - Montgomery, Alan
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Personalized recommender systems suffuse modern life, shaping what media we read and what products we consume. Algorithms powering such systems tend to consist of supervised-learning-based heuristics, such as latent factor models with a variety of heuristically chosen prediction targets. Meanwhile, theoretical treatments of recommendation frequently address the decision-theoretic nature of the problem, including the need to balance exploration and exploitation, via the multi-armed bandits (MABs) framework. However, MAB-based approaches rely heavily on assumptions about human preferences. These preference assumptions are seldom tested using human subject studies, partly due to the lack of publicly available toolkits to conduct such studies. In this work, we conduct a study with crowdworkers in a comics recommendation MABs setting. Each arm represents a comic category, and users provide feedback after each recommendation. We check the validity of core MABs assumptions—that human preferences (reward distributions) are fixed over time—and find that they do not hold. This finding suggests that any MAB algorithm used for recommender systems should account for human preference dynamics. While answering these questions, we provide a flexible experimental framework for understanding human preference dynamics and testing MABs algorithms with human users. The code for our experimental framework and the collected data can be found at https://github.com/HumainLab/human-bandit-evaluation.
+DO  - 10.1145/3544548.3580670
+UR  - https://doi.org/10.1145/3544548.3580670
+KW  - multi-armed bandits
+KW  - preference dynamics
+KW  - recommender systems
+N1  - source=chi_2023.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - 10.1145/3544548.3580670
+ER  - 
+
+TY  - CONF
+TI  - Dynamics of eye-hand coordination are flexibly preserved in eye-cursor coordination during an online, digital, object interaction task
+AU  - Bertrand, Jennifer K
+AU  - Chapman, Craig S
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Do patterns of eye-hand coordination observed during real-world object interactions apply to digital, screen-based object interactions? We adapted a real-world object interaction task (physically transferring cups in sequence about a tabletop) into a two-dimensional screen-based task (dragging-and-dropping circles in sequence with a cursor). We collected gaze (with webcam eye-tracking) and cursor position data from 51 fully-remote, crowd-sourced participants who performed the task on their own computer. We applied real-world time-series data segmentation strategies to resolve the self-paced movement sequence into phases of object interaction and rigorously cleaned the webcam eye-tracking data. In this preliminary investigation, we found that: 1) real-world eye-hand coordination patterns persist and adapt in this digital context, and 2) remote, online, cursor-tracking and webcam eye-tracking are useful tools for capturing visuomotor behaviours during this ecologically-valid human-computer interaction task. We discuss how these findings might inform design principles and further investigations into natural behaviours that persist in digital environments.
+DO  - 10.1145/3544548.3580866
+UR  - https://doi.org/10.1145/3544548.3580866
+KW  - cursor-tracking
+KW  - eye-cursor coordination
+KW  - eye-tracking
+KW  - object interaction
+KW  - quantitative methods
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3544548.3580866
+ER  - 
+
+TY  - CONF
+TI  - Phone Sleight of Hand: Finger-Based Dexterous Gestures for Physical Interaction with Mobile Phones
+AU  - Yeh, Yen-Ting
+AU  - Matulic, Fabrice
+AU  - Vogel, Daniel
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - We identify and evaluate single-handed “dexterous gestures” to physically manipulate a phone using the fine motor skills of fingers. Four manipulations are defined: shift, spin (yaw axis), rotate (roll axis) and flip (pitch axis), with a formative survey showing all except flip have been performed for various reasons. A controlled experiment examines the speed, behaviour, and preference of manipulations in the form of dexterous gestures, by considering two directions and two movement magnitudes. Results show rotate is rated as easiest and most comfortable, while flip is rated lowest. Using a heuristic recognizer for spin, rotate, and flip, a one-week usability experiment finds increased practice and familiarity improve the speed and comfort of dexterous gestures. Design guidelines are developed to consider comfort, ability, and confidence when mapping dexterous gestures to interactions, and demonstrations show how such gestures can be used in smartphone applications.
+DO  - 10.1145/3544548.3581121
+UR  - https://doi.org/10.1145/3544548.3581121
+KW  - Finger dexterity
+KW  - Gesture recognition
+KW  - Interaction techniques
+KW  - Mobile input
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3544548.3581121
+ER  - 
+
+TY  - CONF
+TI  - The “Three-Legged Stool": Designing for Equitable City, Community, and Research Partnerships in Urban Environmental Sensing
+AU  - Daepp, Madeleine I. G.
+AU  - Cabral, Alex
+AU  - Werner, Tiffany M
+AU  - Mansour, Raed
+AU  - Catlett, Charlie
+AU  - Roseway, Asta
+AU  - Needham, Chuck
+AU  - Udeagbala, Nneka
+AU  - Counts, Scott
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Urban environmental monitoring campaigns depend on expertise from city agencies, residents, and researchers. Deployment efforts rarely include all three stakeholders, typically leading to initiatives that struggle to produce credible, actionable data. We describe the implementation of a large-scale, long-term air quality sensing network in Chicago Illinois; detail stakeholder interviews and meetings; and present three interfaces—–a website accessible via in-situ QR codes, APIs, and a mobile, mixed-media experience. We show how a collaborative approach created a more equitable sensor distribution compared to crowdsourced or regulatory designs. We highlight shared goals of education, engagement, and empowerment despite the diversity of tool and analytics needs across stakeholder groups. Reflecting on our work, we develop a “three-legged stool” framework representing the criticality of balanced participation from three key stakeholder groups—city, community, and research—in deploying novel urban technologies. This approach can help HCI researchers facilitate more democratic technology deployments in urban spaces.
+DO  - 10.1145/3544548.3581289
+UR  - https://doi.org/10.1145/3544548.3581289
+KW  - Collaborative Design
+KW  - Design Frameworks
+KW  - Environmental Monitoring
+KW  - Smart Cities
+KW  - User Interfaces
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3544548.3581289
+ER  - 
+
+TY  - CONF
+TI  - Assessing enactment of content regulation policies: A post hoc crowd-sourced audit of election misinformation on YouTube
+AU  - Juneja, Prerna
+AU  - Bhuiyan, Md Momen
+AU  - Mitra, Tanushree
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - With the 2022 US midterm elections approaching, conspiratorial claims about the 2020 presidential elections continue to threaten users’ trust in the electoral process. To regulate election misinformation, YouTube introduced policies to remove such content from its searches and recommendations. In this paper, we conduct a 9-day crowd-sourced audit on YouTube to assess the extent of enactment of such policies. We recruited 99 users who installed a browser extension that enabled us to collect up-next recommendation trails and search results for 45 videos and 88 search queries about the 2020 elections. We find that YouTube’s search results, irrespective of search query bias, contain more videos that oppose rather than support election misinformation. However, watching misinformative election videos still lead users to a small number of misinformative videos in the up-next trails. Our results imply that while YouTube largely seems successful in regulating election misinformation, there is still room for improvement.
+DO  - 10.1145/3544548.3580846
+UR  - https://doi.org/10.1145/3544548.3580846
+KW  - algorithm audit
+KW  - elections
+KW  - fairness
+KW  - misinformation
+KW  - recommendations
+KW  - voter fraud
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3544548.3580846
+ER  - 
+
+TY  - CONF
+TI  - Navigates Like Me: Understanding How People Evaluate Human-Like AI in Video Games
+AU  - Milani, Stephanie
+AU  - Juliani, Arthur
+AU  - Momennejad, Ida
+AU  - Georgescu, Raluca
+AU  - Rzepecki, Jaroslaw
+AU  - Shaw, Alison
+AU  - Costello, Gavin
+AU  - Fang, Fei
+AU  - Devlin, Sam
+AU  - Hofmann, Katja
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - We aim to understand how people assess human likeness in navigation produced by people and artificially intelligent (AI) agents in a video game. To this end, we propose a novel AI agent with the goal of generating more human-like behavior. We collect hundreds of crowd-sourced assessments comparing the human-likeness of navigation behavior generated by our agent and baseline AI agents with human-generated behavior. Our proposed agent passes a Turing Test, while the baseline agents do not. By passing a Turing Test, we mean that human judges could not quantitatively distinguish between videos of a person and an AI agent navigating. To understand what people believe constitutes human-like navigation, we extensively analyze the justifications of these assessments. This work provides insights into the characteristics that people consider human-like in the context of goal-directed video game navigation, which is a key step for further improving human interactions with AI agents.
+DO  - 10.1145/3544548.3581348
+UR  - https://doi.org/10.1145/3544548.3581348
+KW  - believable AI
+KW  - games
+KW  - human subject study
+KW  - navigation
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3544548.3581348
+ER  - 
+
+TY  - CONF
+TI  - Structured Editing for All: Deriving Usable Structured Editors from Grammars
+AU  - Beckmann, Tom
+AU  - Rein, Patrick
+AU  - Ramson, Stefan
+AU  - Bergsiek, Joana
+AU  - Hirschfeld, Robert
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Structured editing can show benefits in learnability, tool building, and editing efficiency in programming. However, creating a usable structured editor is laborious and demanding, typically requiring tool builders to manually create or adjust editing interactions. We present Sandblocks, a system that allows users to automatically generate structured editors for every language with a formal grammar available. Our system’s input reconciliation process acts on arbitrary syntax trees to provides consistent interactions across our generated editors. Our editors’ editing experience is designed to be familiar to users from textual editing but, compared to previous work, requires no manual annotation in the grammars. We demonstrate our editors’ usability across languages through a user study (N=18). Compared to conventional text editors, even with minimal training, participants only took on average 21\% (JS), 34\% (Clojure), and 95\% (RegExp) longer and reported that editing felt natural with a score of 6/7.
+DO  - 10.1145/3544548.3580785
+UR  - https://doi.org/10.1145/3544548.3580785
+KW  - grammars
+KW  - structured editing
+KW  - text-like editing
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3544548.3580785
+ER  - 
+
+TY  - CONF
+TI  - Expressiveness, Cost, and Collectivism: How the Design of Preference Languages Shapes Participation in Algorithmic Decision-Making
+AU  - Robertson, Samantha
+AU  - Nguyen, Tonya
+AU  - Hu, Cathy
+AU  - Albiston, Catherine
+AU  - Nikzad, Afshin
+AU  - Salehi, Niloufar
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Emerging methods for participatory algorithm design have proposed collecting and aggregating individual stakeholders’ preferences to create algorithmic systems that account for those stakeholders’ values. Drawing on two years of research across two public school districts in the United States, we study how families and school districts use students’ preferences for schools to meet their goals in the context of algorithmic student assignment systems. We find that the design of the preference language, i.e. the structure in which participants must express their needs and goals to the decision-maker, shapes the opportunities for meaningful participation. We define three properties of preference languages – expressiveness, cost, and collectivism – and discuss how these factors shape who is able to participate, and the extent to which they are able to effectively communicate their needs to the decision-maker. Reflecting on these findings, we offer implications and paths forward for researchers and practitioners who are considering applying a preference-based model for participation in algorithmic decision making.
+DO  - 10.1145/3544548.3580996
+UR  - https://doi.org/10.1145/3544548.3580996
+KW  - Participatory design
+KW  - algorithmic systems
+KW  - preference elicitation
+KW  - preference language
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3544548.3580996
+ER  - 
+
+TY  - CONF
+TI  - “That’s important, but...”: How Computer Science Researchers Anticipate Unintended Consequences of Their Research Innovations
+AU  - Do, Kimberly
+AU  - Pang, Rock Yuren
+AU  - Jiang, Jiachen
+AU  - Reinecke, Katharina
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Computer science research has led to many breakthrough innovations but has also been scrutinized for enabling technology that has negative, unintended consequences for society. Given the increasing discussions of ethics in the news and among researchers, we interviewed 20 researchers in various CS sub-disciplines to identify whether and how they consider potential unintended consequences of their research innovations. We show that considering unintended consequences is generally seen as important but rarely practiced. Principal barriers are a lack of formal process and strategy as well as the academic practice that prioritizes fast progress and publications. Drawing on these findings, we discuss approaches to support researchers in routinely considering unintended consequences, from bringing diverse perspectives through community participation to increasing incentives to investigate potential consequences. We intend for our work to pave the way for routine explorations of the societal implications of technological innovations before, during, and after the research process.
+DO  - 10.1145/3544548.3581347
+UR  - https://doi.org/10.1145/3544548.3581347
+KW  - Computer Ethics
+KW  - Unintended Consequences
+N1  - source=chi_2023.bib; retained_by=preservation; terms=perspectives; schema=v1.4
+AN  - 10.1145/3544548.3581347
+ER  - 
+
+TY  - CONF
+TI  - Translation as (Re)mediation: How Ethnic Community-Based Organizations Negotiate Legitimacy
+AU  - Sum, Cella M
+AU  - Tran, Anh-Ton
+AU  - Lin, Jessica
+AU  - Kuo, Rachel
+AU  - Bennett, Cynthia L
+AU  - Harrington, Christina
+AU  - Fox, Sarah E
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Ethnic community-based organizations (CBOs) play an essential role in supporting the wellbeing of immigrants and refugees. CBO workers often act as linguistic and cultural translators between communities, government, and health and social service systems. However, resource constraints, technological barriers, and pressures to be data-driven require workers to perform additional forms of translation to ensure their organizations’ survival. Drawing on 16 interviews with members of 7 Asian American and Pacific Islander CBOs, we examine opportunities and barriers concerning their technology-mediated work practices. We identify two circumstances where CBO workers perform translation: (1) as legitimacy work to build trust with funders and communities, and (2) as (re)mediation in attending to technological barriers and resisting hegemonic systems that treat their communities as “other.” By unpacking the politics of translation work across these sites, we position CBO workers as a critical source for HCI research and practice as it seeks to support community wellbeing.
+DO  - 10.1145/3544548.3581280
+UR  - https://doi.org/10.1145/3544548.3581280
+KW  - AAPI
+KW  - Translation work
+KW  - diaspora
+KW  - ethnic community-based organizations
+KW  - legitimacy work
+KW  - migrant
+KW  - remediation
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; negotiation; schema=v1.4
+AN  - 10.1145/3544548.3581280
+ER  - 
+
+TY  - CONF
+TI  - Unmaking as Emancipation: Lessons and Reflections from Luddism
+AU  - Sabie, Samar
+AU  - Soden, Robert
+AU  - Jackson, Steven
+AU  - Parikh, Tapan
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Emancipation is fundamentally a work of unmaking, as it entails undermining, dissolving, and undoing oppressive structures. This paper offers an account of a frequently misunderstood unmaking movement, Luddism. The Luddites were a loosely organized collective of nineteenth century English textile makers who destroyed machines that were replacing their skilled labor and leading to deteriorating working conditions. In this account, we show that the goals and tactics of Luddism have significant alignments with current HCI work in the areas of unmaking and social justice. Through articulation of six characteristics of unmaking in Luddism - practical and symbolic, community-engaged, emancipatory, selective, antagonistic, and enduring - we identify potential limits and opportunities in HCI research and design practice, as currently construed. In doing so, we build upon and extend prior HCI research to suggest unmaking as emancipation, a new category of unmaking around issues of social justice.
+DO  - 10.1145/3544548.3581412
+UR  - https://doi.org/10.1145/3544548.3581412
+KW  - Luddism
+KW  - design
+KW  - emancipation
+KW  - unmaking
+N1  - source=chi_2023.bib; retained_by=preservation; terms=pluralism; schema=v1.4
+AN  - 10.1145/3544548.3581412
+ER  - 
+
+TY  - CONF
+TI  - An Augmented Knitting Machine for Operational Assistance and Guided Improvisation
+AU  - Albaugh, Lea
+AU  - Hudson, Scott E
+AU  - Yao, Lining
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Computational mediation can unlock access to existing creative fabrication tools. By outfitting an otherwise purely mechanical hand-operated knitting machine with lightweight sensing capabilities, we produced a system which provides immediate feedback about the state and affordances of the underlying knitting machine. We describe our technical implementation, show modular interface applications which center the particular patterning capabilities of this kind of machine knitting, and discuss user experiences with interactive hybrid computational/mechanical systems.
+DO  - 10.1145/3544548.3581549
+UR  - https://doi.org/10.1145/3544548.3581549
+KW  - Interactive fabrication
+KW  - computational crafts
+KW  - hybrid fabrication
+KW  - soft materials.
+N1  - source=chi_2023.bib; retained_by=tier1; terms=mediation; schema=v1.4
+AN  - 10.1145/3544548.3581549
+ER  - 
+
+TY  - CONF
+TI  - Embodying the Algorithm: Exploring Relationships with Large Language Models Through Artistic Performance
+AU  - Jones, Mirabelle
+AU  - Neumayer, Christina
+AU  - Shklovski, Irina
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Despite the proliferation of research on how people engage with and experience algorithmic systems, the materiality and physicality of these experiences is often overlooked. We tend to forget about bodies. The Embodying the Algorithm1 project worked with artists to explore the experience of translating algorithmically produced performance instructions through human bodies. As performers interpreted the rules of engagement produced by GPT-3, they struggled with the lack of consideration the rules showed for the limits of the human body. Performers made sense of their experience through personification, reflexivity, and interpretation, which gave rise to three modes of relating with the algorithm – agonistic, perfunctory, and agreeable. We demonstrate that collaboration with algorithmic systems is ultimately impossible as people can only relate to algorithmic systems (a one-way relation) due to the material limitations of algorithmic systems for reciprocity, understanding, and consideration for the human body.
+DO  - 10.1145/3544548.3580885
+UR  - https://doi.org/10.1145/3544548.3580885
+KW  - Algorithms
+KW  - Embodiment
+KW  - GPT-3
+KW  - Human-Computer Interaction
+N1  - source=chi_2023.bib; retained_by=preservation; terms=pluralism; schema=v1.4
+AN  - 10.1145/3544548.3580885
+ER  - 
+
+TY  - CONF
+TI  - What Do We Mean When We Talk about Trust in Social Media? A Systematic Review
+AU  - Zhang, Yixuan
+AU  - Gaggiano, Joseph D
+AU  - Yongsatianchot, Nutchanon
+AU  - Suhaimi, Nurul M
+AU  - Kim, Miso
+AU  - Sun, Yifan
+AU  - Griffin, Jacqueline
+AU  - Parker, Andrea G
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Do people trust social media? If so, why, in what contexts, and how does that trust impact their lives? Researchers, companies, and journalists alike have increasingly investigated these questions, which are fundamental to understanding social media interactions and their implications for society. However, trust in social media is a complex concept, and there is conflicting evidence about the antecedents and implications of trusting social media content, users, and platforms. More problematic is that we lack basic agreement as to what trust means in the context of social media. Addressing these challenges, we conducted a systematic review to identify themes and challenges in this field. Through our analysis of 70 papers, we contribute a synthesis of how trust in social media is defined, conceptualized, and measured, a summary of trust antecedents in social media, an understanding of how trust in social media impacts behaviors and attitudes, and directions for future work.
+DO  - 10.1145/3544548.3581019
+UR  - https://doi.org/10.1145/3544548.3581019
+KW  - social media
+KW  - systematic review
+KW  - trust
+N1  - source=chi_2023.bib; retained_by=preservation; terms=conflicting evidence; schema=v1.4
+AN  - 10.1145/3544548.3581019
+ER  - 
+
+TY  - CONF
+TI  - Sleep Planning with Awari: Uncovering the Materiality of Body Rhythms using Research through Design
+AU  - Karlgren, Kasper
+AU  - Mcmillan, Donald
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - With the increasing adoption of body tracking technology, users are able to collect bio-data which designers struggle to make legible or actionable. This work focused on increasing this technology-mediated bodily understanding through exploring the material properties of the body rhythms that govern the sleep behaviours being tracked. Building from a workshop with non-normative sleepers, we reframe sleep tracking to be about understanding and manipulating body rhythms. We explore these rhythms through the RtD process of designing the Awari alertness-forecast and scheduling application in four iterations. This resulted in three non-exclusive categories of rhythmic influence: Slow \& Cyclical, Pressure \& Release, and Anchored. Through a better understanding of how they interact, their inertia, and their material properties for interaction we encourage the design of technology to shape, and be shaped, by the complex rhythms of life. We discuss ways in which this can democratise medical-models, and make actionable complex bodily processes.
+DO  - 10.1145/3544548.3581502
+UR  - https://doi.org/10.1145/3544548.3581502
+KW  - Health Informatics
+KW  - Personal Informatics
+KW  - Research Through Design
+KW  - Self-tracking
+KW  - Sleep
+KW  - Speculative Design
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; manipulation; schema=v1.4
+AN  - 10.1145/3544548.3581502
+ER  - 
+
+TY  - CONF
+TI  - Thought Bubbles: A Proxy into Players’ Mental Model Development
+AU  - Mohaddesi, Omid
+AU  - Chicoine, Noah
+AU  - Gong, Min
+AU  - Ergun, Ozlem
+AU  - Griffin, Jacqueline
+AU  - Kaeli, David
+AU  - Marsella, Stacy
+AU  - Harteveld, Casper
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Studying mental models has recently received more attention, aiming to understand the cognitive aspects of human-computer interaction. However, there is not enough research on the elicitation of mental models in complex dynamic systems. We present Thought Bubbles as an approach for eliciting mental models and an avenue for understanding players’ mental model development in interactive virtual environments. We demonstrate the use of Thought Bubbles in two experimental studies involving 250 participants playing a supply chain game. In our analyses, we rely on Situation Awareness (SA) levels, including perception, comprehension, and projection, and show how experimental manipulations such as disruptions and information sharing shape players’ mental models and drive their decisions depending on their behavioral profile. Our results provide evidence for the use of thought bubbles in uncovering cognitive aspects of behavior by indicating how disruption location and availability of information affect people’s mental model development and influence their decisions.
+DO  - 10.1145/3544548.3581570
+UR  - https://doi.org/10.1145/3544548.3581570
+KW  - dynamic decision-making
+KW  - mental model development
+KW  - mental model elicitation
+KW  - supply chain
+KW  - thought bubble
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3544548.3581570
+ER  - 
+
+TY  - CONF
+TI  - The Hidden Rules of Hanabi: How Humans Outperform AI Agents
+AU  - Sidji, Matthew
+AU  - Smith, Wally
+AU  - Rogerson, Melissa J.
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Games that feature multiple players, limited communication, and partial information are particularly challenging for AI agents. In the cooperative card game Hanabi, which possesses all of these attributes, AI agents fail to achieve scores comparable to even first-time human players. Through an observational study of three mixed-skill Hanabi play groups, we identify the techniques used by humans that help to explain their superior performance compared to AI. These concern physical artefact manipulation, coordination play, role establishment, and continual rule negotiation. Our findings extend previous accounts of human performance in Hanabi, which are purely in terms of theory-of-mind reasoning, by revealing more precisely how this form of collective decision-making is enacted in skilled human play. Our interpretation points to a gap in the current capabilities of AI agents to perform cooperative tasks.
+DO  - 10.1145/3544548.3581550
+UR  - https://doi.org/10.1145/3544548.3581550
+KW  - Human-AI Interaction
+KW  - Human-AI Teaming
+KW  - Human-Computer Interaction
+KW  - boardgames
+KW  - social roles
+KW  - teaming
+KW  - theory of mind
+N1  - source=chi_2023.bib; retained_by=tier1; terms=collective decision; schema=v1.4
+AN  - 10.1145/3544548.3581550
+ER  - 
+
+TY  - CONF
+TI  - Who Do We Mean When We Talk About Visualization Novices?
+AU  - Burns, Alyxander
+AU  - Lee, Christiana
+AU  - Chawla, Ria
+AU  - Peck, Evan
+AU  - Mahyar, Narges
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - As more people rely on visualization to inform their personal and collective decisions, researchers have focused on a broader range of audiences, including “novices.” But successfully applying, interrogating, or advancing visualization research for novices demands a clear understanding of what “novice” means in theory and practice. Misinterpreting who a “novice” is could lead to misapplying guidelines and overgeneralizing results. In this paper, we investigated how visualization researchers define novices and how they evaluate visualizations intended for novices. We analyzed 79 visualization papers that used “novice,” “non-expert,” “laypeople,” or “general public” in their titles or abstracts. We found ambiguity within papers and disagreement between papers regarding what defines a novice. Furthermore, we found a mismatch between the broad language describing novices and the narrow population representing them in evaluations (i.e., young people, students, and US residents). We suggest directions for inclusively supporting novices in both theory and practice.
+DO  - 10.1145/3544548.3581524
+UR  - https://doi.org/10.1145/3544548.3581524
+KW  - audience
+KW  - critical analyses
+KW  - data visualization
+KW  - research methodology
+N1  - source=chi_2023.bib; retained_by=tier1; terms=collective decision; schema=v1.4
+AN  - 10.1145/3544548.3581524
+ER  - 
+
+TY  - CONF
+TI  - Designing Resource Allocation Tools to Promote Fair Allocation: Do Visualization and Information Framing Matter?
+AU  - Verma, Arnav
+AU  - Morais, Luiz
+AU  - Dragicevic, Pierre
+AU  - Chevalier, Fanny
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Studies on human decision-making focused on humanitarian aid have found that cognitive biases can hinder the fair allocation of resources. However, few HCI and Information Visualization studies have explored ways to overcome those cognitive biases. This work investigates whether the design of interactive resource allocation tools can help to promote allocation fairness. We specifically study the effect of presentation format (using text or visualization) and a specific framing strategy (showing resources allocated to groups or individuals). In our three crowdsourced experiments, we provided different tool designs to split money between two fictional programs that benefit two distinct communities. Our main finding indicates that individual-framed visualizations and text may be able to curb unfair allocations caused by group-framed designs. This work opens new perspectives that can motivate research on how interactive tools and visualizations can be engineered to combat cognitive biases that lead to inequitable decisions.
+DO  - 10.1145/3544548.3580739
+UR  - https://doi.org/10.1145/3544548.3580739
+KW  - cognitive bias
+KW  - donation
+KW  - framing
+KW  - resource allocation
+KW  - visualization
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=fairness; crowd; schema=v1.4
+AN  - 10.1145/3544548.3580739
+ER  - 
+
+TY  - CONF
+TI  - Rethinking "Risk" in Algorithmic Systems Through A Computational Narrative Analysis of Casenotes in Child-Welfare
+AU  - Saxena, Devansh
+AU  - Moon, Erina Seh-Young
+AU  - Chaurasia, Aryan
+AU  - Guan, Yixin
+AU  - Guha, Shion
+PY  - 2023
+T2  - Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+AB  - Risk assessment algorithms are being adopted by public sector agencies to make high-stakes decisions about human lives. Algorithms model “risk” based on individual client characteristics to identify clients most in need. However, this understanding of risk is primarily based on easily quantifiable risk factors that present an incomplete and biased perspective of clients. We conducted a computational narrative analysis of child-welfare casenotes and draw attention to deeper systemic risk factors that are hard to quantify but directly impact families and street-level decision-making. We found that beyond individual risk factors, the system itself poses a significant amount of risk where parents are over-surveilled by caseworkers and lack agency in decision-making processes. We also problematize the notion of risk as a static construct by highlighting the temporality and mediating effects of different risk, protective, systemic, and procedural factors. Finally, we draw caution against using casenotes in NLP-based systems by unpacking their limitations and biases embedded within them.
+DO  - 10.1145/3544548.3581308
+UR  - https://doi.org/10.1145/3544548.3581308
+KW  - computational narrative analysis
+KW  - risk prediction
+KW  - risk work
+KW  - uncertainty in decision-making
+N1  - source=chi_2023.bib; retained_by=tier2+anchor; terms=adjudication; welfare; schema=v1.4
+AN  - 10.1145/3544548.3581308
+ER  - 
+

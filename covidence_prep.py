@@ -1,9 +1,10 @@
 """
 covidence_prep.py -- Stage 2 of the SoK retrieval pipeline.
 
-Reads the .bib files produced by acl_fetch.py (or any BibTeX export), applies
-the three-tier keyword schema plus the standalone disagreement-preservation
-query, deduplicates, and writes RIS files for Covidence import.
+Reads the .bib files a venue's fetcher wrote to <VENUE>/bib_raw/, applies the
+three-tier keyword schema plus the standalone disagreement-preservation query,
+deduplicates, and writes RIS files for Covidence import. One script for every
+venue; outputs and logs go in the venue's folder.
 
 Design decisions that follow the protocol rather than convenience:
 
@@ -18,51 +19,34 @@ Design decisions that follow the protocol rather than convenience:
   * A restricted anchor list applies to NeurIPS/ICML/ICLR, where aggregation
     vocabulary appears incidentally at high rates.
 
-Usage:
-    pip install bibtexparser pandas
-    python covidence_prep.py
+Usage (from anywhere; the venue folder is resolved against the repo root):
+    pip install bibtexparser pandas pyyaml
+    python covidence_prep.py ACL
+    python covidence_prep.py ICML
 """
 
 import os
 import re
+import sys
 import glob
-import unicodedata
 
 import pandas as pd
-import bibtexparser
 
-# bibtexparser v1 and v2 have incompatible APIs and both are in the wild.
-# v1 is what the earlier pipeline used; v2 is what `pip install bibtexparser`
-# gives you now. Support both so the script does not depend on install order.
-BIBTEX_V1 = hasattr(bibtexparser, "bparser")
-if BIBTEX_V1:
-    from bibtexparser.bparser import BibTexParser
-
-
-def parse_bib(path):
-    """Return a list of dicts with lowercase field names plus ENTRYTYPE and ID."""
-    if BIBTEX_V1:
-        with open(path, "r", encoding="utf-8") as f:
-            db = bibtexparser.load(f, parser=BibTexParser(common_strings=True))
-        return list(db.entries)
-
-    library = bibtexparser.parse_file(path)
-    entries = []
-    for entry in library.entries:
-        record = {f.key.lower(): f.value for f in entry.fields}
-        record["ENTRYTYPE"] = entry.entry_type
-        record["ID"] = entry.key
-        entries.append(record)
-    return entries
+from pipeline_common import REPO_ROOT, norm_title, parse_bib
 
 # ----------------------------------------------------------------------------
 # CONFIGURATION
 # ----------------------------------------------------------------------------
 
-INPUT_PATTERN = "bib_raw/*.bib"
-OUTPUT_DIR = "ris_for_covidence"
+INPUT_PATTERN = "bib_raw/*.bib"       # relative to the venue folder
+OUTPUT_DIR = "ris_for_covidence"      # relative to the venue folder
 
-SCHEMA_PATH = "screening_keywords.yaml"
+SCHEMA_PATH = os.path.join(REPO_ROOT, "screening_keywords.yaml")
+
+# Design document §8.2 step 3: 20 random keyword hits per venue are hand-labelled
+# to estimate precision. The seed is fixed so the sample can be regenerated.
+PRECISION_SAMPLE_SIZE = 20
+PRECISION_SAMPLE_SEED = 20260930
 
 # Year window defaults to the value in the schema so it stays consistent across
 # pipelines; override here only with a recorded reason.
@@ -93,7 +77,7 @@ SCREENER = load_schema(SCHEMA_PATH)
 def load_bibs(pattern):
     files = sorted(glob.glob(pattern))
     if not files:
-        raise SystemExit(f"No .bib files matched {pattern!r}. Run acl_fetch.py first.")
+        raise SystemExit(f"No .bib files matched {pattern!r}. Run the venue's fetcher first.")
     rows = []
     for path in files:
         entries = parse_bib(path)
@@ -102,14 +86,6 @@ def load_bibs(pattern):
             rows.append(entry)
         print(f"  loaded {len(entries):5d} from {os.path.basename(path)}")
     return pd.DataFrame(rows)
-
-
-def norm_title(title):
-    if not isinstance(title, str):
-        return ""
-    t = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode()
-    t = re.sub(r"[^a-z0-9 ]", " ", t.lower())
-    return re.sub(r"\s+", " ", t).strip()
 
 
 def deduplicate(df):
@@ -220,6 +196,10 @@ def write_ris(df, path):
                 if val:
                     f.write(f"{tag}  - {val}\n")
 
+            for keyword in clean_ris(row.get("keywords")).split(","):
+                if keyword.strip():
+                    f.write(f"KW  - {keyword.strip()}\n")
+
             # Provenance. Covidence does not reliably preserve custom fields, but
             # N1 notes usually survive and let you trace a record back to its
             # source file and the terms that retained it.
@@ -227,6 +207,8 @@ def write_ris(df, path):
                     f"retained_by={clean_ris(row.get('retain_reason'))}; "
                     f"terms={clean_ris(row.get('terms_fired'))}; "
                     f"schema=v{SCREENER.version}")
+            if not abstract:
+                note += "; no abstract, screened on title"  # design document §9.1
             f.write(f"N1  - {note}\n")
 
             key = clean_ris(row.get("ID") or row.get("aclid"))
@@ -253,14 +235,51 @@ def write_chunked(df, prefix):
 # MAIN
 # ----------------------------------------------------------------------------
 
-def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+def selection_counts(df, kept):
+    """R, H and H/R per venue-year and for the venue (design document §8.2)."""
+    rows = []
+    groups = list(df.groupby("source_file")) + [("ALL", df)]
+    for source, group in groups:
+        h = int(group["retain"].sum())
+        rows.append({
+            "source": source.replace(".bib", ""),
+            "R_records_in_window": len(group),
+            "H_keyword_hits": h,
+            "hit_rate": round(h / max(len(group), 1), 4),
+            "abstract_coverage": round(float(group["has_abstract"].mean()), 4) if len(group) else 0.0,
+        })
+    return pd.DataFrame(rows)
 
+
+def precision_sample(kept):
+    """20 random keyword hits for hand-labelling against PICOC (§8.2 step 3)."""
+    n = min(PRECISION_SAMPLE_SIZE, len(kept))
+    sample = kept.sample(n=n, random_state=PRECISION_SAMPLE_SEED) if n else kept
+    cols = [c for c in ["ID", "title", "year", "source_file", "retain_reason",
+                        "terms_fired", "url", "abstract"] if c in sample.columns]
+    sample = sample[cols].copy()
+    sample["relevant"] = ""
+    sample["reviewer"] = ""
+    sample["notes"] = ""
+    return sample
+
+
+def main(venue):
+    venue_dir = venue if os.path.isabs(venue) else os.path.join(REPO_ROOT, venue)
+    if not os.path.isdir(venue_dir):
+        raise SystemExit(f"No venue folder {venue_dir}")
+    out_dir = os.path.join(venue_dir, OUTPUT_DIR)
+    os.makedirs(out_dir, exist_ok=True)
+
+    def log_path(name):
+        return os.path.join(venue_dir, name)
+
+    print(f"Venue folder: {os.path.relpath(venue_dir)}")
     print(f"Screening schema v{SCREENER.version} (updated {SCREENER.updated})")
     print(SCREENER.summary())
     print()
     print("Loading BibTeX...")
-    df = load_bibs(INPUT_PATTERN)
+    df = load_bibs(os.path.join(venue_dir, INPUT_PATTERN))
     n_identified = len(df)
 
     print("\nDeduplicating...")
@@ -293,13 +312,15 @@ def main():
 
     # RIS output, one file per source plus an optional combined file
     print("\nWriting RIS...")
+    for old in glob.glob(os.path.join(out_dir, "screen_*.ris")):
+        os.remove(old)  # stale chunks from an earlier run would be imported twice
     for source, group in kept.groupby("source_file"):
-        prefix = os.path.join(OUTPUT_DIR, f"screen_{source.replace('.bib','')}")
+        prefix = os.path.join(out_dir, f"screen_{source.replace('.bib','')}")
         for path in write_chunked(group, prefix):
-            print(f"  {path}  ({len(group)} records)")
+            print(f"  {os.path.relpath(path)}  ({len(group)} records)")
     if WRITE_COMBINED_RIS and len(kept):
-        for path in write_chunked(kept, os.path.join(OUTPUT_DIR, "screen_ALL")):
-            print(f"  {path}")
+        for path in write_chunked(kept, os.path.join(out_dir, "screen_ALL")):
+            print(f"  {os.path.relpath(path)}")
 
     # Logs
     keep_cols = (["ID", "title", "year", "source_file", "retain_reason",
@@ -307,9 +328,9 @@ def main():
                  + [f"{n}_hits" for n in SCREENER.sets] + ["anchors_hits",
                     "has_abstract", "doi"])
     keep_cols = [c for c in keep_cols if c in kept.columns]
-    kept[keep_cols].to_csv("included_manifest.csv", index=False)
+    kept[keep_cols].to_csv(log_path("included_manifest.csv"), index=False)
     rejected[[c for c in ["ID", "title", "year", "source_file", "has_abstract"]
-              if c in rejected.columns]].to_csv("rejected_log.csv", index=False)
+              if c in rejected.columns]].to_csv(log_path("rejected_log.csv"), index=False)
 
     # Per-term hit counts, for the Appendix B pilot: demote Tier 1 terms with
     # poor precision, drop Tier 2 terms that never co-occur with a relevant record.
@@ -324,7 +345,11 @@ def main():
                 counts[term] = counts.get(term, 0) + 1
         for term, n in sorted(counts.items(), key=lambda kv: -kv[1]):
             term_rows.append({"tier": tier, "term": term, "records_matched": n})
-    pd.DataFrame(term_rows).to_csv("keyword_hit_report.csv", index=False)
+    pd.DataFrame(term_rows).to_csv(log_path("keyword_hit_report.csv"), index=False)
+
+    # Venue selection inputs (§8.2): R, H and a precision sample to label
+    selection_counts(df, kept).to_csv(log_path("selection_counts.csv"), index=False)
+    precision_sample(kept).to_csv(log_path("precision_sample.csv"), index=False)
 
     # PRISMA
     prisma = pd.DataFrame([
@@ -335,12 +360,14 @@ def main():
         {"stage": "Retained for title/abstract screening", "n": len(kept)},
         {"stage": "Excluded at keyword stage", "n": len(rejected)},
     ])
-    prisma.to_csv("prisma_counts.csv", index=False)
+    prisma.to_csv(log_path("prisma_counts.csv"), index=False)
 
-    print("\nLogs: included_manifest.csv, rejected_log.csv, "
-          "keyword_hit_report.csv, prisma_counts.csv")
-    print(f"Import the files in {OUTPUT_DIR}/ to Covidence.")
+    print(f"\nLogs in {os.path.relpath(venue_dir)}/: included_manifest.csv, rejected_log.csv, "
+          "keyword_hit_report.csv, selection_counts.csv, precision_sample.csv, prisma_counts.csv")
+    print(f"Import the files in {os.path.relpath(out_dir)}/ to Covidence.")
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) != 2:
+        raise SystemExit("usage: python covidence_prep.py <VENUE_FOLDER>   e.g. ICML")
+    main(sys.argv[1])

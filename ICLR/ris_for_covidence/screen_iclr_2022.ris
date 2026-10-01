@@ -1,0 +1,570 @@
+TY  - CONF
+TI  - A New Perspective on "How Graph Neural Networks Go Beyond Weisfeiler-Lehman?"
+AU  - Asiri Wijesinghe
+AU  - Qing Wang
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - We propose a new perspective on designing powerful Graph Neural Networks (GNNs). In a nutshell, this enables a general solution to inject structural properties of graphs into a message-passing aggregation scheme of GNNs. As a theoretical basis, we develop a new hierarchy of local isomorphism on neighborhood subgraphs. Then, we theoretically characterize how message-passing GNNs can be designed to be more expressive than the Weisfeiler Lehman test. To elaborate this characterization, we propose a novel neural model, called GraphSNN, and prove that this model is strictly more expressive than the Weisfeiler Lehman test in distinguishing graph structures. We empirically verify the strength of our model on different graph learning tasks. It is shown that our model consistently improves the state-of-the-art methods on the benchmark tasks without sacrificing computational simplicity and efficiency.
+UR  - https://iclr.cc/virtual/2022/poster/6436
+KW  - graph neural networks
+KW  - graph isomorphism
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=aggregation rule; schema=v1.4
+AN  - iclr2022-6436
+ER  - 
+
+TY  - CONF
+TI  - Acceleration of Federated Learning with Alleviated Forgetting in Local Training
+AU  - Chencheng Xu
+AU  - Zhiwei Hong
+AU  - Minlie Huang
+AU  - Tao Jiang
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Federated learning (FL) enables distributed optimization of machine learning models while protecting privacy by independently training local models on each client and then aggregating parameters on a central server, thereby producing an effective global model. Although a variety of FL algorithms have been proposed, their training efficiency remains low when the data are not independently and identically distributed (non-i.i.d.) across different clients. We observe that the slow convergence rates of the existing methods are (at least partially) caused by the catastrophic forgetting issue during the local training stage on each individual client, which leads to a large increase in the loss function concerning the previous training data provided at other clients. Here, we propose FedReg, an algorithm to accelerate FL with alleviated knowledge forgetting in the local training stage by regularizing locally trained parameters with the loss on generated pseudo data, which encode the knowledge of previous training data learned by the global model. Our comprehensive experiments demonstrate that FedReg not only significantly improves the convergence rate of FL, especially when the neural network architecture is deep and the clients' data are extremely non-i.i.d., but is also able to protect privacy better in classification problems and more robust against gradient inversion attacks.
+UR  - https://iclr.cc/virtual/2022/poster/6422
+KW  - federated learning
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=combining; privacy; schema=v1.4
+AN  - iclr2022-6422
+ER  - 
+
+TY  - CONF
+TI  - Adversarial Support Alignment
+AU  - Shangyuan Tong
+AU  - Timur Garipov
+AU  - Yang Zhang
+AU  - Shiyu Chang
+AU  - Tommi Jaakkola
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - We study the problem of aligning the supports of distributions. Compared to the existing work on distribution alignment, support alignment does not require the densities to be matched. We propose symmetric support difference as a divergence measure to quantify the mismatch between supports. We show that select discriminators (e.g. discriminator trained for Jensen-Shannon divergence) are able to map support differences as support differences in their one-dimensional output space. Following this result, our method aligns supports by minimizing a symmetrized relaxed optimal transport cost in the discriminator 1D space via an adversarial process. Furthermore, we show that our approach can be viewed as a limit of existing notions of alignment by increasing transportation assignment tolerance. We quantitatively evaluate the method across domain adaptation tasks with shifts in label distributions. Our experiments show that the proposed method is more robust against these shifts than other alignment-based baselines.
+UR  - https://iclr.cc/virtual/2022/poster/6100
+KW  - domain adaptation
+KW  - optimal transport
+N1  - source=iclr_2022.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2022-6100
+ER  - 
+
+TY  - CONF
+TI  - An Agnostic Approach to Federated Learning with Class Imbalance
+AU  - Zebang Shen
+AU  - Juan Cervino
+AU  - Hamed Hassani
+AU  - Alejandro Ribeiro
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Federated Learning (FL) has emerged as the tool of choice for training deep models over heterogeneous and decentralized datasets. As a reflection of the experiences from different clients, severe class imbalance issues are observed in real-world FL problems.Moreover, there exists a drastic mismatch between the imbalances from the local and global perspectives, i.e. a local majority class can be the minority of the population. Additionally, the privacy requirement of FL poses an extra challenge, as one should handle class imbalance without identifying the minority class. In this paper we propose a novel agnostic constrained learning formulation to tackle the class imbalance problem in FL, without requiring further information beyond the standard FL objective. A meta algorithm, CLIMB, is designed to solve the target optimization problem, with its convergence property analyzed under certain oracle assumptions. Through an extensive empirical study over various data heterogeneity and class imbalance configurations, we showcase that CLIMB considerably improves the performance in the minority class without compromising the overall accuracy of the classifier, which significantly outperforms previous arts. In fact, we observe the greatest performance boost in the most difficult scenario where every client only holds data from one class. The code can be found here https://github.com/shenzebang/Federated-Learning-Pytorch.
+UR  - https://iclr.cc/virtual/2022/poster/6104
+KW  - federated learning
+KW  - class imbalance
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=privacy; collective; schema=v1.4
+AN  - iclr2022-6104
+ER  - 
+
+TY  - CONF
+TI  - Axiomatic Explanations for Visual Search, Retrieval, and Similarity Learning
+AU  - Mark Hamilton
+AU  - Scott Lundberg
+AU  - Stephanie Fu
+AU  - Lei Zhang
+AU  - William Freeman
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Visual search, recommendation, and contrastive similarity learning power technologies that impact billions of users worldwide. Modern model architectures can be complex and difficult to interpret, and there are several competing techniques one can use to explain a search engine's behavior. We show that the theory of fair credit assignment provides a unique axiomatic solution that generalizes several existing recommendation- and metric-explainability techniques in the literature. Using this formalism, we show when existing approaches violate "fairness" and derive methods that sidestep these shortcomings and naturally handle counterfactual information. More specifically, we show existing approaches implicitly approximate second-order Shapley-Taylor indices and extend CAM, GradCAM, LIME, SHAP, SBSM, and other methods to search engines. These extensions can extract pairwise correspondences between images from trained opaque-box models. We also introduce a fast kernel-based method for estimating Shapley-Taylor indices that require orders of magnitude fewer function evaluations to converge. Finally, we show that these game-theoretic measures yield more consistent explanations for image similarity architectures.
+UR  - https://iclr.cc/virtual/2022/poster/6983
+KW  - metric learning
+KW  - similarity learning
+KW  - information retrieval
+KW  - Shapley values
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2022-6983
+ER  - 
+
+TY  - CONF
+TI  - Byzantine-Robust Learning on Heterogeneous Datasets via Bucketing
+AU  - Sai Karimireddy
+AU  - Lie He
+AU  - Martin Jaggi
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - In Byzantine robust distributed or federated learning, a central server wants to train a machine learning model over data distributed across multiple workers. However, a fraction of these workers may deviate from the prescribed algorithm and send arbitrary messages. While this problem has received significant attention recently, most current defenses assume that the workers have identical data. For realistic cases when the data across workers are heterogeneous (non-iid), we design new attacks which circumvent current defenses, leading to significant loss of performance. We then propose a simple bucketing scheme that adapts existing robust algorithms to heterogeneous datasets at a negligible computational cost. We also theoretically and experimentally validate our approach, showing that combining bucketing with existing robust algorithms is effective against challenging attacks. Our work is the first to establish guaranteed convergence for the non-iid Byzantine robust problem under realistic assumptions.
+UR  - https://iclr.cc/virtual/2022/poster/6400
+KW  - federated learning
+KW  - distributed learning
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=byzantine; schema=v1.4
+AN  - iclr2022-6400
+ER  - 
+
+TY  - CONF
+TI  - Diurnal or Nocturnal? Federated Learning of Multi-branch Networks from Periodically Shifting Distributions
+AU  - Chen Zhu
+AU  - Zheng Xu
+AU  - Mingqing Chen
+AU  - Jakub Konečný
+AU  - Andrew Hard
+AU  - Tom Goldstein
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Federated learning has been deployed to train machine learning models from decentralized client data on mobile devices in practice. The clients available for training are observed to have periodically shifting distributions changing with the time of day, which can cause instability in training and degrade the model performance. In this paper, instead of modeling the distribution shift with a block-cyclic pattern as previous works, we model it with a mixture of distributions that gradually shifts between daytime and nighttime modes, and find this intuitive model to better match the observations in practical federated learning systems. Furthermore, we propose to jointly train a clustering model and a multi-branch network to allocate lightweight specialized branches to clients from different modes. A temporal prior is used to significantly boost the training performance.Experiments for image classification on EMNIST and CIFAR datasets, and next word prediction on the Stack Overflow dataset show that the proposed algorithm can counter the effects of the distribution shift and significantly improve the final model performance.
+UR  - https://iclr.cc/virtual/2022/poster/6742
+KW  - federated learning
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - iclr2022-6742
+ER  - 
+
+TY  - CONF
+TI  - Diverse Client Selection for Federated Learning via Submodular Maximization
+AU  - Ravikumar Balakrishnan
+AU  - Tian Li
+AU  - Tianyi Zhou
+AU  - Nageen Himayat
+AU  - Virginia Smith
+AU  - Jeff Bilmes
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - In every communication round of federated learning, a random subset of clients communicate their model updates back to the server which then aggregates them all. The optimal size of this subset is not known and several studies have shown that typically random selection does not perform very well in terms of convergence, learning efficiency and fairness. We, in this paper, propose to select a small diverse subset of clients, namely those carrying representative gradient information, and we transmit only these updates to the server. Our aim is for updating via only a subset to approximate updating via aggregating all client information. We achieve this by choosing a subset that maximizes a submodular facility location function defined over gradient space. We introduce “federated averaging with diverse client selection (DivFL)”. We provide a thorough analysis of its convergence in the heterogeneous setting and apply it both to synthetic and to real datasets. Empirical results show several benefits to our approach including improved learning efficiency, faster convergence and also more uniform (i.e., fair) performance across clients. We further show a communication-efficient version of DivFL that can still outperform baselines on the above metrics.
+UR  - https://iclr.cc/virtual/2022/poster/7047
+KW  - diversity
+KW  - federated learning
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2022-7047
+ER  - 
+
+TY  - CONF
+TI  - Energy-Based Learning for Cooperative Games, with Applications to Valuation Problems in Machine Learning
+AU  - Yatao Bian
+AU  - Yu Rong
+AU  - Tingyang Xu
+AU  - Jiaxiang Wu
+AU  - Andreas Krause
+AU  - Junzhou Huang
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Valuation problems, such as feature interpretation, data valuation and model valuation for ensembles, become increasingly more important in many machine learning applications. Such problems are commonly solved by well-known game-theoretic criteria, such as Shapley value or Banzhaf value. In this work, we present a novel energy-based treatment for cooperative games, with a theoretical justification by the maximum entropy framework. Surprisingly, by conducting variational inference of the energy-based model, we recover various game-theoretic valuation criteria through conducting one-step fixed point iteration for maximizing the mean-field ELBO objective. This observation also verifies the rationality of existing criteria, as they are all attempting to decouple the correlations among the players through the mean-field approach. By running fixed point iteration for multiple steps, we achieve a trajectory of the valuations, among which we define the valuation with the best conceivable decoupling error as the Variational Index. We prove that under uniform initializations, these variational valuations all satisfy a set of game-theoretic axioms. We experimentally demonstrate that the proposed Variational Index enjoys lower decoupling error and better valuation performance on certain synthetic and real-world valuation problems.
+UR  - https://iclr.cc/virtual/2022/poster/6807
+KW  - model interpretation
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2022-6807
+ER  - 
+
+TY  - CONF
+TI  - Explainable GNN-Based Models over Knowledge Graphs
+AU  - David Jaime Tena Cucala
+AU  - Bernardo Grau
+AU  - Egor Kostylev
+AU  - Boris Motik
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Graph Neural Networks (GNNs) are often used to learn transformations of graph data. While effective in practice, such approaches make predictions via numeric manipulations so their output cannot be easily explained symbolically. We propose a new family of GNN-based transformations of graph data that can be trained effectively, but where all predictions can be explained symbolically as logical inferences in Datalog—a well-known rule-based formalism. In particular, we show how to encode an input knowledge graph into a graph with numeric feature vectors, process this graph using a GNN, and decode the result into an output knowledge graph. We use a new class of monotonic GNNs (MGNNs) to ensure that this process is equivalent to a round of application of a set of Datalog rules. We also show that, given an arbitrary MGNN, we can automatically extract rules that completely characterise the transformation. We evaluate our approach by applying it to classification tasks in knowledge graph completion.
+UR  - https://iclr.cc/virtual/2022/poster/5985
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - iclr2022-5985
+ER  - 
+
+TY  - CONF
+TI  - Explanations of Black-Box Models based on Directional Feature Interactions
+AU  - Aria Masoomi
+AU  - Davin Hill
+AU  - Zhonghui Xu
+AU  - Craig Hersh
+AU  - Edwin Silverman
+AU  - Peter Castaldi
+AU  - Stratis Ioannidis
+AU  - Jennifer Dy
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - As machine learning algorithms are deployed ubiquitously to a variety of domains, it is imperative to make these often black-box models transparent. Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature. We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph. Analyzing this graph enables us to discover groups of features that are equally important (i.e., interchangeable), while the notion of directionality allows us to identify the most influential features. We apply our bivariate method on Shapley value explanations, and experimentally demonstrate the ability of directional explanations to discover feature interactions. We show the superiority of our method against state-of-the-art on CIFAR10, IMDB, Census, Divorce, Drug, and gene data.
+UR  - https://iclr.cc/virtual/2022/poster/6731
+KW  - interpretability
+KW  - explainability
+KW  - Shapley values
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2022-6731
+ER  - 
+
+TY  - CONF
+TI  - FastSHAP: Real-Time Shapley Value Estimation
+AU  - Neil Jethani
+AU  - Mukund Sudarshan
+AU  - Ian Covert
+AU  - Su-In Lee
+AU  - Rajesh Ranganath
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Although Shapley values are theoretically appealing for explaining black-box models, they are costly to calculate and thus impractical in settings that involve large, high-dimensional models. To remedy this issue, we introduce FastSHAP, a new method for estimating Shapley values in a single forward pass using a learned explainer model. To enable efficient training without requiring ground truth Shapley values, we develop an approach to train FastSHAP via stochastic gradient descent using a weighted least-squares objective function. In our experiments with tabular and image datasets, we compare FastSHAP to existing estimation approaches and find that it generates accurate explanations with an orders-of-magnitude speedup.
+UR  - https://iclr.cc/virtual/2022/poster/6282
+KW  - interpretability
+KW  - game theory
+KW  - explainability
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2022-6282
+ER  - 
+
+TY  - CONF
+TI  - FedBABU: Toward Enhanced Representation for Federated Image Classification
+AU  - Jaehoon Oh
+AU  - SangMook Kim
+AU  - Se-Young Yun
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Federated learning has evolved to improve a single global model under data heterogeneity (as a curse) or to develop multiple personalized models using data heterogeneity (as a blessing). However, little research has considered both directions simultaneously. In this paper, we first investigate the relationship between them by analyzing Federated Averaging at the client level and determine that a better federated global model performance does not constantly improve personalization. To elucidate the cause of this personalization performance degradation problem, we decompose the entire network into the body (extractor), which is related to universality, and the head (classifier), which is related to personalization. We then point out that this problem stems from training the head. Based on this observation, we propose a novel federated learning algorithm, coined FedBABU, which only updates the body of the model during federated training (i.e., the head is randomly initialized and never updated), and the head is fine-tuned for personalization during the evaluation process. Extensive experiments show consistent performance improvements and an efficient personalization of FedBABU. The code is available at https://github.com/jhoon-oh/FedBABU.
+UR  - https://iclr.cc/virtual/2022/poster/6069
+KW  - representation learning
+KW  - federated learning
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2022-6069
+ER  - 
+
+TY  - CONF
+TI  - FedChain: Chained Algorithms for Near-optimal Communication Cost in Federated Learning
+AU  - Charlie Hou
+AU  - Kiran Thekumparampil
+AU  - Giulia Fanti
+AU  - Sewoong Oh
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Federated learning (FL) aims to minimize the communication complexity of training a model over heterogeneous data distributed across many clients. A common approach is local methods, where clients take multiple optimization steps over local data before communicating with the server (e.g., FedAvg). Local methods can exploit similarity between clients' data. However, in existing analyses, this comes at the cost of slow convergence in terms of the dependence on the number of communication rounds R. On the other hand, global methods, where clients simply return a gradient vector in each round (e.g., SGD), converge faster in terms of R but fail to exploit the similarity between clients even when clients are homogeneous. We propose FedChain, an algorithmic framework that combines the strengths of local methods and global methods to achieve fast convergence in terms of R while leveraging the similarity between clients. Using FedChain, we instantiate algorithms that improve upon previously known rates in the general convex and PL settings, and are near-optimal (via an algorithm-independent lower bound that we show) for problems that satisfy strong convexity. Empirical results support this theoretical gain over existing methods.
+UR  - https://iclr.cc/virtual/2022/poster/6628
+KW  - optimization
+KW  - federated learning
+KW  - distributed optimization
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2022-6628
+ER  - 
+
+TY  - CONF
+TI  - Granger causal inference on DAGs identifies genomic loci regulating transcription
+AU  - Alexander Wu
+AU  - Rohit Singh
+AU  - Bonnie Berger
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - When a dynamical system can be modeled as a sequence of observations, Granger causality is a powerful approach for detecting predictive interactions between its variables. However, traditional Granger causal inference has limited utility in domains where the dynamics need to be represented as directed acyclic graphs (DAGs) rather than as a linear sequence, such as with cell differentiation trajectories. Here, we present GrID-Net, a framework based on graph neural networks with lagged message passing for Granger causal inference on DAG-structured systems. Our motivating application is the analysis of single-cell multimodal data to identify genomic loci that mediate the regulation of specific genes. To our knowledge, GrID-Net is the first single-cell analysis tool that accounts for the temporal lag between a genomic locus becoming accessible and its downstream effect on a target gene's expression. We applied GrID-Net on multimodal single-cell assays that profile chromatin accessibility (ATAC-seq) and gene expression (RNA-seq) in the same cell and show that it dramatically outperforms existing methods for inferring regulatory locus-gene links, achieving up to 71% greater agreement with independent population genetics-based estimates. By extending Granger causality to DAG-structured dynamical systems, our work unlocks new domains for causal analyses and, more specifically, opens a path towards elucidating gene regulatory interactions relevant to cellular differentiation and complex human diseases at unprecedented scale and resolution.
+UR  - https://iclr.cc/virtual/2022/poster/6680
+KW  - graph neural networks
+KW  - causal inference
+KW  - Directed Acyclic Graphs
+KW  - Granger causality
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=agreement; adjudication; schema=v1.4
+AN  - iclr2022-6680
+ER  - 
+
+TY  - CONF
+TI  - How Low Can We Go: Trading Memory for Error in Low-Precision Training
+AU  - Chengrun Yang
+AU  - Ziyang Wu
+AU  - Jerry Chee
+AU  - Christopher De Sa
+AU  - Madeleine Udell
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Low-precision arithmetic trains deep learning models using less energy, less memory and less time. However, we pay a price for the savings: lower precision may yield larger round-off error and hence larger prediction error. As applications proliferate, users must choose which precision to use to train a new model, and chip manufacturers must decide which precisions to manufacture. We view these precision choices as a hyperparameter tuning problem, and borrow ideas from meta-learning to learn the tradeoff between memory and error. In this paper, we introduce Pareto Estimation to Pick the Perfect Precision (PEPPP). We use matrix factorization to find non-dominated configurations (the Pareto frontier) with a limited number of network evaluations. For any given memory budget, the precision that minimizes error is a point on this frontier. Practitioners can use the frontier to trade memory for error and choose the best precision for their goals.
+UR  - https://iclr.cc/virtual/2022/poster/6320
+KW  - meta-learning
+KW  - active learning
+KW  - matrix factorization
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - iclr2022-6320
+ER  - 
+
+TY  - CONF
+TI  - Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels
+AU  - Wentao Zhang
+AU  - Yexin Wang
+AU  - Zhenbang You
+AU  - Meng Cao
+AU  - Ping Huang
+AU  - Jiulong Shan
+AU  - Zhi Yang
+AU  - Bin CUI
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Graph Neural Networks (GNNs) have achieved great success in various tasks, but their performance highly relies on a large number of labeled nodes, which typically requires considerable human effort. GNN-based Active Learning (AL) methods are proposed to improve the labeling efficiency by selecting the most valuable nodes to label. Existing methods assume an oracle can correctly categorize all the selected nodes and thus just focus on the node selection. However, such an exact labeling task is costly, especially when the categorization is out of the domain of individual expert (oracle). The paper goes further, presenting a soft-label approach to AL on GNNs. Our key innovations are: i) relaxed queries where a domain expert (oracle) only judges the correctness of the predicted labels (a binary question) rather than identifying the exact class (a multi-class question), and ii) new criteria of maximizing information gain propagation for active learner with relaxed queries and soft labels. Empirical studies on public datasets demonstrate that our method significantly outperforms the state-of-the-art GNN-based AL methods in terms of both accuracy and labeling cost.
+UR  - https://iclr.cc/virtual/2022/poster/6074
+KW  - active learning
+KW  - graph
+N1  - source=iclr_2022.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2022-6074
+ER  - 
+
+TY  - CONF
+TI  - Joint Shapley values: a measure of joint feature importance
+AU  - Chris Harris
+AU  - Richard Pymar
+AU  - Colin Rowat
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - The Shapley value is one of the most widely used measures of feature importance partly as it measures a feature's average effect on a model's prediction. We introduce joint Shapley values, which directly extend Shapley's axioms and intuitions: joint Shapley values measure a set of features' average effect on a model's prediction. We prove the uniqueness of joint Shapley values, for any order of explanation. Results for games show that joint Shapley values present different insights from existing interaction indices, which assess the effect of a feature within a set of features. The joint Shapley values seem to provide sensible results in ML attribution problems. With binary features, we present a presence-adjusted global value that is more consistent with local intuitions than the usual approach.
+UR  - https://iclr.cc/virtual/2022/poster/6484
+KW  - explainable ai
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2022-6484
+ER  - 
+
+TY  - CONF
+TI  - Minibatch vs Local SGD with Shuffling: Tight Convergence Bounds and Beyond
+AU  - Chulhee Yun
+AU  - Shashank Rajput
+AU  - Suvrit Sra
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - In distributed learning, local SGD (also known as federated averaging) and its simple baseline minibatch SGD are widely studied optimization methods. Most existing analyses of these methods assume independent and unbiased gradient estimates obtained via with-replacement sampling. In contrast, we study shuffling-based variants: minibatch and local Random Reshuffling, which draw stochastic gradients without replacement and are thus closer to practice. For smooth functions satisfying the Polyak-Łojasiewicz condition, we obtain convergence bounds (in the large epoch regime) which show that these shuffling-based variants converge faster than their with-replacement counterparts. Moreover, we prove matching lower bounds showing that our convergence analysis is tight. Finally, we propose an algorithmic modification called synchronized shuffling that leads to convergence rates faster than our lower bounds in near-homogeneous settings.
+UR  - https://iclr.cc/virtual/2022/poster/7030
+KW  - stochastic optimization
+KW  - federated learning
+KW  - convex optimization
+KW  - distributed learning
+KW  - local sgd
+KW  - large scale learning
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2022-7030
+ER  - 
+
+TY  - CONF
+TI  - Multi-objective Optimization by Learning Space Partition
+AU  - Yiyang Zhao
+AU  - Linnan Wang
+AU  - Kevin Yang
+AU  - Tianjun Zhang
+AU  - Tian Guo
+AU  - Yuandong Tian
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - In contrast to single-objective optimization (SOO), multi-objective optimization (MOO) requires an optimizer to find the Pareto frontier, a subset of feasible solutions that are not dominated by other feasible solutions. In this paper, we propose LaMOO, a novel multi-objective optimizer that learns a model from observed samples to partition the search space and then focus on promising regions that are likely to contain a subset of the Pareto frontier. The partitioning is based on the dominance number, which measures "how close'' a data point is to the Pareto frontier among existing samples. To account for possible partition errors due to limited samples and model mismatch, we leverage Monte Carlo Tree Search (MCTS) to exploit promising regions while exploring suboptimal regions that may turn out to contain good solutions later. Theoretically, we prove the efficacy of learning space partitioning via LaMOO under certain assumptions. Empirically, on the HyperVolume (HV) benchmark, a popular MOO metric, LaMOO substantially outperforms strong baselines on multiple real-world MOO tasks, by up to 225% in sample efficiency for neural architecture search on Nasbench201, and up to 10% for molecular design.
+UR  - https://iclr.cc/virtual/2022/poster/5994
+KW  - optimization
+KW  - machine learning
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - iclr2022-5994
+ER  - 
+
+TY  - CONF
+TI  - Neural Processes with Stochastic Attention: Paying more attention to the context dataset
+AU  - Mingyu Kim
+AU  - Kyeong Ryeol Go
+AU  - Se-Young Yun
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Neural processes (NPs) aim to stochastically complete unseen data points based on a given context dataset. NPs essentially leverage a given dataset as a context representation to derive a suitable identifier for a novel task. To improve the prediction accuracy, many variants of NPs have investigated context embedding approaches that generally design novel network architectures and aggregation functions satisfying permutation invariant. In this work, we propose a stochastic attention mechanism for NPs to capture appropriate context information. From the perspective of information theory, we demonstrate that the proposed method encourages context embedding to be differentiated from a target dataset, allowing NPs to consider features in a target dataset and context embedding independently. We observe that the proposed method can appropriately capture context embedding even under noisy data sets and restricted task distributions, where typical NPs suffer from a lack of context embeddings. We empirically show that our approach substantially outperforms conventional NPs in various domains through 1D regression, predator-prey model, and image completion. Moreover, the proposed method is also validated by MovieLens-10k dataset, a real-world problem.
+UR  - https://iclr.cc/virtual/2022/poster/6815
+KW  - variational inference
+KW  - information theory
+KW  - neural processes
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=aggregation rule; schema=v1.4
+AN  - iclr2022-6815
+ER  - 
+
+TY  - CONF
+TI  - Neural Solvers for Fast and Accurate Numerical Optimal Control
+AU  - Federico Berto
+AU  - Stefano Massaroli
+AU  - Michael Poli
+AU  - Jinkyoo Park
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Synthesizing optimal controllers for dynamical systems often involves solving optimization problems with hard real-time constraints. These constraints determine the class of numerical methods that can be applied: computationally expensive but accurate numerical routines are replaced by fast and inaccurate methods, trading inference time for solution accuracy. This paper provides techniques to improve the quality of optimized control policies given a fixed computational budget. We achieve the above via a hypersolvers approach, which hybridizes a differential equation solver and a neural network. The performance is evaluated in direct and receding-horizon optimal control tasks in both low and high dimensions, where the proposed approach shows consistent Pareto improvements in solution accuracy and control performance.
+UR  - https://iclr.cc/virtual/2022/poster/6968
+KW  - deep learning
+KW  - optimal control
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - iclr2022-6968
+ER  - 
+
+TY  - CONF
+TI  - No One Representation to Rule Them All: Overlapping Features of Training Methods
+AU  - Raphael Gontijo Lopes
+AU  - Yann Dauphin
+AU  - Ekin Cubuk
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Despite being able to capture a range of features of the data, high accuracy models trained with supervision tend to make similar predictions. This seemingly implies that high-performing models share similar biases regardless of training methodology, which would limit ensembling benefits and render low-accuracy models as having little practical use. Against this backdrop, recent work has developed quite different training techniques, such as large-scale contrastive learning, yielding competitively high accuracy on generalization and robustness benchmarks. This motivates us to revisit the assumption that models necessarily learn similar functions. We conduct a large-scale empirical study of models across hyper-parameters, architectures, frameworks, and datasets. We find that model pairs that diverge more in training methodology display categorically different generalization behavior, producing increasingly uncorrelated errors. We show these models specialize in subdomains of the data, leading to higher ensemble performance: with just 2 models (each with ImageNet accuracy \~76.5\%), we can create ensembles with 83.4\% (+7\% boost). Surprisingly, we find that even significantly low-accuracy models can be used to improve high-accuracy models. Finally, we show diverging training methodology yield representations that capture overlapping (but not supersetting) feature sets which, when combined, lead to increased downstream performance.
+UR  - https://iclr.cc/virtual/2022/poster/6754
+KW  - representation learning
+KW  - diversity
+KW  - contrastive learning
+KW  - Understanding Deep Learning
+KW  - features
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=ensemble; schema=v1.4
+AN  - iclr2022-6754
+ER  - 
+
+TY  - CONF
+TI  - On Bridging Generic and Personalized Federated Learning for Image Classification
+AU  - Hong-You Chen
+AU  - Wei-Lun Chao
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Federated learning is promising for its capability to collaboratively train models with multiple clients without accessing their data, but vulnerable when clients' data distributions diverge from each other. This divergence further leads to a dilemma: "Should we prioritize the learned model's generic performance (for future use at the server) or its personalized performance (for each client)?" These two, seemingly competing goals have divided the community to focus on one or the other, yet in this paper we show that it is possible to approach both at the same time. Concretely, we propose a novel federated learning framework that explicitly decouples a model's dual duties with two prediction tasks. On the one hand, we introduce a family of losses that are robust to non-identical class distributions, enabling clients to train a generic predictor with a consistent objective across them. On the other hand, we formulate the personalized predictor as a lightweight adaptive module that is learned to minimize each client's empirical risk on top of the generic predictor. With this two-loss, two-predictor framework which we name Federated Robust Decoupling (Fed-RoD), the learned model can simultaneously achieve state-of-the-art generic and personalized performance, essentially bridging the two tasks.
+UR  - https://iclr.cc/virtual/2022/poster/6129
+KW  - image classification
+KW  - federated learning
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - iclr2022-6129
+ER  - 
+
+TY  - CONF
+TI  - On the Importance of Firth Bias Reduction in Few-Shot Classification
+AU  - Saba Ghaffari
+AU  - Ehsan Saleh
+AU  - David Forsyth
+AU  - Yu-Xiong Wang
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Learning accurate classifiers for novel categories from very few examples, known as few-shot image classification, is a challenging task in statistical machine learning and computer vision. The performance in few-shot classification suffers from the bias in the estimation of classifier parameters; however, an effective underlying bias reduction technique that could alleviate this issue in training few-shot classifiers has been overlooked. In this work, we demonstrate the effectiveness of Firth bias reduction in few-shot classification. Theoretically, Firth bias reduction removes the $O(N^-1)$ first order term from the small-sample bias of the Maximum Likelihood Estimator. Here we show that the general Firth bias reduction technique simplifies to encouraging uniform class assignment probabilities for multinomial logistic classification, and almost has the same effect in cosine classifiers. We derive an easy-to-implement optimization objective for Firth penalized multinomial logistic and cosine classifiers, which is equivalent to penalizing the cross-entropy loss with a KL-divergence between the predictions and the uniform label distribution. Then, we empirically evaluate that it is consistently effective across the board for few-shot image classification, regardless of (1) the feature representations from different backbones, (2) the number of samples per class, and (3) the number of classes. Finally, we show the robustness of Firth bias reduction, in the case of imbalanced data distribution. Our implementation is available at https://github.com/ehsansaleh/firth_bias_reduction.
+UR  - https://iclr.cc/virtual/2022/poster/6221
+N1  - source=iclr_2022.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2022-6221
+ER  - 
+
+TY  - CONF
+TI  - Pareto Policy Adaptation
+AU  - Panagiotis Kyriakis
+AU  - Jyotirmoy Deshmukh
+AU  - Paul Bogdan
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - We present a policy gradient method for Multi-Objective Reinforcement Learning under unknown, linear preferences. By enforcing Pareto stationarity, a first-order condition for Pareto optimality, we are able to design a simple policy gradient algorithm that approximates the Pareto front and infers the unknown preferences. Our method relies on a projected gradient descent solver that identifies common ascent directions for all objectives. Leveraging the solution of that solver, we introduce Pareto Policy Adaptation (PPA), a loss function that adapts the policy to be optimal with respect to any distribution over preferences. PPA uses implicit differentiation to back-propagate the loss gradient bypassing the operations of the projected gradient descent solver. Our approach is straightforward, easy to implement and can be used with all existing policy gradient and actor-critic methods. We evaluate our method in a series of reinforcement learning tasks
+UR  - https://iclr.cc/virtual/2022/poster/6886
+KW  - policy gradient
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - iclr2022-6886
+ER  - 
+
+TY  - CONF
+TI  - Pareto Policy Pool for Model-based Offline Reinforcement Learning
+AU  - Yijun Yang
+AU  - Jing Jiang
+AU  - Tianyi Zhou
+AU  - Jie Ma
+AU  - Yuhui Shi
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Online reinforcement learning (RL) can suffer from poor exploration, sparse reward, insufficient data, and overhead caused by inefficient interactions between an immature policy and a complicated environment. Model-based offline RL instead trains an environment model using a dataset of pre-collected experiences so online RL methods can learn in an offline manner by solely interacting with the model. However, the uncertainty and accuracy of the environment model can drastically vary across different state-action pairs so the RL agent may achieve high model return but perform poorly in the true environment. Unlike previous works that need to carefully tune the trade-off between the model return and uncertainty in a single objective, we study a bi-objective formulation for model-based offline RL that aims at producing a pool of diverse policies on the Pareto front performing different levels of trade-offs, which provides the flexibility to select the best policy for each realistic environment from the pool. Our method, ''Pareto policy pool (P3)'', does not need to tune the trade-off weight but can produce policies allocated at different regions of the Pareto front. For this purpose, we develop an efficient algorithm that solves multiple bi-objective optimization problems with distinct constraints defined by reference vectors targeting diverse regions of the Pareto front. We theoretically prove that our algorithm can converge to the targeted regions. In order to obtain more Pareto optimal policies without linearly increasing the cost, we leverage the achieved policies as initialization to find more Pareto optimal policies in their neighborhoods. On the D4RL benchmark for offline RL, P3 substantially outperforms several recent baseline methods over multiple tasks, especially when the quality of pre-collected experiences is low.
+UR  - https://iclr.cc/virtual/2022/poster/6152
+KW  - multi-objective optimization
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - iclr2022-6152
+ER  - 
+
+TY  - CONF
+TI  - Reliable Adversarial Distillation with Unreliable Teachers
+AU  - Jianing ZHU
+AU  - Jiangchao Yao
+AU  - Bo Han
+AU  - Jingfeng Zhang
+AU  - Tongliang Liu
+AU  - Gang Niu
+AU  - Jingren Zhou
+AU  - Jianliang Xu
+AU  - Hongxia Yang
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - In ordinary distillation, student networks are trained with soft labels (SLs) given by pretrained teacher networks, and students are expected to improve upon teachers since SLs are stronger supervision than the original hard labels. However, when considering adversarial robustness, teachers may become unreliable and adversarial distillation may not work: teachers are pretrained on their own adversarial data, and it is too demanding to require that teachers are also good at every adversarial data queried by students. Therefore, in this paper, we propose reliable introspective adversarial distillation (IAD) where students partially instead of fully trust their teachers. Specifically, IAD distinguishes between three cases given a query of a natural data (ND) and the corresponding adversarial data (AD): (a) if a teacher is good at AD, its SL is fully trusted; (b) if a teacher is good at ND but not AD, its SL is partially trusted and the student also takes its own SL into account; (c) otherwise, the student only relies on its own SL. Experiments demonstrate the effectiveness of IAD for improving upon teachers in terms of adversarial robustness.
+UR  - https://iclr.cc/virtual/2022/poster/6336
+N1  - source=iclr_2022.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2022-6336
+ER  - 
+
+TY  - CONF
+TI  - Reward Uncertainty for Exploration in Preference-based Reinforcement Learning
+AU  - Xinran Liang
+AU  - Katherine Shu
+AU  - Kimin Lee
+AU  - Pieter Abbeel
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Conveying complex objectives to reinforcement learning (RL) agents often requires meticulous reward engineering. Preference-based RL methods are able to learn a more flexible reward model based on human preferences by actively incorporating human feedback, i.e. teacher's preferences between two clips of behaviors. However, poor feedback-efficiency still remains as a problem in current preference-based RL algorithms, as tailored human feedback is very expensive. To handle this issue, previous methods have mainly focused on improving query selection and policy initialization. At the same time, recent exploration methods have proven to be a recipe for improving sample-efficiency in RL. We present an exploration method specifically for preference-based RL algorithms. Our main idea is to design an intrinsic reward by measuring the novelty based on learned reward. Specifically, we utilize disagreement across ensemble of learned reward models. Our intuition is that disagreement in learned reward model reflects uncertainty in tailored human feedback and could be useful for exploration. Our experiments show that reward uncertainty exploration improves both feedback- and sample-efficiency of preference-based RL algorithms on complex robot manipulation tasks from Meta-World benchmarks, compared with other existing exploration methods that measure the novelty of state visitation.
+UR  - https://iclr.cc/virtual/2022/poster/6956
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - iclr2022-6956
+ER  - 
+
+TY  - CONF
+TI  - Self-supervised Learning is More Robust to Dataset Imbalance
+AU  - Hong Liu
+AU  - Jeff Z. HaoChen
+AU  - Adrien Gaidon
+AU  - Tengyu Ma
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Self-supervised learning (SSL) is a scalable way to learn general visual representations since it learns without labels. However, large-scale unlabeled datasets in the wild often have long-tailed label distributions, where we know little about the behavior of SSL. In this work, we systematically investigate self-supervised learning under dataset imbalance. First, we find via extensive experiments that off-the-shelf self-supervised representations are already more robust to class imbalance than supervised representations. The performance gap between balanced and imbalanced pre-training with SSL is significantly smaller than the gap with supervised learning, across sample sizes, for both in-domain and, especially, out-of-domain evaluation. Second, towards understanding the robustness of SSL, we hypothesize that SSL learns richer features from frequent data: it may learn label-irrelevant-but-transferable features that help classify the rare classes and downstream tasks. In contrast, supervised learning has no incentive to learn features irrelevant to the labels from frequent examples. We validate this hypothesis with semi-synthetic experiments as well as rigorous mathematical analyses on a simplified setting. Third, inspired by the theoretical insights, we devise a re-weighted regularization technique that consistently improves the SSL representation quality on imbalanced datasets with several evaluation criteria, closing the small gap between balanced and imbalanced datasets with the same number of examples.
+UR  - https://iclr.cc/virtual/2022/poster/6413
+KW  - representation learning
+KW  - self-supervised learning
+KW  - Long-Tailed Recognition
+N1  - source=iclr_2022.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2022-6413
+ER  - 
+
+TY  - CONF
+TI  - What Do We Mean by Generalization in Federated Learning?
+AU  - Honglin Yuan
+AU  - Warren Morningstar
+AU  - Lin Ning
+AU  - Karan Singhal
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Federated learning data is drawn from a distribution of distributions: clients are drawn from a meta-distribution, and their data are drawn from local data distributions. Generalization studies in federated learning should separate performance gaps from unseen client data (out-of-sample gap) from performance gaps from unseen client distributions (participation gap). In this work, we propose a framework for disentangling these performance gaps. Using this framework, we observe and explain differences in behavior across natural and synthetic federated datasets, indicating that dataset synthesis strategy can be important for realistic simulations of generalization in federated learning. We propose a semantic synthesis strategy that enables realistic simulation without naturally partitioned data. Informed by our ﬁndings, we call out community suggestions for future federated learning works.
+UR  - https://iclr.cc/virtual/2022/poster/6652
+KW  - generalization
+KW  - federated learning
+KW  - Heterogeneity
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - iclr2022-6652
+ER  - 
+
+TY  - CONF
+TI  - Wisdom of Committees: An Overlooked Approach To Faster and More Accurate Models
+AU  - Xiaofang Wang
+AU  - Dan Kondratyuk
+AU  - Eric Christiansen
+AU  - Kris Kitani
+AU  - Yair Movshovitz-Attias
+AU  - Elad Eban
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Committee-based models (ensembles or cascades) construct models by combining existing pre-trained ones. While ensembles and cascades are well-known techniques that were proposed before deep learning, they are not considered a core building block of deep model architectures and are rarely compared to in recent literature on developing efficient models. In this work, we go back to basics and conduct a comprehensive analysis of the efficiency of committee-based models. We find that even the most simplistic method for building committees from existing, independently pre-trained models can match or exceed the accuracy of state-of-the-art models while being drastically more efficient. These simple committee-based models also outperform sophisticated neural architecture search methods (e.g., BigNAS). These findings hold true for several tasks, including image classification, video classification, and semantic segmentation, and various architecture families, such as ViT, EfficientNet, ResNet, MobileNetV2, and X3D. Our results show that an EfficientNet cascade can achieve a 5.4x speedup over B7 and a ViT cascade can achieve a 2.3x speedup over ViT-L-384 while being equally accurate.
+UR  - https://iclr.cc/virtual/2022/poster/6397
+KW  - efficiency
+KW  - ensemble
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=combining; ensemble; routing; schema=v1.4
+AN  - iclr2022-6397
+ER  - 
+
+TY  - CONF
+TI  - You Mostly Walk Alone: Analyzing Feature Attribution in Trajectory Prediction
+AU  - Osama Makansi
+AU  - Julius von Kuegelgen
+AU  - Francesco Locatello
+AU  - Peter Gehler
+AU  - Dominik Janzing
+AU  - Thomas Brox
+AU  - Bernhard Schoelkopf
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - Predicting the future trajectory of a moving agent can be easy when the past trajectory continues smoothly but is challenging when complex interactions with other agents are involved. Recent deep learning approaches for trajectory prediction show promising performance and partially attribute this to successful reasoning about agent-agent interactions. However, it remains unclear which features such black-box models actually learn to use for making predictions. This paper proposes a procedure that quantifies the contributions of different cues to model performance based on a variant of Shapley values. Applying this procedure to state-of-the-art trajectory prediction methods on standard benchmark datasets shows that they are, in fact, unable to reason about interactions. Instead, the past trajectory of the target is the only feature used for predicting its future. For a task with richer social interaction patterns, on the other hand, the tested models do pick up such interactions to a certain extent, as quantified by our feature attribution method. We discuss the limits of the proposed method and its links to causality.
+UR  - https://iclr.cc/virtual/2022/poster/6404
+KW  - causality
+KW  - trajectory prediction
+KW  - Shapley values
+KW  - Feature Attribution
+N1  - source=iclr_2022.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2022-6404
+ER  - 
+
+TY  - CONF
+TI  - ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity
+AU  - Xinchi Qiu
+AU  - Javier Fernandez-Marques
+AU  - Pedro Porto Buarque de Gusmao
+AU  - Yan Gao
+AU  - Titouan Parcollet
+AU  - Nicholas Lane
+PY  - 2022
+T2  - International Conference on Learning Representations (ICLR 2022)
+AB  - When the available hardware cannot meet the memory and compute requirements to efficiently train high performing machine learning models, a compromise in either the training quality or the model complexity is needed. In Federated Learning (FL), nodes are orders of magnitude more constrained than traditional server-grade hardware and are often battery powered, severely limiting the sophistication of models that can be trained under this paradigm. While most research has focused on designing better aggregation strategies to improve convergence rates and in alleviating the communication costs of FL, fewer efforts have been devoted to accelerating on-device training. Such stage, which repeats hundreds of times (i.e. every round) and can involve thousands of devices, accounts for the majority of the time required to train federated models and, the totality of the energy consumption at the client side. In this work, we present the first study on the unique aspects that arise when introducing sparsity at training time in FL workloads. We then propose ZeroFL, a framework that relies on highly sparse operations to accelerate on-device training. Models trained with ZeroFL and 95% sparsity achieve up to 2.3% higher accuracy compared to competitive baselines obtained from adapting a state-of-the-art sparse training framework to the FL setting.
+UR  - https://iclr.cc/virtual/2022/poster/6036
+KW  - federated learning
+N1  - source=iclr_2022.bib; retained_by=tier2+anchor; terms=privacy; collective; schema=v1.4
+AN  - iclr2022-6036
+ER  - 
+

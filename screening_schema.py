@@ -92,10 +92,7 @@ class ScreenResult:
 
     def terms_fired(self):
         """Flat list of the terms that drove the decision, for the RIS note."""
-        for key in ("tier1", "preservation", "tier2"):
-            if self.hits.get(key):
-                return self.hits[key]
-        return []
+        return self.hits.get(self.reason.split("+")[0], [])
 
 
 class Screener:

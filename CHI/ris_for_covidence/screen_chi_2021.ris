@@ -1,0 +1,598 @@
+TY  - CONF
+TI  - Learning to Automate Chart Layout Configurations Using Crowdsourced Paired Comparison
+AU  - Wu, Aoyu
+AU  - Xie, Liwenhan
+AU  - Lee, Bongshin
+AU  - Wang, Yun
+AU  - Cui, Weiwei
+AU  - Qu, Huamin
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - We contribute a method to automate parameter configurations for chart layouts by learning from human preferences. Existing charting tools usually determine the layout parameters using predefined heuristics, producing sub-optimal layouts. People can repeatedly adjust multiple parameters (e.g., chart size, gap) to achieve visually appealing layouts. However, this trial-and-error process is unsystematic and time-consuming, without a guarantee of improvement. To address this issue, we develop Layout Quality Quantifier (LQ2), a machine learning model that learns to score chart layouts from paired crowdsourcing data. Combined with optimization techniques, LQ2 recommends layout parameters that improve the charts’ layout quality. We apply LQ2 on bar charts and conduct user studies to evaluate its effectiveness by examining the quality of layouts it produces. Results show that LQ2 can generate more visually appealing layouts than both laypeople and baselines. This work demonstrates the feasibility and usages of quantifying human preferences and aesthetics for chart layouts.
+DO  - 10.1145/3411764.3445179
+UR  - https://doi.org/10.1145/3411764.3445179
+KW  - Crowdsourced
+KW  - Image Quality Assessment
+KW  - Machine Learning
+KW  - Visual Design
+KW  - Visualization
+N1  - source=chi_2021.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - 10.1145/3411764.3445179
+ER  - 
+
+TY  - CONF
+TI  - A Digital Safety Dilemma: Analysis of Computer-Mediated Computer Security Interventions for Intimate Partner Violence During COVID-19
+AU  - Tseng, Emily
+AU  - Freed, Diana
+AU  - Engel, Kristen
+AU  - Ristenpart, Thomas
+AU  - Dell, Nicola
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - The shutdown measures necessary to stop the spread of COVID-19 have amplified the role of technology in intimate partner violence (IPV). Survivors may be forced to endure lockdowns with their abusers, intensifying the dangers of technology-enabled abuse (e.g. stalking, harassment, monitoring, surveillance). They may also be forced to rely on potentially compromised devices to reach support networks: a dangerous dilemma for digital safety. This qualitative study examines how technologists with computer security expertise provided remote assistance to IPV survivors during the pandemic. Findings from 24 consults with survivors and five focus groups with technologist consultants show how remote delivery of technology support services raised three fundamental challenges: (1) ensuring safety for survivors and consultants; (2) assessing device security over a remote connection; and (3) navigating new burdens for consultants, including emotional labor. We highlight implications for HCI researchers creating systems that enable access to remote expert services for vulnerable people.
+DO  - 10.1145/3411764.3445589
+UR  - https://doi.org/10.1145/3411764.3445589
+KW  - computer security and privacy
+KW  - gender-based violence
+KW  - intimate partner violence
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3411764.3445589
+ER  - 
+
+TY  - CONF
+TI  - Assessing the Impact of Automated Suggestions on Decision Making: Domain Experts Mediate Model Errors but Take Less Initiative
+AU  - Levy, Ariel
+AU  - Agrawal, Monica
+AU  - Satyanarayan, Arvind
+AU  - Sontag, David
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Automated decision support can accelerate tedious tasks as users can focus their attention where it is needed most. However, a key concern is whether users overly trust or cede agency to automation. In this paper, we investigate the effects of introducing automation to annotating clinical texts — a multi-step, error-prone task of identifying clinical concepts (e.g., procedures) in medical notes, and mapping them to labels in a large ontology. We consider two forms of decision aid: recommending which labels to map concepts to, and pre-populating annotation suggestions. Through laboratory studies, we find that 18 clinicians generally build intuition of when to rely on automation and when to exercise their own judgement. However, when presented with fully pre-populated suggestions, these expert users exhibit less agency: accepting improper mentions, and taking less initiative in creating additional annotations. Our findings inform how systems and algorithms should be designed to mitigate the observed issues.
+DO  - 10.1145/3411764.3445522
+UR  - https://doi.org/10.1145/3411764.3445522
+KW  - agency
+KW  - clinical annotation
+KW  - human-AI teams
+KW  - mental model
+KW  - ontology
+KW  - text tagging
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3411764.3445522
+ER  - 
+
+TY  - CONF
+TI  - What Makes Civic Tech Initiatives To Last Over Time? Dissecting Two Global Cases
+AU  - Hamm, Andrea
+AU  - Shibuya, Yuya
+AU  - Ullrich, Stefan
+AU  - Cerratto Pargman, Teresa Cerratto
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Civic tech initiatives dedicated to environmental issues have become a worldwide phenomenon and made invaluable contributions to data, community building, and publics. However, many of them stop after a relatively short time. Therefore, we studied two long-lasting civic tech initiatives of global scale, to understand what makes them sustain over time. To this end, we conducted two mixed-method case studies, combining social network analysis and qualitative content analysis of Twitter data with insights from expert interviews. Drawing on our findings, we identified a set of key factors that help the studied civic tech initiatives to grow and last. Contributing to Digital Civics in HCI, we argue that the civic tech initiatives’ scaling and sustaining are configured through the entanglement of (1) civic data both captured and owned by the citizens for the citizens, (2) the use of open and accessible technology, and (3) the initiatives’ public narrative, giving them a voice on the environmental issue.
+DO  - 10.1145/3411764.3445667
+UR  - https://doi.org/10.1145/3411764.3445667
+KW  - Citizen Science
+KW  - Civic IoT
+KW  - Civic Tech
+KW  - Digital Civics
+KW  - Scaling
+KW  - Sustainability
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3411764.3445667
+ER  - 
+
+TY  - CONF
+TI  - PinpointFly: An Egocentric Position-control Drone Interface using Mobile AR
+AU  - Chen, Linfeng
+AU  - Takashima, Kazuki
+AU  - Fujita, Kazuyuki
+AU  - Kitamura, Yoshifumi
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Accurate drone positioning is challenging because pilots only have a limited position and direction perception of a flying drone from their perspective. This makes conventional joystick-based speed control inaccurate and more complicated and significantly degrades piloting performance. We propose PinpointFly, an egocentric drone interface that allows pilots to arbitrarily position and rotate a drone using position-control direct interactions on a see-through mobile AR where the drone position and direction are visualized with a virtual cast shadow (i.e., the drone’s orthogonal projection onto the floor). Pilots can point to the next position or draw the drone’s flight trajectory by manipulating the virtual cast shadow and the direction/height slider bar on the touchscreen. We design and implement a prototype of PinpointFly for indoor and visual line of sight scenarios, which are comprised of real-time and predefined motion-control techniques. We conduct two user studies with simple positioning and inspection tasks. Our results demonstrate that PinpointFly makes the drone positioning and inspection operations faster, more accurate, simpler and fewer workload than a conventional joystick interface with a speed-control method.
+DO  - 10.1145/3411764.3445110
+UR  - https://doi.org/10.1145/3411764.3445110
+KW  - Positioning
+KW  - Spatial Perception
+KW  - Videography
+KW  - Visualization
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445110
+ER  - 
+
+TY  - CONF
+TI  - Disagree? You Must be a Bot! How Beliefs Shape Twitter Profile Perceptions
+AU  - Wischnewski, Magdalena
+AU  - Bernemann, Rebecca
+AU  - Ngo, Thao
+AU  - Krämer, Nicole
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - In this paper, we investigate the human ability to distinguish political social bots from humans on Twitter. Following motivated reasoning theory from social and cognitive psychology, our central hypothesis is that especially those accounts which are opinion-incongruent are perceived as social bot accounts when the account is ambiguous about its nature. We also hypothesize that credibility ratings mediate this relationship. We asked N = 151 participants to evaluate 24 Twitter accounts and decide whether the accounts were humans or social bots. Findings support our motivated reasoning hypothesis for a sub-group of Twitter users (those who are more familiar with Twitter): Accounts that are opinion-incongruent are evaluated as relatively more bot-like than accounts that are opinion-congruent. Moreover, it does not matter whether the account is clearly social bot or human or ambiguous about its nature. This was mediated by perceived credibility in the sense that congruent profiles were evaluated to be more credible resulting in lower perceptions as bots.
+DO  - 10.1145/3411764.3445109
+UR  - https://doi.org/10.1145/3411764.3445109
+KW  - Twitter
+KW  - bias
+KW  - credibility
+KW  - motivated reasoning
+KW  - partisanship
+KW  - social bots
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3411764.3445109
+ER  - 
+
+TY  - CONF
+TI  - Machine Learning Uncertainty as a Design Material: A Post-Phenomenological Inquiry
+AU  - Benjamin, Jesse Josua
+AU  - Berger, Arne
+AU  - Merrill, Nick
+AU  - Pierce, James
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Design research is important for understanding and interrogating how emerging technologies shape human experience. However, design research with Machine Learning (ML) is relatively underdeveloped. Crucially, designers have not found a grasp on ML uncertainty as a design opportunity rather than an obstacle. The technical literature points to data and model uncertainties as two main properties of ML. Through post-phenomenology, we position uncertainty as one defining material attribute of ML processes which mediate human experience. To understand ML uncertainty as a design material, we investigate four design research case studies involving ML. We derive three provocative concepts: thingly uncertainty: ML-driven artefacts have uncertain, variable relations to their environments; pattern leakage: ML uncertainty can lead to patterns shaping the world they are meant to represent; and futures creep: ML technologies texture human relations to time with uncertainty. Finally, we outline design research trajectories and sketch a post-phenomenological approach to human-ML relations.
+DO  - 10.1145/3411764.3445481
+UR  - https://doi.org/10.1145/3411764.3445481
+KW  - design research
+KW  - horizonal relations
+KW  - machine learning
+KW  - post-phenomenology
+KW  - thingly uncertainty
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3411764.3445481
+ER  - 
+
+TY  - CONF
+TI  - From Reflection to Action: Combining Machine Learning with Expert Knowledge for Nutrition Goal Recommendations
+AU  - G. Mitchell, Elliot
+AU  - M. Heitkemper, Elizabeth
+AU  - Burgermaster, Marissa
+AU  - E. Levine, Matthew
+AU  - Miao, Yishen
+AU  - L. Hwang, Maria
+AU  - M. Desai, Pooja
+AU  - Cassells, Andrea
+AU  - N. Tobin, Jonathan
+AU  - G. Tabak, Esteban
+AU  - J. Albers, David
+AU  - M. Smaldone, Arlene
+AU  - Mamykina, Lena
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Self-tracking can help personalize self-management interventions for chronic conditions like type 2 diabetes (T2D), but reflecting on personal data requires motivation and literacy. Machine learning (ML) methods can identify patterns, but a key challenge is making actionable suggestions based on personal health data. We introduce GlucoGoalie, which combines ML with an expert system to translate ML output into personalized nutrition goal suggestions for individuals with T2D. In a controlled experiment, participants with T2D found that goal suggestions were understandable and actionable. A 4-week in-the-wild deployment study showed that receiving goal suggestions augmented participants’ self-discovery, choosing goals highlighted the multifaceted nature of personal preferences, and the experience of following goals demonstrated the importance of feedback and context. However, we identified tensions between abstract goals and concrete eating experiences and found static text too ambiguous for complex concepts. We discuss implications for ML-based interventions and the need for systems that offer more interactivity, feedback, and negotiation.
+DO  - 10.1145/3411764.3445555
+UR  - https://doi.org/10.1145/3411764.3445555
+KW  - Diabetes self-management
+KW  - Goal setting
+KW  - Machine learning
+KW  - Personal Informatics
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=combining; negotiation; schema=v1.4
+AN  - 10.1145/3411764.3445555
+ER  - 
+
+TY  - CONF
+TI  - Eliciting and Analysing Users’ Envisioned Dialogues with Perfect Voice Assistants
+AU  - Völkel, Sarah Theres
+AU  - Buschek, Daniel
+AU  - Eiband, Malin
+AU  - Cowan, Benjamin R.
+AU  - Hussmann, Heinrich
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - We present a dialogue elicitation study to assess how users envision conversations with a perfect voice assistant (VA). In an online survey, N=205 participants were prompted with everyday scenarios, and wrote the lines of both user and VA in dialogues that they imagined as perfect. We analysed the dialogues with text analytics and qualitative analysis, including number of words and turns, social aspects of conversation, implied VA capabilities, and the influence of user personality. The majority envisioned dialogues with a VA that is interactive and not purely functional; it is smart, proactive, and has knowledge about the user. Attitudes diverged regarding the assistant’s role as well as it expressing humour and opinions. An exploratory analysis suggested a relationship with personality for these aspects, but correlations were low overall. We discuss implications for research and design of future VAs, underlining the vision of enabling conversational UIs, rather than single command “Q&As”.
+DO  - 10.1145/3411764.3445536
+UR  - https://doi.org/10.1145/3411764.3445536
+KW  - Adaptation
+KW  - conversational agent
+KW  - dialogue
+KW  - personality
+KW  - voice assistant
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=collective; schema=v1.4
+AN  - 10.1145/3411764.3445536
+ER  - 
+
+TY  - CONF
+TI  - Dance and Choreography in HCI: A Two-Decade Retrospective
+AU  - Zhou, Qiushi
+AU  - Chua, Cheng Cheng
+AU  - Knibbe, Jarrod
+AU  - Goncalves, Jorge
+AU  - Velloso, Eduardo
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Designing computational support for dance is an emerging area of HCI research, incorporating the cultural, experiential, and embodied characteristics of the third-wave shift. The challenges of recognising the abstract qualities of body movement, and of mediating between the diverse parties involved in the idiosyncratic creative process, present important questions to HCI researchers: how can we effectively integrate computing with dance, to understand and cultivate the felt dimension of creativity, and to aid the dance-making process? In this work, we systematically review the past twenty years of dance literature in HCI. We discuss our findings, propose directions for future HCI works in dance, and distil lessons for related disciplines.
+DO  - 10.1145/3411764.3445804
+UR  - https://doi.org/10.1145/3411764.3445804
+KW  - choreography
+KW  - creativity support
+KW  - dance
+KW  - movement quality
+KW  - somaesthetics
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3411764.3445804
+ER  - 
+
+TY  - CONF
+TI  - ASL Sea Battle: Gamifying Sign Language Data Collection
+AU  - Bragg, Danielle
+AU  - Caselli, Naomi
+AU  - Gallagher, John W.
+AU  - Goldberg, Miriam
+AU  - Oka, Courtney J.
+AU  - Thies, William
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - The development of accurate machine learning models for sign languages like American Sign Language (ASL) has the potential to break down communication barriers for deaf signers. However, to date, no such models have been robust enough for real-world use. The primary barrier to enabling real-world applications is the lack of appropriate training data. Existing training sets suffer from several shortcomings: small size, limited signer diversity, lack of real-world settings, and missing or inaccurate labels. In this work, we present ASL Sea Battle, a sign language game designed to collect datasets that overcome these barriers, while also providing fun and education to users. We conduct a user study to explore the data quality that the game collects, and the user experience of playing the game. Our results suggest that ASL Sea Battle can reliably collect and label real-world sign language videos, and provides fun and education at the expense of data throughput.
+DO  - 10.1145/3411764.3445416
+UR  - https://doi.org/10.1145/3411764.3445416
+KW  - ASL
+KW  - crowdsourcing
+KW  - data
+KW  - game
+KW  - machine learning
+KW  - sign language
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3411764.3445416
+ER  - 
+
+TY  - CONF
+TI  - The Disagreement Deconvolution: Bringing Machine Learning Performance Metrics In Line With Reality
+AU  - Gordon, Mitchell L.
+AU  - Zhou, Kaitlyn
+AU  - Patel, Kayur
+AU  - Hashimoto, Tatsunori
+AU  - Bernstein, Michael S.
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Machine learning classifiers for human-facing tasks such as comment toxicity and misinformation often score highly on metrics such as ROC AUC but are received poorly in practice. Why this gap? Today, metrics such as ROC AUC, precision, and recall are used to measure technical performance; however, human-computer interaction observes that evaluation of human-facing systems should account for people’s reactions to the system. In this paper, we introduce a transformation that more closely aligns machine learning classification metrics with the values and methods of user-facing performance measures. The disagreement deconvolution takes in any multi-annotator (e.g., crowdsourced) dataset, disentangles stable opinions from noise by estimating intra-annotator consistency, and compares each test set prediction to the individual stable opinions from each annotator. Applying the disagreement deconvolution to existing social computing datasets, we find that current metrics dramatically overstate the performance of many human-facing machine learning tasks: for example, performance on a comment toxicity task is corrected from .95 to .73 ROC AUC.
+DO  - 10.1145/3411764.3445423
+UR  - https://doi.org/10.1145/3411764.3445423
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=agreement; crowd; schema=v1.4
+AN  - 10.1145/3411764.3445423
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing More Effective Initializations for Single-Target Trackers Through Automatic Re-querying
+AU  - Lemmer, Stephan J.
+AU  - Song, Jean Y.
+AU  - Corso, Jason J.
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - In single-target video object tracking, an initial bounding box is drawn around a target object and propagated through a video. When this bounding box is provided by a careful human expert, it is expected to yield strong overall tracking performance that can be mimicked at scale by novice crowd workers with the help of advanced quality control methods. However, we show through an investigation of 900 crowdsourced initializations that such quality control strategies are inadequate for this task in two major ways: first, the high level of redundancy in these methods (e.g., averaging multiple responses to reduce error) is unnecessary, as 23\% of crowdsourced initializations perform just as well as the gold-standard initialization. Second, even nearly perfect initializations can lead to degraded long-term performance due to the complexity of object tracking. Considering these findings, we evaluate novel approaches for automatically selecting bounding boxes to re-query, and introduce Smart Replacement, an efficient method that decides whether to use the crowdsourced replacement initialization.
+DO  - 10.1145/3411764.3445181
+UR  - https://doi.org/10.1145/3411764.3445181
+KW  - smart replacement
+KW  - single-target video object tracking
+KW  - seed rejection
+KW  - crowdsourcing
+KW  - crowd-AI collaboration
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3411764.3445181
+ER  - 
+
+TY  - CONF
+TI  - A Human-AI Collaborative Approach for Clinical Decision Making on Rehabilitation Assessment
+AU  - Lee, Min Hun
+AU  - Siewiorek, Daniel P.
+AU  - Smailagic, Asim
+AU  - Bernardino, Alexandre
+AU  - Bermúdez i Badia, Sergi Bermúdez
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Advances in artificial intelligence (AI) have made it increasingly applicable to supplement expert’s decision-making in the form of a decision support system on various tasks. For instance, an AI-based system can provide therapists quantitative analysis on patient’s status to improve practices of rehabilitation assessment. However, there is limited knowledge on the potential of these systems. In this paper, we present the development and evaluation of an interactive AI-based system that supports collaborative decision making with therapists for rehabilitation assessment. This system automatically identifies salient features of assessment to generate patient-specific analysis for therapists, and tunes with their feedback. In two evaluations with therapists, we found that our system supports therapists significantly higher agreement on assessment (0.71 average F1-score) than a traditional system without analysis (0.66 average F1-score, p < 0.05). After tuning with therapist’s feedback, our system significantly improves its performance from 0.8377 to 0.9116 average F1-scores (p < 0.01). This work discusses the potential of a human-AI collaborative system to support more accurate decision making while learning from each other’s strengths.
+DO  - 10.1145/3411764.3445472
+UR  - https://doi.org/10.1145/3411764.3445472
+KW  - Stroke Rehabilitation Assessment
+KW  - Personalization
+KW  - Human-AI Interaction/Collaboration
+KW  - Explainable and Interactive Machine Learning
+KW  - Decision Support Systems
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=agreement; schema=v1.4
+AN  - 10.1145/3411764.3445472
+ER  - 
+
+TY  - CONF
+TI  - Using Intersectional Representation & Embodied Identification in Standard Video Game Play to Reduce Societal Biases
+AU  - Jarrell, Marie
+AU  - Ghaiumy Anaraky, Reza
+AU  - Knijnenburg, Bart
+AU  - Ash, Erin
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - While virtual character embodiment has been studied as a mitigator of singular societal biases in fully immersive VR and empathy games, there have been no major studies on representation featuring standard game play or intersectional identities. In our study, participants played a short 2D video game with racial and gender character manipulations. They then rated a LinkedIn profile application to examine interactions of racial and gender biases. White male participants showed bias against black and female applicants, with the black female applicant experiencing both racial and gender bias. However, participants who embodied certain underrepresented characters in the game displayed reduced biases. Participants’ perceived identification with the characters moderated this effect. The study highlights a lack of homogeneity in the prevalence and potential reduction of different societal biases and incorporates intersectionality to illustrate how multiple parts of a player character’s identity can be used to combat biases.
+DO  - 10.1145/3411764.3445161
+UR  - https://doi.org/10.1145/3411764.3445161
+KW  - virtual characters
+KW  - video games
+KW  - representation
+KW  - racial bias
+KW  - intersectionality
+KW  - identification
+KW  - gender bias
+KW  - embodiment
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445161
+ER  - 
+
+TY  - CONF
+TI  - MirrorBlender: Supporting Hybrid Meetings with a Malleable Video-Conferencing System
+AU  - Grønbæk, Jens Emil
+AU  - Saatçi, Banu
+AU  - Griggio, Carla F.
+AU  - Klokmose, Clemens Nylandsted
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - In hybrid meetings, multiple co-located participants communicate with remote participants through video. But video communication inhibits non-verbal cues, and this often causes remote participants to feel excluded. To address this issue, we built MirrorBlender: a What-You-See-Is-What-I-See video-conferencing system for blending, repositioning, and resizing mirrors. Mirrors here denote shared video feeds of people and screens. In a qualitative study of MirrorBlender with three hybrid meeting sessions, we found that the shared control of mirrors supported users in negotiating a blended interpersonal space. Moreover, it enabled diverse acts of inclusion of remote participants. In particular, remote participants brought attention to themselves by manipulating the position, scale, and translucency of their camera and screen feeds. Participants also embodied and leveraged their mirror images for deictic gestures and playful interactions. Based on these findings, we discuss new opportunities for supporting video-mediated collaboration.
+DO  - 10.1145/3411764.3445698
+UR  - https://doi.org/10.1145/3411764.3445698
+KW  - video conferencing
+KW  - shareable dynamic media
+KW  - inclusive meetings
+KW  - blended interaction spaces
+KW  - Hybrid meetings
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=adjudication; negotiation; manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445698
+ER  - 
+
+TY  - CONF
+TI  - MARVIS: Combining Mobile Devices and Augmented Reality for Visual Data Analysis
+AU  - Langner, Ricardo
+AU  - Satkowski, Marc
+AU  - Büschel, Wolfgang
+AU  - Dachselt, Raimund
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - We present Marvis, a conceptual framework that combines mobile devices and head-mounted Augmented Reality (AR) for visual data analysis. We propose novel concepts and techniques addressing visualization-specific challenges. By showing additional 2D and 3D information around and above displays, we extend their limited screen space. AR views between displays as well as linking and brushing are also supported, making relationships between separated visualizations plausible. We introduce the design process and rationale for our techniques. To validate Marvis’ concepts and show their versatility and widespread applicability, we describe six implemented example use cases. Finally, we discuss insights from expert hands-on reviews. As a result, we contribute to a better understanding of how the combination of one or more mobile devices with AR can benefit visual data analysis. By exploring this new type of visualization environment, we hope to provide a foundation and inspiration for future mobile data visualizations.
+DO  - 10.1145/3411764.3445593
+UR  - https://doi.org/10.1145/3411764.3445593
+KW  - mobile devices
+KW  - mobile data visualization
+KW  - immersive analytics
+KW  - head-mounted augmented reality
+KW  - data visualization
+KW  - data analysis
+KW  - cross-device interaction
+KW  - augmented displays
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3411764.3445593
+ER  - 
+
+TY  - CONF
+TI  - Pedagogical Agents in Educational VR: An in the Wild Study
+AU  - Petersen, Gustav Bøg
+AU  - Mottelson, Aske
+AU  - Makransky, Guido
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Pedagogical agents are theorized to increase humans’ effort to understand computerized instructions. Despite the pedagogical promises of VR, the usefulness of pedagogical agents in VR remains uncertain. Based on this gap, and inspired by global efforts to advance remote learning during the COVID-19 pandemic, we conducted an educational VR study in-the-wild (N = 161). With a 2 \texttimes 2 + 1 between subjects design, we manipulated the appearance and behavior of a virtual museum guide in an exhibition about viruses. Factual and conceptual learning outcomes as well as subjective learning experience measures were collected. In general, participants reported high enjoyment and had significant knowledge acquisition. We found that the agent’s appearance and behavior impacted factual knowledge gain. We also report an interaction effect between behavioral and visual realism for conceptual knowledge gain. Our findings nuance classical multimedia learning theories and provide directions for employing agents in immersive learning environments.
+DO  - 10.1145/3411764.3445760
+UR  - https://doi.org/10.1145/3411764.3445760
+KW  - Pedagogical Agents
+KW  - Learning
+KW  - Immersive Virtual Reality
+KW  - Educational Technology
+KW  - Cognitive Load
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445760
+ER  - 
+
+TY  - CONF
+TI  - ClothTiles: A Prototyping Platform to Fabricate Customized Actuators on Clothing using 3D Printing and Shape-Memory Alloys
+AU  - Muthukumarana, Sachith
+AU  - Messerschmidt, Moritz Alexander
+AU  - Matthies, Denys J.C.
+AU  - Steimle, Jürgen
+AU  - Scholl, Philipp M.
+AU  - Nanayakkara, Suranga
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Emerging research has demonstrated the viability of on-textile actuation mechanisms, however, an easily customizable and versatile on-cloth actuation mechanism is yet to be explored. In this paper, we present ClothTiles along with its rapid fabrication technique that enables actuation of clothes. ClothTiles leverage flexible 3D-printing and Shape-Memory Alloys (SMAs) alongside new parametric actuation designs. We validate the concept of fabric actuation using a base element, and then systematically explore methods of aggregating, scaling, and orienting prospects for extended actuation in garments. A user study demonstrated that our technique enables multiple actuation types applied across a variety of clothes. Users identified both aesthetic and functional applications of ClothTiles. We conclude with a number of insights for the Do-It-Yourself community on how to employ 3D-printing with SMAs to enable actuation on clothes.
+DO  - 10.1145/3411764.3445613
+UR  - https://doi.org/10.1145/3411764.3445613
+KW  - Textile
+KW  - Smart Textiles
+KW  - Shape-memory Alloy
+KW  - Do-It-Yourself
+KW  - Clothing
+KW  - Actuation
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3411764.3445613
+ER  - 
+
+TY  - CONF
+TI  - Coping with Digital Wellbeing in a Multi-Device World
+AU  - Monge Roffarello, Alberto
+AU  - De Russis, Luigi
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - While Digital Self-Control Tools (DSCTs) mainly target smartphones, more effort should be put into evaluating multi-device ecosystems to enhance digital wellbeing as users typically use multiple devices at a time. In this paper, we first review more than 300 DSCTs by demonstrating that the majority of them implements a single-device conceptualization that poorly adapts to multi-device settings. Then, we report on the results from an interview and a sketching exercise (N=20) exploring how users make sense of their multi-device digital wellbeing. Findings show that digital wellbeing issues extend beyond smartphones, with the most problematic behaviors deriving from the simultaneous usage of different devices to perform uncorrelated tasks. While this suggests the need of DSCTs that can adapt to different and multiple devices, our work also highlights the importance of learning how to properly behave with technology, e.g., through educational courses, which may be more effective than any lock-out mechanism.
+DO  - 10.1145/3411764.3445076
+UR  - https://doi.org/10.1145/3411764.3445076
+KW  - technology overuse
+KW  - self-regulation
+KW  - multi-device
+KW  - interview
+KW  - digital wellbeing
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=collective; schema=v1.4
+AN  - 10.1145/3411764.3445076
+ER  - 
+
+TY  - CONF
+TI  - CakeVR: A Social Virtual Reality (VR) Tool for Co-designing Cakes
+AU  - Mei, Yanni
+AU  - Li, Jie
+AU  - de Ridder, Huib
+AU  - Cesar, Pablo
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Cake customization services allow clients to collaboratively personalize cakes with pastry chefs. However, remote (e.g., email) and in-person co-design sessions are prone to miscommunication, due to natural restrictions in visualizing cake size, decoration, and celebration context. This paper presents the design, implementation, and expert evaluation of a social VR application (CakeVR) that allows a client to remotely co-design cakes with a pastry chef, through real-time realistic 3D visualizations. Drawing on expert semi-structured interviews (4 clients, 5 pastry chefs), we distill and incorporate 8 design requirements into our CakeVR prototype. We evaluate CakeVR with 10 experts (6 clients, 4 pastry chefs) using cognitive walkthroughs, and find that it supports ideation and decision making through intuitive size manipulation, color/flavor selection, decoration design, and custom celebration theme fitting. Our findings provide recommendations for enabling co-design in social VR and highlight CakeVR’s potential to transform product design communication through remote interactive and immersive co-design.
+DO  - 10.1145/3411764.3445503
+UR  - https://doi.org/10.1145/3411764.3445503
+KW  - Social Virtual Reality
+KW  - Remote Collaboration
+KW  - Co-design
+KW  - Cake Design
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445503
+ER  - 
+
+TY  - CONF
+TI  - “Warm Bodies”: A Post-Processing Technique for Animating Dynamic Blood Flow on Photos and Avatars
+AU  - McDuff, Daniel
+AU  - Nowara, Ewa M.
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - What breathes life into an embodied agent or avatar? While body motions such as facial expressions, speech and gestures have been well studied, relatively little attention has been applied to subtle changes due to underlying physiology. We argue that subtle pulse signals are important for creating more lifelike and less disconcerting avatars. We propose a method for animating blood flow patterns, based on a data-driven physiological model that can be used to directly augment the appearance of synthetic avatars and photo-realistic faces. While the changes are difficult for participants to “see”, they significantly more frequently select faces with blood flow as more anthropomorphic and animated than faces without blood flow. Furthermore, by manipulating the frequency of the heart rate in the underlying signal we can change the perceived arousal of the character.
+DO  - 10.1145/3411764.3445719
+UR  - https://doi.org/10.1145/3411764.3445719
+KW  - photoplethysmography
+KW  - perfusion
+KW  - embodied agents
+KW  - blood flow
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445719
+ER  - 
+
+TY  - CONF
+TI  - Can Anthropographics Promote Prosociality?A Review and Large-Sample Study
+AU  - Morais, Luiz
+AU  - Jansen, Yvonne
+AU  - Andrade, Nazareno
+AU  - Dragicevic, Pierre
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Visualizations designed to make readers compassionate with the persons whose data is represented have been called anthropographics and are commonly employed by practitioners. Empirical studies have recently examined whether anthropographics indeed promote empathy, compassion, or the likelihood of prosocial behavior, but findings have been inconclusive so far. This work contributes a detailed overview of past experiments, and two new experiments that use large samples and a combination of design strategies to maximize the possibility of finding an effect. We tested an information-rich anthropographic against a simple bar chart, asking participants to allocate hypothetical money in a crowdsourcing study. We found that the anthropographic had, at best, a small effect on money allocation. Such a small effect may be relevant for large-scale donation campaigns, but the large sample sizes required to observe an effect and the noise involved in measuring it make it very difficult to study in more depth. Data and code are available at https://osf.io/xqae2/.
+DO  - 10.1145/3411764.3445637
+UR  - https://doi.org/10.1145/3411764.3445637
+KW  - information visualization
+KW  - infographics
+KW  - empathy
+KW  - compassion.
+KW  - anthropographics
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3411764.3445637
+ER  - 
+
+TY  - CONF
+TI  - Eyecam: Revealing Relations between Humans and Sensing Devices through an Anthropomorphic Webcam
+AU  - Teyssier, Marc
+AU  - Koelle, Marion
+AU  - Strohmeier, Paul
+AU  - Fruchard, Bruno
+AU  - Steimle, Jürgen
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - We are surrounded by sensing devices. We are accustomed to them, appreciate their benefits, and even create affective bonds and might neglect the implications they might have for our daily life. By presenting Eyecam, an anthropomorphic webcam mimicking a human eye, we challenge conventional relationships with ubiquitous sensing devices and call to re-think how sensing devices might appear and behave. Inspired by critical design, Eyecam is an exaggeration of a familiar sensing device which allows for critical reflections on its perceived functionalities and its impact on human-human and human-device relations. We identify 5 different roles Eyecam can take: Mediator, Observer, Mirror, Presence, and Agent. Contributing design fictions and thinking prompts, we allow for articulation on privacy awareness and intrusion, affect in mediated communication, agency and self-perception along with speculation on potential futures. We envision this work to contribute to a bold and responsible design of ubiquitous sensing devices.
+DO  - 10.1145/3411764.3445491
+UR  - https://doi.org/10.1145/3411764.3445491
+KW  - Webcam
+KW  - Ubiquitous computing
+KW  - Sensing Devices
+KW  - Critical Design
+KW  - Anthropomorphism
+N1  - source=chi_2021.bib; retained_by=tier1; terms=mediation; schema=v1.4
+AN  - 10.1145/3411764.3445491
+ER  - 
+
+TY  - CONF
+TI  - Touch without Touching: Overcoming Social Distancing in Semi-Intimate Relationships with SansTouch
+AU  - Zhang, Zhuoming
+AU  - Alvina, Jessalyn
+AU  - Héron, Robin
+AU  - Safin, Stéphane
+AU  - Détienne, Françoise
+AU  - Lecolinet, Eric
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Social distancing may force people to restrict social touch practices. Our survey (N=136) highlighted substantial social touch breakdowns during the COVID-19 pandemic for semi-intimate relationships (e.g., friends, colleagues), with handshakes being the most reduced, and frustrations at having to re-establish social touch habits. We then designed SansTouch, a multi-modal hand sleeve used together along with a smartphone to enable mediated hand-to-hand interactions such as handshakes or holding hands. To invoke the mediated touch, users synchronously mimic the hand position as in real life while holding SansTouch. Users can feel the touch sensation in real time without touching. Participants from our observational study (N=12) quickly adopted the hand-to-hand interactions of SansTouch for exchanging greetings face-to-face with colleagues and reported stronger preferences towards using SansTouch as opposed to mid-air gestures (e.g., waving). We discuss design implications, including the trade-offs of multi-modality for touch devices in face-to-face communication.
+DO  - 10.1145/3411764.3445612
+UR  - https://doi.org/10.1145/3411764.3445612
+KW  - survey
+KW  - interview
+KW  - interpersonal touch communication
+KW  - Mediated touch device
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3411764.3445612
+ER  - 
+
+TY  - CONF
+TI  - Can a Humorous Conversational Agent Enhance Learning Experience and Outcomes?
+AU  - Ceha, Jessy
+AU  - Lee, Ken Jen
+AU  - Nilsen, Elizabeth
+AU  - Goh, Joslin
+AU  - Law, Edith
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Previous studies have highlighted the benefits of pedagogical conversational agents using socially-oriented conversation with students. In this work, we examine the effects of a conversational agent’s use of affiliative and self-defeating humour — considered conducive to social well-being and enhancing interpersonal relationships — on learners’ perception of the agent and attitudes towards the task. Using a between-subjects protocol, 58 participants taught a conversational agent about rock classification using a learning-by-teaching platform, the Curiosity Notebook. While all agents were curious and enthusiastic, the style of humour was manipulated such that the agent either expressed an affiliative style, a self-defeating style, or no humour. Results demonstrate that affiliative humour can significantly increase motivation and effort, while self-defeating humour, although enhancing effort, negatively impacts enjoyment. Findings further highlight the importance of understanding learner characteristics when using humour.
+DO  - 10.1145/3411764.3445068
+UR  - https://doi.org/10.1145/3411764.3445068
+KW  - Motivation
+KW  - Learning Outcomes
+KW  - Learning Experience
+KW  - Humour
+KW  - Education
+KW  - Conversational Agent
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445068
+ER  - 
+
+TY  - CONF
+TI  - Assisting Manipulation and Grasping in Robot Teleoperation with Augmented Reality Visual Cues
+AU  - Arevalo Arboleda, Stephanie
+AU  - Rücker, Franziska
+AU  - Dierks, Tim
+AU  - Gerken, Jens
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Teleoperating industrial manipulators in co-located spaces can be challenging. Facilitating robot teleoperation by providing additional visual information about the environment and the robot affordances using augmented reality (AR), can improve task performance in manipulation and grasping. In this paper, we present two designs of augmented visual cues, that aim to enhance the visual space of the robot operator through hints about the position of the robot gripper in the workspace and in relation to the target. These visual cues aim to improve the distance perception and thus, the task performance. We evaluate both designs against a baseline in an experiment where participants teleoperate a robotic arm to perform pick-and-place tasks. Our results show performance improvements in different levels, reflecting in objective and subjective measures with trade-offs in terms of time, accuracy, and participants’ views of teleoperation. These findings show the potential of AR not only in teleoperation, but in understanding the human-robot workspace.
+DO  - 10.1145/3411764.3445398
+UR  - https://doi.org/10.1145/3411764.3445398
+KW  - visual cues
+KW  - robot teleoperation
+KW  - human-robot interaction
+KW  - augmented reality
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445398
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing Design Guidance for Contextual Adaptation of Text Content in Augmented Reality
+AU  - Dudley, John J.
+AU  - Jacques, Jason T.
+AU  - Kristensson, Per Ola
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Augmented Reality (AR) can deliver engaging user experiences that seamlessly meld virtual content with the physical environment. However, building such experiences is challenging due to the developer’s inability to assess how uncontrolled deployment contexts may influence the user experience. To address this issue, we demonstrate a method for rapidly conducting AR experiments and real-world data collection in the user’s own physical environment using a privacy-conscious mobile web application. The approach leverages the large number of distinct user contexts accessible through crowdsourcing to efficiently source diverse context and perceptual preference data. The insights gathered through this method complement emerging design guidance and sample-limited lab-based studies. The utility of the method is illustrated by re-examining the design challenge of adapting AR text content to the user’s environment. Finally, we demonstrate how gathered design insight can be operationalized to provide adaptive text content functionality in an AR headset.
+DO  - 10.1145/3411764.3445493
+UR  - https://doi.org/10.1145/3411764.3445493
+KW  - Privacy
+KW  - Crowdsourcing
+KW  - Augmented Reality
+N1  - source=chi_2021.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - 10.1145/3411764.3445493
+ER  - 
+
+TY  - CONF
+TI  - SoloFinger: Robust Microgestures while Grasping Everyday Objects
+AU  - Sharma, Adwait
+AU  - Hedderich, Michael A.
+AU  - Bhardwaj, Divyanshu
+AU  - Fruchard, Bruno
+AU  - McIntosh, Jess
+AU  - Nittala, Aditya Shekhar
+AU  - Klakow, Dietrich
+AU  - Ashbrook, Daniel
+AU  - Steimle, Jürgen
+PY  - 2021
+T2  - Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+AB  - Using microgestures, prior work has successfully enabled gestural interactions while holding objects. Yet, these existing methods are prone to false activations caused by natural finger movements while holding or manipulating the object. We address this issue with SoloFinger, a novel concept that allows design of microgestures that are robust against movements that naturally occur during primary activities. Using a data-driven approach, we establish that single-finger movements are rare in everyday hand-object actions and infer a single-finger input technique resilient to false activation. We demonstrate this concept’s robustness using a white-box classifier on a pre-existing dataset comprising 36 everyday hand-object actions. Our findings validate that simple SoloFinger gestures can relieve the need for complex finger configurations or delimiting gestures and that SoloFinger is applicable to diverse hand-object actions. Finally, we demonstrate SoloFinger’s high performance on commodity hardware using random forest classifiers.
+DO  - 10.1145/3411764.3445197
+UR  - https://doi.org/10.1145/3411764.3445197
+KW  - microgesture
+KW  - grasping
+KW  - false activation
+KW  - everyday objects
+N1  - source=chi_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3411764.3445197
+ER  - 
+

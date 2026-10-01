@@ -1,0 +1,659 @@
+TY  - CONF
+TI  - Federated Learning under Arbitrary Communication Patterns
+AU  - Avdiukhin, Dmitrii
+AU  - Kasiviswanathan, Shiva
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Federated Learning is a distributed learning setting where the goal is to train a centralized model with training data distributed over a large number of heterogeneous clients, each with unreliable and relatively slow network connections. A common optimization approach used in federated learning is based on the idea of local SGD: each client runs some number of SGD steps locally and then the updated local models are averaged to form the updated global model on the coordinating server. In this paper, we investigate the performance of an asynchronous version of local SGD wherein the clients can communicate with the server at arbitrary time intervals. Our main result shows that for smooth strongly convex and smooth nonconvex functions we achieve convergence rates that match the synchronous version that requires all clients to communicate simultaneously.
+UR  - https://proceedings.mlr.press/v139/avdiukhin21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - pmlr-v139-avdiukhin21a
+ER  - 
+
+TY  - CONF
+TI  - Locally Adaptive Label Smoothing Improves Predictive Churn
+AU  - Bahri, Dara
+AU  - Jiang, Heinrich
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Training modern neural networks is an inherently noisy process that can lead to high prediction churn– disagreements between re-trainings of the same model due to factors such as randomization in the parameter initialization and mini-batches– even when the trained models all attain similar accuracies. Such prediction churn can be very undesirable in practice. In this paper, we present several baselines for reducing churn and show that training on soft labels obtained by adaptively smoothing each example’s label based on the example’s neighboring labels often outperforms the baselines on churn while improving accuracy on a variety of benchmark classification tasks and model architectures.
+UR  - https://proceedings.mlr.press/v139/bahri21a.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-bahri21a
+ER  - 
+
+TY  - CONF
+TI  - Lower Bounds on Cross-Entropy Loss in the Presence of Test-time Adversaries
+AU  - Bhagoji, Arjun Nitin
+AU  - Cullina, Daniel
+AU  - Sehwag, Vikash
+AU  - Mittal, Prateek
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Understanding the fundamental limits of robust supervised learning has emerged as a problem of immense interest, from both practical and theoretical standpoints. In particular, it is critical to determine classifier-agnostic bounds on the training loss to establish when learning is possible. In this paper, we determine optimal lower bounds on the cross-entropy loss in the presence of test-time adversaries, along with the corresponding optimal classification outputs. Our formulation of the bound as a solution to an optimization problem is general enough to encompass any loss function depending on soft classifier outputs. We also propose and provide a proof of correctness for a bespoke algorithm to compute this lower bound efficiently, allowing us to determine lower bounds for multiple practical datasets of interest. We use our lower bounds as a diagnostic tool to determine the effectiveness of current robust training methods and find a gap from optimality at larger budgets. Finally, we investigate the possibility of using of optimal classification outputs as soft labels to empirically improve robust training.
+UR  - https://proceedings.mlr.press/v139/bhagoji21a.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-bhagoji21a
+ER  - 
+
+TY  - CONF
+TI  - Understanding and Mitigating Accuracy Disparity in Regression
+AU  - Chi, Jianfeng
+AU  - Tian, Yuan
+AU  - Gordon, Geoffrey J.
+AU  - Zhao, Han
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - With the widespread deployment of large-scale prediction systems in high-stakes domains, e.g., face recognition, criminal justice, etc., disparity on prediction accuracy between different demographic subgroups has called for fundamental understanding on the source of such disparity and algorithmic intervention to mitigate it. In this paper, we study the accuracy disparity problem in regression. To begin with, we first propose an error decomposition theorem, which decomposes the accuracy disparity into the distance between marginal label distributions and the distance between conditional representations, to help explain why such accuracy disparity appears in practice. Motivated by this error decomposition and the general idea of distribution alignment with statistical distances, we then propose an algorithm to reduce this disparity, and analyze its game-theoretic optima of the proposed objective functions. To corroborate our theoretical findings, we also conduct experiments on five benchmark datasets. The experimental results suggest that our proposed algorithms can effectively mitigate accuracy disparity while maintaining the predictive power of the regression models.
+UR  - https://proceedings.mlr.press/v139/chi21a.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-chi21a
+ER  - 
+
+TY  - CONF
+TI  - Concentric mixtures of Mallows models for top-k rankings: sampling and identifiability
+AU  - Collas, Fabien
+AU  - Irurozki, Ekhine
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - In this paper, we study mixtures of two Mallows models for top-$k$ rankings with equal location parameters but with different scale parameters (a mixture of concentric Mallows models). These models arise when we have a heterogeneous population of voters formed by two populations, one of which is a subpopulation of expert voters. We show the identifiability of both components and the learnability of their respective parameters. These results are based upon, first, bounding the sample complexity for the Borda algorithm with top-$k$ rankings. Second, we characterize the distances between rankings, showing that an off-the-shelf clustering algorithm separates the rankings by components with high probability -provided the scales are well-separated.As a by-product, we include an efficient sampling algorithm for Mallows top-$k$ rankings. Finally, since the rank aggregation will suffer from a large amount of noise introduced by the non-expert voters, we adapt the Borda algorithm to be able to recover the ground truth consensus ranking which is especially consistent with the expert rankings.
+UR  - https://proceedings.mlr.press/v139/collas21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=rank aggregation; named voting rules; schema=v1.4
+AN  - pmlr-v139-collas21a
+ER  - 
+
+TY  - CONF
+TI  - Exploiting Shared Representations for Personalized Federated Learning
+AU  - Collins, Liam
+AU  - Hassani, Hamed
+AU  - Mokhtari, Aryan
+AU  - Shakkottai, Sanjay
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Deep neural networks have shown the ability to extract universal feature representations from data such as images and text that have been useful for a variety of learning tasks. However, the fruits of representation learning have yet to be fully-realized in federated settings. Although data in federated settings is often non-i.i.d. across clients, the success of centralized deep learning suggests that data often shares a global \em feature representation, while the statistical heterogeneity across clients or tasks is concentrated in the \em labels. Based on this intuition, we propose a novel federated learning framework and algorithm for learning a shared data representation across clients and unique local heads for each client. Our algorithm harnesses the distributed computational power across clients to perform many local-updates with respect to the low-dimensional local parameters for every update of the representation. We prove that this method obtains linear convergence to the ground-truth representation with near-optimal sample complexity in a linear setting, demonstrating that it can efficiently reduce the problem dimension for each client. Further, we provide extensive experimental results demonstrating the improvement of our method over alternative personalized federated learning approaches in heterogeneous settings.
+UR  - https://proceedings.mlr.press/v139/collins21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - pmlr-v139-collins21a
+ER  - 
+
+TY  - CONF
+TI  - Consistent regression when oblivious outliers overwhelm
+AU  - D'Orsi, Tommaso
+AU  - Novikov, Gleb
+AU  - Steurer, David
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We consider a robust linear regression model $y=X\beta^* + \eta$, where an adversary oblivious to the design $X\in R^n\times d$ may choose $\eta$ to corrupt all but an $\alpha$ fraction of the observations $y$ in an arbitrary way. Prior to our work, even for Gaussian $X$, no estimator for $\beta^*$ was known to be consistent in this model except for quadratic sample size $n \gtrsim (d/\alpha)^2$ or for logarithmic inlier fraction $\alpha\ge 1/\log n$. We show that consistent estimation is possible with nearly linear sample size and inverse-polynomial inlier fraction. Concretely, we show that the Huber loss estimator is consistent for every sample size $n= \omega(d/\alpha^2)$ and achieves an error rate of $O(d/\alpha^2n)^1/2$ (both bounds are optimal up to constant factors). Our results extend to designs far beyond the Gaussian case and only require the column span of $X$ to not contain approximately sparse vectors (similar to the kind of assumption commonly made about the kernel space for compressed sensing). We provide two technically similar proofs. One proof is phrased in terms of strong convexity, extending work of [Tsakonas et al. ’14], and particularly short. The other proof highlights a connection between the Huber loss estimator and high-dimensional median computations. In the special case of Gaussian designs, this connection leads us to a strikingly simple algorithm based on computing coordinate-wise medians that achieves nearly optimal guarantees in linear time, and that can exploit sparsity of $\beta^*$. The model studied here also captures heavy-tailed noise distributions that may not even have a first moment.
+UR  - https://proceedings.mlr.press/v139/d-orsi21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=robust aggregators; schema=v1.4
+AN  - pmlr-v139-d-orsi21a
+ER  - 
+
+TY  - CONF
+TI  - Byzantine-Resilient High-Dimensional SGD with Local Iterations on Heterogeneous Data
+AU  - Data, Deepesh
+AU  - Diggavi, Suhas
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We study stochastic gradient descent (SGD) with local iterations in the presence of Byzantine clients, motivated by the federated learning. The clients, instead of communicating with the server in every iteration, maintain their local models, which they update by taking several SGD iterations based on their own datasets and then communicate the net update with the server, thereby achieving communication-efficiency. Furthermore, only a subset of clients communicates with the server at synchronization times. The Byzantine clients may collude and send arbitrary vectors to the server to disrupt the learning process. To combat the adversary, we employ an efficient high-dimensional robust mean estimation algorithm at the server to filter-out corrupt vectors; and to analyze the outlier-filtering procedure, we develop a novel matrix concentration result that may be of independent interest. We provide convergence analyses for both strongly-convex and non-convex smooth objectives in the heterogeneous data setting. We believe that ours is the first Byzantine-resilient local SGD algorithm and analysis with non-trivial guarantees. We corroborate our theoretical results with preliminary experiments for neural network training.
+UR  - https://proceedings.mlr.press/v139/data21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=byzantine; schema=v1.4
+AN  - pmlr-v139-data21a
+ER  - 
+
+TY  - CONF
+TI  - Revenue-Incentive Tradeoffs in Dynamic Reserve Pricing
+AU  - Deng, Yuan
+AU  - Lahaie, Sebastien
+AU  - Mirrokni, Vahab
+AU  - Zuo, Song
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Online advertisements are primarily sold via repeated auctions with reserve prices. In this paper, we study how to set reserves to boost revenue based on the historical bids of strategic buyers, while controlling the impact of such a policy on the incentive compatibility of the repeated auctions. Adopting an incentive compatibility metric which quantifies the incentives to shade bids, we propose a novel class of reserve pricing policies and provide analytical tradeoffs between their revenue performance and bid-shading incentives. The policies are inspired by the exponential mechanism from the literature on differential privacy, but our study uncovers mechanisms with significantly better revenue-incentive tradeoffs than the exponential mechanism in practice. We further empirically evaluate the tradeoffs on synthetic data as well as real ad auction data from a major ad exchange to verify and support our theoretical findings.
+UR  - https://proceedings.mlr.press/v139/deng21c.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=incentives; schema=v1.4
+AN  - pmlr-v139-deng21c
+ER  - 
+
+TY  - CONF
+TI  - Connecting Optimal Ex-Ante Collusion in Teams to Extensive-Form Correlation: Faster Algorithms and Positive Complexity Results
+AU  - Farina, Gabriele
+AU  - Celli, Andrea
+AU  - Gatti, Nicola
+AU  - Sandholm, Tuomas
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We focus on the problem of finding an optimal strategy for a team of players that faces an opponent in an imperfect-information zero-sum extensive-form game. Team members are not allowed to communicate during play but can coordinate before the game. In this setting, it is known that the best the team can do is sample a profile of potentially randomized strategies (one per player) from a joint (a.k.a. correlated) probability distribution at the beginning of the game. In this paper, we first provide new modeling results about computing such an optimal distribution by drawing a connection to a different literature on extensive-form correlation. Second, we provide an algorithm that allows one for capping the number of profiles employed in the solution. This begets an anytime algorithm by increasing the cap. We find that often a handful of well-chosen such profiles suffices to reach optimal utility for the team. This enables team members to reach coordination through a simple and understandable plan. Finally, inspired by this observation and leveraging theoretical concepts that we introduce, we develop an efficient column-generation algorithm for finding an optimal distribution for the team. We evaluate it on a suite of common benchmark games. It is three orders of magnitude faster than the prior state of the art on games that the latter can solve and it can also solve several games that were previously unsolvable.
+UR  - https://proceedings.mlr.press/v139/farina21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - pmlr-v139-farina21a
+ER  - 
+
+TY  - CONF
+TI  - Lossless Compression of Efficient Private Local Randomizers
+AU  - Feldman, Vitaly
+AU  - Talwar, Kunal
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Locally Differentially Private (LDP) Reports are commonly used for collection of statistics and machine learning in the federated setting. In many cases the best known LDP algorithms require sending prohibitively large messages from the client device to the server (such as when constructing histograms over a large domain or learning a high-dimensional model). Here we demonstrate a general approach that, under standard cryptographic assumptions, compresses every efficient LDP algorithm with negligible loss in privacy and utility guarantees. The practical implication of our result is that in typical applications every message can be compressed to the size of the server’s pseudo-random generator seed. From this general approach we derive low-communication algorithms for the problems of frequency estimation and high-dimensional mean estimation. Our algorithms are simpler and more accurate than existing low-communication LDP algorithms for these well-studied problems.
+UR  - https://proceedings.mlr.press/v139/feldman21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - pmlr-v139-feldman21a
+ER  - 
+
+TY  - CONF
+TI  - Strategic Classification in the Dark
+AU  - Ghalme, Ganesh
+AU  - Nair, Vineet
+AU  - Eilat, Itay
+AU  - Talgam-Cohen, Inbal
+AU  - Rosenfeld, Nir
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Strategic classification studies the interaction between a classification rule and the strategic agents it governs. Agents respond by manipulating their features, under the assumption that the classifier is known. However, in many real-life scenarios of high-stake classification (e.g., credit scoring), the classifier is not revealed to the agents, which leads agents to attempt to learn the classifier and game it too. In this paper we generalize the strategic classification model to such scenarios and analyze the effect of an unknown classifier. We define the ”price of opacity” as the difference between the prediction error under the opaque and transparent policies, characterize it, and give a sufficient condition for it to be strictly positive, in which case transparency is the recommended policy. Our experiments show how Hardt et al.’s robust classifier is affected by keeping agents in the dark.
+UR  - https://proceedings.mlr.press/v139/ghalme21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - pmlr-v139-ghalme21a
+ER  - 
+
+TY  - CONF
+TI  - Differentially Private Aggregation in the Shuffle Model: Almost Central Accuracy in Almost a Single Message
+AU  - Ghazi, Badih
+AU  - Kumar, Ravi
+AU  - Manurangsi, Pasin
+AU  - Pagh, Rasmus
+AU  - Sinha, Amer
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - The shuffle model of differential privacy has attracted attention in the literature due to it being a middle ground between the well-studied central and local models. In this work, we study the problem of summing (aggregating) real numbers or integers, a basic primitive in numerous machine learning tasks, in the shuffle model. We give a protocol achieving error arbitrarily close to that of the (Discrete) Laplace mechanism in central differential privacy, while each user only sends 1 + o(1) short messages in expectation.
+UR  - https://proceedings.mlr.press/v139/ghazi21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=private aggregation; schema=v1.4
+AN  - pmlr-v139-ghazi21a
+ER  - 
+
+TY  - CONF
+TI  - Valid Causal Inference with (Some) Invalid Instruments
+AU  - Hartford, Jason S
+AU  - Veitch, Victor
+AU  - Sridhar, Dhanya
+AU  - Leyton-Brown, Kevin
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Instrumental variable methods provide a powerful approach to estimating causal effects in the presence of unobserved confounding. But a key challenge when applying them is the reliance on untestable "exclusion" assumptions that rule out any relationship between the instrument variable and the response that is not mediated by the treatment. In this paper, we show how to perform consistent IV estimation despite violations of the exclusion assumption. In particular, we show that when one has multiple candidate instruments, only a majority of these candidates—or, more generally, the modal candidate-response relationship—needs to be valid to estimate the causal effect. Our approach uses an estimate of the modal prediction from an ensemble of instrumental variable estimators. The technique is simple to apply and is "black-box" in the sense that it may be used with any instrumental variable estimator as long as the treatment effect is identified for each valid instrument independently. As such, it is compatible with recent machine-learning based estimators that allow for the estimation of conditional average treatment effects (CATE) on complex, high dimensional data. Experimentally, we achieve accurate estimates of conditional average treatment effects using an ensemble of deep network-based estimators, including on a challenging simulated Mendelian Randomization problem.
+UR  - https://proceedings.mlr.press/v139/hartford21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=ensemble; adjudication; collective; schema=v1.4
+AN  - pmlr-v139-hartford21a
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing via Annotator Co-occurrence Imputation and Provable Symmetric Nonnegative Matrix Factorization
+AU  - Ibrahim, Shahana
+AU  - Fu, Xiao
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Unsupervised learning of the Dawid-Skene (D&S) model from noisy, incomplete and crowdsourced annotations has been a long-standing challenge, and is a critical step towards reliably labeling massive data. A recent work takes a coupled nonnegative matrix factorization (CNMF) perspective, and shows appealing features: It ensures the identifiability of the D&S model and enjoys low sample complexity, as only the estimates of the co-occurrences of annotator labels are involved. However, the identifiability holds only when certain somewhat restrictive conditions are met in the context of crowdsourcing. Optimizing the CNMF criterion is also costly—and convergence assurances are elusive. This work recasts the pairwise co-occurrence based D&S model learning problem as a symmetric NMF (SymNMF) problem—which offers enhanced identifiability relative to CNMF. In practice, the SymNMF model is often (largely) incomplete, due to the lack of co-labeled items by some annotators. Two lightweight algorithms are proposed for co-occurrence imputation. Then, a low-complexity shifted rectified linear unit (ReLU)-empowered SymNMF algorithm is proposed to identify the D&S model. Various performance characterizations (e.g., missing co-occurrence recoverability, stability, and convergence) and evaluations are also presented.
+UR  - https://proceedings.mlr.press/v139/ibrahim21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=crowd models; schema=v1.4
+AN  - pmlr-v139-ibrahim21a
+ER  - 
+
+TY  - CONF
+TI  - Imitation by Predicting Observations
+AU  - Jaegle, Andrew
+AU  - Sulsky, Yury
+AU  - Ahuja, Arun
+AU  - Bruce, Jake
+AU  - Fergus, Rob
+AU  - Wayne, Greg
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Imitation learning enables agents to reuse and adapt the hard-won expertise of others, offering a solution to several key challenges in learning behavior. Although it is easy to observe behavior in the real-world, the underlying actions may not be accessible. We present a new method for imitation solely from observations that achieves comparable performance to experts on challenging continuous control tasks while also exhibiting robustness in the presence of observations unrelated to the task. Our method, which we call FORM (for "Future Observation Reward Model") is derived from an inverse RL objective and imitates using a model of expert behavior learned by generative modelling of the expert’s observations, without needing ground truth actions. We show that FORM performs comparably to a strong baseline IRL method (GAIL) on the DeepMind Control Suite benchmark, while outperforming GAIL in the presence of task-irrelevant features.
+UR  - https://proceedings.mlr.press/v139/jaegle21b.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - pmlr-v139-jaegle21b
+ER  - 
+
+TY  - CONF
+TI  - Alternative Microfoundations for Strategic Classification
+AU  - Jagadeesan, Meena
+AU  - Mendler-Dünner, Celestine
+AU  - Hardt, Moritz
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - When reasoning about strategic behavior in a machine learning context it is tempting to combine standard microfoundations of rational agents with the statistical decision theory underlying classification. In this work, we argue that a direct combination of these ingredients leads to brittle solution concepts of limited descriptive and prescriptive value. First, we show that rational agents with perfect information produce discontinuities in the aggregate response to a decision rule that we often do not observe empirically. Second, when any positive fraction of agents is not perfectly strategic, desirable stable points—where the classifier is optimal for the data it entails—no longer exist. Third, optimal decision rules under standard microfoundations maximize a measure of negative externality known as social burden within a broad class of assumptions about agent behavior. Recognizing these limitations we explore alternatives to standard microfoundations for binary classification. We describe desiderata that help navigate the space of possible assumptions about agent responses, and we then propose the noisy response model. Inspired by smoothed analysis and empirical observations, noisy response incorporates imperfection in the agent responses, which we show mitigates the limitations of standard microfoundations. Our model retains analytical tractability, leads to more robust insights about stable points, and imposes a lower social burden at optimality.
+UR  - https://proceedings.mlr.press/v139/jagadeesan21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - pmlr-v139-jagadeesan21a
+ER  - 
+
+TY  - CONF
+TI  - DeepReDuce: ReLU Reduction for Fast Private Inference
+AU  - Jha, Nandan Kumar
+AU  - Ghodsi, Zahra
+AU  - Garg, Siddharth
+AU  - Reagen, Brandon
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - The recent rise of privacy concerns has led researchers to devise methods for private neural inference—where inferences are made directly on encrypted data, never seeing inputs. The primary challenge facing private inference is that computing on encrypted data levies an impractically-high latency penalty, stemming mostly from non-linear operators like ReLU. Enabling practical and private inference requires new optimization methods that minimize network ReLU counts while preserving accuracy. This paper proposes DeepReDuce: a set of optimizations for the judicious removal of ReLUs to reduce private inference latency. The key insight is that not all ReLUs contribute equally to accuracy. We leverage this insight to drop, or remove, ReLUs from classic networks to significantly reduce inference latency and maintain high accuracy. Given a network architecture, DeepReDuce outputs a Pareto frontier of networks that tradeoff the number of ReLUs and accuracy. Compared to the state-of-the-art for private inference DeepReDuce improves accuracy and reduces ReLU count by up to 3.5% (iso-ReLU count) and 3.5x (iso-accuracy), respectively.
+UR  - https://proceedings.mlr.press/v139/jha21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - pmlr-v139-jha21a
+ER  - 
+
+TY  - CONF
+TI  - The Distributed Discrete Gaussian Mechanism for Federated Learning with Secure Aggregation
+AU  - Kairouz, Peter
+AU  - Liu, Ziyu
+AU  - Steinke, Thomas
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We consider training models on private data that are distributed across user devices. To ensure privacy, we add on-device noise and use secure aggregation so that only the noisy sum is revealed to the server. We present a comprehensive end-to-end system, which appropriately discretizes the data and adds discrete Gaussian noise before performing secure aggregation. We provide a novel privacy analysis for sums of discrete Gaussians and carefully analyze the effects of data quantization and modular summation arithmetic. Our theoretical guarantees highlight the complex tension between communication, privacy, and accuracy. Our extensive experimental results demonstrate that our solution is essentially able to match the accuracy to central differential privacy with less than 16 bits of precision per value.
+UR  - https://proceedings.mlr.press/v139/kairouz21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=secure aggregation; schema=v1.4
+AN  - pmlr-v139-kairouz21a
+ER  - 
+
+TY  - CONF
+TI  - Learning from History for Byzantine Robust Optimization
+AU  - Karimireddy, Sai Praneeth
+AU  - He, Lie
+AU  - Jaggi, Martin
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Byzantine robustness has received significant attention recently given its importance for distributed and federated learning. In spite of this, we identify severe flaws in existing algorithms even when the data across the participants is identically distributed. First, we show realistic examples where current state of the art robust aggregation rules fail to converge even in the absence of any Byzantine attackers. Secondly, we prove that even if the aggregation rules may succeed in limiting the influence of the attackers in a single round, the attackers can couple their attacks across time eventually leading to divergence. To address these issues, we present two surprisingly simple strategies: a new robust iterative clipping procedure, and incorporating worker momentum to overcome time-coupled attacks. This is the first provably robust method for the standard stochastic optimization setting.
+UR  - https://proceedings.mlr.press/v139/karimireddy21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=aggregation rule; byzantine; schema=v1.4
+AN  - pmlr-v139-karimireddy21a
+ER  - 
+
+TY  - CONF
+TI  - Adapting to misspecification in contextual bandits with offline regression oracles
+AU  - Krishnamurthy, Sanath Kumar
+AU  - Hadad, Vitor
+AU  - Athey, Susan
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Computationally efficient contextual bandits are often based on estimating a predictive model of rewards given contexts and arms using past data. However, when the reward model is not well-specified, the bandit algorithm may incur unexpected regret, so recent work has focused on algorithms that are robust to misspecification. We propose a simple family of contextual bandit algorithms that adapt to misspecification error by reverting to a good safe policy when there is evidence that misspecification is causing a regret increase. Our algorithm requires only an offline regression oracle to ensure regret guarantees that gracefully degrade in terms of a measure of the average misspecification level. Compared to prior work, we attain similar regret guarantees, but we do no rely on a master algorithm, and do not require more robust oracles like online or constrained regression oracles (e.g., Foster et al. (2020), Krishnamurthy et al. (2020)). This allows us to design algorithms for more general function approximation classes.
+UR  - https://proceedings.mlr.press/v139/krishnamurthy21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - pmlr-v139-krishnamurthy21a
+ER  - 
+
+TY  - CONF
+TI  - Model Fusion for Personalized Learning
+AU  - Lam, Thanh Chi
+AU  - Hoang, Nghia
+AU  - Low, Bryan Kian Hsiang
+AU  - Jaillet, Patrick
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Production systems operating on a growing domain of analytic services often require generating warm-start solution models for emerging tasks with limited data. One potential approach to address this warm-start challenge is to adopt meta learning to generate a base model that can be adapted to solve unseen tasks with minimal fine-tuning. This however requires the training processes of previous solution models of existing tasks to be synchronized. This is not possible if these models were pre-trained separately on private data owned by different entities and cannot be synchronously re-trained. To accommodate for such scenarios, we develop a new personalized learning framework that synthesizes customized models for unseen tasks via fusion of independently pre-trained models of related tasks. We establish performance guarantee for the proposed framework and demonstrate its effectiveness on both synthetic and real datasets.
+UR  - https://proceedings.mlr.press/v139/lam21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=model merging; schema=v1.4
+AN  - pmlr-v139-lam21a
+ER  - 
+
+TY  - CONF
+TI  - Gradient Disaggregation: Breaking Privacy in Federated Learning by Reconstructing the User Participant Matrix
+AU  - Lam, Maximilian
+AU  - Wei, Gu-Yeon
+AU  - Brooks, David
+AU  - Reddi, Vijay Janapa
+AU  - Mitzenmacher, Michael
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We show that aggregated model updates in federated learning may be insecure. An untrusted central server may disaggregate user updates from sums of updates across participants given repeated observations, enabling the server to recover privileged information about individual users’ private training data via traditional gradient inference attacks. Our method revolves around reconstructing participant information (e.g: which rounds of training users participated in) from aggregated model updates by leveraging summary information from device analytics commonly used to monitor, debug, and manage federated learning systems. Our attack is parallelizable and we successfully disaggregate user updates on settings with up to thousands of participants. We quantitatively and qualitatively demonstrate significant improvements in the capability of various inference attacks on the disaggregated updates. Our attack enables the attribution of learned properties to individual users, violating anonymity, and shows that a determined central server may undermine the secure aggregation protocol to break individual users’ data privacy in federated learning.
+UR  - https://proceedings.mlr.press/v139/lam21b.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=secure aggregation; schema=v1.4
+AN  - pmlr-v139-lam21b
+ER  - 
+
+TY  - CONF
+TI  - Gaussian Process-Based Real-Time Learning for Safety Critical Applications
+AU  - Lederer, Armin
+AU  - Conejo, Alejandro J Ordóñez
+AU  - Maier, Korbinian A
+AU  - Xiao, Wenxin
+AU  - Umlauft, Jonas
+AU  - Hirche, Sandra
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - The safe operation of physical systems typically relies on high-quality models. Since a continuous stream of data is generated during run-time, such models are often obtained through the application of Gaussian process regression because it provides guarantees on the prediction error. Due to its high computational complexity, Gaussian process regression must be used offline on batches of data, which prevents applications, where a fast adaptation through online learning is necessary to ensure safety. In order to overcome this issue, we propose the LoG-GP. It achieves a logarithmic update and prediction complexity in the number of training points through the aggregation of locally active Gaussian process models. Under weak assumptions on the aggregation scheme, it inherits safety guarantees from exact Gaussian process regression. These theoretical advantages are exemplarily exploited in the design of a safe and data-efficient, online-learning control policy. The efficiency and performance of the proposed real-time learning approach is demonstrated in a comparison to state-of-the-art methods.
+UR  - https://proceedings.mlr.press/v139/lederer21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=aggregation rule; schema=v1.4
+AN  - pmlr-v139-lederer21a
+ER  - 
+
+TY  - CONF
+TI  - PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training
+AU  - Lee, Kimin
+AU  - Smith, Laura M
+AU  - Abbeel, Pieter
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Conveying complex objectives to reinforcement learning (RL) agents can often be difficult, involving meticulous design of reward functions that are sufficiently informative yet easy enough to provide. Human-in-the-loop RL methods allow practitioners to instead interactively teach agents through tailored feedback; however, such approaches have been challenging to scale since human feedback is very expensive. In this work, we aim to make this process more sample- and feedback-efficient. We present an off-policy, interactive RL algorithm that capitalizes on the strengths of both feedback and off-policy learning. Specifically, we learn a reward model by actively querying a teacher’s preferences between two clips of behavior and use it to train an agent. To enable off-policy learning, we relabel all the agent’s past experience when its reward model changes. We additionally show that pre-training our agents with unsupervised exploration substantially increases the mileage of its queries. We demonstrate that our approach is capable of learning tasks of higher complexity than previously considered by human-in-the-loop methods, including a variety of locomotion and robotic manipulation skills. We also show that our method is able to utilize real-time human feedback to effectively prevent reward exploitation and learn new behaviors that are difficult to specify with standard reward functions.
+UR  - https://proceedings.mlr.press/v139/lee21i.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - pmlr-v139-lee21i
+ER  - 
+
+TY  - CONF
+TI  - Approximate Group Fairness for Clustering
+AU  - Li, Bo
+AU  - Li, Lijun
+AU  - Sun, Ankang
+AU  - Wang, Chenhao
+AU  - Wang, Yingfan
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We incorporate group fairness into the algorithmic centroid clustering problem, where $k$ centers are to be located to serve $n$ agents distributed in a metric space. We refine the notion of proportional fairness proposed in [Chen et al., ICML 2019] as \em core fairness. A $k$-clustering is in the core if no coalition containing at least $n/k$ agents can strictly decrease their total distance by deviating to a new center together. Our solution concept is motivated by the situation where agents are able to coordinate and utilities are transferable. A string of existence, hardness and approximability results is provided. Particularly, we propose two dimensions to relax core requirements: one is on the degree of distance improvement, and the other is on the size of deviating coalition. For both relaxations and their combination, we study the extent to which relaxed core fairness can be satisfied in metric spaces including line, tree and general metric space, and design approximation algorithms accordingly. We also conduct experiments on synthetic and real-world data to examine the performance of our algorithms.
+UR  - https://proceedings.mlr.press/v139/li21j.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=core; schema=v1.4
+AN  - pmlr-v139-li21j
+ER  - 
+
+TY  - CONF
+TI  - Towards Understanding and Mitigating Social Biases in Language Models
+AU  - Liang, Paul Pu
+AU  - Wu, Chiyu
+AU  - Morency, Louis-Philippe
+AU  - Salakhutdinov, Ruslan
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - As machine learning methods are deployed in real-world settings such as healthcare, legal systems, and social science, it is crucial to recognize how they shape social biases and stereotypes in these sensitive decision-making processes. Among such real-world deployments are large-scale pretrained language models (LMs) that can be potentially dangerous in manifesting undesirable representational biases - harmful biases resulting from stereotyping that propagate negative generalizations involving gender, race, religion, and other social constructs. As a step towards improving the fairness of LMs, we carefully define several sources of representational biases before proposing new benchmarks and metrics to measure them. With these tools, we propose steps towards mitigating social biases during text generation. Our empirical results and human evaluation demonstrate effectiveness in mitigating bias while retaining crucial contextual information for high-fidelity text generation, thereby pushing forward the performance-fairness Pareto frontier.
+UR  - https://proceedings.mlr.press/v139/liang21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - pmlr-v139-liang21a
+ER  - 
+
+TY  - CONF
+TI  - Information Obfuscation of Graph Neural Networks
+AU  - Liao, Peiyuan
+AU  - Zhao, Han
+AU  - Xu, Keyulu
+AU  - Jaakkola, Tommi
+AU  - Gordon, Geoffrey J.
+AU  - Jegelka, Stefanie
+AU  - Salakhutdinov, Ruslan
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - While the advent of Graph Neural Networks (GNNs) has greatly improved node and graph representation learning in many applications, the neighborhood aggregation scheme exposes additional vulnerabilities to adversaries seeking to extract node-level information about sensitive attributes. In this paper, we study the problem of protecting sensitive attributes by information obfuscation when learning with graph structured data. We propose a framework to locally filter out pre-determined sensitive attributes via adversarial training with the total variation and the Wasserstein distance. Our method creates a strong defense against inference attacks, while only suffering small loss in task performance. Theoretically, we analyze the effectiveness of our framework against a worst-case adversary, and characterize an inherent trade-off between maximizing predictive accuracy and minimizing information leakage. Experiments across multiple datasets from recommender systems, knowledge graphs and quantum chemistry demonstrate that the proposed approach provides a robust defense across various graph structures and tasks, while producing competitive GNN encoders for downstream tasks.
+UR  - https://proceedings.mlr.press/v139/liao21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=aggregation rule; schema=v1.4
+AN  - pmlr-v139-liao21a
+ER  - 
+
+TY  - CONF
+TI  - Beyond the Pareto Efficient Frontier: Constraint Active Search for Multiobjective Experimental Design
+AU  - Malkomes, Gustavo
+AU  - Cheng, Bolong
+AU  - Lee, Eric H
+AU  - Mccourt, Mike
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Many problems in engineering design and simulation require balancing competing objectives under the presence of uncertainty. Sample-efficient multiobjective optimization methods focus on the objective function values in metric space and ignore the sampling behavior of the design configurations in parameter space. Consequently, they may provide little actionable insight on how to choose designs in the presence of metric uncertainty or limited precision when implementing a chosen design. We propose a new formulation that accounts for the importance of the parameter space and is thus more suitable for multiobjective design problems; instead of searching for the Pareto-efficient frontier, we solicit the desired minimum performance thresholds on all objectives to define regions of satisfaction. We introduce an active search algorithm called Expected Coverage Improvement (ECI) to efficiently discover the region of satisfaction and simultaneously sample diverse acceptable configurations. We demonstrate our algorithm on several design and simulation domains: mechanical design, additive manufacturing, medical monitoring, and plasma physics.
+UR  - https://proceedings.mlr.press/v139/malkomes21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - pmlr-v139-malkomes21a
+ER  - 
+
+TY  - CONF
+TI  - A statistical perspective on distillation
+AU  - Menon, Aditya K
+AU  - Rawat, Ankit Singh
+AU  - Reddi, Sashank
+AU  - Kim, Seungyeon
+AU  - Kumar, Sanjiv
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Knowledge distillation is a technique for improving a “student” model by replacing its one-hot training labels with a label distribution obtained from a “teacher” model. Despite its broad success, several basic questions — e.g., Why does distillation help? Why do more accurate teachers not necessarily distill better? — have received limited formal study. In this paper, we present a statistical perspective on distillation which provides an answer to these questions. Our core observation is that a “Bayes teacher” providing the true class-probabilities can lower the variance of the student objective, and thus improve performance. We then establish a bias-variance tradeoff that quantifies the value of teachers that approximate the Bayes class-probabilities. This provides a formal criterion as to what constitutes a “good” teacher, namely, the quality of its probability estimates. Finally, we illustrate how our statistical perspective facilitates novel applications of distillation to bipartite ranking and multiclass retrieval.
+UR  - https://proceedings.mlr.press/v139/menon21a.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-menon21a
+ER  - 
+
+TY  - CONF
+TI  - Privacy-Preserving Video Classification with Convolutional Neural Networks
+AU  - Pentyala, Sikha
+AU  - Dowsley, Rafael
+AU  - De Cock, Martine
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Many video classification applications require access to personal data, thereby posing an invasive security risk to the users’ privacy. We propose a privacy-preserving implementation of single-frame method based video classification with convolutional neural networks that allows a party to infer a label from a video without necessitating the video owner to disclose their video to other entities in an unencrypted manner. Similarly, our approach removes the requirement of the classifier owner from revealing their model parameters to outside entities in plaintext. To this end, we combine existing Secure Multi-Party Computation (MPC) protocols for private image classification with our novel MPC protocols for oblivious single-frame selection and secure label aggregation across frames. The result is an end-to-end privacy-preserving video classification pipeline. We evaluate our proposed solution in an application for private human emotion recognition. Our results across a variety of security settings, spanning honest and dishonest majority configurations of the computing parties, and for both passive and active adversaries, demonstrate that videos can be classified with state-of-the-art accuracy, and without leaking sensitive user information.
+UR  - https://proceedings.mlr.press/v139/pentyala21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=label aggregation; schema=v1.4
+AN  - pmlr-v139-pentyala21a
+ER  - 
+
+TY  - CONF
+TI  - Adversarial Dueling Bandits
+AU  - Saha, Aadirupa
+AU  - Koren, Tomer
+AU  - Mansour, Yishay
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We introduce the problem of regret minimization in Adversarial Dueling Bandits. As in classic Dueling Bandits, the learner has to repeatedly choose a pair of items and observe only a relative binary ‘win-loss’ feedback for this pair, but here this feedback is generated from an arbitrary preference matrix, possibly chosen adversarially. Our main result is an algorithm whose $T$-round regret compared to the Borda-winner from a set of $K$ items is $ O(K^1/3T^2/3)$, as well as a matching $\Omega(K^1/3T^2/3)$ lower bound. We also prove a similar high probability regret bound. We further consider a simpler fixed-gap adversarial setup, which bridges between two extreme preference feedback models for dueling bandits: stationary preferences and an arbitrary sequence of preferences. For the fixed-gap adversarial setup we give an $ O((K/\Delta^2) T) $ regret algorithm, where $\Delta$ is the gap in Borda scores between the best item and all other items, and show a lower bound of $\Omega(K/\Delta^2)$ indicating that our dependence on the main problem parameters $K$ and $\Delta$ is tight (up to logarithmic factors). Finally, we corroborate the theoretical results with empirical evaluations.
+UR  - https://proceedings.mlr.press/v139/saha21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=named voting rules; schema=v1.4
+AN  - pmlr-v139-saha21a
+ER  - 
+
+TY  - CONF
+TI  - Linear Transformers Are Secretly Fast Weight Programmers
+AU  - Schlag, Imanol
+AU  - Irie, Kazuki
+AU  - Schmidhuber, Jürgen
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We show the formal equivalence of linearised self-attention mechanisms and fast weight controllers from the early ’90s, where a slow neural net learns by gradient descent to program the fast weights of another net through sequences of elementary programming instructions which are additive outer products of self-invented activation patterns (today called keys and values). Such Fast Weight Programmers (FWPs) learn to manipulate the contents of a finite memory and dynamically interact with it. We infer a memory capacity limitation of recent linearised softmax attention variants, and replace the purely additive outer products by a delta rule-like programming instruction, such that the FWP can more easily learn to correct the current mapping from keys to values. The FWP also learns to compute dynamically changing learning rates. We also propose a new kernel function to linearise attention which balances simplicity and effectiveness. We conduct experiments on synthetic retrieval problems as well as standard machine translation and language modelling tasks which demonstrate the benefits of our methods.
+UR  - https://proceedings.mlr.press/v139/schlag21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - pmlr-v139-schlag21a
+ER  - 
+
+TY  - CONF
+TI  - Online Submodular Resource Allocation with Applications to Rebalancing Shared Mobility Systems
+AU  - Sessa, Pier Giuseppe
+AU  - Bogunovic, Ilija
+AU  - Krause, Andreas
+AU  - Kamgarpour, Maryam
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Motivated by applications in shared mobility, we address the problem of allocating a group of agents to a set of resources to maximize a cumulative welfare objective. We model the welfare obtainable from each resource as a monotone DR-submodular function which is a-priori unknown and can only be learned by observing the welfare of selected allocations. Moreover, these functions can depend on time-varying contextual information. We propose a distributed scheme to maximize the cumulative welfare by designing a repeated game among the agents, who learn to act via regret minimization. We propose two design choices for the game rewards based on upper confidence bounds built around the unknown welfare functions. We analyze them theoretically, bounding the gap between the cumulative welfare of the game and the highest cumulative welfare obtainable in hindsight. Finally, we evaluate our approach in a realistic case study of rebalancing a shared mobility system (i.e., positioning vehicles in strategic areas). From observed trip data, our algorithm gradually learns the users’ demand pattern and improves the overall system operation.
+UR  - https://proceedings.mlr.press/v139/sessa21a.html
+N1  - source=icml_2021.bib; retained_by=welfare; terms=social welfare function; schema=v1.4
+AN  - pmlr-v139-sessa21a
+ER  - 
+
+TY  - CONF
+TI  - Personalized Federated Learning using Hypernetworks
+AU  - Shamsian, Aviv
+AU  - Navon, Aviv
+AU  - Fetaya, Ethan
+AU  - Chechik, Gal
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Personalized federated learning is tasked with training machine learning models for multiple clients, each with its own data distribution. The goal is to train personalized models collaboratively while accounting for data disparities across clients and reducing communication costs. We propose a novel approach to this problem using hypernetworks, termed pFedHN for personalized Federated HyperNetworks. In this approach, a central hypernetwork model is trained to generate a set of models, one model for each client. This architecture provides effective parameter sharing across clients while maintaining the capacity to generate unique and diverse personal models. Furthermore, since hypernetwork parameters are never transmitted, this approach decouples the communication cost from the trainable model size. We test pFedHN empirically in several personalized federated learning challenges and find that it outperforms previous methods. Finally, since hypernetworks share information across clients, we show that pFedHN can generalize better to new clients whose distributions differ from any client observed during training.
+UR  - https://proceedings.mlr.press/v139/shamsian21a.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - pmlr-v139-shamsian21a
+ER  - 
+
+TY  - CONF
+TI  - Aggregating From Multiple Target-Shifted Sources
+AU  - Shui, Changjian
+AU  - Li, Zijian
+AU  - Li, Jiaqi
+AU  - Gagné, Christian
+AU  - Ling, Charles X
+AU  - Wang, Boyu
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Multi-source domain adaptation aims at leveraging the knowledge from multiple tasks for predicting a related target domain. Hence, a crucial aspect is to properly combine different sources based on their relations. In this paper, we analyzed the problem for aggregating source domains with different label distributions, where most recent source selection approaches fail. Our proposed algorithm differs from previous approaches in two key ways: the model aggregates multiple sources mainly through the similarity of semantic conditional distribution rather than marginal distribution; the model proposes a unified framework to select relevant sources for three popular scenarios, i.e., domain adaptation with limited label on target domain, unsupervised domain adaptation and label partial unsupervised domain adaption. We evaluate the proposed method through extensive experiments. The empirical results significantly outperform the baselines.
+UR  - https://proceedings.mlr.press/v139/shui21a.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-shui21a
+ER  - 
+
+TY  - CONF
+TI  - Collaborative Bayesian Optimization with Fair Regret
+AU  - Sim, Rachael Hwee Ling
+AU  - Zhang, Yehong
+AU  - Low, Bryan Kian Hsiang
+AU  - Jaillet, Patrick
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Bayesian optimization (BO) is a popular tool for optimizing complex and costly-to-evaluate black-box objective functions. To further reduce the number of function evaluations, any party performing BO may be interested to collaborate with others to optimize the same objective function concurrently. To do this, existing BO algorithms have considered optimizing a batch of input queries in parallel and provided theoretical bounds on their cumulative regret reflecting inefficiency. However, when the objective function values are correlated with real-world rewards (e.g., money), parties may be hesitant to collaborate if they risk incurring larger cumulative regret (i.e., smaller real-world reward) than others. This paper shows that fairness and efficiency are both necessary for the collaborative BO setting. Inspired by social welfare concepts from economics, we propose a new notion of regret capturing these properties and a collaborative BO algorithm whose convergence rate can be theoretically guaranteed by bounding the new regret, both of which share an adjustable parameter for trading off between fairness vs. efficiency. We empirically demonstrate the benefits (e.g., increased fairness) of our algorithm using synthetic and real-world datasets.
+UR  - https://proceedings.mlr.press/v139/sim21b.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=welfare; schema=v1.4
+AN  - pmlr-v139-sim21b
+ER  - 
+
+TY  - CONF
+TI  - Flow-based Attribution in Graphical Models: A Recursive Shapley Approach
+AU  - Singal, Raghav
+AU  - Michailidis, George
+AU  - Ng, Hoiyi
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We study the attribution problem in a graphical model, wherein the objective is to quantify how the effect of changes at the source nodes propagates through the graph. We develop a model-agnostic flow-based attribution method, called recursive Shapley value (RSV). RSV generalizes a number of existing node-based methods and uniquely satisfies a set of flow-based axioms. In addition to admitting a natural characterization for linear models and facilitating mediation analysis for non-linear models, RSV satisfies a mix of desirable properties discussed in the recent literature, including implementation invariance, sensitivity, monotonicity, and affine scale invariance.
+UR  - https://proceedings.mlr.press/v139/singal21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - pmlr-v139-singal21a
+ER  - 
+
+TY  - CONF
+TI  - Zero-Shot Knowledge Distillation from a Decision-Based Black-Box Model
+AU  - Wang, Zi
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Knowledge distillation (KD) is a successful approach for deep neural network acceleration, with which a compact network (student) is trained by mimicking the softmax output of a pre-trained high-capacity network (teacher). In tradition, KD usually relies on access to the training samples and the parameters of the white-box teacher to acquire the transferred knowledge. However, these prerequisites are not always realistic due to storage costs or privacy issues in real-world applications. Here we propose the concept of decision-based black-box (DB3) knowledge distillation, with which the student is trained by distilling the knowledge from a black-box teacher (parameters are not accessible) that only returns classes rather than softmax outputs. We start with the scenario when the training set is accessible. We represent a sample’s robustness against other classes by computing its distances to the teacher’s decision boundaries and use it to construct the soft label for each training sample. After that, the student can be trained via standard KD. We then extend this approach to a more challenging scenario in which even accessing the training data is not feasible. We propose to generate pseudo samples that are distinguished by the decision boundaries of the DB3 teacher to the largest extent and construct soft labels for these samples, which are used as the transfer set. We evaluate our approaches on various benchmark networks and datasets and experiment results demonstrate their effectiveness.
+UR  - https://proceedings.mlr.press/v139/wang21a.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-wang21a
+ER  - 
+
+TY  - CONF
+TI  - Label Distribution Learning Machine
+AU  - Wang, Jing
+AU  - Geng, Xin
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Although Label Distribution Learning (LDL) has witnessed extensive classification applications, it faces the challenge of objective mismatch – the objective of LDL mismatches that of classification, which has seldom been noticed in existing studies. Our goal is to solve the objective mismatch and improve the classification performance of LDL. Specifically, we extend the margin theory to LDL and propose a new LDL method called Label Distribution Learning Machine (LDLM). First, we define the label distribution margin and propose the Support Vector Regression Machine (SVRM) to learn the optimal label. Second, we propose the adaptive margin loss to learn label description degrees. In theoretical analysis, we develop a generalization theory for the SVRM and analyze the generalization of LDLM. Experimental results validate the better classification performance of LDLM.
+UR  - https://proceedings.mlr.press/v139/wang21h.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-wang21h
+ER  - 
+
+TY  - CONF
+TI  - Learning Neural Network Subspaces
+AU  - Wortsman, Mitchell
+AU  - Horton, Maxwell C
+AU  - Guestrin, Carlos
+AU  - Farhadi, Ali
+AU  - Rastegari, Mohammad
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Recent observations have advanced our understanding of the neural network optimization landscape, revealing the existence of (1) paths of high accuracy containing diverse solutions and (2) wider minima offering improved performance. Previous methods observing diverse paths require multiple training runs. In contrast we aim to leverage both property (1) and (2) with a single method and in a single training run. With a similar computational cost as training one model, we learn lines, curves, and simplexes of high-accuracy neural networks. These neural network subspaces contain diverse solutions that can be ensembled, approaching the ensemble performance of independently trained networks without the training cost. Moreover, using the subspace midpoint boosts accuracy, calibration, and robustness to label noise, outperforming Stochastic Weight Averaging.
+UR  - https://proceedings.mlr.press/v139/wortsman21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=model merging; schema=v1.4
+AN  - pmlr-v139-wortsman21a
+ER  - 
+
+TY  - CONF
+TI  - CRFL: Certifiably Robust Federated Learning against Backdoor Attacks
+AU  - Xie, Chulin
+AU  - Chen, Minghao
+AU  - Chen, Pin-Yu
+AU  - Li, Bo
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Federated Learning (FL) as a distributed learning paradigm that aggregates information from diverse clients to train a shared global model, has demonstrated great success. However, malicious clients can perform poisoning attacks and model replacement to introduce backdoors into the trained global model. Although there have been intensive studies designing robust aggregation methods and empirical robust federated training protocols against backdoors, existing approaches lack robustness certification. This paper provides the first general framework, Certifiably Robust Federated Learning (CRFL), to train certifiably robust FL models against backdoors. Our method exploits clipping and smoothing on model parameters to control the global model smoothness, which yields a sample-wise robustness certification on backdoors with limited magnitude. Our certification also specifies the relation to federated learning parameters, such as poisoning ratio on instance level, number of attackers, and training iterations. Practically, we conduct comprehensive experiments across a range of federated datasets, and provide the first benchmark for certified robustness against backdoor attacks in federated learning. Our code is publicaly available at https://github.com/AI-secure/CRFL.
+UR  - https://proceedings.mlr.press/v139/xie21a.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=aggregation rule; schema=v1.4
+AN  - pmlr-v139-xie21a
+ER  - 
+
+TY  - CONF
+TI  - Optimization of Graph Neural Networks: Implicit Acceleration by Skip Connections and More Depth
+AU  - Xu, Keyulu
+AU  - Zhang, Mozhi
+AU  - Jegelka, Stefanie
+AU  - Kawaguchi, Kenji
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Graph Neural Networks (GNNs) have been studied through the lens of expressive power and generalization. However, their optimization properties are less well understood. We take the first step towards analyzing GNN training by studying the gradient dynamics of GNNs. First, we analyze linearized GNNs and prove that despite the non-convexity of training, convergence to a global minimum at a linear rate is guaranteed under mild assumptions that we validate on real-world graphs. Second, we study what may affect the GNNs’ training speed. Our results show that the training of GNNs is implicitly accelerated by skip connections, more depth, and/or a good label distribution. Empirical results confirm that our theoretical results for linearized GNNs align with the training behavior of nonlinear GNNs. Our results provide the first theoretical support for the success of GNNs with skip connections in terms of optimization, and suggest that deep GNNs with skip connections would be promising in practice.
+UR  - https://proceedings.mlr.press/v139/xu21k.html
+N1  - source=icml_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - pmlr-v139-xu21k
+ER  - 
+
+TY  - CONF
+TI  - Federated Continual Learning with Weighted Inter-client Transfer
+AU  - Yoon, Jaehong
+AU  - Jeong, Wonyong
+AU  - Lee, Giwoong
+AU  - Yang, Eunho
+AU  - Hwang, Sung Ju
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - There has been a surge of interest in continual learning and federated learning, both of which are important in deep neural networks in real-world scenarios. Yet little research has been done regarding the scenario where each client learns on a sequence of tasks from a private local data stream. This problem of federated continual learning poses new challenges to continual learning, such as utilizing knowledge from other clients, while preventing interference from irrelevant knowledge. To resolve these issues, we propose a novel federated continual learning framework, Federated Weighted Inter-client Transfer (FedWeIT), which decomposes the network weights into global federated parameters and sparse task-specific parameters, and each client receives selective knowledge from other clients by taking a weighted combination of their task-specific parameters. FedWeIT minimizes interference between incompatible tasks, and also allows positive knowledge transfer across clients during learning. We validate our FedWeIT against existing federated learning and continual learning methods under varying degrees of task similarity across clients, and our model significantly outperforms them with a large reduction in the communication cost.
+UR  - https://proceedings.mlr.press/v139/yoon21b.html
+N1  - source=icml_2021.bib; retained_by=tier2+anchor; terms=privacy; weighting; schema=v1.4
+AN  - pmlr-v139-yoon21b
+ER  - 
+
+TY  - CONF
+TI  - On Explainability of Graph Neural Networks via Subgraph Explorations
+AU  - Yuan, Hao
+AU  - Yu, Haiyang
+AU  - Wang, Jie
+AU  - Li, Kang
+AU  - Ji, Shuiwang
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We consider the problem of explaining the predictions of graph neural networks (GNNs), which otherwise are considered as black boxes. Existing methods invariably focus on explaining the importance of graph nodes or edges but ignore the substructures of graphs, which are more intuitive and human-intelligible. In this work, we propose a novel method, known as SubgraphX, to explain GNNs by identifying important subgraphs. Given a trained GNN model and an input graph, our SubgraphX explains its predictions by efficiently exploring different subgraphs with Monte Carlo tree search. To make the tree search more effective, we propose to use Shapley values as a measure of subgraph importance, which can also capture the interactions among different subgraphs. To expedite computations, we propose efficient approximation schemes to compute Shapley values for graph data. Our work represents the first attempt to explain GNNs via identifying subgraphs explicitly and directly. Experimental results show that our SubgraphX achieves significantly improved explanations, while keeping computations at a reasonable level.
+UR  - https://proceedings.mlr.press/v139/yuan21c.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - pmlr-v139-yuan21c
+ER  - 
+
+TY  - CONF
+TI  - Federated Composite Optimization
+AU  - Yuan, Honglin
+AU  - Zaheer, Manzil
+AU  - Reddi, Sashank
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - Federated Learning (FL) is a distributed learning paradigm that scales on-device learning collaboratively and privately. Standard FL algorithms such as FEDAVG are primarily geared towards smooth unconstrained settings. In this paper, we study the Federated Composite Optimization (FCO) problem, in which the loss function contains a non-smooth regularizer. Such problems arise naturally in FL applications that involve sparsity, low-rank, monotonicity, or more general constraints. We first show that straightforward extensions of primal algorithms such as FedAvg are not well-suited for FCO since they suffer from the "curse of primal averaging," resulting in poor convergence. As a solution, we propose a new primal-dual algorithm, Federated Dual Averaging (FedDualAvg), which by employing a novel server dual averaging procedure circumvents the curse of primal averaging. Our theoretical analysis and empirical experiments demonstrate that FedDualAvg outperforms the other baselines.
+UR  - https://proceedings.mlr.press/v139/yuan21d.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - pmlr-v139-yuan21d
+ER  - 
+
+TY  - CONF
+TI  - On-Policy Deep Reinforcement Learning for the Average-Reward Criterion
+AU  - Zhang, Yiming
+AU  - Ross, Keith W
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We develop theory and algorithms for average-reward on-policy Reinforcement Learning (RL). We first consider bounding the difference of the long-term average reward for two policies. We show that previous work based on the discounted return (Schulman et al. 2015, Achiam et al. 2017) results in a non-meaningful lower bound in the average reward setting. By addressing the average-reward criterion directly, we then derive a novel bound which depends on the average divergence between the policies and on Kemeny’s constant. Based on this bound, we develop an iterative procedure which produces a sequence of monotonically improved policies for the average reward criterion. This iterative procedure can then be combined with classic Deep Reinforcement Learning (DRL) methods, resulting in practical DRL algorithms that target the long-run average reward criterion. In particular, we demonstrate that Average-Reward TRPO (ATRPO), which adapts the on-policy TRPO algorithm to the average-reward criterion, significantly outperforms TRPO in the most challenging MuJuCo environments.
+UR  - https://proceedings.mlr.press/v139/zhang21q.html
+N1  - source=icml_2021.bib; retained_by=tier1; terms=named voting rules; schema=v1.4
+AN  - pmlr-v139-zhang21q
+ER  - 
+
+TY  - CONF
+TI  - Learning Fair Policies in Decentralized Cooperative Multi-Agent Reinforcement Learning
+AU  - Zimmer, Matthieu
+AU  - Glanois, Claire
+AU  - Siddique, Umer
+AU  - Weng, Paul
+PY  - 2021
+T2  - Proceedings of the 38th International Conference on Machine Learning
+AB  - We consider the problem of learning fair policies in (deep) cooperative multi-agent reinforcement learning (MARL). We formalize it in a principled way as the problem of optimizing a welfare function that explicitly encodes two important aspects of fairness: efficiency and equity. We provide a theoretical analysis of the convergence of policy gradient for this problem. As a solution method, we propose a novel neural network architecture, which is composed of two sub-networks specifically designed for taking into account these two aspects of fairness. In experiments, we demonstrate the importance of the two sub-networks for fair optimization. Our overall approach is general as it can accommodate any (sub)differentiable welfare function. Therefore, it is compatible with various notions of fairness that have been proposed in the literature (e.g., lexicographic maximin, generalized Gini social welfare function, proportional fairness). Our method is generic and can be implemented in various MARL settings: centralized training and decentralized execution, or fully decentralized. Finally, we experimentally validate our approach in various domains and show that it can perform much better than previous methods, both in terms of efficiency and equity.
+UR  - https://proceedings.mlr.press/v139/zimmer21a.html
+N1  - source=icml_2021.bib; retained_by=welfare; terms=social welfare function; leximin; generalized means; schema=v1.4
+AN  - pmlr-v139-zimmer21a
+ER  - 
+

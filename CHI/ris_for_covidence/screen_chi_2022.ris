@@ -1,0 +1,532 @@
+TY  - CONF
+TI  - Shared Interest: Measuring Human-AI Alignment to Identify Recurring Patterns in Model Behavior
+AU  - Boggust, Angie
+AU  - Hoover, Benjamin
+AU  - Satyanarayan, Arvind
+AU  - Strobelt, Hendrik
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Saliency methods — techniques to identify the importance of input features on a model’s output — are a common step in understanding neural network behavior. However, interpreting saliency requires tedious manual inspection to identify and aggregate patterns in model behavior, resulting in ad hoc or cherry-picked analysis. To address these concerns, we present Shared Interest: metrics for comparing model reasoning (via saliency) to human reasoning (via ground truth annotations). By providing quantitative descriptors, Shared Interest enables ranking, sorting, and aggregating inputs, thereby facilitating large-scale systematic analysis of model behavior. We use Shared Interest to identify eight recurring patterns in model behavior, such as cases where contextual features or a subset of ground truth features are most important to the model. Working with representative real-world users, we show how Shared Interest can be used to decide if a model is trustworthy, uncover issues missed in manual analyses, and enable interactive probing.
+DO  - 10.1145/3491102.3501965
+UR  - https://doi.org/10.1145/3491102.3501965
+KW  - human-computer interaction
+KW  - interpretability
+KW  - machine learning
+KW  - saliency methods
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=combining; ai alignment; schema=v1.4
+AN  - 10.1145/3491102.3501965
+ER  - 
+
+TY  - CONF
+TI  - Great Chain of Agents: The Role of Metaphorical Representation of Agents in Conversational Crowdsourcing
+AU  - Jung, Ji-Youn
+AU  - Qiu, Sihang
+AU  - Bozzon, Alessandro
+AU  - Gadiraju, Ujwal
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Conversational agents are being widely adopted across several domains to serve a variety of purposes ranging from providing intelligent assistance to companionship. Recent literature has shown that users develop intuitive folk theories and a metaphorical understanding of conversational agents (CAs) due to the lack of a mental model of the agents. However, investigation of metaphorical agent representation in the HCI community has mainly focused on the human level, despite non-human metaphors for agents being prevalent in the real world. We adopted Lakoff and Turner’s ‘Great Chain of Being’ framework to systematically investigate the impact of using non-human metaphors to represent conversational agents on worker engagement in crowdsourcing marketplaces. We designed a text-based conversational agent that assists crowd workers in task execution. Through a between-subjects experimental study (N = 341), we explored how different human and non-human metaphors affect worker engagement, the perceived cognitive load of workers, intrinsic motivation, and their trust in the agents. Our findings bridge the gap of how users experience CAs with non-human metaphors in the context of conversational crowdsourcing.
+DO  - 10.1145/3491102.3517653
+UR  - https://doi.org/10.1145/3491102.3517653
+KW  - Conceptual metaphors
+KW  - Conversational agent
+KW  - Crowdsourcing
+KW  - Engagement
+KW  - Great chain of being
+KW  - Human-AI interaction
+KW  - Human-agent interaction
+KW  - Trust
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3491102.3517653
+ER  - 
+
+TY  - CONF
+TI  - ASTEROIDS: Exploring Swarms of Mini-Telepresence Robots for Physical Skill Demonstration
+AU  - Li, Jiannan
+AU  - Sousa, Maurício
+AU  - Li, Chu
+AU  - Liu, Jessie
+AU  - Chen, Yan
+AU  - Balakrishnan, Ravin
+AU  - Grossman, Tovi
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Online synchronous tutoring allows for immediate engagement between instructors and audiences over distance. However, tutoring physical skills remains challenging because current telepresence approaches may not allow for adequate spatial awareness, viewpoint control of the demonstration activities scattered across an entire work area, and the instructor’s sufficient awareness of the audience. We present Asteroids, a novel approach for tangible robotic telepresence, to enable workbench-scale physical embodiments of remote people and tangible interactions by the instructor. With Asteroids, the audience can actively control a swarm of mini-telepresence robots, change camera positions, and switch to other robots’ viewpoints. Demonstrators can perceive the audiences’ physical presence while using tangible manipulations to control the audience’s viewpoints and presentation flow. We conducted an exploratory evaluation for Asteroids with 12 remote participants in a model-making tutorial scenario with an architectural expert demonstrator. Results suggest our unique features benefitted participants’ engagement, sense of presence, and understanding.
+DO  - 10.1145/3491102.3501927
+UR  - https://doi.org/10.1145/3491102.3501927
+KW  - Collaboration
+KW  - Physical Skill
+KW  - Robots
+KW  - Telepresence
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3491102.3501927
+ER  - 
+
+TY  - CONF
+TI  - For What It’s Worth: Humans Overwrite Their Economic Self-interest to Avoid Bargaining With AI Systems
+AU  - Erlei, Alexander
+AU  - Das, Richeek
+AU  - Meub, Lukas
+AU  - Anand, Avishek
+AU  - Gadiraju, Ujwal
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - As algorithms are increasingly augmenting and substituting human decision-making, understanding how the introduction of computational agents changes the fundamentals of human behavior becomes vital. This pertains to not only users, but also those parties who face the consequences of an algorithmic decision. In a controlled experiment with 480 participants, we exploit an extended version of two-player ultimatum bargaining where responders choose to bargain with either another human, another human with an AI decision aid or an autonomous AI-system acting on behalf of a passive human proposer. Our results show strong responder preferences against the algorithm, as most responders opt for a human opponent and demand higher compensation to reach a contract with autonomous agents. To map these preferences to economic expectations, we elicit incentivized subject beliefs about their opponent’s behavior. The majority of responders maximize their expected value when this is line with approaching the human proposer. In contrast, responders predicting income maximization for the autonomous AI-system overwhelmingly override economic self-interest to avoid the algorithm.
+DO  - 10.1145/3491102.3517734
+UR  - https://doi.org/10.1145/3491102.3517734
+KW  - AI system
+KW  - Decision Support System
+KW  - Human-AI Interaction
+KW  - Market Interaction
+KW  - Online Experiment
+KW  - Ultimatum Bargaining
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=negotiation; collective; schema=v1.4
+AN  - 10.1145/3491102.3517734
+ER  - 
+
+TY  - CONF
+TI  - Jury Learning: Integrating Dissenting Voices into Machine Learning Models
+AU  - Gordon, Mitchell L.
+AU  - Lam, Michelle S.
+AU  - Park, Joon Sung
+AU  - Patel, Kayur
+AU  - Hancock, Jeff
+AU  - Hashimoto, Tatsunori
+AU  - Bernstein, Michael S.
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Whose labels should a machine learning (ML) algorithm learn to emulate? For ML tasks ranging from online comment toxicity to misinformation detection to medical diagnosis, different groups in society may have irreconcilable disagreements about ground truth labels. Supervised ML today resolves these label disagreements implicitly using majority vote, which overrides minority groups’ labels. We introduce jury learning, a supervised ML approach that resolves these disagreements explicitly through the metaphor of a jury: defining which people or groups, in what proportion, determine the classifier’s prediction. For example, a jury learning model for online toxicity might centrally feature women and Black jurors, who are commonly targets of online harassment. To enable jury learning, we contribute a deep learning architecture that models every annotator in a dataset, samples from annotators’ models to populate the jury, then runs inference to classify. Our architecture enables juries that dynamically adapt their composition, explore counterfactuals, and visualize dissent. A field evaluation finds that practitioners construct diverse juries that alter 14\% of classification outcomes.
+DO  - 10.1145/3491102.3502004
+UR  - https://doi.org/10.1145/3491102.3502004
+N1  - source=chi_2022.bib; retained_by=preservation; terms=minority; jury; schema=v1.4
+AN  - 10.1145/3491102.3502004
+ER  - 
+
+TY  - CONF
+TI  - Compete, Collaborate, Investigate: Exploring the Social Structures of Open Source Intelligence Investigations
+AU  - Belghith, Yasmine
+AU  - Venkatagiri, Sukrit
+AU  - Luther, Kurt
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Online investigations are increasingly conducted by individuals with diverse skill levels and experiences, with mixed results. Novice investigations often result in vigilantism or doxxing, while expert investigations have greater success rates and fewer mishaps. Many of these experts are involved in a community of practice known as Open Source Intelligence (OSINT), with an ethos and set of techniques for conducting investigations using only publicly available data. Through semi-structured interviews with 14 expert OSINT investigators from nine different organizations, we examine the social dynamics of this community, including the collaboration and competition patterns that underlie their investigations. We also describe investigators’ use of and challenges with existing OSINT tools, and implications for the design of social computing systems to better support crowdsourced investigations.
+DO  - 10.1145/3491102.3517526
+UR  - https://doi.org/10.1145/3491102.3517526
+KW  - OSINT
+KW  - collaboration
+KW  - competition
+KW  - crowdsourcing
+KW  - experts
+KW  - investigation
+KW  - open source intelligence
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3491102.3517526
+ER  - 
+
+TY  - CONF
+TI  - PITAS: Sensing and Actuating Embedded Robotic Sheet for Physical Information Communication
+AU  - Cheng, Tingyu
+AU  - Park, Jung Wook
+AU  - Li, Jiachen
+AU  - Ramey, Charles
+AU  - Lin, Hongnan
+AU  - Abowd, Gregory D.
+AU  - Brum Medeiros, Carolina
+AU  - Oh, HyunJoo
+AU  - Giordano, Marcello
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - This work presents PITAS, a thin-sheet robotic material composed of a reversible phase transition actuating layer and a heating/sensing layer. The synthetic sheet material enables non-expert makers to create shape-changing devices that can locally or remotely convey physical information such as shape, color, texture and temperature changes. PITAS sheets can be manipulated into various 2D shapes or 3D geometries using subtractive fabrication methods such as laser, vinyl, or manual cutting or an optional additive 3D printing method for creating 3D objects. After describing the design of PITAS, this paper also describes a study conducted with thirteen makers to gauge the accessibility, design space, and limitations encountered when PITAS is used as a soft robotic material while designing physical information communication devices. Lastly, this work reports on the results of a mechanical and electrical evaluation of PITAS and presents application examples to demonstrate its utility.
+DO  - 10.1145/3491102.3517532
+UR  - https://doi.org/10.1145/3491102.3517532
+KW  - phase transition actuator
+KW  - physical telecommunication
+KW  - shape-changing interface
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3491102.3517532
+ER  - 
+
+TY  - CONF
+TI  - Reflective Spring Cleaning: Using Personal Informatics to Support Infrequent Notification Personalization
+AU  - Janzen, Izabelle F
+AU  - McGrenere, Joanna
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Distracting mobile notifications are a high-profile problem but previous research suggests notification management tools are underused because of the barriers users face in relation to the perceived benefits. We posit that users might be more motivated to personalize if they could view contextual data for how personalizations would have impacted their recent notifications. We propose the ‘Reflective Spring Cleaning’ approach to support notification management through infrequent personalization with visualization of collected notification data. To simplify and contextualize key trends in a user’s notifications, we framed these visualizations within a novel who-what-when data abstraction. We evaluated it through a four-week longitudinal study: 21 participants logged their notifications before and after a personalization session that included suggestions for notification management contextualized against visualizations of their recent notifications. A debriefing interview described their new experience after two more weeks of logging. Our approach encouraged users to critically reflect on their notifications, which frequently inspired them to personalize and improved the experience of the majority.
+DO  - 10.1145/3491102.3517493
+UR  - https://doi.org/10.1145/3491102.3517493
+KW  - interruption
+KW  - notifications
+KW  - personal informatics
+KW  - personalization
+KW  - visualization
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=collective; schema=v1.4
+AN  - 10.1145/3491102.3517493
+ER  - 
+
+TY  - CONF
+TI  - How Accurate Does It Feel? – Human Perception of Different Types of Classification Mistakes
+AU  - Papenmeier, Andrea
+AU  - Kern, Dagmar
+AU  - Hienert, Daniel
+AU  - Kammerer, Yvonne
+AU  - Seifert, Christin
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Supervised machine learning utilizes large datasets, often with ground truth labels annotated by humans. While some data points are easy to classify, others are hard to classify, which reduces the inter-annotator agreement. This causes noise for the classifier and might affect the user’s perception of the classifier’s performance. In our research, we investigated whether the classification difficulty of a data point influences how strongly a prediction mistake reduces the “perceived accuracy”. In an experimental online study, 225 participants interacted with three fictive classifiers with equal accuracy (73\%). The classifiers made prediction mistakes on three different types of data points (easy, difficult, impossible). After the interaction, participants judged the classifier’s accuracy. We found that not all prediction mistakes reduced the perceived accuracy equally. Furthermore, the perceived accuracy differed significantly from the calculated accuracy. To conclude, accuracy and related measures seem unsuitable to represent how users perceive the performance of classifiers.
+DO  - 10.1145/3491102.3501915
+UR  - https://doi.org/10.1145/3491102.3501915
+KW  - Accuracy
+KW  - Annotations
+KW  - Ground Truth
+KW  - Perception
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=agreement; schema=v1.4
+AN  - 10.1145/3491102.3501915
+ER  - 
+
+TY  - CONF
+TI  - Visual Delegate Generalization Frame – Evaluating Impact of Visual Effects and Elements on Player and User Experiences in Video Games and Interactive Virtual Environments
+AU  - Misztal, Sebastian
+AU  - Schild, Jonas
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Visual effects and elements in video games and interactive virtual environments can be applied to transfer (or delegate) non-visual perceptions (e.g., proprioception, presence, pain) to players and users, thus increasing perceptual diversity via the visual modality. Such elements or effects are referred to as visual delegates (VDs). Current findings on the experiences that VDs can elicit relate to specific VDs, not to VDs in general. Deductive and comprehensive VD evaluation frameworks are lacking. We analyzed VDs in video games to generalize VDs in terms of their visual properties. We conducted a systematic paper analysis to explore player and user experiences observed in association with specific VDs in user studies. We conducted semi-structured interviews with expert players to determine their preferences and the impact of VD properties. The resulting VD framework (VD-frame) contributes to a more strategic approach to identifying the impact of VDs on player and user experiences.
+DO  - 10.1145/3491102.3501885
+UR  - https://doi.org/10.1145/3491102.3501885
+KW  - game analysis
+KW  - graphical user interface
+KW  - literature review
+KW  - semi-structured interview
+KW  - user experience
+KW  - virtual reality
+KW  - visual delegates
+KW  - visual perception
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=delegation; schema=v1.4
+AN  - 10.1145/3491102.3501885
+ER  - 
+
+TY  - CONF
+TI  - Ga11y: An Automated GIF Annotation System for Visually Impaired Users
+AU  - Zhang, Mingrui Ray
+AU  - Zhong, Mingyuan
+AU  - Wobbrock, Jacob O.
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Animated GIF images have become prevalent in internet culture, often used to express richer and more nuanced meanings than static images. But animated GIFs often lack adequate alternative text descriptions, and it is challenging to generate such descriptions automatically, resulting in inaccessible GIFs for blind or low-vision (BLV) users. To improve the accessibility of animated GIFs for BLV users, we provide a system called Ga11y (pronounced “galley”), for creating GIF annotations. Ga11y combines the power of machine intelligence and crowdsourcing and has three components: an Android client for submitting annotation requests, a backend server and database, and a web interface where volunteers can respond to annotation requests. We evaluated three human annotation interfaces and employ the one that yielded the best annotation quality. We also conducted a multi-stage evaluation with 12 BLV participants from the United States and China, receiving positive feedback.
+DO  - 10.1145/3491102.3502092
+UR  - https://doi.org/10.1145/3491102.3502092
+KW  - GIF
+KW  - accessibility.
+KW  - blind
+KW  - crowdsourcing
+KW  - human annotation
+KW  - images
+KW  - low vision
+KW  - text description
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3491102.3502092
+ER  - 
+
+TY  - CONF
+TI  - Bridging Contextual and Methodological Gaps on the “Misinformation Beat”: Insights from Journalist-Researcher Collaborations at Speed
+AU  - McClure Haughey, Melinda
+AU  - Povolo, Martina
+AU  - Starbird, Kate
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - As misinformation, disinformation, and conspiracy theories increase online, so does journalism coverage of these topics. This reporting is challenging, and journalists fill gaps in their expertise by utilizing external resources, including academic researchers. This paper discusses how journalists work with researchers to report on online misinformation. Through an ethnographic study of thirty collaborations, including participant-observation and interviews with journalists and researchers, we identify five types of collaborations and describe what motivates journalists to reach out to researchers — from a lack of access to data to support for understanding misinformation context. We highlight challenges within these collaborations, including misalignment in professional work practices, ethical guidelines, and reward structures. We end with a call to action for CHI researchers to attend to this intersection, develop ethical guidelines around supporting journalists with data at speed, and offer practical approaches for researchers filling a “data mediator” role between social media and journalists.
+DO  - 10.1145/3491102.3517503
+UR  - https://doi.org/10.1145/3491102.3517503
+N1  - source=chi_2022.bib; retained_by=tier1; terms=mediation; schema=v1.4
+AN  - 10.1145/3491102.3517503
+ER  - 
+
+TY  - CONF
+TI  - Birds of a feather don’t fact-check each other: Partisanship and the evaluation of news in Twitter’s Birdwatch crowdsourced fact-checking program
+AU  - Allen, Jennifer
+AU  - Martel, Cameron
+AU  - Rand, David G
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - There is a great deal of interest in the role that partisanship, and cross-party animosity in particular, plays in interactions on social media. Most prior research, however, must infer users’ judgments of others’ posts from engagement data. Here, we leverage data from Birdwatch, Twitter’s crowdsourced fact-checking pilot program, to directly measure judgments of whether other users’ tweets are misleading, and whether other users’ free-text evaluations of third-party tweets are helpful. For both sets of judgments, we find that contextual features – in particular, the partisanship of the users – are far more predictive of judgments than the content of the tweets and evaluations themselves. Specifically, users are more likely to write negative evaluations of tweets from counter-partisans; and are more likely to rate evaluations from counter-partisans as unhelpful. Our findings provide clear evidence that Birdwatch users preferentially challenge content from those with whom they disagree politically. While not necessarily indicating that Birdwatch is ineffective for identifying misleading content, these results demonstrate the important role that partisanship can play in content evaluation. Platform designers must consider the ramifications of partisanship when implementing crowdsourcing programs.
+DO  - 10.1145/3491102.3502040
+UR  - https://doi.org/10.1145/3491102.3502040
+KW  - crowdsourcing
+KW  - fact-checking
+KW  - misinformation
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3491102.3502040
+ER  - 
+
+TY  - CONF
+TI  - User Perceptions of Extraversion in Chatbots after Repeated Use
+AU  - Völkel, Sarah Theres
+AU  - Schoedel, Ramona
+AU  - Kaya, Lale
+AU  - Mayer, Sven
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Whilst imbuing robots and voice assistants with personality has been found to positively impact user experience, little is known about user perceptions of personality in purely text-based chatbots. In a within-subjects study, we asked N=34 participants to interact with three chatbots with different levels of Extraversion (extraverted, average, introverted), each over the course of four days. We systematically varied the chatbots’ responses to manipulate Extraversion based on work in the psycholinguistics of human behaviour. Our results show that participants perceived the extraverted and average chatbots as such, whereas verbal cues transferred from human behaviour were insufficient to create an introverted chatbot. Whilst most participants preferred interacting with the extraverted chatbot, participants engaged significantly more with the introverted chatbot as indicated by the users’ average number of written words. We discuss implications for researchers and practitioners on how to design chatbot personalities that can adapt to user preferences.
+DO  - 10.1145/3491102.3502058
+UR  - https://doi.org/10.1145/3491102.3502058
+KW  - chatbot
+KW  - conversational agent
+KW  - extraversion
+KW  - personalisation
+KW  - personality
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3491102.3502058
+ER  - 
+
+TY  - CONF
+TI  - Roman: Making Everyday Objects Robotically Manipulable with 3D-Printable Add-on Mechanisms
+AU  - Li, Jiahao
+AU  - Samoylov, Alexis
+AU  - Kim, Jeeeun
+AU  - Chen, Xiang 'Anthony'
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - One important vision of robotics is to provide physical assistance by manipulating different everyday objects, e.g., hand tools, kitchen utensils. However, many objects designed for dexterous hand-control are not easily manipulable by a single robotic arm with a generic parallel gripper. Complementary to existing research on developing grippers and control algorithms, we present Roman, a suite of hardware design and software tool support for robotic engineers to create 3D printable mechanisms attached to everyday handheld objects, making them easier to be manipulated by conventional robotic arms. The Roman hardware comes with a versatile magnetic gripper that can snap on/off handheld objects and drive add-on mechanisms to perform tasks. Roman also provides software support to register and author control programs. To validate our approach, we designed and fabricated Roman mechanisms for 14 everyday objects/tasks presented within a design space and conducted expert interviews with robotic engineers indicating that Roman serves as a practical alternative for enabling robotic manipulation of everyday objects.
+DO  - 10.1145/3491102.3501818
+UR  - https://doi.org/10.1145/3491102.3501818
+KW  - Robotic grasping and manipulation
+KW  - handheld objects augmentation
+KW  - mechanism design.
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3491102.3501818
+ER  - 
+
+TY  - CONF
+TI  - Unmaking as Agonism: Using Participatory Design with Youth to Surface Difference in an Intergenerational Urban Context
+AU  - Sabie, Samar
+AU  - Jackson, Steven J.
+AU  - Ju, Wendy
+AU  - Parikh, Tapan
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Design has been used to contest existing socio-technical arrangements, provoke conversations around matters of concern, and operationalize radical theories such as agonism, which embraces difference and contention. However, the focus is usually on creating something new: a product, interface or artifact. In this paper, we investigate what happens when critical unmaking is deployed as a deliberate design strategy in an intergenerational, agonistic urban context. Specifically, we report on how youth in a six-week design internship used unmaking as a design move to subvert conventional narratives about their surrounding urban context. We analyze how this led to conflictual encounters at the local senior center, and compare it to the other, making-centric proposals which received favorable feedback but failed to raise the same important discussions. Through this ethnographic account, we argue that critical unmaking is important yet overlooked, and should be in the repertoire of design moves available for agonism and provocation.
+DO  - 10.1145/3491102.3501930
+UR  - https://doi.org/10.1145/3491102.3501930
+KW  - agonism
+KW  - civic engagement
+KW  - critical unmaking
+KW  - making
+KW  - older adults
+KW  - participatory design
+KW  - unmaking
+KW  - virtual reality
+KW  - youth
+N1  - source=chi_2022.bib; retained_by=preservation; terms=pluralism; schema=v1.4
+AN  - 10.1145/3491102.3501930
+ER  - 
+
+TY  - CONF
+TI  - TriboTouch: Micro-Patterned Surfaces for Low Latency Touchscreens
+AU  - Shultz, Craig
+AU  - Kim, Daehwa
+AU  - Ahuja, Karan
+AU  - Harrison, Chris
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Touchscreen tracking latency, often 80ms or more, creates a rubber-banding effect in everyday direct manipulation tasks such as dragging, scrolling, and drawing. This has been shown to decrease system preference, user performance, and overall realism of these interfaces. In this research, we demonstrate how the addition of a thin, 2D micro-patterned surface with 5 micron spaced features can be used to reduce motor-visual touchscreen latency. When a finger, stylus, or tangible is translated across this textured surface frictional forces induce acoustic vibrations which naturally encode sliding velocity. This acoustic signal is sampled at 192kHz using a conventional audio interface pipeline with an average latency of 28ms. When fused with conventional low-speed, but high-spatial-accuracy 2D touch position data, our machine learning model can make accurate predictions of real time touch location.
+DO  - 10.1145/3491102.3502069
+UR  - https://doi.org/10.1145/3491102.3502069
+KW  - Input Techniques
+KW  - Latency
+KW  - Sensors
+KW  - Touchscreens
+KW  - Tribology
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3491102.3502069
+ER  - 
+
+TY  - CONF
+TI  - There Is No First- or Third-Person View in Virtual Reality: Understanding the Perspective Continuum
+AU  - Hoppe, Matthias
+AU  - Baumann, Andrea
+AU  - Tamunjoh, Patrick Chofor
+AU  - Machulla, Tonja-Katrin
+AU  - Woźniak, Paweł W.
+AU  - Schmidt, Albrecht
+AU  - Welsch, Robin
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Modern games make creative use of First- and Third-person perspectives (FPP and TPP) to allow the player to explore virtual worlds. Traditionally, FPP and TPP perspectives are seen as distinct concepts. Yet, Virtual Reality (VR) allows for flexibility in choosing perspectives. We introduce the notion of a perspective continuum in VR, which is technically related to the camera position and conceptually to how users perceive their environment in VR. A perspective continuum enables adapting and manipulating the sense of agency and involvement in the virtual world. This flexibility of perspectives broadens the design space of VR experiences through deliberately manipulating perception. In a study, we explore users’ attitudes, experiences and perceptions while controlling a virtual character from the two known perspectives. Statistical analysis of the empirical results shows the existence of a perspective continuum in VR. Our findings can be used to design experiences based on shifts of perception.
+DO  - 10.1145/3491102.3517447
+UR  - https://doi.org/10.1145/3491102.3517447
+KW  - Embodiment
+KW  - First Person
+KW  - Perspective
+KW  - Third Person
+KW  - Virtual Reality
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=manipulation; schema=v1.4
+AN  - 10.1145/3491102.3517447
+ER  - 
+
+TY  - CONF
+TI  - Understanding and Modeling Viewers’ First Impressions with Images in Online Medical Crowdfunding Campaigns
+AU  - Guo, Qingyu
+AU  - Zhou, Siyuan
+AU  - Wu, Yifeng
+AU  - Peng, Zhenhui
+AU  - Ma, Xiaojuan
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Online medical crowdfunding campaigns (OMCCs) help patients seek financial support. First impressions (FIs) of an OMCC, including perceived empathy, credibility, justice, impact, and attractiveness, could affect viewers’ donation decisions. Images play a crucial role in manifesting FIs, and it is beneficial for fundraisers to understand how viewers may judge their selected images for OMCCs beforehand. This work proposes a data-driven approach to assessing whether an OMCC image conveys appropriate FIs. We first crowdsource viewers’ perception of OMCC images. Statistical analysis confirms that agreement on all five dimensions of FIs exists, and these FIs positively correlate with donation intention. We compute image content, color, texture, and composition features, then analyze the correlation between these visual features and FIs. We further predict FIs based on these features, and the best model achieves an overall F1-score of 0.727. Finally, we discuss how our insights could benefit fundraisers and possible ethical concerns.
+DO  - 10.1145/3491102.3501830
+UR  - https://doi.org/10.1145/3491102.3501830
+KW  - Online medical crowdfunding campaign
+KW  - computational assessment
+KW  - first impression
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=agreement; crowd; schema=v1.4
+AN  - 10.1145/3491102.3501830
+ER  - 
+
+TY  - CONF
+TI  - Designing Human-Agent Collaborations: Commitment, responsiveness, and support
+AU  - Cila, Nazli
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - With the advancements in AI, agents (i.e., smart products, robots, software agents) are increasingly capable of working closely together with humans in a variety of ways while benefiting from each other. These human-agent collaborations have gained growing attention in the HCI community; however, the field lacks clear guidelines on how to design the agents’ behaviors in collaborations. In this paper, the qualities that are relevant for designers to create robust and pleasant human-agent collaborations were investigated. Bratman's Shared Cooperative Activity framework was used to identify the core characteristics of collaborations and survey the most important issues in the design of human-agent collaborations, namely code-of-conduct, task delegation, autonomy and control, intelligibility, common ground, offering help and requesting help. The aim of this work is to add structure to this growing and important facet of HCI research and operationalize the concept of human-agent collaboration with concrete design considerations.
+DO  - 10.1145/3491102.3517500
+UR  - https://doi.org/10.1145/3491102.3517500
+KW  - Shared Cooperative Activity
+KW  - autonomous agent
+KW  - design
+KW  - human-agent collaboration
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=delegation; schema=v1.4
+AN  - 10.1145/3491102.3517500
+ER  - 
+
+TY  - CONF
+TI  - Enhanced Videogame Livestreaming by Reconstructing an Interactive 3D Game View for Spectators
+AU  - Hartmann, Jeremy
+AU  - Vogel, Daniel
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Many videogame players livestream their gameplay so remote spectators can watch for enjoyment, fandom, and to learn strategies and techniques. Current approaches capture the player’s rendered RGB view of the game, and then encode and stream it as a 2D live video feed. We extend this basic concept by also capturing the depth buffer, camera pose, and projection matrix from the rendering pipeline of the videogame and package them all within a MPEG-4 media container. Combining these additional data streams with the RGB view, our system builds a real-time, cumulative 3D representation of the live game environment for spectators. This enables each spectator to individually control a personal game view in 3D. This means they can watch the game from multiple perspectives, enabling a new kind of videogame spectatorship experience.
+DO  - 10.1145/3491102.3517521
+UR  - https://doi.org/10.1145/3491102.3517521
+KW  - 3D video
+KW  - graphics hacking
+KW  - videogame streaming
+KW  - virtual reality
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=combining; schema=v1.4
+AN  - 10.1145/3491102.3517521
+ER  - 
+
+TY  - CONF
+TI  - A Little Too Personal: Effects of Standardization versus Personalization on Job Acquisition, Work Completion, and Revenue for Online Freelancers
+AU  - Hsieh, Jane
+AU  - Hong, Yili
+AU  - Burtch, Gordon
+AU  - Zhu, Haiyi
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - As more individuals consider permanently working from home, the online labor market continues to grow as an alternative working environment. While the flexibility and autonomy of these online gigs attracts many workers, success depends critically upon self-management and workers’ efficient allocation of scarce resources. To achieve this, freelancers may develop alternative work strategies, employing highly standardized schedules and communication patterns while taking on large work volumes, or engaging in smaller numbers of jobs whilst tailoring their activities to build relationships with individual employers. In this study, we consider this contrast in relation to worker communication patterns. We demonstrate the heterogeneous effects of standardization versus personalization across different stages of a project and examine the relative impact on job acquisition, project completion, and earnings. Our findings can inform the design of platforms and various worker support tools for the gig economy.
+DO  - 10.1145/3491102.3517546
+UR  - https://doi.org/10.1145/3491102.3517546
+KW  - Online freelancing
+KW  - digitally-mediated communication
+KW  - online labor markets
+KW  - personalization
+KW  - standardization
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3491102.3517546
+ER  - 
+
+TY  - CONF
+TI  - UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital Library
+AU  - Zheng, Qingxiao
+AU  - Tang, Yiliu
+AU  - Liu, Yiren
+AU  - Liu, Weizi
+AU  - Huang, Yun
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Early conversational agents (CAs) focused on dyadic human-AI interaction between humans and the CAs, followed by the increasing popularity of polyadic human-AI interaction, in which CAs are designed to mediate human-human interactions. CAs for polyadic interactions are unique because they encompass hybrid social interactions, i.e., human-CA, human-to-human, and human-to-group behaviors. However, research on polyadic CAs is scattered across different fields, making it challenging to identify, compare, and accumulate existing knowledge. To promote the future design of CA systems, we conducted a literature review of ACM publications and identified a set of works that conducted UX (user experience) research. We qualitatively synthesized the effects of polyadic CAs into four aspects of human-human interactions, i.e., communication, engagement, connection, and relationship maintenance. Through a mixed-method analysis of the selected polyadic and dyadic CA studies, we developed a suite of evaluation measurements on the effects. Our findings show that designing with social boundaries, such as privacy, disclosure, and identification, is crucial for ethical polyadic CAs. Future research should also advance usability testing methods and trust-building guidelines for conversational AI.
+DO  - 10.1145/3491102.3501855
+UR  - https://doi.org/10.1145/3491102.3501855
+KW  - Chatbot
+KW  - Conversational AI
+KW  - Conversational Agent
+KW  - Literature Review
+KW  - UX Research
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3491102.3501855
+ER  - 
+
+TY  - CONF
+TI  - The Village: Infrastructuring Community-based Mentoring to Support Adults Experiencing Poverty
+AU  - Dillahunt, Tawanna R
+AU  - Lu, Alex Jiahong
+AU  - Israni, Aarti
+AU  - Lodha, Ruchita
+AU  - Brewer, Savana
+AU  - Robinson, Tiera S
+AU  - Wilson, Angela Brown
+AU  - Wheeler, Earnest
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Mentorship and other social and relational support have been vital to poverty alleviation and transformative change. It is crucial to understand the underlying factors in the success of mentoring models and subsequent programs to support them. Thus, we conducted a mixed-methods study consisting of longitudinal surveys of community participants followed by semi-structured interviews with 28 community members, eight mentors, and two coaches participating in a community-based mentorship program. Drawing from community-based participatory research in partnership with a non-profit located in a Midwestern United States (U.S.) city, we unpack how the program supported self-sufficiency and economic mobility among adults experiencing financial hardships. Through an infrastructural lens, we attend to individuals’ infrastructuring work in social support, flexibility, and trust to support a “village” model of community-based mentorship. Our results show how the village model differs from traditional mentorship models that assume dyadic, one-to-one, often didactic, and hierarchical relationships (e.g., expert and prot\'eg\'e, adult and child) and are used primarily in the workplace and educational settings. The village mentorship model advocates for less hierarchical and more balanced relationships in non-institutional settings and flexible communication and technological needs. We discuss new research opportunities and design strategies for rethinking technology-mediated mentorship to support poverty-stricken adults in the U.S.
+DO  - 10.1145/3491102.3501949
+UR  - https://doi.org/10.1145/3491102.3501949
+KW  - community-based mentorship
+KW  - community-based participatory research
+KW  - economic mobility
+KW  - infrastructure
+KW  - infrastructuring
+KW  - mentorship
+KW  - social support
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=adjudication; schema=v1.4
+AN  - 10.1145/3491102.3501949
+ER  - 
+
+TY  - CONF
+TI  - Establishing Design Consensus toward Next-Generation Retail: Data-Enabled Design Exploration and Participatory Analysis
+AU  - Yao, Yuan
+AU  - Cai, Junai
+AU  - Du, Kexin
+AU  - Hou, Yuxuan
+AU  - Mi, Haipeng
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - Integration of online and offline retail faces challenges in technology adoption, interaction style evolution and customer behavior shifts, while also being complicated by diverse perspectives from different stakeholders of consumers, retail staff, and retail business unit people. To explore how we can tackle the aforementioned challenges, this work applied the data-enabled design method and participatory data analysis to a case study, where 400 student consumers’ shopping behavior data was collected, cross-analyzed, and visualized in a campus chain store. We then invited 13 stakeholders to join a co-creation workshop for a further participatory data analysis. In the workshop, the different stakeholders came to a design consensuses which we summarized into a series of practical design recommendations for improving the current store. Finally, we generalized the case study process as a contextual-informed-aware model, which can contribute to professional design practice for the retail industry.
+DO  - 10.1145/3491102.3517637
+UR  - https://doi.org/10.1145/3491102.3517637
+KW  - Customer Behavior Understanding
+KW  - Data-enabled Design
+KW  - Design in Retail
+KW  - Participatory Data Analysis
+N1  - source=chi_2022.bib; retained_by=preservation; terms=perspectives; schema=v1.4
+AN  - 10.1145/3491102.3517637
+ER  - 
+
+TY  - CONF
+TI  - To Self-Persuade or be Persuaded: Examining Interventions for Users’ Privacy Setting Selection
+AU  - Krsek, Isadora
+AU  - Wenzel, Kimi
+AU  - Das, Sauvik
+AU  - Hong, Jason I.
+AU  - Dabbish, Laura
+PY  - 2022
+T2  - Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+AB  - User adoption of security and privacy (S&P) best practices remains low, despite sustained efforts by researchers and practitioners. Social influence is a proven method for guiding user S&P behavior, though most work has focused on studying peer influence, which is only possible with a known social graph. In a study of 104 Facebook users, we instead demonstrate that crowdsourced S&P suggestions are significantly influential. We also tested how reflective writing affected participants’ S&P decisions, with and without suggestions. With reflective writing, participants were less likely to accept suggestions — both social and Facebook default suggestions. Of particular note, when reflective writing participants were shown the Facebook default suggestion, they not only rejected it but also (unknowingly) configured their settings in accordance with expert recommendations. Our work suggests that both non-personal social influence and reflective writing can positively influence users’ S&P decisions, but have negative interactions.
+DO  - 10.1145/3491102.3502009
+UR  - https://doi.org/10.1145/3491102.3502009
+KW  - Authority
+KW  - Decision Making
+KW  - Individual Differences
+KW  - Privacy
+KW  - Privacy Behaviors
+KW  - Qualitative Methods
+KW  - Quantitative Methods
+KW  - Reflective Writing
+KW  - Social Cybersecurity
+KW  - Social Influence
+KW  - Social Proof
+KW  - Surveys
+N1  - source=chi_2022.bib; retained_by=tier2+anchor; terms=crowd; schema=v1.4
+AN  - 10.1145/3491102.3502009
+ER  - 
+

@@ -1,0 +1,424 @@
+TY  - CONF
+TI  - Achieving Linear Speedup with Partial Worker Participation in Non-IID Federated Learning
+AU  - Haibo Yang
+AU  - Minghong Fang
+AU  - Jia Liu
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Federated learning (FL) is a distributed machine learning architecture that leverages a large number of workers to jointly learn a model with decentralized data. FL has received increasing attention in recent years thanks to its data privacy protection, communication efficiency and a linear speedup for convergence in training (i.e., convergence performance increases linearly with respect to the number of workers). However, existing studies on linear speedup for convergence are only limited to the assumptions of i.i.d. datasets across workers and/or full worker participation, both of which rarely hold in practice. So far, it remains an open question whether or not the linear speedup for convergence is achievable under non-i.i.d. datasets with partial worker participation in FL. In this paper, we show that the answer is affirmative. Specifically, we show that the federated averaging (FedAvg) algorithm (with two-sided learning rates) on non-i.i.d. datasets in non-convex settings achieves a convergence rate $\mathcalO(\frac1\sqrtmKT + \frac1T)$ for full worker participation and a convergence rate $\mathcalO(\frac1\sqrtnKT + \frac1T)$ for partial worker participation, where $K$ is the number of local steps, $T$ is the number of total communication rounds, $m$ is the total worker number and $n$ is the worker number in one communication round if for partial worker participation. Our results also reveal that the local steps in FL could help the convergence and show that the maximum number of local steps can be improved to $T/m$. We conduct extensive experiments on MNIST and CIFAR-10 to verify our theoretical results.
+UR  - https://openreview.net/forum?id=jDdzh5ul-d
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2021-jDdzh5ul-d
+ER  - 
+
+TY  - CONF
+TI  - Adaptive Federated Optimization
+AU  - Sashank Reddi
+AU  - Zachary Charles
+AU  - Manzil Zaheer
+AU  - Zachary Garrett
+AU  - Keith Rush
+AU  - Jakub Konečný
+AU  - Sanjiv Kumar
+AU  - H. Brendan McMahan
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Federated learning is a distributed machine learning paradigm in which a large number of clients coordinate with a central server to learn a model without sharing their own training data. Standard federated optimization methods such as Federated Averaging (FedAvg) are often difficult to tune and exhibit unfavorable convergence behavior. In non-federated settings, adaptive optimization methods have had notable success in combating such issues. In this work, we propose federated versions of adaptive optimizers, including Adagrad, Adam, and Yogi, and analyze their convergence in the presence of heterogeneous data for general non-convex settings. Our results highlight the interplay between client heterogeneity and communication efficiency. We also perform extensive experiments on these methods and show that the use of adaptive optimizers can significantly improve the performance of federated learning.
+UR  - https://openreview.net/forum?id=LkFG3lB13U5
+KW  - optimization
+KW  - distributed optimization
+KW  - federated learning
+KW  - adaptive optimization
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2021-LkFG3lB13U5
+ER  - 
+
+TY  - CONF
+TI  - Aligning AI With Shared Human Values
+AU  - Dan Hendrycks
+AU  - Collin Burns
+AU  - Steven Basart
+AU  - Andrew Critch
+AU  - Jerry Li
+AU  - Dawn Song
+AU  - Jacob Steinhardt
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete ability to predict basic human ethical judgements. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.
+UR  - https://openreview.net/forum?id=dNy_RKzJacY
+KW  - value learning
+KW  - human preferences
+KW  - alignment
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - iclr2021-dNy_RKzJacY
+ER  - 
+
+TY  - CONF
+TI  - ANOCE: Analysis of Causal Effects with Multiple Mediators via Constrained Structural Learning
+AU  - Hengrui Cai
+AU  - Rui Song
+AU  - Wenbin Lu
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - In the era of causal revolution, identifying the causal effect of an exposure on the outcome of interest is an important problem in many areas, such as epidemics, medicine, genetics, and economics. Under a general causal graph, the exposure may have a direct effect on the outcome and also an indirect effect regulated by a set of mediators. An analysis of causal effects that interprets the causal mechanism contributed through mediators is hence challenging but on demand. To the best of our knowledge, there are no feasible algorithms that give an exact decomposition of the indirect effect on the level of individual mediators, due to common interaction among mediators in the complex graph. In this paper, we establish a new statistical framework to comprehensively characterize causal effects with multiple mediators, namely, ANalysis Of Causal Effects (ANOCE), with a newly introduced definition of the mediator effect, under the linear structure equation model. We further propose a constrained causal structure learning method by incorporating a novel identification constraint that specifies the temporal causal relationship of variables. The proposed algorithm is applied to investigate the causal effects of 2020 Hubei lockdowns on reducing the spread of the coronavirus in Chinese major cities out of Hubei.
+UR  - https://openreview.net/forum?id=7I12hXRi8F
+KW  - Causal network
+KW  - Constrained optimization
+KW  - COVID-19
+KW  - Individual mediation effects
+KW  - structure learning
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=mediation; schema=v1.4
+AN  - iclr2021-7I12hXRi8F
+ER  - 
+
+TY  - CONF
+TI  - Auction Learning as a Two-Player Game
+AU  - Jad Rahme
+AU  - Samy Jelassi
+AU  - S. M Weinberg
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Designing an incentive compatible auction that maximizes expected revenue is a central problem in Auction Design. While theoretical approaches to the problem have hit some limits, a recent research direction initiated by Duetting et al. (2019) consists in building neural network architectures to find optimal auctions. We propose two conceptual deviations from their approach which result in enhanced performance. First, we use recent results in theoretical auction design to introduce a time-independent Lagrangian. This not only circumvents the need for an expensive hyper-parameter search (as in prior work), but also provides a single metric to compare the performance of two auctions (absent from prior work). Second, the optimization procedure in previous work uses an inner maximization loop to compute optimal misreports. We amortize this process through the introduction of an additional neural network. We demonstrate the effectiveness of our approach by learning competitive or strictly improved auctions compared to prior work. Both results together further imply a novel formulation of Auction Design as a two-player game with stationary utility functions.
+UR  - https://openreview.net/forum?id=YHdeAO61l6T
+KW  - deep learning
+KW  - game theory
+KW  - Mechanism Design
+KW  - Auction Theory
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=incentives; schema=v1.4
+AN  - iclr2021-YHdeAO61l6T
+ER  - 
+
+TY  - CONF
+TI  - Bayesian Context Aggregation for Neural Processes
+AU  - Michael Volpp
+AU  - Fabian Flürenbrock
+AU  - Lukas Grossberger
+AU  - Christian Daniel
+AU  - Gerhard Neumann
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Formulating scalable probabilistic regression models with reliable uncertainty estimates has been a long-standing challenge in machine learning research. Recently, casting probabilistic regression as a multi-task learning problem in terms of conditional latent variable (CLV) models such as the Neural Process (NP) has shown promising results. In this paper, we focus on context aggregation, a central component of such architectures, which fuses information from multiple context data points. So far, this aggregation operation has been treated separately from the inference of a latent representation of the target function in CLV models. Our key contribution is to combine these steps into one holistic mechanism by phrasing context aggregation as a Bayesian inference problem. The resulting Bayesian Aggregation (BA) mechanism enables principled handling of task ambiguity, which is key for efficiently processing context information. We demonstrate on a range of challenging experiments that BA consistently improves upon the performance of traditional mean aggregation while remaining computationally efficient and fully compatible with existing NP-based models.
+UR  - https://openreview.net/forum?id=ufZN2-aehFa
+KW  - neural processes
+KW  - multi-task learning
+KW  - Aggregation Methods
+KW  - Latent Variable Models
+KW  - meta learning
+KW  - Deep Sets
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=aggregation rule; schema=v1.4
+AN  - iclr2021-ufZN2-aehFa
+ER  - 
+
+TY  - CONF
+TI  - Byzantine-Resilient Non-Convex Stochastic Gradient Descent
+AU  - Zeyuan Allen-Zhu
+AU  - Faeze Ebrahimianghazani
+AU  - Jerry Li
+AU  - Dan Alistarh
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - We study adversary-resilient stochastic distributed optimization, in which $m$ machines can independently compute stochastic gradients, and cooperate to jointly optimize over their local objective functions. However, an $\alpha$-fraction of the machines are Byzantine, in that they may behave in arbitrary, adversarial ways. We consider a variant of this procedure in the challenging non-convex case. Our main result is a new algorithm SafeguardSGD, which can provably escape saddle points and find approximate local minima of the non-convex objective. The algorithm is based on a new concentration filtering technique, and its sample and time complexity bounds match the best known theoretical bounds in the stochastic, distributed setting when no Byzantine machines are present. Our algorithm is very practical: it improves upon the performance of all prior methods when training deep neural networks, it is relatively lightweight, and it is the first method to withstand two recently-proposed Byzantine attacks.
+UR  - https://openreview.net/forum?id=PbEHqvFtcS
+KW  - non-convex optimization
+KW  - distributed machine learning
+KW  - distributed deep learning
+KW  - robust deep learning
+KW  - Byzantine resilience
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=byzantine; schema=v1.4
+AN  - iclr2021-PbEHqvFtcS
+ER  - 
+
+TY  - CONF
+TI  - CaPC Learning: Confidential and Private Collaborative Learning
+AU  - Christopher Choquette-Choo
+AU  - Natalie Dullerud
+AU  - Adam Dziedzic
+AU  - Yunxiang Zhang
+AU  - Somesh Jha
+AU  - Nicolas Papernot
+AU  - Xiao Wang
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Machine learning benefits from large training datasets, which may not always be possible to collect by any single entity, especially when using privacy-sensitive data. In many contexts, such as healthcare and finance, separate parties may wish to collaborate and learn from each other's data but are prevented from doing so due to privacy regulations. Some regulations prevent explicit sharing of data between parties by joining datasets in a central location (confidentiality). Others also limit implicit sharing of data, e.g., through model predictions (privacy). There is currently no method that enables machine learning in such a setting, where both confidentiality and privacy need to be preserved, to prevent both explicit and implicit sharing of data. Federated learning only provides confidentiality, not privacy, since gradients shared still contain private information. Differentially private learning assumes unreasonably large datasets. Furthermore, both of these learning paradigms produce a central model whose architecture was previously agreed upon by all parties rather than enabling collaborative learning where each party learns and improves their own local model. We introduce Confidential and Private Collaborative (CaPC) learning, the first method provably achieving both confidentiality and privacy in a collaborative setting. We leverage secure multi-party computation (MPC), homomorphic encryption (HE), and other techniques in combination with privately aggregated teacher models. We demonstrate how CaPC allows participants to collaborate without having to explicitly join their training sets or train a central model. Each party is able to improve the accuracy and fairness of their model, even in settings where each party has a model that performs well on their own dataset or when datasets are not IID and model architectures are heterogeneous across parties.
+UR  - https://openreview.net/forum?id=h2EbJ4_wMVq
+KW  - deep learning
+KW  - privacy
+KW  - differential privacy
+KW  - machine learning
+KW  - security
+KW  - confidentiality
+KW  - homomorphic encryption
+KW  - mpc
+N1  - source=iclr_2021.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - iclr2021-h2EbJ4_wMVq
+ER  - 
+
+TY  - CONF
+TI  - CompOFA – Compound Once-For-All Networks for Faster Multi-Platform Deployment
+AU  - Manas Sahni
+AU  - Shreya Varshini
+AU  - Alind Khare
+AU  - Alexey Tumanov
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - The emergence of CNNs in mainstream deployment has necessitated methods to design and train efficient architectures tailored to maximize the accuracy under diverse hardware and latency constraints. To scale these resource-intensive tasks with an increasing number of deployment targets, Once-For-All (OFA) proposed an approach to jointly train several models at once with a constant training cost. However, this cost remains as high as 40-50 GPU days and also suffers from a combinatorial explosion of sub-optimal model configurations. We seek to reduce this search space -- and hence the training budget -- by constraining search to models close to the accuracy-latency Pareto frontier. We incorporate insights of compound relationships between model dimensions to build CompOFA, a design space smaller by several orders of magnitude. Through experiments on ImageNet, we demonstrate that even with simple heuristics we can achieve a 2x reduction in training time and 216x speedup in model search/extraction time compared to the state of the art, without loss of Pareto optimality! We also show that this smaller design space is dense enough to support equally accurate models for a similar diversity of hardware and latency targets, while also reducing the complexity of the training and subsequent extraction algorithms. Our source code is available at https://github.com/gatech-sysml/CompOFA
+UR  - https://openreview.net/forum?id=IgIk8RRT-Z
+KW  - automl
+KW  - Efficient Deep Learning
+KW  - Latency-aware Neural Architecture Search
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=pareto; schema=v1.4
+AN  - iclr2021-IgIk8RRT-Z
+ER  - 
+
+TY  - CONF
+TI  - Coping with Label Shift via Distributionally Robust Optimisation
+AU  - Jingzhao Zhang
+AU  - Aditya Krishna Menon
+AU  - Andreas Veit
+AU  - Srinadh Bhojanapalli
+AU  - Sanjiv Kumar
+AU  - Suvrit Sra
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - The label shift problem refers to the supervised learning setting where the train and test label distributions do not match. Existing work addressing label shift usually assumes access to an unlabelled test sample. This sample may be used to estimate the test label distribution, and to then train a suitably re-weighted classifier. While approaches using this idea have proven effective, their scope is limited as it is not always feasible to access the target domain; further, they require repeated retraining if the model is to be deployed in multiple test environments. Can one instead learn a single classifier that is robust to arbitrary label shifts from a broad family? In this paper, we answer this question by proposing a model that minimises an objective based on distributionally robust optimisation (DRO). We then design and analyse a gradient descent-proximal mirror ascent algorithm tailored for large-scale problems to optimise the proposed objective. Finally, through experiments on CIFAR-100 and ImageNet, we show that our technique can significantly improve performance over a number of baselines in settings where label shift is present.
+UR  - https://openreview.net/forum?id=BtZhsSGNRNi
+KW  - label shift
+KW  - distributional robust optimization
+N1  - source=iclr_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2021-BtZhsSGNRNi
+ER  - 
+
+TY  - CONF
+TI  - Distributed Momentum for Byzantine-resilient Stochastic Gradient Descent
+AU  - El Mahdi El Mhamdi
+AU  - Rachid Guerraoui
+AU  - Sébastien Rouault
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Byzantine-resilient Stochastic Gradient Descent (SGD) aims at shielding model training from Byzantine faults, be they ill-labeled training datapoints, exploited software/hardware vulnerabilities, or malicious worker nodes in a distributed setting. Two recent attacks have been challenging state-of-the-art defenses though, often successfully precluding the model from even fitting the training set. The main identified weakness in current defenses is their requirement of a sufficiently low variance-norm ratio for the stochastic gradients. We propose a practical method which, despite increasing the variance, reduces the variance-norm ratio, mitigating the identified weakness. We assess the effectiveness of our method over 736 different training configurations, comprising the 2 state-of-the-art attacks and 6 defenses. For confidence and reproducibility purposes, each configuration is run 5 times with specified seeds (1 to 5), totalling 3680 runs. In our experiments, when the attack is effective enough to decrease the highest observed top-1 cross-accuracy by at least 20% compared to the unattacked run, our technique systematically increases back the highest observed accuracy, and is able to recover at least 20% in more than 60% of the cases.
+UR  - https://openreview.net/forum?id=H8UHdhWG6A3
+KW  - Byzantine SGD
+KW  - Distributed ML
+KW  - momentum
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=byzantine; schema=v1.4
+AN  - iclr2021-H8UHdhWG6A3
+ER  - 
+
+TY  - CONF
+TI  - FedBE: Making Bayesian Model Ensemble Applicable to Federated Learning
+AU  - Hong-You Chen
+AU  - Wei-Lun Chao
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Federated learning aims to collaboratively train a strong global model by accessing users' locally trained models but not their own data. A crucial step is therefore to aggregate local models into a global model, which has been shown challenging when users have non-i.i.d. data. In this paper, we propose a novel aggregation algorithm named FedBE, which takes a Bayesian inference perspective by sampling higher-quality global models and combining them via Bayesian model Ensemble, leading to much robust aggregation. We show that an effective model distribution can be constructed by simply fitting a Gaussian or Dirichlet distribution to the local models. Our empirical studies validate FedBE's superior performance, especially when users' data are not i.i.d. and when the neural networks go deeper. Moreover, FedBE is compatible with recent efforts in regularizing users' model training, making it an easily applicable module: you only need to replace the aggregation method but leave other parts of your federated learning algorithm intact.
+UR  - https://openreview.net/forum?id=dgtpE6gKjHn
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=aggregation rule; schema=v1.4
+AN  - iclr2021-dgtpE6gKjHn
+ER  - 
+
+TY  - CONF
+TI  - FedBN: Federated Learning on Non-IID Features via Local Batch Normalization
+AU  - Xiaoxiao Li
+AU  - Meirui Jiang
+AU  - Xiaofei Zhang
+AU  - Michael Kamp
+AU  - Qi Dou
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - The emerging paradigm of federated learning (FL) strives to enable collaborative training of deep models on the network edge without centrally aggregating raw data and hence improving data privacy. In most cases, the assumption of independent and identically distributed samples across local clients does not hold for federated learning setups. Under this setting, neural network training performance may vary significantly according to the data distribution and even hurt training convergence. Most of the previous work has focused on a difference in the distribution of labels or client shifts. Unlike those settings, we address an important problem of FL, e.g., different scanners/sensors in medical imaging, different scenery distribution in autonomous driving (highway vs. city), where local clients store examples with different distributions compared to other clients, which we denote as feature shift non-iid. In this work, we propose an effective method that uses local batch normalization to alleviate the feature shift before averaging models. The resulting scheme, called FedBN, outperforms both classical FedAvg, as well as the state-of-the-art for non-iid data (FedProx) on our extensive experiments. These empirical results are supported by a convergence analysis that shows in a simplified setting that FedBN has a faster convergence rate than FedAvg. Code is available at https://github.com/med-air/FedBN.
+UR  - https://openreview.net/forum?id=6YEQUn0QICG
+KW  - federated learning
+KW  - Non-IID
+KW  - batch normalization
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2021-6YEQUn0QICG
+ER  - 
+
+TY  - CONF
+TI  - Federated Learning via Posterior Averaging: A New Perspective and Practical Algorithms
+AU  - Maruan Al-Shedivat
+AU  - Jennifer Gillenwater
+AU  - Eric P Xing
+AU  - Afshin Rostamizadeh
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Federated learning is typically approached as an optimization problem, where the goal is to minimize a global loss function by distributing computation across client devices that possess local data and specify different parts of the global objective. We present an alternative perspective and formulate federated learning as a posterior inference problem, where the goal is to infer a global posterior distribution by having client devices each infer the posterior of their local data. While exact inference is often intractable, this perspective provides a principled way to search for global optima in federated settings. Further, starting with the analysis of federated quadratic objectives, we develop a computation- and communication-efficient approximate posterior inference algorithm—federated posterior averaging (FedPA). Our algorithm uses MCMC for approximate inference of local posteriors on the clients and efficiently communicates their statistics to the server, where the latter uses them to refine a global estimate of the posterior mode. Finally, we show that FedPA generalizes federated averaging (FedAvg), can similarly benefit from adaptive optimizers, and yields state-of-the-art results on four realistic and challenging benchmarks, converging faster, to better optima.
+UR  - https://openreview.net/forum?id=GFsU8a0sGB
+KW  - federated learning
+KW  - posterior inference
+KW  - mcmc
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=federated aggregation; schema=v1.4
+AN  - iclr2021-GFsU8a0sGB
+ER  - 
+
+TY  - CONF
+TI  - Federated Semi-Supervised Learning with Inter-Client Consistency & Disjoint Learning
+AU  - Wonyong Jeong
+AU  - Jaehong Yoon
+AU  - Eunho Yang
+AU  - Sung Ju Hwang
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - While existing federated learning approaches mostly require that clients have fully-labeled data to train on, in realistic settings, data obtained at the client-side often comes without any accompanying labels. Such deficiency of labels may result from either high labeling cost, or difficulty of annotation due to the requirement of expert knowledge. Thus the private data at each client may be either partly labeled, or completely unlabeled with labeled data being available only at the server, which leads us to a new practical federated learning problem, namely Federated Semi-Supervised Learning (FSSL). In this work, we study two essential scenarios of FSSL based on the location of the labeled data. The first scenario considers a conventional case where clients have both labeled and unlabeled data (labels-at-client), and the second scenario considers a more challenging case, where the labeled data is only available at the server (labels-at-server). We then propose a novel method to tackle the problems, which we refer to as Federated Matching (FedMatch). FedMatch improves upon naive combinations of federated learning and semi-supervised learning approaches with a new inter-client consistency loss and decomposition of the parameters for disjoint learning on labeled and unlabeled data. Through extensive experimental validation of our method in the two different scenarios, we show that our method outperforms both local semi-supervised learning and baselines which naively combine federated learning with semi-supervised learning.
+UR  - https://openreview.net/forum?id=ce6CFXBh30h
+KW  - federated learning
+N1  - source=iclr_2021.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - iclr2021-ce6CFXBh30h
+ER  - 
+
+TY  - CONF
+TI  - Heteroskedastic and Imbalanced Deep Learning with Adaptive Regularization
+AU  - Kaidi Cao
+AU  - Yining Chen
+AU  - Junwei Lu
+AU  - Nikos Arechiga
+AU  - Adrien Gaidon
+AU  - Tengyu Ma
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Real-world large-scale datasets are heteroskedastic and imbalanced --- labels have varying levels of uncertainty and label distributions are long-tailed. Heteroskedasticity and imbalance challenge deep learning algorithms due to the difficulty of distinguishing among mislabeled, ambiguous, and rare examples. Addressing heteroskedasticity and imbalance simultaneously is under-explored. We propose a data-dependent regularization technique for heteroskedastic datasets that regularizes different regions of the input space differently. Inspired by the theoretical derivation of the optimal regularization strength in a one-dimensional nonparametric classification setting, our approach adaptively regularizes the data points in higher-uncertainty, lower-density regions more heavily. We test our method on several benchmark tasks, including a real-world heteroskedastic and imbalanced dataset, WebVision. Our experiments corroborate our theory and demonstrate a significant improvement over other methods in noise-robust deep learning.
+UR  - https://openreview.net/forum?id=mEdwVCRJuX4
+KW  - deep learning
+KW  - noise robust learning
+KW  - imbalanced learning
+N1  - source=iclr_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2021-mEdwVCRJuX4
+ER  - 
+
+TY  - CONF
+TI  - Learning What To Do by Simulating the Past
+AU  - David Lindner
+AU  - Rohin Shah
+AU  - Pieter Abbeel
+AU  - Anca Dragan
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Since reward functions are hard to specify, recent work has focused on learning policies from human feedback. However, such approaches are impeded by the expense of acquiring such feedback. Recent work proposed that agents have access to a source of information that is effectively free: in any environment that humans have acted in, the state will already be optimized for human preferences, and thus an agent can extract information about what humans want from the state. Such learning is possible in principle, but requires simulating all possible past trajectories that could have led to the observed state. This is feasible in gridworlds, but how do we scale it to complex tasks? In this work, we show that by combining a learned feature encoder with learned inverse models, we can enable agents to simulate human actions backwards in time to infer what they must have done. The resulting algorithm is able to reproduce a specific skill in MuJoCo environments given a single state sampled from the optimal policy for that skill.
+UR  - https://openreview.net/forum?id=kBVJ2NtiY-
+KW  - reinforcement learning
+KW  - imitation learning
+KW  - reward learning
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=alignment; schema=v1.4
+AN  - iclr2021-kBVJ2NtiY-
+ER  - 
+
+TY  - CONF
+TI  - Long-tail learning via logit adjustment
+AU  - Aditya Krishna Menon
+AU  - Sadeep Jayasumana
+AU  - Ankit Singh Rawat
+AU  - Himanshu Jain
+AU  - Andreas Veit
+AU  - Sanjiv Kumar
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Real-world classification problems typically exhibit an imbalanced or long-tailed label distribution, wherein many labels have only a few associated samples. This poses a challenge for generalisation on such labels, and also makes naive learning biased towards dominant labels. In this paper, we present a statistical framework that unifies and generalises several recent proposals to cope with these challenges. Our framework revisits the classic idea of logit adjustment based on the label frequencies, which encourages a large relative margin between logits of rare positive versus dominant negative labels. This yields two techniques for long-tail learning, where such adjustment is either applied post-hoc to a trained model, or enforced in the loss during training. These techniques are statistically grounded, and practically effective on four real-world datasets with long-tailed label distributions.
+UR  - https://openreview.net/forum?id=37nvvqkCo5
+KW  - long-tail learning
+KW  - class imbalance
+N1  - source=iclr_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2021-37nvvqkCo5
+ER  - 
+
+TY  - CONF
+TI  - Long-tailed Recognition by Routing Diverse Distribution-Aware Experts
+AU  - Xudong Wang
+AU  - Long Lian
+AU  - Zhongqi Miao
+AU  - Ziwei Liu
+AU  - Stella Yu
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Natural data are often long-tail distributed over semantic classes. Existing recognition methods tend to focus on gaining performance on tail classes, often at the expense of losing performance on head classes and with increased classifier variance. The low tail performance manifests itself in large inter-class confusion and high classifier variance. We aim to reduce both the bias and the variance of a long-tailed classifier by RoutIng Diverse Experts (RIDE), consisting of three components: 1) a shared architecture for multiple classifiers (experts); 2) a distribution-aware diversity loss that encourages more diverse decisions for classes with fewer training instances; and 3) an expert routing module that dynamically assigns more ambiguous instances to additional experts. With on-par computational complexity, RIDE significantly outperforms the state-of-the-art methods by 5% to 7% on all the benchmarks including CIFAR100-LT, ImageNet-LT, and iNaturalist 2018. RIDE is also a universal framework that can be applied to different backbone networks and integrated into various long-tailed algorithms and training mechanisms for consistent performance gains. Our code is publicly available at https://github.com/frank-xwang/RIDE-LongTailRecognition.
+UR  - https://openreview.net/forum?id=D9I3drBz4UC
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=moe routing; schema=v1.4
+AN  - iclr2021-D9I3drBz4UC
+ER  - 
+
+TY  - CONF
+TI  - Personalized Federated Learning with First Order Model Optimization
+AU  - Michael Zhang
+AU  - Karan Sapra
+AU  - Sanja Fidler
+AU  - Serena Yeung
+AU  - Jose M. Alvarez
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - While federated learning traditionally aims to train a single global model across decentralized local datasets, one model may not always be ideal for all participating clients. Here we propose an alternative, where each client only federates with other relevant clients to obtain a stronger model per client-specific objectives. To achieve this personalization, rather than computing a single model average with constant weights for the entire federation as in traditional FL, we efficiently calculate optimal weighted model combinations for each client, based on figuring out how much a client can benefit from another's model. We do not assume knowledge of any underlying data distributions or client similarities, and allow each client to optimize for arbitrary target distributions of interest, enabling greater flexibility for personalization. We evaluate and characterize our method on a variety of federated settings, datasets, and degrees of local data heterogeneity. Our method outperforms existing alternatives, while also enabling new features for personalized FL such as transfer outside of local data distributions.
+UR  - https://openreview.net/forum?id=ehJqJQk9cw
+KW  - federated learning
+KW  - personalized learning
+N1  - source=iclr_2021.bib; retained_by=tier2+anchor; terms=privacy; schema=v1.4
+AN  - iclr2021-ehJqJQk9cw
+ER  - 
+
+TY  - CONF
+TI  - Rethinking Soft Labels for Knowledge Distillation: A Bias–Variance Tradeoff Perspective
+AU  - Helong Zhou
+AU  - Liangchen Song
+AU  - Jiajie Chen
+AU  - Ye Zhou
+AU  - Guoli Wang
+AU  - Junsong Yuan
+AU  - Qian Zhang
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Knowledge distillation is an effective approach to leverage a well-trained network or an ensemble of them, named as the teacher, to guide the training of a student network. The outputs from the teacher network are used as soft labels for supervising the training of a new network. Recent studies (M ̈uller et al., 2019; Yuan et al., 2020) revealed an intriguing property of the soft labels that making labels soft serves as a good regularization to the student network. From the perspective of statistical learning, regularization aims to reduce the variance, however how bias and variance change is not clear for training with soft labels. In this paper, we investigate the bias-variance tradeoff brought by distillation with soft labels. Specifically, we observe that during training the bias-variance tradeoff varies sample-wisely. Further, under the same distillation temperature setting, we observe that the distillation performance is negatively associated with the number of some specific samples, which are named as regularization samples since these samples lead to bias increasing and variance decreasing. Nevertheless, we empirically find that completely filtering out regularization samples also deteriorates distillation performance. Our discoveries inspired us to propose the novel weighted soft labels to help the network adaptively handle the sample-wise bias-variance tradeoff. Experiments on standard evaluation benchmarks validate the effectiveness of our method. Our code is available in the supplementary.
+UR  - https://openreview.net/forum?id=gIHd-5X324
+KW  - knowledge distillation
+KW  - soft labels
+KW  - teacher-student model
+N1  - source=iclr_2021.bib; retained_by=preservation; terms=label variation; schema=v1.4
+AN  - iclr2021-gIHd-5X324
+ER  - 
+
+TY  - CONF
+TI  - Robust Overfitting may be mitigated by properly learned smoothening
+AU  - Tianlong Chen
+AU  - Zhenyu Zhang
+AU  - Sijia Liu
+AU  - Shiyu Chang
+AU  - Zhangyang Wang
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - A recent study (Rice et al., 2020) revealed overfitting to be a dominant phenomenon in adversarially robust training of deep networks, and that appropriate early-stopping of adversarial training (AT) could match the performance gains of most recent algorithmic improvements. This intriguing problem of robust overfitting motivates us to seek more remedies. As a pilot study, this paper investigates two empirical means to inject more learned smoothening during AT: one leveraging knowledge distillation and self-training to smooth the logits, the other performing stochastic weight averaging (Izmailov et al., 2018) to smooth the weights. Despite the embarrassing simplicity, the two approaches are surprisingly effective and hassle-free in mitigating robust overfitting. Experiments demonstrate that by plugging in them to AT, we can simultaneously boost the standard accuracy by $3.72\%\sim6.68\%$ and robust accuracy by $0.22\%\sim2 .03\%$, across multiple datasets (STL-10, SVHN, CIFAR-10, CIFAR-100, and Tiny ImageNet), perturbation types ($\ell_\infty$ and $\ell_2$), and robustified methods (PGD, TRADES, and FSGM), establishing the new state-of-the-art bar in AT. We present systematic visualizations and analyses to dive into their possible working mechanisms. We also carefully exclude the possibility of gradient masking by evaluating our models' robustness against transfer attacks. Codes are available at https://github.com/VITA-Group/Alleviate-Robust-Overfitting.
+UR  - https://openreview.net/forum?id=qZzy5urZw9
+KW  - adversarial robustness
+KW  - adversarial training
+KW  - Robust Overfitting
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=model merging; schema=v1.4
+AN  - iclr2021-qZzy5urZw9
+ER  - 
+
+TY  - CONF
+TI  - Shapley explainability on the data manifold
+AU  - Christopher Frye
+AU  - Damien De Mijolla
+AU  - Tom Begley
+AU  - Laurence Cowton
+AU  - Megan Stanley
+AU  - Ilya Feige
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Explainability in AI is crucial for model development, compliance with regulation, and providing operational nuance to predictions. The Shapley framework for explainability attributes a model’s predictions to its input features in a mathematically principled and model-agnostic way. However, general implementations of Shapley explainability make an untenable assumption: that the model’s features are uncorrelated. In this work, we demonstrate unambiguous drawbacks of this assumption and develop two solutions to Shapley explainability that respect the data manifold. One solution, based on generative modelling, provides flexible access to data imputations; the other directly learns the Shapley value-function, providing performance and stability at the cost of flexibility. While “off-manifold” Shapley values can (i) give rise to incorrect explanations, (ii) hide implicit model dependence on sensitive attributes, and (iii) lead to unintelligible explanations in higher-dimensional data, on-manifold explainability overcomes these problems.
+UR  - https://openreview.net/forum?id=OPyWRrcjVQw
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2021-OPyWRrcjVQw
+ER  - 
+
+TY  - CONF
+TI  - Shapley Explanation Networks
+AU  - Rui Wang
+AU  - Xiaoqian Wang
+AU  - David Inouye
+PY  - 2021
+T2  - International Conference on Learning Representations (ICLR 2021)
+AB  - Shapley values have become one of the most popular feature attribution explanation methods. However, most prior work has focused on post-hoc Shapley explanations, which can be computationally demanding due to its exponential time complexity and preclude model regularization based on Shapley explanations during training. Thus, we propose to incorporate Shapley values themselves as latent representations in deep models thereby making Shapley explanations first-class citizens in the modeling paradigm. This intrinsic explanation approach enables layer-wise explanations, explanation regularization of the model during training, and fast explanation computation at test time. We define the Shapley transform that transforms the input into a Shapley representation given a specific function. We operationalize the Shapley transform as a neural network module and construct both shallow and deep networks, called ShapNets, by composing Shapley modules. We prove that our Shallow ShapNets compute the exact Shapley values and our Deep ShapNets maintain the missingness and accuracy properties of Shapley values. We demonstrate on synthetic and real-world datasets that our ShapNets enable layer-wise Shapley explanations, novel Shapley regularizations during training, and fast computation while maintaining reasonable performance. Code is available at https://github.com/inouye-lab/ShapleyExplanationNetworks.
+UR  - https://openreview.net/forum?id=vsU0efpivw
+KW  - Shapley values
+KW  - Feature Attribution
+KW  - Interpretable Machine Learning
+N1  - source=iclr_2021.bib; retained_by=tier1; terms=bargaining solutions; schema=v1.4
+AN  - iclr2021-vsU0efpivw
+ER  - 
+

@@ -31,6 +31,7 @@ That is a ~180 MB sparse checkout of the XML only, not the full repo. Re-run
 on every run) in the PRISMA notes so the search is reproducible.
 
     python acl_fetch.py
+    python ../covidence_prep.py ACL
 """
 
 import os
@@ -58,8 +59,10 @@ VENUES = [
     # "tacl",
 ]
 
-OUTPUT_DIR = "bib_raw"
-MANIFEST_PATH = "acl_fetch_manifest.csv"
+# Written next to this script, where `python covidence_prep.py ACL` looks for them.
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(HERE, "bib_raw")
+MANIFEST_PATH = os.path.join(HERE, "acl_fetch_manifest.csv")
 
 # Main-track long papers only. Set True to also admit short papers; permitted by
 # the protocol but it materially increases the screening load for this cluster.
@@ -238,7 +241,7 @@ def main():
 
     print(f"\nIdentification total: {grand_total} records")
     print(f"Manifest: {MANIFEST_PATH}")
-    print("Next: python covidence_prep.py")
+    print("Next: python covidence_prep.py ACL   (from the repo root)")
 
 
 if __name__ == "__main__":
