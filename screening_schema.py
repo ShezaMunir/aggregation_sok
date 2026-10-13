@@ -18,7 +18,9 @@ USE IN A PIPELINE
     result = screener.screen(text, venue="neurips")
     if result.retain:
         ...
-    result.reason          -> 'tier1' | 'preservation' | 'tier2+anchor' | ''
+    result.reason          -> first set that retained: 'tier1' | 'welfare' |
+                              'preservation' | 'tier2+anchor' | ''
+    result.fired_sets()    -> every set that matched (for retention-by-set reporting)
     result.hits            -> {'tier1': [...], 'tier2': [...], 'anchors': [...]}
     result.anchor_profile  -> which profile was applied
 
@@ -90,12 +92,18 @@ class ScreenResult:
     hits: dict = field(default_factory=dict)
     anchor_profile: str = "default"
 
+    def fired_sets(self):
+        """Every keyword set that matched (anchors excluded), in schema order.
+
+        `reason` names only the first sufficient set that fired; use this for
+        retention-by-set reporting so tier1, welfare and preservation are each
+        credited when more than one matches.
+        """
+        return [k for k, v in self.hits.items() if k != "anchors" and v]
+
     def terms_fired(self):
-        """Flat list of the terms that drove the decision, for the RIS note."""
-        for key in ("tier1", "preservation", "tier2"):
-            if self.hits.get(key):
-                return self.hits[key]
-        return []
+        """Flat list of every term that matched, prefixed by set, for the RIS note."""
+        return [f"{k}:{t}" for k in self.fired_sets() for t in self.hits[k]]
 
 
 class Screener:

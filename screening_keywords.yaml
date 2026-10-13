@@ -1,387 +1,367 @@
-# =============================================================================
-# screening_keywords.yaml
+# screening_keywords.yaml -- v1.8 (2026-10-13)
 #
-# Shared keyword schema for the SoK on aggregation for disagreement (target
-# venue: ACM FAccT). Negotiation is a discussion item in the paper, not its
-# frame; bargaining vocabulary is retained because bargaining solutions remain
-# in scope as family F12. Venue-agnostic: every retrieval pipeline (ACL Anthology,
-# ACM DL, AAAI OJS, PMLR, OpenReview, DBLP, publisher exports) screens against
-# this one file. Retrieval sources as of v1.3: ACM DL, AAAI OJS, OpenReview,
-# PMLR, ACL Anthology, DBLP, publisher exports.
+# Shared keyword schema for every venue pipeline. Loaded by screening_schema.py.
+# Matching is case-insensitive over title + abstract + author keywords.
 #
-# This file is a protocol artifact, not a config convenience. It goes in the
-# replication package, it is version-controlled, and every change to it is
-# recorded in the changelog at the bottom. Appendix B of the design document
-# requires that pilot demotions and drops be logged; `retired` below is that log.
+#   tier1, welfare, preservation : sufficient -- one match retains the record
+#   tier2                        : conditional -- retains only with an anchor
+#   anchor_profiles.default      : the anchors (one profile for every venue)
 #
-# STRUCTURE
-#   sets.<name>.role = sufficient  -> a single match retains the record
-#   sets.<name>.role = conditional -> needs an anchor match to retain
-#   anchor_profiles.<name>         -> anchor term sets; venues map to a profile
+# Patterns of the form ^(?=...A)(?=...B) are co-occurrence rules: both A and B must
+# appear somewhere in the text. Keep the leading ^ when adding one, or screening
+# slows down sharply.
 #
-# PATTERN SYNTAX
-#   Python `re` syntax, matched case-insensitively against
-#   title + abstract + author keywords. Use single-quoted YAML scalars so
-#   backslashes survive. Prefer \b boundaries: the ACL pilot found `mediat`
-#   matching "intermediate" on 207 records.
+# HISTORY (details in `changelog` at the end and in each term's `note`)
+#   v1.4  FAccT 2025 / ACL 2025-26 pilots
+#   v1.5  precision revision on 84,457 ML/NLP/AI records (7,217 -> 2,470 retained)
+#   v1.6  FAccT 2021-25 pilot: 115 -> 65 -> 61 retained, recall fixes verified
+#   v1.7  ACL 2025-26 long-paper pilot: merging, personalisation/cultural alignment,
+#         debate; tier2 "ai alignment" narrowed
+#   v1.8  cross-venue review of included AND excluded records (NeurIPS, ICML, ICLR,
+#         AAAI, IJCAI, ACL family, EMNLP, TACL). 23 of 24 known relevant misses
+#         recovered; noise removed from conflict resolution, within-model MoE
+#         routing, Bradley-Terry, incentives, individual rationality, crowd.
+#         Corpus retention 2,452 -> 2,434.
 #
-# EDITING
-#   Validate after any change:  python screening_schema.py --validate
-#   Test a phrase:              python screening_schema.py --test "your text"
-# =============================================================================
+# SCOPE DECISION (2026-10-13): majority voting / self-consistency over samples of
+# a single model is out of scope (samples are not distinct sources). No term
+# retains it; remove self-consistency from family F8 in the design document.
+#
+# Any change after freeze is a protocol deviation: log it in `changelog` with the
+# venue, the counts before and after, and the reason.
 
-version: "1.4"
-updated: "2026-09-27"
-
+version: '1.8'
+updated: '2026-10-12'
 settings:
-  # Design document §8: journals 2020-2026, conferences 2021-2026. min_year is
-  # the global floor; the 2021 conference floor is applied per venue at
-  # retrieval, so pre-2021 conference records should never reach this screen.
   min_year: 2020
   max_year: 2026
-  # Fields concatenated to form the text a record is screened against.
-  search_fields: [title, abstract, keywords]
-
-# -----------------------------------------------------------------------------
-# SUFFICIENT SETS -- one match retains
-# -----------------------------------------------------------------------------
-
+  search_fields:
+  - title
+  - abstract
+  - keywords
 sets:
-
   tier1:
     role: sufficient
-    description: >
-      Signal Tier 1. Named families, techniques, and properties specific enough
-      that a single match justifies retention regardless of context.
+    description: 'Signal Tier 1. Named families, techniques, and properties specific enough that a single match justifies retention regardless of context.
+
+      '
     terms:
-
-      # --- families and properties ---
-      aggregation rule: 'aggregation (?:rule|function|method|operator|scheme)'
-      voting rule: '\bvoting rule|\bvoting method'
-      social choice: 'social choice'
-      judgment aggregation: 'judg(?:e)?ment aggregation'
-      preference aggregation: 'preference aggregation'
-      opinion pooling: 'opinion pooling|probabilit(?:y|ies) (?:pooling|aggregation)'
-      belief merging: 'belief merging'
-      rank aggregation: 'rank(?:ing)? aggregation'
-      label aggregation: 'label aggregation|answer aggregation'
-      truth inference: 'truth inference|truth discovery'
-      forecast aggregation: 'forecast aggregation|aggregating forecasts'
-      wisdom of crowds: 'wisdom of (?:the )?crowds?'
-      peer prediction: 'peer prediction'
-      collective decision: 'collective decision|collective choice'
-      committee selection: 'committee selection|multiwinner|multi-winner'
-      participatory budgeting: 'participatory budgeting'
-      apportionment: 'apportionment'
-      fair division: 'fair division'
-      conflict resolution: 'conflict resolution'
-
-      # --- negotiation and bargaining (F12; feeds design document §14.1) ---
-      bargaining solution: 'bargaining (?:solution|problem|game)|axiomatic bargaining'
+      aggregation rule:
+        pattern: ^(?=[\s\S]*?(?:aggregation (?:rules?|functions?|methods?|operators?|schemes?)))(?=[\s\S]*?(?:\bvot\w*|\bvoters?\b|ballot|preferences|judg(?:e)?ments|opinions|annotators?|raters?|forecast|social choice|experts?\b|\bparties\b|stakeholders?))
+        note: 'v1.5 draft: requires a source or preference context; bare form matched graph neural network message passing and pooling.'
+      voting rule: \bvoting rule|\bvoting method
+      social choice: social choice
+      judgment aggregation: judg(?:e)?ment aggregation
+      preference aggregation: preference aggregation
+      opinion pooling: opinion pooling|probabilit(?:y|ies) (?:pooling|aggregation)
+      belief merging: belief merging
+      rank aggregation: rank(?:ing)? aggregation
+      label aggregation: label aggregation|answer aggregation
+      truth inference: truth inference|truth discovery
+      forecast aggregation: forecast aggregation|aggregating forecasts
+      wisdom of crowds: wisdom of (?:the )?crowds?
+      peer prediction: peer prediction
+      collective decision: collective decision|collective choice
+      committee selection:
+        pattern: committee selection|multi-?winner|approval-based (?:committee|voting|elections?|rules?)|committee (?:rules?|elections?|voting)|(?:single-peaked|single-crossing) (?:preferences|elections?|domains?)|euclidean (?:preferences|elections?)|spatial voting|winner determination (?:for|in|of|under) (?:[\w-]+ ){0,2}(?:voting|elections?|rules?)|line-up elections?
+        note: 'v1.8: committee rules, approval-based elections, single-peaked/Euclidean preferences added (AAAI 2021 approval-based committee rules paper was missed).'
+      participatory budgeting: participatory budgeting
+      apportionment: apportionment
+      fair division:
+        pattern: fair (?:division|allocations?)|cake[- ]cutting|chore division
+        note: 'v1.8: fair allocations (plural) added; truthful fair allocation paper was missed.'
+      conflict resolution:
+        pattern: (?:dispute|interpersonal|international|multi-?party|social|knowledge|source|evidence) conflict resolution|conflict resolution (?:between|among|across) (?:parties|agents|stakeholders|sources|groups|people)|resolv\w* (?:disputes|conflicts) (?:between|among) (?:parties|agents|stakeholders|people)
+        note: 'v1.8: bare "conflict resolution" matched gradient and optimisation conflicts.'
+      bargaining solution: bargaining (?:solution|problem|game)|axiomatic bargaining
       mediation:
-        pattern: 'automated mediation|computational mediation|\bmediator\b'
-        note: 'bare "mediat" removed after ACL pilot; matched "intermediate"'
-      integrative negotiation: 'integrative (?:negotiation|bargaining|agreement)'
-      multiparty negotiation: 'multi-?party negotiation|multilateral negotiation'
-      joint gains: 'joint gains|win-?win (?:solution|outcome|agreement)'
-      issue linkage: 'issue linkage|logrolling|log-rolling'
-      single negotiating text: 'single negotiating text'
-      coalition formation: 'coalition formation|coalition structure generation'
-
-      # --- routing, merging, decentralised ---
-      model merging: 'model merging|model fusion|weight averaging|model soup'
+        pattern: automated mediation|computational mediation|AI[- ]mediat\w*|(?:LLM|AI|automated|virtual)[- ]mediators?|mediat\w* (?:between|among) (?:parties|stakeholders|disputants|groups)
+        note: 'v1.5 draft: bare "mediator" matched causal mediation analysis.'
+      integrative negotiation: integrative (?:negotiation|bargaining|agreement)
+      multiparty negotiation: multi-?party negotiation|multilateral negotiation
+      joint gains: joint gains|win-?win (?:solution|outcome|agreement)
+      issue linkage: issue linkage|logrolling|log-rolling
+      single negotiating text: single negotiating text
+      coalition formation: coalition formation|coalition structure generation
+      model merging:
+        pattern: 'model merging|merging (?:of )?(?:fine-?tuned |expert |task-specific |language )?models|model fusion|model soups?\b|merged models?|(?:LLMs?|LoRAs?|adapters?|parameters?|experts?|task vectors?)\b(?: [\w-]+){0,3} merging|merging (?:of )?(?:[\w-]+ ){0,2}(?:LLMs|adapters|LoRAs|experts|task vectors)'
+        note: 'v1.5 draft: bare "weight averaging" removed (stochastic and checkpoint weight averaging within one training run are not distinct sources). v1.7: LLM/LoRA/adapter/parameter/expert merging phrasings added after the ACL 2025-26 pilot (e.g. "Training-free LLM Merging").'
       moe routing:
-        pattern: '\bMoErging\b|expert (?:routing|merging|recycling)|routing (?:among|between|over) (?:specialized )?(?:experts|models|agents)|mixture[- ]of[- ]experts (?:aggregation|merging|reuse|ensemble)'
-        note: 'narrowed after ACL pilot; bare "mixture-of-experts" retained 57 architecture papers excluded by §7.2'
-      federated aggregation: 'federated (?:averaging|aggregation)|\bFedAvg\b'
-      secure aggregation: 'secure aggregation'
-      private aggregation: 'differentially private aggregation|private aggregation of'
-
-      # --- named techniques ---
-      named voting rules: '\bBorda\b|\bCondorcet\b|\bCopeland\b|\bKemeny\b|\bSchulze\b|ranked pairs|single transferable vote|\bSTV\b|instant runoff'
-      approval rules: 'approval voting|proportional approval voting|\bPAV\b|Thiele rule|Phragm[eé]n|method of equal shares|Chamberlin[- ]Courant|knapsack voting'
-      lottery rules: 'maximal lotter(?:y|ies)|random dictatorship|randomi[sz]ed social choice'
-      crowd models: 'Dawid[- ]Skene|\bGLAD\b|\bMACE\b|minimax entropy'
-      preference models: 'Bradley[- ]Terry|Plackett[- ]Luce'
-      pooling rules: 'linear pooling|logarithmic pooling|geometric pooling|extremi[sz]ing|surprisingly popular|minimal pivoting'
-      robust aggregators: '\bKrum\b|\bBulyan\b|trimmed mean|geometric median|coordinate-?wise median'
-      merging methods: 'task arithmetic|TIES[- ]merging|Fisher merging|sign-?aware merging|soft merging of experts'
+        pattern: \bMoErging\b|routing (?:among|between|over|across) (?:[\w-]+ ){0,2}(?:models|LLMs|agents|adapters)|(?:LLM|model) rout(?:ing|ers?)\b|mixture[- ]of[- ]experts (?:merging|reuse)|^(?=[\s\S]*?(?:expert (?:routing|merging|recycling)|expert routers?))(?=[\s\S]*?(?:LoRAs?\b|adapters|fine-tuned (?:models|experts)|specialized models|independently trained|model zoo))
+        note: 'narrowed after ACL pilot; bare "mixture-of-experts" retained 57 architecture papers excluded by §7.2 v1.8: within-model expert routing removed (excluded by the sparse-gating rule); routing among models, LLMs, agents or LoRA/adapter experts kept.'
+      federated aggregation:
+        pattern: federated (?:averaging|aggregation)|\bFedAvg\b|fair federated|federated (?:learning )?fairness|client[- ]level fairness|agnostic federated|group fairness in federated|^(?=[\s\S]*?(?:federated))(?=[\s\S]*?(?:aggregat\w* (?:schemes?|strateg\w*|rules?|weights?|methods?|mechanisms?|functions?|operators?)|(?:server|global|weighted|personali[sz]ed|robust|adaptive|similarity-based|fair|hierarchical)[- ]aggregation))
+        note: 'v1.6: fair and agnostic federated learning (group-robust aggregation across clients, coded W) added after the FAccT pilot. v1.8: federated papers whose contribution is the aggregation step (aggregation scheme/rule/weights; server, weighted, personalised, robust aggregation). 92 such papers were excluded in the measured corpus; needed for P1 in the federated literature.'
+      secure aggregation: secure aggregation
+      private aggregation: differentially private aggregation|private aggregation of
+      named voting rules: \bBorda\b|\bCondorcet\b|\bCopeland\b|\bKemeny\b|\bSchulze\b|ranked pairs|single transferable vote|\bSTV\b|instant runoff
+      approval rules: approval voting|proportional approval voting|\bPAV\b|Thiele rule|Phragm[eé]n|method of equal shares|Chamberlin[- ]Courant|knapsack voting
+      lottery rules: maximal lotter(?:y|ies)|random dictatorship|randomi[sz]ed social choice
+      crowd models: Dawid[- ]Skene|\bGLAD\b|\bMACE\b|minimax entropy
+      preference models:
+        pattern: ^(?=[\s\S]*?(?:Bradley[- ]Terry|Plackett[- ]Luce))(?=[\s\S]*?(?:rank aggregation|\branking\b|paired comparisons|pairwise comparison data|tournaments?|annotators|\braters\b|crowd|heterogeneous|mixture of|plurali|disagree|social choice|voters?))
+        note: 'v1.8: Bradley-Terry/Plackett-Luce only with a ranking, comparison-aggregation or plural-source context; alone it retained DPO variants (80 sole retentions).'
+      pooling rules: linear pooling|logarithmic pooling|geometric pooling|extremi[sz]ing|surprisingly popular|minimal pivoting
+      robust aggregators: \bKrum\b|\bBulyan\b|trimmed mean|geometric median|coordinate-?wise median
+      merging methods: task arithmetic|TIES[- ]merging|Fisher merging|sign-?aware merging|soft merging of experts
       bargaining solutions:
-        pattern: 'Nash bargaining|Kalai[- ]Smorodinsky|egalitarian solution|Shapley value'
-        note: 'leximin and Nash social welfare moved to sets.welfare in v1.3; coverage unchanged'
-      delegation rules: 'liquid democracy|delegative voting|proxy voting|\bsortition\b'
-
-      # --- named properties and results ---
-      impossibility: 'Arrow''s? (?:theorem|impossibility)|Gibbard[- ]Satterthwaite|discursive dilemma|doctrinal paradox|Condorcet jury'
-      incentives: 'strategy-?proof|incentive compatib'
-      rationality: 'individually rational|individual rationality|disagreement point|\bBATNA\b'
-      pareto: 'Pareto (?:frontier|optimal|efficient|improving|improvement)'
-      core: 'core stability|in the core\b|core allocation|coalitional stability'
-      representation axioms: 'justified representation|proportional(?:ity)? degree'
-      distortion: 'metric distortion|distortion of (?:voting|social choice)'
-      bayesian pooling: 'external(?:ly)? Bayesian'
-      byzantine: 'Byzantine[- ](?:robust|resilient|tolerant)|breakdown point'
-      perspectivism: 'perspectivis|human label variation|annotator disagreement'
+        pattern: Nash bargaining|Kalai[- ]Smorodinsky|egalitarian solution|^(?=[\s\S]*?(?:Shapley value))(?=[\s\S]*?(?:bargain|coalition formation|cost[- ]sharing|surplus|fair (?:division|allocation)|profit[- ]sharing|cooperative games? (?:of|among|between) (?:agents|players|parties)))
+        note: 'v1.5 draft: Shapley value only with a bargaining or allocation context; bare Shapley retained XAI attribution and data valuation papers (142 sole retentions).'
+      delegation rules: liquid democracy|delegative voting|proxy voting|\bsortition\b
+      impossibility: Arrow's? (?:theorem|impossibility)|Gibbard[- ]Satterthwaite|discursive dilemma|doctrinal paradox|Condorcet jury
+      incentives:
+        pattern: ^(?=[\s\S]*?(?:strategy-?proof|incentive[- ]compatib))(?=[\s\S]*?(?:\bvot\w*|social choice|aggregat\w*|fair (?:division|allocations?)|envy|committee|participatory|peer (?:prediction|review|grading)|crowd\w*|forecast\w*|elicit\w*|federated|clients|annotators|judg(?:e)?ments|opinions|rankings?|preferences))
+        note: 'v1.8: strategyproofness/incentive compatibility only with an aggregation or elicitation context; alone it retained auction and pricing design.'
+      rationality:
+        pattern: disagreement point|\bBATNA\b|^(?=[\s\S]*?(?:individual(?:ly)? rational\w*))(?=[\s\S]*?(?:bargain\w*|negotiat\w*|coalition|cooperative game|social choice|fair division|envy|disagreement point))
+        note: 'v1.8: individual rationality only in a bargaining, coalition or fair-division context; alone it retained auction mechanisms.'
+      pareto:
+        pattern: ^(?=[\s\S]*?(?:Pareto (?:frontier|front|optimal|efficien\w*|improv\w*|dominat\w*)))(?=[\s\S]*?(?:\ballocation|\bvoters?\b|\bparties\b|\bplayers\b|bargain|welfare|envy|individually rational|social choice|matching market|stakeholders?|\bgroups? of (?:users|people|agents)))
+        note: 'v1.5 draft: Pareto terms only in an allocation or social-choice context; multi-objective optimization papers were 192 sole retentions.'
+      core: core stability|in the core\b|core allocation|coalitional stability
+      representation axioms:
+        pattern: justified representation|proportional(?:ity)? degree|proportional representation|multi-?group proportional representation
+        note: 'v1.8: proportional representation added (multi-group proportional representation in retrieval).'
+      distortion:
+        pattern: \bmetric distortion|distortion (?:of|in) (?:[\w-]+ ){0,2}(?:voting|elections?|social choice|committees?|rules?)
+        note: 'v1.8: word boundary on "metric" (it matched "geometric distortion" in vision papers); distortion of committee elections added.'
+      bayesian pooling: external(?:ly)? Bayesian
+      byzantine: Byzantine[- ](?:robust\w*|resilien\w*|toleran\w*|resistan\w*)|breakdown point
+      perspectivism: perspectivis|human label variation|annotator disagreement
       alignment:
-        pattern: '\bRLHF\b|\bRLAIF\b|\bDPO\b|reinforcement learning from (?:human|AI) feedback|preference optimi[sz]ation|reward model|human preference|preference (?:data|pairs?|tuning)|constitutional AI'
-        note: >
-          DECIDED 2026-09-15: retain broadly, including training-method papers
-          that are not themselves about aggregation. Rationale: the abstract
-          stage is deliberately permissive and the full-text stage removes them,
-          which is the same conservative-retention principle §11 Stage 1 applies
-          to metadata ambiguity generally. A training-method paper cannot be
-          distinguished from a preference-aggregation paper on the abstract
-          alone often enough to justify a precision-first rule here, and F7 is a
-          family the review cannot afford to under-sample. Pattern widened at
-          the same time from RLHF and preference optimisation only, which missed
-          DPO, reward-model and RLAIF papers that are squarely in F7. Expected
-          cost is a larger full-text set; see changelog for the measured figure.
-
+        pattern: ^(?=[\s\S]*?(?:\bRLHF\b|\bRLAIF\b|\bDPO\b|reinforcement learning from (?:human|AI) feedback|preference optimi[sz]ation|reward models?\b|human preferences?|preference (?:data|pairs?|tuning|learning)|constitutional AI))(?=[\s\S]*?(?:\bannotators?\b|\braters?\b|\blabell?ers\b|\bstakeholders?\b|demographic|plurali(?:sm|stic (?:alignment|values|preferences|AI|societ))|diverse (?:human )?(?:users|people|preferences|values|groups|populations)|heterogeneous (?:human )?(?:preferences|users|annotators|values)|conflicting (?:preferences|values|feedback)|disagree|minority (?:groups?|preferences|views)|(?:user|annotator|demographic|social) groups?\b|population of|social choice|aggregat\w* (?:of )?(?:human )?(?:preferences|feedback|judg|opinions|votes|values)|personali[sz]ed (?:alignment|reward|preference)|public input|members of the public|\bcitizens\b|representative sample of|collective (?:input|constitution\w*)|deliberati(?:on|ve)|personali[sz]\w*|user personas?|individual (?:users|preferences|values)|cultur\w*|resource
+          allocation|fairness (?:across|among) (?:users|groups)))
+        note: 'v1.5 draft: alignment-training vocabulary retains only when the abstract also refers to plural sources (annotators, groups, diverse or conflicting preferences, disagreement, aggregation of preferences). The 2026-09-15 retain-broadly decision retained 1,798 records on this term alone in the measured corpus; sampled titles were almost all single-preference training-method papers. v1.6: public-input context added after the FAccT pilot dropped Collective Constitutional AI. v1.7: personalization, culture and resource-allocation contexts added after the ACL 2025-26 pilot. v1.8: "diverse/heterogeneous human preferences" added (AlignDiff was missed); bare "plurali" restricted because it matched "pluralistic image inpainting".'
+      envy-freeness:
+        pattern: envy-?free\w*|envy-?freeness|equitab\w* (?:allocation|division)
+        note: 'v1.5 draft: promoted from tier2.fairness; a fair-division property specific enough to retain alone'
+      model-output aggregation:
+        pattern: multi-?agent debate|debate (?:among|between) (?:LLMs|agents|models)|LLM ensembl\w*|ensembl\w* of (?:LLMs|large language models)|mixture[- ]of[- ]agents|\bvoting (?:among|across|over) (?:LLMs|agents|models|samples)|(?:multi-?persona|expert|LLM|multi-?model) debates?|debate trees?|LLM jur(?:y|ies)|jur(?:y|ies) of (?:LLMs|models|judges)|panels? of (?:LLM )?judges|multi-?agent (?:consensus|disagreement|conformity)|(?:consensus|conformity|disagreement) (?:among|between|in) (?:LLM[- ])?agents
+        note: 'v1.5 draft: family F8 terms added after the probe check missed debate and LLM-ensemble papers v1.7: multi-persona and expert debate added. v1.8: LLM juries/judge panels and multi-agent consensus or conformity added.'
+      voting games:
+        pattern: iterative voting|strategic voting|voting (?:games?|equilibri\w*|dynamics)
+        note: 'v1.5 draft: added after the probe check'
+      pluralistic alignment:
+        pattern: (?:cultur\w*|demographic\w*|subgroups?|personas?)[- ](?:aware |specific |level |guided )?(?:alignment|value alignment)|align\w* (?:LLMs? |large language models? |language models? |models? )?(?:with|to) (?:[\w-]+ ){0,2}(?:cultur\w*|demographic\w*|subgroups?|communities|populations)
+        note: 'v1.7: alignment to cultures, demographic groups or communities (plural sources) without RLHF vocabulary; added after the ACL 2025-26 pilot (CuMA, cultural alignment papers).'
+      opinion representation:
+        pattern: whose (?:opinions|voices)|whose (?:values|preferences) (?:do|does|are|is|should|get|count|matter)|opinions of (?:[\w-]+ ){0,2}(?:groups|populations|demographics|communities|subpopulations)|(?:public|survey) opinion (?:alignment|distributions?)|(?:human|public|group|annotator|population) opinion distributions?|distributional (?:alignment|pluralism)
+        note: 'v1.8: added after "Whose Opinions Do Language Models Reflect?" (ICML 2023) was missed. Representation of group opinions is the R account.'
+      opinion dynamics:
+        pattern: opinion dynamics|Friedkin[- ]Johnsen|DeGroot (?:model|learning|dynamics)|bounded[- ]confidence (?:model|dynamics)
+        note: 'v1.8: family F11 (dialogical and iterative aggregation) had no opinion-dynamics term.'
+      assemblies and consultations:
+        pattern: citizens\W{0,2} assembl\w*|(?:deliberative|federated|citizen) assembl\w*|citizen consultations?|public consultations?
+        note: 'v1.8: citizens'' assemblies and public consultations (F14 sortition, R account); "Federated Assemblies" (AAAI 2025) was missed.'
+      multi-stakeholder:
+        pattern: multi-?stakeholder (?:alignment|decision\w*|preferences|aggregation|values?)|stakeholder preferences|preferences of (?:multiple |different |diverse |competing )?stakeholders
+        note: 'v1.8: added after "Skin-in-the-Game: Multi-Stakeholder Alignment" (ACL 2024) was missed.'
+      peer review aggregation:
+        pattern: reviewer (?:scores|ratings|calibration|disagreement)|(?:aggregat|calibrat)\w* (?:of )?(?:peer[- ])?review(?:er)? scores|meta-?review(?:s|ing|er)?\b
+        note: 'v1.8: aggregation of peer-review judgments (expert sources); meta-reviewing paper was missed.'
   welfare:
     role: sufficient
-    description: >
-      Signal Tier 1, new in v1.3. Social welfare functions, named welfare
-      criteria, and welfare-theoretic properties (design document §4.2 and
-      Appendix B.2). Generic "social welfare" deliberately stays in tier2:
-      auction and mechanism-design papers at EC, AAAI and IJCAI use it as an
-      objective with no aggregation of disagreement, and a sufficient match on
-      it would retain most of EC. Not yet piloted; see changelog.
+    description: 'Signal Tier 1, new in v1.3. Social welfare functions, named welfare criteria, and welfare-theoretic properties (design document §4.2 and Appendix B.2). Generic "social welfare" deliberately stays in tier2: auction and mechanism-design papers at EC, AAAI and IJCAI use it as an objective with no aggregation of disagreement, and a sufficient match on it would retain most of EC. Not yet piloted; see changelog.
+
+      '
     terms:
       social welfare function:
-        pattern: '(?:social )?welfare (?:functions?|functionals?|orderings?)|\bSWFs?\b|\bwelfaris[mt]\b'
-        note: 'watch \bSWF\b in the EC pilot; demote to tier2 if it collides with unrelated acronyms'
-      utilitarian aggregation: 'utilitarian (?:social welfare|welfare|aggregation|rule|solution|objective|criterion|sum)|weighted utilitarian|Harsanyi(?:''s)? (?:aggregation|social aggregation|utilitarian)'
+        pattern: (?:social )?welfare (?:functions?|functionals?|orderings?)|\bSWFs?\b|\bwelfaris[mt]\b
+        note: watch \bSWF\b in the EC pilot; demote to tier2 if it collides with unrelated acronyms
+      utilitarian aggregation: utilitarian (?:social welfare|welfare|aggregation|rule|solution|objective|criterion|sum)|weighted utilitarian|Harsanyi(?:'s)? (?:aggregation|social aggregation|utilitarian)
       egalitarian and prioritarian:
-        pattern: 'egalitarian (?:social welfare|welfare|objective|rule|criterion)|prioritarian|maximin (?:welfare|social welfare|objective|criterion)|Rawlsian (?:welfare|social welfare|maximin|objective|criterion|fairness)'
+        pattern: egalitarian (?:social welfare|welfare|objective|rule|criterion)|prioritarian|maximin (?:welfare|social welfare|objective|criterion)|Rawlsian (?:welfare|social welfare|maximin|objective|criterion|fairness)
         note: '"Rawlsian fairness" retains minimax group-fairness papers; in scope only under the §7.3 convention, filtered at full text'
-      leximin: '\bleximin\b|lexicographic maximin'
-      nash welfare: 'Nash (?:social )?welfare|\bMNW\b|Nash product'
-      generalized means: 'generali[sz]ed (?:Gini|p-?means?|power means?)|(?:power|p)[- ]mean welfare|Atkinson (?:index|social welfare|inequality)|alpha[- ]fair|α-fair'
-      inequality aversion: 'inequality[- ]aver(?:se|sion)'
-      comparability: 'interpersonal(?:ly)? compar'
-      welfare properties: 'Pigou[- ]Dalton|Bergson[- ]Samuelson|price of fairness|maximin share|Paretian liberal|liberal paradox'
-
+      leximin: \bleximin\b|lexicographic maximin
+      nash welfare: Nash (?:social )?welfare|\bMNW\b|Nash product
+      generalized means:
+        pattern: generali[sz]ed (?:Gini|p-?means?|power means?)|(?:power|p)[- ]mean welfare|Atkinson (?:index|social welfare|inequality)|alpha[- ]fair|α-fair|ordered weighted averag\w*|\bOWA\b
+        note: 'v1.6: ordered weighted averaging (generalized Gini welfare) added after the FAccT pilot.'
+      inequality aversion: inequality[- ]aver(?:se|sion)
+      comparability: interpersonal(?:ly)? compar
+      welfare properties: Pigou[- ]Dalton|Bergson[- ]Samuelson|price of fairness|maximin share|Paretian liberal|liberal paradox
   preservation:
     role: sufficient
     requires_anchor: false
-    description: >
-      Standalone disagreement-preservation query. Matched WITHOUT an anchor
-      requirement, because D2 and D3 papers frequently describe what they do
-      without using aggregation vocabulary at all, and requiring an anchor would
-      systematically miss the sparse cells the review exists to characterise.
-      Precision is expected to be poor; the manual screening cost is accepted.
+    description: 'Standalone disagreement-preservation query. Matched WITHOUT an anchor requirement, because D2 and D3 papers frequently describe what they do without using aggregation vocabulary at all, and requiring an anchor would systematically miss the sparse cells the review exists to characterise. Precision is expected to be poor; the manual screening cost is accepted.
+
+      '
     terms:
-      preserving disagreement: 'disagreement[- ]preserv|preserv\w* disagreement|disagreement as (?:a )?signal|disagreement is signal|disagreement[- ]aware|learning (?:from|with) disagreement'
-      typed disagreement: 'typed disagreement|structured disagreement|disagreement type'
-      divergence: 'divergence detection|surfacing divergence|where interests diverge|detect(?:ing)? divergen'
-      conflicting evidence: 'conflicting (?:evidence|sources|information|claims|judg(?:e)?ments|annotations|labels)|contested evidence|competing claims'
-      plural output: 'plural(?:istic)? output|non-?collapsing|refuse to aggregate|without collapsing|rather than collapsing'
-      disaggregated: 'disaggregated reporting|per-?annotator|per-?party|per-?source model|annotator-?level|rater-?level|individual annotator'
-      label variation: 'human label variation|label variation|annotator variation|soft label|label distribution|distribution over (?:annotators|labels)'
-      perspectives: 'multi-?perspectiv|diverse perspectives|annotator (?:identit|demographic|background)'
-      minority: 'minority (?:view|perspective|opinion|position|label|annotator)|dissent(?:ing)? (?:opinion|view|voice)|marginali[sz]ed (?:view|perspective)'
-      position mapping: 'position mapping|interest mapping|mapping (?:of )?positions'
-      epistemic plurality: 'epistemic plurality|value pluralism|epistemic (?:justice|erasure)'
-      defer on conflict: 'abstain(?:ing)? on (?:conflict|disagreement)|defer(?:ral)? on disagreement'
-      jury: 'jury learning|counterfactual jury|jury composition'
+      preserving disagreement: disagreement[- ]preserv|preserv\w* disagreement|disagreement as (?:a )?signal|disagreement is signal|disagreement[- ]aware|learning (?:from|with) disagreement
+      typed disagreement: typed disagreement|structured disagreement|disagreement type
+      divergence: divergence detection|surfacing divergence|where interests diverge|detect(?:ing)? divergen
+      conflicting evidence: conflicting (?:evidence|sources|information|claims|judg(?:e)?ments|annotations|labels)|contested evidence|competing claims
+      plural output: plural(?:istic)? output|non-?collapsing|refuse to aggregate|without collapsing|rather than collapsing
+      disaggregated: disaggregated reporting|per-?annotator|per-?party|per-?source model|annotator-?level|rater-?level|individual annotator
+      label variation:
+        pattern: human label variation|label variation|annotator variation|^(?=[\s\S]*?(?:soft labels?|label distributions?|distribution over labels))(?=[\s\S]*?(?:\bannotators?\b|\braters?\b|crowd|human (?:judg|label|annotat)|disagree))
+        note: 'v1.5 draft: soft labels and label distributions only with annotators or disagreement; bare forms matched knowledge distillation, label smoothing and label-distribution learning (254 sole retentions).'
+      perspectives:
+        pattern: annotator (?:identit|demographic|background|perspective)|^(?=[\s\S]*?(?:diverse perspectives|multiple perspectives|multi-?perspectiv))(?=[\s\S]*?(?:\bannotators?\b|\braters?\b|stakeholders?|disagree|plurali|subjectiv))
+        note: 'v1.5 draft: generic "diverse/multi-perspective" requires an annotator, stakeholder or disagreement context.'
+      minority: minority (?:view|perspective|opinion|position|label|annotator)|dissent(?:ing)? (?:opinion|view|voice)|marginali[sz]ed (?:view|perspective)
+      position mapping: position mapping|interest mapping|mapping (?:of )?positions
+      epistemic plurality: epistemic plurality|value pluralism|epistemic (?:justice|erasure)
+      defer on conflict: abstain(?:ing)? on (?:conflict|disagreement)|defer(?:ral)? on disagreement
+      jury: jury learning|counterfactual jury|jury composition
       pluralism:
-        pattern: 'pluralis(?:m|tic) (?:alignment|values?|AI|evaluation)|agonis(?:m|tic)'
-        note: 'added v1.4 from the FAccT 2025 pilot; missed "The Value of Disagreement in AI Design, Evaluation, and Alignment" and "Agonistic Image Generation"'
+        pattern: pluralis(?:m|tic) (?:alignment|values?|AI|evaluation)|(?:overton|distributional|steerable|demographic|value|moral|cultural) pluralism|pluralistic (?:[\w-]+ ){0,2}alignment|agonis(?:m|tic)
+        note: 'added v1.4 from the FAccT 2025 pilot; missed "The Value of Disagreement in AI Design, Evaluation, and Alignment" and "Agonistic Image Generation" v1.8: Overton/distributional/steerable/demographic pluralism and "pluralistic in-context alignment" added.'
       suppressed disagreement:
-        pattern: '(?:suppress|eliminat|obscur|eras|homogeni[sz])\w* (?:\w+ ){0,2}(?:disagreement|dissent|perspectives)|perspectival homogeni'
-        note: 'added v1.4 from the FAccT 2025 pilot; papers arguing that pipelines remove disagreement, which is the D0 critique in the humanities strand'
-
-# -----------------------------------------------------------------------------
-# CONDITIONAL SET -- needs an anchor
-# -----------------------------------------------------------------------------
-
+        pattern: (?:suppress|eliminat|obscur|eras|homogeni[sz])\w* (?:\w+ ){0,2}(?:disagreement|dissent|perspectives)|perspectival homogeni
+        note: added v1.4 from the FAccT 2025 pilot; papers arguing that pipelines remove disagreement, which is the D0 critique in the humanities strand
+      annotator effects:
+        pattern: (?:annotator|rater)[- ](?:centric|specific|aware|level|effects?|bias(?:es)?|variation|disagreement)|disagreement distributions?|human disagreement|disagreement (?:among|between|across) (?:annotators|raters|humans|agents|models|LLMs)|multi-?agent disagreement|subjectiv\w* (?:in |of )?(?:[\w-]+ ){0,3}(?:annotations?|labels?|labell?ing|ratings?)|annotation subjectivity
+        note: 'v1.5 draft: added after the probe check v1.6: annotation subjectivity added after the FAccT pilot (skin-tone annotation paper).'
+      multi-annotation:
+        pattern: multi-?annotat\w*|multiply[- ]annotated|multiple annotations? (?:per|for each)|annotations? (?:from|by) multiple (?:annotators|raters)
+        note: 'v1.8: multi-annotation datasets and processes (EMNLP Findings 2023 paper was missed).'
   tier2:
     role: conditional
-    description: >
-      Signal Tier 2. Terms that indicate aggregation only in context. Retained
-      only in combination with an anchor from the venue's anchor profile.
+    description: 'Signal Tier 2. Terms that indicate aggregation only in context. Retained only in combination with an anchor from the venue''s anchor profile.
+
+      '
     terms:
-      consensus: '\bconsensus\b'
-      agreement: '\bagreement\b|\bdisagreement\b'
+      agreement:
+        pattern: \bdisagree\w*|\bconsensus\b
+        note: 'v1.5 draft: bare "agreement" removed (inter-annotator agreement in every dataset paper); consensus merged here.'
       combining:
-        pattern: '\bcombining\b|\bmerging\b|\baggregating\b|fusion of (?:models|experts|judg|opinion|predictions|sources)'
-        note: 'bare "fusion" removed after ACL pilot; matched all multimodal work'
-      ensemble: '\bensembl'
+        pattern: aggregating (?:votes|labels|judg\w*|opinions|preferences|forecasts|annotations|predictions|models|feedback)|fusion of (?:models|experts|judg\w*|opinions|predictions|sources)|combining (?:votes|labels|judg\w*|opinions|preferences|forecasts|annotations|models|experts)
+        note: 'v1.5 draft: bare combining/merging/aggregating removed (527 tier2-only retentions, generic method descriptions).'
+      ensemble:
+        pattern: ensembles? of (?:LLMs|language models|models|annotators|judges|experts|agents)|(?:LLM|model|judge) ensembl\w*|ensembling (?:LLMs|language models|judges|models)
+        note: 'v1.5 draft: bare "ensembl" removed; only ensembles of distinct models or judges.'
       routing:
-        pattern: 'routing (?:among|between|over|to)|query routing|model routing|\bcascade\b|\bdeferral\b|\bescalation\b|learning to defer'
-        note: 'narrowed after ACL pilot; bare "routing" matched MoE architecture'
-      delegation: '\bdelegation\b|\bdelegate\b|\bproxy vot'
+        pattern: routing (?:among|between|over|to)|query routing|model routing|\bcascade\b|\bdeferral\b|\bescalation\b|learning to defer
+        note: narrowed after ACL pilot; bare "routing" matched MoE architecture
+      delegation:
+        pattern: delegat\w* (?:of )?votes?|delegat\w* (?:to|among) (?:voters|representatives|delegates)|delegation (?:graphs?|chains?)|proxy voting
+        note: 'v1.6: generic delegation (to AI agents) removed.'
       adjudication:
-        pattern: 'adjudicat|reconcil|arbitrat|\bmediat(?:e|es|ed|ing|ion|or)\b'
-        note: '\b required; bare "mediat" matched "intermediate" on 207 ACL records'
-      negotiation: 'negotiat|bargain'
+        pattern: adjudicat\w*|arbitrat\w*
+        note: 'v1.5 draft: reconcile and mediate removed (generic and causal-mediation usage).'
+      negotiation:
+        pattern: bargain\w*|negotiat\w* (?:between|among|with) (?:parties|agents|players|stakeholders|groups)|multi-?part(?:y|ies) negotiat\w*|negotiation (?:protocols?|agents?|outcomes?|games?)
+        note: 'v1.6: bare "negotiat" removed (negotiating values, negotiated meanings in FAccT).'
       ai alignment:
-        pattern: '\b(?:AI|value|model|LLM|preference) alignment\b'
-        note: >
-          added v1.4 from the FAccT 2025 pilot, which missed "AI Alignment at
-          Your Discretion" and "The Hard Problem of AI Alignment: Value Forks in
-          Moral Judgment" because tier1.alignment fires only on training-method
-          terms (RLHF, DPO, reward model). This is a narrow form of the bare
-          "alignment" retired on 2026-09-15: the required prefix excludes word
-          and sequence alignment, which caused the ACL false positives. Kept
-          conditional (needs an anchor) for that reason; recheck its hit count
-          when ACL is rerun.
+        pattern: \bAI alignment|value alignment|pluralistic alignment|alignment (?:with|to) (?:human |societal |diverse |shared )?values
+        note: 'v1.7: model/LLM/preference alignment removed; with the "preferences" anchor it re-admitted generic alignment-training papers that tier1.alignment excludes (13 of 123 records kept in the ACL 2025-26 pilot).'
       welfare:
-        pattern: '\bwelfare\b|utilitarian|egalitarian|distributive justice|sufficientarian'
-        note: '"distributive justice" and "sufficientarian" added v1.3; conditional because FAccT uses both outside aggregation'
+        pattern: social welfare|welfare (?:economics|functions?|maximi\w*|criteri\w*|weights|loss)|\butilitarian|\begalitarian|distributive justice|sufficientarian
+        note: 'v1.6: bare "welfare" removed (child welfare, welfare services in FAccT).'
       fairness:
-        pattern: 'fair(?:ness)? (?:division|allocation|share|aggregation)|proportional fairness|envy-?free|fairness axiom'
-        note: 'narrowed after ACL pilot; bare "fairness" matched the fairness-in-NLP subfield on 530 records'
-      manipulation: 'manipulat|collusion|misreport|strategic (?:report|behaviou?r)'
+        pattern: fair(?:ness)? (?:division|allocation|share|aggregation)|proportional fairness|envy-?free|fairness axiom
+        note: narrowed after ACL pilot; bare "fairness" matched the fairness-in-NLP subfield on 530 records
+      manipulation:
+        pattern: strategic manipulation|manipulab\w*|manipulation (?:of|by) (?:the )?(?:votes?|voters|agents|elections?|rules?|mechanisms?)|misreport\w*|collusion|strategic (?:report\w*|voting|behaviou?r)
+        note: 'v1.5 draft: bare "manipulat" matched image, prompt and representation manipulation.'
       privacy:
-        pattern: 'differential(?:ly)? privat|secure (?:aggregation|computation)|federated|decentrali[sz]ed (?:learning|aggregation)'
-        note: 'narrowed after ACL pilot; bare "privacy" matched 102 records with no aggregation content'
-      crowd: 'crowdsourc|crowd-?work|crowd-?sourced'
-      collective: '\bcollective\b|\bmajority\b|\bminority\b|\bplurality\b'
-      weighting: 'weighted (?:vot|aggregat|combin|average)|\bimputation\b'
-      exit: '\bwithdraw|\bopt-?out\b|\bveto\b|\bdefect'
-
-# -----------------------------------------------------------------------------
-# ANCHOR PROFILES
-# -----------------------------------------------------------------------------
-
+        pattern: differential(?:ly)? privat\w* (?:aggregat\w*|vot\w*|consensus|label|ensemble)|private (?:voting|consensus|label aggregation)|\bPATE\b|secure (?:aggregation|multi-?party computation)
+        note: 'v1.5 draft: bare "federated" and "differential privacy" removed (542 tier2-only retentions, mostly federated-learning efficiency papers). Federated aggregation proper is caught by tier1.'
+      crowd:
+        pattern: crowdsourc\w* (?:labels|annotations|judg\w*|answers|ratings|preferences)|(?:aggregat|combin)\w* (?:of )?crowd\w*|crowd (?:labels|annotations|answers|judg\w*|wisdom)|learning from (?:the )?crowds?|crowd workers\W? (?:labels|answers|judg\w*|disagreement)
+        note: 'v1.8: bare "crowdsourc" retained crowdsourced dataset papers (102 tier2-only retentions).'
+      collective:
+        pattern: majority (?:vote|voting|rule|opinion|view)|plurality (?:vote|voting|rule)|minority (?:opinion|view|voters?|groups?)|collective (?:intelligence|judg\w*|decision|choice|preferences|welfare|action)|\bvot(?:e|es|ing)\b
+        note: 'v1.5 draft: bare majority/minority/plurality/collective matched class-imbalance and generic usage.'
+      weighting:
+        pattern: weighted (?:vot\w*|majority|aggregat\w*|pooling)
+        note: 'v1.5 draft: imputation and weighted average removed.'
+      exit:
+        pattern: \bveto\b|opt-?out|exit option|outside option|walk away
+        note: 'v1.5 draft: withdraw and defect removed (defect detection, withdrawal of submissions).'
 anchor_profiles:
-
   default:
-    description: Signal Tier 3 general anchors.
+    description: 'v1.5 draft: single tightened anchor profile for all venues. Removed generic anchors (agent, score, parameter, gradient, label, issue, position, mechanism, rule, judge as LLM judge kept only in plural). v1.6: "candidates" removed (job candidates in FAccT).'
     terms:
-      formal: '\brule\b|\baxiom|\bmechanism\b|\bprofile\b'
-      sources: '\bvoter\b|\bballot\b|\bannotator\b|\brater\b|\bjudge\b|\bagent\b|\bclient\b|\bpart(?:y|ies)\b|\bnegotiator\b|\bstakeholder\b|\bexpert\b|\bforecaster\b|\bdelegate\b'
-      objects: '\blabel\b|\bjudgment\b|\bjudgement\b|\bpreference\b|\branking\b|\bvote\b|\bscore\b|\bforecast\b|\bgradient\b|\bparameter\b|\bpackage\b|\ballocation\b|\bissue\b|\bposition\b|\bexpert card\b'
-
-  restricted_ml:
-    description: >
-      Design document §10. Large ML venues use aggregation vocabulary
-      incidentally at high rates, so generic data-centric anchors are excluded.
-    terms:
-      formal: '\brule\b|\baxiom|\bprofile\b'
-      sources: '\bvoter\b|\bballot\b|\bannotator\b|\brater\b|\bjudge\b|\bclient\b|\bpart(?:y|ies)\b|\bnegotiator\b|\bexpert card\b'
-      objects: 'social choice|welfare function|preference profile|disagreement point|\bcommittee\b'
-
-# Venue substrings mapped to an anchor profile. Matched case-insensitively
-# against source filename, venue key, booktitle, journal and series.
-venue_profiles:
-  restricted_ml: [neurips, nips, icml, iclr]
-
-# -----------------------------------------------------------------------------
-# RETIRED TERMS -- the pilot log required by Appendix B
-# -----------------------------------------------------------------------------
-
+      formal: \baxiom\w*|\bprofile of preferences|preference profiles?
+      sources: \bvoters?\b|\bballots?\b|\bannotators?\b|\braters?\b|\blabell?ers\b|\bstakeholders?\b|\bnegotiators?\b|\bdelegates?\b|\bforecasters?\b|\bpart(?:y|ies)\b|crowd ?workers|\bclients\b|\bjudges\b|\bexperts\b
+      objects: social choice|welfare function|disagreement point|\bcommittees?\b|\bvotes\b|\balternatives\b|judg(?:e)?ments|\bpreferences\b
+venue_profiles: {}
 retired:
-  - term: alignment
-    from_set: tier2
-    action: dropped
-    date: "2026-09-15"
-    venue_piloted: ACL 2025-2026
-    records_matched: 541
-    reason: >
-      Matched word alignment, not preference aggregation. The in-scope sense is
-      already covered by tier1.alignment.
-  - term: pooling
-    from_set: tier2
-    action: dropped
-    date: "2026-09-15"
-    venue_piloted: ACL 2025-2026
-    records_matched: 228
-    reason: Matched max-pooling and mean-pooling layers.
-  - term: annotation
-    from_set: tier2
-    action: dropped
-    date: "2026-09-15"
-    venue_piloted: ACL 2025-2026
-    records_matched: 459
-    reason: >
-      Matched every dataset paper. Correctly belongs as a Tier 3 anchor, where
-      it already appears, not as a Tier 2 signal.
-  - term: robustness
-    from_set: tier2
-    action: narrowed
-    date: "2026-09-15"
-    venue_piloted: ACL 2025-2026
-    records_matched: 410
-    reason: >
-      Matched adversarial robustness. Replaced by tier2.manipulation, which
-      targets the strategic sense relevant to condition C1.
-  - term: leakage
-    from_set: tier1
-    action: dropped
-    date: "2026-09-26"
-    venue_piloted: none (scope change, design document v7.0)
-    records_matched: null
-    reason: >
-      Membership inference and extraction attacks were in scope only through
-      the negotiation disclosure condition, which is no longer part of the
-      frame, and the security venues have been cut. At NeurIPS, ICML and ICLR
-      the terms would retain privacy-attack papers with no aggregation content.
-      Privacy-constrained aggregation remains covered by tier1 secure, private
-      and federated aggregation and by tier2.privacy.
-  - term: privacy methods
-    from_set: tier1
-    action: dropped
-    date: "2026-09-26"
-    venue_piloted: none (scope change, design document v7.0)
-    records_matched: null
-    reason: >
-      DP-SGD privatizes gradients over i.i.d. samples, not over sources holding
-      positions, so it falls under the §7.2 pooling exclusion. Private
-      aggregation across sources is still caught by tier2.privacy with an anchor.
+- term: alignment
+  from_set: tier2
+  action: dropped
+  date: '2026-09-15'
+  venue_piloted: ACL 2025-2026
+  records_matched: 541
+  reason: 'Matched word alignment, not preference aggregation. The in-scope sense is already covered by tier1.alignment.
 
+    '
+- term: pooling
+  from_set: tier2
+  action: dropped
+  date: '2026-09-15'
+  venue_piloted: ACL 2025-2026
+  records_matched: 228
+  reason: Matched max-pooling and mean-pooling layers.
+- term: annotation
+  from_set: tier2
+  action: dropped
+  date: '2026-09-15'
+  venue_piloted: ACL 2025-2026
+  records_matched: 459
+  reason: 'Matched every dataset paper. Correctly belongs as a Tier 3 anchor, where it already appears, not as a Tier 2 signal.
+
+    '
+- term: robustness
+  from_set: tier2
+  action: narrowed
+  date: '2026-09-15'
+  venue_piloted: ACL 2025-2026
+  records_matched: 410
+  reason: 'Matched adversarial robustness. Replaced by tier2.manipulation, which targets the strategic sense relevant to condition C1.
+
+    '
+- term: leakage
+  from_set: tier1
+  action: dropped
+  date: '2026-09-26'
+  venue_piloted: none (scope change, design document v7.0)
+  records_matched: null
+  reason: 'Membership inference and extraction attacks were in scope only through the negotiation disclosure condition, which is no longer part of the frame, and the security venues have been cut. At NeurIPS, ICML and ICLR the terms would retain privacy-attack papers with no aggregation content. Privacy-constrained aggregation remains covered by tier1 secure, private and federated aggregation and by tier2.privacy.
+
+    '
+- term: privacy methods
+  from_set: tier1
+  action: dropped
+  date: '2026-09-26'
+  venue_piloted: none (scope change, design document v7.0)
+  records_matched: null
+  reason: 'DP-SGD privatizes gradients over i.i.d. samples, not over sources holding positions, so it falls under the §7.2 pooling exclusion. Private aggregation across sources is still caught by tier2.privacy with an anchor.
+
+    '
 changelog:
-  - version: "1.0"
-    date: "2026-09-15"
-    change: Initial schema transcribed from design document Appendix B.
-  - version: "1.1"
-    date: "2026-09-15"
-    change: >
-      Appendix B pilot run on ACL 2025-2026 (3,824 records). Retention fell from
-      28.8% to 12.5% after four Tier 2 demotions, three narrowings, two regex
-      boundary fixes, and a widening of the preservation set from social-choice
-      vocabulary to NLP-native phrasing (5 hits to 26). Repeat this pilot on the
-      first venue of each new community before the full pass.
-  - version: "1.2"
-    date: "2026-09-15"
-    change: >
-      Scope decision recorded on tier1.alignment: retain training-method papers
-      at the abstract stage and filter at full text. Pattern widened to cover
-      DPO, RLAIF, reward models, human preference data and constitutional AI.
-      Measured on the ACL 2025-2026 pilot corpus (3,824 records): retention rose
-      from 479 (12.5%) to 600 (15.7%), with tier1 hits rising from 212 to 345.
-      The decision deliberately moves screening burden from title/abstract to
-      full text, so the §11 budget line for full-text screening should be
-      revisited if other venues behave similarly.
-  - version: "1.3"
-    date: "2026-09-26"
-    change: >
-      Reframed with design document v7.0 from aggregation for negotiation to
-      aggregation for disagreement, with negotiation as a discussion item.
-      Added sets.welfare (Signal Tier 1) for social welfare functions, named
-      welfare criteria and welfare-theoretic properties, and moved leximin and
-      Nash social welfare into it from tier1.bargaining_solutions. Widened
-      tier2.welfare with distributive justice and sufficientarian. Retired
-      tier1 leakage and privacy methods (see retired). Negotiation and
-      bargaining terms unchanged. min_year moved from 2018 to 2020 to match the
-      reduced window. Not yet measured: rerun the ACL 2025-2026 pilot to get
-      the retention delta, fill records_matched for the two retired sets, and
-      pilot one EC year and one humanities journal-year before the full pass,
-      since both are new communities and EC is the main risk for the welfare
-      set.
-  - version: "1.4"
-    date: "2026-09-27"
-    change: >
-      FAccT 2025 pilot (206 records, 100% abstract coverage). Under v1.3, 28
-      records were retained; three directly relevant papers were missed because
-      they describe disagreement in normative rather than technical vocabulary
-      and name AI alignment without training-method terms. Added
-      preservation.pluralism, preservation.suppressed_disagreement, and
-      tier2.ai_alignment (conditional). Retention rose to 33 of 206; of the 5
-      added records, 3 are relevant, 1 is borderline, and 1 is not. No Tier 1
-      term exceeded the 60 percent irrelevance threshold on this venue. The
-      welfare set matched nothing in FAccT 2025 and remains untested until the
-      EC pilot. Tier 2 "collective" (16 records) and "combining" (12) are the
-      noisiest terms; kept for now, to be reassessed after the AIES and EC
-      pilots.
+- version: '1.0'
+  date: '2026-09-15'
+  change: Initial schema transcribed from design document Appendix B.
+- version: '1.1'
+  date: '2026-09-15'
+  change: 'Appendix B pilot run on ACL 2025-2026 (3,824 records). Retention fell from 28.8% to 12.5% after four Tier 2 demotions, three narrowings, two regex boundary fixes, and a widening of the preservation set from social-choice vocabulary to NLP-native phrasing (5 hits to 26). Repeat this pilot on the first venue of each new community before the full pass.
+
+    '
+- version: '1.2'
+  date: '2026-09-15'
+  change: 'Scope decision recorded on tier1.alignment: retain training-method papers at the abstract stage and filter at full text. Pattern widened to cover DPO, RLAIF, reward models, human preference data and constitutional AI. Measured on the ACL 2025-2026 pilot corpus (3,824 records): retention rose from 479 (12.5%) to 600 (15.7%), with tier1 hits rising from 212 to 345. The decision deliberately moves screening burden from title/abstract to full text, so the §11 budget line for full-text screening should be revisited if other venues behave similarly.
+
+    '
+- version: '1.3'
+  date: '2026-09-26'
+  change: 'Reframed with design document v7.0 from aggregation for negotiation to aggregation for disagreement, with negotiation as a discussion item. Added sets.welfare (Signal Tier 1) for social welfare functions, named welfare criteria and welfare-theoretic properties, and moved leximin and Nash social welfare into it from tier1.bargaining_solutions. Widened tier2.welfare with distributive justice and sufficientarian. Retired tier1 leakage and privacy methods (see retired). Negotiation and bargaining terms unchanged. min_year moved from 2018 to 2020 to match the reduced window. Not yet measured: rerun the ACL 2025-2026 pilot to get the retention delta, fill records_matched for the two retired sets, and pilot one EC year and one humanities journal-year before the full pass, since both are new communities and EC is the main risk for the welfare set.
+
+    '
+- version: '1.4'
+  date: '2026-09-27'
+  change: FAccT 2025 pilot (206 records, 100% abstract coverage). Under v1.3, 28 records were retained; three directly relevant papers were missed because they describe disagreement in normative rather than technical vocabulary and name AI alignment without training-method terms. Added preservation.pluralism, preservation.suppressed_disagreement, and tier2.ai_alignment (conditional). Retention rose to 33 of 206; of the 5 added records, 3 are relevant, 1 is borderline, and 1 is not. No Tier 1 term exceeded the 60 percent irrelevance threshold on this venue. The welfare set matched nothing in FAccT 2025 and remains untested until the EC pilot. Tier 2 "collective" (16 records) and "combining" (12) are the noisiest terms; kept for now, to be reassessed after the AIES and EC pilots.
+- version: 1.5-draft
+  date: '2026-10-12'
+  change: Precision revision from the measured corpus (84,457 records across 9 venues). See notes on each changed term.
+- version: 1.6-draft
+  date: '2026-10-12'
+  change: 'FAccT 2021-2025 pilot (v1.5: 115 -> 65 retained). Recall fixes: alignment public-input context, annotation subjectivity, OWA, fair federated learning. Precision fixes: tier2 welfare, negotiation, delegation narrowed; "candidates" anchor removed.'
+- version: 1.7-draft
+  date: '2026-10-13'
+  change: 'ACL 2025-26 long-paper pilot (v1.2 600 -> v1.6 149). Recall: merging phrasings, personalization/cultural alignment, debate variants. Precision: tier2 ai alignment narrowed.'
+- version: '1.8'
+  date: '2026-10-13'
+  change: 'Cross-venue review of included and excluded records (NeurIPS, ICML, ICLR, AAAI, IJCAI, ACL family, EMNLP, TACL; 84,457 records). Recall: social-choice vocabulary, distortion, fair allocations, proportional representation, opinion representation, opinion dynamics, assemblies, multi-stakeholder, federated aggregation contributions, LLM juries and multi-agent consensus, peer-review aggregation, pluralism variants, multi-annotation, diverse human preferences. Precision: conflict resolution, within-model MoE routing, Bradley-Terry, incentives, individual rationality, tier2 crowd, pluralistic image inpainting. Self-consistency over samples of one model is out of scope (decision 2026-10-13).'
