@@ -1,0 +1,25 @@
+TY  - CONF
+TI  - FINS Auditing Framework
+AU  - Cachel, Kathleen
+AU  - Rundensteiner, Elke
+PY  - 2022
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Subset selection is an integral component of AI systems that is increasingly affecting people's livelihoods in applications ranging from hiring, healthcare, education, to financial decisions. Subset selections powered by AI-based methods include top-k analytics, data summarization, clustering, and multi-winner voting. While group fairness auditing tools have been proposed for classification systems, these state-of-the-art tools are not directly applicable to measuring and conceptualizing fairness in selected subsets. In this work, we introduce the first comprehensive auditing framework, FINS, to support stakeholders in interpretably quantifying group fairness across a diverse range of subset-specific fairness concerns. FINS offers a family of novel measures that provide a flexible means to audit group fairness for fairness goals ranging from item-based, score-based, and a combination thereof. FINS provides one unified easy-to-understand interpretation across these different fairness problems. Further, we develop guidelines through the FINS Fair Subset Chart, that supports auditors in determining which measures are relevant to their problem context and fairness objectives. We provide a comprehensive mapping between each fairness measure and the belief system (i.e., worldview) that is encoded within its measurement of fairness. Lastly, we demonstrate the interpretability and efficacy of FINS in supporting the identification of real bias with case studies using AirBnB listings and voter records.
+DO  - 10.1145/3514094.3534160
+UR  - https://doi.org/10.1145/3514094.3534160
+N1  - source=aies_2022.bib; retained_by=tier1; terms=tier1:committee selection; tier2:collective; schema=v1.8
+AN  - aies2022-3514094-3534160
+ER  - 
+
+TY  - CONF
+TI  - From Coded Bias to Existential Threat
+AU  - Schopmans, Hendrik R.
+PY  - 2022
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - While the knowledge produced by experts has been widely recognized to play a salient role in shaping policy on technological issues, the interaction between AI expertise and the evolving AI governance landscape has received little attention thus far. To address this gap, the present paper leverages insights from STS and International Relations to explore how different expert communities have constructed AI as a governance problem. More specifically, it presents the preliminary results of a qualitative frame analysis of 90 policy documents published by experts from industry, civil society, and the research community. The analysis finds that AI expertise is a highly contested field, as experts not only disagree on why AI is problematic and what policies are required, but, more fundamentally, about which artifacts, ideas, and practices make up AI in the first place. The paper proposes that the epistemic disagreements concerning AI have political consequences, as they engender protracted ontological politics that jeopardize the development of effective governance interventions. Against this background, the findings raise critical questions about the prevailing tendency of governance interventions to target the elusive and contested object 'artificial intelligence.'
+DO  - 10.1145/3514094.3534161
+UR  - https://doi.org/10.1145/3514094.3534161
+N1  - source=aies_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2022-3514094-3534161
+ER  - 
+

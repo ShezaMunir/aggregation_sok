@@ -1,0 +1,152 @@
+TY  - JOUR
+TI  - MetaWriter: Exploring the Potential and Perils of AI Writing Support in Scientific Peer Review
+AU  - Sun, Lu
+AU  - Tao, Stone
+AU  - Hu, Junjie
+AU  - Dow, Steven P.
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Recent advances in Large Language Models (LLMs) show the potential to significantly augment or even replace complex human writing activities. However, for complex tasks where people need to make decisions as well as write a justification, the trade offs between making work efficient and hindering decisions remain unclear. In this paper, we explore this question in the context of designing intelligent scaffolding for writing meta-reviews for an academic peer review process. We prototyped a system called "MetaWriter'' trained on five years of open peer review data to support meta-reviewing. The system highlights common topics in the original peer reviews, extracts key points by each reviewer, and on request, provides a preliminary draft of a meta-review that can be further edited. To understand how novice and experienced meta-reviewers use MetaWriter, we conducted a within-subject study with 32 participants. Each participant wrote meta-reviews for two papers: one with and one without MetaWriter. We found that MetaWriter significantly expedited the authoring process and improved the coverage of meta-reviews, as rated by experts, compared to the baseline. While participants recognized the efficiency benefits, they raised concerns around trust, over-reliance, and agency. We also interviewed six paper authors to understand their opinions of using machine intelligence to support the peer review process and reported critical reflections. We discuss implications for future interactive AI writing tools to support complex synthesis work.
+DO  - 10.1145/3637371
+UR  - https://doi.org/10.1145/3637371
+N1  - source=cscw_2024.bib; retained_by=tier1; terms=tier1:peer review aggregation; schema=v1.8
+AN  - cscw2024-3637371
+ER  - 
+
+TY  - JOUR
+TI  - Missed Opportunities for Human-Centered AI Research: Understanding Stakeholder Collaboration in Mental Health AI Research
+AU  - Yoo, Dong Whi
+AU  - Woo, Hayoung
+AU  - Pendse, Sachin R.
+AU  - Lu, Nathaniel Young
+AU  - Birnbaum, Michael L.
+AU  - Abowd, Gregory D.
+AU  - De Choudhury, Munmun
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - In the mental health domain, patient engagement is key to designing human-centered technologies. CSCW and HCI researchers have delved into various facets of collaboration in AI research; however, previous research neglects the individuals who both produce the data and will be most impacted by the resulting technologies, such as patients. This study examines how interdisciplinary researchers and mental health patients who donate their data for AI research collaborate and how we can improve human-centeredness in mental health AI research. We interviewed patient participants, AI researchers, and clinical researchers in a federally funded mental health AI research project. We used the concept of boundary objects to understand stakeholder collaboration. Our findings reveal that the social media data provided by patient participants functioned as boundary objects that facilitated stakeholder collaboration. Although the collaboration appeared to be successful, we argue that building consensus, or understanding each other's perspectives, can improve the human-centeredness of mental health AI research. Based on the findings, we provide suggestions for human-centered mental health AI research, working with data donors as domain experts, making invisible work visible, and privacy implications.
+DO  - 10.1145/3637372
+UR  - https://doi.org/10.1145/3637372
+N1  - source=cscw_2024.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2024-3637372
+ER  - 
+
+TY  - JOUR
+TI  - Designing for Agonism: 12 Workers' Perspectives on Contesting Technology Futures
+AU  - Jing, Felicia S.
+AU  - Berger, Sara E.
+AU  - Becerra Sandoval, Juana Catalina
+AU  - Pepper, Kristin
+AU  - Wheeler, April M.
+AU  - Mayoral, Paula Redondo
+AU  - Lokesh, Divya
+AU  - Feng, Alice
+AU  - Mijalkovic, Marija
+AU  - Bao, Chaoyun
+AU  - Dholakia, Sara
+AU  - Goyal, Mohit
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - In this paper, we gather 12 workers from a large technology company, as recent participants of a research initiative on the social impact of emerging technologies, to present a collaborative analysis of the opportunities and limitations of dissensus-based approaches to technology research and design. We introduce a series of speculative and deconstructive probes and present findings from their use in four collaborative design sessions. We then draw on the theoretical tradition of Agonism to identify moments of friction, refusal, and disagreement over the course of these sessions. We contend that this approach offers a politically important alternative to consensus-based collaborative design methods and can even surface new rhetorics of contestation within discourses on technology futures. We conclude with a discussion of the importance of worker-authored research and an initial set opportunities, challenges, and paradoxes as a resource for future efforts to "Design for Agonism."
+DO  - 10.1145/3641001
+UR  - https://doi.org/10.1145/3641001
+N1  - source=cscw_2024.bib; retained_by=preservation; terms=preservation:pluralism; tier2:agreement; schema=v1.8
+AN  - cscw2024-3641001
+ER  - 
+
+TY  - JOUR
+TI  - Wisdom of Crowds: A Human-Machine-Things Cooperative Scheduling Method for Heterogeneous Mobile Crowdsensing
+AU  - Liu, Yimeng
+AU  - Yu, Zhiwen
+AU  - Zhang, Fengyuan
+AU  - Cui, Helei
+AU  - Guo, Bin
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Relying on the development of crowdsourcing ideas and mobile crowd sensing (MCS) technology, many tasks that originally required a lot of manpower and material resources have been solved efficiently. However, with the development of urbanization, the traditional MCS systems have gradually been unable to cope with the demands of massive sensing tasks and high spatio-temporal sensing coverage. The challenges are as follows: 1) The scarcity of participants and the limitation of human motion rules lead to the existence of spatio-temporal blind spots in the process of collecting sensing data; 2) The single type of participants limits the sensing ability of the system and the types of data that can be collected, which affects sensing precision and quality. With the emergence of various intelligent sensing terminals in the city, the heterogeneous crowd sensing that integrates human, machine and things participants has become a new generation of sensing mode. In the spatio-temporal related sensing scenarioes, this article designs a new human-machine-things cooperative scheduling (HMT-CS) algorithm framework by comprehensively considering the diverse sensing skills, spatio-temporal trajectories, sensing costs of heterogeneous participants and system total budget constraints. The algorithm can match suitable heterogeneous participants for each task, which greatly improves the sensing quality, sensing fairness and overall utility of heterogeneous MCS systems. We combined multiple public real urban datasets to conduct an in-depth comparative analysis and comprehensive evaluation of the algorithm, and the results show that our method is superior to other baselines in all indicators.
+DO  - 10.1145/3686958
+UR  - https://doi.org/10.1145/3686958
+N1  - source=cscw_2024.bib; retained_by=tier1; terms=tier1:wisdom of crowds; schema=v1.8
+AN  - cscw2024-3686958
+ER  - 
+
+TY  - JOUR
+TI  - Forming Shared Interest Pods: Barriers to Self-Assembly of Interest-Based Small Groups, and Dynamics of Retaining and Giving up Control to Find Collective Fit
+AU  - Palea, Dustin
+AU  - Guo, Ana
+AU  - Nair, Atira
+AU  - Anderson, Ryan
+AU  - Charagulla, Nisha
+AU  - Su, Norman Makoto
+AU  - Lee, David T.
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - We explore the challenges individuals face when seeking like-minded partners to pursue shared interests in small groups, specifically outside the workplace, classroom, or other externally organized contexts. Conducting nine 90-minute semi-structured interviews involving a hypothetical small group formation process, we found four compounding challenges that make it difficult to form and maintain stable groups. In contrast to other kinds of small groups discussed in the literature, the unique "combination" of these challenges bring into focus a class of interest-based small groups we term " shared interest pods ": self-assembled small groups united by shared interests, whose members derive benefits from sustained, synchronous interactions that hinge on the level of fit among them. The need to discover and maintain collective fit, the considerable commitment required for regular interactions, their small size, and the lack of external enforcement, makes shared interest pods fragile and unstable, and an information-rich site for studying dynamics of self-organized consensus-seeking in underexplored areas of Lee and Paine's Model of Coordinated Action, and for considering the tension between supporting personal agency through organic group formation and optimizing stability through algorithmic assignments. A central finding is how dynamics of maintaining and giving up control co-exist in shared interest pods in their search for collective fit. People seek to maintain control over certain aspects of finding fit (e.g. in determining group membership), but are simultaneously willing to give up control to organizers or algorithms under certain conditions (e.g. when balancing desired quality with social and ethical considerations). We discuss design implications for supporting the formation of shared interest pods, and more broadly, for exploring self-organized consensus-seeking in other societal collective decision-making contexts.
+DO  - 10.1145/3686984
+UR  - https://doi.org/10.1145/3686984
+N1  - source=cscw_2024.bib; retained_by=tier1; terms=tier1:collective decision; tier2:agreement; tier2:collective; schema=v1.8
+AN  - cscw2024-3686984
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Conversations in Migrant Counseling Services: Designing for Trustworthy Human-AI Collaboration
+AU  - Truong, Lucy
+AU  - Lee, Sunok
+AU  - Sawhney, Nitin
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Migrants often face a complex situation for navigating services and administrative processes to transition and integrate into a new environment. They rely on guidance from service advisors and informal peers like other migrants to assist them. Service advisors try to understand, explore, and resolve migrant concerns through conversational interaction, while often seeking advice from other domain experts. The emergence of artificial intelligence (AI)-mediated communication holds the potential for enhancing communication between migrants and service advisors while leveraging the expertise of service advisors and facilitating migrants' autonomy in the integration process. Our research investigates the social context, mental models, and challenges encountered in guidance counseling for migrants in Finland, while examining what role AI-mediated communication can play in supporting the process. Based on our findings, we propose design implications for improving shared understanding between service advisors and migrants through salient summarization of conversations and creating collaborative visual narratives. Our findings also indicate the crucial role of leveraging peer-based knowledge between (and within) service advisors, domain experts, and migrants, which can be facilitated by AI-based tools. Our exploratory research offers insights into human-centered AI integration in the migration process, as well as the opportunities and challenges of using AI-mediated communication to improve the migrant experience.
+DO  - 10.1145/3687034
+UR  - https://doi.org/10.1145/3687034
+N1  - source=cscw_2024.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2024-3687034
+ER  - 
+
+TY  - JOUR
+TI  - Definitions of Fairness Differ Across Socioeconomic Groups &amp; Shape Perceptions of Algorithmic Decisions
+AU  - Nguyen, Tonya
+AU  - Alam, Sabriya
+AU  - Hu, Cathy
+AU  - Albiston, Catherine
+AU  - Salehi, Niloufar
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Understanding how people perceive algorithmic decision-making is remains critical, as these systems are increasingly integrated into areas such as education, healthcare, and criminal justice. These perceptions can shape trust in, compliance with, and the perceived legitimacy of automated systems. Focusing on San Francisco's decade-long policy of algorithmic school assignments, we draw on procedural and distributive justice theory to investigate parents' fairness perceptions of San Francisco's school assignment system. We find that key differences in parents' definitions of fairness shape their preferences for what constitutes a fair school assignment system, while also controlling for parents' school assignment outcomes. Moreover, parents' definitions and perceptions of fairness differ across socioeconomic and racial groups. For instance, among white respondents, the most used definition of fairness was "proximity'' to their assigned school, whereas, among Hispanic or Latino parents, the most popular definition of fairness was that the "same rules'' are applied to everyone. It is crucial for computational system designers and policymakers to consider these differences when deciding on the goals and values embedded in decision-making systems and who those goals and values reflect.
+DO  - 10.1145/3687058
+UR  - https://doi.org/10.1145/3687058
+N1  - source=cscw_2024.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - cscw2024-3687058
+ER  - 
+
+TY  - JOUR
+TI  - Unveiling the "Toxic" World of #Meanspo: Understanding Users' Emerging Online Eating Disorder Practices in X/Twitter
+AU  - Nova, Fayika Farhat
+AU  - Pfafman, Rachel
+AU  - Logan Delaney, Caralyn
+AU  - Pater, Jessica
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Meanspo, an antagonistic form of online support within the eating disorder (ED) community, involves the direct solicitation or sharing of aggressive and insulting online content. This study presents findings from a comprehensive qualitative analysis of #meanspo content on X (previously Twitter ) from May 2020 (N=752). Our analysis of tweets reveals that posts tagged with #meanspo can be of various natures. While commonly associated with extremely derogatory ED content, more than 80% of posts with the meanspo tag on X were non-aggressive. The study also explores potential inconsistencies in voluntary and involuntary meanspo specific content moderation, prompting inquiries into X's regulatory policies against such content and the distinct online self-presentation strategies employed by community members. Future contextual research is needed to understand the evolving nature of this social phenomenon and its potential clinical impacts on users over time, particularly concerning the unhealthy adoption of such content. TRIGGER WARNING: Explicit language & potentially triggering content.
+DO  - 10.1145/3687061
+UR  - https://doi.org/10.1145/3687061
+N1  - source=cscw_2024.bib; retained_by=preservation; terms=preservation:pluralism; schema=v1.8
+AN  - cscw2024-3687061
+ER  - 
+
+TY  - JOUR
+TI  - Whose Knowledge is Valued? Epistemic Injustice in CSCW Applications
+AU  - Ajmani, Leah Hope
+AU  - Foriest, Jasmine C.
+AU  - Taylor, Jordan
+AU  - Pittman, Kyle
+AU  - Gilbert, Sarah
+AU  - DeVito, Michael Ann
+PY  - 2024
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Social computing scholars have long known that people do not interact with knowledge in straightforward ways, especially in digital environments. While policies around knowledge are essential for targeting misinformation, they are value-laden; in choosing how to present information, we undermine non-traditional, often non-Western, ways of knowing. Epistemic injustice is the systemic exclusion of certain people and methods from the knowledge canon. Epistemic injustice chips away at one's testimony and vocabulary until they are stripped of their due right to know and understand. In this paper, we articulate how epistemic injustice in sociotechnical applications leads to material harm. Inspired by a hybrid collaborative autoethnography of 14 CSCW practitioners, we present three cases of epistemic injustice in sociotechnical applications: online transgender healthcare, identity sensemaking on r/bisexual, and Indigenous ways of knowing on r/AskHistorians. We further explore signature tensions across our autoethnographic materials and relate them to previous CSCW research areas and personal non-technological experiences. We argue that epistemic injustice can serve as a unifying and intersectional lens for CSCW research by surfacing dimensions of epistemic community and power. Finally, we present a call to action of three changes the CSCW community should make to move toward its own goals of research justice. We call for CSCW researchers to center individual experiences, bolster communities, and remediate issues of epistemic power as a means towards epistemic justice. In sum, we recount, synthesize, and propose solutions for the various forms of epistemic injustice that CSCW sites of study---including CSCW itself---propagate.
+DO  - 10.1145/3687062
+UR  - https://doi.org/10.1145/3687062
+N1  - source=cscw_2024.bib; retained_by=preservation; terms=preservation:epistemic plurality; schema=v1.8
+AN  - cscw2024-3687062
+ER  - 
+

@@ -1,0 +1,58 @@
+TY  - JOUR
+TI  - Methodological Middle Spaces: Addressing the Need for Methodological Innovation to Achieve Simultaneous Realism, Control, and Scalability in Experimental Studies of AI-Mediated Communication
+AU  - Aghajari, Zhila
+AU  - Baumer, Eric P. S.
+AU  - Hohenstein, Jess
+AU  - Jung, Malte F.
+AU  - DiFranzo, Dominic
+PY  - 2023
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - As AI-mediated communication (AI-MC) becomes more prevalent in everyday interactions, it becomes increasingly important to develop a rigorous understanding of its effects on interpersonal relationships and on society at large. Controlled experimental studies offer a key means of developing such an understanding, but various complexities make it difficult for experimental AI-MC research to simultaneously achieve the criteria of experimental realism, experimental control, and scalability. After outlining these methodological challenges, this paper offers the concept of methodological middle spaces as a means to address these challenges. This concept suggests that the key to simultaneously achieving all three of these criteria is to abandon the perfect attainment of any single criterion. This concept's utility is demonstrated via its use to guide the design of a platform for conducting text-based AI-MC experiments. Through a series of three example studies, the paper illustrates how the concept of methodological middle spaces can inform the design of specific experimental methods. Doing so enabled these studies to examine research questions that would have been either difficult or impossible to investigate using existing approaches. The paper concludes by describing how future research could similarly apply the concept of methodological middle spaces to expand methodological possibilities for AI-MC research in ways that enable contributions not currently possible.
+DO  - 10.1145/3579506
+UR  - https://doi.org/10.1145/3579506
+N1  - source=cscw_2023.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2023-3579506
+ER  - 
+
+TY  - JOUR
+TI  - Judgment Sieve: Reducing Uncertainty in Group Judgments through Interventions Targeting Ambiguity versus Disagreement
+AU  - Chen, Quan Ze
+AU  - Zhang, Amy X.
+PY  - 2023
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - When groups of people are tasked with making a judgment, the issue of uncertainty often arises. Existing methods to reduce uncertainty typically focus on iteratively improving specificity in the overall task instruction. However, uncertainty can arise from multiple sources, such as ambiguity of the item being judged due to limited context, or disagreements among the participants due to different perspectives and an under-specified task. A one-size-fits-all intervention may be ineffective if it is not targeted to the right source of uncertainty. In this paper we introduce a new workflow, Judgment Sieve, to reduce uncertainty in tasks involving group judgment in a targeted manner. By utilizing measurements that separate different sources of uncertainty during an initial round of judgment elicitation, we can then select a targeted intervention adding context or deliberation to most effectively reduce uncertainty on each item being judged. We test our approach on two tasks: rating word pair similarity and toxicity of online comments, showing that targeted interventions reduced uncertainty for the most uncertain cases. In the top 10% of cases, we saw an ambiguity reduction of 21.4% and 25.7%, and a disagreement reduction of 22.2% and 11.2% for the two tasks respectively. We also found through a simulation that our targeted approach reduced the average uncertainty scores for both sources of uncertainty as opposed to uniform approaches where reductions in average uncertainty from one source came with an increase for the other.
+DO  - 10.1145/3610074
+UR  - https://doi.org/10.1145/3610074
+N1  - source=cscw_2023.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2023-3610074
+ER  - 
+
+TY  - JOUR
+TI  - Remove, Reduce, Inform: What Actions do People Want Social Media Platforms to Take on Potentially Misleading Content?
+AU  - Atreja, Shubham
+AU  - Hemphill, Libby
+AU  - Resnick, Paul
+PY  - 2023
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - To reduce the spread of misinformation, social media platforms may take enforcement actions against offending content, such as adding informational warning labels, reducing distribution, or removing content entirely. However, both their actions and their inactions have been controversial and plagued by allegations of partisan bias. When it comes to specific content items, surprisingly little is known about what ordinary people want the platforms to do. We provide empirical evidence about a politically balanced panel of lay raters' preferences for three potential platform actions on 368 news articles. Our results confirm that on many articles there is a lack of consensus on which actions to take. We find a clear hierarchy of perceived severity of actions with a majority of raters wanting informational labels on the most articles and removal on the fewest. There was no partisan difference in terms of how many articles deserve platform actions but conservatives did prefer somewhat more action on content from liberal sources, and vice versa. We also find that judgments about two holistic properties, misleadingness and harm, could serve as an effective proxy to determine what actions would be approved by a majority of raters.
+DO  - 10.1145/3610082
+UR  - https://doi.org/10.1145/3610082
+N1  - source=cscw_2023.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2023-3610082
+ER  - 
+
+TY  - JOUR
+TI  - Crowdsourcing Subjective Annotations Using Pairwise Comparisons Reduces Bias and Error Compared to the Majority-vote Method
+AU  - Narimanzadeh, Hasti
+AU  - Badie-Modiri, Arash
+AU  - Smirnova, Iuliia G.
+AU  - Chen, Ted Hsuan Yun
+PY  - 2023
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - How to better reduce measurement variability and bias introduced by subjectivity in crowdsourced labelling remains an open question. We introduce a theoretical framework for understanding how random error and measurement bias enter into crowdsourced annotations of subjective constructs. We then propose a pipeline that combines pairwise comparison labelling with Elo scoring, and demonstrate that it outperforms the ubiquitous majority-voting method in reducing both types of measurement error. To assess the performance of the labelling approaches, we constructed an agent-based model of crowdsourced labelling that lets us introduce different types of subjectivity into the tasks. We find that under most conditions with task subjectivity, the comparison approach produced higher f1 scores. Further, the comparison approach is less susceptible to inflating bias, which majority voting tends to do. To facilitate applications, we show with simulated and real-world data that the number of required random comparisons for the same classification accuracy scales log-linearly O(N log N) with the number of labelled items. We also implemented the Elo system as an open-source Python package.
+DO  - 10.1145/3610183
+UR  - https://doi.org/10.1145/3610183
+N1  - source=cscw_2023.bib; retained_by=tier1; terms=tier1:voting rule; preservation:annotator effects; tier2:crowd; tier2:collective; schema=v1.8
+AN  - cscw2023-3610183
+ER  - 
+

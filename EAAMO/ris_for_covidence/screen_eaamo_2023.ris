@@ -1,0 +1,109 @@
+TY  - CONF
+TI  - Taking Off with AI: Lessons from Aviation for Healthcare
+AU  - Bondi-Kelly, Elizabeth
+AU  - Hartvigsen, Tom
+AU  - Sanneman, Lindsay M
+AU  - Sankaranarayanan, Swami
+AU  - Harned, Zach
+AU  - Wickerson, Grace
+AU  - Gichoya, Judy Wawira
+AU  - Oakden-Rayner, Lauren
+AU  - Celi, Leo Anthony
+AU  - Lungren, Matthew P
+AU  - Shah, Julie A
+AU  - Ghassemi, Marzyeh
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Artificial intelligence (AI) stands to improve healthcare through innovative new systems ranging from diagnosis aids to patient tools. However, such “Health AI” systems are complicated and challenging to integrate into standing clinical practice. With advancing AI, regulations, practice, and policies must adapt to a wide range of new risks while experts learn to interact with complex automated systems. Even in the early stages of Health AI, risks and gaps are being identified, like severe underperformance of models for minority groups and catastrophic model failures when input data shift over time. In the face of such gaps, we find inspiration in aviation, a field that went from highly dangerous to largely safe. We draw three main lessons from aviation safety that can apply to Health AI: 1) Build regulatory feedback loops to learn from mistakes and improve practices, 2) Establish a culture of safety and openness where stakeholders have incentives to report failures and communicate across the healthcare system, and 3) Extensively train, retrain, and accredit experts for interacting with Health AI, especially to help address automation bias and foster trust. Finally, we discuss remaining limitations in Health AI with less guidance from aviation.
+DO  - 10.1145/3617694.3623224
+UR  - https://doi.org/10.1145/3617694.3623224
+N1  - source=eaamo_2023.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - eaamo2023-3617694-3623224
+ER  - 
+
+TY  - CONF
+TI  - Average Envy-freeness for Indivisible Items
+AU  - Han, Qishen
+AU  - Tao, Biaoshuai
+AU  - Xia, Lirong
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In fair division applications, agents may have unequal entitlements reflecting their different contributions. Moreover, the contributions of agents may depend on the allocation itself. Previous fairness notions designed for agents with equal or pre-determined entitlements fail to characterize fairness in these collaborative allocation scenarios.
+DO  - 10.1145/3617694.3623229
+UR  - https://doi.org/10.1145/3617694.3623229
+N1  - source=eaamo_2023.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - eaamo2023-3617694-3623229
+ER  - 
+
+TY  - CONF
+TI  - FATE in AI: Towards Algorithmic Inclusivity and Accessibility
+AU  - Inuwa-Dutse, Isa
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - With Artificial Intelligence (AI) occupying the centre stage of technological advancements, its impact is affecting many sections of society. Because algorithmic decisions carry both economic and personal implications, fairness, accountability, transparency and ethics (FATE) in AI are geared towards checkmating algorithmic disparities. However, one of the noted limitations of the present discourse on such critical issues is the dominance of the more economically developed countries (MEDC), resulting in neglecting local knowledge, cultural pluralism and global fairness. This study builds upon existing research on responsible AI, with a focus on areas in the Global South deemed under-served vis-a-vis AI. Our goal is two-fold (1) to assess FATE-related desiderata with emphasis on transparency and ethics and (2) to offer insights and proffer recommendations to stimulate action towards representative and responsible AI. We designed a user study (n = 43) and a participatory session (n = 30) to achieve the above goals. Our findings reveal a path towards encoding bias and amplifying a form of stereotype by AI models. For improved inclusivity, we propose a community-led strategy to operationalise the collection and curation of representative data towards responsible AI design. The initiative will empower the affected community or individuals to probe and police the growing application of AI-powered systems. Moreover, we offer some recommendations, informed by the public, that adhere to social values as core requirements for practitioners to incorporate context-specific FATE in AI needs.
+DO  - 10.1145/3617694.3623233
+UR  - https://doi.org/10.1145/3617694.3623233
+N1  - source=eaamo_2023.bib; retained_by=preservation; terms=preservation:pluralism; schema=v1.8
+AN  - eaamo2023-3617694-3623233
+ER  - 
+
+TY  - CONF
+TI  - Strategic Evaluation
+AU  - Laufer, Benjamin
+AU  - Kleinberg, Jon
+AU  - Levy, Karen
+AU  - Nissenbaum, Helen
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - A broad current application of algorithms is in formal and quantitative measures of murky concepts – like merit – to make decisions. When people strategically respond to these sorts of evaluations in order to gain favorable decision outcomes, their behavior can be subjected to moral judgments. They may be described as ‘gaming the system’ or ‘cheating,’ or (in other cases) investing ‘honest effort’ or ‘improving.’ Machine learning literature on strategic behavior has tried to describe these dynamics by emphasizing the efforts expended by decision subjects hoping to obtain a more favorable assessment — some works offer ways to preempt or prevent such manipulations, some differentiate ‘gaming’ from ‘improvement’ behavior, while others aim to measure the effort burden or disparate effects of classification systems.
+DO  - 10.1145/3617694.3623237
+UR  - https://doi.org/10.1145/3617694.3623237
+N1  - source=eaamo_2023.bib; retained_by=tier2+anchor; terms=tier2:manipulation; schema=v1.8
+AN  - eaamo2023-3617694-3623237
+ER  - 
+
+TY  - CONF
+TI  - Optimizing Sponsored Humanitarian Parole
+AU  - Farajzadeh, Fatemeh
+AU  - Killea, Ryan Baylor
+AU  - Teytelboym, Alexander
+AU  - Trapp, Andrew Christopher
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - The United States has introduced a special humanitarian parole process for Ukrainian citizens in response to Russia’s 2022 invasion of Ukraine. To qualify for parole, Ukrainian applicants must have a sponsor in the United States. In collaboration with HIAS, a refugee resettlement agency involved in the parole process, we deployed RUTH (Refugees Uniting Through HIAS), a novel algorithmic matching system that is driven by the relocation preferences of refugees and the priorities of US sponsors. RUTH adapts Thakral’s [23] Multiple-Waitlist Procedure (MWP) that combines the main First-In/First-Out (FIFO) queue with location-specific FIFO queues in order to effectively manage the preferences of refugees and the supply of community sponsors. In addition to refugee preferences and sponsor priorities, RUTH incorporates various feasibility considerations such as community capacity, religious, and medical needs. The adapted mechanism is envy-free, efficient and strategy-proof for refugees. Our analysis reveals that refugee preferences over locations are diverse, even controlling for observables, by demonstrating the difficulty of solving a much simpler problem than modeling preferences directly from observables. We use our data for two counterfactual simulations. First, we consider the effects of increased waiting times for refugees on the quality of their matches. We find that with a periodic Top Trading Cycles algorithm, increasing period length from 24 days to 80 days, improves average rank of a refugee’s match from 3.20 to 2.44. On the other hand, using the available preference data RUTH achieved an average rank of 4.07 with a waiting time of 20 days. Second, we estimate the arrival rates of sponsors in each location that would be consistent with a long-run steady state. We find that more desirable locations (in terms of refugee preferences) require the highest arrival rates suggesting that preferences might be a useful indicator for investments in sponsorship capacity. Our study highlights the potential for preference-based algorithms such as RUTH to improve the efficiency and fairness of other rapidly-deployed humanitarian parole processes.
+DO  - 10.1145/3617694.3623240
+UR  - https://doi.org/10.1145/3617694.3623240
+N1  - source=eaamo_2023.bib; retained_by=tier1; terms=tier1:incentives; tier1:alignment; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - eaamo2023-3617694-3623240
+ER  - 
+
+TY  - CONF
+TI  - Deploying a Robust Active Preference Elicitation Algorithm on MTurk: Experiment Design, Interface, and Evaluation for COVID-19 Patient Prioritization
+AU  - Johnston, Caroline M
+AU  - Vossler, Patrick
+AU  - Blessenohl, Simon
+AU  - Vayanos, Phebe
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Preference elicitation leverages AI or optimization to learn stakeholder preferences in settings ranging from marketing to public policy. The online robust preference elicitation procedure of [34] has been shown in simulation to outperform various other elicitation procedures in terms of effectively learning individuals’ true utilities. However, as with any simulation, the method makes a series of assumptions that cannot easily be verified to hold true beyond simulation. Thus, we propose to validate the robust method’s performance using real users, focusing on the particular challenge of selecting policies for prioritizing COVID-19 patients for scarce hospital resources during the pandemic. To this end, we develop an online platform for preference elicitation where users report their preferences between alternatives over a moderate number of pairwise comparisons chosen by a particular elicitation procedure. We recruit 193 Amazon Mechanical Turk (MTurk) workers to report their preferences and demonstrate that the robust method outperforms asking random queries by 21%, the next best performing method in the simulated results of [34], in terms of recommending policies with a higher utility.
+DO  - 10.1145/3617694.3623254
+UR  - https://doi.org/10.1145/3617694.3623254
+N1  - source=eaamo_2023.bib; retained_by=tier1; terms=tier1:multi-stakeholder; schema=v1.8
+AN  - eaamo2023-3617694-3623254
+ER  - 
+
+TY  - CONF
+TI  - The Participatory Turn in AI Design: Theoretical Foundations and the Current State of Practice
+AU  - Delgado, Fernando
+AU  - Yang, Stephen
+AU  - Madaio, Michael
+AU  - Yang, Qian
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Despite the growing consensus that stakeholders affected by AI systems should participate in their design, enormous variation and implicit disagreements exist among current approaches. For researchers and practitioners who are interested in taking a participatory approach to AI design and development, it remains challenging to assess the extent to which any participatory approach grants substantive agency to stakeholders. This article thus aims to ground what we dub the “participatory turn” in AI design by synthesizing existing theoretical literature on participation and through empirical investigation and critique of its current practices. Specifically, we derive a conceptual framework through synthesis of literature across technology design, political theory, and the social sciences that researchers and practitioners can leverage to evaluate approaches to participation in AI design. Additionally, we articulate empirical findings concerning the current state of participatory practice in AI design based on an analysis of recently published research and semi-structured interviews with 12 AI researchers and practitioners. We use these empirical findings to understand the current state of participatory practice and subsequently provide guidance to better align participatory goals and methods in a way that accounts for practical constraints.
+DO  - 10.1145/3617694.3623261
+UR  - https://doi.org/10.1145/3617694.3623261
+N1  - source=eaamo_2023.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - eaamo2023-3617694-3623261
+ER  - 
+

@@ -1,0 +1,1363 @@
+TY  - CONF
+TI  - Comparing the Fairness of Recursively Balanced Picking Sequences
+AU  - Karen Frilya Celine
+AU  - Warut Suksompong
+AU  - Sheung Man Yuen
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Picking sequences are well-established methods for allocating indivisible goods. Among the various picking sequences, recursively balanced picking sequences---whereby each agent picks one good in every round---are notable for guaranteeing allocations that satisfy envy-freeness up to one good. In this paper, we compare the fairness of different recursively balanced picking sequences using two key measures. Firstly, we demonstrate that all such sequences have the same price in terms of egalitarian welfare relative to other picking sequences. Secondly, we characterize the approximate maximin share (MMS) guarantees of these sequences. In particular, we show that compensating the agent who picks last in the first round by letting her pick first in every subsequent round yields the best MMS guarantee.
+DO  - 10.65109/wizk2813
+UR  - https://doi.org/10.65109/wizk2813
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:envy-freeness; welfare:egalitarian and prioritarian; welfare:welfare properties; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - aamas2026-wizk2813
+ER  - 
+
+TY  - CONF
+TI  - Social Welfare Maximization in Approval-Based Committee Voting under Uncertainty
+AU  - Haris Aziz
+AU  - Yuhang Guo
+AU  - venkateswara Rao Kagita
+AU  - Baharak Rastegari
+AU  - Mashbat Suzuki
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Approval voting is widely used for making multi-winner voting decisions. The canonical rule (also called Approval Voting) used in the setting aims to maximize social welfare by selecting candidates with the highest number of approvals. We revisit approval-based multi-winner voting in scenarios where the information regarding the voters' preferences is uncertain. We present several algorithmic results for problems related to social welfare maximization under uncertainty, including computing the social welfare probability distribution of a given outcome, computing the probability that a given outcome is social welfare maximizing, computing an outcome that is social welfare maximizing with the highest probability, and understanding how robust an outcome is with respect to social welfare maximization.
+DO  - 10.65109/rabq9914
+UR  - https://doi.org/10.65109/rabq9914
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; tier1:approval rules; tier2:welfare; tier2:collective; schema=v1.8
+AN  - aamas2026-rabq9914
+ER  - 
+
+TY  - CONF
+TI  - Large Language Models for Designing Participatory Budgeting Rules
+AU  - Nguyen Thach
+AU  - Xingchen Sha
+AU  - Hau Chan
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Participatory budgeting (PB) is a democratic paradigm for deciding the funding of public projects given the residents' preferences, which has been adopted in numerous cities across the world. The main focus of PB is designing rules, functions that return feasible budget allocations for a set of projects subject to some budget constraint. Designing PB rules that optimize both utility and fairness objectives based on agent preferences had been challenging due to the extensive domain knowledge required and the proven trade-off between the two notions. Recently, large language models (LLMs) have been increasingly employed for automated algorithmic design. Given the resemblance of PB rules to algorithms for classical knapsack problems, in this paper, we introduce a novel framework, named LLMRule, that addresses the limitations of existing works by incorporating LLMs into an evolutionary search procedure for automating the design of PB rules. Our experimental results, evaluated on more than 600 real-world PB instances obtained from the U.S., Canada, Poland, and the Netherlands with different representations of agent preferences, demonstrate that the LLM-generated rules generally outperform existing handcrafted rules in terms of overall utility while still maintaining a similar degree of fairness.
+DO  - 10.65109/lgep3560
+UR  - https://doi.org/10.65109/lgep3560
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:participatory budgeting; schema=v1.8
+AN  - aamas2026-lgep3560
+ER  - 
+
+TY  - CONF
+TI  - Single-Winner Voting on Matchings
+AU  - Niclas Boehmer
+AU  - Jessica Dierking
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We introduce a single-winner perspective on voting on matchings, in which voters have preferences over possible matchings in a graph, and the goal is to select a single collectively desirable matching. Unlike in classical matching problems, voters in our model are not part of the graph; instead, they have preferences over the entire matching. In the resulting election, the candidate space consists of all feasible matchings, whose exponential size renders standard algorithms for identifying socially desirable outcomes computationally infeasible. We study whether the computational tractability of finding such outcomes can be regained by exploiting the matching structure of the candidate space. Specifically, we provide a complete complexity landscape for questions concerning the maximization of social welfare, the construction and verification of Pareto optimal outcomes, and the existence and verification of Condorcet winners under one affine and two approval-based utility models. Our results consist of a mix of algorithmic and intractability results, revealing sharp boundaries between tractable and intractable cases, with complexity jumps arising from subtle changes in the utility model or solution concept.
+DO  - 10.65109/rkne1743
+UR  - https://doi.org/10.65109/rkne1743
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:named voting rules; tier1:pareto; tier2:welfare; tier2:collective; schema=v1.8
+AN  - aamas2026-rkne1743
+ER  - 
+
+TY  - CONF
+TI  - Online Fair Division With Subsidy: When Do Envy-Free Allocations Exist, and at What Cost?
+AU  - Pooja Kulkarni
+AU  - Ruta Mehta
+AU  - Vishnu V. Narayan
+AU  - Tomasz Ponitka
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the problem of fairly allocating m indivisible items arriving online, among n (offline) agents. Although envy-freeness has emerged as the archetypal fairness notion, envy-free (EF) allocations need not exist with indivisible items. To bypass this, a prominent line of research demonstrates that there exist allocations that can be made envy-free by allowing a subsidy. Extensive work in the offline setting has focused on finding such envy-freeable allocations with bounded subsidy. We extend this literature to an online setting where items arrive one at a time and must be immediately and irrevocably allocated. Our contributions are two-fold: ·Maintaining EF Online: We show that envy-freeability cannot always be preserved online when the valuations are submodular or supermodular, even with binary marginals. In contrast, we design online algorithms that maintain envy-freeability at every step for the class of additive valuations, and for its superclasses including k-demand valuations and SPLC valuations.·Ensuring Low Subsidy: We investigate the quantity of subsidy required to guarantee envy-freeness online. Surprisingly, even for additive valuations, the minimum subsidy may be as large as Ω(mn), in contrast to the offline setting, where the bound is O(n). On the positive side, we identify valuation classes where the minimum subsidy is small (i.e., does not depend on m), including k-valued, rank-one, restricted additive, and identical valuations, and we obtain (mostly) tight subsidy bounds for these classes.
+DO  - 10.65109/dxue6939
+UR  - https://doi.org/10.65109/dxue6939
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-dxue6939
+ER  - 
+
+TY  - CONF
+TI  - Fair Coordination in Strategic Scheduling
+AU  - Wei-Chen Lee
+AU  - Martin Bullinger
+AU  - Alessandro Abate
+AU  - Michael Wooldridge
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We consider a scheduling problem of strategic agents representing jobs of different weights. Each agent has to decide on one of a finite set of identical machines to get their job processed. In contrast to the common, isolated focus on makespan minimization, we incorporate fairness with respect to the strategic considerations of the agents. Two natural properties are credibility, which ensures that the assignment is a Nash equilibrium and equality, requiring that agents with equal-weight jobs are assigned to machines of equal load. We combine these two with a hierarchy of fairness properties based on envy-freeness together with several relaxations based on the idea that envy seems more justified towards agents with a higher weight. We present a complete complexity landscape for satisfiability and decision versions of these properties, alone or in combination, and study them as structural constraints under makespan optimization. For our positive results, we develop a unified algorithmic approach, where we achieve different properties by fine-tuning key subroutines.
+DO  - 10.65109/bocm2167
+UR  - https://doi.org/10.65109/bocm2167
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-bocm2167
+ER  - 
+
+TY  - CONF
+TI  - Practical approach to 2-Euclidean Preferences
+AU  - Michal Dvořák
+AU  - Jan Pokorný
+AU  - Dušan Knop
+AU  - Martin Slávik
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - An election is a pair (C,V) of candidates and voters. Each vote is a ranking (permutation) of the candidates. An election is d-Euclidean if there is an embedding of both candidates and voters into ℝd such that voter v prefers candidate a over b if and only if a is closer to v than b is to v in the embedding. For d ≥ 2 the problem of deciding whether (C,V) is d-Euclidean is ∃ℝ-complete. In this paper, we propose a practical approach to recognizing and refuting 2-Euclidean preferences. We design a new class of forbidden substructures that works very well on practical instances. We utilize the framework of integer linear programming (ILP) and quadratically constrained programming (QCP). We also introduce reduction rules that simplify many real-world instances significantly. Our approach beats the previous algorithm of Escoffier, Spanjaard and Tydrichová [Algorithmic Recognition of 2-Euclidean Preferences, ECAI 2023] both in number of resolved instances and the running time. In particular, we were able to lower the number of unresolved PrefLib instances from 343 to 60. Moreover, 98.7% of PrefLib instances are resolved in under 1 second using our approach.
+DO  - 10.65109/tnyc5178
+UR  - https://doi.org/10.65109/tnyc5178
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; tier2:collective; schema=v1.8
+AN  - aamas2026-tnyc5178
+ER  - 
+
+TY  - CONF
+TI  - Participation Incentives in Online Cooperative Games
+AU  - Haris Aziz
+AU  - Yuhang Guo
+AU  - Zhaohong Sun
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - This paper studies cooperative games where coalitions are formed online and the value generated by the grand coalition must be irrevocably distributed among the players at each time step. We investigate the fundamental issue of strategic participation incentives and address these concerns by formalizing participation incentive axioms. Our analysis reveals that existing value-sharing mechanisms fail to meet these criteria. Consequently, we propose a family of equal sharing rules that fulfill these desirable participation incentive axioms. Additionally, we refine our mechanisms under superadditive valuations to ensure individual rationality while preserving the previously established axioms.
+DO  - 10.65109/vzoj2040
+UR  - https://doi.org/10.65109/vzoj2040
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:rationality; schema=v1.8
+AN  - aamas2026-vzoj2040
+ER  - 
+
+TY  - CONF
+TI  - Obnoxious Facility Location Problems: Strategyproof Mechanisms Optimizing Lp-Aggregated Utilities and Costs
+AU  - Hau Chan
+AU  - Jianan Lin
+AU  - Chenhao Wang
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the problem of locating a single obnoxious facility on the normalized line segment [0,1] with strategic agents from a mechanism design perspective. Each agent has a preference for the undesirable location of the facility and would prefer the facility to be far away from their location. We consider the utility of the agent, defined as the distance between the agent's location and the facility location, and the cost of each agent, equal to one minus the utility. Given this standard setting of obnoxious facility location problems, our goal is to design (group) strategyproof mechanisms to elicit agent locations truthfully and determine facility location approximately optimizing the Lp-aggregated utility and cost objectives, which generalizes the Lp-norm (p ≥ 1) of the agents' utilities and agents' costs to any p ∈ [-∞, ∞], respectively. We establish upper and lower bounds on the approximation ratios of deterministic and randomized (group) strategyproof mechanisms for maximizing the Lp-aggregated utilities or minimizing the Lp-aggregated costs across the range of p-values. While there are gaps between upper and lower bounds for randomized mechanisms, our bounds for deterministic mechanisms are tight.
+DO  - 10.65109/cuax9588
+UR  - https://doi.org/10.65109/cuax9588
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - aamas2026-cuax9588
+ER  - 
+
+TY  - CONF
+TI  - The Impossibility of Strategyproof Rank Aggregation
+AU  - Manuel Eberl
+AU  - Patrick Lederer
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - In rank aggregation, the goal is to combine multiple input rankings into a single output ranking. In this paper, we analyze rank aggregation methods, so-called social welfare functions (SWFs), with respect to strategyproofness, which requires that no agent can misreport his ranking to obtain an output ranking that is closer to his true ranking in terms of the Kemeny distance. As our main result, we show that no anonymous SWF satisfies unanimity and strategyproofness when there are at least four alternatives. This result is proven by SAT solving, a computer-aided theorem proving technique, and verified by Isabelle, a highly trustworthy interactive proof assistant. Further, we prove by hand that strategyproofness is incompatible with majority consistency, a variant of Condorcet-consistency for SWFs. Lastly, we show that all SWFs in two natural classes have a large incentive ratio and are thus highly manipulable.
+DO  - 10.65109/dtzh2224
+UR  - https://doi.org/10.65109/dtzh2224
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:rank aggregation; tier1:named voting rules; tier1:incentives; welfare:social welfare function; tier2:welfare; tier2:manipulation; schema=v1.8
+AN  - aamas2026-dtzh2224
+ER  - 
+
+TY  - CONF
+TI  - Maximin Shares with Lower Quotas
+AU  - Hirota Kinoshita
+AU  - Ayumi Igarashi
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the fair division of indivisible items among n agents with heterogeneous additive valuations, subject to lower and upper quotas on the number of items allocated to each agent. Such constraints are crucial in various applications, ranging from personnel assignments to computing resource distribution. This paper focuses on the fairness criterion known as maximin shares (MMS) and its approximations. Under arbitrary lower and upper quotas, we show that a (2n/3n-1)-MMS allocation of goods exists and can be computed in polynomial time, while we also present a polynomial-time algorithm for finding a (3n-1/2n)-MMS allocation of chores. Furthermore, we consider the generalized scenario where items are partitioned into multiple categories, each with its own lower and upper quotas. In this setting, our algorithm computes an (n/2n-1)-MMS allocation of goods or a (2n-1/n)-MMS allocation of chores in polynomial time. These results extend previous work on the cardinality constraints, i.e., the special case where only upper quotas are imposed.
+DO  - 10.65109/xlqt3124
+UR  - https://doi.org/10.65109/xlqt3124
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; welfare:welfare properties; tier2:fairness; schema=v1.8
+AN  - aamas2026-xlqt3124
+ER  - 
+
+TY  - CONF
+TI  - Fair Allocation of Improvements: When Old Endowments Shape New Assignments
+AU  - Noga Klein Elmalem
+AU  - Rica Gonen
+AU  - Erel Segal-Halevi
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - This work is motivated by a common urban renewal process called Reconstruct and Divide. It involves the demolition of old buildings and the construction of new ones. Original homeowners are compensated with upgraded apartments, while surplus units are sold for profit, so theoretically it is a win-win project for all parties involved. However, many Reconstruct and Divide projects are withheld or delayed due to disagreements over the assignment of new apartments, claiming they are not fair. The goal of this research is to develop algorithms for envy-free assignment of the new apartments, possibly using monetary payments to reduce envy.
+DO  - 10.65109/frtb6682
+UR  - https://doi.org/10.65109/frtb6682
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:agreement; tier2:fairness; schema=v1.8
+AN  - aamas2026-frtb6682
+ER  - 
+
+TY  - CONF
+TI  - Active Evaluation of General Agents: Problem Definition and Comparison of Baseline Algorithms
+AU  - Marc Lanctot
+AU  - Kate Larson
+AU  - Ian Gemp
+AU  - Michael Kaisers
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - As intelligent agents become more generally-capable, i.e., able to master a wide variety of tasks, the complexity and cost of properly evaluating them rises significantly. Tasks that assess specific capabilities of the agents can be correlated and stochastic, requiring many samples for accurate comparisons, leading to added costs. In this paper, we propose a formal definition and a conceptual framework for active evaluation of agents across multiple tasks, which assesses the performance of ranking algorithms as a function of number of evaluation data samples. Rather than curating, filtering, or compressing existing data sets as a preprocessing step, we propose an online framing: on every iteration, the ranking algorithm chooses the task and agents to sample scores from. Then, evaluation algorithms report a ranking of agents on each iteration and their performance is assessed with respect to the ground truth ranking over time. Several baselines are compared under different experimental contexts, with synthetic generated data and simulated online access to real evaluation data from Atari game-playing agents. We find that the classical Elo rating system -- while it suffers from well-known failure modes, in theory -- is a consistently reliable choice for efficient reduction of ranking error in practice. A recently-proposed method, Soft Condorcet Optimization, shows comparable performance to Elo on synthetic data and significantly outperforms Elo on real Atari agent evaluation. When task variation from the ground truth is high, selecting tasks based on proportional representation leads to higher rate of ranking error reduction.
+DO  - 10.65109/pubn4692
+UR  - https://doi.org/10.65109/pubn4692
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:named voting rules; tier1:representation axioms; schema=v1.8
+AN  - aamas2026-pubn4692
+ER  - 
+
+TY  - CONF
+TI  - Everyone Contributes! Incentivizing Strategic Cooperation in Multi-LLM Systems via Sequential Public Goods Games
+AU  - Yunhao Liang
+AU  - Yuan Qu
+AU  - Jingyuan Yang
+AU  - Shaochong Lin
+AU  - Zuo-Jun Max Shen
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Coordinating multiple large language models (LLMs) to solve complex tasks collaboratively poses a fundamental trade-off between computational costs and collective performance when compared with individual models. We introduce a novel, game-theoretically grounded reinforcement learning (RL) framework, the Multi-Agent Cooperation Sequential Public Goods Game (MAC-SPGG), to systematically incentivize cooperation in multi-LLM ensembles. In MAC-SPGG, LLM agents move in sequence, observing predecessors' outputs and updating beliefs to condition their own contributions. By redesigning the public-goods reward, effortful contributions become the unique Subgame Perfect Nash Equilibrium (SPNE), which eliminates free-riding under traditional SPGG or PGG. Its sequential protocol replaces costly round-based information exchanges with a streamlined decision flow, cutting communication overhead while retaining strategic depth. We prove the existence and uniqueness of the SPNE under realistic parameters and empirically demonstrate that MAC-SPGG-trained ensembles outperform single-agent baselines, chain-of-thought prompting, and other cooperative methods, achieving comparable performance to large-scale models across various tasks, including reasoning, math, code generation, and NLP. Our results highlight the power of structured, incentive-aligned MAC-SPGG cooperation for scalable and robust multi-agent language generation. Appendix and code can be found at https://github.com/YunhaoLiang/MAC-SPGG.
+DO  - 10.65109/sjpo2377
+UR  - https://doi.org/10.65109/sjpo2377
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:model-output aggregation; tier2:ensemble; schema=v1.8
+AN  - aamas2026-sjpo2377
+ER  - 
+
+TY  - CONF
+TI  - Relationships and Connections between Definitions of Metric Proportional Representation
+AU  - Yusuf Hakan Kalayci
+AU  - David Kempe
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We explore the rich landscape of proportional representation in metric committee selection and reveal notable equivalences and implications (up to approximation factors) among existing fairness notions. We distinguish between multi-representation and single-representation guarantees. For multi-representation, we introduce an ''umbrella'' definition we call uniform core, which requires that the q-core notion of Ebadian and Micha (2025) hold for every q simultaneously. We show that proportionally representative fairness Aziz et al. (2024) (also defined as mPJR Kellerhals and Peters (2024)) and this umbrella definition are equivalent (up to a constant factor), thus connecting two initially different-looking notions. Additionally, we establish that this equivalence class implies a notion of proportionally representative committee Kalayci et al. (2024). We then investigate ordinal proportionality axioms, specifically the RankJR axiom family introduced by Brill and Peters (2023), which also inspired the study of metric JR axioms but employs ordinal rankings in lieu of distances. We demonstrate that RankPJR implies mPJR (again, up to a constant factor); however, the converse direction does not hold. An immediate consequence of this analysis is that the output of the (ordinal) Expanding Approvals Rule satisfies all of the aforementioned representation axioms to within a constant factor. Turning to single-representation guarantees, we establish that three well-known notions, namely, Proportionally Fair Clustering Chen et al. (2019), Individual Fairness Jung et al. (2020), and the Approximate Core Li et al. (2021), are essentially equivalent.
+DO  - 10.65109/vkhn5660
+UR  - https://doi.org/10.65109/vkhn5660
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; tier1:representation axioms; schema=v1.8
+AN  - aamas2026-vkhn5660
+ER  - 
+
+TY  - CONF
+TI  - Temporal Panel Selection in Ongoing Citizens’ Assemblies
+AU  - Yusuf Hakan Kalayci
+AU  - Evi Micha
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Permanent citizens' assemblies are ongoing deliberative bodies composed of randomly selected citizens, organized into panels that rotate over time. Unlike one-off panels, which represent the population in a single snapshot, permanent assemblies enable shifting participation across multiple rounds. This structure offers a powerful framework for ensuring that different groups of individuals are represented over time across successive panels. In particular, it allows smaller groups of individuals that may not warrant representation in every individual panel to be represented across a sequence of them. We formalize this temporal sortition framework by requiring proportional representation both within each individual panel and across the sequence of panels.
+DO  - 10.65109/xbme2274
+UR  - https://doi.org/10.65109/xbme2274
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:delegation rules; tier1:representation axioms; tier1:assemblies and consultations; schema=v1.8
+AN  - aamas2026-xbme2274
+ER  - 
+
+TY  - CONF
+TI  - On Minimal Achievable Quotas in Multiwinner Voting
+AU  - Patrick Becker
+AU  - Fabian Frank
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Justified representation (JR) and extended justified representation (EJR) are well-established proportionality axioms in approval-based multiwinner voting. Both axioms are always satisfiable, but they rely on a fixed quota (typically Hare or Droop), with the Droop quota being the smallest one that guarantees existence across all instances. With this in mind, we take a step beyond the fixed-quota paradigm by studying instance-dependent proportionality notions. More specifically, we minimize the quota requirements for JR and EJR using the parameter α. We demonstrate that all commonly studied voting rules can have an additive gap to the optimum of k2/(k+1)2. Moreover, we examine the computational aspects of our instance-dependent quota and prove that determining the optimal value of α for a given approval profile that allows some committee to satisfy α-JR is NP-complete. To address this, we introduce an integer linear programming (ILP) formulation for computing committees that satisfy α-JR, and we provide positive computational results in the voter interval (VI) and candidate interval (CI) domains.
+DO  - 10.65109/zubo6825
+UR  - https://doi.org/10.65109/zubo6825
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:committee selection; tier1:representation axioms; tier2:collective; schema=v1.8
+AN  - aamas2026-zubo6825
+ER  - 
+
+TY  - CONF
+TI  - On the Fair Allocation to Asymmetric Agents with Binary XOS Valuations
+AU  - Ziheng Chen
+AU  - Bo Li
+AU  - Zihan Luo
+AU  - Jialin Zhang
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the problem of allocating m indivisible goods among n agents, where each agent's valuation is fractionally subadditive (XOS). With respect to AnyPrice Share (APS) fairness, Kulkarni et al. [22] showed that, when agents have binary marginal values, a 0.1222-APS allocation can be found in polynomial time, and there exists an instance where no allocation is better than 0.5-approximate APS. Very recently, Feige and Grinberg [12] extended the problem to the asymmetric case, where agents may have different entitlements, and improved the approximation ratio to 1/6 for general XOS valuations. In this work, we focus on the asymmetric setting with binary XOS valuations, and further improve the approximation ratio to 1/2, which matches the known upper bound. We also present a polynomial-time algorithm to compute such an allocation. Beyond APS fairness, we also study the weighted maximin share (WMMS) fairness. Farhadi et al. [10] showed that a 1/n-WMMS allocation always exists for agents with general additive valuations, and that this approximation ratio is tight. We extend this result to general XOS valuations, where a 1/n-WMMS allocation still exists, and this approximation ratio cannot be improved even when marginal values are binary. This shows a sharp contrast to binary additive valuations, where an exact WMMS allocation exists and can be found in polynomial time.
+DO  - 10.65109/bsdw5494
+UR  - https://doi.org/10.65109/bsdw5494
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; welfare:welfare properties; tier2:fairness; schema=v1.8
+AN  - aamas2026-bsdw5494
+ER  - 
+
+TY  - CONF
+TI  - Majoritarian Assignment Rules
+AU  - Felix Brandt
+AU  - Haoyuan Chen
+AU  - Chris Dong
+AU  - Patrick Lederer
+AU  - Alexander Schlenga
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - A central problem in multiagent systems is the fair assignment of objects to agents. In this paper, we initiate the analysis of classic majoritarian social choice functions in assignment. Exploiting the special structure of the assignment domain, we show a number of surprising results with no counterparts in general social choice. In particular, we establish a near one-to-one correspondence between preference profiles and majority graphs. This correspondence implies that key properties of assignments---such as Pareto-optimality, least unpopularity, and mixed popularity---can be determined solely by the associated majority graph. We further show that all Pareto-optimal assignments are semi-popular and belong to the top cycle. Elements of the top cycle can thus easily be found via serial dictatorships. Our main result is a complete characterization of the top cycle, which implies the top cycle can only consist of one, two, all but two, all but one, or all assignments. By contrast, we find that the uncovered set contains only very few assignments.
+DO  - 10.65109/qere1891
+UR  - https://doi.org/10.65109/qere1891
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; schema=v1.8
+AN  - aamas2026-qere1891
+ER  - 
+
+TY  - CONF
+TI  - Control in Hedonic Games
+AU  - Jiehua Chen
+AU  - Jakob Guttmann
+AU  - Merisa Mustajbašić
+AU  - Sofia Simola
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We initiate the study of control in hedonic games, where an external actor influences coalition formation by adding or deleting agents. We consider three basic control goals (1) enforcing that an agent is not alone (NA); (2) enforcing that a pair of agents is in the same coalition (PA); (3) enforcing that all agents are in the same grand coalition (GR), combined with two control actions: adding agents (AddAg) or deleting agents (DelAg). We analyze these problems for friend-oriented and additive preferences under individual rationality, individual stability, Nash stability, and core stability. We provide a complete computational complexity classification for control in hedonic games.
+DO  - 10.65109/wvyi7850
+UR  - https://doi.org/10.65109/wvyi7850
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:coalition formation; tier1:rationality; tier1:core; schema=v1.8
+AN  - aamas2026-wvyi7850
+ER  - 
+
+TY  - CONF
+TI  - Health Facility Location in Ethiopia: Leveraging LLMs to Integrate Expert Knowledge into Algorithmic Planning
+AU  - Yohai Trabelsi
+AU  - Guojun Xiong
+AU  - Fentabil Getnet
+AU  - Stéphane Verguet
+AU  - Milind Tambe
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Ethiopia's Ministry of Health is upgrading health posts to improve access to essential services, particularly in rural areas. Limited resources, however, require careful prioritization of which facilities to upgrade to maximize population coverage while accounting for diverse expert and stakeholder preferences. In collaboration with the Ethiopian Public Health Institute and Ministry of Health, we propose a hybrid framework that systematically integrates expert knowledge with optimization techniques. Classical optimization methods provide theoretical guarantees but require explicit, quantitative objectives, whereas stakeholder criteria are often articulated in natural language and difficult to formalize. To bridge these domains, we develop the Large language model and Extended Greedy (LEG) framework. Our framework combines a provable approximation algorithm for population coverage optimization with LLM-driven iterative refinement that incorporates human-AI alignment to ensure solutions reflect expert qualitative guidance while preserving coverage guarantees. Experiments on real-world data from three Ethiopian regions demonstrate the framework's effectiveness and its potential to inform equitable, data-driven health system planning.
+DO  - 10.65109/aifq1928
+UR  - https://doi.org/10.65109/aifq1928
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:multi-stakeholder; tier2:ai alignment; schema=v1.8
+AN  - aamas2026-aifq1928
+ER  - 
+
+TY  - CONF
+TI  - Adjusted Winner: from Splitting to Selling
+AU  - Robert Bredereck
+AU  - Eyal Briman
+AU  - Bin Sun
+AU  - Nimrod Talmon
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - The Adjusted Winner (AW) method is a fundamental procedure for the fair division of indivisible resources between two agents. However, its reliance on splitting resources can lead to practical complications. To address this limitation, we propose an extension of AW that allows the sale of selected resources under a budget constraint, with the proceeds subsequently redistributed, thereby aiming for allocations that remain as equitable as possible. Alongside developing this extended framework, we provide an axiomatic analysis that examines how equitability and envy-freeness are modified in our setting. We then formally define the resulting combinatorial problems, establish their computational complexity, and design a fully polynomial-time approximation scheme (FPTAS) to mitigate their inherent intractability. Finally, we complement our theoretical results with computer-based simulations.
+DO  - 10.65109/qqcp5375
+UR  - https://doi.org/10.65109/qqcp5375
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-qqcp5375
+ER  - 
+
+TY  - CONF
+TI  - GroupDebate: Enhancing the Efficiency of Multi-Agent Debate Using Group Discussion
+AU  - Tongxuan Liu
+AU  - Xingyu Wang
+AU  - Weizhe Huang
+AU  - Wenjiang Xu
+AU  - Yuting Zeng
+AU  - Lei Jiang
+AU  - Hailong Yang
+AU  - Jing Li
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - In recent years, Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse NLP tasks, including complex logical reasoning, mathematical problem-solving, and multi-step decision-making. Extensive research has explored how to enhance the logical reasoning abilities such as Chain-of-Thought, Chain-of-Thought with Self-Consistency, Tree-Of-Thoughts, and multi-agent debates. In the context of multi-agent debates, significant performance improvements can be achieved with an increasing number of agents and debate rounds. However, the escalation in the number of agents and debate rounds can drastically raise the tokens cost of debates, thereby limiting the scalability of the multi-agent debate technique. To better harness the advantages of multi-agent debates in logical reasoning tasks, this paper proposes a method to significantly reduce token cost in multi-agent debates. This approach involves dividing all agents into multiple debate groups, with agents engaging in debates within their respective groups and sharing interim debate results between groups. Comparative experiments across multiple datasets have demonstrated that this method can reduce the total tokens by up to 46.9% during debates and while potentially enhancing accuracy by as much as 21.9%. Our method significantly enhances the performance and efficiency of interactions in the multi-agent debate.
+DO  - 10.65109/dsdx8860
+UR  - https://doi.org/10.65109/dsdx8860
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:model-output aggregation; tier2:routing; schema=v1.8
+AN  - aamas2026-dsdx8860
+ER  - 
+
+TY  - CONF
+TI  - Grassroots Federation: Fair Democratic Governance at Scale
+AU  - Nimrod Talmon
+AU  - Ehud Shapiro
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We propose a framework for the fair democratic governance of federated digital communities that form and evolve dynamically, where small groups self-govern and larger groups are represented by assemblies selected via sortition. Prior work addressed static fairness conditions; here, we formalize a dynamic setting where federations evolve over time through communities forming, joining, and splitting, in all directions—bottom-up, top-down, and middle-out—and adapt the fairness guarantees. The main technical challenge is reconciling integral seat allocations with dynamic, overlapping federations, so that child communities always meet their persistent floors while long-run averages converge to proportional fairness. Overcoming these challenges, we introduce a protocol that ensures fair participation and representation both persistently (at all times) and eventually (in the limit after stabilization), extending the static fairness properties to handle structural changes. Prior work shows that grassroots federations can be specified via atomic transactions among assembly members, and that Constitutional Consensus can realize both these transactions and the democratic processes leading to them. Together, the four works form a complete design for an egalitarian, fairly governed, large-scale decentralized sovereign digital community platform.
+DO  - 10.65109/hpks5194
+UR  - https://doi.org/10.65109/hpks5194
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:delegation rules; tier2:agreement; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - aamas2026-hpks5194
+ER  - 
+
+TY  - CONF
+TI  - Project Submission Games in Participatory Budgeting
+AU  - Piotr Faliszewski
+AU  - Łukasz Janeczko
+AU  - Andrzej Kaczmarczyk
+AU  - Grzegorz Lisowski
+AU  - Grzegorz Pierczyński
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We introduce the framework of project submission games, capturing the behavior of project proposers in participatory budgeting (and multiwinner elections). Here, each proposer submits a subset of project proposals, aiming at maximizing the total cost of those that get funded. We focus on finding conditions under which pure Nash equilibria exist in our games, and on the complexity of checking whether they exist. We also seek algorithms for computing best responses for the proposers. Finally, we check the existence of equilibria, as well as their properties, in real-life data.
+DO  - 10.65109/tzvz6294
+UR  - https://doi.org/10.65109/tzvz6294
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; tier1:participatory budgeting; schema=v1.8
+AN  - aamas2026-tzvz6294
+ER  - 
+
+TY  - CONF
+TI  - The Role of Social Learning and Collective Norm Formation in Fostering Cooperation in LLM Multi-Agent Systems
+AU  - Prateek Gupta
+AU  - Qiankun Zhong
+AU  - Hiromu Yakura
+AU  - Thomas Eisenmann
+AU  - Iyad Rahwan
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - A growing body of multi-agent studies with Large Language Models (LLMs) explores how norms and cooperation emerge in mixed-motive scenarios, where pursuing individual gain can undermine the collective good. While prior work has explored these dynamics in both richly contextualized simulations and simplified game-theoretic environments, most LLM systems featuring common-pool resource (CPR) games provide agents with explicit reward functions directly tied to their actions. In contrast, human cooperation often emerges without explicit knowledge of the payoff structure or how individual actions translate into long-run outcomes, relying instead on heuristics, communication, and enforcement. We introduce a CPR simulation framework that removes explicit reward signals and embeds cultural-evolutionary mechanisms: social learning (adopting strategies and beliefs from successful peers) and norm-based punishment, grounded in Ostrom's principles of resource governance. Agents also individually learn from the consequences of harvesting, monitoring, and punishing via environmental feedback, enabling norms to emerge endogenously. We establish the validity of our simulation by reproducing key findings from existing studies on human behavior. Building on this, we examine norm evolution across a 2x2 grid of environmental and social initialisations (resource-rich vs. resource-scarce; altruistic vs. selfish) and benchmark how agentic societies comprised of different LLMs perform under these conditions. Our results reveal systematic model differences in sustaining cooperation and norm formation, positioning the framework as a rigorous testbed for studying emergent norms in mixed-motive LLM societies. Such analysis can inform the design of AI systems deployed in social and organizational contexts, where alignment with cooperative norms is critical for stability, fairness, and effective governance of AI-mediated environments.
+DO  - 10.65109/czdc3237
+UR  - https://doi.org/10.65109/czdc3237
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aamas2026-czdc3237
+ER  - 
+
+TY  - CONF
+TI  - RocqStar: Leveraging Similarity-driven Retrieval and Agentic Systems for Rocq generation
+AU  - Andrei Kozyrev
+AU  - Nikita Khramov
+AU  - Gleb Solovev
+AU  - Anton Podkopaev
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Interactive Theorem Proving was repeatedly shown to be fruitful when combined with Generative Artificial Intelligence. This paper assesses multiple approaches to Rocq generation and illuminates potential avenues for improvement. We identify retrieval-based premise selection as a central component of effective Rocq proof generation and propose a novel approach based on a self-attentive embedder model. The evaluation of the designed approach shows up to 28% relative increase of the generator's performance. We tackle the problem of writing Rocq proofs using a multi-stage agentic system, tailored for formal verification, and demonstrate its high effectiveness. We conduct an ablation study and demonstrate that incorporating multi-agent debate during the planning stage increases the proof success rate by 20% overall and nearly doubles it for complex theorems, while the reflection mechanism further enhances stability and consistency.
+DO  - 10.65109/zqxk7747
+UR  - https://doi.org/10.65109/zqxk7747
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:model-output aggregation; schema=v1.8
+AN  - aamas2026-zqxk7747
+ER  - 
+
+TY  - CONF
+TI  - Efficiently Computing Equilibria in Budget-Aggregation Games
+AU  - Patrick Becker
+AU  - Alexander Fries
+AU  - Matthias Greger
+AU  - Erel Segal-Halevi
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Budget aggregation deals with the social choice problem of distributing an exogenously given budget among a set of public projects, given agents' preferences. Taking a game-theoretic perspective, we study budget-aggregation games where each agent has virtual decision power over some fraction of the budget. We investigate the structure and show efficient computability of Nash equilibria for various common preference models in this setting. In particular, we show that equilibria for Leontief utilities can be found in polynomial time, solving an open problem from [15], and give an explicit polynomial-time algorithm for computing equilibria for ℓ1 preferences.
+DO  - 10.65109/ccmb1463
+UR  - https://doi.org/10.65109/ccmb1463
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; schema=v1.8
+AN  - aamas2026-ccmb1463
+ER  - 
+
+TY  - CONF
+TI  - Equitable Core Imputations for Max-Flow, MST and b-Matching Games
+AU  - Rohith Reddy Gangam
+AU  - Naveen Garg
+AU  - Parnian Shahkar
+AU  - Vijay V. Vazirani
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study fair allocation of profit (or cost) for three central problems from combinatorial optimization: Max-Flow, MST and b-matching. The essentially unequivocal choice of solution concept for this purpose would be the core, because of its highly desirable properties. However, recent work observed that for the assignment game, an arbitrary core imputation makes no fairness guarantee at the level of individual agents. To rectify this deficiency, special core imputations, called equitable core imputations, were defined - there are two such imputations, leximin and leximax - and efficient algorithms were given for finding them.
+DO  - 10.65109/vjno3737
+UR  - https://doi.org/10.65109/vjno3737
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; welfare:leximin; tier2:fairness; schema=v1.8
+AN  - aamas2026-vjno3737
+ER  - 
+
+TY  - CONF
+TI  - Metric Distortion in Peer Selection
+AU  - Javier Cembrano
+AU  - Golnoosh Shahkarami
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - In the metric distortion problem, a set of voters and candidates lies in a common metric space, and a committee of k candidates must be elected. The objective is to minimize a social cost, defined as a function of the distances between voters and their chosen representatives, while the voting rule only has access to ordinal preferences. The distortion of a rule is the worst-case ratio between the social cost of its outcome and that of the optimal committee, taken over all consistent preferences and metrics.
+DO  - 10.65109/beyc4030
+UR  - https://doi.org/10.65109/beyc4030
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:distortion; tier2:collective; schema=v1.8
+AN  - aamas2026-beyc4030
+ER  - 
+
+TY  - CONF
+TI  - Generating Fair Consensus Statements with Social Choice on Token-Level MDPs
+AU  - Carter Blair
+AU  - Kate Larson
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Current frameworks for aggregating free-form text-based opinions with large language models lack the inherent structure needed to provide meaningful fairness guarantees. To address this, we model the task as a multi-objective, token-level Markov Decision Process (MDP), where each objective corresponds to an agent's preference. Each agent's token-level reward is induced by its policy (e.g., a personalized language model). Such policies implicitly define optimal Q-functions, thus enabling stepwise reward computation without an explicit value function. This MDP formulation yields a formal structure that can be analyzed with tools from social choice theory. We first give a stochastic generation policy that is guaranteed to lie in the ex-ante core. It is derived from a distribution over complete statements that maximizes Nash welfare, extending core stability from cooperative game theory and voting to text generation. Second, for a single consensus statement, we target egalitarian welfare and use search within the MDP. Empirically, this search produces statements with improved worst-case agent alignment compared with baselines, including the Habermas Machine. Our code is available https://github.com/cartgr/Generating-Fair-Consensus-Statements-with-Social-Choice-on-Token-Level-MDPs and supplementary material (the appendix) is available https://github.com/cartgr/Generating-Fair-Consensus-Statements-with-Social-Choice-on-Token-Level-MDPs/blob/27abe654c72e465ea58213c80cfb8416573ac2cc/appendix.pdf.
+DO  - 10.65109/nzpr5925
+UR  - https://doi.org/10.65109/nzpr5925
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; tier1:core; welfare:egalitarian and prioritarian; welfare:nash welfare; tier2:agreement; tier2:welfare; tier2:collective; schema=v1.8
+AN  - aamas2026-nzpr5925
+ER  - 
+
+TY  - CONF
+TI  - Coherent Belief and Opinion Propagation Produces more Echo Chambers
+AU  - Hiro Kataoka
+AU  - Jérôme Euzenat
+AU  - Koji Hasebe
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - The occurrence of echo chambers is a well-known phenomenon in social networks. Echo chambers are groups of agents satisfying three properties: homogeneity, i.e., sharing the same opinion, segregation, i.e., listening primarily to agents of the same group, and reinforcement, i.e., increasing opinion similarity over time. Opinion dynamics models have been used to explain how echo chambers occur through agents updating their opinions. However, social network users also exchange beliefs supporting their opinions. Here, we aim at identifying the effect of propagating beliefs together with opinions on the formation of echo chambers. For that purpose, we complement an existing opinion dynamics model with classical belief merge operations. Beliefs and opinions are also maintained coherent guided by values that agents share. We introduce measures, applying to either beliefs and opinions, to identify echo chambers based on the three properties. This model is used to simulate opinion and belief propagation with varying initial conditions and agent tolerance for different opinions/beliefs. Results confirm the occurrence of echo chambers observed in previous opinion dynamics studies in a different setting and with a stricter measure. They also demonstrate the occurrence of echo chambers with belief propagation. Finally, they show that connecting opinions to beliefs and maintaining their coherence increases the number of echo chambers, but that they involve a reduced number of agents.
+DO  - 10.65109/pqiv4263
+UR  - https://doi.org/10.65109/pqiv4263
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:opinion dynamics; schema=v1.8
+AN  - aamas2026-pqiv4263
+ER  - 
+
+TY  - CONF
+TI  - CRAwDAD: Causal Reasoning Augmentation with Dual-Agent Debate
+AU  - Finn G. Vamosi
+AU  - Nils D. Forkert
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - When people reason about cause and effect, they often consider many competing ''what if'' scenarios before deciding which explanation fits best. Analogously, advanced language models capable of causal inference can consider multiple interventions and counterfactuals to judge the validity of causal claims. Crucially, this type of reasoning is less like a single calculation and more like an internal dialogue between alternative hypotheses. In this paper, we make this dialogue explicit through a dual-agent debate framework where one model provides a structured causal inference, and the other critically examines this reasoning for logical flaws. When disagreements arise, the agents attempt to persuade each other, challenging each other's logic and revising their conclusions until they converge on a mutually agreed answer. To take advantage of this deliberative process, we specifically use reasoning language models, whose strengths in both causal inference and adversarial debate remain under-explored relative to standard large language models, which do not employ multi-step logical inference to the same degree. We evaluate our approach on the CLadder dataset, a benchmark linking natural language questions to formally defined causal graphs across all three rungs of Pearl's ladder of causation. With Qwen3 and DeepSeek-R1 as debater agents, we demonstrate that multi-agent debate improves DeepSeek-R1's overall accuracy in causal inference from 78.03% to 87.45%, with the counterfactual category specifically improving from 67.94% to 80.04% accuracy. Similarly, Qwen3's overall accuracy improves from 84.16% to 89.41%, and counterfactual questions from 71.53% to 80.35%, showing that even stronger models can still benefit greatly from debate with weaker agents. Our results highlight the potential of reasoning models as building blocks for multi-agent systems in causal inference, and demonstrate the importance of diverse perspectives in causal problem-solving. Our code is available at https://github.com/finnvamosi/CRAwDAD.
+DO  - 10.65109/dvbn4652
+UR  - https://doi.org/10.65109/dvbn4652
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:model-output aggregation; preservation:perspectives; tier2:agreement; schema=v1.8
+AN  - aamas2026-dvbn4652
+ER  - 
+
+TY  - CONF
+TI  - Feature-based Uncertainty Model for School Choice
+AU  - Yao Zhang
+AU  - Makoto Yokoo
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - In this work, we consider a school choice scenario where a student does not exactly know which college is better for her. Although it is hard for a student to obtain an exact preference, she can usually compare specific features of colleges, such as reputation, location, and campus facilities. Motivated by this, we propose a feature-based uncertainty model for school choice where a student's preference is based on a linear combination of her utilities over different features, and the coefficients of the combination are treated as random variables. Our main goal is to achieve a higher probability of stability (ProS) and incentive compatibility (IC) for students. Unfortunately, these two goals are incompatible in general. We show that a student-proposing deferred acceptance (DA) that prioritizes colleges with higher expected ranking can achieve a worst-case approximation ratio of (1/n)^n on ProS, while a DA with a carefully defined iterated comparison vector can guarantee the strongest achievable form of IC. Finally, we provide additional results for some specific restrictions on the model.
+DO  - 10.65109/kgwc6399
+UR  - https://doi.org/10.65109/kgwc6399
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - aamas2026-kgwc6399
+ER  - 
+
+TY  - CONF
+TI  - Fair Division under Laminar Matroid Constraints for Three Agents
+AU  - Sarfaraz Equbal
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the fair division of indivisible goods under laminar matroid constraints with general additive valuations. In this setting, items are organized into a laminar family of categories, and for each category, we have an upper bound on the number of goods an agent may receive. The goal is to compute a fair division that satisfies these hierarchical capacity constraints. Our fairness notion of interest is envy-freeness up to one good (EF1), a robust relaxation of envy-freeness that is always attainable in unconstrained settings, and can be computed efficiently. Extending such guarantees to constrained domains, however, remains a central challenge.
+DO  - 10.65109/mmpm6195
+UR  - https://doi.org/10.65109/mmpm6195
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-mmpm6195
+ER  - 
+
+TY  - CONF
+TI  - The Complexity of Strategic Behavior in Primary Elections
+AU  - Colin Cleveland
+AU  - Bart de Keijzer
+AU  - Maria Polukarov
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the computational complexity of strategic behaviour in primary elections. Unlike direct voting systems, primaries introduce a multi-stage process in which voters first influence intra-party nominees before a general election determines the final winner. While previous work has evaluated primaries via welfare distortion, we instead examine their game-theoretic properties. We formalise a model of primaries under first-past-the-post with fixed tie-breaking and analyse voters' strategic behaviour. We show that determining whether a pure Nash equilibrium exists is Σ2P-complete, computing a best response is NP-complete, and deciding the existence of subgame-perfect equilibria in sequential primaries is PSPACE-complete. These results reveal that primaries fundamentally increase the computational difficulty of strategic reasoning, situating them as a rich source of complexity-theoretic challenges within computational social choice.
+DO  - 10.65109/rxoj5992
+UR  - https://doi.org/10.65109/rxoj5992
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; tier2:manipulation; tier2:collective; schema=v1.8
+AN  - aamas2026-rxoj5992
+ER  - 
+
+TY  - CONF
+TI  - Maximizing Index Diversity in Committee Elections
+AU  - Paula Böhm
+AU  - Robert Bredereck
+AU  - Till Fluschnik
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We introduce two models of multiwinner elections with approval preferences and labelled candidates that take the committee's diversity into account. One model aims to find a committee with maximal diversity given a scoring function (e.g. of a scoring-based voting rule) and a lower bound for the score to be respected. The second model seeks to maximize the diversity given a minimal satisfaction for each agent to be respected. To measure the diversity of a committee, we use multiple diversity indices used in ecology and introduce one new index. We define (desirable) properties of diversity indices, test the indices considered against these properties, and characterize the new index. We analyze the computational complexity of computing a committee for both models and scoring functions of well-known voting rules, and investigate the influence of weakening the score or satisfaction constraints on the diversity empirically.
+DO  - 10.65109/lltb9191
+UR  - https://doi.org/10.65109/lltb9191
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:committee selection; tier2:collective; schema=v1.8
+AN  - aamas2026-lltb9191
+ER  - 
+
+TY  - CONF
+TI  - The Landscape of Almost Equitable Allocations
+AU  - Hadi Hosseini
+AU  - Vishwa Prakash HV
+AU  - Aditi Sethia
+AU  - Jatin Yadav
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Equitability is a fundamental notion in fair division which requires that all agents derive equal value from their allocated bundles. We study, for general (possibly non-monotone) valuations, a popular relaxation of equitability known as equitability up to one item (EQ1). An EQ1 allocation may fail to exist even with additive non-monotone valuations; for instance, when there are two agents, one valuing every item positively and the other negatively. This motivates a mild and natural assumption: all agents agree on the sign of their value for the grand bundle. Under this assumption, we prove the existence and provide an efficient algorithm for computing EQ1 allocations for two agents with general valuations. When there are more than two agents, we show the existence and polynomial-time computability of EQ1 allocations for valuation classes beyond additivity and monotonicity, in particular for (1) doubly monotone valuations and (2) submodular (resp. supermodular ) valuations where the value for the grand bundle is non-negative (resp. non-positive ) for all agents. Furthermore, we settle an open question of Bilò et al. by showing that an EQ1 allocation always exists for non-negative (resp. non-positive) valuations, i.e., when every agent values each subset of items non-negatively (resp. non-positively). Finally, we complete the picture by showing that for general valuations with more than two agents, EQ1 allocations may not exist even when agents agree on the sign of the grand bundle, and that deciding the existence of an EQ1 allocation is computationally intractable.
+DO  - 10.65109/pork6413
+UR  - https://doi.org/10.65109/pork6413
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-pork6413
+ER  - 
+
+TY  - CONF
+TI  - Beyond Scalar Welfare: Enforcing Identity-Aware Equity in Multi-Agent Reinforcement Learning
+AU  - Nhat-Hoang P. Nguyen
+AU  - Duc-Thinh Pham
+AU  - Trung-Hoang Le
+AU  - Sameer Alam
+AU  - Vu N. Duong
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Equity in cooperative multi-agent reinforcement learning (MARL) is imposed via a single scalar, such as an inequality-averse social welfare function or a dispersion index (e.g., Gini, coefficient of variation, or Jain). These proxies conflate two dimensions of inequity, including who and how much, offering no guarantee of identity-level equity. We introduce an identity-aware notion of equity for otherwise heterogeneous agents, requiring each agent's outcome to remain within a relative tolerance band around the mean. From this premise, we propose the Minimum Reallocation of Excess (MRE), separating incidence (who fall outside the band) from displacement (how much outside-band mass they carry), measuring the least reassignment needed to restore equity. We prove convexity, piecewise linearity, Lipschitz continuity, and Pigou-Dalton compliance, providing a stable, aligned metric for optimizing equity-improving transfers. We further design the Equity-Lagrangian Dual (ELD) update, enforcing an expected-MRE constraint while maximizing return. The update is backbone-agnostic and preserves decentralized execution. Formal case analyses show that dispersion and welfare proxies can misrank allocations or fail to enforce identity-level equity, whereas ELD attains near-equal outcomes at comparable efficiency. Illustrative experiments in two cooperative games with state-of-the-art MARL frameworks show that ELD reduces MRE relative to proxy-based constraints while maintaining aggregate returns, proving that identity-aware equity can be enforced without architectural changes. This framework replaces proxy objectives with a measurable equity target and a plug-in primal-dual rule, enabling identity-level equity during MARL training.
+DO  - 10.65109/lwvb6211
+UR  - https://doi.org/10.65109/lwvb6211
+N1  - source=aamas_2026.bib; retained_by=welfare; terms=welfare:social welfare function; welfare:inequality aversion; welfare:welfare properties; tier2:welfare; schema=v1.8
+AN  - aamas2026-lwvb6211
+ER  - 
+
+TY  - CONF
+TI  - Existence and Computation of Fair Allocations under Constraints
+AU  - Siddharth Barman
+AU  - Ioannis Caragiannis
+AU  - Sudarshan Shyam
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study fair division of divisible goods under generalized assignment constraints. Here, each good has an agent-specific value and size, and every agent has a budget constraint that limits the total size of the goods she can receive. Since it may not always be feasible to assign all goods to the agents while respecting the budget constraints, we use the construct of charity to accommodate the unassigned goods. In this constrained setting with charity, we obtain several new existential and computational results for feasible envy-freeness (FEF); this fairness notion requires that agents are envy-free, considering only budget-feasible subsets. First, we simplify and extend known existential results for FEF allocations. Then, we show that the space of FEF allocations has a non-convex structure. Next, using a fixed-point argument, we establish a novel guarantee that FEF can always be achieved with Pareto-optimality. Furthermore, we give an alternative proof of the fact that one cannot additionally obtain truthfulness in this context: There does not exist a mechanism that is simultaneously truthful, fair, and Pareto-optimal. On the positive side, we show that truthfulness is compatible with each of FEF and Pareto-optimality, individually.
+DO  - 10.65109/btpv8020
+UR  - https://doi.org/10.65109/btpv8020
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-btpv8020
+ER  - 
+
+TY  - CONF
+TI  - Exploring Relations among Fairness Notions in Discrete Fair Division
+AU  - Jugal Garg
+AU  - Eklavya Sharma
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Fair allocation of indivisible items among agents is a fundamental and extensively studied problem. However, fairness does not have a single universally accepted definition, leading to a variety of competing fairness notions. Some of these notions are considered stronger or more desirable, but they are also more difficult to guarantee. In this work, we examine 22 different notions of fairness and organize them into a hierarchy. Formally, we say that a fairness notion F1 implies another notion F2 if every F1-fair allocation is also F2-fair. We give a near-complete picture of implications among fairness notions: for almost every pair of notions, we either prove an implication or give a counterexample demonstrating that the implication does not hold. Although some of these results are already known, many are new. We examine multiple settings, including the allocation of goods, chores, and mixed manna. We believe this work clarifies the relative strengths and applicability of these notions, providing a foundation for future research in fair division. Moreover, we developed an inference engine to automate part of our work. It is available as a user-friendly web application and may have broader applications beyond fair division.
+DO  - 10.65109/drah3963
+UR  - https://doi.org/10.65109/drah3963
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - aamas2026-drah3963
+ER  - 
+
+TY  - CONF
+TI  - Eliminating Inconsistencies among CP-Theory Qualitative Preferences
+AU  - Erik Rauer
+AU  - Samik Basu
+AU  - Vasant Honavar
+AU  - Jia Tao
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Inconsistency in preference reasoning arises when a set of preferences implies that an outcome is preferred over itself. In multi-agent settings, conflicting preferences of the agents lead to inconsistencies in their collective preferences. We examine the problem of establishing consistency by selectively discarding a subset of input preferences, where references are expressed qualitatively in CP-theory language. Specifically, we explore two variants (1) identifying a minimal set of preferences to discard in order to eliminate inconsistencies, and (2) finding a set of preferences whose removal minimally alters the induced dominance so as to eliminate the inconsistencies. We show that both minimization problems are NP-complete. We propose an iterative Integer Linear Programming (ILP)-based approach to their solution. Finally, we present experimental results that demonstrate the feasibility of our solution. We observe that optimizing one objective in isolation often compromises the other. We explore sequential strategies that prioritize one objective followed by the optimization of the other, and propose an empirically balanced approach that achieves improved overall outcomes.
+DO  - 10.65109/wocs8295
+UR  - https://doi.org/10.65109/wocs8295
+N1  - source=aamas_2026.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - aamas2026-wocs8295
+ER  - 
+
+TY  - CONF
+TI  - Proportional and Pareto-Optimal Allocation of Chores with Subsidy
+AU  - Jugal Garg
+AU  - Eklavya Sharma
+AU  - Xiaowei Wu
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We consider the problem of allocating m indivisible chores among n agents with possibly different weights, aiming for a solution that is both fair and efficient. Specifically, we focus on the classic fairness notion of proportionality and efficiency notion of Pareto-optimality. Since proportional allocations may not always exist in this setting, we allow the use of subsidies (monetary compensation to agents) to ensure agents are proportionally-satisfied, and aim to minimize the total subsidy required. Wu and Zhou (WINE 2024) showed that when each chore has disutility at most 1, a total subsidy of at most n/3 - 1/6 is sufficient to guarantee proportionality. However, their approach is based on a complex technique, which does not guarantee economic efficiency -- a key desideratum in fair division.
+DO  - 10.65109/uyky7130
+UR  - https://doi.org/10.65109/uyky7130
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - aamas2026-uyky7130
+ER  - 
+
+TY  - CONF
+TI  - Clone-Robust Weights in Metric Spaces: Handling Redundancy Bias in Benchmark Aggregation
+AU  - Damien Berriaud
+AU  - Roger Wattenhofer
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We are given a set of elements in a metric space. The distribution of the elements is arbitrary, possibly adversarial. Can we weigh the elements in a way that is resistant to such (adversarial) manipulations? This problem arises in various contexts. For instance, the elements could represent data points, requiring robust domain adaptation. Alternatively, they might represent tasks to be aggregated into a benchmark; or questions about personal political opinions in voting advice applications. This article introduces a theoretical framework for dealing with such problems. We propose clone-proof weighting functions as a solution concept. These functions distribute importance across elements of a set such that similar objects (''clones'') share (some of) their weights, thus avoiding a potential bias introduced by their multiplicity. Our framework extends the maximum uncertainty principle to accommodate general metric spaces and includes a set of axioms ---symmetry, continuity, and clone-proofness--- that guide the construction of weighting functions. Finally, we address the existence of weighting functions satisfying our axioms in the significant case of Euclidean spaces and propose a general method for their construction.
+DO  - 10.65109/mjwj6521
+UR  - https://doi.org/10.65109/mjwj6521
+N1  - source=aamas_2026.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - aamas2026-mjwj6521
+ER  - 
+
+TY  - CONF
+TI  - Extremely Large Collective Coalition Formation: Scalability
+AU  - Neha G. Pusalkar
+AU  - Julie A. Adams
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Efficient coordination algorithms facilitate the deployment of robotic collectives for complex missions. The coalition formation for task allocation problem organizes robots into task-specific teams capable of optimal task execution. Developing scalable coalition formation algorithms for extremely large scale collectives is challenging because the computational complexity grows with the collective's size and the number of mission tasks. This work presents LN-GRAPE-S, a hedonic game-based coalition formation algorithm that generates near-optimal solutions for heterogeneous robotic collectives comprised of up to 10,000 robots and at most 5,000 tasks. LN-GRAPE-S leverages the collective's limited heterogeneity, relative to its size, and formulates a leader-level hedonic game that yields high-quality solutions with low communication costs. The algorithm achieves an average 29× improvement in runtime efficiency and an average 825× reduction in total communication overhead as validated through a centralized evaluation with simulated heterogeneous collectives. LN-GRAPE-S is the first distributed hedonic coalition formation algorithm to achieve a minimal communication overhead (i.e., 6.5 MB average) for extremely large scale collectives.
+DO  - 10.65109/eenq4709
+UR  - https://doi.org/10.65109/eenq4709
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:coalition formation; schema=v1.8
+AN  - aamas2026-eenq4709
+ER  - 
+
+TY  - CONF
+TI  - EFX Allocations Exist on Triangle-Free Multi-Graphs
+AU  - Mahyar Afshinmehr
+AU  - Arash Ashuri
+AU  - Pouria Mahmoudkhan
+AU  - Kurt Mehlhorn
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the fair allocation of indivisible goods among agents, with a focus on limiting envy. A central open question in this area is the existence of EFX allocations ---allocations in which any envy of any agent i towards any agent j vanishes upon the removal of any single good from j's bundle. Establishing the existence of such allocations has proven notoriously difficult in general, but progress has been made for restricted valuation classes. Christodoulou et al. [31] proved existence for graphical valuations, where goods correspond to edges in a graph, agents to nodes, and each agent values only incident edges. The graph was required to be simple, i.e., for any pair of agents, there could be at most one good that both agents value. The problem remained open, however, for multi-graph valuations, where for a pair of agents several goods may have value to both. In this setting, Sgouritsa and Sotiriou [52] established existence whenever the shortest cycle with non-parallel edges has length at least six, while Afshinmehr et al. [3] proved existence when the graph contains no odd cycles.
+DO  - 10.65109/xyoa9688
+UR  - https://doi.org/10.65109/xyoa9688
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - aamas2026-xyoa9688
+ER  - 
+
+TY  - CONF
+TI  - Wisdom of the Machines: Exploring Collective Intelligence in LLM Crowds
+AU  - Yashar Talebirad
+AU  - Ali Parsaee
+AU  - Vishwajeet Ohal
+AU  - Amirhossein Nadiri
+AU  - Csongor Szepesvari
+AU  - Yash Mouje
+AU  - Eden Redman
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - The ''wisdom of crowds'' phenomenon shows that aggregating independent estimates can yield more accurate predictions than individual guesses. While crowd-sourcing is widely applied, using large language models (LLMs) for collective estimation is largely unexplored. This work investigates how to best form an LLM ''crowd'' for ambiguous vision-based estimation tasks. We explore two sources of diversity: response diversity, from sampling at various temperatures, and model diversity, from using different LLM architectures. We evaluate these approaches on three vision-based datasets: human height-weight pairs, small objects with known weights, and Amazon products with their prices. Our results show that aggregating deterministic (temperature 0) outputs from a diverse set of models is the most effective strategy, outperforming any single model, as temperature-induced diversity provides no significant benefit while increasing inference costs. The median aggregation of deterministic responses from multiple models outperformed 68% of individual guesses on average, with context providing a significant additional benefit for tasks where it is directly informative (e.g., product titles for price estimation), demonstrating that model diversity is the key to leveraging the wisdom of LLM crowds. By establishing core principles for forming an effective LLM crowd, this work provides a stepping stone for more complex, LLM-driven social simulations.
+DO  - 10.65109/mtwr9974
+UR  - https://doi.org/10.65109/mtwr9974
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:wisdom of crowds; tier2:collective; schema=v1.8
+AN  - aamas2026-mtwr9974
+ER  - 
+
+TY  - CONF
+TI  - Complexity of (Non-)Convergence in Iterative Voting
+AU  - Paul W. Goldberg
+AU  - Marios Mavronicolas
+AU  - Tomasz Was
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Iterative voting is a well-studied model of repeated decision-making, introduced in 2010 by Meir et al., where strategic voters may repeatedly revise their votes, given information about other voters' interim votes, before convergence to a stable state where no voter has an incentive to revise. Despite considerable previous convergence and non-convergence results for iterative voting under various voting rules and information and behavioral assumptions in the last 15 years, the computational complexity of detecting convergence and non-convergence has not been explored before.
+DO  - 10.65109/mdlz8000
+UR  - https://doi.org/10.65109/mdlz8000
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:voting games; tier2:collective; schema=v1.8
+AN  - aamas2026-mdlz8000
+ER  - 
+
+TY  - CONF
+TI  - MARLIN: Multi-Agent Reinforcement Learning with Murmuration Intelligence and LLM Guidance for Reservoir Management
+AU  - Heming Fu
+AU  - Shan Lin
+AU  - Guojun Xiong
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Intensifying climate change and cascading uncertainties across interconnected reservoir networks pose escalating threats to global water security, demanding management systems that are both adaptive and scalable. Traditional centralized optimization becomes computationally intractable and brittle under real-world uncertainty, while existing reinforcement learning (RL) approaches are not designed for complex, multi-node hydrological systems. To address these challenges, we introduce MARLIN, a decentralized reservoir management framework that explicitly handles dual-layer uncertainty: (1) stochastic variability in physical water transfer and (2) dynamic human–environmental perturbations. MARLIN embeds bio-inspired alignment, separation, and cohesion rules into a multi-agent reinforcement learning (MARL) architecture to stabilize coordination under physical uncertainty. Additionally, external conditions such as weather forecasts, regulatory updates, and stakeholder preferences introduce unstructured textual information that traditional models cannot process directly. To bridge this gap, we integrate a large language model (LLM) that interprets contextual information and dynamically adjusts the coordination parameters of the three murmuration rules, enabling rapid adaptation to evolving environmental and human requirements. Experiments on USGS data show that MARLIN improves uncertainty handling by 23%, reduces computational cost by 35%, and accelerates flood response by 68%. The framework demonstrates strong scalability, with emergent coordination patterns increasing super-linearly as the network expands while maintaining linear computational complexity. These results highlight MARLIN's potential as a scalable and intelligent solution for adaptive water resource management and disaster prevention.
+DO  - 10.65109/rqeq9663
+UR  - https://doi.org/10.65109/rqeq9663
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:multi-stakeholder; schema=v1.8
+AN  - aamas2026-rqeq9663
+ER  - 
+
+TY  - CONF
+TI  - Node-Level Federated Learning with Adaptive Personalized Aggregation for Spatio-Temporal Traffic Prediction
+AU  - Xiaoying Tu
+AU  - Ying Lin
+AU  - Xingjian Lu
+AU  - Yibing Wang
+AU  - Bo Hu
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Accurate and real-time traffic flow prediction is crucial for Intelligent Transportation Systems. Recent advances in federated learning and spatio-temporal modeling have improved accuracy and privacy protection. However, existing methods often rely on global topology for spatial features, neglecting topology protection, and typically train a generic global model without considering local personalized features, limiting prediction performance. This paper proposes ST-PFLA (Spatio-Temporal Traffic Flow Prediction via Personalized Federated Learning with Adaptive Aggregation), a framework designed for node-level scenarios where clients only have information about their respective connections, to improve prediction accuracy and training efficiency while safeguarding topology privacy. In ST-PFLA, clients conduct prediction by combining spatial and temporal features extracted by the attention mechanism and local datasets respectively. The method aggregates only encoders across clients, retaining decoders locally for personalization. Each client performs an additional local training round to generate a guide model, which is used to inform the calculation of aggregation weights. Experimental results on two public datasets show that ST-PFLA can significantly enhance prediction accuracy while safeguarding topology privacy at lower training costs.
+DO  - 10.65109/uuws7804
+UR  - https://doi.org/10.65109/uuws7804
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:federated aggregation; schema=v1.8
+AN  - aamas2026-uuws7804
+ER  - 
+
+TY  - CONF
+TI  - Individual Rationality in Constrained Hedonic Games: Additively Separable and Fractional Preferences
+AU  - Foivos Fioravantes
+AU  - Harmender Gahlawat
+AU  - Nikolaos Melissinos
+AU  - Šimon Schierreich
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Hedonic games are an archetypal problem in coalition formation, where a set of selfish agents want to partition themselves into stable coalitions. In this work, we focus on two natural constraints on the possible outcomes. First, we require that exactly k coalitions are created. Then, loosely following the model of Bilò et al. (AAAI 2022), we assume that each of the k coalitions is additionally associated with a lower and upper bound on its size. The notion of stability that we study is that of individual rationality (IR), which requires that no agent strictly prefers to be alone compared to being in his or her coalition. Although IR is trivially satisfiable even in the most general models of hedonic games, the complexity picture of deciding whether an IR allocation exists, considering the above constraints, is unexpectedly rich. We reveal that tractable fragments of this computational problem require surprisingly nontrivial arguments, even if we restrict ourselves to additively separable and fractional hedonic games. Our tractability results, achieved by exploiting the structure of the underlying preference graph, are also complemented by their intractability counterparts, painting a fairly complete picture of the tractability landscape of this problem.
+DO  - 10.65109/icrj7770
+UR  - https://doi.org/10.65109/icrj7770
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:coalition formation; tier1:rationality; schema=v1.8
+AN  - aamas2026-icrj7770
+ER  - 
+
+TY  - CONF
+TI  - Maximizing the Egalitarian Welfare in Friends and Enemies Games
+AU  - Edith Elkind
+AU  - Michele Flammini
+AU  - Giovanna Varricchio
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We consider the complexity of maximizing egalitarian welfare in Friends and Enemies Games - a subclass of hedonic games in which every agent partitions other agents into friends and enemies. We investigate two classic scenarios proposed in the literature, namely, Friends Appreciation (FA) and Enemies Aversion (EA): in the former, each agent primarily cares about the number of friends in her coalition, breaking ties based on the number of enemies, while in the latter, the opposite is true. For EA, we show that our objective is hard to approximate within O(n1-ε ), for any fixed ε > 0, and provide a polynomial-time (n-1)-approximation. For FA, we obtain an NP-hardness result and a polynomial-time approximation algorithm. Our algorithm achieves a ratio of 2-θ(1/n) when every agent has at least two friends; however, if some agent has at most one friend, its approximation ratio deteriorates to n/2. We recover the 2-θ(1/n) approximation ratio for two important variants: when randomization is allowed and when the friendship relationship is symmetric. Additionally, for both EA and FA we identify special cases where the optimal egalitarian partition can be computed in polynomial time.
+DO  - 10.65109/ynpd9144
+UR  - https://doi.org/10.65109/ynpd9144
+N1  - source=aamas_2026.bib; retained_by=welfare; terms=welfare:egalitarian and prioritarian; tier2:welfare; schema=v1.8
+AN  - aamas2026-ynpd9144
+ER  - 
+
+TY  - CONF
+TI  - Altruism and Fair Objective in Mixed-Motive Markov Games
+AU  - Franck Yao-hua Xu
+AU  - Tayeb Lemlouma
+AU  - Arnaud Braud
+AU  - Jean-Marie Bonnin
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Cooperation is fundamental for society's viability, as it enables the emergence of structure within heterogeneous groups that seek collective well-being. However, individuals are inclined to defect in order to benefit from the group's cooperation without contributing the associated costs, thus leading to unfair situations. In game theory, social dilemmas entail this dichotomy between individual interest and collective outcome. The most dominant approach to multi-agent cooperation is the utilitarian welfare which can produce efficient highly inequitable outcomes. This paper proposes a novel framework to foster fairer cooperation by replacing the standard utilitarian objective with Proportional Fairness. We introduce a fair altruistic utility for each agent, defined on the individual log-payoff space and derive the analytical conditions required to ensure cooperation in classic social dilemmas. We then extend this framework to sequential settings by defining a Fair Markov Game and deriving novel fair Actor-Critic algorithms to learn fair policies. Finally, we evaluate our method in various social dilemma environments.
+DO  - 10.65109/mpmp3285
+UR  - https://doi.org/10.65109/mpmp3285
+N1  - source=aamas_2026.bib; retained_by=welfare; terms=welfare:utilitarian aggregation; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - aamas2026-mpmp3285
+ER  - 
+
+TY  - CONF
+TI  - The Agency Circuit: A Neuro-Symbolic Solution for Mitigating Policy Collapse in Reinforcement Learning
+AU  - Mahnoor Shahid
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Deep Reinforcement Learning (RL) agents are capable of achieving human-like performance in complex domains, yet they remain susceptible to catastrophic failures like policy collapse, where the agent defaults to a state of paralyzing inaction after encountering a series of negative outcomes. This failure mode is remarkably analogous to the psychological phenomenon of learned helplessness. Current mitigation strategies often fail to address the underlying cause of this learned paralysis. In this paper, we introduce the Agency Circuit, a novel neuro-symbolic solution explicitly designed to overcome this challenge. Inspired by the antagonistic mPFC-DRN neural circuit that governs resilience to uncontrollable stress in mammals, our model integrates a neural subsystem that learns a continuous metric of helplessness with a symbolic reasoner that performs targeted interventions. When this metric exceeds a threshold, Control Exertion Module (CEM) triggers a pre-defined micro-action to restore a sense of agency, forcing the agent to break out of its passive state. In a deceptive trap environment, our agent demonstrates significantly greater resilience and lower escape latency compared to standard DQN and curiosity-driven baselines. By providing an interpretable mechanism to restore agentic behavior, the Agency Circuit offers a path toward more robust, psychologically-grounded, and explainable RL agents.
+DO  - 10.65109/trfj2704
+UR  - https://doi.org/10.65109/trfj2704
+N1  - source=aamas_2026.bib; retained_by=preservation; terms=preservation:pluralism; schema=v1.8
+AN  - aamas2026-trfj2704
+ER  - 
+
+TY  - CONF
+TI  - AI Alignment Via Power Mean Elicitation
+AU  - Chloé Becquey
+AU  - Cyrus Cousins
+AU  - Yuhui Wei
+AU  - Chang Zeng
+AU  - Yair Zick
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Both people and AI make decisions based on their innate/learned social values. These are often complex and difficult to elicit directly. We propose a comparison-query framework for eliciting welfare (or malfare) concepts that ε-approximately recovers the underlying power-mean concept using only a logarithmic number of queries in the search space. Experiments with large language models demonstrate that the approach converges rapidly and reveals informative differences in LLM social preferences.
+DO  - 10.65109/uauy5393
+UR  - https://doi.org/10.65109/uauy5393
+N1  - source=aamas_2026.bib; retained_by=tier2+anchor; terms=tier2:ai alignment; schema=v1.8
+AN  - aamas2026-uauy5393
+ER  - 
+
+TY  - CONF
+TI  - Fair Allocation with Initial Utilities
+AU  - Niclas Boehmer
+AU  - Luca Kreisel
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - The problem of allocating indivisible resources to agents arises in a wide range of domains, including treatment distribution and social support programs. An important goal in algorithm design for this problem is fairness, where the focus in previous work has been on ensuring that the computed allocation provides equal treatment to everyone. However, this perspective disregards that agents may start from unequal initial positions, which is crucial to consider in settings where fairness is understood as equality of outcome. In such settings, the goal is to create an equal final outcome for everyone by leveling initial inequalities through the allocated resources. To close this gap, focusing on agents with additive utilities, we extend the classic model by assigning each agent an initial utility and study the existence and computational complexity of several new fairness notions following the principle of equality of outcome. Among others, we show that complete allocations satisfying a direct analog of envy-freeness up to one resource (EF1) may fail to exist and are computationally hard to find, forming a contrast to the classic setting without initial utilities. We propose a new, always satisfiable fairness notion, called minimum-EF1-init and design a polynomial-time algorithm based on an extended round-robin procedure to compute complete allocations satisfying this notion.
+DO  - 10.65109/dmyl9092
+UR  - https://doi.org/10.65109/dmyl9092
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-dmyl9092
+ER  - 
+
+TY  - CONF
+TI  - Coalition Tactics: Bribery and Control in Parliamentary Elections
+AU  - Hodaya Barr
+AU  - Eden Hartman
+AU  - Yonatan Aumann
+AU  - Sarit Kraus
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Strategic manipulation of elections is typically studied in the context of promoting individual candidates. In parliamentary elections, however, the focus shifts: voters may care more about the overall governing coalition than the individual parties' seat counts. This paper studies this new problem: manipulating parliamentary elections to promote the collective seat count of a coalition of parties. We focus on proportional representation elections, and consider two variants of the problem; one in which the sole goal is to maximize the total number of seats held by the desired coalition, and the other with a dual objective of promoting both the coalition and the relative power of some favorite party within the coalition. We examine two types of strategic manipulations: bribery, which allows modifying voters' preferences, and control, which allows changing the sets of voters and parties. We consider multiple bribery types, presenting polynomial-time algorithms for some, while proving NP-hardness for others. For control, we provide polynomial-time algorithms for control by adding and deleting voters. In contrast, control by adding and deleting parties, we show, is either impossible (i.e., the problem is immune to control) or computationally hard, in particular, W[1]-hard when parameterized by the number of parties that can be added or deleted.
+DO  - 10.65109/guxi9713
+UR  - https://doi.org/10.65109/guxi9713
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:representation axioms; tier2:manipulation; schema=v1.8
+AN  - aamas2026-guxi9713
+ER  - 
+
+TY  - CONF
+TI  - A Ceteris Paribus Borda Solution to the Social Ranking Problem
+AU  - Rachel Ruellé
+AU  - Stefano Moretti
+AU  - Meltem Öztürk
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - In our society, individuals are often rewarded based on their merits when they work in cooperation. Therefore, we need to design solutions that can fairly rank individuals based on their contribution to the success achieved by alternative groups or coalitions. In this paper, we focus on a novel social ranking solution where individuals are ranked based on the pairwise comparison of coalitions that differ for one single element (referred to in the literature as Ceteris Paribus (CP-)comparison). We first introduce a set of axioms inspired by voting theory and social ranking to establish properties that a solution should satisfy when only a limited number of coalition is considered. Then, we show that our set of axioms uniquely characterizes a new solution that mimics a Borda rule computed over a coalitional preorder. These axioms include the one of desirability, a very well-established property in the setting of coalitional games but never used before in connection with a Borda rule. The other axioms, specifically neutrality, separability, and cancellation, are properties reflecting eponymous axioms in voting theory.
+DO  - 10.65109/wnsa8391
+UR  - https://doi.org/10.65109/wnsa8391
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:named voting rules; tier2:collective; schema=v1.8
+AN  - aamas2026-wnsa8391
+ER  - 
+
+TY  - CONF
+TI  - Fast and Robust Information Spreading in the Noisy PULL Model
+AU  - Niccolò D'archivio
+AU  - Amos Korman
+AU  - Emanuele Natale
+AU  - Robin Vacus
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Efficient information spreading in stochastic multi-agent systems is a core challenge when communication is noisy, bandwidth-limited, and agents lack global coordination. Yet biological systems—such as ant colonies and fish schools—routinely overcome these constraints: a small number of informed individuals can reliably guide large, uncoordinated populations using minimal, noisy signals. Motivated by these observations, we investigate how reliable information dissemination can be achieved in bio-inspired stochastic settings with limited communication and no global control. We analyze the noisy PULL(h) model, covering a general setting that spans from rumor spreading to majority consensus: a subset of source agents hold initial preferences, and the goal is to converge to the majority preference. Agents passively observe noisy messages from h randomly sampled peers per round. Prior work shows that convergence requires Ω(n/h) rounds even under favorable conditions. We ask: how far can one push simplicity—no synchronization and minimal message size—without compromising convergence speed? We present a quasi self-stabilizing protocol using only 2-bit messages that converges from arbitrary initial states despite severe noise and asynchrony. It achieves optimal convergence time O((n/h)log n) with high probability, and O(log n) time in the fully connected case h=n. A key subroutine is an even simpler 1-bit protocol assuming simultaneous start, based on a natural two-phase ''listen-then-amplify'' mechanism reminiscent of biological strategies. Together, our results connect biologically inspired heuristics with provable guarantees for robust, efficient information dissemination in highly unreliable and uncoordinated systems.
+DO  - 10.65109/ffhm1865
+UR  - https://doi.org/10.65109/ffhm1865
+N1  - source=aamas_2026.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aamas2026-ffhm1865
+ER  - 
+
+TY  - CONF
+TI  - Low Message-Cost Gossip for Welfare-Optimal Decentralized Decision Making
+AU  - Vedic Sharma
+AU  - Peter Marbach
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study how agents in a multi-agent system can reach welfare-optimal consensus under strict communication limits. We propose a gossip-based protocol that allows agents with heterogeneous preferences to identify the welfare-optimal option while exchanging estimates for only O(1) options, independent of the total number of options K. The algorithm converges almost surely on stochastically connected interaction graphs and has provably bounded communication complexity on stochastically fully connected graphs. In complex domains such as swarm coordination and decentralized marketplaces, the optimal collective solution often substantially outperforms most alternatives, producing a highly skewed social welfare distribution. In such heavy-tailed settings, communication complexity can even decrease as the decision space grows, showing that scalable, welfare-optimal coordination can emerge in large decentralized systems with minimal communication.
+DO  - 10.65109/jler3835
+UR  - https://doi.org/10.65109/jler3835
+N1  - source=aamas_2026.bib; retained_by=tier2+anchor; terms=tier2:agreement; tier2:welfare; schema=v1.8
+AN  - aamas2026-jler3835
+ER  - 
+
+TY  - CONF
+TI  - Approximating Electoral Control Problems
+AU  - Huy Vu Bui
+AU  - Michael C. Chavrimootoo
+AU  - Kien T. Le
+AU  - Son M. Nguyen
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Much research in electoral control---one of the most studied forms of electoral attacks, in which an entity alters the structure of an election to yield a preferred outcome---has focused on giving decision-complexity results. Approximability on the other hand has received little attention in electoral control, despite its prevalence in the study of other forms of electoral attacks, such as manipulation and bribery. Early work established preliminary results with respect to popular voting rules such as plurality, approval, and Condorcet. In this work, we completely determine for each of the ''standard'' control problems under the aforementioned voting rules whether they are approximable (for weighted and unweighted votes).
+DO  - 10.65109/geod7219
+UR  - https://doi.org/10.65109/geod7219
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:named voting rules; tier2:collective; tier2:weighting; schema=v1.8
+AN  - aamas2026-geod7219
+ER  - 
+
+TY  - CONF
+TI  - Multi-Attribute Committee Selection: Diversity, Correlation, and Approximation Guarantees
+AU  - Doron Heller
+AU  - Reshef Meir
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the problem of multi-attribute committee selection, where each candidate is described by categorical attributes and the objective is to match a given target distribution over these attributes. Building on the framework of Lang and Skowron [2], we formalize and analyze the Lp class of voting rules, including the well-studied Hamilton rule representing Lp.
+DO  - 10.65109/sxgs7111
+UR  - https://doi.org/10.65109/sxgs7111
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:committee selection; tier2:collective; schema=v1.8
+AN  - aamas2026-sxgs7111
+ER  - 
+
+TY  - CONF
+TI  - Proportionality from Low-Dimensional Approval Data
+AU  - Zhiyi Huang
+AU  - Gregory Kehne
+AU  - Chutong Yang
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Multiwinner voting is seeing increasing application in a wide range of domains, including participatory budgeting, online e-democracy platforms, and reinforcement learning from human feedback (RLHF) for fine-tuning AI models. In virtually all settings, instances can and do exceed the scale for which it is feasible to elicit human agents' input on the full candidate set. Motivated by this, we explore the extent to which proportionality axioms can be satisfied when each agent expresses preferences over only a few of the alternatives.
+DO  - 10.65109/yhki7695
+UR  - https://doi.org/10.65109/yhki7695
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; tier1:participatory budgeting; tier2:collective; schema=v1.8
+AN  - aamas2026-yhki7695
+ER  - 
+
+TY  - CONF
+TI  - Proportionality Variations in Repeated Fair Division of Indivisible Goods
+AU  - Karl Jochen Micheel
+AU  - Anaëlle Wilczynski
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - This article deals with fair division of indivisible goods under additive utilities in a repeated context where the same allocation problem is decided multiple times. In this repeated setting, we propose several variations of the well-established proportionality criterion, by requiring that proportionality should be satisfied on average over specified periods of time. While proportionality can be rarely achieved in a one-shot decision, we identify some configurations where considering several rounds helps reach fairness over time via particular proportionality variations. From a computational point of view, we show that most decision problems related to the existence of allocation sequence satisfying variations of proportionality are hard, but we nevertheless highlight several restrictions where the problems can be solved efficiently and show through experiments that our proposed variations can make fairness more achievable.
+DO  - 10.65109/cyzh1121
+UR  - https://doi.org/10.65109/cyzh1121
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - aamas2026-cyzh1121
+ER  - 
+
+TY  - CONF
+TI  - Fair Committee Selection under Ordinal Preferences and Limited Cardinal Information
+AU  - Ameet Gadekar
+AU  - Aristides Gionis
+AU  - Suhas Thejaswi
+AU  - Sijing Tu
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study fair k-committee selection under an egalitarian objective. Here, we are given a set of agents partitioned into groups, and each agent reports a complete ranking over all other agents. The task is to select a committee of size k that satisfies minimum representation constraints for each group while minimizing the maximum cost incurred by any agent. Without access to cardinal distances, constant distortion guarantees are not possible for k ≥ 3 (Burkhardt et al. 2024). In light of this, we model the problem as the ordinal fair k-center problem with limited access to distance queries. In this query-efficient setting, our main result is a 5-distortion algorithms using O(k log2 k) queries; along the way, we obtain a 3-distortion algorithm using O(k2) queries.
+DO  - 10.65109/kfmy7437
+UR  - https://doi.org/10.65109/kfmy7437
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; welfare:egalitarian and prioritarian; tier2:welfare; schema=v1.8
+AN  - aamas2026-kfmy7437
+ER  - 
+
+TY  - CONF
+TI  - Mechanism-Informed Learning for Fair Division
+AU  - Ryota Maruo
+AU  - Tomohiko Yokoyama
+AU  - Ayumi Igarashi
+AU  - Koh Takeuchi
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Fair division provides a simple yet powerful framework for modeling fairness in resource allocation. While existing literature typically assumes complete information about preferences, many practical scenarios involve incomplete preferences, posing challenges in computing fair allocations. In this paper, we propose mechanism-informed preference learning, a framework that integrates neural networks with differentiable approximations of classical fair division mechanisms---adjusted winner, round-robin, and moving-knife---to estimate fair allocations from incomplete preferences. Experiments on real-world household chore preference data show that our mechanism-informed framework achieves fairer allocations, compared to methods without mechanism information.
+DO  - 10.65109/htop9978
+UR  - https://doi.org/10.65109/htop9978
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:alignment; tier2:fairness; schema=v1.8
+AN  - aamas2026-htop9978
+ER  - 
+
+TY  - CONF
+TI  - Detecting Approximate Clones under Approval Voting
+AU  - Théo Delemazure
+AU  - Piotr Faliszewski
+AU  - Łukasz Janeczko
+AU  - Dušan Knop
+AU  - Kristýna Pekárková
+AU  - Jan Pokorný
+AU  - Šimon Schierreich
+AU  - Ildikó Schlotter
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - In approval elections, two candidates are called perfect clones if they are approved by exactly the same set of voters. We propose a general framework for studying approximations of this notion, and demonstrate its power using two natural approximation measures with various appealing axiomatic properties. For both of these measures, we consider two fundamental tasks: deciding whether a large approximate clone set exists in a given election, and computing a partition of the candidate set into approximate clone sets. We show that both tasks are, in general, computationally intractable. To have a better understanding of the boundary between tractable and intractable instances, we analyze the parameterized complexity of these problems with respect to several parameters, including the number of voters and candidates, the approximation threshold, the number and size of partition parts, and structural properties of the instances, such as the number of approvals per voter or per candidate. Finally, we explore how our approximation measures behave in real-world approval elections.
+DO  - 10.65109/mbrb4492
+UR  - https://doi.org/10.65109/mbrb4492
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:approval rules; tier2:collective; schema=v1.8
+AN  - aamas2026-mbrb4492
+ER  - 
+
+TY  - CONF
+TI  - Algorithms for Candidate Control in Sequential Participatory Budgeting Rules
+AU  - Šimon Schierreich
+AU  - Krzysztof Sornat
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the problem of candidate control in participatory budgeting elections. Our focus is on two prominent sequential welfare-based rules -- GreedyAV and GreedyCost -- which are widely used in practice. Candidate control asks whether we can strategically modify the set of available candidates so as to either ensure that a preferred candidate p is selected (constructive control) or prevent p from being selected (destructive control).
+DO  - 10.65109/szoc7665
+UR  - https://doi.org/10.65109/szoc7665
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:participatory budgeting; schema=v1.8
+AN  - aamas2026-szoc7665
+ER  - 
+
+TY  - CONF
+TI  - Online EFX Allocations with Predictions
+AU  - Themistoklis Melissourgos
+AU  - Nicos Protopapas
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study an online fair division problem where a fixed, but unknown number of goods arrive sequentially and must be allocated immediately and irrevocably to a given set of agents. The objective is to ensure (approximate) envy-freeness up to any good (EFX), that is, after the allocation, no agent should prefer another agent's bundle once any single good is removed from it. Unfortunately, we show that approximate EFX is impossible to guarantee, even under restrictive valuation assumptions.
+DO  - 10.65109/pgmh4700
+UR  - https://doi.org/10.65109/pgmh4700
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-pgmh4700
+ER  - 
+
+TY  - CONF
+TI  - Procedural Fairness in Multi-Agent Bandits
+AU  - Joshua Caiata
+AU  - Carter Blair
+AU  - Kate Larson
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - In the context of multi-agent multi-armed bandits (MA-MAB), fairness is often reduced to outcomes: maximizing welfare, reducing inequality, or balancing utilities. However, evidence in psychology, economics, and Rawlsian theory suggests that fairness is also about process and who gets a say in the decisions being made. We introduce a new fairness objective, procedural fairness, which provides equal decision-making power for all agents, lies in the core, and provides for proportionality in outcomes. Empirical results confirm that fairness notions based on optimizing for outcomes sacrifice equal voice and representation, while the sacrifice in outcome-based fairness objectives (like equality and utilitarianism) is minimal under procedurally fair policies. This paper argues that procedural legitimacy deserves greater focus as a fairness objective, and provides a framework for putting procedural fairness into practice.
+DO  - 10.65109/rcln5951
+UR  - https://doi.org/10.65109/rcln5951
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:core; tier2:welfare; schema=v1.8
+AN  - aamas2026-rcln5951
+ER  - 
+
+TY  - CONF
+TI  - Offline Safe Policy Optimization From Heterogeneous Feedback
+AU  - Ze Gong
+AU  - Pradeep Varakantham
+AU  - Akshat Kumar
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Offline Preference-based Reinforcement Learning (PbRL) enables reward and policy learning from human preferences without extensive reward engineering and direct interaction with human annotators. However, ensuring safety remains a critical challenge, especially in long-horizon continuous control tasks. Previous works on safe RL from human feedback (RLHF) typically learn reward and cost models before applying constrained RL, which can lead to compounding errors and suboptimal performance. To address these challenges, (a) instead of indirectly learning policies (from rewards and costs), we introduce a framework that learns a policy directly based on pairwise preferences regarding the agent's behavior in terms of rewards, as well as binary labels indicating the safety of trajectory segments; (b) we propose PreSa (Preference and Safety Alignment), a method that combines preference learning module with safety alignment into a single objective, optimized via a Lagrangian paradigm that directly learns reward-maximizing safe policy without explicitly learning reward and cost models, avoiding the need for constrained RL. Experiments on continuous control tasks with both synthetic and real human feedback demonstrate that PreSa consistently learns safe policies with high rewards, outperforming state-of-the-art baselines, and offline safe RL approaches with ground-truth reward and cost. A full version of this paper is available at: https://arxiv.org/abs/2512.20173.
+DO  - 10.65109/xgrr7655
+UR  - https://doi.org/10.65109/xgrr7655
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:alignment; schema=v1.8
+AN  - aamas2026-xgrr7655
+ER  - 
+
+TY  - CONF
+TI  - Stochastically Dominant Preference Optimization: Policy Improvement For All
+AU  - Ali Farajzadeh
+AU  - Syed M. Abbas
+AU  - Aadirupa Saha
+AU  - Brian D. Ziebart
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Reinforcement learning from human feedback (RLHF) optimizes policies based on users' rankings of output samples rather than using user-provided rewards. These methods typically assume users' underlying utility functions are homogeneous and their rankings differ only due to noise, ultimately optimizing for the average user. Instead, we seek policies that guarantee improvement for all users with respect to their heterogeneous preferences. We introduce stochastic dominance as a stricter guiding criteria for policy optimization that guarantees improvement under any social welfare function. Our approach, stochastically dominant preference optimization (SDPO), avoids explicit reward function estimation while providing individual performance improvement guarantees for users with diverse preferences.
+DO  - 10.65109/kbiv4686
+UR  - https://doi.org/10.65109/kbiv4686
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:alignment; welfare:social welfare function; tier2:welfare; schema=v1.8
+AN  - aamas2026-kbiv4686
+ER  - 
+
+TY  - CONF
+TI  - Cost-Aware Best Arm Identification via Dueling Feedback with Applications to Large Language Models
+AU  - Sarvesh Gharat
+AU  - Nikhil Karamchandani
+AU  - Jayakrishnan Nair
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Motivated by the problem of selecting the best large language model (LLM) under heterogeneous querying costs, we study a variant of the multi-armed bandit problem with (i) dueling feedback, where pairwise comparisons provide preference signals, and (ii) heterogeneous sampling costs. Assuming the existence of a Condorcet winner—an assumption we validate empirically on real-world datasets—we propose a Track-and-Stop style algorithm for best-arm identification with prescribed confidence. We prove that the algorithm almost surely achieves asymptotically optimal cost as the error probability tends to zero. Experiments on synthetic and real-world datasets demonstrate consistent improvements over classical cost-unaware methods and existing cost-aware baselines.
+DO  - 10.65109/geka7634
+UR  - https://doi.org/10.65109/geka7634
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:named voting rules; schema=v1.8
+AN  - aamas2026-geka7634
+ER  - 
+
+TY  - CONF
+TI  - Mitigating Constraint Conflict in Offline RL: An Adaptive Weighted Constraint Approach
+AU  - Pengyu Chen
+AU  - Shirong Liu
+AU  - Minye Huang
+AU  - Haozhuo Zheng
+AU  - Haoyu Liu
+AU  - Wenyu Yuan
+AU  - Yang Liu
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Offline Reinforcement Learning allows agents to learn policies from pre-collected datasets by imposing conservative constraints to address the out-of-distribution problem. However, existing methods face a critical challenge of constraint conflict with datasets generated by multiple behavior policies, and these policies suggest conflicting actions that lead the agent towards suboptimal performance. Geometric distance-based and advantage-weighted methods can be employed to address this problem. These methods exhibit several limitations, including sensitivity to low-quality data, high computational cost, and over conservatism. To overcome these limitations, we propose Adaptive Weighted Constraint (AWC), which mitigates constraint conflicts by training a constraint network via adaptive weighted behavior cloning. AWC dynamically assigns importance weights to dataset actions based on their consistency with the current policy, ensuring that the constraint is informed by the behavior and its distance to the policy. Inspired by the robustness of central tendency estimators in statistics, we apply the weighted geometric median of the actions as a stable target for the policy constraint. Experiments on D4RL benchmarks demonstrate AWC outperforms prior methods on a majority of tasks.
+DO  - 10.65109/cyxq3092
+UR  - https://doi.org/10.65109/cyxq3092
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:robust aggregators; schema=v1.8
+AN  - aamas2026-cyxq3092
+ER  - 
+
+TY  - CONF
+TI  - Strategic Behavior, Fairness, and Social Optimality in Multi-Winner Elections under Uncertainty
+AU  - Janik Bürgermeister
+AU  - Chris Dong
+AU  - Michael Lewicki
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Multi-winner approval voting (MWAV) is widely studied in computational social choice, yet most analyses abstract away from the fact that voter preferences are non-dichotomous and that voters may behave strategically. We model all voters as strategic agents using deep reinforcement learning (DRL) and study equilibrium behavior under both complete and incomplete information. While agents learn to manipulate elections under complete information, we find that under uncertainty, they converge to simple cutoff strategies that are stable, fair, but often socially suboptimal. We further show that mild regulatory interventions can substantially improve welfare.
+DO  - 10.65109/gevh7247
+UR  - https://doi.org/10.65109/gevh7247
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; tier1:committee selection; tier1:approval rules; tier2:manipulation; tier2:collective; schema=v1.8
+AN  - aamas2026-gevh7247
+ER  - 
+
+TY  - CONF
+TI  - Allocation Proportionality of OWA–Based Committee Scoring Rules
+AU  - Daria Boratyn
+AU  - Dariusz Stolicki
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - The interpretation of proportionality in multiwinner voting differs significantly from that in apportionment. We aim to bridge them by introducing the concept of allocation proportionality: a voting rule is allocation proportional if each party's share of elected candidates equals that party's aggregate score. We introduce a new measure of allocation proportionality degree, and use it to experimentally evaluate a number of common OWA--based voting rules.
+DO  - 10.65109/jadb9518
+UR  - https://doi.org/10.65109/jadb9518
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:committee selection; tier1:apportionment; tier1:representation axioms; welfare:generalized means; tier2:collective; schema=v1.8
+AN  - aamas2026-jadb9518
+ER  - 
+
+TY  - CONF
+TI  - AFRC: Adaptive Responsible Compression for Federated Learning under Data Heterogeneity
+AU  - Adarsh Valoor
+AU  - Sarvapali D. Ramchurn
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We present AFRC (Adaptive Federated Responsible Compression), a coordination mechanism for multiagent federated learning that jointly regulates model compression, cross-agent equity, and differential privacy under statistical heterogeneity. AFRC introduces two feedback controllers: a proportional-integral (PI) fairness controller that dynamically adjusts per-round fairness pressure to drive equitable agent outcomes, and a budget-aware privacy controller that schedules the DP noise multiplier to approximately meet a global (ε,δ) target while preserving late-stage utility. Across K=100 agents on CIFAR-10 and Shakespeare with severe non-IID partitions (α= 0.1), AFRC achieves 3--7% higher average accuracy than the strongest non-private baseline, while reducing inter-agent accuracy variance by over 30% compared to FedAvg, at 90% sparsity and a fixed ε= 5 budget. We provide convergence guarantees for a simplified variant and show that adaptive mechanism-based coordination is essential to balance utility, equity, privacy, and efficiency in decentralised multiagent learning.
+DO  - 10.65109/oiba2819
+UR  - https://doi.org/10.65109/oiba2819
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:federated aggregation; schema=v1.8
+AN  - aamas2026-oiba2819
+ER  - 
+
+TY  - CONF
+TI  - RUMAD: Reinforcement-Unifying Multi-Agent Debate
+AU  - Chao Wang
+AU  - Han Lin
+AU  - Huaze Tang
+AU  - Huijing Lin
+AU  - Wenbo Ding
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Multi-agent debate (MAD) systems leverage collective intelligence to enhance reasoning capabilities, yet existing approaches struggle to simultaneously optimize accuracy, consensus formation, and computational efficiency. Static topology methods lack adaptability to task complexity variations, while external LLM-based coordination risks introducing privileged knowledge that compromises debate neutrality. This work presents RUMAD (Reinforcement-Unifying Multi-Agent Debate), a novel framework that formulates dynamic communication topology control in MAD as a reinforcement learning (RL) problem. RUMAD employs a content-agnostic observation scheme that captures high-level debate dynamics avoiding access to raw agent reasoning content. RUMAD uses a multi-objective reward to model solution quality, cohesion and efficiency. A PPO-trained controller dynamically adjusts edge weights in the communication graph, while a dual-threshold mechanism enables fine-grained control over both agent activation and information visibility. Experimental evaluation across MMLU, GSM8K, and GPQA benchmarks demonstrates that RUMAD achieves substantial efficiency gains—reducing token costs by over 80%—while still improving reasoning accuracy compared to single LLM model and multiple MAD baselines. Notably, RUMAD trained exclusively on MMLU exhibits robust zero-shot generalization to out-of-domain (OOD) tasks, indicating that the learned communication strategies capture task-independent principles of effective multi-agent coordination. These results establish RUMAD as a efficient and robust approach for deploying multi-agent reasoning application with practical resource constraints.
+DO  - 10.65109/cbjo8409
+UR  - https://doi.org/10.65109/cbjo8409
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:model-output aggregation; tier2:agreement; tier2:collective; schema=v1.8
+AN  - aamas2026-cbjo8409
+ER  - 
+
+TY  - CONF
+TI  - Diverse Committees with Incomplete or Inaccurate Approval Ballots
+AU  - Feline Lindeboom
+AU  - Martijn Brehm
+AU  - Davide Grossi
+AU  - Pradeep K. Murukannaiah
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study diversity in approval-based committee elections with incomplete or inaccurate information. We define diversity according to the Maximum Coverage problem, which is known to be NP-complete, with a best attainable polynomial time approximation ratio of 1-1/e. In the incomplete information setting, voters vote only on a small portion of the candidates, and we prove that getting arbitrarily close to the optimal approximation ratio w.h.p. requires ?(m2) non-adaptive queries, where m is the number of candidates. This motivates studying adaptive querying algorithms, that can adapt their querying strategy to information obtained from previous query outcomes. In that setting, we lower this bound to only ?(m) queries. We propose a greedy algorithm to match this lower bound up to log-factors. We prove the same ??(m) bound for the generalized problem of Maximum Coverage over a matroid constraint, using a local search algorithm. Specifying a matroid of valid committees lets us implement extra structural requirements on the committee, like quota. In the inaccurate information setting, voters' responses are corrupted with a small probability. We prove ??(nm) queries are required to attain a (1-1/e)-approximation with high probability, where n is the number of voters. While the proven bounds show that all our algorithms are viable asymptotically, they also show that some of them would still require large numbers of queries in instances of practical relevance. Using real data from Polis as well as synthetic data, we observe that our algorithms perform well also on smaller instances, both with incomplete and inaccurate information.
+DO  - 10.65109/udnl2582
+UR  - https://doi.org/10.65109/udnl2582
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; tier2:collective; schema=v1.8
+AN  - aamas2026-udnl2582
+ER  - 
+
+TY  - CONF
+TI  - Maximin Share Guarantees via Limited Cost-Sensitive Sharing
+AU  - Hana Salavcova
+AU  - Martin Černý
+AU  - Arpita Biswas
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the problem of fairly allocating indivisible goods when limited sharing is allowed, that is, each good may be allocated to up to k agents, while incurring a cost for sharing. While classic maximin share (MMS) allocations may not exist in many instances, we demonstrate that allowing controlled sharing can restore fairness guarantees that are otherwise unattainable in certain scenarios. (1) Our first contribution shows that exact maximin share (MMS) allocations are guaranteed to exist whenever goods are allowed to be cost-sensitively shared among at least half of the agents and the number of agents is even; for odd numbers of agents, we obtain a slightly weaker MMS guarantee. (2) We further design a Shared Bag-Filling Algorithm that guarantees a (1 - C)(k - 1)-approximate MMS allocation, where C is the maximum cost of sharing a good. Notably, when (1 - C)(k - 1) ≥ 1, our algorithm recovers an exact MMS allocation. (3) We additionally introduce the Sharing Maximin Share (SMMS) fairness notion, a natural extension of MMS to the k-sharing setting. (4) We show that SMMS allocations always exist under identical utilities and for instances with two agents. (5) We construct a counterexample to show the impossibility of the universal existence of an SMMS allocation. (6) Finally, we establish a connection between SMMS and constrained MMS (CMMS), yielding approximation guarantees for SMMS via existing CMMS results. These contributions provide deep theoretical insights for the problem of fair resource allocation when a limited sharing of resources are allowed in multi-agent environments.
+DO  - 10.65109/lgss5881
+UR  - https://doi.org/10.65109/lgss5881
+N1  - source=aamas_2026.bib; retained_by=welfare; terms=welfare:welfare properties; schema=v1.8
+AN  - aamas2026-lgss5881
+ER  - 
+
+TY  - CONF
+TI  - Offline Learning of Nash Stable Coalition Structures with Possibly Overlapping Coalitions
+AU  - Saar Cohen
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Coalition formation concerns strategic collaborations of selfish agents that form coalitions based on their preferences. It is often assumed that coalitions are disjoint and preferences are fully known, which may not hold in practice. In this paper, we thus present a new model of coalition formation with possibly overlapping coalitions under partial information, where selfish agents may be part of multiple coalitions simultaneously and their full preferences are initially unknown. Instead, information about past interactions and associated utility feedbacks is stored in a fixed offline dataset, from which we aim to efficiently infer agents' preferences. We analyze the impact of diverse dataset information constraints by studying two utility feedback models: semi-bandit (agent-level) and bandit (coalition-level) feedbacks. For both models, we identify assumptions under which the dataset covers sufficient information for an offline learning algorithm to infer preferences and use them to recover a partition that is (approximately) Nash stable, i.e., no agent can improve her utility by unilaterally deviating. We also aim to devise algorithms with low sample complexity, requiring only a small dataset to obtain a desired approximation to Nash stability. Under semi-bandit feedback, we provide a sample-efficient algorithm proven to obtain an approximately Nash stable partition under a sufficient and necessary assumption on the information covered by the dataset. Yet, under bandit feedback, we show that only a stricter assumption is sufficient for sample-efficient learning. Still, in multiple cases, our algorithms' sample complexity bounds have optimality guarantees up to logarithmic factors. Finally, extensive experiments show our algorithm's approximation to Nash stability.
+DO  - 10.65109/zzzs1209
+UR  - https://doi.org/10.65109/zzzs1209
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:coalition formation; schema=v1.8
+AN  - aamas2026-zzzs1209
+ER  - 
+
+TY  - CONF
+TI  - Stability in Distance Preservation Games on Graphs
+AU  - Argyrios Deligkas
+AU  - Eduard Eiben
+AU  - Tiger-Lily Goldsmith
+AU  - Dušan Knop
+AU  - Šimon Schierreich
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We introduce a new class of network allocation games called graphical distance preservation games. Here, we are given a graph, called a topology, and a set of agents that need to be allocated to its vertices. Moreover, every agent has an ideal (and possibly different) distance in which to be from some of the other agents. Given an allocation of agents, each one of them suffers a cost that is the sum of the differences from the ideal distance for each agent in their subset. The goal is to decide whether there is a stable allocation of the agents, i.e., no agent would like to deviate from their location. Specifically, we consider three different stability notions: envy-freeness, swap stability, and jump stability. We perform a comprehensive study of the (parameterized) complexity of the problem in three different dimensions: the topology of the graph, the number of agents, and the structure of preferences of the agents.
+DO  - 10.65109/igtg2329
+UR  - https://doi.org/10.65109/igtg2329
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-igtg2329
+ER  - 
+
+TY  - CONF
+TI  - Fair Orientations: Proportionality and Equitability
+AU  - Ankang Sun
+AU  - Ruijie Wang
+AU  - Bo Li
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study the fair allocation of indivisible items under relevance constraints, where each agent has a set of relevant items and can only receive items that are relevant to them. While the relevance constraint has been studied in recent years, existing work has largely focused on envy-freeness. Our work extends this study to other key fairness criteria --- such as proportionality, equitability, and their relaxations --- in settings where the items may be goods, chores, or a mixture of both. We complement the literature by presenting a picture of the existence and computational complexity of the considered criteria.
+DO  - 10.65109/eirq4510
+UR  - https://doi.org/10.65109/eirq4510
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - aamas2026-eirq4510
+ER  - 
+
+TY  - CONF
+TI  - Strengthening Proportionality in Temporal Voting
+AU  - Bradley Phillips
+AU  - Edith Elkind
+AU  - Nicholas Teh
+AU  - Tomasz Was
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We study proportional representation in the framework of temporal voting with approval ballots. Prior work adapted basic proportional representation concepts---justified representation (JR), proportional JR (PJR), and extended JR (EJR)---from the multiwinner setting to the temporal setting. Our work introduces and examines ways of going beyond EJR. Specifically, we consider stronger variants of JR, PJR, and EJR, and introduce temporal adaptations of more demanding multiwinner axioms, such as EJR+, full JR (FJR), full proportional JR (FPJR), and core stability. For each of these concepts, we investigate its existence and study its relationship to existing notions, thereby establishing a rich hierarchy of proportionality concepts. Notably, we show that two of our proposed axioms---EJR+ and FJR---strengthen EJR while remaining satisfiable in every temporal election.
+DO  - 10.65109/swjz9796
+UR  - https://doi.org/10.65109/swjz9796
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:committee selection; tier1:core; tier1:representation axioms; tier2:collective; schema=v1.8
+AN  - aamas2026-swjz9796
+ER  - 
+
+TY  - CONF
+TI  - Frankenmandering: The Confluence and Symbiosis of Opinion Dynamics and Gerrymandering
+AU  - Sahil Agarwal
+AU  - Svetlana Obraztsova
+AU  - Zinovi Rabinovich
+AU  - Alan Tsang
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We present a novel model at the intersection of two prominent sub-fields: Opinion Dynamics and Gerrymandering. While both sub-fields are well studied separately, in the real world, gerrymandering and opinion dynamics combine and compound their effects. Yet, their interaction has been unexplored in Computer Science, including the AAMAS community. In this paper, we present our Frankenmandering framework, which initiates the study of this key gerrymandering-opinion-dynamics intersection. We show how Frankenmandering can occur, its potential to capture significant -- both positive and negative -- effects on society, and discuss the vast volume of new research questions that arise from this framework.
+DO  - 10.65109/qbuw2742
+UR  - https://doi.org/10.65109/qbuw2742
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:opinion dynamics; schema=v1.8
+AN  - aamas2026-qbuw2742
+ER  - 
+
+TY  - CONF
+TI  - Computational Social Choice: Research & Development
+AU  - Dorothea Baumeister
+AU  - Ratip Emin Berker
+AU  - Niclas Boehmer
+AU  - Sylvain Bouveret
+AU  - Andreas Darmann
+AU  - Piotr Faliszewski
+AU  - Martin Lackner
+AU  - Jérôme Lang
+AU  - Nicholas Mattei
+AU  - Arianna Novaro
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Computational social choice (COMSOC) studies principled ways to aggregate conflicting individual preferences into collective decisions. In this paper, we call for an increased effort towards Computational Social Choice: Research & Development (COMSOC-R&D), a problem-driven research agenda that explicitly aims to design, implement, and test collective decision-making systems in the real world. We articulate the defining features of COMSOC-R&D, argue for its value, and discuss various roadblocks and possible solutions.
+DO  - 10.65109/chqp3419
+UR  - https://doi.org/10.65109/chqp3419
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; tier1:collective decision; tier2:collective; schema=v1.8
+AN  - aamas2026-chqp3419
+ER  - 
+
+TY  - CONF
+TI  - Towards Fairness in Collective Decision Making: Constraints and Approximations
+AU  - Yuhang Guo
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Collective decision making is a central problem in multi-agent systems, where agents hold heterogeneous preferences over a set of outcomes and a collective decision must be reached. Ensuring fairness in such settings has long been a fundamental concern, particularly in realistic environments characterized by diverse constraints and practical requirements. My doctoral research investigates the design and analysis of fair collective decision making mechanisms under these constraints, with a particular emphasis on provable approximation guarantees.
+DO  - 10.65109/oeou3703
+UR  - https://doi.org/10.65109/oeou3703
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:collective decision; tier2:collective; schema=v1.8
+AN  - aamas2026-oeou3703
+ER  - 
+
+TY  - CONF
+TI  - Scalable Uncertainty-Aware Decision Frameworks for Energy-Mobility Cyber-Physical Systems
+AU  - Rishav Sen
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Energy-mobility cyber-physical systems (EM-CPS) couple stochastic mobility demand with time-coupled energy tariffs, creating decision problems where local charging actions can trigger system-level peaks and long-horizon costs. This work progresses from classical optimization to online decision-making and incentives. First, we study mixed-fleet public transit scheduling under charger availability and state-of-charge (SoC) constraints, using hierarchical MILP decomposition to obtain feasible, low-cost schedules on real transit data. Second, we address workplace vehicle-to-building (V2B) charging under persistent uncertainty in arrivals and building loads, developing methods that combine rolling-horizon control with constraint-aware learning to improve peak-driven objectives while preserving feasibility. Third, we design CONSENT, a negotiation mechanism for strategic EV users guaranteeing strategy-proofness, individual rationality, and budget feasibility under uncertainty. We validate the full stack in calibrated simulation grounded in real-world survey, telemetry, and building-load data.
+DO  - 10.65109/pdls8233
+UR  - https://doi.org/10.65109/pdls8233
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:rationality; schema=v1.8
+AN  - aamas2026-pdls8233
+ER  - 
+
+TY  - CONF
+TI  - Non-Bipartite Stable Matching and Beyond
+AU  - Frederik Glitzner
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Non-bipartite matching problems arise naturally in many multi-agent systems, yet they face a fundamental challenge absent from classical bipartite markets: even under strict preferences, stable matchings need not exist. This non-existence requires a careful combinatorial study of preference structures, and calls for the design of advanced algorithms when aiming for alternative fairness or relaxed stability guarantees in such settings. I study the structural origins of instability in non-bipartite preference systems, develop new optimality criteria inspired by both classical social choice theory and by real-world requirements, and design efficient algorithms for the computation of matchings satisfying such criteria if possible.
+DO  - 10.65109/sltp2592
+UR  - https://doi.org/10.65109/sltp2592
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; schema=v1.8
+AN  - aamas2026-sltp2592
+ER  - 
+
+TY  - CONF
+TI  - Complexity and Behaviour in Strategic Models of Elections
+AU  - Colin Cleveland
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - This PhD studies the algorithmic and behavioural foundations of candidate positioning and strategic voting in elections, at the intersection of algorithmic game theory and computational social choice. It unifies three research strands: multi-dimensional spatial elections, prospect-theoretic voting, and strategic behaviour in primary elections. Across these settings, the thesis examines how rational and boundedly rational agents make strategic decisions under institutional and cognitive constraints, and how these decisions give rise to computational problems of optimisation, equilibrium, and complexity. The work shows how behavioural assumptions and multi-stage electoral structures fundamentally alter equilibrium properties and computational tractability. Future work develops primary elections as multi-stage games with incomplete information and learning-based dynamics.
+DO  - 10.65109/elck5589
+UR  - https://doi.org/10.65109/elck5589
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:social choice; tier1:voting games; tier2:manipulation; tier2:collective; schema=v1.8
+AN  - aamas2026-elck5589
+ER  - 
+
+TY  - CONF
+TI  - Scalable Coalition Formation for Extremely Large Collectives
+AU  - Neha G. Pusalkar
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Coalition formation facilitates coordination of robotic collectives by partitioning robots into task-oriented teams. The combinatorial nature of this problem presents a key challenge when developing algorithms for extremely large scale collectives containing thousands of robots. Deployment in real-world environments exacerbates this complexity by requiring adaptation to dynamic events. This research develops scalable collective coalition formation algorithms for heterogeneous collectives by leveraging the collectives' compositional properties and a game-theoretic framework. Future research proposes to extend these methods to real-world settings by implementing a coalition reformation algorithm that restructures coalitions to address dynamic events. The proposed algorithmic framework demonstrates scalability and enables adaptability, making it viable for real-world missions.
+DO  - 10.65109/mggh7353
+UR  - https://doi.org/10.65109/mggh7353
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:coalition formation; schema=v1.8
+AN  - aamas2026-mggh7353
+ER  - 
+
+TY  - CONF
+TI  - Proportionality Press: Illustrating Proportionality through Comment Selection
+AU  - Jan Maly
+AU  - Oliviero Nardi
+AU  - Simon Rey
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We present the Proprotionality Press, a website developed to illustrate how proportional multi-winner voting rules can be applied to real-world online discussions. The Proportionality Press presents different articles that have been commented on by users. For each article several ways of selecting the comments are presented, illustrating the effect of different voting rules.
+DO  - 10.65109/xvul7166
+UR  - https://doi.org/10.65109/xvul7166
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; tier1:committee selection; tier2:collective; schema=v1.8
+AN  - aamas2026-xvul7166
+ER  - 
+
+TY  - CONF
+TI  - Optimizing Voting Rules for Social Welfare and Beyond
+AU  - Ben Armstrong
+AU  - Hrishi Kabra
+AU  - Nicholas Mattei
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We present a website and Python package, optimal_voting, that provides tools for finding the positional scoring rule (PSR) that optimizes for a user-selected target function over a (set of) profiles. The web interface provides an intuitive interface for creating profiles, analyzing them, and exploring various PSRs; while the library provides extensive functionality for researchers and system implementers. By formulating finding the optimal PSR within a larger optimization system, the target of the optimization can be any of a number of widely studied functions including classical social welfare functions (utilitarian, egalitarian, Nash), distortion, or axiom violation rate. By restricting optimization to positional scoring rules we ensure that our results are intuitively explainable. Our library has already been used to generate significant results for two papers and can be directly applied to several further settings.
+DO  - 10.65109/sslt9308
+UR  - https://doi.org/10.65109/sslt9308
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:voting rule; welfare:social welfare function; tier2:welfare; tier2:collective; schema=v1.8
+AN  - aamas2026-sslt9308
+ER  - 
+
+TY  - CONF
+TI  - PSTV: Towards Practical Verification of Strategic Ability for Probabilistic Models with Imperfect Information
+AU  - Mateusz Kamiński
+AU  - Wojciech Jamroga
+AU  - Damian Kurpiewski
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - We present PSTV, a new, probabilistic branch of our tool suite STV (STrategic Verifier). PSTV supports formal verification of strategic ability in multi-systems with imperfect information and probabilistic behavior. All of that is available through a web interface, with no need to install or configure the software by the user.
+DO  - 10.65109/gqvy6801
+UR  - https://doi.org/10.65109/gqvy6801
+N1  - source=aamas_2026.bib; retained_by=tier1; terms=tier1:named voting rules; schema=v1.8
+AN  - aamas2026-gqvy6801
+ER  - 
+
+TY  - CONF
+TI  - Distributed Course Allocation with Asymmetric Friendships
+AU  - Lihi Dery
+AU  - Tal Grinshpoun
+AU  - Ilya Khakhiashvili
+PY  - 2026
+T2  - International Joint Conference on Autonomous Agents and Multiagent Systems
+AB  - Students’ decisions about course enrollment are affected by whether their friends plan to take the same class. In some cases, a student may prefer to enroll in a less desirable course to study with friends rather than take a more preferred course alone. Prior research has shown that taking classes with friends can improve academic performance. This paper studies course allocation mechanisms that explicitly account for students’ friendship relations in a distributed setting. We formulate the problem as an asymmetric distributed constraint optimization problem and introduce a dedicated algorithm tailored to this formulation. The evaluation includes both simulated data and a user study involving 177 students, based on reported preferences over courses and friendships. The results indicate that the proposed algorithm commonly finds feasible allocations with high social welfare, while maintaining fairness and respecting course seat capacity constraints.
+DO  - 10.65109/yvps6128
+UR  - https://doi.org/10.65109/yvps6128
+N1  - source=aamas_2026.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - aamas2026-yvps6128
+ER  - 
+

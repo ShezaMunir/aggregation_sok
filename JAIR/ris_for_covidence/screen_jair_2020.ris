@@ -1,0 +1,148 @@
+TY  - JOUR
+TI  - Blind Spot Detection for Safe Sim-to-Real Transfer
+AU  - Ramakrishnan, Ramya
+AU  - Kamar, Ece
+AU  - Dey, Debadeepta
+AU  - Horvitz, Eric
+AU  - Shah, Julie
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - Agents trained in simulation may make errors when performing actions in the real world due to mismatches between training and execution environments. These mistakes can be dangerous and difficult for the agent to discover because the agent is unable to predict them a priori. In this work, we propose the use of oracle feedback to learn a predictive model of these blind spots in order to reduce costly errors in real-world applications. We focus on blind spots in reinforcement learning (RL) that occur due to incomplete state representation: when the agent lacks necessary features to represent the true state of the world, and thus cannot distinguish between numerous states. We formalize the problem of discovering blind spots in RL as a noisy supervised learning problem with class imbalance. Our system learns models for predicting blind spots within unseen regions of the state space by combining techniques for label aggregation, calibration, and supervised learning. These models take into consideration noise emerging from different forms of oracle feedback, including demonstrations and corrections. We evaluate our approach across two domains and demonstrate that it achieves higher predictive performance than baseline methods, and also that the learned model can be used to selectively query an oracle at execution time to prevent errors. We also empirically analyze the biases of various feedback types and how these biases influence the discovery of blind spots. Further, we include analyses of our approach that incorporate relaxed initial optimality assumptions. (Interestingly, relaxing the assumptions of an optimal oracle and an optimal simulator policy helped our models to perform better.) We also propose extensions to our method that are intended to improve performance when using corrections and demonstrations data.
+DO  - 10.1613/jair.1.11436
+UR  - https://www.jair.org/index.php/jair/article/view/11436
+KW  - reinforcement learning; machine learning; multiagent systems; markov decision processes
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:label aggregation; schema=v1.8
+AN  - jair2020-jair-1-11436
+ER  - 
+
+TY  - JOUR
+TI  - Catching Cheats: Detecting Strategic Manipulation in Distributed Optimisation of Electric Vehicle Aggregators
+AU  - Perez-Diaz, Alvaro
+AU  - Gerding, Enrico Harm
+AU  - McGroarty, Frank
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - Given the rapid rise of electric vehicles (EVs) worldwide, and the ambitious targets set for the near future, the management of large EV fleets must be seen as a priority. Specifically, we study a scenario where EV charging is managed through self-interested EV aggregators who compete in the day-ahead market in order to purchase the electricity needed to meet their clients' requirements. With the aim of reducing electricity costs and lowering the impact on electricity markets, a centralised bidding coordination framework has been proposed in the literature employing a coordinator. In order to improve privacy and limit the need for the coordinator, we propose a reformulation of the coordination framework as a decentralised algorithm, employing the Alternating Direction Method of Multipliers (ADMM). However, given the self-interested nature of the aggregators, they can deviate from the algorithm in order to reduce their energy costs. Hence, we study the strategic manipulation of the ADMM algorithm and, in doing so, describe and analyse different possible attack vectors and propose a mathematical framework to quantify and detect manipulation. Importantly, this detection framework is not limited to the considered EV scenario and can be applied to general ADMM algorithms. Finally, we test the proposed decentralised coordination and manipulation detection algorithms in realistic scenarios using real market and driver data from Spain. Our empirical results show that the decentralised algorithm's convergence to the optimal solution can be effectively disrupted by manipulative attacks achieving convergence to a different non-optimal solution which benefits the attacker. With respect to the detection algorithm, results indicate that it achieves very high accuracies and significantly outperforms a naive benchmark.
+DO  - 10.1613/jair.1.11573
+UR  - https://www.jair.org/index.php/jair/article/view/11573
+KW  - distributed AI; multiagent systems; heuristics; autonomous agents
+N1  - source=jair_2020.bib; retained_by=tier2+anchor; terms=tier2:manipulation; schema=v1.8
+AN  - jair2020-jair-1-11573
+ER  - 
+
+TY  - JOUR
+TI  - Incomplete Preferences in Single-Peaked Electorates
+AU  - Fitzsimmons, Zack
+AU  - Lackner, Martin
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - Incomplete preferences are likely to arise in real-world preference aggregation scenarios. This paper deals with determining whether an incomplete preference profile is single-peaked. This is valuable information since many intractable voting problems become tractable given singlepeaked preferences. We prove that the problem of recognizing single-peakedness is NP-complete for incomplete profiles consisting of partial orders. Despite this intractability result, we find several polynomial-time algorithms for reasonably restricted settings. In particular, we give polynomial-time recognition algorithms for weak orders, which can be viewed as preferences with indifference.
+DO  - 10.1613/jair.1.11577
+UR  - https://www.jair.org/index.php/jair/article/view/11577
+KW  - preferences; computational social systems; multiagent systems
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:preference aggregation; tier2:collective; schema=v1.8
+AN  - jair2020-jair-1-11577
+ER  - 
+
+TY  - JOUR
+TI  - Improving Nash Social Welfare Approximations
+AU  - McGlaughlin, Peter
+AU  - Garg, Jugal
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - We consider the problem of fairly allocating a set of indivisible goods among n agents. Various fairness notions have been proposed within the rapidly growing field of fair division, but the Nash social welfare (NSW) serves as a focal point. In part, this follows from the ‘unreasonable’ fairness guarantees provided, in the sense that a max NSW allocation meets multiple other fairness metrics simultaneously, all while satisfying a standard economic concept of efficiency, Pareto optimality. However, existing approximation algorithms fail to satisfy all of the remarkable fairness guarantees offered by a max NSW allocation, instead targeting only the specific NSW objective. We address this issue by presenting a 2 max NSW, Prop-1, 1/(2n) MMS, and Pareto optimal allocation in strongly polynomial time. Our techniques are based on a market interpretation of a fractional max NSW allocation. We present novel definitions of fairness concepts in terms of market prices, and design a new scheme to round a market equilibrium into an integral allocation in a way that provides most of the fairness properties of an integral max NSW allocation.
+DO  - 10.1613/jair.1.11618
+UR  - https://www.jair.org/index.php/jair/article/view/11618
+KW  - computational social systems
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:fair division; tier1:pareto; welfare:nash welfare; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - jair2020-jair-1-11618
+ER  - 
+
+TY  - JOUR
+TI  - Maximin Share Allocations on Cycles
+AU  - Truszczynski, Miroslaw
+AU  - Lonc, Zbigniew
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - The problem of fair division of indivisible goods is a fundamental problem of resource allocation in multi-agent systems, also studied extensively in social choice. Recently, the problem was generalized to the case when goods form a graph and the goal is to allocate goods to agents so that each agent’s bundle forms a connected subgraph. For the maximin share fairness criterion, researchers proved that if goods form a tree, an allocation offering each agent a bundle of at least her maximin share value always exists. Moreover, it can be found in polynomial time. In this paper we consider the problem of maximin share allocations of goods on a cycle. Despite the simplicity of the graph, the problem turns out to be significantly harder than its tree version. We present cases when maximin share allocations of goods on cycles exist and provide in this case results on allocations guaranteeing each agent a certain fraction of her maximin share. We also study algorithms for computing maximin share allocations of goods on cycles.
+DO  - 10.1613/jair.1.11702
+UR  - https://www.jair.org/index.php/jair/article/view/11702
+KW  - computational social systems; multiagent systems
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:social choice; tier1:fair division; welfare:welfare properties; tier2:fairness; schema=v1.8
+AN  - jair2020-jair-1-11702
+ER  - 
+
+TY  - JOUR
+TI  - Preferences Single-Peaked on a Circle
+AU  - Peters, Dominik
+AU  - Lackner, Martin
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - We introduce the domain of preferences that are single-peaked on a circle, which is a generalization of the well-studied single-peaked domain. This preference restriction is useful, e.g., for scheduling decisions, certain facility location problems, and for one-dimensional decisions in the presence of extremist preferences. We give a fast recognition algorithm of this domain, provide a characterisation by finitely many forbidden subprofiles, and show that many popular single- and multi-winner voting rules are polynomial-time computable on this domain. In particular, we prove that Proportional Approval Voting can be computed in polynomial time for profiles that are single-peaked on a circle. In contrast, Kemeny's rule remains hard to evaluate, and several impossibility results from social choice theory can be proved using only profiles in this domain.
+DO  - 10.1613/jair.1.11732
+UR  - https://www.jair.org/index.php/jair/article/view/11732
+KW  - preferences
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:voting rule; tier1:social choice; tier1:committee selection; tier1:named voting rules; tier1:approval rules; tier2:collective; schema=v1.8
+AN  - jair2020-jair-1-11732
+ER  - 
+
+TY  - JOUR
+TI  - The Complexity Landscape of Outcome Determination in Judgment Aggregation
+AU  - Endriss, Ulle
+AU  - de Haan, Ronald
+AU  - Lang, Jérôme
+AU  - Slavkovik, Marija
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - We provide a comprehensive analysis of the computational complexity of the outcome determination problem for the most important aggregation rules proposed in the literature on logic-based judgment aggregation. Judgment aggregation is a powerful and flexible framework for studying problems of collective decision making that has attracted interest in a range of disciplines, including Legal Theory, Philosophy, Economics, Political Science, and Artificial Intelligence. The problem of computing the outcome for a given list of individual judgments to be aggregated into a single collective judgment is the most fundamental algorithmic challenge arising in this context. Our analysis applies to several different variants of the basic framework of judgment aggregation that have been discussed in the literature, as well as to a new framework that encompasses all existing such frameworks in terms of expressive power and representational succinctness.
+DO  - 10.1613/jair.1.11970
+UR  - https://www.jair.org/index.php/jair/article/view/11970
+KW  - multiagent systems
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:aggregation rule; tier1:judgment aggregation; tier1:collective decision; tier2:collective; schema=v1.8
+AN  - jair2020-jair-1-11970
+ER  - 
+
+TY  - JOUR
+TI  - Fair Allocation with Diminishing Differences
+AU  - Segal-Halevi, Erel
+AU  - Hassidim, Avinatan
+AU  - Aziz, Haris
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - Ranking alternatives is a natural way for humans to explain their preferences. It is used in many settings, such as school choice, course allocations and residency matches. Without having any information on the underlying cardinal utilities, arguing about the fairness of allocations requires extending the ordinal item ranking to ordinal bundle ranking. The most commonly used such extension is stochastic dominance (SD), where a bundle X is preferred over a bundle Y if its score is better according to all additive score functions. SD is a very conservative extension, by which few allocations are necessarily fair while many allocations are possibly fair. We propose to make a natural assumption on the underlying cardinal utilities of the players, namely that the difference between two items at the top is larger than the difference between two items at the bottom. This assumption implies a preference extension which we call diminishing differences (DD), where X is preferred over Y if its score is better according to all additive score functions satisfying the DD assumption. We give a full characterization of allocations that are necessarily-proportional or possibly-proportional according to this assumption. Based on this characterization, we present a polynomial-time algorithm for finding a necessarily-DD-proportional allocation whenever it exists. Using simulations, we compare the various fairness criteria in terms of their probability of existence, and their probability of being fair by the underlying cardinal valuations. We find that necessary-DD-proportionality fares well in both measures. We also consider envy-freeness and Pareto optimality under diminishing-differences, as well as chore allocation under the analogous condition --- increasing-differences.
+DO  - 10.1613/jair.1.11994
+UR  - https://www.jair.org/index.php/jair/article/view/11994
+KW  - preferences; game theory
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:fair division; tier1:pareto; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - jair2020-jair-1-11994
+ER  - 
+
+TY  - JOUR
+TI  - On the Complexity of Learning a Class Ratio from Unlabeled Data
+AU  - Fish, Benjamin
+AU  - Reyzin, Lev
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - In the problem of learning a class ratio from unlabeled data, which we call CR learning, the training data is unlabeled, and only the ratios, or proportions, of examples receiving each label are given. The goal is to learn a hypothesis that predicts the proportions of labels on the distribution underlying the sample. This model of learning is applicable to a wide variety of settings, including predicting the number of votes for candidates in political elections from polls. In this paper, we formally define this class and resolve foundational questions regarding the computational complexity of CR learning and characterize its relationship to PAC learning. Among our results, we show, perhaps surprisingly, that for finite VC classes what can be efficiently CR learned is a strict subset of what can be learned efficiently in PAC, under standard complexity assumptions. We also show that there exist classes of functions whose CR learnability is independent of ZFC, the standard set theoretic axioms. This implies that CR learning cannot be easily characterized (like PAC by VC dimension).
+DO  - 10.1613/jair.1.12013
+UR  - https://www.jair.org/index.php/jair/article/view/12013
+KW  - machine learning
+N1  - source=jair_2020.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - jair2020-jair-1-12013
+ER  - 
+
+TY  - JOUR
+TI  - Contiguous Cake Cutting: Hardness Results and Approximation Algorithms
+AU  - Goldberg, Paul
+AU  - Hollender, Alexandros
+AU  - Suksompong, Warut
+PY  - 2020
+T2  - Journal of Artificial Intelligence Research
+AB  - We study the fair allocation of a cake, which serves as a metaphor for a divisible resource, under the requirement that each agent should receive a contiguous piece of the cake. While it is known that no finite envy-free algorithm exists in this setting, we exhibit efficient algorithms that produce allocations with low envy among the agents. We then establish NP-hardness results for various decision problems on the existence of envy-free allocations, such as when we fix the ordering of the agents or constrain the positions of certain cuts. In addition, we consider a discretized setting where indivisible items lie on a line and show a number of hardness results extending and strengthening those from prior work. Finally, we investigate connections between approximate and exact envy-freeness, as well as between continuous and discrete cake cutting.
+DO  - 10.1613/jair.1.12222
+UR  - https://www.jair.org/index.php/jair/article/view/12222
+KW  - game theory; multiagent systems; preferences; mathematical foundations
+N1  - source=jair_2020.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - jair2020-jair-1-12222
+ER  - 
+

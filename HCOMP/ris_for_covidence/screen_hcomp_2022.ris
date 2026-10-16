@@ -1,0 +1,114 @@
+TY  - CONF
+TI  - Eliciting and Learning with Soft Labels from Every Annotator
+AU  - Collins, Katherine M.
+AU  - Bhatt, Umang
+AU  - Weller, Adrian
+PY  - 2022
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - The labels used to train machine learning (ML) models are of paramount importance. Typically for ML classification tasks, datasets contain hard labels, yet learning using soft labels has been shown to yield benefits for model generalization, robustness, and calibration. Earlier work found success in forming soft labels from multiple annotators' hard labels; however, this approach may not converge to the best labels and necessitates many annotators, which can be expensive and inefficient. We focus on efficiently eliciting soft labels from individual annotators. We collect and release a dataset of soft labels (which we call CIFAR-10S) over the CIFAR-10 test set via a crowdsourcing study (N=248). We demonstrate that learning with our labels achieves comparable model performance to prior approaches while requiring far fewer annotators -- albeit with significant temporal costs per elicitation. Our elicitation methodology therefore shows nuanced promise in enabling practitioners to enjoy the benefits of improved model performance and reliability with fewer annotators, and serves as a guide for future dataset curators on the benefits of leveraging richer information, such as categorical uncertainty, from individual annotators.
+DO  - 10.1609/hcomp.v10i1.21986
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/21986
+KW  - Soft Labels; Uncertainty; Human-Centered Machine Learning; Crowdsourcing
+N1  - source=hcomp_2022.bib; retained_by=preservation; terms=preservation:disaggregated; preservation:label variation; schema=v1.8
+AN  - hcomp2022-hcomp-v10i1-21986
+ER  - 
+
+TY  - CONF
+TI  - Strategyproofing Peer Assessment via Partitioning: The Price in Terms of Evaluators’ Expertise
+AU  - Dhull, Komal
+AU  - Jecmen, Steven
+AU  - Kothari, Pravesh
+AU  - Shah, Nihar B.
+PY  - 2022
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Strategic behavior is a fundamental problem in a variety of real-world applications that require some form of peer assessment, such as peer grading of homeworks, grant proposal review, conference peer review of scientific papers, and peer assessment of employees in organizations. Since an individual's own work is in competition with the submissions they are evaluating, they may provide dishonest evaluations to increase the relative standing of their own submission. This issue is typically addressed by partitioning the individuals and assigning them to evaluate the work of only those from different subsets. Although this method ensures strategyproofness, each submission may require a different type of expertise for effective evaluation. In this paper, we focus on finding an assignment of evaluators to submissions that maximizes assigned evaluators' expertise subject to the constraint of strategyproofness. We analyze the price of strategyproofness: that is, the amount of compromise on the assigned evaluators' expertise required in order to get strategyproofness. We establish several polynomial-time algorithms for strategyproof assignment along with assignment-quality guarantees. Finally, we evaluate the methods on a dataset from conference peer review.
+DO  - 10.1609/hcomp.v10i1.21987
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/21987
+KW  - Peer Review; Peer Assessment; Reviewer Assignment; Strategic Behavior
+N1  - source=hcomp_2022.bib; retained_by=tier1; terms=tier1:incentives; tier2:manipulation; schema=v1.8
+AN  - hcomp2022-hcomp-v10i1-21987
+ER  - 
+
+TY  - CONF
+TI  - Performance of Paid and Volunteer Image Labeling in Citizen Science — A Retrospective Analysis
+AU  - Gandhi, Kutub
+AU  - Spatharioti, Sofia Eleni
+AU  - Eustis, Scott
+AU  - Wylie, Sara
+AU  - Cooper, Seth
+PY  - 2022
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Citizen science projects that rely on human computation can attempt to solicit volunteers or use paid microwork platforms such as Amazon Mechanical Turk. To better understand these approaches, this paper analyzes crowdsourced image label data sourced from an environmental justice project looking at wetland loss off the coast of Louisiana. This retrospective analysis identifies key differences between the two populations: while Mechanical Turk workers are accessible, cost-efficient, and rate more images than volunteers (on average), their labels are of lower quality, whereas volunteers can achieve high accuracy with comparably few votes. Volunteer organizations can also interface with the educational or outreach goals of an organization in ways that the limited context of microwork prevents.
+DO  - 10.1609/hcomp.v10i1.21988
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/21988
+KW  - Mechanical Turk; Volunteers; Crowdsourcing; Image Labeling; Citizen Science; Environmental Study
+N1  - source=hcomp_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - hcomp2022-hcomp-v10i1-21988
+ER  - 
+
+TY  - CONF
+TI  - Identifying Possible Winners in Ranked Choice Voting Elections with Outstanding Ballots
+AU  - Jelvani, Alborz
+AU  - Marian, Amelie
+PY  - 2022
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Several election districts in the US have recently moved to ranked-choice voting (RCV) to decide the results of local elections. RCV allows voters to rank their choices, and the results are computed in rounds, eliminating one candidate at a time. RCV ensures fairer elections and has been shown to increase elected representation of women and people of color. A main drawback of RCV is that the round-by-round process requires all the ballots to be tallied before the results of an election can be calculated. With increasingly large portions of ballots coming from absentee voters, RCV election outcomes are not always apparent on election night, and can take several weeks to be published, leading to a loss of trust in the electoral process from the public. In this paper, we present an algorithm for efficiently computing possible winners of RCV elections from partially known ballots and evaluate it on data from the recent New York City Primary elections. We show that our techniques allow to significantly narrow down the field of possible election winners, and in some case identify the winner as soon as election night despite a number of yet-unaccounted absentee ballots, providing more transparency in the electoral process.
+DO  - 10.1609/hcomp.v10i1.21992
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/21992
+KW  - Ranked Choice Voting; Elections; Transparency
+N1  - source=hcomp_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - hcomp2022-hcomp-v10i1-21992
+ER  - 
+
+TY  - CONF
+TI  - Connecting Algorithmic Research and Usage Contexts: A Perspective of Contextualized Evaluation for Explainable AI
+AU  - Liao, Q. Vera
+AU  - Zhang, Yunfeng
+AU  - Luss, Ronny
+AU  - Doshi-Velez, Finale
+AU  - Dhurandhar, Amit
+PY  - 2022
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Recent years have seen a surge of interest in the field of explainable AI (XAI), with a plethora of algorithms proposed in the literature. However, a lack of consensus on how to evaluate XAI hinders the advancement of the field. We highlight that XAI is not a monolithic set of technologies---researchers and practitioners have begun to leverage XAI algorithms to build XAI systems that serve different usage contexts, such as model debugging and decision-support. Algorithmic research of XAI, however, often does not account for these diverse downstream usage contexts, resulting in limited effectiveness or even unintended consequences for actual users, as well as difficulties for practitioners to make technical choices. We argue that one way to close the gap is to develop evaluation methods that account for different user requirements in these usage contexts. Towards this goal, we introduce a perspective of contextualized XAI evaluation by considering the relative importance of XAI evaluation criteria for prototypical usage contexts of XAI. To explore the context dependency of XAI evaluation criteria, we conduct two survey studies, one with XAI topical experts and another with crowd workers. Our results urge for responsible AI research with usage-informed evaluation practices, and provide a nuanced understanding of user requirements for XAI in different usage contexts.
+DO  - 10.1609/hcomp.v10i1.21995
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/21995
+KW  - Explainable AI; Evaluation; Responsible AI
+N1  - source=hcomp_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - hcomp2022-hcomp-v10i1-21995
+ER  - 
+
+TY  - CONF
+TI  - A Human-Centric Perspective on Model Monitoring
+AU  - Shergadwala, Murtuza N
+AU  - Lakkaraju, Himabindu
+AU  - Kenthapadi, Krishnaram
+PY  - 2022
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Predictive models are increasingly used to make various consequential decisions in high-stakes domains such as healthcare, finance, and policy. It becomes critical to ensure that these models make accurate predictions, are robust to shifts in the data, do not rely on spurious features, and do not unduly discriminate against minority groups. To this end, several approaches spanning various areas such as explainability, fairness, and robustness have been proposed in recent literature. Such approaches need to be human-centered as they cater to the understanding of the models to their users. However, there is little to no research on understanding the needs and challenges in monitoring deployed machine learning (ML) models from a human-centric perspective. To address this gap, we conducted semi-structured interviews with 13 practitioners who are experienced with deploying ML models and engaging with customers spanning domains such as financial services, healthcare, hiring, online retail, computational advertising, and conversational assistants. We identified various human-centric challenges and requirements for model monitoring in real-world applications. Specifically, we found that relevant stakeholders would want model monitoring systems to provide clear, unambiguous, and easy-to-understand insights that are readily actionable. Furthermore, our study also revealed that stakeholders desire customization of model monitoring systems to cater to domain-specific use cases.
+DO  - 10.1609/hcomp.v10i1.21997
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/21997
+KW  - Model Monitoring; Dataset Shift; Fairness Monitoring; Explainability
+N1  - source=hcomp_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - hcomp2022-hcomp-v10i1-21997
+ER  - 
+
+TY  - CONF
+TI  - HSI: Human Saliency Imitator for Benchmarking Saliency-Based Model Explanations
+AU  - Yang, Yi
+AU  - Zheng, Yueyuan
+AU  - Deng, Didan
+AU  - Zhang, Jindi
+AU  - Huang, Yongxiang
+AU  - Yang, Yumeng
+AU  - Hsiao, Janet H.
+AU  - Cao, Caleb Chen
+PY  - 2022
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Model explanations are generated by XAI (explainable AI) methods to help people understand and interpret machine learning models. To study XAI methods from the human perspective, we propose a human-based benchmark dataset, i.e., human saliency benchmark (HSB), for evaluating saliency-based XAI methods. Different from existing human saliency annotations where class-related features are manually and subjectively labeled, this benchmark collects more objective human attention on vision information with a precise eye-tracking device and a novel crowdsourcing experiment. Taking the labor cost of human experiment into consideration, we further explore the potential of utilizing a prediction model trained on HSB to mimic saliency annotating by humans. Hence, a dense prediction problem is formulated, and we propose an encoder-decoder architecture which combines multi-modal and multi-scale features to produce the human saliency maps. Accordingly, a pretraining-finetuning method is designed to address the model training problem. Finally, we arrive at a model trained on HSB named human saliency imitator (HSI). We show, through an extensive evaluation, that HSI can successfully predict human saliency on our HSB dataset, and the HSI-generated human saliency dataset on ImageNet showcases the ability of benchmarking XAI methods both qualitatively and quantitatively.
+DO  - 10.1609/hcomp.v10i1.22002
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/22002
+KW  - Explainable AI; XAI Evaluation; Benchmarking; Human Saliency; Crowdsourcing
+N1  - source=hcomp_2022.bib; retained_by=preservation; terms=preservation:annotator effects; schema=v1.8
+AN  - hcomp2022-hcomp-v10i1-22002
+ER  - 
+

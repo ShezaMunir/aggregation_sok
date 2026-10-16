@@ -1,0 +1,92 @@
+TY  - CONF
+TI  - Epistemic vs. Counterfactual Fairness in Allocation of Resources
+AU  - Hosseini, Hadi
+AU  - Kavner, Joshua
+AU  - Sikdar, Sujoy
+AU  - Vaish, Rohit
+AU  - Xia, Lirong
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Resource allocation is fundamental to a variety of societal decision-making settings, ranging from the distribution of charitable donations to assigning limited public housing among interested families. A central challenge in this context is ensuring fair outcomes, which often requires balancing conflicting preferences of various stakeholders. While extensive research has been conducted on theoretical and algorithmic solutions within the fair division framework, much of this work neglects the subjective perception of fairness by individuals. This study focuses on the fairness notion of envy-freeness (EF), which ensures that no agent prefers the allocation of another agent according to their own preferences. While the existence of exact EF allocations may not always be feasible, various approximate relaxations, such as counterfactual and epistemic EF, have been proposed. Through a series of experiments with human participants, we compare perceptions of fairness between three widely studied counterfactual and epistemic relaxations of EF. Our findings indicate that allocations based on epistemic EF are perceived as fairer than those based on counterfactual relaxations. Additionally, we examine a variety of factors, including scale, balance of outcomes, and cognitive effort involved in evaluating fairness and their role in the complexity of reasoning across treatments.
+DO  - 10.1145/3757887.3763009
+UR  - https://doi.org/10.1145/3757887.3763009
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - eaamo2025-3757887-3763009
+ER  - 
+
+TY  - CONF
+TI  - FairWAG: Fairness-aware Weighted Aggregation for Graph Learning in a Federated Setting
+AU  - Lo, Kuan-Chieh
+AU  - He, Yuntian
+AU  - Jiang, Yuze
+AU  - Parthasarathy, Srinivasan
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Graph representation learning has revolutionized the modeling of complex relationships in networked data. While federated graph learning (FGL) enables privacy-preserving collaborative training across multiple clients, ensuring demographic fairness becomes challenging with heterogeneously distributed sensitive data. We identify that existing bias mitigation algorithms in federated learning struggle to maintain fairness when client data exhibits a high demographic skew. To address this, we introduce FairWAG (Fairness-aware Weighted Aggregation for Graphs). This novel federated framework preserves demographic fairness in graph representation learning across varying bias levels. Our approach leverages a core idea from cooperative game theory (Shapley Values) to quantify client models’ contributions to performance and fairness, enabling adaptive aggregation weights. Additionally, we measure model neuron sensitivities to class labels and sensitive attributes, allowing for fine-grained aggregation that further optimizes the performance-fairness trade-off. The experimental results demonstrate that our framework achieves superior performance-fairness trade-offs compared to existing algorithms across different scenarios.
+DO  - 10.1145/3757887.3763013
+UR  - https://doi.org/10.1145/3757887.3763013
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:federated aggregation; tier2:weighting; schema=v1.8
+AN  - eaamo2025-3757887-3763013
+ER  - 
+
+TY  - CONF
+TI  - Direct Alignment with Heterogeneous Preferences
+AU  - Shirali, Ali
+AU  - Nasr-Esfahany, Arash
+AU  - Alomar, Abdullah Omar
+AU  - Mirtaheri, Parsa
+AU  - Abebe, Rediet
+AU  - Procaccia, Ariel D.
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Alignment with human preferences is commonly framed using a universal reward function, even though human preferences are inherently heterogeneous. We formalize this heterogeneity by introducing user types and examine the limits of the homogeneity assumption. We show that aligning to heterogeneous preferences with a single policy is best achieved using the average reward across user types. However, this requires additional information about annotators. We examine improvements under different information settings, focusing on direct alignment methods. We find that minimal information can yield first-order improvements, while full feedback from each user type leads to consistent learning of the optimal policy. Surprisingly, however, no sample-efficient consistent direct loss exists in this latter setting. These results reveal a fundamental tension between consistency and sample efficiency in direct policy alignment.
+DO  - 10.1145/3757887.3767678
+UR  - https://doi.org/10.1145/3757887.3767678
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:alignment; schema=v1.8
+AN  - eaamo2025-3757887-3767678
+ER  - 
+
+TY  - CONF
+TI  - Africa Health Check: Probing Cultural Bias in Medical LLMs
+AU  - Nimo, Charles
+AU  - Essa, Irfan
+AU  - Best, Michael
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Large language models (LLMs) are increasingly deployed in global healthcare, yet their outputs often reflect Western-centric training data and omit indigenous medical systems and region-specific treatments. This study investigates cultural bias in instruction-tuned medical LLMs using a curated dataset of African traditional herbal medicine. We evaluate model behavior across two complementary tasks, namely, multiple-choice questions and fill-in-the-blank completions, designed to capture both treatment preferences and responsiveness to cultural context. To quantify outcome preferences and prompt influences, we apply two complementary metrics: Cultural Bias Score (CBS) and Cultural Bias Attribution (CBA). Our results show that while prompt adaptation can reduce inherent bias and enhance cultural alignment, models vary in how responsive they are to contextual guidance. Persistent default to allopathic1 (Western) treatments in zero-shot scenarios suggest that many biases remain embedded in model training. These findings underscore the need for culturally informed evaluation strategies to guide the development of AI systems that equitably serve diverse global health contexts. By releasing our dataset and providing a dual-metric evaluation approach, we offer practical tools for developing more culturally aware and clinically grounded AI systems for healthcare settings in the Global South.
+DO  - 10.1145/3757887.3767687
+UR  - https://doi.org/10.1145/3757887.3767687
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:pluralistic alignment; schema=v1.8
+AN  - eaamo2025-3757887-3767687
+ER  - 
+
+TY  - CONF
+TI  - Human-AI Collaboration with Misaligned Preferences
+AU  - Song, Jiaxin
+AU  - Shahkar, Parnian
+AU  - Donahue, Kate
+AU  - Chaudhury, Bhaskar Ray
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In many real-life settings, algorithms play the role of assistants, while humans ultimately make the final decision. Often, algorithms specifically act as curators, narrowing down a wide range of options into a smaller subset that the human picks between: consider content recommendation or chatbot responses to questions with multiple valid answers. Crucially, humans may not know their own preferences perfectly either, but instead may only have access to a noisy sampling over preferences. Algorithms can assist humans by curating a smaller subset of items, but must also face the challenge of misalignment: humans may have different preferences from each other (and from the algorithm), and the algorithm may not know the exact preferences of the human they are facing at any point in time. In this paper, we model and theoretically study such a setting. Specifically, we show instances where humans benefit by collaborating with a misaligned algorithm. Surprisingly, we show that humans gain more utility from a misaligned algorithm (which makes different mistakes) than from an aligned algorithm. Next, we build on this result by studying what properties of algorithms maximize human welfare when the goals could be either utilitarian welfare or ensuring all humans benefit. We conclude by discussing implications for designers of algorithmic tools and policymakers.
+DO  - 10.1145/3757887.3767691
+UR  - https://doi.org/10.1145/3757887.3767691
+N1  - source=eaamo_2025.bib; retained_by=welfare; terms=welfare:utilitarian aggregation; tier2:welfare; schema=v1.8
+AN  - eaamo2025-3757887-3767691
+ER  - 
+
+TY  - CONF
+TI  - Battery Operations in Electricity Markets: Strategic Behavior and Distortions
+AU  - Anunrojwong, Jerry
+AU  - Balseiro, Santiago R.
+AU  - Besbes, Omar
+AU  - Xu, Bolun
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Electric power systems are undergoing a major transformation as they integrate intermittent renewable energy sources, and batteries to smooth out variations in renewable energy production. As privately-owned batteries grow from their role as marginal "price-takers" to significant players in the market, a natural question arises: How do batteries operate in electricity markets, and how does the strategic behavior of decentralized batteries distort decisions compared to centralized batteries? We propose an analytically tractable model that captures salient features of the highly complex electricity market. We derive in closed form the resulting battery behavior and generation cost in three operating regimes: (i) no battery, (ii) centralized battery, and (ii) decentralized profit-maximizing battery. We establish that a decentralized battery distorts its discharge decisions in three ways. First, there is quantity withholding, i.e., discharging less than centrally optimal. Second, there is a shift in participation from day-ahead to real-time, i.e., postponing some of its discharge from day-ahead to real-time. Third, there is reduction in real-time responsiveness, or discharging less in response to smoothing real-time demand than centrally optimal. We also quantify the impact of the battery market power on total system cost via the Price of Anarchy metric, and prove that it is always between 9/8 and 4/3. That is, incentive misalignment always exists, but it is bounded even in the worst case. We calibrate our model to real data from Los Angeles and Houston. Lastly, we show that competition is very effective at reducing distortions, but many market power mitigation mechanisms backfire, and lead to higher total cost. The work provides stakeholders with a framework to understand and detect market power from batteries. It also shows that the potential loss from battery market power is relatively small compared to the cost reduction achievable from having enough battery capacity in the system.
+DO  - 10.1145/3757887.3767692
+UR  - https://doi.org/10.1145/3757887.3767692
+N1  - source=eaamo_2025.bib; retained_by=tier2+anchor; terms=tier2:manipulation; schema=v1.8
+AN  - eaamo2025-3757887-3767692
+ER  - 
+

@@ -1,0 +1,1100 @@
+TY  - CONF
+TI  - Towards Unbiased and Accurate Deferral to Multiple Experts
+AU  - Keswani, Vijay
+AU  - Lease, Matthew
+AU  - Kenthapadi, Krishnaram
+PY  - 2021
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Machine learning models are often implemented in cohort with humans in the pipeline, with the model having an option to defer to a domain expert in cases where it has low confidence in its inference. Our goal is to design mechanisms for ensuring accuracy and fairness in such prediction systems that combine machine learning model inferences and domain expert predictions. Prior work on "deferral systems" in classification settings has focused on the setting of a pipeline with a single expert and aimed to accommodate the inaccuracies and biases of this expert to simultaneously learn an inference model and a deferral system. Our work extends this framework to settings where multiple experts are available, with each expert having their own domain of expertise and biases. We propose a framework that simultaneously learns a classifier and a deferral system, with the deferral system choosing to defer to one or more human experts in cases of input where the classifier has low confidence. We test our framework on a synthetic dataset and a content moderation dataset with biased synthetic experts, and show that it significantly improves the accuracy and fairness of the final predictions, compared to the baselines. We also collect crowdsourced labels for the content moderation task to construct a real-world dataset for the evaluation of hybrid machine-human frameworks and show that our proposed framework outperforms baselines on this real-world dataset as well.
+DO  - 10.1145/3461702.3462516
+UR  - https://doi.org/10.1145/3461702.3462516
+N1  - source=aies_2021.bib; retained_by=tier2+anchor; terms=tier2:routing; tier2:crowd; schema=v1.8
+AN  - aies2021-3461702-3462516
+ER  - 
+
+TY  - CONF
+TI  - AI Alignment and Human Reward
+AU  - Butlin, Patrick
+PY  - 2021
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - According to a prominent approach to AI alignment, AI agents should be built to learn and promote human values. However, humans value things in several different ways: we have desires and preferences of various kinds, and if we engage in reinforcement learning, we also have reward functions. One research project to which this approach gives rise is therefore to say which of these various classes of human values should be promoted. This paper takes on part of this project by assessing the proposal that human reward functions should be the target for AI alignment. There is some reason to believe that powerful AI agents which were aligned to values of this form would help us to lead good lives, but there is also considerable uncertainty about this claim, arising from unresolved empirical and conceptual issues in human psychology.
+DO  - 10.1145/3461702.3462570
+UR  - https://doi.org/10.1145/3461702.3462570
+N1  - source=aies_2021.bib; retained_by=tier2+anchor; terms=tier2:ai alignment; schema=v1.8
+AN  - aies2021-3461702-3462570
+ER  - 
+
+TY  - CONF
+TI  - FINS Auditing Framework
+AU  - Cachel, Kathleen
+AU  - Rundensteiner, Elke
+PY  - 2022
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Subset selection is an integral component of AI systems that is increasingly affecting people's livelihoods in applications ranging from hiring, healthcare, education, to financial decisions. Subset selections powered by AI-based methods include top-k analytics, data summarization, clustering, and multi-winner voting. While group fairness auditing tools have been proposed for classification systems, these state-of-the-art tools are not directly applicable to measuring and conceptualizing fairness in selected subsets. In this work, we introduce the first comprehensive auditing framework, FINS, to support stakeholders in interpretably quantifying group fairness across a diverse range of subset-specific fairness concerns. FINS offers a family of novel measures that provide a flexible means to audit group fairness for fairness goals ranging from item-based, score-based, and a combination thereof. FINS provides one unified easy-to-understand interpretation across these different fairness problems. Further, we develop guidelines through the FINS Fair Subset Chart, that supports auditors in determining which measures are relevant to their problem context and fairness objectives. We provide a comprehensive mapping between each fairness measure and the belief system (i.e., worldview) that is encoded within its measurement of fairness. Lastly, we demonstrate the interpretability and efficacy of FINS in supporting the identification of real bias with case studies using AirBnB listings and voter records.
+DO  - 10.1145/3514094.3534160
+UR  - https://doi.org/10.1145/3514094.3534160
+N1  - source=aies_2022.bib; retained_by=tier1; terms=tier1:committee selection; tier2:collective; schema=v1.8
+AN  - aies2022-3514094-3534160
+ER  - 
+
+TY  - CONF
+TI  - From Coded Bias to Existential Threat
+AU  - Schopmans, Hendrik R.
+PY  - 2022
+T2  - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - While the knowledge produced by experts has been widely recognized to play a salient role in shaping policy on technological issues, the interaction between AI expertise and the evolving AI governance landscape has received little attention thus far. To address this gap, the present paper leverages insights from STS and International Relations to explore how different expert communities have constructed AI as a governance problem. More specifically, it presents the preliminary results of a qualitative frame analysis of 90 policy documents published by experts from industry, civil society, and the research community. The analysis finds that AI expertise is a highly contested field, as experts not only disagree on why AI is problematic and what policies are required, but, more fundamentally, about which artifacts, ideas, and practices make up AI in the first place. The paper proposes that the epistemic disagreements concerning AI have political consequences, as they engender protracted ontological politics that jeopardize the development of effective governance interventions. Against this background, the findings raise critical questions about the prevailing tendency of governance interventions to target the elusive and contested object 'artificial intelligence.'
+DO  - 10.1145/3514094.3534161
+UR  - https://doi.org/10.1145/3514094.3534161
+N1  - source=aies_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2022-3514094-3534161
+ER  - 
+
+TY  - CONF
+TI  - Reclaiming the Digital Commons: A Public Data Trust for Training Data
+AU  - Chan, Alan
+AU  - Bradley, Herbie
+AU  - Rajkumar, Nitarshan
+PY  - 2023
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Democratization of AI means not only that people can freely use AI, but also that people can collectively decide how AI is to be used. In particular, collective decision-making power is required to redress the negative externalities from the development of increasingly advanced AI systems, including degradation of the digital commons and unemployment from automation. The rapid pace of AI development and deployment currently leaves little room for this power. Monopolized in the hands of private corporations, the development of the most capable foundation models has proceeded largely without public input. There is currently no implemented mechanism for ensuring that the economic value generated by such models is redistributed to account for their negative externalities. The citizens that have generated the data necessary to train models do not have input on how their data are to be used. In this work, we propose that a public data trust assert control over training data for foundation models. In particular, this trust should scrape the internet as a digital commons, to license to commercial model developers for a percentage cut of revenues from deployment. First, we argue in detail for the existence of such a trust. We also discuss feasibility and potential risks. Second, we detail a number of ways for a data trust to incentivize model developers to use training data only from the trust. We propose a mix of verification mechanisms, potential regulatory action, and positive incentives. We conclude by highlighting other potential benefits of our proposed data trust and connecting our work to ongoing efforts in data and compute governance.
+DO  - 10.1145/3600211.3604658
+UR  - https://doi.org/10.1145/3600211.3604658
+N1  - source=aies_2023.bib; retained_by=tier1; terms=tier1:collective decision; tier2:collective; schema=v1.8
+AN  - aies2023-3600211-3604658
+ER  - 
+
+TY  - CONF
+TI  - Mitigating Voter Attribute Bias for Fair Opinion Aggregation
+AU  - Ueda, Ryosuke
+AU  - Takeuchi, Koh
+AU  - Kashima, Hisashi
+PY  - 2023
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - The aggregation of multiple opinions plays a crucial role in decision-making, such as in hiring and loan review, and in labeling data for supervised learning. Although majority voting and existing opinion aggregation models are effective for simple tasks, they are inappropriate for tasks without objectively true labels in which disagreements may occur. In particular, when voter attributes such as gender or race introduce bias into opinions, the aggregation results may vary depending on the composition of voter attributes. A balanced group of voters is desirable for fair aggregation results but may be difficult to prepare. In this study, we consider methods to achieve fair opinion aggregation based on voter attributes and evaluate the fairness of the aggregated results.
+DO  - 10.1145/3600211.3604660
+UR  - https://doi.org/10.1145/3600211.3604660
+N1  - source=aies_2023.bib; retained_by=tier2+anchor; terms=tier2:agreement; tier2:fairness; tier2:collective; schema=v1.8
+AN  - aies2023-3600211-3604660
+ER  - 
+
+TY  - CONF
+TI  - Analysis of Climate Campaigns on Social Media using Bayesian Model Averaging
+AU  - Islam, Tunazzina
+AU  - Zhang, Ruqi
+AU  - Goldwasser, Dan
+PY  - 2023
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Climate change is the defining issue of our time, and we are at a defining moment. Various interest groups, social movement organizations, and individuals engage in collective action on this issue on social media. In addition, issue advocacy campaigns on social media often arise in response to ongoing societal concerns, especially those faced by energy industries. Our goal in this paper is to analyze how those industries, their advocacy group, and climate advocacy group use social media to influence the narrative on climate change. In this work, we propose a minimally supervised model soup [57] approach combined with messaging themes to identify the stances of climate ads on Facebook. Finally, we release our stance dataset, model, and set of themes related to climate campaigns for future work on opinion mining and the automatic detection of climate change stances.
+DO  - 10.1145/3600211.3604665
+UR  - https://doi.org/10.1145/3600211.3604665
+N1  - source=aies_2023.bib; retained_by=tier1; terms=tier1:model merging; tier2:collective; schema=v1.8
+AN  - aies2023-3600211-3604665
+ER  - 
+
+TY  - CONF
+TI  - How does Value Similarity affect Human Reliance in AI-Assisted Ethical Decision Making?
+AU  - Narayanan, Saumik
+AU  - Yu, Guanghui
+AU  - Ho, Chien-Ju
+AU  - Yin, Ming
+PY  - 2023
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - This paper explores the impact of value similarity between humans and AI on human reliance in the context of AI-assisted ethical decision-making. Using kidney allocation as a case study, we conducted a randomized human-subject experiment where workers were presented with ethical dilemmas in various conditions, including no AI recommendations, recommendations from a similar AI, and recommendations from a dissimilar AI. We found that recommendations provided by a dissimilar AI had a higher overall effect on human decisions than recommendations from a similar AI. However, when humans and AI disagreed, participants were more likely to change their decisions when provided with recommendations from a similar AI. The effect was not due to humans’ perceptions of the AI being similar, but rather due to the AI displaying similar ethical values through its recommendations. We also conduct a preliminary analysis on the relationship between value similarity and trust, and potential shifts in ethical preferences at the population-level.
+DO  - 10.1145/3600211.3604709
+UR  - https://doi.org/10.1145/3600211.3604709
+N1  - source=aies_2023.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2023-3600211-3604709
+ER  - 
+
+TY  - CONF
+TI  - Ethical Principles for Reasoning about Value Preferences
+AU  - Woodgate, Jessica
+PY  - 2023
+T2  - Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - To ensure alignment with human interests, AI must consider the preferences of stakeholders, which includes reasoning about values and norms. However, stakeholders may have different preferences, and dilemmas can arise concerning conflicting values or norms. My work applies normative ethical principles to resolve dilemma scenarios in satisfactory ways that promote fairness.
+DO  - 10.1145/3600211.3604728
+UR  - https://doi.org/10.1145/3600211.3604728
+N1  - source=aies_2023.bib; retained_by=tier1; terms=tier1:multi-stakeholder; schema=v1.8
+AN  - aies2023-3600211-3604728
+ER  - 
+
+TY  - CONF
+TI  - Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF
+AU  - Arzberger, Anne
+AU  - Buijsman, Stefan
+AU  - Lupetti, Maria Luce
+AU  - Bozzon, Alessandro
+AU  - Yang, Jie
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Work on value alignment aims to ensure that human values are respected by AI systems. However, existing approaches tend to rely on universal framings of human values that obscure the question of which values the systems should capture and align with, given the variety of operational situations. This often results in AI systems that privilege only a selected few while perpetuating problematic norms grounded on biases, ultimately causing equity and justice issues. In this perspective paper, we unpack the limitations of predominant alignment practices of reinforcement learning from human feedback (RLHF) for LLMs through the lens of situated values. We build on feminist epistemology to argue that at the design-time, RLHF has problems with representation in the subjects providing feedback and implicitness in the conceptualization of values and situations of real-world users while lacking system adaptation to real user situations at the use time. To address these shortcomings, we propose three research directions: 1) situated annotation to capture information about the crowdworker’s and user’s values and judgments in relation to specific situations at both the design and use-time, 2) expressive instruction to encode plural values for instructing LLMs systems at design-time, and 3) reflexive adaptation to leverage situational knowledge for system adaption at use-time. We conclude by reflecting on the practical challenges of pursuing these research directions and situated value alignment of AI more broadly.
+DO  - 10.1609/aies.v7i1.31617
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31617
+N1  - source=aies_2024.bib; retained_by=tier2+anchor; terms=tier2:ai alignment; schema=v1.8
+AN  - aies2024-aies-v7i1-31617
+ER  - 
+
+TY  - CONF
+TI  - Unsocial Intelligence: An Investigation of the Assumptions of AGI Discourse
+AU  - Blili-Hamelin, Borhane
+AU  - Hancox-Li, Leif
+AU  - Smart, Andrew
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Dreams of machines rivaling human intelligence have shaped the field of AI since its inception. Yet, the very meaning of human-level AI or artificial general intelligence (AGI) remains elusive and contested. Definitions of AGI embrace a diverse range of incompatible values and assumptions. Contending with the fractured worldviews of AGI discourse is vital for critiques that pursue different values and futures. To that end, we provide a taxonomy of AGI definitions, laying the ground for examining the key social, political, and ethical assumptions they make. We highlight instances in which these definitions frame AGI or human-level AI as a technical topic and expose the value-laden choices being implicitly made. Drawing on feminist, STS, and social science scholarship on the political and social character of intelligence in both humans and machines, we propose contextual, democratic, and participatory paths to imagining future forms of machine intelligence. The development of future forms of AI must involve explicit attention to the values it encodes, the people it includes or excludes, and a commitment to epistemic justice.
+DO  - 10.1609/aies.v7i1.31625
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31625
+N1  - source=aies_2024.bib; retained_by=preservation; terms=preservation:epistemic plurality; schema=v1.8
+AN  - aies2024-aies-v7i1-31625
+ER  - 
+
+TY  - CONF
+TI  - Why Am I Still Seeing This: Measuring the Effectiveness of Ad Controls and Explanations in AI-Mediated Ad Targeting Systems
+AU  - Castleman, Jane
+AU  - Korolova, Aleksandra
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Recently, Meta has shifted towards AI-mediated ad targeting mechanisms that do not require advertisers to provide detailed targeting criteria. The shift is likely driven by excitement over AI capabilities as well as the need to address new data privacy policies and targeting changes agreed upon in civil rights settlements. At the same time, in response to growing public concern about the harms of targeted advertising, Meta has touted their ad preference controls as an effective mechanism for users to exert control over the advertising they see. Furthermore, Meta markets their "Why this ad" targeting explanation as a transparency tool that allows users to understand the reasons for seeing particular ads and inform their actions to control what ads they see in the future. Our study evaluates the effectiveness of Meta's "See less" ad control, as well as the actionability of ad targeting explanations following the shift to AI-mediated targeting. We conduct a large-scale study, randomly assigning participants the intervention of marking "See less" to either Body Weight Control or Parenting topics, and collecting the ads Meta shows to participants and their targeting explanations before and after the intervention. We find that utilizing the "See less" ad control for the topics we study does not significantly reduce the number of ads shown by Meta on these topics, and that the control is less effective for some users whose demographics are correlated with the topic. Furthermore, we find that the majority of ad targeting explanations for local ads made no reference to location-specific targeting criteria, and did not inform users why ads related to the topics they requested to "See less" of continued to be delivered. We hypothesize that the poor effectiveness of controls and lack of actionability and comprehensiveness in explanations are the result of the shift to AI-mediated targeting, for which explainability and transparency tools have not yet been developed by Meta. Our work thus provides evidence for the need of new methods for transparency and user control, suitable and reflective of how the increasingly complex and AI-mediated ad delivery systems operate.
+DO  - 10.1609/aies.v7i1.31634
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31634
+N1  - source=aies_2024.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2024-aies-v7i1-31634
+ER  - 
+
+TY  - CONF
+TI  - “I Don’t See Myself Represented Here at All”: User Experiences of Stable Diffusion Outputs Containing Representational Harms across Gender Identities and Nationalities
+AU  - Ghosh, Sourojit
+AU  - Lutz, Nina
+AU  - Caliskan, Aylin
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Though research into text-to-image generators (T2Is) such as Stable Diffusion has demonstrated their amplification of societal biases and potentials to cause harm, such research has primarily relied on computational methods instead of seeking information from real users who experience harm, which is a significant knowledge gap. In this paper, we conduct the largest human subjects study of Stable Diffusion, with a combination of crowdsourced data from 133 crowdworkers and 14 semi-structured interviews across diverse countries and genders. Through a mixed-methods approach of intra-set cosine similarity hierarchies (i.e., comparing multiple Stable Diffusion outputs for the same prompt with each other to examine which result is `closest' to the prompt) and qualitative thematic analysis, we first demonstrate a large disconnect between user expectations for Stable Diffusion outputs with those generated, evidenced by a set of Stable Diffusion renditions of `a Person' providing images far away from such expectations. We then extend this finding of general dissatisfaction into highlighting representational harms caused by Stable Diffusion upon our subjects, especially those with traditionally marginalized identities, subjecting them to incorrect and often dehumanizing stereotypes about their identities. We provide recommendations for a harm-aware approach to (re)design future versions of Stable Diffusion and other T2Is.
+DO  - 10.1609/aies.v7i1.31650
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31650
+N1  - source=aies_2024.bib; retained_by=tier2+anchor; terms=tier2:crowd; schema=v1.8
+AN  - aies2024-aies-v7i1-31650
+ER  - 
+
+TY  - CONF
+TI  - Observing Context Improves Disparity Estimation when Race is Unobserved
+AU  - Kwegyir-Aggrey, Kweku
+AU  - Durvasula, Naveen
+AU  - Wang, Jennifer
+AU  - Venkatasubramanian, Suresh
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - In many domains, it is difficult to obtain the race data that is required to estimate racial disparity. To address this problem, practitioners have adopted the use of proxy methods which predict race using non-protected covariates. However, these proxies often yield biased estimates, especially for minority groups, limiting their real-world utility. In this paper, we introduce two new contextual proxy models that advance existing methods by incorporating contextual features in order to improve race estimates. We show that these algorithms demonstrate significant performance improvements in estimating disparities, on real-world home loan and voter data. We establish that achieving unbiased disparity estimates with contextual proxies relies on mean-consistency, a calibration-like condition.
+DO  - 10.1609/aies.v7i1.31680
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31680
+N1  - source=aies_2024.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - aies2024-aies-v7i1-31680
+ER  - 
+
+TY  - CONF
+TI  - Human vs. Machine: Behavioral Differences between Expert Humans and Language Models in Wargame Simulations
+AU  - Lamparth, Max
+AU  - Corso, Anthony
+AU  - Ganz, Jacob
+AU  - Mastro, Oriana Skylar
+AU  - Schneider, Jacquelyn
+AU  - Trinkunas, Harold
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - To some, the advent of artificial intelligence (AI) promises better decision-making and increased military effectiveness while reducing the influence of human error and emotions. However, there is still debate about how AI systems, especially large language models (LLMs) that can be applied to many tasks, behave compared to humans in high-stakes military decision-making scenarios with the potential for increased risks towards escalation and unnecessary conflicts. To test this potential and scrutinize the use of LLMs for such purposes, we use a new wargame experiment with 107 national security experts designed to examine crisis escalation in a fictional US-China scenario and compare the behavior of human player teams to LLM-simulated team responses in separate simulations. Wargames have a long history in the development of military strategy and the response of nations to threats or attacks. Here, we find that the LLM-simulated responses can be more aggressive and significantly affected by changes in the scenario. We show a considerable high-level agreement in the LLM and human responses and significant quantitative and qualitative differences in individual actions and strategic tendencies. These differences depend on intrinsic biases in LLMs regarding the appropriate level of violence following strategic instructions, the choice of LLM, and whether the LLMs are tasked to decide for a team of players directly or first to simulate dialog between a team of players. When simulating the dialog, the discussions lack quality and maintain a farcical harmony. The LLM simulations cannot account for human player characteristics, showing no significant difference even for extreme traits, such as “pacifist” or “aggressive sociopath.” When probing behavioral consistency across individual moves of the simulation, the tested LLMs deviated from each other but generally showed somewhat consistent behavior. Our results motivate policymakers to be cautious before granting autonomy or following AI-based strategy recommendations.
+DO  - 10.1609/aies.v7i1.31681
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31681
+N1  - source=aies_2024.bib; retained_by=tier2+anchor; terms=tier2:routing; schema=v1.8
+AN  - aies2024-aies-v7i1-31681
+ER  - 
+
+TY  - CONF
+TI  - CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models
+AU  - Pistilli, Giada
+AU  - Leidinger, Alina
+AU  - Jernite, Yacine
+AU  - Kasirzadeh, Atoosa
+AU  - Luccioni, Alexandra Sasha
+AU  - Mitchell, Margaret
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - This paper introduces the "CIVICS: Culturally-Informed \& Values-Inclusive Corpus for Societal impacts" dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) towards socially sensitive topics across multiple languages and cultures. The hand-crafted, multilingual dataset of statements addresses value-laden topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy. CIVICS is designed to elicit responses from LLMs to shed light on how values encoded in their parameters shape their behaviors. Through our dynamic annotation processes, tailored prompt design, and experiments, we investigate how open-weight LLMs respond to these issues, exploring their behavior across diverse linguistic and cultural contexts. Using two experimental set-ups based on log-probabilities and long-form responses, we show social and cultural variability across different LLMs. Specifically, different topics and sources lead to more pronounced differences across model answers, particularly on immigration, LGBTQI rights, and social welfare. Experiments on generating long-form responses from models tuned for user chat demonstrate that refusals are triggered disparately across different models, but consistently and more frequently in English or translated statements. As shown by our initial experimentation, the CIVICS dataset can serve as a tool for future research, promoting reproducibility and transparency across broader linguistic settings, and furthering the development of AI technologies that respect and reflect global cultural diversities and value pluralism. The CIVICS dataset and tools are made available under open licenses at hf.co/CIVICS-dataset.
+DO  - 10.1609/aies.v7i1.31710
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31710
+N1  - source=aies_2024.bib; retained_by=preservation; terms=preservation:epistemic plurality; preservation:pluralism; tier2:welfare; schema=v1.8
+AN  - aies2024-aies-v7i1-31710
+ER  - 
+
+TY  - CONF
+TI  - Learning When Not to Measure: Theorizing Ethical Alignment in LLMs
+AU  - Rathje, William
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - LLMs and other forms of generative AI have shown immense promise in producing highly accurate epistemic judgements in domains as varied as law, education, and medicine – with GPT notably passing the legal Bar exam and various medical licensing exams. The safe extension of LLMs into safety-critical professional domains requires assurance not only of epistemic but ethical alignment. This paper adopts a theoretical and philosophical approach, drawing from metaethical theories to argue for a distinction hinging around quantitative, axiological comparability that separates Kantian ethics from not only the utilitarianism it is well-known to oppose, but from just distribution theories as well, which are key to debiasing LLM models. It presents the novel hypothesis that LLM ethical acquisition from both corpus induction and RLHF may encounter value conflicts between Kantian and just distribution principles that intensify as they come into improved alignment with both theories, hinging around the variability by which self-attention may statistically attend to the same characterizations as more person-like or more resource-like under distinct prompting strategies.
+DO  - 10.1609/aies.v7i1.31716
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31716
+N1  - source=aies_2024.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - aies2024-aies-v7i1-31716
+ER  - 
+
+TY  - CONF
+TI  - Decoding Multilingual Moral Preferences: Unveiling LLM's Biases through the Moral Machine Experiment
+AU  - Vida, Karina
+AU  - Damken, Fabian
+AU  - Lauscher, Anne
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Large language models (LLMs) increasingly find their way into the most diverse areas of our everyday lives. They indirectly influence people's decisions or opinions through their daily use. Therefore, understanding how and which moral judgements these LLMs make is crucial. However, morality is not universal and depends on the cultural background. This raises the question of whether these cultural preferences are also reflected in LLMs when prompted in different languages or whether moral decision-making is consistent across different languages. So far, most research has focused on investigating the inherent values of LLMs in English. While a few works conduct multilingual analyses of moral bias in LLMs in a multilingual setting, these analyses do not go beyond atomic actions. To the best of our knowledge, a multilingual analysis of moral bias in dilemmas has not yet been conducted. To address this, our paper builds on the moral machine experiment (MME) to investigate the moral preferences of five LLMs, Falcon, Gemini, Llama, GPT, and MPT, in a multilingual setting and compares them with the preferences collected from humans belonging to different cultures. To accomplish this, we generate 6500 scenarios of the MME and prompt the models in ten languages on which action to take. Our analysis reveals that all LLMs inhibit different moral biases to some degree and that they not only differ from the human preferences but also across multiple languages within the models themselves. Moreover, we find that almost all models, particularly Llama 3, divert greatly from human values and, for instance, prefer saving fewer people over saving more.
+DO  - 10.1609/aies.v7i1.31741
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31741
+N1  - source=aies_2024.bib; retained_by=tier1; terms=tier1:alignment; schema=v1.8
+AN  - aies2024-aies-v7i1-31741
+ER  - 
+
+TY  - CONF
+TI  - Automate or Assist? The Role of Computational Models in Identifying Gendered Discourse in US Capital Trial Transcripts
+AU  - Wen-Yi, Andrea W
+AU  - Adamson, Kathryn
+AU  - Greenfield, Nathalie
+AU  - Goldberg, Rachel
+AU  - Babcock, Sandra
+AU  - Mimno, David
+AU  - Koenecke, Allison
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - The language used by US courtroom actors in criminal trials has long been studied for biases. However, systematic studies for bias in high-stakes court trials have been difficult, due to the nuanced nature of bias and the legal expertise required. Large language models offer the possibility to automate annotation. But validating the computational approach requires both an understanding of how automated methods fit in existing annotation workflows and what they really offer. We present a case study of adding a computational model to a complex and high-stakes problem: identifying gender-biased language in US capital trials for women defendants. Our team of experienced death-penalty lawyers and NLP technologists pursue a three-phase study: first annotating manually, then training and evaluating computational models, and finally comparing expert annotations to model predictions. Unlike many typical NLP tasks, annotating for gender bias in months-long capital trials is complicated, with many individual judgment calls. Contrary to standard arguments for automation that are based on efficiency and scalability, legal experts find the computational models most useful in providing opportunities to reflect on their own bias in annotation and to build consensus on annotation rules. This experience suggests that seeking to replace experts with computational models for complex annotation is both unrealistic and undesirable. Rather, computational models offer valuable opportunities to assist the legal experts in annotation-based studies.
+DO  - 10.1609/aies.v7i1.31746
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31746
+N1  - source=aies_2024.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2024-aies-v7i1-31746
+ER  - 
+
+TY  - CONF
+TI  - Non-linear Welfare-Aware Strategic Learning
+AU  - Xie, Tian
+AU  - Zhang, Xueru
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - This paper studies algorithmic decision-making in the presence of strategic individual behaviors, where an ML model is used to make decisions about human agents and the latter can adapt their behavior strategically to improve their future data. Existing results on strategic learning have largely focused on the linear setting where agents with linear labeling functions best respond to a (noisy) linear decision policy. Instead, this work focuses on general non-linear settings where agents respond to the decision policy with only "local information" of the policy. Moreover, we simultaneously consider objectives of maximizing decision-maker welfare (model prediction accuracy), social welfare (agent improvement caused by strategic behaviors), and agent welfare (the extent that ML underestimates the agents). We first generalize the agent best response model in previous works to the non-linear setting and then investigate the compatibility of welfare objectives. We show the three welfare can attain the optimum simultaneously only under restrictive conditions which are challenging to achieve in non-linear settings. The theoretical results imply that existing works solely maximizing the welfare of a subset of parties usually diminish the welfare of others. We thus claim the necessity of balancing the welfare of each party in non-linear settings and propose an irreducible optimization algorithm suitable for general strategic learning. Experiments on synthetic and real data validate the proposed algorithm.
+DO  - 10.1609/aies.v7i1.31755
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31755
+N1  - source=aies_2024.bib; retained_by=tier2+anchor; terms=tier2:welfare; tier2:manipulation; schema=v1.8
+AN  - aies2024-aies-v7i1-31755
+ER  - 
+
+TY  - CONF
+TI  - LLM Voting: Human Choices and AI Collective Decision-Making
+AU  - Yang, Joshua C.
+AU  - Dailisan, Damian
+AU  - Korecki, Marcin
+AU  - Hausladen, Carina I.
+AU  - Helbing, Dirk
+PY  - 2024
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - This paper investigates the voting behaviors of Large Language Models (LLMs), specifically GPT-4 and LLaMA-2, their biases, and how they align with human voting patterns. Our methodology involved using a dataset from a human voting experiment to establish a baseline for human preferences and conducting a corresponding experiment with LLM agents. We observed that the choice of voting methods and the presentation order influenced LLM voting outcomes. We found that varying the persona can reduce some of these biases and enhance alignment with human choices. While the Chain-of-Thought approach did not improve prediction accuracy, it has potential for AI explainability in the voting process. We also identified a trade-off between preference diversity and alignment accuracy in LLMs, influenced by different temperature settings. Our findings indicate that LLMs may lead to less diverse collective outcomes and biased assumptions when used in voting scenarios, emphasizing the need for cautious integration of LLMs into democratic processes.
+DO  - 10.1609/aies.v7i1.31758
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/31758
+N1  - source=aies_2024.bib; retained_by=tier1; terms=tier1:voting rule; tier1:collective decision; tier2:collective; schema=v1.8
+AN  - aies2024-aies-v7i1-31758
+ER  - 
+
+TY  - CONF
+TI  - Steerable Pluralism: Pluralistic Alignment via Few-Shot Comparative Regression
+AU  - Adams, Jadie
+AU  - Hu, Brian
+AU  - Veenhuis, Emily
+AU  - Joy, David
+AU  - Ravichandran, Bharadwaj
+AU  - Bray, Aaron
+AU  - Hoogs, Anthony
+AU  - Basharat, Arslan
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Large language models (LLMs) are currently aligned using techniques such as reinforcement learning from human feedback (RLHF). However, these methods use scalar rewards that can only reflect user preferences on average. Pluralistic alignment instead seeks to capture diverse user preferences across a set of attributes, moving beyond just helpfulness and harmlessness. Toward this end, we propose a steerable pluralistic model based on few-shot comparative regression that can adapt to individual user preferences. Our approach leverages in-context learning and reasoning, grounded in a set of fine-grained attributes, to compare response options and make aligned choices. To evaluate our algorithm, we also propose two new steerable pluralistic benchmarks by adapting the Moral Integrity Corpus (MIC) and the HelpSteer2 datasets, demonstrating the applicability of our approach to value-aligned decision-making and reward modeling, respectively. Our few-shot comparative regression approach is interpretable and compatible with different attributes and LLMs, while outperforming multiple baseline and state-of-the-art methods. Our work provides new insights and research directions in pluralistic alignment, enabling a more fair and representative use of LLMs and advancing the state-of-the-art in ethical AI.
+DO  - 10.1609/aies.v8i1.36527
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36527
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:alignment; preservation:pluralism; tier2:ai alignment; schema=v1.8
+AN  - aies2025-aies-v8i1-36527
+ER  - 
+
+TY  - CONF
+TI  - Exploring “Just Noticeable” Group Fairness in Rankings
+AU  - Alkhathlan, Mallak
+AU  - Shrestha, Hilson
+AU  - Harrison, Lane
+AU  - Rundensteiner, Elke
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - The plethora of fairness metrics developed for ranking-based decision-making raises the question which metrics align best with people’s perceptions of fairness, and why? Most prior studies examining people’s perceptions of fairness metrics tend to use ordinal rating scales (e.g., Likert scales). However, such scales can be ambiguous in their interpretation across participants and offer imprecise connections to specific interface features. We address this gap by adapting two-alternative forced choice methodologies—used extensively outside the fairness community for comparing visual stimuli—to quantitatively compare participant perceptions, fairness metrics, and ranking characteristics. We report a crowdsourced experiment with 224 participants across four conditions: two popular rank fairness metrics—ARP and NDKL—and two ranking characteristics—lists of 20 and 100 candidates—resulting in over 170,000 individual judgments. Our quantitative results show systematic patterns of differences in the metrics, as well as surprising exceptions where fairness metrics disagree with people’s perceptions. Our qualitative analysis reveals an interplay between cognitive and visual strategies that affects people’s perceptions of fairness. From these results, we discuss future work in aligning fairness metrics with people’s perceptions, and highlight the need and benefits of expanding methodologies for fairness studies.
+DO  - 10.1609/aies.v8i1.36532
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36532
+N1  - source=aies_2025.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2025-aies-v8i1-36532
+ER  - 
+
+TY  - CONF
+TI  - GermanPartiesQA: Benchmarking Commercial Large Language Models and AI Companions for Political Alignment and Sycophancy
+AU  - Batzner, Jan
+AU  - Stocker, Volker
+AU  - Schmid, Stefan
+AU  - Kasneci, Gjergji
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Large language models (LLMs) are increasingly shaping citizens’ information ecosystems. Products incorporating LLMs, such as chatbots and AI Companions, are now widely used for decision support and information retrieval, including in sensitive domains, raising concerns about hidden biases and growing potential to shape individual decisions and public opinion. This paper introduces GermanPartiesQA, a benchmark of 418 political statements from German Voting Advice Applications across 11 elections to evaluate six commercial LLMs. We evaluate their political alignment based on role-playing experiments with political personas. Our evaluation reveals three specific findings: (1) Factual limitations: LLMs show limited ability to accurately generate factual party positions, particularly for centrist parties. (2) Model-specific ideological alignment: We identify consistent alignment patterns and degree of political steerability for each model across temperature settings and experiments. (3) Claim of sycophancy: While models adjust to political personas during role-play, we find this reflects persona-based steerability rather than the increasingly popular, yet contested concept of sycophancy. Our study contributes to evaluating the political alignment of closed-source LLMs that are increasingly embedded in electoral decision support tools and AI Companion chatbots.
+DO  - 10.1609/aies.v8i1.36552
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36552
+N1  - source=aies_2025.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - aies2025-aies-v8i1-36552
+ER  - 
+
+TY  - CONF
+TI  - Aggregation Problems in Machine Ethics and AI Alignment
+AU  - Baum, Kevin
+AU  - Slavkovik, Marija
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Artificial agents increasingly make decisions with far-reaching consequences. It is therefore imperative to ensure that their actions are not only functionally effective but also normatively appropriate. Two major paradigms address this challenge: machine ethics and value alignment. Machine ethics typically engages in \textitmoral aggregation, especially through value and (descriptive) uncertainty aggregation. Value alignment approaches tend to rely on \textitsocial aggregation to manage value pluralism and moral uncertainty, often implicitly or indirectly. This paper disentangles these forms of aggregation and analyzes their roles across three stages of machine moral reasoning: moral evaluation, moral assessment, and moral decision. Rather than favoring one paradigm, we expose their mutual dependencies and respective blind spots, particularly under conditions of persistent moral disagreement. We argue that social aggregation cannot bypass deep normative commitments. Alignment by social aggregation cannot replace moral aggregation but merely relocates it---often opaquely.
+DO  - 10.1609/aies.v8i1.36554
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36554
+N1  - source=aies_2025.bib; retained_by=preservation; terms=preservation:epistemic plurality; preservation:pluralism; tier2:agreement; tier2:ai alignment; schema=v1.8
+AN  - aies2025-aies-v8i1-36554
+ER  - 
+
+TY  - CONF
+TI  - Toward an Ethic of Synthetic Relationality: Identity, Intimacy, and Risk in AI-Mediated Roleplay Environments
+AU  - Bhat, Maalvika
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Platforms like Character.AI offer new avenues for identity exploration and self-expression, but also introduce profound parasocial, socioemotional, and psychological risks. Drawing on developmental psychology, fan studies, human-computer interaction, and AI ethics, this paper examines how AI-mediated roleplay environments simulate intimacy while fostering dependency, boundary erosion, and perceptual misalignment. Through thematic analysis of an anonymous survey (N=344) of Character.AI users, we identify patterns of identity projection, perceived relationship growth, addictive engagement, boundary confusion, emotional substitution, ethical dissonance, and trauma reenactment. Beyond documenting vulnerabilities, we propose design interventions, including dynamic consent scaffolding, reflexivity prompts, and interactional transparency, to safeguard user agency and developmental wellbeing. We argue that synthetic companions do not merely extend fan practices but fundamentally reconfigure interpersonal architectures, demanding a new ethic of synthetic relationality. As AI-driven intimacy becomes increasingly persuasive and immersive, addressing its high-stakes implications is critical to responsible AI design, particularly for younger and vulnerable populations.
+DO  - 10.1609/aies.v8i1.36560
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36560
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2025-aies-v8i1-36560
+ER  - 
+
+TY  - CONF
+TI  - AI and the Social Contract
+AU  - Chung, Chee Hae
+AU  - Schiff, Daniel S.
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As artificial intelligence (AI) systems increasingly shape public governance, they challenge foundational principles of political legitimacy. This paper evaluates AI governance against five canonical social contract theories—Hobbes, Locke, Rousseau, Rawls, and Nozick—while examining how structural features of AI strain these theories’ durability. Using a structured comparative framework, the study applies three forms of legitimacy (procedural, moral-substantive, and recognitional) and three types of consent (explicit, tacit, and hypothetical) as normative benchmarks. Applying each theory, the analysis finds AI governance is marked by deficits in accountability, participation, rights protection, fairness, and freedom from coercion, while AI’s opacity, global influence, and hybrid public-private control reveal blind spots within the social contract tradition itself. Though no single theory offers a complete solution and each contains specific weaknesses, the paper develops a hybrid model integrating Hobbesian accountability, Lockean rights protections, Rousseauian participation norms, Rawlsian fairness, and Nozickian safeguards against coercion. The paper concludes by distilling normative priorities for aligning governance with these hybrid contractarian standards: embedding participatory mechanisms, encouraging pluralistic ethical perspectives, ensuring institutional transparency, and strengthening democratic oversight. These interventions aim to reconfigure the social contract—and AI—for an era in which algorithmic systems increasingly mediate the exercise of political authority.
+DO  - 10.1609/aies.v8i1.36575
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36575
+N1  - source=aies_2025.bib; retained_by=welfare; terms=welfare:egalitarian and prioritarian; schema=v1.8
+AN  - aies2025-aies-v8i1-36575
+ER  - 
+
+TY  - CONF
+TI  - Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation
+AU  - Eriksson, Maria
+AU  - Purificato, Erasmo
+AU  - Noroozian, Arman
+AU  - Vinagre, João
+AU  - Chaslot, Guillaume
+AU  - Gomez, Emilia
+AU  - Fernandez-Llorca, David
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Quantitative Artificial Intelligence (AI) Benchmarks have emerged as fundamental tools for evaluating the performance, capability, and safety of AI models and systems. Currently, they shape the direction of AI development and are playing an increasingly prominent role in regulatory frameworks. As their influence grows, however, so too does concerns about how and with what effects they evaluate highly sensitive topics such as capabilities, including high-impact capabilities, safety and systemic risks. This paper presents an interdisciplinary meta-review of about 110 studies that discuss shortcomings in quantitative benchmarking practices, published in the last 10 years. It brings together many fine-grained issues in the design and application of benchmarks (such as biases in dataset creation, inadequate documentation, data contamination, and failures to distinguish signal from noise) with broader sociotechnical issues (such as an over-focus on evaluating text-based AI models according to one-time testing logic that fails to account for how AI models are increasingly multimodal and interact with humans and other technical systems). Our review also highlights a series of systemic flaws in current benchmarking practices, such as misaligned incentives, construct validity issues, unknown unknowns, and problems with the gaming of benchmark results. Furthermore, it underscores how benchmark practices are fundamentally shaped by cultural, commercial and competitive dynamics that often prioritise state-of-the-art performance at the expense of broader societal concerns. By providing an overview of risks associated with existing benchmarking procedures, we problematise disproportionate trust placed in benchmarks and contribute to ongoing efforts to improve the accountability and relevance of quantitative AI benchmarks within the complexities of real-world scenarios.
+DO  - 10.1609/aies.v8i1.36595
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36595
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:peer review aggregation; schema=v1.8
+AN  - aies2025-aies-v8i1-36595
+ER  - 
+
+TY  - CONF
+TI  - Towards Experience-Centered AI: A Framework for Integrating Lived Experience in Design and Development
+AU  - Gautam, Sanjana
+AU  - Chandra, Mohit
+AU  - De, Ankolika
+AU  - Chakravorti, Tatiana
+AU  - Malik, Girik
+AU  - De Choudhury, Munmun
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Lived experiences fundamentally shape how individuals interact with AI systems, influencing perceptions of safety, trust, and usability. While prior research has focused on developing techniques to emulate human preferences, and proposed taxonomies to categorize risks (such as psychological harms and algorithmic biases), these efforts have provided limited systematic understanding of lived human experiences or actionable strategies for embedding them meaningfully into the AI development life-cycle. This work proposes a framework for meaningfully integrating lived experience into the design and evaluation of AI systems. We synthesize interdisciplinary literature across lived experience philosophy, human-centered design, and human-AI interaction, arguing that centering lived experience can lead to models that more accurately reflect the retrospective, emotional, and contextual dimensions of human cognition. Drawing from a wide body of work across psychology, education, healthcare, and social policy, we present a targeted taxonomy of lived experiences with specific applicability to AI systems. To ground our framework, we examine three application domains— (i) education, (ii) healthcare, and (iii) cultural alignment—illustrating how lived experience informs user goals, system expectations, and ethical considerations in each context. We further incorporate insights from AI system operators and human-AI partnerships to highlight challenges in responsibility allocation, mental model calibration, and long-term system adaptation. We conclude with actionable recommendations for developing experience-centered AI systems that are not only technically robust but also empathetic, context-aware, and aligned with human realities. This work offers a foundation for future research that bridges technical development with the lived experiences of those impacted by AI systems.
+DO  - 10.1609/aies.v8i2.36611
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36611
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:alignment; tier1:pluralistic alignment; schema=v1.8
+AN  - aies2025-aies-v8i2-36611
+ER  - 
+
+TY  - CONF
+TI  - From Efficiency to Equity: Measuring Fairness in Preference Learning
+AU  - Gowaikar, Shreeyash
+AU  - Berard, Hugo
+AU  - Mushkani, Rashid
+AU  - Koseki, Shin
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As AI systems, particularly generative models, increasingly influence decision-making, ensuring that they are able to fairly represent diverse human preferences becomes crucial. This paper introduces a novel framework for evaluating epistemic fairness in preference learning models inspired by economic theories of inequality and Rawlsian justice. We propose metrics adapted from the Gini Coefficient, Atkinson Index, and Kuznets Ratio to quantify fairness in these models. We validate our approach using a diverse collection of datasets, covering both visual preferences and textual content. Our analysis reveals variations in model performance across users, highlighting potential epistemic injustices. We explore pre-processing and in-processing techniques to mitigate these inequalities, demonstrating a complex relationship between model efficiency and fairness. This work contributes to AI ethics by providing a framework for evaluating and improving epistemic fairness in preference learning models, offering insights for developing more inclusive AI systems in contexts where diverse human preferences are crucial.
+DO  - 10.1609/aies.v8i2.36616
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36616
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:alignment; welfare:generalized means; schema=v1.8
+AN  - aies2025-aies-v8i2-36616
+ER  - 
+
+TY  - CONF
+TI  - S-DAT: A Multilingual, GenAI-Driven Framework for Automated Divergent Thinking Assessment
+AU  - Haase, Jennifer
+AU  - Hanel, Paul H. P.
+AU  - Pokutta, Sebastian
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - This paper introduces S-DAT (Synthetic-Divergent Association Task), a scalable, multilingual framework for automated assessment of divergent thinking (DT)—a core component of human creativity. Traditional creativity assessments are often labor-intensive, language-specific, and reliant on subjective human ratings, limiting their scalability and cross-cultural applicability. In contrast, S-DAT leverages large language models and advanced multilingual embeddings to compute semantic distance—a language-agnostic proxy for DT. We evaluate S-DAT across eleven diverse languages, including English, Spanish, German, Russian, Hindi, and Japanese (Kanji, Hiragana, Katakana), demonstrating robust and consistent scoring across linguistic contexts. Unlike prior DAT approaches, the S-DAT shows convergent validity with other DT measures and correct discriminant validity with convergent thinking. This cross-linguistic flexibility allows for more inclusive, global-scale creativity research, addressing key limitations of earlier approaches. S-DAT provides a powerful tool for fairer, more comprehensive evaluation of cognitive flexibility in diverse populations.
+DO  - 10.1609/aies.v8i2.36622
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36622
+N1  - source=aies_2025.bib; retained_by=preservation; terms=preservation:annotator effects; schema=v1.8
+AN  - aies2025-aies-v8i2-36622
+ER  - 
+
+TY  - CONF
+TI  - NomicLaw: Emergent Trust and Strategic Argumentation in LLMs During Collaborative Law-Making
+AU  - Hota, Asutosh
+AU  - Jokinen, Jussi P.P.
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Recent advancements in large language models (LLMs) have extended their capabilities from basic text processing to complex reasoning tasks, including legal interpretation, argumentation, and strategic interaction. However, empirical understanding of LLM behavior in open-ended, multi-agent settings especially those involving deliberation over legal and ethical dilemmas remains limited. We introduce NomicLaw, a structured multi-agent simulation where LLMs engage in collaborative law-making, responding to complex legal vignettes by proposing rules, justifying them, and voting on peer proposals. We quantitatively measure trust and reciprocity via voting patterns and qualitatively assess how agents use strategic language to justify proposals and influence outcomes. Experiments involving homogeneous and heterogeneous LLM groups demonstrate how agents spontaneously form alliances, betray trust, and adapt their rhetoric to shape collective decisions. Our results highlight the latent social reasoning and persuasive capabilities of ten open-source LLMs and provide insights into the design of future AI systems capable of autonomous negotiation, coordination and drafting legislation in legal settings.
+DO  - 10.1609/aies.v8i2.36629
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36629
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:collective decision; tier2:collective; schema=v1.8
+AN  - aies2025-aies-v8i2-36629
+ER  - 
+
+TY  - CONF
+TI  - Models and Algorithms for Balancing Efficiency and Equity in Vaccine Allocation
+AU  - Keithley, Jeffrey
+AU  - Bonner, Madeline
+AU  - Pemmaraju, Sriram V.
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - The COVID-19 pandemic was a powerful reminder that existing societal inequalities get amplified during public health emergencies. In response to the pandemic, organizations such as the CDC, WHO, and public health departments developed frameworks for equitable allocation of vaccines, using well-established ethical principles as a foundation. The overall goal of this paper is to translate these policy frameworks into a computational framework that can be used by public health departments to equitably allocate vaccines in a transparent manner during the initial stages of a pandemic, when vaccine demand far exceeds supply. We start by developing a mathematical model for disease-spread that accounts for social vulnerability, geographic barriers to healthcare access, and differences in work constraints. On the basis of this model, we present multiple optimization formulations of a vaccine allocation problem that aims to reduce overall disease prevalence while also reducing disparity in outcomes for a given ``protected class'' relative to the general population. We present simple, scalable, and transparent algorithms for our optimization formulations. Our experiments focus on allocating vaccines at the census block group granularity in Johnson County, Iowa. Our experimental test bed incorporates social vulnerability index, a hospital accessibility index, and essential worker status into CovaSim, a state-of-the-art agent-based COVID-19 model. Our experiments lead to two main takeaways. First, it is possible to substantially reduce disparity in the outcomes of the protected class (for various choices of this class) with negligible worsening in overall disease-prevalence. Second, it is critical for disparity to be considered at all stages of the computational framework, e.g., incorporating it into the optimization formulation without considering it in the modeling stage has very limited value.
+DO  - 10.1609/aies.v8i2.36639
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36639
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:envy-freeness; schema=v1.8
+AN  - aies2025-aies-v8i2-36639
+ER  - 
+
+TY  - CONF
+TI  - Explaining the Reputational Risks of AI-Mediated Communication: Messages Labeled as AI-Assisted Are Viewed as Less Diagnostic of the Sender’s Moral Character
+AU  - Khadpe, Pranav
+AU  - Wenzel, Kimi
+AU  - Loewenstein, George
+AU  - Kaufman, Geoff
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - When someone sends us a thoughtful message, we naturally form judgments about their character. But what happens when that message carries a label indicating it was written with the help of AI? This paper investigates how the appearance of AI assistance affects our perceptions of message senders. Adding nuance to previous research, through two studies (N=399) featuring vignette scenarios, we find that AI-assistance labels don't necessarily make people view senders negatively. Rather, they dampen the strength of character signals in communication. We show that when someone sends a warmth-signalling message (like thanking or apologizing) without AI help, people more strongly categorize the sender as warm. At the same time, when someone sends a coldness-signalling message (like bragging or blaming) without assistance, people more confidently categorize them as cold. Interestingly, AI labels weaken both these associations: An AI-assisted apology makes the sender appear less warm than if they had written it themselves, and an AI-assisted blame makes the sender appear less cold than if they had composed it independently. This supports our signal diagnosticity explanation: messages labeled as AI-assisted are viewed as less diagnostic than messages which seem unassisted. We discuss how our findings shed light on the causal origins of previously reported observations in AI-Mediated Communication.
+DO  - 10.1609/aies.v8i2.36641
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36641
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2025-aies-v8i2-36641
+ER  - 
+
+TY  - CONF
+TI  - Reflective Agency: Ethical and Empirical Framework for AI-Mediated Self-Reflection Systems
+AU  - Kim, Minsol
+AU  - Wang, Wendy
+AU  - Long, Jennifer
+AU  - Picard, Rosalind
+AU  - Barczi, Nathan
+AU  - Maes, Pattie
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As artificial intelligence (AI) increasingly mediates self-reflective practices—from therapeutic conversational agents to personal informatics systems—it becomes crucial to examine how these technologies shape, rather than merely support, our self-understanding. This paper investigates the influence of AI-mediated journaling systems on Reflective Agency—the capacity to interpret and make meaning of one’s experiences autonomously. Drawing on phenomenology and Aristotelian virtue ethics, we propose the Reflective Agency Framework (RAF): a normative model with five design principles for such AI tools—Internal Origination, Calibrated Responsiveness, Reflective Ambiguity, Transparency of Mediation, and Self-Continuity and Ethical Flourishing. We demonstrate RAF’s relevance through a two-part empirical case study: first, a systematic feature-tension analysis of six widely used AI-mediated journaling applications; second, an exploration of user perceptions and responses to these tensions and principles. Mapping these insights back to RAF, we identify persistent conflicts between automation and autonomy and offer design considerations that preserve the interpretive space essential for self-development. Our findings reveal that over-automation in AI-mediated reflection can erode agency. We urge designers and researchers to adopt and extend our framework to ensure future technologies genuinely support autonomy and meaningful self-discovery in digital well-being. Ultimately, we envision AI not as a guide, but as a quiet companion—helping individuals stay connected to their evolving sense of self and remain the primary agents in their self-discovery, thereby preserving what we define as Reflective Agency.
+DO  - 10.1609/aies.v8i2.36644
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36644
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2025-aies-v8i2-36644
+ER  - 
+
+TY  - CONF
+TI  - Labeling in Their Shoes: Improving Text Annotation with Cognitive Empathy Priming (Extended Abstract)
+AU  - Kwon, Sung Hyun
+AU  - Clark, Jessica
+AU  - Hann, Il-Horn
+AU  - Ramaprasad, Jui
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Human-annotated labels are crucial for training and evaluating machine learning models especially in domains requiring human judgment. However, crowdsourced labelers frequently struggle to reach consensus and differ from expert consensus. Through studies in sexist content identification, we demonstrate how this systematic misalignment persists even with large numbers of annotators and significantly impacts model performance. To address this challenge, we introduce cognitive empathy priming (CEP)—a scalable psychological intervention that enhances annotators' ability to recognize perspectives different from their own. Our results show that CEP substantially improves label quality: empathy-primed labelers demonstrate around 10-20% higher alignment with expert consensus compared to standard crowdsourcing methods, while inter-rater consistency also improves dramatically. These improvements translate directly to model performance, with Large Language Models trained on empathy-primed labels showing approximately 16% higher agreement with expert-determined labels compared to those trained on control group labels. Our sensitivity analyses confirm these results remain robust even when accounting for potential expert biases. This research provides organizations with an cost-effective solution to enhance AI training data quality, particularly in subjective domains like content moderation and bias detection.
+DO  - 10.1609/aies.v8i2.36652
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36652
+N1  - source=aies_2025.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2025-aies-v8i2-36652
+ER  - 
+
+TY  - CONF
+TI  - Mapping Moral Reasoning in LLMs: A Multi-Dimensional Analysis of Safety Principle Conflicts
+AU  - Mahajan, Sachit
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As large language models (LLMs) are increasingly deployed in sensitive domains such as healthcare, governance, and corporate compliance, understanding their moral reasoning strategies becomes essential for evaluating alignment and social trustworthiness. This paper presents a structured analysis of how open-weight LLMs resolve conflicts between competing safety principles—including public welfare, institutional transparency, and individual rights—using carefully designed ethical dilemmas. Each model response is encoded into an eleven-dimensional normative profile, derived from both semantic similarity to canonical ethical theories and dictionary-based moral cues. A set of quantitative metrics, including entropy, top-alignment ratio, and reasoning density, captures variation in ethical framing, complexity, and safety prioritization across 90 model generations. Statistically significant differences emerge in reasoning style and moral salience (p < 0.01), while PCA and clustering reveal three recurring behavioral patterns: rule-based, balanced, and pragmatic integration. An ablation study confirms that these clusters persist without dictionary features (Adjusted Rand Index = 0.475), supporting the robustness of semantic alignment. This work contributes a replicable methodology for the moral profiling of LLMs, offering empirical tools for diagnosing value conflicts and informing future efforts in AI transparency, contestability, and pluralistic alignment. The findings underscore the need for interpretable metrics and diverse normative baselines in the evaluation of automated decision systems.
+DO  - 10.1609/aies.v8i2.36665
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36665
+N1  - source=aies_2025.bib; retained_by=preservation; terms=preservation:pluralism; tier2:ai alignment; schema=v1.8
+AN  - aies2025-aies-v8i2-36665
+ER  - 
+
+TY  - CONF
+TI  - Why (Not) Use AI? Analyzing People’s Reasoning and Conditions for AI Acceptability
+AU  - Mun, Jimin
+AU  - Au Yeong, Wei Bin
+AU  - Deng, Wesley Hanwen
+AU  - Schaich Borg, Jana
+AU  - Sap, Maarten
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - In recent years, there has been a growing recognition of the need to incorporate lay-people’s input into the governance and acceptability assessment of AI usage. However, how and why people judge acceptability of different AI use cases remains under-explored, despite it being crucial towards understanding and addressing potential sources of disagreement. In this work, we investigate the demographic and reasoning factors that influence people’s judgments about AI’s development via a survey administered to demographically diverse participants (N=197). As a way to probe into these decision factors as well as inherent variations of perceptions across use cases, we consider ten distinct labor-replacement (e.g., Lawyer AI) and personal health (e.g., Digital Medical Advice AI) AI use cases. We explore the relationships between participants’ judgments and their rationales such as reasoning approaches (cost-benefit reasoning vs. rule-based). Our empirical findings reveal a number of factors that influence acceptance. We find lower acceptance of labor-replacement usage over personal health, significant influence of demographics factors such as gender, employment, education, and AI literacy level, and prevalence of rule-based reasoning for unacceptable use cases. Moreover, we observe unified reasoning type (e.g., cost-benefit reasoning) leading to higher agreement. Based on these findings, we discuss the key implications towards understanding and mitigating disagreements on the acceptability of AI use cases to collaboratively build consensus.
+DO  - 10.1609/aies.v8i2.36673
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36673
+N1  - source=aies_2025.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2025-aies-v8i2-36673
+ER  - 
+
+TY  - CONF
+TI  - ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning
+AU  - Seo, Wonduk
+AU  - Yuan, Zonghao
+AU  - Bu, Yi
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Ensuring cultural values alignment in Large Language Models (LLMs) remains a critical challenge, as these models often embed Western-centric biases from their training data, leading to misrepresentations and fairness concerns in cross-cultural applications. Existing approaches, such as role assignment and few-shot learning, struggle to address these limitations effectively due to their reliance on pre-trained knowledge, limited scalability, and inability to capture nuanced cultural values. To address these issues, we propose ValuesRAG, a novel and effective framework that applies Retrieval-Augmented Generation (RAG) with In-Context Learning (ICL) to integrate cultural and demographic knowledge dynamically during text generation. Leveraging the World Values Survey (WVS) dataset, ValuesRAG first generates summaries of values for each individual. We subsequently curate several representative regional datasets to serve as test datasets and retrieve relevant summaries of values based on demographic features, followed by a reranking step to select top-k relevant summaries. We evaluate ValuesRAG using 6 diverse regional datasets and show that it consistently outperforms baselines, both in main experiments and ablation settings. Notably, ValuesRAG achieves the best overall performance over prior methods, demonstrating its effectiveness in fostering culturally aligned and inclusive AI systems. We further conduct two qualitative case studies to illustrate how ValuesRAG retrieves demographically aligned value profiles, enabling more context-sensitive reasoning without relying on static prompts or stereotypes. Our findings underscore the potential of retrieval-based methods to bridge the gap between global LLM capabilities and localized cultural values.
+DO  - 10.1609/aies.v8i3.36717
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36717
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:pluralistic alignment; schema=v1.8
+AN  - aies2025-aies-v8i3-36717
+ER  - 
+
+TY  - CONF
+TI  - Aligning AI with Public Values: Deliberation and Decision-Making for Governing Multimodal LLMs in Political Video Analysis
+AU  - Sharma, Tanusree
+AU  - Potter, Yujin
+AU  - Kilhoffer, Zachary
+AU  - Huang, Yun
+AU  - Song, Dawn
+AU  - Wang, Yang
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - How AI models should deal with political topics has been discussed, but it remains challenging and requires better governance. This paper examines the governance of large language models through individual and collective deliberation, focusing on politically sensitive videos. We conducted a two-step study: interviews with 10 journalists established a baseline understanding of expert video interpretation; 114 individuals through deliberation using Inclusive.AI, a platform that facilitates democratic decision-making through decentralized autonomous organization (DAO) mechanisms. Our findings reveal distinct differences in interpretative priorities: while experts emphasized emotion and narrative, general public prioritized factual clarity, objectivity, and emotional neutrality. Furthermore, we examined how different governance mechanisms - quadratic vs. weighted voting and equal vs. 20/80 voting power - shape users' decision-making regarding AI behavior. Results indicate that voting methods significantly influence outcomes, with quadratic voting reinforcing perceptions of liberal democracy and political equality. Our study underscores the necessity of selecting appropriate governance mechanisms to better capture user perspectives and suggests decentralized AI governance as a potential way to facilitate broader public engagement in AI development, ensuring that varied perspectives meaningfully inform design decisions.
+DO  - 10.1609/aies.v8i3.36720
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36720
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:voting rule; tier2:collective; tier2:weighting; schema=v1.8
+AN  - aies2025-aies-v8i3-36720
+ER  - 
+
+TY  - CONF
+TI  - PRAC3 (Privacy, Reputation, Accountability, Consent, Credit, Compensation): Voice Actors in AI Data-economy
+AU  - Sharma, Tanusree
+AU  - Zhou, Yihao
+AU  - Berisha, Visar
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Early large-scale audio datasets, such as LibriSpeech, were built with hundreds of individual contributors whose voices were instrumental in the development of speech technologies, including audiobooks and voice assistants. Yet, a decade later, these same contributions have exposed voice actors to a range of risks. While existing ethical frameworks emphasize Consent, Credit, and Compensation (C³), they do not adequately address the emergent risks involving vocal identities that are increasingly decoupled from context, authorship, and control. Drawing on qualitative interviews with 20 professional voice actors, this paper reveals how synthetic replication of voice without clear provenance or enforceable constraints exposes individuals to both reputational and security threats. Beyond reputational harm, such as re-purposing voice data in erotic content, offensive political messaging, and meme culture, we document concerns about accountability breakdowns when their voice is leveraged to clone voices that are deployed in high-stakes scenarios such as financial fraud, misinformation campaigns, or impersonation scams. In such cases, actors face social and legal fallout without recourse, while very few of them have a legal representative or union protection. To make sense of these shifting dynamics, we introduce the PRAC³ framework - an expansion of C³ that foregrounds Privacy, Reputation, Accountability, Consent, Credit, and Compensation as interdependent pillars of data used in the synthetic voice economy. This framework captures how privacy risks are amplified through non-consensual training, how reputational harm arises from decontextualized deployment, and how accountability can be reimagined AI Data ecosystems. We argue that voice, as both a biometric identifier and creative labor, demands governance models that restore creator agency, ensure traceability, and establish enforceable boundaries for ethical reuse.
+DO  - 10.1609/aies.v8i3.36721
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36721
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:opinion representation; schema=v1.8
+AN  - aies2025-aies-v8i3-36721
+ER  - 
+
+TY  - CONF
+TI  - Fairness in Federated Learning: Fairness for Whom?
+AU  - Taik, Afaf
+AU  - Chehbouni, Khaoula
+AU  - Farnadi, Golnoosh
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Fairness in federated learning (FL) has emerged as a rapidly growing area of research, with numerous works proposing formal definitions and algorithmic interventions. Yet, despite this technical progress, fairness in FL is often defined and evaluated in ways that abstract away from the sociotechnical contexts in which these systems are deployed. In this paper, we argue that existing approaches tend to optimize narrow system-level metrics --- such as performance parity or contribution-based rewards --- while overlooking how harms arise throughout the FL lifecycle and how they impact diverse stakeholders. We support this claim through a critical analysis of the literature, based on a systematic annotation of papers for their fairness definitions, design decisions, evaluation practices, and motivating use cases. Our analysis reveals five recurring pitfalls: (1) fairness framed solely through the lens of server–client architecture; (2) a mismatch between simulations and motivating use-cases and contexts; (3) definitions that conflate protecting the system with protecting its users; (4) interventions that target isolated stages of the lifecycle while neglecting upstream and downstream effects; and (5) a lack of multi-stakeholder alignment where multiple fairness definitions can be relevant at once. Building on these insights, we propose a harm-centered framework that links fairness definitions to concrete risks and stakeholder vulnerabilities. We conclude with recommendations for more holistic, context-aware, and accountable fairness research in FL.
+DO  - 10.1609/aies.v8i3.36730
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36730
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:multi-stakeholder; schema=v1.8
+AN  - aies2025-aies-v8i3-36730
+ER  - 
+
+TY  - CONF
+TI  - Modeling Strategic Risk in School Choice: A Case for Transparent Design
+AU  - Tasnim, Mayesha
+AU  - Verhagen, Paul
+AU  - Blanke, Tobias
+AU  - Acar, Erman
+AU  - Ghebreab, Sennay
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - School choice algorithms, which assign students to schools based on preferences, are often designed to balance matching efficiency with strategyproofness. In Amsterdam, policymakers introduced a more efficient assignment mechanism in 2019 that permitted preference manipulation. As strategic behavior increased, transparency around the algorithm was reduced—motivated by prior studies showing that additional information about matching methods tends to increase manipulation. Yet transparency is also essential for institutional trust and informed decision-making. We test whether transparency about the consequences of strategic behavior deters or encourages manipulation. We conduct a behavioral experiment embedded in a survey of 140 parents participating in Amsterdam’s 2025 school choice process. Parents selected among truthful, mildly strategic, and aggressively strategic rankings across three scenarios with varying degrees of probability disclosure. While transparency increased the rate of strategic behavior, truthful reporting remained the most common choice under all conditions. To explain these patterns, we estimate a discrete-choice model grounded in Security-Potential/Aspiration (SP/A) theory, which models how parents weigh aspirational goals against the risk of poor outcomes. The model fits observed behavior better than expected utility and prospect theory benchmarks, even though individual covariates are not statistically significant. We find that parents whose children applied to competitive school tracks (e.g., pre-university) were more risk-averse, selecting safer strategies even when aggressive options offered high chances of success. These results challenge the assumption that transparency inherently worsens inequality, and suggest that communicating risk may serve as a viable policy lever for fairness in algorithmic systems.
+DO  - 10.1609/aies.v8i3.36731
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36731
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:incentives; tier2:manipulation; schema=v1.8
+AN  - aies2025-aies-v8i3-36731
+ER  - 
+
+TY  - CONF
+TI  - Empirical Analysis of Privacy-Fairness-Accuracy Trade-offs in Federated Learning: A Step Towards Responsible AI
+AU  - Wasif, Dawood
+AU  - Chen, Dian
+AU  - Madabushi, Sindhuja
+AU  - Alluru, Nithin
+AU  - Moore, Terrence J.
+AU  - Cho, Jin-Hee
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Federated Learning (FL) enables collaborative model training while preserving data privacy; however, balancing privacy preservation (PP) and fairness poses significant challenges. In this paper, we present the first unified large-scale empirical study of privacy-fairness-utility trade-offs in FL, advancing toward responsible AI deployment. Specifically, we systematically compare Differential Privacy (DP), Homomorphic Encryption (HE), and Secure Multi-Party Computation (SMC) with fairness-aware optimizers including q-FedAvg, q-MAML, Ditto, evaluating their performance under IID and non-IID scenarios using benchmark (MNIST, Fashion-MNIST) and real-world datasets (Alzheimer's MRI, credit-card fraud detection). Our analysis reveals HE and SMC significantly outperform DP in achieving equitable outcomes under data skew, although at higher computational costs. Remarkably, we uncover unexpected interactions: DP mechanisms can negatively impact fairness, and fairness-aware optimizers can inadvertently reduce privacy effectiveness. We conclude with practical guidelines for designing robust FL systems that deliver equitable, privacy-preserving, and accurate outcomes.
+DO  - 10.1609/aies.v8i3.36746
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36746
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:federated aggregation; tier2:privacy; schema=v1.8
+AN  - aies2025-aies-v8i3-36746
+ER  - 
+
+TY  - CONF
+TI  - Toward Needs-Conscious Design: Co-Designing a Human-Centered Framework for AI-Mediated Communication
+AU  - Wolfe, Robert
+AU  - Dangol, Aayushi
+AU  - Kim, Jaewon
+AU  - Hiniker, Alexis
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - We introduce Needs-Conscious Design, a human-centered framework for AI-mediated communication that builds on the principles of Nonviolent Communication (NVC). We conducted an interview study with N=14 certified NVC trainers and a diary study and co-design with N=13 lay users of online communication technologies to understand how NVC might inform design that centers human relationships. We define three pillars of Needs-Conscious Design: Intentionality, Presence, and Receptiveness to Needs. Drawing on participant co-designs, we provide design concepts and illustrative examples for each of these pillars. We further describe a problematic emergent property of AI-mediated communication identified by participants, which we call Empathy Fog, and which is characterized by uncertainty over how much empathy, attention, and effort a user has actually invested via an AI-facilitated online interaction. Finally, because even well-intentioned designs may alter user behavior and process emotional data, we provide guiding questions for consentful Needs-Conscious Design, applying an affirmative consent framework used in social media contexts. Needs-Conscious Design offers a foundation for leveraging AI to facilitate human connection, rather than replacing or obscuring it.
+DO  - 10.1609/aies.v8i3.36751
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36751
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2025-aies-v8i3-36751
+ER  - 
+
+TY  - CONF
+TI  - Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts (Extended Abstract)
+AU  - Yaacov, David Doron
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - The conceptual framework proposed in this paper centers on the development of a deliberative moral reasoning system—one designed to process complex moral situations by generating, filtering, and weighing normative arguments drawn from diverse ethical perspectives. While the framework is rooted in Machine Ethics, it also makes a substantive contribution to Value Alignment by outlining a system architecture that links structured moral reasoning to action under time constraints. Grounded in normative moral pluralism, this system is not constructed to imitate behavior but built on reason-sensitive deliberation over structured moral content in a transparent and principled manner. Beyond its role as a deliberative system, it also serves as the conceptual foundation for a novel two-level architecture: functioning as a moral reasoning teacher envisioned to train faster models that support real-time responsiveness without reproducing the full structure of deliberative reasoning. Together, the deliberative and intuitive components are designed to enable both deep reflection and responsive action. A key design feature is the dual-hybrid structure: a universal layer that defines a moral threshold through top-down and bottom-up learning, and a local layer that learns to weigh competing considerations in context while integrating culturally specific normative content, so long as it remains within the universal threshold. By extending the notion of moral complexity to include not only conflicting beliefs, but also multifactorial dilemmas, multiple stakeholders, and the integration of non-moral considerations, the framework aims to support morally grounded decision-making in realistic, high-stakes contexts.
+DO  - 10.1609/aies.v8i3.36756
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36756
+N1  - source=aies_2025.bib; retained_by=preservation; terms=preservation:pluralism; tier2:ai alignment; schema=v1.8
+AN  - aies2025-aies-v8i3-36756
+ER  - 
+
+TY  - CONF
+TI  - Should LLMs Be WEIRD? Exploring WEIRDness and Human Rights in Large Language Models
+AU  - Zhou, Ke
+AU  - Constantinides, Marios
+AU  - Quercia, Daniele
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Large language models (LLMs) are often trained on data that reflect WEIRD values: Western, Educated, Industrialized, Rich, and Democratic. This raises concerns about cultural bias and fairness. Using responses to the World Values Survey, we evaluated five widely used LLMs: GPT-3.5, GPT-4, Llama-3, BLOOM, and Qwen. We measured how closely these responses aligned with the values of the WEIRD countries and whether they conflicted with human rights principles. To reflect global diversity, we compared the results with the Universal Declaration of Human Rights and three regional charters from Asia, the Middle East, and Africa. Models with lower alignment to WEIRD values, such as BLOOM and Qwen, produced more culturally varied responses but were 2% to 4% more likely to generate outputs that violated human rights, especially regarding gender and equality. For example, some models agreed with the statements ``a man who cannot father children is not a real man'' and ``a husband should always know where his wife is'', reflecting harmful gender norms. These findings suggest that as cultural representation in LLMs increases, so does the risk of reproducing discriminatory beliefs. Approaches such as Constitutional AI, which could embed human rights principles into model behavior, may only partly help resolve this tension.
+DO  - 10.1609/aies.v8i3.36761
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36761
+N1  - source=aies_2025.bib; retained_by=tier1; terms=tier1:alignment; schema=v1.8
+AN  - aies2025-aies-v8i3-36761
+ER  - 
+
+TY  - CONF
+TI  - A Survey of Large Language Model Use and Its Technical Limitations in Military Systems Through a Decolonial Lens (Extended Abstract)
+AU  - Fereidooni, Sonia
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - The increased integration of LLMs into military systems requires a decolonial analysis to evaluate the lasting sociopolitical impact of such systems on individuals in global conflict settings. In this paper, we first survey all publicly-identifiable use cases of LLMs across all military domains, then apply Edward Said's framework of Orientalism as a basis for our decolonial framework to analyze the longstanding technical limitations of LLMs within these domains. Through technical limitations such as bias, accountability, explainability, sycophancy, data scarcity and data colonialism, deficiencies in real-world understanding and commonsense reasoning, Western-centric ethics, and susceptibility to hallucination and misinformation, and through Saidian concepts of 'Othering,' the power of representation, and the silencing of marginalized perspectives through regulation of autonomy, the paper finds that the use of LLMs in the military serves to automate and amplify historical colonial dynamics of power, control, and purposeful misrepresentation of non-Western cultures through the weaponization of language. This analysis highlights the urgent need to address how LLM vulnerabilities in the military severely harm populations where such technology is used against, reproducing global systemic inequalities and colonial legacies within modern warfare.
+DO  - 10.1609/aies.v8i3.36773
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36773
+N1  - source=aies_2025.bib; retained_by=preservation; terms=preservation:minority; schema=v1.8
+AN  - aies2025-aies-v8i3-36773
+ER  - 
+
+TY  - CONF
+TI  - Between Code and Creed: Islamic Ethical In-Betweenness on AI in Indonesia
+AU  - Wong-A-Foe, Daphne
+PY  - 2025
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Indonesian Muslims are carving out an ethical in-betweenness in debates on artificial intelligence (AI)—a dynamic space between technocratic secularism, religious reasoning, and nationalist aspirations. Based on 14 months of ethnographic fieldwork, my study highlights three arenas: neutrality in AI education, theological boundaries, and national progress. Educators often bracket religion from technical training, while religious leaders caution against attributing spirit or niyyah (ethical intention) to machines, advocating wasatiyyah (moderation) rather than rejection. Students, meanwhile, frame AI as both a tool for “Golden Indonesia 2045” and a site where Qurʾanic ethics can guide design. Building on Raquib’s (2022) call to embed Islamic objectives and Singler’s (2024) typology of rejection–adoption–adaptation, the study shows how Indonesians negotiate tensions without collapsing them into one frame. Here, ethics emerges not as a clash between code and creed but as a conversation—offering globally relevant insights for inclusive, context-sensitive AI governance.
+DO  - 10.1609/aies.v8i3.36800
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/36800
+N1  - source=aies_2025.bib; retained_by=preservation; terms=preservation:plural output; schema=v1.8
+AN  - aies2025-aies-v8i3-36800
+ER  - 
+
+TY  - CONF
+TI  - Studying People to Study AI: Expert Perspectives on the Epistemic Fit and Barriers of Human Research in AI Safety & Ethics
+AU  - Bo, Jessica Y.
+AU  - Aoyagui, Paula Akemi
+AU  - Rismani, Shalaleh
+AU  - Das, Dipto
+AU  - Ahmed, Syed Ishtiaque
+AU  - Anderson, Ashton
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Safety risks of AI are becoming increasingly evident in human interactions with AI technologies. The prominent approaches to evaluating these risks favor technical methods, such as benchmarks and AI simulations, often sidelining empirical research with human subjects. To examine this apparent gap in the acceptance of human research, we conduct an expert survey (n = 93) and expert interviews (n = 17) with AI Safety & Ethics (AISE) researchers from Technical, Sociotechnical, Governance, and Normative backgrounds. Our findings suggest that although there is a consensus that human research is valuable for generating evidence for AISE, its adoption and acceptance are constrained by perceived validity issues, tangible resource barriers, epistemic and personal preferences in methods, and infrastructural constraints from the broader research community. In particular, Technical researchers tend to value human research less and collaborate across disciplines less, suggesting an epistemic tension towards human methods. We propose recommendations for establishing the epistemic fit of human research within AISE and bridging the prohibitive limitations that researchers face, while avoiding performative "human-washing".
+DO  - 10.1609/aies.v9i1.43154
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43154
+N1  - source=aies_2026.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2026-aies-v9i1-43154
+ER  - 
+
+TY  - CONF
+TI  - Epistemic Framing Tilt in LLMs: Auditing Religious Discourse Across Traditions
+AU  - Buzelin, Arthur
+AU  - Aquino, Yan
+AU  - Bento, Pedro
+AU  - Chagas, Arthur
+AU  - Dayrell, Lucas
+AU  - Pappa, Gisele L.
+AU  - Almeida, Virgilio
+AU  - Meira Jr., Wagner
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Large language models do not only answer questions about religion; they also frame those answers through choices of assertion, attribution, grounding, qualification, and discursive register. We study this phenomenon as Epistemic Framing Tilt: systematic asymmetry in how LLMs present parallel religious claims across traditions. To audit this behavior, we operationalize four interpretable framing axes: assertive commitment vs. belief-attributed distancing, doctrinal/scriptural grounding vs. generic believer attribution, non-mythologized vs. mythologized/symbolic framing, and unqualified assertion vs. hedged qualification. For each axis, we construct validated minimal pairs, learn contextual model-internal directions, and evaluate them through repeated held-out validation, human annotation on generated outputs, lexical cue ablation, and placebo controls. We then apply the learned directions to a matched audit spanning six religious traditions, 24 prompt templates, and multiple semantic domains, including cosmology, sacred texts, ritual, afterlife, and historical origins. Our results show that religious discourse is not framed uniformly: differences are axis-specific, prompt-sensitive, and only partly shared across model families. Some traditions are described more directly, others more through attribution, qualification, or mythic/symbolic register, even under parallel prompts. We argue that these differences matter not because any one framing style is universally preferable, but because repeated asymmetries in epistemic presentation may shape how traditions become legible to users in AI-mediated settings.
+DO  - 10.1609/aies.v9i1.43164
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43164
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i1-43164
+ER  - 
+
+TY  - CONF
+TI  - Beyond Detection: Governing GenAI in Academic Peer Review as a Sociotechnical Challenge
+AU  - Chakravorti, Tatiana
+AU  - Venkit, Pranav Narayanan
+AU  - Ghosh, Sourojit
+AU  - Rajtmajer, Sarah
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Generative AI (GenAI) tools are increasingly entering academic peer-review workflows, raising questions about fairness, accountability, and the legitimacy of evaluative judgment. While these systems promise efficiency gains amid growing reviewer overload, their use introduces new sociotechnical risks. This paper presents a convergent mixed-method study combining discourse analysis of 448 social media posts with interviews with 14 area chairs and program chairs from leading AI and HCI conferences to examine how GenAI is discussed and experienced in peer review. Across both datasets, we find broad agreement that GenAI may be acceptable for limited supportive tasks, such as improving clarity or structuring feedback, but that core evaluative judgments, assessing novelty, contribution, and acceptance, should remain human responsibilities. At the same time, participants highlight concerns about epistemic harm, over-standardization, unclear responsibility, and adversarial risks such as prompt injection. User interviews reveal how structural strain and institutional policy ambiguity shift interpretive and enforcement burdens onto individual scholars, disproportionately affecting junior authors and reviewers. By triangulating public governance discourse with lived review practices, this work reframes AI-mediated peer review as a sociotechnical governance challenge and offers recommendations for preserving accountability, trust, and meaningful human oversight. Overall, we argue that AI-assisted peer review is best governed not by blanket bans or detection alone, but by explicitly reserving evaluative judgment for humans while instituting enforceable, role-specific controls that preserve accountability. We conclude with role-specific recommendations that formalize the support judgment boundary.
+DO  - 10.1609/aies.v9i1.43170
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43170
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i1-43170
+ER  - 
+
+TY  - CONF
+TI  - Do Personalized Evaluation Functions Reflect Human Preferences? A Study of Weighted Proximity in Algorithmic Recourse
+AU  - Choudhury, Firdaus Ahmed
+AU  - Leicht, Ethan
+AU  - Bislig, Jude Ethan
+AU  - Gupta, Arsh
+AU  - Shyamsundar Rekha, Akshaya
+AU  - Gupta, Shubham
+AU  - Anand, Haren
+AU  - Guo, Hangzhi
+AU  - Yadav, Amulya
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Algorithmic recourse focuses on providing individuals (end-users) negatively affected by ML-based decisions with recourse (actionable recommendations) that help them achieve a more favorable outcome in the future. Within this field, counterfactual explanations (CFEs) have gained popularity as a means of providing actionable recourse to end-users by identifying the minimal changes in their feature values needed to flip the ML model’s prediction to a more desirable one. Almost all prior work in CFEs rests on the assumption that minimizing (weighted) proximity (i.e., weighted L1 norm between the original input and the CFE) is a good proxy metric for capturing real-world human preferences with regard to the evaluation of prospective CFEs. Unfortunately, no prior work has empirically evaluated the effectiveness of weighted proximity in capturing real-world user preferences for evaluating CFEs. To address this research gap, this paper makes three novel contributions. First, we develop a novel two-phase study design that helps us effectively learn feature-specific weights for each individual end-user (in Phase 1) and evaluate the effectiveness of weighted proximity using those learned user-specific weights (in Phase 2). Second, we conduct the first-ever set of user studies (with 101 participants) that focus on evaluating the efficacy of global and personalized weighted proximity in capturing user preferences. Our experimental results show that global weighted proximity aligns with user preferences in only half the cases (53.21%), and personalized weighted proximity is not consistently better (56.91%). Finally, we conduct a series of sensitivity analyses to confirm that our findings are robust across different experimental settings and modeling choices.
+DO  - 10.1609/aies.v9i1.43174
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43174
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:alignment; schema=v1.8
+AN  - aies2026-aies-v9i1-43174
+ER  - 
+
+TY  - CONF
+TI  - Towards Fair and Accurate Short VAAs: Adaptive Ordering and Imputation in Democratic Recommendation Systems
+AU  - Dieing, Thilo I.
+AU  - Cohausz, Lea
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - In increasingly fragmented party systems, voters face growing difficulties in making informed electoral decisions. Voting Advice Applications (VAAs), questionnaires consisting of political statements, have become central democratic tools by helping citizens compare their political preferences with those of competing parties. Yet, modern VAAs face a fundamental trade-off: while shorter questionnaires could reduce user fatigue and dropout, they also suffer from severe advice degradation because they consider fewer statements. Existing solutions using adaptive questionnaires and imputation show promise, but remain largely focused on candidate-based systems, which only make up a small fraction of the overall electoral systems, and rarely address fairness across parties and opinion groups. This paper introduces a novel adaptive framework for party-based VAAs that combines active learning with imputation trained solely on previous user responses. Rather than relying on a fixed questionnaire, our system dynamically personalizes which statements users receive, in what order, and how many are needed before reliable voting advice can be generated. Evaluating the approach on two German municipal VAA datasets from Saarbrücken and Halle (Saale), we show that imputation and adaptive item selection strategies improve recommendation quality by more than 12 percentage points compared to conventional short VAAs. Beyond performance gains, our findings reveal systematic inequalities in how short VAAs represent minority opinions and smaller parties, highlighting the importance of cross-party fairness in the design of democratic digital tools.
+DO  - 10.1609/aies.v9i2.43186
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43186
+N1  - source=aies_2026.bib; retained_by=preservation; terms=preservation:minority; tier2:collective; schema=v1.8
+AN  - aies2026-aies-v9i2-43186
+ER  - 
+
+TY  - CONF
+TI  - The Deliberative Deficit: An Empirical Critique of LLMs in Democratic Discourse
+AU  - Flechtner, Maurice
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Large language models (LLMs) are increasingly deployed in settings that require collective reasoning on complex, value-laden problems. Confidence in these deployments rests largely on benchmarks for verifiable tasks (mathematics, coding, coordination games), yet many of these applications concern problems where no objectively correct answer exists and where decision quality instead depends on integrating pluralistic perspectives to find mutually acceptable solutions. We argue that LLM reasoning capacity on this class of problems cannot be fully inferred from verifiable-task benchmarks, and that procedural evaluations of LLM discourse (respectfulness, justification, engagement) are systematically insufficient. We apply the Deliberative Reason Index (DRI), a measure developed in political science and validated across citizen assemblies, as a tool for evaluating reliable group-level reasoning on pluralistic, non-verifiable problems. Synthesizing recent evidence across 1,980 five-agent LLM runs on 12 citizen-assembly topics across 11 frontier model configurations, we find that LLM groups produce discourse with procedural quality comparable to human deliberation, while gains in intersubjective consistency are small, topic-dependent, and concentrated on tractable rather than ethically contested questions. LLM groups exhibit roughly one-third the perspective diversity of human assemblies and reverse the human convergence pattern: human deliberation decreases dispersion as diverse views synthesise, whereas LLM deliberation increases it. Engineering diversity through persona prompting does not restore the human dynamic but inverts which component of deliberative reasoning is updated. We argue this warrants a critique of the deliberative capacity of LLMs that is missing from current benchmarks and dangerous for deployment. Our conclusion is constraining rather than prohibitive: LLMs can function as tools supporting human reasoning on pluralistic problems, but current evidence does not license treating them as autonomous deliberative agents.
+DO  - 10.1609/aies.v9i2.43197
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43197
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:assemblies and consultations; schema=v1.8
+AN  - aies2026-aies-v9i2-43197
+ER  - 
+
+TY  - CONF
+TI  - Sovereignty Theater: Why Sovereign AI Falls Short of Cultural Self-Determination
+AU  - Friedman Feldman, Bruria
+AU  - Smith, Tyler
+AU  - Wu, Victor Y.
+AU  - Zou, Yuanhao
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Sovereign AI has emerged as a major policy movement, with nearly 130 government-backed initiatives across more than 50 countries justified in part by the promise of cultural and linguistic self-determination. States seek national AI systems that reflect local languages, values, and knowledge traditions rather than importing the assumptions of foreign technology providers. Yet sovereign AI initiatives overwhelmingly depend on hardware, base architectures, and training methodologies originating from a concentrated set of U.S. vendors, and recent empirical research suggests that the dominant technical approach—fine-tuning a foreign-developed base model on local data—does not reliably produce culturally aligned outputs. We argue that sovereign AI in its current commercial form merely produces sovereignty theater: operational sovereignty (control over compute location and jurisdictional access) without epistemic sovereignty (genuine reflection of local cultural values and knowledge traditions). Bridging the sovereign AI policy literature with empirical research on LLM cultural alignment, and drawing on case analyses of ALLaM (Saudi Arabia) and SEA-LION (Singapore/Southeast Asia), we propose an analytical framework distinguishing infrastructural sovereignty, epistemic sovereignty, and participatory legitimacy. Importantly, our framework formalizes a bottleneck condition in which overall sovereignty is constrained by its weakest dimension. Genuine sovereign AI requires reorienting the project from a commercial product to a participatory endeavor that includes citizens, linguistic minorities, and civil society in the value-laden choices that shape model behavior. We close with a lifecycle decision matrix for policymakers and procurement teams to diagnose sovereignty theater in practice. Although developed in the context of sovereign AI, sovereignty theater offers a portable analytical lens for examining claims to technological sovereignty more broadly.
+DO  - 10.1609/aies.v9i2.43200
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43200
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:pluralistic alignment; schema=v1.8
+AN  - aies2026-aies-v9i2-43200
+ER  - 
+
+TY  - CONF
+TI  - AI Alignment Without Representation: From Scalar Rewards to Social Deliberation
+AU  - Ghasemi, Majid
+AU  - Crowley, Mark
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Despite the widespread adoption of Reinforcement Learning from Human Feedback, state-of-the-art AI systems remain prone to two persistent failures. The first is hallucination, or the production of fluent but false content. The second is moral drift, or the convergence toward exploitative or harmful equilibria under sustained deployment. We argue that these are not distinct pathologies but may arise from a single structural cause that we term feedback collapse. This occurs when complex plural human values are compressed into static scalar rewards by geographically concentrated annotator labor and frozen offline, producing a democratic deficit in which affected communities are excluded from the normative settlement while the training signal decouples from the latent objectives of truth and rightness. We propose Social Reinforcement Learning (Social RL) as a framework for restoring feedback integrity. By situating agents in environments driven by peer critique, reputation, observation, and sanction, Social RL treats alignment as an ongoing social negotiation rather than a static specification problem. Peer agents with asymmetric tool access supply truth-tracking epistemic signals and harm-reducing ethical sanctions that can re-align training gradients with true objectives. We formalize feedback integrity as a gradient alignment condition, analyze how social feedback restores it when collapsed, outline concrete LLM-scale experimental protocols, and critically examine political risks including majority capture, opponent shaping, and social washing. We derive governance recommendations for researchers, developers, and policymakers seeking to embed socially grounded alignment in democratically accountable institutions.
+DO  - 10.1609/aies.v9i2.43204
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43204
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:alignment; tier2:ai alignment; schema=v1.8
+AN  - aies2026-aies-v9i2-43204
+ER  - 
+
+TY  - CONF
+TI  - Data Annotation as Measurement
+AU  - Harvey, Emma
+AU  - Koenecke, Allison
+AU  - Kizilcec, Rene F.
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Modern AI systems depend on annotated data, but annotation is rarely treated as the act of measurement that it is. Instead, annotation quality is commonly reduced to agreement: if multiple annotators assign the same annotation to a data instance, the annotations are taken to be high-quality. Yet agreement does not establish whether annotations validly capture the underlying concept they are meant to represent. In this paper, we argue that data annotation should be understood as a measurement problem. Like other forms of measurement, annotation requires defining a concept, operationalizing it through an instrument, applying that instrument, and evaluating the reliability and validity of the resulting measurements. Drawing on a literature review of annotation quality research (N=132) and semi-structured interviews with annotation team members (N=10), we develop a framework for diagnosing and correcting annotation issues. First, we map key decision points across annotation processes - including task design, annotator management, quality assessment, quality improvement, and adjudication - that shape annotation outcomes. Second, we identify five distinct sources of annotation issues: error, ambiguity, impossibility, subjectivity, and annotator identity. Annotation problems that appear similar at the level of outcomes often require different process-level interventions based on their sources. Finally, we translate measurement theory into practical guidance for annotation teams, showing how assessments of reliability and validity can move beyond agreement alone. By reframing annotation as measurement, we offer a conceptual foundation for improving the quality of annotated data used in AI research and practice.
+DO  - 10.1609/aies.v9i2.43221
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43221
+N1  - source=aies_2026.bib; retained_by=preservation; terms=preservation:perspectives; tier2:adjudication; schema=v1.8
+AN  - aies2026-aies-v9i2-43221
+ER  - 
+
+TY  - CONF
+TI  - A Method for Learning Value Systems in Generative AI
+AU  - Holgado-Sánchez, Andrés
+AU  - Billhardt, Holger
+AU  - Ossowski, Sascha
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Value‑aware AI systems require explicit computational representations of human values (groundings) and their aggregation into value systems in order to align their decisions with ours. As such representations are difficult to elicit, value learning seeks to infer them by observing human behaviour. This work addresses the lack of grounded value learning methods in generative AI: existing approaches typically replicate human preferences without awareness of the multidimensional structure of value alignment, or lack principled value system elicitation methods. To address these gaps, we adapt a previously validated value system learning method to the generative AI setting, which, based on pairwise prompt-response preference data, simultaneously learns: i) an implementation of a grounding for a set of values given by a multi‑objective reward model, and ii) a value system representation in the form of a weighted linear scalarization of the previous grounding model. To ensure that the learned value systems are based on coherent value representations, our algorithm dynamically prioritizes the grounding learning process. We evaluate the method against baselines and a contemporary method on prompt-response preference datasets. Results show competitive performance and minimal trade‑offs against the baselines, while improving explainability.
+DO  - 10.1609/aies.v9i2.43222
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43222
+N1  - source=aies_2026.bib; retained_by=tier2+anchor; terms=tier2:ai alignment; schema=v1.8
+AN  - aies2026-aies-v9i2-43222
+ER  - 
+
+TY  - CONF
+TI  - The Judgment-Consequence Gap: LLM Moral Reasoning in Healthcare Decisions
+AU  - Hosseini, Hadi
+AU  - Khanna, Samarth
+AU  - Pierce, Leona
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As large language models (LLMs) enter high-stakes domains such as healthcare, understanding their moral reasoning becomes essential. Decisions about scarce medical resources often hinge on judgments of responsibility, particularly when patients' own actions contribute to illness. We investigate how LLMs reason about responsibility and its consequences, tracing their judgments across successive levels, from the behavior, to the resulting illness, to the denial of care. We evaluate a wide range of LLMs, spanning different model families and capability levels, on various clinical vignettes adapted from prior studies. Our results identify a judgment-consequence gap: LLMs largely agree with humans that patients bear responsibility for health-harming behaviors, yet overwhelmingly refuse to let that judgment influence how they allocate scarce resources. Specifically, LLMs default to random allocation, whereas humans consistently favor the less-culpable patient. Compared to humans, LLMs also place greater emphasis on access to information, reducing responsibility judgments when health-risk knowledge is unavailable. These findings reveal that LLMs apply a systematically different moral framework than humans when responsibility and resource scarcity intersect, surprisingly often amplifying normative disagreement with humans as reasoning capability increases.
+DO  - 10.1609/aies.v9i2.43223
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43223
+N1  - source=aies_2026.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2026-aies-v9i2-43223
+ER  - 
+
+TY  - CONF
+TI  - Examining the Effect of Explanations of AI Privacy Redaction in AI-mediated Interactions
+AU  - Kaushik, Roshni
+AU  - Sap, Maarten
+AU  - Onoue, Koichi
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - AI-mediated communication is increasingly being utilized to help facilitate interactions; however, in privacy sensitive domains, an AI mediator has the additional challenge of considering how to preserve privacy. In these contexts, a mediator may redact or withhold information, raising questions about how users perceive these interventions and whether explanations of system behavior can improve trust. In this work, we investigate how explanations of redaction operations can affect user trust in AI-mediated communication. We devise a scenario where a validated system removes sensitive content from messages and generates explanations of varying detail to communicate its decisions to recipients. We then conduct a user study with 180 participants that studies how user trust and preferences vary for cases with different amounts of redacted content and different levels of explanation detail. Our results show that participants believed our system was more effective at preserving privacy when explanations were provided (p
+DO  - 10.1609/aies.v9i2.43240
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43240
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i2-43240
+ER  - 
+
+TY  - CONF
+TI  - Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers
+AU  - Kim, Taenyun
+AU  - Bogucka, Edyta
+AU  - Quercia, Daniele
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation. In this approach, researchers poll participants on hypothetical dilemmas and use the aggregated votes to train a policy that an AI model then applies at scale. Before any vote is cast, developers make three key choices in the moral AI elicitation pipeline: feature scoping, voter sampling, and question framing. In other words, they decide which features go to a vote, which voters to include, and how to present the question. These choices are often opaque, undocumented, and treated as technical details rather than normative ones. We examine each of these choices within a common empirical study and show that each can shape the preferences produced by moral AI elicitation. Across two phases (N = 809) in three deployment contexts (i.e., AI kidney allocation, AI agents simulating absent workers, and generative AI depictions of the deceased), we examine the three main stages of the moral AI elicitation pipeline. First, morally relevant features shift across contexts. This suggests that feature schemas should not be assumed to transfer across deployment domains. Second, preferences differ by political ideology for roughly one-third of features, with some differences reversing direction. The ideological composition of the voter pool can therefore affect the resulting aggregated preference profile. Third, the wording of the elicitation question can narrow or widen ideological gaps by up to a full scale point. The framing conditions also change how moral foundations are associated with participants' judgments. Taken together, these findings suggest that voting-based alignment cannot deliver fair or transparent AI by aggregation alone; at minimum, each stage of the moral AI elicitation pipeline should be audited and disclosed.
+DO  - 10.1609/aies.v9i3.43246
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43246
+N1  - source=aies_2026.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - aies2026-aies-v9i3-43246
+ER  - 
+
+TY  - CONF
+TI  - When AI Becomes Routine: A Decade of Public AI Mediation in Korean Go Commentary
+AU  - Kwak, Haewoon
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - When AI systems surpass elite human performance and settle into everyday expert practice, the question that follows is how machine judgment is made publicly intelligible and attributable. We study Korean Go commentary on YouTube, where AI systems such as KataGo became standard analytic tools after AlphaGo. Our corpus spans a decade (2016--2025) and approximately 1,900 hours of footage across institutional broadcasters and creator-led channels, in four phases of AI availability. We document a widening asymmetry between visual and verbal AI presence: AI winrate graphs are visible for about 98% of late-period institutional broadcast time, yet AI-salient talk accounts for only 2.63% of sentences. What recedes is the source label, not the metric: winrate and point-gap talk persists while ``AI'' itself goes unsaid. We read this recession as the communicative signature of domestication. Our strongest evidence is a compositional shift in verbal mediation: explicit naming gives way to interface rendering, and creator-led commentary leans further toward it than institutional commentary. We develop a typology distinguishing source-foregrounding from source-receding mediation, and argue that the two preserve different hooks of contestability: discursive anchors through which audiences can recognize and question the machine source. The stakes of that difference rise in domains where AI is less reliable than in Go.
+DO  - 10.1609/aies.v9i3.43249
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43249
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i3-43249
+ER  - 
+
+TY  - CONF
+TI  - The Mitigation Paradox: How AI-Disinformation Experts Converge on Threats but Polarize on Solutions
+AU  - Loth, Alexander
+AU  - Schütz, Mina
+AU  - Kappes, Martin
+AU  - Pahl, Marc-Oliver
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Policy on AI-generated disinformation is being shaped before the expert community advising it has converged on what works. We report a structured survey of 54 experts across 21 countries (Jul 2025 - Mar 2026) designed to map disagreement, not just opinion. Threat assessments converge sharply: 78% rate election-related video deepfakes as the single most urgent risk, and every modality-domain pair is rated above 5/7. Mitigation assessments do not: media literacy is the only strategy whose distribution is genuinely bimodal (BC=0.559), and government regulation is the most-chosen "most effective" (30%) yet is rated least effective by 15% of the same panel. We term this gap between converged threat perceptions and polarized mitigation preferences the Mitigation Paradox. Group comparisons further reveal that non-EU respondents rate financial-domain voice cloning as significantly more threatening than EU respondents (p=0.024), and rate technical detection as a more effective mitigation (p=0.060). Combining disagreement metrics with LLM-assisted thematic coding of open-ended responses, we identify three epistemic communities - infrastructure-oriented, governance-oriented, and harm-proximity - whose threat models systematically diverge. The Mitigation Paradox argues for layered, portfolio-style governance rather than single-strategy commitments.
+DO  - 10.1609/aies.v9i3.43261
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43261
+N1  - source=aies_2026.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - aies2026-aies-v9i3-43261
+ER  - 
+
+TY  - CONF
+TI  - FedFAn: Federated Learning for Facial Animation
+AU  - Parry, Jack
+AU  - Namboodiri, Vinay
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - We present FedFAn: a system for training audio-driven facial animation models across organisational silos via federated learning. AI model providers often serve companies who hold sensitive biometric and proprietary data which is used for model inference and would make valuable training data, but cannot be shared with the provider. In this paper we begin by outlining the problem of privacy in facial animation, defining three key groups for whom privacy is a consideration: trainers, managers and drivers. Trainers of avatar facial animation serve managers (such as studios) that hold valuable driver performance data and character avatars, but cannot reasonably centralise those assets with the trainer. FedFAn allows collaborative training by separating the identity-agnostic model components from the components that leak identifying information: the audio encoder is trained only during public pretraining and frozen during private federated learning, speaker style embeddings remain local to each client, and secure aggregation prevents the server from observing individual updates. We show that a model pretrained on the VOCASET dataset and then privately finetuned with federated learning on the HDTF dataset improves adaptation to unseen speakers, showing that decentralised data can improve cross-domain robustness, which benefits both trainers and managers. We evaluate the privacy limits of this architecture using membership inference attack, model-internal speaker identification, gradient leakage analysis, and a differential privacy feasibility study. These experiments show where speaker information (which can identify drivers) is carried, informing our model architecture and data handling approach.
+DO  - 10.1609/aies.v9i3.43286
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43286
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:secure aggregation; tier2:privacy; schema=v1.8
+AN  - aies2026-aies-v9i3-43286
+ER  - 
+
+TY  - CONF
+TI  - ABLEIST: Intersectional Disability Bias in LLM-Generated Hiring Scenarios
+AU  - Phutane, Mahika
+AU  - Jung, Hayoung
+AU  - Kim, Matthew
+AU  - Mitra, Tanu
+AU  - Vashistha, Aditya
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Large language models (LLMs) are increasingly under scrutiny for perpetuating identity-based discrimination in high-stakes domains such as hiring. This risk is particularly severe for people with disabilities (PwD), who already face disproportionately high unemployment and systemic discrimination. Existing research on disability bias in LLM-based hiring remains largely Western-centric, overlooking how disability in Global South regions, like India, intersects with marginalized gender and caste identities to shape AI-mediated hiring for PwD. We address this gap by conducting a comprehensive audit of six LLMs across 2,820 hiring scenarios spanning diverse disability, gender, nationality, and caste profiles. To capture subtle intersectional harms and biases, we introduce ABLEist (Ableism, Inspiration, Superhumanization, and Tokenism), a set of five ableism-specific and three intersectional harm metrics grounded in disability studies literature. Our results reveal significant increases in ABLEist harms towards disabled candidates--harms that many state-of-the-art tools fail to detect. These harms were further amplified by sharp increases in intersectional harms (e.g., Tokenism) for gender and caste-marginalized disabled candidates, highlighting critical limitations in current safety tools and the need for intersectional safety evaluations of frontier models in high-stakes domains like hiring.
+DO  - 10.1609/aies.v9i3.43291
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43291
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i3-43291
+ER  - 
+
+TY  - CONF
+TI  - Can LLMs Rank? A Tale of Triads and Triage
+AU  - Pokharel, Gaurab
+AU  - Farabi, Shafkat
+AU  - Fowler, Patrick J.
+AU  - Das, Sanmay
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - From housing allocation for households experiencing homelessness to triage in emergency departments, LLMs are increasingly being considered as judges of consequential decisions that require ranking people for scarce resources. Ranking large groups simultaneously is cognitively demanding and error-prone. A natural solution, drawing on decades of social choice theory, elicits pairwise comparisons and aggregates them into a total order. However, a fundamental question remains when LLMs serve as the pairwise judge: how can a practitioner tell, before committing to a ranking, whether the LLM's judgments are sufficiently consistent to trust the result? We discuss two different ways of identifying consistency. A classical diagnostic, the coefficient of consistency ζ, originally developed to measure judge reliability by counting circular triads in tournament graphs, provides a cheap, model-free measure of intra-run consistency. Various standard measures of distance between rankings, for example Kendall's τ, can measure inter-run variability. We show, in both theory and practice, that these measures are independently valuable, and advocate for using both to assess reliability of rankings. We demonstrate the practical importance of our results across two high-stakes prioritization tasks: homelessness service allocation and emergency department triage. Three different leading LLMs have considerably different performance profiles across these two axes of consistency. We provide guidelines for how practitioners could think about measuring and assessing consistency before committing to a model for ranking or prioritization.
+DO  - 10.1609/aies.v9i3.43292
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43292
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:social choice; schema=v1.8
+AN  - aies2026-aies-v9i3-43292
+ER  - 
+
+TY  - CONF
+TI  - Diet: Interpreting Ethical Tradeoffs in Disrupted Sociotechnical Systems
+AU  - Sundaresan, Divya
+AU  - Briggs, Gordon
+AU  - Singh, Munindar P.
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Sociotechnical systems comprise human stakeholders and autonomous agents, where stakeholders may prioritize values (such as freedom, security, and welfare) differently. Social norms operationalize these values by specifying expectations about acceptable behavior. Disruptions in sociotechnical systems create situations in which these stakeholder expectations cannot always be simultaneously satisfied, forcing autonomous agents to make ethically consequential decisions and sometimes deviate from otherwise desirable behavior. We investigate this problem in a multiagent ride-sharing domain in which autonomous vehicles respond to stochastic disruptions such as vehicle breakdowns. Our contributions are threefold: (1) we formulate disruption response as a decentralized multiagent reinforcement learning problem grounded in a transit setting; (2) we analyze reward functions aligned with utilitarian and Rawlsian ethical theories, alongside a profit-maximizing baseline, and demonstrate how ethical objectives shape disruption-response behavior and rider well-being; and (3) we introduce an analysis framework that interprets learned policies by extracting their implicit priorities over ethically relevant system criteria informed by social norms. We find that ethical reward design improves aggregate well-being, induces distinct disruption-response behaviors under different ethical reward formulations, and may concentrate disruption-handling load on ethically motivated agents in heterogeneous populations.
+DO  - 10.1609/aies.v9i4.43323
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43323
+N1  - source=aies_2026.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - aies2026-aies-v9i4-43323
+ER  - 
+
+TY  - CONF
+TI  - Rules or Character? Scaling Laws for AI Safety Design (Extended Abstract)
+AU  - Takahashi, Satoshi
+AU  - Kouno, Nobuji
+AU  - Komatsu, Masaaki
+AU  - Hamamoto, Ryuji
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers), which blocks harmful outputs at inference time, yet little formal analysis exists on how their optimal balance should change as deployment scales increase. We introduce a stylized comparative-statics model that parameterizes safety design as a resource allocation α ∈ [0,1] between these two approaches, incorporating scale-dependent filter degradation, common-mode failures, and character fragility—the risk that shaped behavior degrades or collapses under novel conditions. Under a multiplicative Pareto damage model, we derive closed-form expected harm and supplement it with tail-risk (CVaR) analysis via Monte Carlo simulation. Across three scenarios (optimistic, moderate, pessimistic), the optimal α* is interior or at the rules-only boundary and shifts weakly toward character shaping as deployment scale T grows, from negligible (Δα* = +0.01) to pronounced (Δα* = +0.21) depending on scenario. The dominant parameter is the baseline character fragility rate p(0)_frag, which shifts α* by 0.50 across its range—far exceeding the effect of tail severity, filter quality, or common-mode failure probability. CVaR and expected-harm optima converge at large T. These results suggest that safety architecture decisions depend less on deployment scale per se than on the reliability of character shaping under distributional shift.
+DO  - 10.1609/aies.v9i4.43325
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43325
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:alignment; schema=v1.8
+AN  - aies2026-aies-v9i4-43325
+ER  - 
+
+TY  - CONF
+TI  - Fairness over Time: Evaluating How Fairness Objectives Shape Health Disparities in AI-Driven Clinical Decision Support Systems
+AU  - Wade, Kaitlyn E.
+AU  - Huang, Alice C. W.
+AU  - Lizotte, Daniel J.
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Fairness is not a single concept and may be operationalized using a variety of definitions reflecting different ethical commitments, yet these are rarely compared systematically in healthcare AI. Fairness is often assessed using static metrics, even though clinical decisions are sequential and evolve over time. In chronic disease management, small inequities early in a care pathway may accumulate into long-term disparities. We develop a Markov cohort microsimulation model to examine how different fairness operationalizations align with or diverge from their intended goals. Using our simulation model, we compare five heuristic allocation policies based on Utilitarian, Egalitarian, Sufficientarian, Prioritarian, and Needs-Based principles against a Status Quo baseline. Outcomes are evaluated longitudinally using quality-adjusted life years, between-group inequality, threshold attainment, and cost-effectiveness. No policy performs best across all criteria; most achieve their intended objective while performing worse on metrics aligned with other frameworks, though the policies with the strongest local equity commitments, Egalitarian and Sufficientarian, notably underperform even on their own aligned metrics. These same two policies also produce the largest cumulative disparities over time. We show that this may come from a structural access mechanism, where locally fair allocation rules do not offset the access disparity that determines whether resources are actually received. These findings show that the choice of fairness definition can have consequential and sometimes counterintuitive effects, reinforcing the need for explicit, longitudinal fairness evaluation.
+DO  - 10.1609/aies.v9i4.43339
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43339
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:fair division; welfare:egalitarian and prioritarian; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - aies2026-aies-v9i4-43339
+ER  - 
+
+TY  - CONF
+TI  - Applications of Risk Science to AI Fairness Evaluation: Principles, Challenges, and Best Practices
+AU  - Wilson, Kyra
+AU  - Kang, Sabrina
+AU  - Dash, Saloni
+AU  - Caliskan, Aylin
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Scholarly work which aims to describe potential societal impacts (e.g., risks) of proliferating technology (especially related to artificial intelligence or other algorithmic systems) is likely to have an impact beyond the scientific communities it was written for, given that general society itself is a primary object of study. However, it is an open question whether the current practices of AI evaluation scholarship follow the principles and best practices established by \textitrisk science, which aims to systematically generate knowledge related to understanding, assessing, communicating, managing, and governing risk. In this work, we examine this in depth by conducting a literature review of scholarly works purporting to evaluate the bias or fairness of technological systems used for tasks related to hiring and employment. Through analysis of 22 common fairness evaluation metrics and studies using them, we find that most characterize the severity of bias- or fairness-related consequences but do not follow best practices to characterize the uncertainty around either the occurrence of these consequences or severity estimates. Next, we conduct a case study of fairness evaluation for an AI-mediated resume screening task and demonstrate how principles of risk science can be incorporated into such an evaluation. Finally, we propose the AI Risk Report Card, which facilitates the reporting and communication of risk assessment results to stakeholders in positions to act based on the predicted risks. The outcomes of these activities suggest that further research at the convergence of risk science and AI evaluation can lead to advancements in AI assessments of societal impact by enabling shared frameworks to evaluate and discuss AI risks both within and outside of the scientific community.
+DO  - 10.1609/aies.v9i4.43345
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43345
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i4-43345
+ER  - 
+
+TY  - CONF
+TI  - What Does the Credential Still Certify? Cognitive Stewardship for AI-Mediated Education
+AU  - Yao, Kai
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Generative AI is changing a basic premise of educational assessment: that submitted work can reliably evidence the human capacities a credential claims to certify. The challenge is not simply whether students use AI, but what remains inferable about learning when some cognitive work has been delegated to a system. This paper develops cognitive stewardship, a framework for AI-mediated assessment that links the learning claim, delegation boundary, evidence standard, and safeguards. We then audit verified public generative AI assessment guidance from 30 universities. Using a pre-specified scoring codebook, a written, source-grounded rubric, four open-weight LLM models applied the rubric as structured coders, with scores averaged to reduce dependence on any single model's bias. The audit shows that public policies are becoming better at classifying AI use than at explaining what evidence and protections preserve credential validity. Boundaries are more visible than evidence standards; safeguards are uneven; and guidance is clearest when AI use resembles final-output substitution rather than feedback, access, verification, or professional workflow. The takeaway is that permission categories are necessary but insufficient. Universities need policies that make the certification logic visible: what learners may delegate, what they must still demonstrate, and how institutions will protect fair evidence rather than merely monitor AI use.
+DO  - 10.1609/aies.v9i4.43349
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43349
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i4-43349
+ER  - 
+
+TY  - CONF
+TI  - When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution
+AU  - Yao, Kai
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As AI systems become capable of producing the essays, code, reports, summaries, plans, and decisions through which institutions usually recognize competence, a familiar question becomes harder to answer: what is learning for? Existing AI ethics rightly emphasizes present failures—bias, opacity, hallucination, labor extraction, privacy risk, and weak accountability. But if the case for learning rests only on those failures, then each technical improvement appears to weaken it. This article develops a different answer. Using the idealization of AI that executes specified tasks flawlessly while lacking authority over purposes, legitimacy, and responsibility, we argue for post-instrumental learning: learning that preserves the capacities people and institutions need when many useful outputs can be delegated. We analyze five such capacities—end-setting, reason-giving, contestability, refusal/revision, and participation—and name their erosion capacity dissolution. The central case is assessment under generative AI. When a polished artifact no longer reliably evidences understanding, institutions must assess the learner's accountable relation to AI-mediated work rather than the artifact alone. The takeaway is practical: AI governance should evaluate not only whether systems perform well, but also whether their deployment leaves people able to understand, challenge, revise, and share responsibility for the practices those systems mediate.
+DO  - 10.1609/aies.v9i4.43350
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43350
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i4-43350
+ER  - 
+
+TY  - CONF
+TI  - Is This AI? Longitudinal Analysis of Strategies Used for AI Detection on Two Subreddits
+AU  - Yeung, Christina
+AU  - Weld, Galen
+AU  - Mink, Jaron
+AU  - Roesner, Franziska
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - As AI-generated content (e.g., “slop”) becomes more prevalent online, people are developing strategies to attempt to identify it (or, conversely, to gain confidence that something is not AI-generated). What strategies are people using, and how are they changing over time as generative AI models themselves change? In this work, we catalog and analyze 2 years and 8 months of the AI detection strategies discussed by users of two popular Reddit communities (r/isthisAI and r/RealOrAI) that use the wisdom of crowds to identify AI-generated media. Through a mixed-method analysis of 13,098 posts and 222,060 comments within these communities, we catalog and analyze the prevalence of 12 AI-detection strategies, including examining fine-grained physical details, recognizing trends in AI-created content, and the assumptions people make about what models are capable of producing. Furthermore, we find that these strategies and mental models shift over time in accordance with changing AI capabilities and in response to online social trends. By systematically cataloging users’ AI detection strategies, we lay the groundwork for user-facing guidance and future research.
+DO  - 10.1609/aies.v9i4.43351
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43351
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:wisdom of crowds; schema=v1.8
+AN  - aies2026-aies-v9i4-43351
+ER  - 
+
+TY  - CONF
+TI  - Algorithmic Shortlisting in Participatory Budgeting
+AU  - Zambrano, Juan Ignacio
+AU  - Contet, Clément
+AU  - Gudiño-Rosero, Jairo
+AU  - Garrido-Lucero, Felipe
+AU  - Grandi, Umberto
+AU  - Hidalgo, César A.
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Participatory budgeting is a democratic innovation that allows citizens to propose and vote on public investment projects. To help organizers manage large volumes of submissions, we design and test AI methods for algorithmic shortlisting. Our algorithms predict which projects are likely to be funded using only project features and anonymous historical voting data. We demonstrate the limitations of a naive approach that uses a large language model to rank projects based on past success and propose a vote-based pipeline that enables state-of-the-art LLMs to perform on par with classical machine learning. Our findings indicate that user preferences in participatory budgeting are stable enough to allow algorithmic shortlisting to approximate an initial selection of projects effectively.
+DO  - 10.1609/aies.v9i4.43354
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43354
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:participatory budgeting; tier2:collective; schema=v1.8
+AN  - aies2026-aies-v9i4-43354
+ER  - 
+
+TY  - CONF
+TI  - Do We Need Computing Power Ethics? Participation Conditions in the AI Era
+AU  - Jiang, Yunqi
+PY  - 2026
+T2  - AAAI/ACM Conference on AI, Ethics, and Society
+AB  - The ethics of computing power distribution is commonly treated as a question of price, infrastructure, environmental burden, security, or geopolitical inequality. The existing frameworks illuminate important aspects of computing power, with usually translating it into another object, such as a commodity, environmental externality, security lever, or strategic resource. They struggle to explain why computing power allocation may be ethically significant before any identifiable model failure or direct harm occurs. So I claim that we need a distinct computing power ethics. First, I point out what has been overlooked in the current distribution system of computing power. Second, through cases involving public-health modelling and marginalised-language communities, I show that the Market-Permission Principle has missed out some significant normative issues. Finally, I propose we need a condition-oriented ethical theory of computing power which concerns meaningful participation in AI-mediated social life itself.
+DO  - 10.1609/aies.v9i4.43371
+UR  - https://ojs.aaai.org/index.php/AIES/article/view/43371
+N1  - source=aies_2026.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - aies2026-aies-v9i4-43371
+ER  - 
+

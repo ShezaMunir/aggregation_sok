@@ -1,0 +1,92 @@
+TY  - JOUR
+TI  - Collective Intelligence in Decision-Making with Non-Stationary Experts
+AU  - Abels, Axel
+AU  - Trianni, Vito
+AU  - Nowé, Ann
+AU  - Lenaerts, Tom
+PY  - 2025
+T2  - Journal of Artificial Intelligence Research
+AB  - When sufficient experience to make informed decisions is unavailable, expert advice can help us navigate uncertainty. As expertise evolves, driven by continuous learning in human experts or model updates in artificial experts, it is crucial to adopt adaptive approaches. Existing methods for exploiting non-stationary experts focus on competing with the single best expert. In contrast, this work harnesses the power of collective intelligence to facilitate better decision-making in the face of evolving expertise or dynamic environments. To achieve this, we propose the novel CORVAL approach which optimally combines the insights of multiple experts. By adapting to drifts in expertise, our novel approach can surpass the performance of the single best expert as well as previous approaches. Empirical evaluations on a diverse range of non-stationary problems, including active learning applications, showcase the improved performance of our approach in collective decision-making scenarios.
+DO  - 10.1613/jair.1.16228
+UR  - https://www.jair.org/index.php/jair/article/view/16228
+KW  - uncertainty; reinforcement learning; machine learning; active learning
+N1  - source=jair_2025.bib; retained_by=tier1; terms=tier1:collective decision; tier2:collective; schema=v1.8
+AN  - jair2025-jair-1-16228
+ER  - 
+
+TY  - JOUR
+TI  - Stability in Online Coalition Formation
+AU  - Bullinger, Martin
+AU  - Romen, René
+PY  - 2025
+T2  - Journal of Artificial Intelligence Research
+AB  - Coalition formation is concerned with the question of how to partition a set of agents into disjoint coalitions according to their preferences. Deviating from most of the previous work, we consider an online variant of the problem, where agents arrive in sequence. Whenever an agent arrives, they must be assigned to a coalition immediately and irrevocably. The scarce existing literature on online coalition formation has focused on maximizing social welfare, a demanding requirement, even in the offline setting. Instead, we seek to achieve stable coalition structures online and treat the most common stability concepts based on deviations by single agents and groups of agents. We present a comprehensive picture in additively separable hedonic games, leading to dichotomies, where positive results are obtained by deterministic algorithms and negative results even hold for randomized algorithms.
+DO  - 10.1613/jair.1.16420
+UR  - https://www.jair.org/index.php/jair/article/view/16420
+KW  - game theory; multiagent systems
+N1  - source=jair_2025.bib; retained_by=tier1; terms=tier1:coalition formation; tier2:welfare; schema=v1.8
+AN  - jair2025-jair-1-16420
+ER  - 
+
+TY  - JOUR
+TI  - Control by Adding or Deleting Edges in Graph-Restricted Weighted Voting Games
+AU  - Kaczmarek, Joanna
+AU  - Rothe, Jörg
+AU  - Talmon, Nimrod
+PY  - 2025
+T2  - Journal of Artificial Intelligence Research
+AB  - Graph-restricted weighted voting games generalize weighted voting games, a well-studied class of succinct simple games, by embedding them into a communication structure: a graph whose vertices are the players some of which are connected by edges. In such games, only sufficiently connected coalitions are taken into consideration for calculating the players' power indices. Focusing on the probabilistic Penrose-Banzhaf index (which Dubey and Shapley proposed in 1979 as an alternative to the normalized Penrose-Banzhaf index) and the Shapley-Shubik index, we study control of these games by an agent who can add edges to or delete edges from the given graph. We determine upper and lower bounds on how much such control actions can change a distinguished player's power and we study the computational complexity of the related problems.
+DO  - 10.1613/jair.1.16940
+UR  - https://www.jair.org/index.php/jair/article/view/16940
+KW  - game theory; complexity; multiagent systems; decision theory; cooperative game; weighted voting game
+N1  - source=jair_2025.bib; retained_by=tier1; terms=tier1:voting games; tier2:collective; tier2:weighting; schema=v1.8
+AN  - jair2025-jair-1-16940
+ER  - 
+
+TY  - JOUR
+TI  - Solving Overlapping Coalition Structure Generation in Task-Based Settings
+AU  - Zhang, Guofu
+AU  - Su, Zhaopin
+AU  - Song, Xiaoxiao
+AU  - Gao, Zixuan
+AU  - Li, Miqing
+AU  - Yao, Xin
+PY  - 2025
+T2  - Journal of Artificial Intelligence Research
+AB  - The overlapping coalition structure generation problem (OCSGP) is a challenging computational problem in multi-agent systems. It focuses on selecting possibly overlapping coalitions from a set of agents to maximize the social welfare of all coalitions while containing all agents. However, in practical applications, coalitions may be formed to selectively respond to tasks from a pool of potential tasks assigned to agents. Consequently, this study considers OCSGP in a task-based setting, where each agent has finite resources and can only respond to tasks of interest, and each coalition can only take on mutually disjoint subsets of tasks. Specifically, we first present a model of the task-based OCSGP and investigate its computational complexity. Our theoretical results demonstrate that this specific OCSGP remains intractable even under restrictive assumptions. Subsequently, we develop a generic evolutionary algorithm framework (EAF) to find an approximately optimal overlapping coalition structure (OCS) in time quartic polynomial in the size of the instance. Particularly, we devise a specific solution-repair based heuristic of cubic time complexity to generate a feasible OCS. Finally, we compare the proposed EAF with a task-oriented heuristic and a hybrid algorithm for OCSGP, and examine its applicability in the pursuit-evasion problem. The experimental results reveal that the proposed EAF exhibits superior performance in finding feasible OCSs and demonstrates flexible adaptability to problem size and resource status.
+DO  - 10.1613/jair.1.17138
+UR  - https://www.jair.org/index.php/jair/article/view/17138
+KW  - Multi-agent systems
+N1  - source=jair_2025.bib; retained_by=tier1; terms=tier1:coalition formation; tier2:welfare; schema=v1.8
+AN  - jair2025-jair-1-17138
+ER  - 
+
+TY  - JOUR
+TI  - Parameterized Analysis of Bribery in Challenge the Champ Tournaments
+AU  - Chaudhary, Juhi
+AU  - Molter, Hendrik
+AU  - Zehavi, Meirav
+PY  - 2025
+T2  - Journal of Artificial Intelligence Research
+AB  - Challenge the champ tournaments are one of the simplest forms of competition, where a (initially selected) champ is repeatedly challenged by other players. If a player beats the champ, then that player is considered the new (current) champ. Each player in the competition challenges the current champ once in a fixed order. The champ of the last round is considered the winner of the tournament. We investigate a setting where players can be bribed to lower their winning probability against the initial champ. The goal is to maximize the probability of the initial champ winning the tournament by bribing the other players, while not exceeding a given budget for the bribes. Mattei et al. [Journal of Applied Logic, 2015] showed that the problem can be solved in pseudo-polynomial time, and that it is in XP when parameterized by the number of players. We show that the problem is weakly NP-hard and W[1]-hard when parameterized by the number of players. On the algorithmic side, we show that the problem is fixed-parameter tractable when parameterized either by the number of different bribe values or the number of different probability values. To this end, we establish several results that are of independent interest. In particular, we show that the product knapsack problem is W[1]-hard when parameterized by the number of items in the knapsack, and that constructive bribery for cup tournaments is W[1]-hard when parameterized by the number of players. Furthermore, we present a novel way of designing mixed integer linear programs, ensuring optimal solutions where all variables are integers.
+DO  - 10.1613/jair.1.17239
+UR  - https://www.jair.org/index.php/jair/article/view/17239
+KW  - game theory; Computational Social Choice; computational complexity; Algorithms
+N1  - source=jair_2025.bib; retained_by=tier1; terms=tier1:social choice; schema=v1.8
+AN  - jair2025-jair-1-17239
+ER  - 
+
+TY  - JOUR
+TI  - Learning How to Vote with Principles: Axiomatic Insights Into the Collective Decisions of Neural Networks
+AU  - Hornischer, Levin
+AU  - Terzopoulou, Zoi
+PY  - 2025
+T2  - Journal of Artificial Intelligence Research
+AB  - Can neural networks be applied in voting theory, while satisfying the need for transparency in collective decisions? We propose axiomatic deep voting: a framework to build and evaluate neural networks that aggregate preferences, using the well-established axiomatic method of voting theory. Our findings are: (1) Neural networks, despite being highly accurate, often fail to align with the core axioms of voting rules, revealing a disconnect between mimicking outcomes and reasoning. (2) Training with axiom-specific data does not enhance alignment with those axioms. (3) By solely optimizing axiom satisfaction, neural networks can synthesize new voting rules that often surpass and substantially differ from existing ones. This offers insights for both fields: For AI, important concepts like bias and value-alignment are studied in a mathematically rigorous way; for voting theory, new areas of the space of voting rules are explored.
+DO  - 10.1613/jair.1.18890
+UR  - https://www.jair.org/index.php/jair/article/view/18890
+KW  - Voting theory; Neural networks
+N1  - source=jair_2025.bib; retained_by=tier1; terms=tier1:voting rule; tier1:collective decision; tier2:collective; schema=v1.8
+AN  - jair2025-jair-1-18890
+ER  - 
+

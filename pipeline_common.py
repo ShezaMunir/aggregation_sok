@@ -19,6 +19,7 @@ import random
 import threading
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -437,3 +438,506 @@ def miniconf_year(host, venue, year, booktitle, allowed_groups, out_dir,
         "data_revision": time.strftime("%Y-%m-%d"),
     }
     return entries, manifest
+
+
+# ----------------------------------------------------------------------------
+# Crossref-listed venues (journals, ACM proceedings, PACM HCI issues)
+# ----------------------------------------------------------------------------
+# Crossref gives the authoritative list of a venue's papers and the counts for
+# PRISMA. Abstracts come from Crossref where the publisher deposits them, and
+# otherwise, by DOI, from the Springer Nature Meta API (Springer journals),
+# OpenAlex, Semantic Scholar, and the publisher's article page, in that order. Items that are not
+# research papers (book reviews, editorials, corrections) are removed and
+# counted. Records still without an abstract are kept and screened on title.
+
+CROSSREF_API = "https://api.crossref.org/works"
+CROSSREF_MAILTO = "aggregation-sok-retrieval@users.noreply.github.com"
+OPENALEX_API = "https://api.openalex.org/works"
+SPRINGER_META_API = "https://api.springernature.com/meta/v2/json"
+
+NON_RESEARCH_PATTERNS = [
+    ("book review", r"^\s*(book reviews?|review of|reviews?:|review essay|critical notice)\b"),
+    ("editorial", r"^\s*(editorial|editor'?s? (note|introduction)|from the editors?|guest editorial|preface)\b"
+                  r"|^\s*pacm\w*\b[^:]*\beditorial\b"),
+    ("introduction to issue", r"^\s*introduction\s*(to|:)?\s*(the\s+)?(special|symposium|topical|virtual)\b"
+                              r"|^\s*(special|symposium|topical) (issue|collection)\b"),
+    ("correction", r"^\s*(correction|corrigendum|erratum|errata|retraction|retracted|addendum)\b"
+                   r"|^\s*(correction|erratum) to\b|^\s*publisher correction\b"),
+    ("front or back matter", r"\bcover and (front|back) matter\b|\b(front|back) matter\b\s*$|"
+                             r"^\s*(front matter|back matter|issue information|contents|index|"
+                             r"list of reviewers|acknowledg(e)?ments? to reviewers|announcements?|call for papers|"
+                             r"in memoriam|obituary)\b"),
+]
+# A Cambridge or Wiley book review is often titled by the book itself, e.g.
+# "Jane Doe, Some Book (Oxford University Press, 2021), 240 pp." Catch that shape.
+BOOK_CITATION_RE = re.compile(r"(university press|press,|publishing|\bpp\.|\bisbn\b|\(\s*[A-Z][^()]*,\s*(19|20)\d\d\s*\))", re.I)
+SPRINGER_NON_RESEARCH_GENRES = {
+    "bookreview": "book review", "book review": "book review",
+    "editorial": "editorial", "editorialnotes": "editorial", "editorial notes": "editorial",
+    "correction": "correction", "erratum": "correction", "retraction": "correction",
+    "announcement": "front or back matter",
+}
+
+
+def strip_jats(text):
+    """Crossref abstracts arrive as JATS XML; keep the prose."""
+    if not text:
+        return ""
+    text = re.sub(r"<jats:title>\s*(abstract|summary)\s*</jats:title>", " ", str(text), flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def crossref_iter(filters, select=None, rows=1000, query=None):
+    """Every Crossref work matching filters (a dict), with cursor paging.
+
+    query: optional dict of Crossref query fields, e.g.
+    {"query.container-title": "..."}; results then come in relevance order.
+    """
+    params = {"filter": ",".join(f"{k}:{v}" for k, v in filters.items()),
+              "rows": rows, "cursor": "*", "mailto": CROSSREF_MAILTO, **(query or {})}
+    if select:
+        params["select"] = ",".join(select)
+    while True:
+        url = CROSSREF_API + "?" + urllib.parse.urlencode(params)
+        message = http_get_json(url)["message"]
+        items = message.get("items", [])
+        yield from items
+        if not items or not message.get("next-cursor"):
+            return
+        params["cursor"] = message["next-cursor"]
+        time.sleep(0.2)
+
+
+def crossref_ranked(filters, query, rows=1000, max_offset=9000):
+    """Crossref results in relevance order, by offset (cursor paging drops the ranking)."""
+    for offset in range(0, max_offset + 1, rows):
+        params = {"filter": ",".join(f"{k}:{v}" for k, v in filters.items()),
+                  "rows": rows, "offset": offset, "mailto": CROSSREF_MAILTO, **query}
+        items = http_get_json(CROSSREF_API + "?" + urllib.parse.urlencode(params))["message"].get("items", [])
+        yield items
+        if len(items) < rows:
+            return
+        time.sleep(0.2)
+
+
+def crossref_year(item):
+    for field in ("issued", "published-print", "published-online", "published", "created"):
+        parts = (item.get(field) or {}).get("date-parts") or [[None]]
+        if parts and parts[0] and parts[0][0]:
+            return int(parts[0][0])
+    return None
+
+
+def crossref_authors(item):
+    names = []
+    for person in item.get("author", []) or []:
+        family, given = person.get("family", ""), person.get("given", "")
+        if family:
+            names.append(f"{family}, {given}".strip(", "))
+        elif person.get("name"):
+            names.append(person["name"])
+    return names
+
+
+def non_research_reason(title, genre="", n_authors=1, has_abstract=True):
+    """Why an item is not a research paper, or '' if it looks like one."""
+    if genre:
+        reason = SPRINGER_NON_RESEARCH_GENRES.get(genre.lower().replace("_", " ").strip())
+        if reason:
+            return reason
+    t = clean(title).lower()
+    if not t:
+        return "front or back matter"
+    for reason, pattern in NON_RESEARCH_PATTERNS:
+        if re.search(pattern, t, re.I):
+            return reason
+    if not has_abstract and BOOK_CITATION_RE.search(title or ""):
+        return "book review"
+    return ""
+
+
+def env_value(name):
+    """Read a key from the environment or the repo's .env; never printed."""
+    if os.environ.get(name):
+        return os.environ[name]
+    path = os.path.join(REPO_ROOT, ".env")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                k, _, v = line.strip().partition("=")
+                if k.strip() == name:
+                    return v.strip().strip('"').strip("'")
+    return ""
+
+
+def springer_abstracts(issn, date_from, min_interval=0.7):
+    """{doi: (abstract, genre)} for one Springer journal, via the Meta API.
+
+    The basic plan allows an ISSN query with a date filter, 10 records a page,
+    100 requests a minute and 500 a day.
+    """
+    key = env_value("SPRINGER_API_KEY")
+    if not key:
+        print("      no SPRINGER_API_KEY; skipping Springer abstracts")
+        return {}
+    out, start, total = {}, 1, None
+    while total is None or start <= total:
+        params = {"q": f"issn:{issn} onlinedatefrom:{date_from}", "p": 10, "s": start, "api_key": key}
+        data = json.loads(http_get(SPRINGER_META_API + "?" + urllib.parse.urlencode(params)))
+        total = int(data["result"][0]["total"])
+        for rec in data.get("records", []):
+            doi = str(rec.get("doi", "")).lower()
+            abstract = rec.get("abstract", "")
+            if isinstance(abstract, dict):
+                abstract = " ".join(str(v) for v in abstract.values())
+            genre = rec.get("genre", "")
+            genre = genre[0] if isinstance(genre, list) and genre else genre
+            if doi:
+                out[doi] = (strip_jats(abstract), str(genre or ""))
+        start += 10
+        time.sleep(min_interval)
+    return out
+
+
+# Some OpenAlex and Semantic Scholar abstracts for ACM papers run on into the
+# ACM Digital Library page ("...Total Citations0Total Downloads56... Get
+# Citation Alerts"). Cut the text where that page furniture starts.
+PAGE_CHROME_RE = re.compile(
+    r"\s*(Total Citations\s*\d|Total Downloads\s*\d|Get Citation Alerts|New Citation Alert|"
+    r"Manage my Alerts|Save to Binder|Please log in to your account|To manage your alert preferences)")
+
+
+def trim_page_chrome(text):
+    match = PAGE_CHROME_RE.search(text or "")
+    return (text[:match.start()] if match else text or "").strip()
+
+
+def openalex_abstracts(dois, batch=50):
+    """{doi: abstract} rebuilt from OpenAlex's inverted index."""
+    out = {}
+    dois = [d for d in dois if d]
+    for i in range(0, len(dois), batch):
+        chunk = dois[i:i + batch]
+        params = {"filter": "doi:" + "|".join(chunk), "per-page": batch,
+                  "select": "doi,abstract_inverted_index", "mailto": CROSSREF_MAILTO}
+        data = http_get_json(OPENALEX_API + "?" + urllib.parse.urlencode(params))
+        for work in data.get("results", []):
+            index = work.get("abstract_inverted_index") or {}
+            if not index:
+                continue
+            words = sorted((pos, word) for word, positions in index.items() for pos in positions)
+            doi = str(work.get("doi", "")).lower().replace("https://doi.org/", "")
+            out[doi] = trim_page_chrome(" ".join(w for _, w in words))
+        time.sleep(0.2)
+    return out
+
+
+def semanticscholar_abstracts(dois, batch=400):
+    """{doi: abstract} from the Semantic Scholar batch API, with backoff on 429."""
+    out = {}
+    dois = [d for d in dois if d]
+    for i in range(0, len(dois), batch):
+        chunk = dois[i:i + batch]
+        body = json.dumps({"ids": [f"DOI:{d}" for d in chunk]}).encode()
+        for attempt in range(6):
+            request = urllib.request.Request(
+                "https://api.semanticscholar.org/graph/v1/paper/batch?fields=abstract,externalIds",
+                data=body, headers={"Content-Type": "application/json", "User-Agent": USER_AGENT})
+            try:
+                with urllib.request.urlopen(request, timeout=90) as response:
+                    papers = json.loads(response.read())
+                break
+            except urllib.error.HTTPError as exc:
+                if exc.code == 400 and len(chunk) > 1:
+                    half = len(chunk) // 2
+                    out.update(semanticscholar_abstracts(chunk[:half], batch))
+                    out.update(semanticscholar_abstracts(chunk[half:], batch))
+                    papers = []
+                    break
+                if attempt == 5 or exc.code == 400:
+                    print(f"      Semantic Scholar unavailable ({exc}); skipping {len(chunk)} DOIs")
+                    papers = []
+                    break
+                time.sleep(5 * 2 ** attempt + random.random())
+            except (urllib.error.URLError, TimeoutError) as exc:
+                if attempt == 5:
+                    print(f"      Semantic Scholar unavailable ({exc}); skipping {len(chunk)} DOIs")
+                    papers = []
+                    break
+                time.sleep(5 * 2 ** attempt + random.random())
+        for doi, paper in zip(chunk, papers):
+            if paper and paper.get("abstract"):
+                out[doi] = trim_page_chrome(clean(paper["abstract"]))
+        time.sleep(1.5)
+    return out
+
+
+ABSTRACT_META_RE = [
+    r'<meta[^>]+name="citation_abstract"[^>]+content="([^"]+)"',
+    r'<meta[^>]+name="dc\.description"[^>]+content="([^"]+)"',
+    r'<meta[^>]+property="og:description"[^>]+content="([^"]+)"',
+    r'<meta[^>]+name="description"[^>]+content="([^"]+)"',
+]
+
+
+def landing_abstract(doi):
+    """The abstract from a DOI's landing page meta tags, or '' if none."""
+    try:
+        page = http_get(f"https://doi.org/{doi}", timeout=45, retries=2)
+    except Exception:
+        return None
+    for pattern in ABSTRACT_META_RE:
+        match = re.search(pattern, page, re.I | re.S)
+        if match:
+            text = clean(html.unescape(match.group(1)))
+            if len(text.split()) >= 30:  # site blurbs are short; abstracts are not
+                return text
+    return ""
+
+
+def crossref_venue(venue, name, filters, years, entry_type="article",
+                   keep=None, springer_issn=None, use_landing=False, min_interval=1.0,
+                   query=None, doi_prefixes=None):
+    """Retrieve one Crossref-listed venue. Returns {year: (entries, manifest row)}.
+
+    filters: Crossref filter dict. keep(item) -> bool drops records outside the
+    venue (e.g. other conferences' issues of PACM HCI). Abstracts are filled by
+    DOI from Springer (springer_issn), OpenAlex, then the article page
+    (use_landing). For proceedings, query ranks the venue's papers first and
+    doi_prefixes (e.g. "10.1145/3670865.") keeps only them; the scan stops once
+    a long run of results holds none of them.
+    """
+    lo, hi = min(years), max(years)
+    items, outside, dupes, seen = [], Counter(), 0, set()
+    prefixes = tuple(p.lower() for p in (doi_prefixes or []))
+
+    def candidates():
+        if not query:
+            yield from crossref_iter(filters)
+            return
+        # Ranked search, one year at a time; stop at the first page with none of
+        # the venue's DOIs once some have been found.
+        for year in range(lo, hi + 1):
+            yearly = {**filters, "from-pub-date": f"{year}-01-01", "until-pub-date": f"{year}-12-31"}
+            found = False
+            for page in crossref_ranked(yearly, query):
+                hits = [i for i in page if str(i.get("DOI", "")).lower().startswith(prefixes)]
+                yield from hits
+                if hits:
+                    found = True
+                elif found:
+                    break
+
+    for item in candidates():
+        doi = str(item.get("DOI", "")).lower()
+        year = crossref_year(item)
+        if prefixes and not doi.startswith(prefixes):
+            continue
+        if keep and not keep(item):
+            outside["other venue in source"] += 1
+            continue
+        if year is None or not lo <= year <= hi:
+            outside["outside window"] += 1
+            continue
+        if doi in seen:
+            dupes += 1
+            continue
+        seen.add(doi)
+        items.append(item)
+    print(f"      Crossref: {len(items)} records {lo}-{hi}"
+          + (f" ({', '.join(f'{k}: {v}' for k, v in outside.items())})" if outside else ""))
+
+    abstracts, genres, source_of = {}, {}, {}
+    for item in items:
+        doi = item["DOI"].lower()
+        text = strip_jats(item.get("abstract"))
+        if len(text.split()) >= 30:
+            abstracts[doi], source_of[doi] = text, "crossref"
+    if springer_issn:
+        for doi, (text, genre) in springer_abstracts(springer_issn, f"{lo - 1}-07-01").items():
+            genres[doi] = genre
+            if doi not in abstracts and len(text.split()) >= 30:
+                abstracts[doi], source_of[doi] = text, "springer"
+    missing = [i["DOI"].lower() for i in items if i["DOI"].lower() not in abstracts]
+    for doi, text in openalex_abstracts(missing).items():
+        if doi not in abstracts and len(text.split()) >= 30:
+            abstracts[doi], source_of[doi] = text, "openalex"
+    missing = [i["DOI"].lower() for i in items if i["DOI"].lower() not in abstracts]
+    for doi, text in semanticscholar_abstracts(missing).items():
+        if doi not in abstracts and len(text.split()) >= 30:
+            abstracts[doi], source_of[doi] = text, "semantic scholar"
+
+    by_year = {}
+    for item in items:
+        by_year.setdefault(crossref_year(item), []).append(item)
+
+    results = {}
+    for year in sorted(by_year):
+        entries, excluded, pages, page_failures = [], Counter(), 0, 0
+        for item in sorted(by_year[year], key=lambda i: i["DOI"]):
+            doi = item["DOI"].lower()
+            title = clean(" ".join(item.get("title") or []))
+            authors = crossref_authors(item)
+            if doi not in abstracts and use_landing:
+                text = landing_abstract(doi)
+                pages += 1
+                if text is None:
+                    page_failures += 1
+                elif text:
+                    abstracts[doi], source_of[doi] = text, "article page"
+                time.sleep(min_interval)
+            reason = non_research_reason(title, genres.get(doi, ""), len(authors), doi in abstracts)
+            if reason:
+                excluded[reason] += 1
+                continue
+            suffix = re.sub(r"[^A-Za-z0-9]+", "-", doi.split("/", 1)[-1]).strip("-")
+            container = clean(" ".join(item.get("container-title") or [])) or name
+            fields = [("title", title), ("author", " and ".join(authors)), ("year", str(year)),
+                      ("journal" if entry_type == "article" else "booktitle", container),
+                      ("volume", item.get("volume")), ("number", item.get("issue")),
+                      ("pages", item.get("page")), ("doi", item["DOI"]),
+                      ("url", f"https://doi.org/{item['DOI']}"),
+                      ("abstract", abstracts.get(doi, "")),
+                      ("keywords", "; ".join(item.get("subject") or [])),
+                      ("abstractsource", source_of.get(doi, "")), ("venuekey", venue)]
+            entries.append(bib_entry(f"{venue}{year}-{suffix}", fields, entry_type))
+        n_abs = sum(1 for e in entries if "abstract = {" in e)
+        sources = Counter(source_of[i["DOI"].lower()] for i in by_year[year]
+                          if i["DOI"].lower() in source_of)
+        results[year] = (entries, {
+            "venue": venue, "year": year, "source": "Crossref",
+            "listed": len(by_year[year]),
+            "excluded_other_tracks": "; ".join(f"{k}: {v}" for k, v in excluded.most_common()),
+            "listing_duplicates": dupes if year == lo else 0,
+            "papers": len(entries), "with_abstract": n_abs,
+            "abstract_coverage": round(n_abs / max(len(entries), 1), 4),
+            "pages_fetched": pages, "page_failures": page_failures, "status": "ok",
+            "data_revision": time.strftime("%Y-%m-%d"),
+            "note": "abstracts: " + ", ".join(f"{k} {v}" for k, v in sources.most_common()),
+        })
+    return results
+
+
+def run_crossref_venue(here, venue, label, name, filters, years, **kwargs):
+    """Fetch, write one .bib per year and the manifest, as the other fetchers do."""
+    out_dir = os.path.join(here, "bib_raw")
+    manifest = os.path.join(here, f"{venue}_fetch_manifest.csv")
+    print(f"  {label}")
+    results = crossref_venue(venue, name, filters, years, **kwargs)
+    for year, (entries, row) in results.items():
+        path = os.path.join(out_dir, f"{venue}_{year}.bib")
+        write_bib(path, entries)
+        write_manifest(manifest, [row])
+        print(f"      {year}: listed {row['listed']}, removed [{row['excluded_other_tracks'] or 'none'}] "
+              f"-> {row['papers']} papers, {row['abstract_coverage']:.1%} with abstract ({row['note']})")
+    print(f"  Manifest: {os.path.relpath(manifest)}")
+    print(f"  Next: python covidence_prep.py {os.path.basename(here)}")
+
+
+# ----------------------------------------------------------------------------
+# OJS venues over OAI-PMH (AAAI OJS: AIES 2024 on, HCOMP; jair.org: JAIR)
+# ----------------------------------------------------------------------------
+# Open Journal Systems sites expose every published article over OAI-PMH as
+# Dublin Core: title, creators, abstract (dc:description), DOI and a source line
+# naming the volume and its year, e.g. "...; Vol. 7 (2019): ...; 135-143".
+
+OAI_NS = {"oai": "http://www.openarchives.org/OAI/2.0/",
+          "dc": "http://purl.org/dc/elements/1.1/"}
+VOLUME_YEAR_RE = re.compile(r"Vol\.?\s*\d+[^;()]*\((\d{4})\)")
+
+
+def oai_records(base_url, metadata_prefix="oai_dc", min_interval=1.0):
+    """Every record an OAI-PMH endpoint lists, as dicts of Dublin Core lists."""
+    import xml.etree.ElementTree as ET
+    params = {"verb": "ListRecords", "metadataPrefix": metadata_prefix}
+    while True:
+        root = ET.fromstring(http_get(base_url + "?" + urllib.parse.urlencode(params), timeout=120))
+        for rec in root.iter(f"{{{OAI_NS['oai']}}}record"):
+            header = rec.find("oai:header", OAI_NS)
+            if header is not None and header.get("status") == "deleted":
+                continue
+            fields = {}
+            for el in rec.iter():
+                if el.tag.startswith(f"{{{OAI_NS['dc']}}}") and el.text:
+                    fields.setdefault(el.tag.split("}")[1], []).append(el.text.strip())
+            spec = rec.find("oai:header/oai:setSpec", OAI_NS)
+            fields["setSpec"] = [spec.text] if spec is not None and spec.text else []
+            yield fields
+        token = root.find(".//oai:resumptionToken", OAI_NS)
+        if token is None or not (token.text or "").strip():
+            return
+        params = {"verb": "ListRecords", "resumptionToken": token.text.strip()}
+        time.sleep(min_interval)
+
+
+def oai_year(fields):
+    for source in fields.get("source", []):
+        match = VOLUME_YEAR_RE.search(source)
+        if match:
+            return int(match.group(1))
+    for date in fields.get("date", []):
+        if re.match(r"\d{4}", date):
+            return int(date[:4])
+    return None
+
+
+def run_oai_venue(here, venue, label, base_url, years, name, entry_type="inproceedings", keep=None):
+    """Harvest an OJS venue, write one .bib per year and the manifest."""
+    out_dir = os.path.join(here, "bib_raw")
+    manifest = os.path.join(here, f"{venue}_fetch_manifest.csv")
+    lo, hi = min(years), max(years)
+    print(f"  {label}")
+    by_year, outside = {}, Counter()
+    for fields in oai_records(base_url):
+        year = oai_year(fields)
+        if keep and not keep(fields):
+            outside["other venue in source"] += 1
+            continue
+        if year is None or not lo <= year <= hi:
+            outside["outside window"] += 1
+            continue
+        by_year.setdefault(year, []).append(fields)
+    print(f"      OAI-PMH: {sum(len(v) for v in by_year.values())} records {lo}-{hi} "
+          f"({', '.join(f'{k}: {v}' for k, v in outside.items()) or 'none outside'})")
+    for year in sorted(by_year):
+        entries, excluded, seen, dupes = [], Counter(), set(), 0
+        for fields in by_year[year]:
+            title = clean((fields.get("title") or [""])[0])
+            abstract = clean(html.unescape(re.sub(r"<[^>]+>", " ", " ".join(fields.get("description", [])))))
+            doi = next((i for i in fields.get("identifier", []) if i.startswith("10.")), "")
+            url = next((i for i in fields.get("identifier", []) if i.startswith("http")), "")
+            ident = (doi or url or title).lower()
+            if ident in seen:
+                dupes += 1
+                continue
+            seen.add(ident)
+            reason = non_research_reason(title, "", len(fields.get("creator", [])), bool(abstract))
+            if any(re.search(r":(FRNT|FMT|FRONT|BACK)\b", s) for s in fields.get("setSpec", [])):
+                reason = "front or back matter"
+            if reason:
+                excluded[reason] += 1
+                continue
+            suffix = re.sub(r"[^A-Za-z0-9]+", "-", (doi.split("/", 1)[-1] if doi else url.rsplit("/", 1)[-1])).strip("-")
+            entries.append(bib_entry(f"{venue}{year}-{suffix}", [
+                ("title", title), ("author", " and ".join(fields.get("creator", []))),
+                ("year", str(year)), ("journal" if entry_type == "article" else "booktitle", name),
+                ("doi", doi), ("url", url or (f"https://doi.org/{doi}" if doi else "")),
+                ("abstract", abstract), ("keywords", "; ".join(fields.get("subject", []))),
+                ("section", "; ".join(fields.get("setSpec", []))), ("venuekey", venue),
+            ], entry_type))
+        n_abs = sum(1 for e in entries if "abstract = {" in e)
+        row = {"venue": venue, "year": year, "source": base_url.split("/oai")[0] + " (OAI-PMH)",
+               "listed": len(by_year[year]),
+               "excluded_other_tracks": "; ".join(f"{k}: {v}" for k, v in excluded.most_common()),
+               "listing_duplicates": dupes, "papers": len(entries), "with_abstract": n_abs,
+               "abstract_coverage": round(n_abs / max(len(entries), 1), 4),
+               "pages_fetched": 0, "page_failures": 0, "status": "ok",
+               "data_revision": time.strftime("%Y-%m-%d"), "note": ""}
+        write_bib(os.path.join(out_dir, f"{venue}_{year}.bib"), entries)
+        write_manifest(manifest, [row])
+        print(f"      {year}: listed {row['listed']}, removed [{row['excluded_other_tracks'] or 'none'}] "
+              f"-> {row['papers']} papers, {row['abstract_coverage']:.1%} with abstract")
+    print(f"  Manifest: {os.path.relpath(manifest)}")
+    print(f"  Next: python covidence_prep.py {os.path.basename(here)}")

@@ -1,0 +1,57 @@
+TY  - CONF
+TI  - A Quantitative and Qualitative Analysis of the Robustness of (Real-World) Election Winners
+AU  - Boehmer, Niclas
+AU  - Bredereck, Robert
+AU  - Faliszewski, Piotr
+AU  - Niedermeier, Rolf
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Contributing to the toolbox for interpreting election results, we evaluate the robustness of election winners to random noise. We compare the robustness of different voting rules and evaluate the robustness of real-world election winners from the Formula 1 World Championship and some variant of political elections. We find many instances of elections that have very non-robust winners and numerous delicate robustness patterns that cannot be identified using classical and simpler approaches.
+DO  - 10.1145/3551624.3555292
+UR  - https://doi.org/10.1145/3551624.3555292
+N1  - source=eaamo_2022.bib; retained_by=tier1; terms=tier1:voting rule; tier2:collective; schema=v1.8
+AN  - eaamo2022-3551624-3555292
+ER  - 
+
+TY  - CONF
+TI  - Opinion Change or Differential Turnout: Austin’s Budget Feedback Exercise and the Police Department
+AU  - Gelauff, Lodewijk L.
+AU  - Goel, Ashish
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In 2020, the United States was shaken up by the murder of George Floyd at the hands of law enforcement and protests around the country intensified, asking for defunding or reallocation of police budgets. This happened in the middle of a budgeting feedback exercise for the City of Austin, where residents were able to share opinions on the budgets of various city service areas, including the Police Department. The number of daily responses increased by a hundredfold overnight and we find that the votes cast after the “exogenous shock” were overwhelmingly in favor of reducing police funding, redirecting those funds mostly to healthcare and housing. After we submitted a report describing the results from the 2020 exercise, the City published a new proposal that redirected a meaningful portion of the police budget, and the amount redirected was in line with the aggregated budget presented in the report.
+DO  - 10.1145/3551624.3555295
+UR  - https://doi.org/10.1145/3551624.3555295
+N1  - source=eaamo_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - eaamo2022-3551624-3555295
+ER  - 
+
+TY  - CONF
+TI  - Diverse Representation via Computational Participatory Elections - Lessons from a Case Study
+AU  - Evequoz, Florian
+AU  - Rochel, Johan
+AU  - Keswani, Vijay
+AU  - Celis, L. Elisa
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Elections are the central institution of democratic processes, and often the elected body – in either public or private governance – is a committee of individuals. To ensure the legitimacy of elected bodies, the electoral processes should guarantee that diverse groups are represented, in particular members of groups that are marginalized due to gender, ethnicity, or other socially salient attributes. To address this challenge of representation, we have designed a novel participatory electoral process coined the Representation Pact, implemented with the support of a computational system. That process explicitly enables voters to flexibly decide on representation criteria in a first round, and then lets them vote for candidates in a second round. After the two rounds, a counting method is applied, which selects the committee of candidates that maximizes the number of votes received in the second round, conditioned on satisfying the criteria provided in the first round. With the help of a detailed use case that applied this process in a primary election of 96 representatives in Switzerland, we explain how this method contributes to fairness in political elections by achieving a better “descriptive representation”. Further, based on this use case, we identify lessons learnt that are applicable to participatory computational systems used in societal or political contexts. Good practices are identified and presented.
+DO  - 10.1145/3551624.3555297
+UR  - https://doi.org/10.1145/3551624.3555297
+N1  - source=eaamo_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - eaamo2022-3551624-3555297
+ER  - 
+
+TY  - CONF
+TI  - Towards Substantive Conceptions of Algorithmic Fairness: Normative Guidance from Equal Opportunity Doctrines
+AU  - Arif Khan, Falaah
+AU  - Manis, Eleni
+AU  - Stoyanovich, Julia
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In this work we use Equal Opportunity (EO) doctrines from political philosophy to make explicit the normative judgements embedded in different conceptions of algorithmic fairness. We contrast formal EO approaches that narrowly focus on fair contests at discrete decision points, with substantive EO doctrines that look at people’s fair life chances more holistically over the course of a lifetime. We use this taxonomy to provide a moral interpretation of the impossibility results as the incompatibility between different conceptions of a fair contest — foward-facing versus backward-facing — when people do not have fair life chances. We use this result to motivate substantive conceptions of algorithmic fairness and outline two plausible fair decision procedures based on the luck egalitarian doctrine of EO, and Rawls’s principle of fair equality of opportunity.
+DO  - 10.1145/3551624.3555303
+UR  - https://doi.org/10.1145/3551624.3555303
+N1  - source=eaamo_2022.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - eaamo2022-3551624-3555303
+ER  - 
+

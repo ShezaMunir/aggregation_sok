@@ -1,0 +1,48 @@
+TY  - CONF
+TI  - How Crowd Worker Factors Influence Subjective Annotations: A Study of Tagging Misogynistic Hate Speech in Tweets
+AU  - Hettiachchi, Danula
+AU  - Holcombe-James, Indigo
+AU  - Livingstone, Stephanie
+AU  - de Silva, Anjalee
+AU  - Lease, Matthew
+AU  - Salim, Flora D.
+AU  - Sanderson, Mark
+PY  - 2023
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Crowdsourced annotation is vital to both collecting labelled data to train and test automated content moderation systems and to support human-in-the-loop review of system decisions. However, annotation tasks such as judging hate speech are subjective and thus highly sensitive to biases stemming from annotator beliefs, characteristics and demographics. We conduct two crowdsourcing studies on Mechanical Turk to examine annotator bias in labelling sexist and misogynistic hate speech. Results from 109 annotators show that annotator political inclination, moral integrity, personality traits, and sexist attitudes significantly impact annotation accuracy and the tendency to tag content as hate speech. In addition, semi-structured interviews with nine crowd workers provide further insights regarding the influence of subjectivity on annotations. In exploring how workers interpret a task — shaped by complex negotiations between platform structures, task instructions, subjective motivations, and external contextual factors — we see annotations not only impacted by worker factors but also simultaneously shaped by the structures under which they labour.
+DO  - 10.1609/hcomp.v11i1.27546
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/27546
+KW  - Crowdsourcing; Subjective Annotation Tasks; Annotator Bias; Hate Speech; Content Moderation
+N1  - source=hcomp_2023.bib; retained_by=preservation; terms=preservation:annotator effects; schema=v1.8
+AN  - hcomp2023-hcomp-v11i1-27546
+ER  - 
+
+TY  - CONF
+TI  - A Task-Interdependency Model of Complex Collaboration Towards Human-Centered Crowd Work (Extended Abstract)
+AU  - Lee, David T.
+AU  - Makridis, Christos A.
+PY  - 2023
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Mathematical models of crowdsourcing and human computation today largely assume small modular tasks, "computational primitives" such as labels, comparisons, or votes requiring little coordination. However, while these models have successfully shown how crowds can accomplish significant objectives, they can inadvertently advance a less than human view of crowd workers where workers are treated as low skilled, replaceable, and untrustworthy, carrying out simple tasks in online labor markets for low pay under algorithmic management. They also fail to capture the unique human capacity for complex collaborative work where the main concerns are how to effectively structure, delegate, and collaborate on work that may be large in scope, underdefined, and highly interdependent. We present a model centered on interdependencies—a phenomenon well understood to be at the core of collaboration—that allows one to formally reason about diverse challenges to complex collaboration. Our model represents tasks as an interdependent collection of subtasks, formalized as a task graph. Each node is a subtask with an arbitrary size parameter. Interdependencies, represented as node and edge weights, impose costs on workers who need to spend time absorbing context of relevant work. Importantly, workers do not have to pay this context cost for work they did themselves. To illustrate how this simple model can be used to reason about diverse aspects of complex collaboration, we apply the model to diverse aspects of complex collaboration. We examine the limits of scaling complex crowd work, showing how high interdependencies and low task granularity bound work capacity to a constant factor of the contributions of top workers, which is in turn limited when workers are short-term novices. We examine recruitment and upskilling, showing the outsized role top workers play in determining work capacity, and surfacing insights on situated learning through a stylized model of legimitate peripheral participation (LPP). Finally, we turn to the economy as a setting where complex collaborative work already exists, using our model to explore the relationship between coordination intensity and occupational wages. Using occupational data from O*NET and the Bureau of Labor Statistics, we introduce a new index of occupational coordination intensity and validate the predicted positive correlation. We find preliminary evidence that higher coordination intensity occupations are more resistant to displacement by AI based on historical growth in automation and OpenAI data on LLM exposure. Our hope is to spur further development of models that emphasize the collaborative capacities of human workers, bridge models of crowd work and traditional work, and promote AI in roles augmenting human collaboration. The full paper can be found at: https://doi.org/10.48550/arXiv.2309.00160.
+DO  - 10.1609/hcomp.v11i1.27549
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/27549
+KW  - Human Computation And Crowdsourcing; Complex Collaborative Work; Situated Learning; Humans And AI; Task-interdependency Networks
+N1  - source=hcomp_2023.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - hcomp2023-hcomp-v11i1-27549
+ER  - 
+
+TY  - CONF
+TI  - Confidence Contours: Uncertainty-Aware Annotation for Medical Semantic Segmentation
+AU  - Ye, Andre
+AU  - Chen, Quan Ze
+AU  - Zhang, Amy
+PY  - 2023
+T2  - Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+AB  - Medical image segmentation modeling is a high-stakes task where understanding of uncertainty is crucial for addressing visual ambiguity. Prior work has developed segmentation models utilizing probabilistic or generative mechanisms to infer uncertainty from labels where annotators draw a singular boundary. However, as these annotations cannot represent an individual annotator's uncertainty, models trained on them produce uncertainty maps that are difficult to interpret. We propose a novel segmentation representation, Confidence Contours, which uses high- and low-confidence ``contours’’ to capture uncertainty directly, and develop a novel annotation system for collecting contours. We conduct an evaluation on the Lung Image Dataset Consortium (LIDC) and a synthetic dataset. From an annotation study with 30 participants, results show that Confidence Contours provide high representative capacity without considerably higher annotator effort. We also find that general-purpose segmentation models can learn Confidence Contours at the same performance level as standard singular annotations. Finally, from interviews with 5 medical experts, we find that Confidence Contour maps are more interpretable than Bayesian maps due to representation of structural uncertainty.
+DO  - 10.1609/hcomp.v11i1.27559
+UR  - https://ojs.aaai.org/index.php/HCOMP/article/view/27559
+KW  - Uncertainty Representation; Image Segmentation; Medical Imaging; Computer Vision; Semantic Segmentation
+N1  - source=hcomp_2023.bib; retained_by=preservation; terms=preservation:disaggregated; schema=v1.8
+AN  - hcomp2023-hcomp-v11i1-27559
+ER  - 
+

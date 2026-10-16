@@ -1,0 +1,237 @@
+TY  - JOUR
+TI  - Hybrid-order Network Consensus for Distributed Multi-agent Systems
+AU  - Xie, Guangqiang
+AU  - Chen, Junyu
+AU  - Li, Yang
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - As an important field of Distributed artificial intelligence (DAI), multi-agent systems (MASs) have attracted the attention of extensive research scholars. Consensus as the most important issue in MAS, much progress has been made in studying the consensus control of MAS, but there are some problems remained largely unaddressed which cause the MAS to lose some useful network structure information. First, multi-agent consensus protocol usually proceeds over the low-order structure by only considering the direct edges between agents, but ignores the higher-order structure of the whole topology network. Second, the existing work assumes all the edges in a topology network have the same weight without exploring the potential diversity of the connections. In this way, multi-agent systems fail to enforce consensus, resulting in fragmentation into multiple clusters. To address the above issues, this paper proposes a Motif-aware Weighted Multi-agent System (MWMS) method for consensus control. We focus more on triangle motif in the network, but it can be extended to other kinds of motifs as well. First, a novel weighted network is used which is the combination of the edge-based lower-order structure and the motif-based higher-order structure, i.e., hybrid-order structure. Subsequently, by simultaneously considering the quantity and the quality of the connections in the network, a novel consensus framework for MAS is designed to update agents. Then, two baseline consensus algorithms are used in MWMS. In our experiments, we use ten topologies of different shapes, densities and ranges to comprehensively analyze the performance of our proposed algorithms. The simulation results show that the hybrid higher-order network can effectively enhance the consensus of the multi-agent system in different network topologies.
+DO  - 10.1613/jair.1.12061
+UR  - https://www.jair.org/index.php/jair/article/view/12061
+KW  - multiagent systems; Hybrid-order; motif
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:model-output aggregation; tier2:agreement; schema=v1.8
+AN  - jair2021-jair-1-12061
+ER  - 
+
+TY  - JOUR
+TI  - Strategyproof Mechanisms for Additively Separable and Fractional Hedonic Games
+AU  - Flammini, Michele
+AU  - Kodric, Bojana
+AU  - Monaco, Gianpiero
+AU  - Zhang, Qiang
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - Additively separable hedonic games and fractional hedonic games have received considerable attention in the literature. They are coalition formation games among selfish agents based on their mutual preferences. Most of the work in the literature characterizes the existence and structure of stable outcomes (i.e., partitions into coalitions) assuming that preferences are given. However, there is little discussion of this assumption. In fact, agents receive different utilities if they belong to different coalitions, and thus it is natural for them to declare their preferences strategically in order to maximize their benefit. In this paper we consider strategyproof mechanisms for additively separable hedonic games and fractional hedonic games, that is, partitioning methods without payments such that utility maximizing agents have no incentive to lie about their true preferences. We focus on social welfare maximization and provide several lower and upper bounds on the performance achievable by strategyproof mechanisms for general and specific additive functions. In most of the cases we provide tight or asymptotically tight results. All our mechanisms are simple and can be run in polynomial time. Moreover, all the lower bounds are unconditional, that is, they do not rely on any computational complexity assumptions.
+DO  - 10.1613/jair.1.12107
+UR  - https://www.jair.org/index.php/jair/article/view/12107
+KW  - autonomous agents; multiagent systems
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:coalition formation; tier1:incentives; tier2:welfare; schema=v1.8
+AN  - jair2021-jair-1-12107
+ER  - 
+
+TY  - JOUR
+TI  - Liquid Democracy: An Algorithmic Perspective
+AU  - Kahng, Anson
+AU  - Mackenzie, Simon
+AU  - Procaccia, Ariel
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - We study liquid democracy, a collective decision making paradigm that allows voters to transitively delegate their votes, through an algorithmic lens. In our model, there are two alternatives, one correct and one incorrect, and we are interested in the probability that the majority opinion is correct. Our main question is whether there exist delegation mechanisms that are guaranteed to outperform direct voting, in the sense of being always at least as likely, and sometimes more likely, to make a correct decision. Even though we assume that voters can only delegate their votes to better-informed voters, we show that local delegation mechanisms, which only take the local neighborhood of each voter as input (and, arguably, capture the spirit of liquid democracy), cannot provide the foregoing guarantee. By contrast, we design a non-local delegation mechanism that does provably outperform direct voting under mild assumptions about voters.
+DO  - 10.1613/jair.1.12261
+UR  - https://www.jair.org/index.php/jair/article/view/12261
+KW  - mathematical foundations; game theory; computational social systems
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:collective decision; tier1:delegation rules; tier2:collective; schema=v1.8
+AN  - jair2021-jair-1-12261
+ER  - 
+
+TY  - JOUR
+TI  - On the Distortion Value of Elections with Abstention
+AU  - Seddighin, Masoud
+AU  - Latifian, Mohammad
+AU  - Ghodsi, Mohammad
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - In Spatial Voting Theory, distortion is a measure of how good the winner is. It has been proved that no deterministic voting mechanism can guarantee a distortion better than 3, even for simple metrics such as a line. In this study, we wish to answer the following question: how does the distortion value change if we allow less motivated agents to abstain from the election? We consider an election with two candidates and suggest an abstention model, which is a general form of the abstention model proposed by Kirchgässner. Our results characterize the distortion ¨ value and provide a rather complete picture of the model.
+DO  - 10.1613/jair.1.12306
+UR  - https://www.jair.org/index.php/jair/article/view/12306
+KW  - game theory; computational social systems
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:committee selection; tier2:collective; schema=v1.8
+AN  - jair2021-jair-1-12306
+ER  - 
+
+TY  - JOUR
+TI  - Two-facility Location Games with Minimum Distance Requirement
+AU  - Xu, Xinping
+AU  - Li, Bo
+AU  - Li, Minming
+AU  - Duan, Lingjie
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - We study the mechanism design problem of a social planner for locating two facilities on a line interval [0, 1], where a set of n strategic agents report their locations and a mechanism determines the locations of the two facilities. We consider the requirement of a minimum distance 0 ≤ d ≤ 1 between the two facilities. Given the two facilities are heterogeneous, we model the cost/utility of an agent as the sum of his distances to both facilities. In the heterogeneous two-facility location game to minimize the social cost, we show that the optimal solution can be computed in polynomial time and prove that carefully choosing one optimal solution as output is strategyproof. We also design a strategyproof mechanism minimizing the maximum cost. Given the two facilities are homogeneous, we model the cost/utility of an agent as his distance to the closer facility. In the homogeneous two-facility location game for minimizing the social cost, we show that any deterministic strategyproof mechanism has unbounded approximation ratio. Moreover, in the obnoxious heterogeneous two-facility location game for maximizing the social utility, we propose new deterministic group strategyproof mechanisms with provable approximation ratios and establish a lower bound (7 − d)/6 for any deterministic strategyproof mechanism. We also design a strategyproof mechanism maximizing the minimum utility. In the obnoxious homogeneous two-facility location game for maximizing the social utility, we propose deterministic group strategyproof mechanisms with provable approximation ratios and establish a lower bound 4/3. Besides, in the two-facility location game with triple-preference, where each facility may be favorable, obnoxious, indifferent for any agent, we further motivate agents to report both their locations and preferences towards the two facilities truthfully, and design a deterministic group strategyproof mechanism with an approximation ratio 4.
+DO  - 10.1613/jair.1.12319
+UR  - https://www.jair.org/index.php/jair/article/view/12319
+KW  - game theory; preferences
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - jair2021-jair-1-12319
+ER  - 
+
+TY  - JOUR
+TI  - Aggregation over Metric Spaces: Proposing and Voting in Elections, Budgeting, and Legislation
+AU  - Bulteau, Laurent
+AU  - Shahaf, Gal
+AU  - Shapiro, Ehud
+AU  - Talmon, Nimrod
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - We present a unifying framework encompassing a plethora of social choice settings. Viewing each social choice setting as voting in a suitable metric space, we offer a general model of social choice over metric spaces, in which—similarly to the spatial model of elections—each voter specifies an ideal element of the metric space. The ideal element acts as a vote, where each voter prefers elements that are closer to her ideal element. But it also acts as a proposal, thus making all participants equal not only as voters but also as proposers. We consider Condorcet aggregation and a continuum of solution concepts, ranging from minimizing the sum of distances to minimizing the maximum distance. We study applications of our abstract model to various social choice settings, including single-winner elections, committee elections, participatory budgeting, and participatory legislation. For each setting, we compare each solution concept to known voting rules and study various properties of the resulting voting rules. Our framework provides expressive aggregation for a broad range of social choice settings while remaining simple for voters; and may enable a unified and integrated implementation for all these settings, as well as unified extensions such as sybil-resiliency, proxy voting, and deliberative decision making.
+DO  - 10.1613/jair.1.12388
+UR  - https://www.jair.org/index.php/jair/article/view/12388
+KW  - decision theory; multiagent systems
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:voting rule; tier1:social choice; tier1:committee selection; tier1:participatory budgeting; tier1:named voting rules; tier1:delegation rules; tier2:delegation; tier2:collective; schema=v1.8
+AN  - jair2021-jair-1-12388
+ER  - 
+
+TY  - JOUR
+TI  - On the Computational Complexity of Non-Dictatorial Aggregation
+AU  - Kirousis, Lefteris
+AU  - Kolaitis, Phokion G.
+AU  - Livieratos, John
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - We investigate when non-dictatorial aggregation is possible from an algorithmic perspective, where non-dictatorial aggregation means that the votes cast by the members of a society can be aggregated in such a way that there is no single member of the society that always dictates the collective outcome. We consider the setting in which the members of a society take a position on a fixed collection of issues, where for each issue several different alternatives are possible, but the combination of choices must belong to a given set X of allowable voting patterns. Such a set X is called a possibility domain if there is an aggregator that is non-dictatorial, operates separately on each issue, and returns values among those cast by the society on each issue. We design a polynomial-time algorithm that decides, given a set X of voting patterns, whether or not X is a possibility domain. Furthermore, if X is a possibility domain, then the algorithm constructs in polynomial time a non-dictatorial aggregator for X. Furthermore, we show that the question of whether a Boolean domain X is a possibility domain is in NLOGSPACE. We also design a polynomial-time algorithm that decides whether X is a uniform possibility domain, that is, whether X admits an aggregator that is non-dictatorial even when restricted to any two positions for each issue. As in the case of possibility domains, the algorithm also constructs in polynomial time a uniform non-dictatorial aggregator, if one exists. Then, we turn our attention to the case where X is given implicitly, either as the set of assignments satisfying a propositional formula, or as a set of consistent evaluations of a sequence of propositional formulas. In both cases, we provide bounds to the complexity of deciding if X is a (uniform) possibility domain. Finally, we extend our results to four types of aggregators that have appeared in the literature: generalized dictatorships, whose outcome is always an element of their input, anonymous aggregators, whose outcome is not affected by permutations of their input, monotone, whose outcome does not change if more individuals agree with it and systematic, which aggregate every issue in the same way.
+DO  - 10.1613/jair.1.12476
+UR  - https://www.jair.org/index.php/jair/article/view/12476
+KW  - constraint satisfaction; multiagent systems
+N1  - source=jair_2021.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - jair2021-jair-1-12476
+ER  - 
+
+TY  - JOUR
+TI  - Representative Committees of Peers
+AU  - Meir, Reshef
+AU  - Sandomirskiy, Fedor
+AU  - Tennenholtz, Moshe
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - A population of voters must elect representatives among themselves to decide on a sequence of possibly unforeseen binary issues. Voters care only about the final decision, not the elected representatives. The disutility of a voter is proportional to the fraction of issues, where his preferences disagree with the decision. While an issue-by-issue vote by all voters would maximize social welfare, we are interested in how well the preferences of the population can be approximated by a small committee. We show that a k-sortition (a random committee of k voters with the majority vote within the committee) leads to an outcome within the factor 1+O(1/√ k) of the optimal social cost for any number of voters n, any number of issues m, and any preference profile. For a small number of issues m, the social cost can be made even closer to optimal by delegation procedures that weigh committee members according to their number of followers. However, for large m, we demonstrate that the k-sortition is the worst-case optimal rule within a broad family of committee-based rules that take into account metric information about the preference profile of the whole population.
+DO  - 10.1613/jair.1.12521
+UR  - https://www.jair.org/index.php/jair/article/view/12521
+KW  - multiagent systems; computational social systems; game theory; decision theory
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:delegation rules; tier2:agreement; tier2:welfare; tier2:collective; schema=v1.8
+AN  - jair2021-jair-1-12521
+ER  - 
+
+TY  - JOUR
+TI  - Loss Functions, Axioms, and Peer Review
+AU  - Noothigattu, Ritesh
+AU  - Shah, Nihar
+AU  - Procaccia, Ariel
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - It is common to see a handful of reviewers reject a highly novel paper, because they view, say, extensive experiments as far more important than novelty, whereas the community as a whole would have embraced the paper. More generally, the disparate mapping of criteria scores to final recommendations by different reviewers is a major source of inconsistency in peer review. In this paper we present a framework inspired by empirical risk minimization (ERM) for learning the community's aggregate mapping. The key challenge that arises is the specification of a loss function for ERM. We consider the class of L(p,q) loss functions, which is a matrix-extension of the standard class of Lp losses on vectors; here the choice of the loss function amounts to choosing the hyperparameters p and q. To deal with the absence of ground truth in our problem, we instead draw on computational social choice to identify desirable values of the hyperparameters p and q. Specifically, we characterize p=q=1 as the only choice of these hyperparameters that satisfies three natural axiomatic properties. Finally, we implement and apply our approach to reviews from IJCAI 2017.
+DO  - 10.1613/jair.1.12554
+UR  - https://www.jair.org/index.php/jair/article/view/12554
+KW  - multiagent systems
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:social choice; schema=v1.8
+AN  - jair2021-jair-1-12554
+ER  - 
+
+TY  - JOUR
+TI  - Learning from Disagreement: A Survey
+AU  - Uma, Alexandra N.
+AU  - Fornaciari, Tommaso
+AU  - Hovy, Dirk
+AU  - Paun, Silviu
+AU  - Plank, Barbara
+AU  - Poesio, Massimo
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - Many tasks in Natural Language Processing (NLP) and Computer Vision (CV) offer evidence that humans disagree, from objective tasks such as part-of-speech tagging to more subjective tasks such as classifying an image or deciding whether a proposition follows from certain premises. While most learning in artificial intelligence (AI) still relies on the assumption that a single (gold) interpretation exists for each item, a growing body of research aims to develop learning methods that do not rely on this assumption. In this survey, we review the evidence for disagreements on NLP and CV tasks, focusing on tasks for which substantial datasets containing this information have been created. We discuss the most popular approaches to training models from datasets containing multiple judgments potentially in disagreement. We systematically compare these different approaches by training them with each of the available datasets, considering several ways to evaluate the resulting models. Finally, we discuss the results in depth, focusing on four key research questions, and assess how the type of evaluation and the characteristics of a dataset determine the answers to these questions. Our results suggest, first of all, that even if we abandon the assumption of a gold standard, it is still essential to reach a consensus on how to evaluate models. This is because the relative performance of the various training methods is critically affected by the chosen form of evaluation. Secondly, we observed a strong dataset effect. With substantial datasets, providing many judgments by high-quality coders for each item, training directly with soft labels achieved better results than training from aggregated or even gold labels. This result holds for both hard and soft evaluation. But when the above conditions do not hold, leveraging both gold and soft labels generally achieved the best results in the hard evaluation. All datasets and models employed in this paper are freely available as supplementary materials.
+DO  - 10.1613/jair.1.12752
+UR  - https://www.jair.org/index.php/jair/article/view/12752
+KW  - uncertainty; machine learning; natural language; vision
+N1  - source=jair_2021.bib; retained_by=preservation; terms=preservation:preserving disagreement; preservation:label variation; tier2:agreement; schema=v1.8
+AN  - jair2021-jair-1-12752
+ER  - 
+
+TY  - JOUR
+TI  - Welfare Guarantees in Schelling Segregation
+AU  - Bullinger, Martin
+AU  - Suksompong, Warut
+AU  - Voudouris, Alexandros A.
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - Schelling’s model is an influential model that reveals how individual perceptions and incentives can lead to residential segregation. Inspired by a recent stream of work, we study welfare guarantees and complexity in this model with respect to several welfare measures. First, we show that while maximizing the social welfare is NP-hard, computing an assignment of agents to the nodes of any topology graph with approximately half of the maximum welfare can be done in polynomial time. We then consider Pareto optimality, introduce two new optimality notions based on it, and establish mostly tight bounds on the worst-case welfare loss for assignments satisfying these notions as well as the complexity of computing such assignments. In addition, we show that for tree topologies, it is possible to decide whether there exists an assignment that gives every agent a positive utility in polynomial time; moreover, when every node in the topology has degree at least 2, such an assignment always exists and can be found efficiently.
+DO  - 10.1613/jair.1.12771
+UR  - https://www.jair.org/index.php/jair/article/view/12771
+KW  - game theory; multiagent systems; mathematical foundations
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:pareto; tier2:welfare; schema=v1.8
+AN  - jair2021-jair-1-12771
+ER  - 
+
+TY  - JOUR
+TI  - Election Manipulation on Social Networks: Seeding, Edge Removal, Edge Addition
+AU  - Castiglioni, Matteo
+AU  - Ferraioli, Diodato
+AU  - Gatti, Nicola
+AU  - Landriani, Giulia
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - We focus on the election manipulation problem through social influence, where a manipulator exploits a social network to make her most preferred candidate win an election. Influence is due to information in favor of and/or against one or multiple candidates, sent by seeds and spreading through the network according to the independent cascade model. We provide a comprehensive theoretical study of the election control problem, investigating two forms of manipulations: seeding to buy influencers given a social network and removing or adding edges in the social network given the set of the seeds and the information sent. In particular, we study a wide range of cases distinguishing in the number of candidates or the kind of information spread over the network. Our main result shows that the election manipulation problem is not affordable in the worst-case, even when one accepts to get an approximation of the optimal margin of victory, except for the case of seeding when the number of hard-to-manipulate voters is not too large, and the number of uncertain voters is not too small, where we say that a voter that does not vote for the manipulator's candidate is hard-to-manipulate if there is no way to make her vote for this candidate, and uncertain otherwise. We also provide some results showing the hardness of the problems in special cases. More precisely, in the case of seeding, we show that the manipulation is hard even if the graph is a line and that a large class of algorithms, including most of the approaches recently adopted for social-influence problems (e.g., greedy, degree centrality, PageRank, VoteRank), fails to compute a bounded approximation even on elementary networks, such as undirected graphs with every node having a degree at most two or directed trees. In the case of edge removal or addition, our hardness results also apply to election manipulation when the manipulator has an unlimited budget, being allowed to remove or add an arbitrary number of edges, and to the basic case of social influence maximization/minimization in the restricted case of finite budget. Interestingly, our hardness results for seeding and edge removal/addition still hold in a re-optimization variant, where the manipulator already knows an optimal solution to the problem and computes a new solution once a local modification occurs, e.g., the removal/addition of a single edge.
+DO  - 10.1613/jair.1.12826
+UR  - https://www.jair.org/index.php/jair/article/view/12826
+KW  - game theory; multiagent-systems; preferences
+N1  - source=jair_2021.bib; retained_by=tier2+anchor; terms=tier2:routing; tier2:collective; schema=v1.8
+AN  - jair2021-jair-1-12826
+ER  - 
+
+TY  - JOUR
+TI  - On the Online Coalition Structure Generation Problem
+AU  - Flammini, Michele
+AU  - Monaco, Gianpiero
+AU  - Moscardelli, Luca
+AU  - Shalom, Mordechai
+AU  - Zaks, Shmuel
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - We consider the online version of the coalition structure generation problem, in which agents, corresponding to the vertices of a graph, appear in an online fashion and have to be partitioned into coalitions by an authority (i.e., an online algorithm). When an agent appears, the algorithm has to decide whether to put the agent into an existing coalition or to create a new one containing, at this moment, only her. The decision is irrevocable. The objective is partitioning agents into coalitions so as to maximize the resulting social welfare that is the sum of all coalition values. We consider two cases for the value of a coalition: (1) the sum of the weights of its edges, and (2) the sum of the weights of its edges divided by its size. Coalition structures appear in a variety of application in AI, multi-agent systems, networks, as well as in social networks, data analysis, computational biology, game theory, and scheduling. For each of the coalition value functions we consider the bounded and unbounded cases depending on whether or not the size of a coalition can exceed a given value α. Furthermore, we consider the case of a limited number of coalitions and various weight functions for the edges, i.e., unrestricted, positive and constant weights. We show tight or nearly tight bounds for the competitive ratio in each case.
+DO  - 10.1613/jair.1.12989
+UR  - https://www.jair.org/index.php/jair/article/view/12989
+KW  - multiagent systems
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:coalition formation; tier2:welfare; schema=v1.8
+AN  - jair2021-jair-1-12989
+ER  - 
+
+TY  - JOUR
+TI  - Reasoning with PCP-Nets
+AU  - Cornelio, Cristina
+AU  - Goldsmith, Judy
+AU  - Grandi, Umberto
+AU  - Mattei, Nicholas
+AU  - Rossi, Francesca
+AU  - Venable, K. Brent
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - We introduce PCP-nets, a formalism to model qualitative conditional preferences with probabilistic uncertainty. PCP-nets generalise CP-nets by allowing for uncertainty over the preference orderings. We define and study both optimality and dominance queries in PCP-nets, and we propose a tractable approximation of dominance which we show to be very accurate in our experimental setting. Since PCP-nets can be seen as a way to model a collection of weighted CP-nets, we also explore the use of PCP-nets in a multi-agent context, where individual agents submit CP-nets which are then aggregated into a single PCP-net. We consider various ways to perform such aggregation and we compare them via two notions of scores, based on well known voting theory concepts. Experimental results allow us to identify the aggregation method that better represents the given set of CP-nets and the most efficient dominance procedure to be used in the multi-agent context.
+DO  - 10.1613/jair.1.13009
+UR  - https://www.jair.org/index.php/jair/article/view/13009
+KW  - preferences;; probabilistic reasoning;; multiagent systems;
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:aggregation rule; tier2:collective; schema=v1.8
+AN  - jair2021-jair-1-13009
+ER  - 
+
+TY  - JOUR
+TI  - Worst-case Bounds on Power vs. Proportion in Weighted Voting Games with an Application to False-name Manipulation
+AU  - Gafni, Yotam
+AU  - Lavi, Ron
+AU  - Tennenholtz, Moshe
+PY  - 2021
+T2  - Journal of Artificial Intelligence Research
+AB  - Weighted voting games apply to a wide variety of multi-agent settings. They enable the formalization of power indices which quantify the coalitional power of players. We take a novel approach to the study of the power of big vs. small players in these games. We model small (big) players as having single (multiple) votes. The aggregate relative power of big players is measured w.r.t. their votes proportion. For this ratio, we show small constant worst-case bounds for the Shapley-Shubik and the Deegan-Packel indices. In sharp contrast, this ratio is unbounded for the Banzhaf index. As an application, we define a false-name strategic normal form game where each big player may split its votes between false identities, and study its various properties. Together, our results provide foundations for the implications of players’ size, modeled as their ability to split, on their relative power.
+DO  - 10.1613/jair.1.13136
+UR  - https://www.jair.org/index.php/jair/article/view/13136
+KW  - autonomous agents; game theory; decision theory; mathematical foundations
+N1  - source=jair_2021.bib; retained_by=tier1; terms=tier1:voting games; tier2:collective; tier2:weighting; schema=v1.8
+AN  - jair2021-jair-1-13136
+ER  - 
+

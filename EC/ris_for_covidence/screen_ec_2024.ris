@@ -1,0 +1,452 @@
+TY  - CONF
+TI  - Monotone Randomized Apportionment
+AU  - Correa, José
+AU  - Gölz, Paul
+AU  - Schmidt-Kraepelin, Ulrike
+AU  - Tucker-Foltz, Jamie
+AU  - Verdugo, Victor
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Apportionment is the act of distributing the seats of a legislature among political parties (or states) in proportion to their vote shares (or populations). A famous impossibility by Balinski and Young (2001) shows that no apportionment method can be proportional up to one seat (quota) while also responding monotonically to changes in the votes (population monotonicity). Grimmett (2004) proposed to overcome this impossibility by randomizing the apportionment, which can achieve quota as well as perfect proportionality and monotonicity --- at least in terms of the expected number of seats awarded to each party. Still, the correlations between the seats awarded to different parties may exhibit bizarre non-monotonicities. When parties or voters care about joint events, such as whether a coalition of parties reaches a majority, these non-monotonicities can cause paradoxes, including incentives for strategic voting.
+DO  - 10.1145/3670865.3673441
+UR  - https://doi.org/10.1145/3670865.3673441
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:apportionment; tier1:voting games; tier2:manipulation; tier2:collective; schema=v1.8
+AN  - ec2024-3670865-3673441
+ER  - 
+
+TY  - CONF
+TI  - On the Fairness of Normalized $p$-Means for Allocating Goods and Chores
+AU  - Eckart, Owen
+AU  - Psomas, Alexandros
+AU  - Verma, Paritosh
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Allocating items in a fair and economically efficient manner is a central problem in fair division. We study this problem for agents with additive preferences, when items are all goods or all chores, divisible or indivisible. The celebrated notion of Nash welfare is known to produce fair and efficient allocations for both divisible and indivisible goods; there is no known analogue for dividing chores. The Nash welfare objective belongs to a large, parameterized family of objectives called the p-mean welfare functions, which includes other notable members, like social welfare and egalitarian welfare. However, among the members of this family, only the Nash welfare produces fair allocations for goods. Incidentally, Nash welfare is also the only member that satisfies the axiom of scale invariance, which is crucially associated with its fairness properties.
+DO  - 10.1145/3670865.3673445
+UR  - https://doi.org/10.1145/3670865.3673445
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:fair division; welfare:social welfare function; welfare:egalitarian and prioritarian; welfare:nash welfare; welfare:generalized means; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - ec2024-3670865-3673445
+ER  - 
+
+TY  - CONF
+TI  - Alpha-Rank-Collections: Analyzing Expected Strategic Behavior with Uncertain Utilities
+AU  - Pieroth, Fabian Raoul
+AU  - Bichler, Martin
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Game theory relies heavily on the availability of cardinal utility functions, but in fields such as matching markets, only ordinal preferences are typically elicited. The literature focuses on mechanisms with simple dominant strategies, but many real-world applications lack dominant strategies, making the intensity of preferences between outcomes important for determining strategies. Even though precise information about cardinal utilities is not available, some data about the likelihood of utility functions is often accessible. We propose to use Bayesian games to formalize uncertainty about the decision-makers' utilities by viewing them as a collection of normal-form games. Instead of searching for the Bayes-Nash equilibrium, we study how uncertainty in utilities is reflected in uncertainty of strategic play. To do this, we introduce a novel solution concept called α-Rank-collections, which extends α-Rank to Bayesian games. This allows us to analyze strategic play in, for example, non-strategyproof matching markets, for which appropriate solution concepts are currently lacking. α-Rank-collections characterize the expected probability of encountering a certain strategy profile under replicator dynamics in the long run, rather than predicting a specific equilibrium strategy profile. We experimentally evaluate α-Rank-collections using instances of the Boston mechanism, finding that our solution concept provides more nuanced predictions compared to Bayes-Nash equilibria. Additionally, we prove that α-Rank-collections are invariant to positive affine transformations, a standard property for a solution concept, and are efficient to approximate. By extending the α-Rank framework to account for Bayesian games, we provide a robust tool for analyzing strategic interactions in environments where uncertainty in preferences plays a critical role. This method offers a significant improvement in understanding and predicting strategic behaviors in various applications beyond matching markets, highlighting the versatility and efficiency of α-Rank-collections. Our approach opens new avenues for exploring complex strategic scenarios and provides a comprehensive framework for future research in game theory and economic computation. The full version of the paper can be found here https://arxiv.org/abs/2211.10317.
+DO  - 10.1145/3670865.3673448
+UR  - https://doi.org/10.1145/3670865.3673448
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:incentives; tier2:manipulation; schema=v1.8
+AN  - ec2024-3670865-3673448
+ER  - 
+
+TY  - CONF
+TI  - Learning-Augmented Metric Distortion via (p,q)-Veto Core
+AU  - Berger, Ben
+AU  - Feldman, Michal
+AU  - Gkatzelis, Vasilis
+AU  - Tan, Xizhi
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - In the metric distortion problem there is a set of candidates C and voters V within the same metric space. The goal is to select a candidate minimizing the social cost, defined as the sum of distances of the selected candidate from all the voters, and the challenge arises from the algorithm receiving only ordinal input --- each voter's list of candidates ranked by distance --- while the objective function is cardinal, determined by the underlying metric. The distortion of an algorithm is its worst-case approximation factor with respect to the optimal social cost.
+DO  - 10.1145/3670865.3673456
+UR  - https://doi.org/10.1145/3670865.3673456
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:distortion; tier2:exit; schema=v1.8
+AN  - ec2024-3670865-3673456
+ER  - 
+
+TY  - CONF
+TI  - On the Existence of Envy-Free Allocations Beyond Additive Valuations
+AU  - Benade, Gerdus
+AU  - Halpern, Daniel
+AU  - Psomas, Alexandros
+AU  - Verma, Paritosh
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study the problem of fairly allocating m indivisible items among n agents. Envy-free allocations, in which each agent prefers her bundle to the bundle of every other agent, need not exist in the worst case. However when agents have additive preferences and the value By of agent i for item j is drawn independently from a distribution Di, envy-free allocations exist with high probability when m ∈ Ω(n log n/log log n).
+DO  - 10.1145/3670865.3673466
+UR  - https://doi.org/10.1145/3670865.3673466
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2024-3670865-3673466
+ER  - 
+
+TY  - CONF
+TI  - Barriers to Collusion-resistant Transaction Fee Mechanisms
+AU  - Gafni, Yotam
+AU  - Yaish, Aviv
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - To allocate transactions to blocks, cryptocurrencies use an auction-like transaction fee mechanism (TFM). A conjecture of Roughgarden (2021) asks whether there is a TFM that is incentive compatible for both users and the miner, and is also resistant to off-chain-agreements (OCAs) between these parties, a collusion notion that captures their ability to jointly deviate for profit. The work of Chung and Shi (2023) tackles the problem using the different collusion resistance notion of side-channel proofness (SCP), and shows an impossibility given this notion. We show that OCA-proofness and SCP are different, with SCP being strictly stronger. We then fully characterize the intersection of deterministic dominant strategy incentive-compatible (DSIC) and OCA-proof mechanisms, as well as myopic miner incentive-compatible (MMIC) and OCA-proof ones, and use this characterization to show that only the trivial mechanism is DSIC, MMIC and OCA-proof. We also show that randomized mechanisms can be at most 0.842-efficient in the worst case, and that the impossibility of a non-trivial DSIC, MMIC and OCA-proof mechanism extends to natural classes of randomized mechanisms.
+DO  - 10.1145/3670865.3673469
+UR  - https://doi.org/10.1145/3670865.3673469
+N1  - source=ec_2024.bib; retained_by=tier2+anchor; terms=tier2:manipulation; schema=v1.8
+AN  - ec2024-3670865-3673469
+ER  - 
+
+TY  - CONF
+TI  - Nonlinear Fixed Points and Stationarity: Economic Applications
+AU  - Cerreia-Vioglio, Simone
+AU  - Lanzani, Giacomo
+AU  - Corrao, Roberto
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We consider the fixed points of nonlinear operators that naturally arise in games and general equilibrium models with endogenous networks, dynamic stochastic games, in models of opinion dynamics with stubborn agents, and financial networks. We study limit cases that correspond to high coordination motives, infinite patience, vanishing stubbornness and small exposure to the real sector in the applications above. Under monotonicity and continuity assumptions, we provide explicit expressions for the limit fixed points. We show that, under differentiability, the limit fixed point is linear in the initial conditions and characterized by the Jacobian of the operator at any constant vector with an explicit and linear rate of convergence. Without differentiability, but under additional concavity properties, the multiplicity of Jacobians is resolved by a representation of the limit fixed point as a maxmin functional evaluated at the initial conditions. In our applications, we use these results to characterize the limit equilibrium actions, prices, and endogenous networks, show the existence and give the formula of the asymptotic value in a class of zero-sum stochastic games with a continuum of actions, compute a nonlinear version of the eigenvector centrality of agents in networks, and characterize the equilibrium loss evaluations in financial networks.
+DO  - 10.1145/3670865.3673473
+UR  - https://doi.org/10.1145/3670865.3673473
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:opinion dynamics; schema=v1.8
+AN  - ec2024-3670865-3673473
+ER  - 
+
+TY  - CONF
+TI  - Stability in Random Hedonic Games
+AU  - Bullinger, Martin
+AU  - Kraiczy, Sonja
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Partitioning a large group of employees into teams can prove difficult because unsatisfied employees may want to transfer to other teams. In this case, the team (coalition) formation is unstable and incentivizes deviation from the proposed structure. Such a coalition formation scenario can be modeled in the framework of hedonic games and a significant amount of research has been devoted to the study of stability in such games. Unfortunately, stable coalition structures are not guaranteed to exist in general and their practicality is further hindered by computational hardness barriers.
+DO  - 10.1145/3670865.3673476
+UR  - https://doi.org/10.1145/3670865.3673476
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:coalition formation; schema=v1.8
+AN  - ec2024-3670865-3673476
+ER  - 
+
+TY  - CONF
+TI  - Committees and Equilibria: Multiwinner Approval Voting Through the Lens of Budgeting Games
+AU  - Haret, Adrian
+AU  - Klumper, Sophie
+AU  - Maly, Jan
+AU  - Schäfer, Guido
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Approval-based multiwinner voting, one of the central topics in computational social choice, addresses collective decision-making scenarios in which n voters select a committee of k candidates from a larger pool of alternatives. A fundamental aim is to ensure that the elected committee proportionately represents the preferences of the electorate. Consequently, much effort has gone into exploring various proportionality notions and developing voting rules to achieve them. A key intuition underlying many fairness axioms and voting rules is that an optimal outcome is attained when no subset of voters can improve their position by reallocating their endorsements. In this paper, we formalize this intuition by defining a new class of games, which we call budgeting games, where committees occur as a result of voters' decisions about how to allocate a given budget. Our primary contribution lies in introducing this new class of normal-form games and showing that key notions in multiwinner voting theory, such as priceability, the core and EJR (Extended Justified Representation) can be thought of as equilibria of budgeting games. Remarkably, our budgeting games do not just capture existing concepts, but also give rise to entirely new families of voting rules. These rules, which are guaranteed to satisfy desirable fairness axioms, are based on improving-move dynamics in the respective budgeting games, and include the well-known Method of Equal Shares. Finally, we showcase the applicability of our game-theoretic perspective by proving existence of strong equilibria in a restricted version of our budgeting games, which implies that the core in a novel special case of multiwinner elections is non-empty.
+DO  - 10.1145/3670865.3673484
+UR  - https://doi.org/10.1145/3670865.3673484
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:voting rule; tier1:social choice; tier1:collective decision; tier1:committee selection; tier1:approval rules; tier1:representation axioms; tier2:fairness; tier2:collective; schema=v1.8
+AN  - ec2024-3670865-3673484
+ER  - 
+
+TY  - CONF
+TI  - Generalizing Instant Runoff Voting to Allow Indifferences
+AU  - Delemazure, Théo
+AU  - Peters, Dominik
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Instant Runoff Voting (IRV) is used in elections for many political offices around the world. It allows voters to specify their preferences among candidates as a ranking. We identify a generalization of the rule, called Approval-IRV, that allows voters more freedom by allowing them to give equal preference to several candidates. Such weak orders are a more expressive input format than linear orders, and they help reduce the cognitive effort of voting.
+DO  - 10.1145/3670865.3673501
+UR  - https://doi.org/10.1145/3670865.3673501
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:named voting rules; tier2:collective; schema=v1.8
+AN  - ec2024-3670865-3673501
+ER  - 
+
+TY  - CONF
+TI  - A belief-based approach to signaling
+AU  - Koessler, Frédéric
+AU  - Laclau, Marie
+AU  - Tomala, Tristan
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - In this paper, we provide a geometric characterization of the set of interim equilibrium payoffs in a general class of signaling games. To obtain a tractable characterization, we use the belief based approach found in the literature on repeated games with incomplete information, cheap talk and Bayesian persuasion. This approach avoids to specify the prior, the strategies of the sender and receiver, and the belief system. The key ingredient is to consider Bayes-plausible belief distributions that are incentive-compatible for the sender. Geometrically, this leads to a constrained convexification of the graphs of the interim value correspondences. Our characterization extends the analogous result for sender-receiver cheap talk games. We illustrate the results with some classical signaling games. We derive the best equilibrium payoff for the sender when his preferences are type-independent. For zero-sum preferences, we obtain an explicit formula for the ex-ante equilibrium payoff and establish a simple condition for the uniqueness of interim equilibrium payoffs.
+DO  - 10.1145/3670865.3673503
+UR  - https://doi.org/10.1145/3670865.3673503
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - ec2024-3670865-3673503
+ER  - 
+
+TY  - CONF
+TI  - Optimal Budget Aggregation with Single-Peaked Preferences
+AU  - Brandt, Felix
+AU  - Greger, Matthias
+AU  - Segal-Halevi, Erel
+AU  - Suksompong, Warut
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study the problem of aggregating distributions, such as budget proposals, into a collective distribution. An ideal aggregation mechanism would be Pareto efficient, strategyproof, and fair. Most previous work assumes that agents evaluate budgets according to the l1 distance to their ideal budget. We investigate and compare different models from the larger class of star-shaped utility functions---a multi-dimensional generalization of single-peaked preferences. For the case of two alternatives, we extend existing results by proving that under very general assumptions, the uniform phantom mechanism is the only strategyproof mechanism that satisfies proportionality---a minimal notion of fairness introduced by Freeman et al. [2021]. Moving to the case of more than two alternatives, we establish sweeping impossibilities for l1 and l∞ disutilities: no mechanism satisfies efficiency, strategyproofness, and proportionality. We then propose a new kind of star-shaped utilities based on evaluating budgets by the ratios of shares between a given budget and an ideal budget. For these utilities, efficiency, strategyproofness, and fairness become compatible. In particular, we prove that the mechanism that maximizes the Nash product of individual utilities is characterized by group-strategyproofness and a core-based fairness condition.
+DO  - 10.1145/3670865.3673512
+UR  - https://doi.org/10.1145/3670865.3673512
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:committee selection; tier1:incentives; welfare:nash welfare; schema=v1.8
+AN  - ec2024-3670865-3673512
+ER  - 
+
+TY  - CONF
+TI  - Competitive Equilibrium for Chores: from Dual Eisenberg-Gale to a Fast, Greedy, LP-based Algorithm
+AU  - Chaudhury, Bhaskar Ray
+AU  - Kroer, Christian
+AU  - Mehta, Ruta
+AU  - Nan, Tianlong
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study the computation of competitive equilibrium for Fisher markets with n agents and m divisible chores. Prior work showed that competitive equilibria correspond to the nonzero KKT points of the Nash welfare minimization program, which is a non-convex analogue of the Eisenberg-Gale convex program. We introduce an analogue of the Eisenberg-Gale dual for chores: we show that all KKT points of this dual correspond to competitive equilibria, and while it is not a dual of the non-convex primal program in a formal sense, the objectives touch at all KKT points. Similar to the primal program, the dual has problems from an optimization perspective: there are many feasible directions where the objective tends to positive infinity, and these attract iterative optimization methods. We then derive a new constraint for the dual, which restricts optimization to a hyperplane that avoids all these directions. We show that restriction to this hyperplane retains all KKT points, and surprisingly, does not introduce any new ones. This allows, for the first time ever, application of iterative optimization methods over a convex region for computing competitive equilibria for chores.
+DO  - 10.1145/3670865.3673516
+UR  - https://doi.org/10.1145/3670865.3673516
+N1  - source=ec_2024.bib; retained_by=welfare; terms=welfare:nash welfare; schema=v1.8
+AN  - ec2024-3670865-3673516
+ER  - 
+
+TY  - CONF
+TI  - The Squared Kemeny Rule for Averaging Rankings
+AU  - Lederer, Patrick
+AU  - Peters, Dominik
+AU  - Wąs, Tomasz
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - For the problem of aggregating several rankings into one ranking, Kemeny [1959] proposed two methods: the median rule which selects the ranking with the smallest total swap distance to the input rankings, and the mean rule which minimizes the squared swap distances to the input rankings. The median rule has been extensively studied since and is now known simply as Kemeny's rule. It exhibits majoritarian properties, so for example if more than half of the input rankings are the same, then the output of the rule is the same ranking.
+DO  - 10.1145/3670865.3673521
+UR  - https://doi.org/10.1145/3670865.3673521
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:named voting rules; schema=v1.8
+AN  - ec2024-3670865-3673521
+ER  - 
+
+TY  - CONF
+TI  - Efficient and Strategy-proof Mechanism under General Constraints
+AU  - Imamura, Kenzo
+AU  - Kawase, Yasushi
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study indivisible goods allocation problems, including real-life applications such as student placement in public schools, refugee resettlement, and student-project assignment. Such applications are often subject to constraints. This study aims to identify the constraints under which a desirable mechanism can be designed. Regarding the desirable properties of the mechanisms, we focus on Pareto efficiency for students (PE), individual rationality (IR), and group strategy-proofness (GSP). We consider two scenarios: one with and one without endowments. The applicability of either scenario in real-life applications depends on the specific circumstances.
+DO  - 10.1145/3670865.3673527
+UR  - https://doi.org/10.1145/3670865.3673527
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:pareto; schema=v1.8
+AN  - ec2024-3670865-3673527
+ER  - 
+
+TY  - CONF
+TI  - Eliciting Informative Text Evaluations with Large Language Models
+AU  - Lu, Yuxuan
+AU  - Xu, Shengwei
+AU  - Zhang, Yichi
+AU  - Kong, Yuqing
+AU  - Schoenebeck, Grant
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Peer prediction mechanisms motivate high-quality feedback with provable guarantees. However, current methods only apply to rather simple reports, like multiple-choice or scalar numbers. We aim to broaden these techniques to the larger domain of text-based reports, drawing on the recent developments in large language models (LLMs). This vastly increases the applicability of peer prediction mechanisms as textual feedback is the norm in a large variety of feedback channels: peer reviews, e-commerce customer reviews, and comments on social media.
+DO  - 10.1145/3670865.3673532
+UR  - https://doi.org/10.1145/3670865.3673532
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:peer prediction; schema=v1.8
+AN  - ec2024-3670865-3673532
+ER  - 
+
+TY  - CONF
+TI  - Automating Food Drop: The Power of Two Choices for Dynamic and Fair Food Allocation
+AU  - Mertzanidis, Marios
+AU  - Psomas, Alexandros
+AU  - Verma, Paritosh
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Food waste and food insecurity are two closely related pressing global issues. Food rescue organizations worldwide run programs aimed at addressing the two problems. In this paper, we partner with a non-profit organization in the state of Indiana that leads Food Drop, a program that is designed to redirect rejected truckloads of food away from landfills and into food banks. The truckload to food bank matching decisions are currently made by an employee of our partner organization. In addition to this being a very time-consuming task, as perhaps expected from human-based matching decisions, the allocations are often skewed: a small percentage of the possible recipients receives the majority of donations. Our goal in this partnership is to completely automate Food Drop. In doing so, we need a matching algorithm for making real-time decisions that strikes a balance between ensuring fairness for the food banks that receive the food and optimizing efficiency for the truck drivers. In this paper, we describe the theoretical guarantees and experiments that dictated our choice of algorithm in the platform we built and deployed for our partner organization. We develop a new model for dynamic fair division with two-sided preferences. There is an undirected, weighted graph, whose nodes represent counties, a subset of which have food banks that can receive donations, edge weights represent distance, and node weights represent the food-insecure population. Drivers appear over time, one in each step, and need to be matched, immediately and irrevocably, to a food bank. Drivers have a random origin node, a random final destination node, and a donation of random value. Our goal is to balance driver efficiency (drivers should not have to drive a lot) with fairness (every food bank should receive value proportionately to the food-insecure individuals it serves). We give matching upper and lower bounds that completely characterize this trade-off. Our work also makes contributions to the literature on load balancing and balls-into-bins games, that might be of independent interest. Specifically, we study the allocation of m weighted balls into n weighted bins, where each ball has two non-uniformly sampled random bin choices, and prove upper bounds, that hold with high probability, on the maximum load of any bin.
+DO  - 10.1145/3670865.3673534
+UR  - https://doi.org/10.1145/3670865.3673534
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - ec2024-3670865-3673534
+ER  - 
+
+TY  - CONF
+TI  - Improving Approximation Guarantees for Maximin Share
+AU  - Akrami, Hannaneh
+AU  - Garg, Jugal
+AU  - Sharma, Eklavya
+AU  - Taki, Setareh
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We consider fair division of a set of indivisible goods among n agents with additive valuations using the fairness notion of maximin share (MMS). MMS is the most popular share-based notion, in which an agent finds an allocation fair to her if she receives goods worth at least her (1-out-of-n) MMS value. An allocation is called MMS if all agents receive their MMS values. However, since MMS allocations do not always exist [Kurokawa et al., JACM'18], the focus shifted to investigating its ordinal and multiplicative approximations.
+DO  - 10.1145/3670865.3673544
+UR  - https://doi.org/10.1145/3670865.3673544
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:fair division; welfare:welfare properties; tier2:fairness; schema=v1.8
+AN  - ec2024-3670865-3673544
+ER  - 
+
+TY  - CONF
+TI  - Generative Social Choice
+AU  - Fish, Sara
+AU  - Gölz, Paul
+AU  - Parkes, David C.
+AU  - Procaccia, Ariel D.
+AU  - Rusak, Gili
+AU  - Shapira, Itai
+AU  - Wüthrich, Manuel
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - The mathematical study of voting, social choice theory, has traditionally only been applicable to choices among a few predetermined alternatives, but not to open-ended decisions such as collectively selecting a textual statement. We introduce generative social choice, a design methodology for open-ended democratic processes that combines the rigor of social choice theory with the capability of large language models to generate text and extrapolate preferences. Our framework divides the design of AI-augmented democratic processes into two components: first, proving that the process satisfies representation guarantees when given access to oracle queries; second, empirically validating that these queries can be approximately implemented using a large language model. We apply this framework to the problem of summarizing free-form opinions into a proportionally representative slate of opinion statements; specifically, we develop a democratic process with representation guarantees and use this process to represent the opinions of participants in a survey about chatbot personalization. In a trial with 100 representative US residents, we find that 93 out of 100 participants feel "mostly" or "perfectly" represented by the slate of five statements we extracted. By providing rigorous guarantees through social choice, our work alleviates concerns about AI-driven democratic innovation and helps unlock its potential.
+DO  - 10.1145/3670865.3673547
+UR  - https://doi.org/10.1145/3670865.3673547
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:social choice; tier2:collective; schema=v1.8
+AN  - ec2024-3670865-3673547
+ER  - 
+
+TY  - CONF
+TI  - Computing Voting Rules with Elicited Incomplete Votes
+AU  - Halpern, Daniel
+AU  - Hossain, Safwan
+AU  - Tucker-Foltz, Jamie
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Motivated by the difficulty of specifying complete ordinal preferences over a large set of m candidates, we study voting rules that are computable by querying voters about t < m candidates. Generalizing prior works that focused on specific instances of this problem, our paper fully characterizes the set of positional scoring rules that can be computed for any 1 ≤ t < m, which, notably, does not include plurality. We then extend this to show a similar impossibility result for single transferable vote (elimination voting). These negative results are information-theoretic and agnostic to the number of queries. Finally, for scoring rules that are computable with limited-sized queries, we give parameterized upper and lower bounds on the number of such queries a deterministic or randomized algorithm must make to determine the score-maximizing candidate. While there is no gap between our bounds for deterministic algorithms, identifying the exact query complexity for randomized algorithms is a challenging open problem, of which we solve one special case.
+DO  - 10.1145/3670865.3673556
+UR  - https://doi.org/10.1145/3670865.3673556
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:voting rule; tier1:named voting rules; tier2:collective; schema=v1.8
+AN  - ec2024-3670865-3673556
+ER  - 
+
+TY  - CONF
+TI  - Pushing the Frontier on Approximate EFX Allocations
+AU  - Amanatidis, Georgios
+AU  - Filos-Ratsikas, Aris
+AU  - Sgouritsa, Alkmini
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study the problem of allocating a set of indivisible goods to a set of agents with additive valuation functions, aiming to achieve approximate envy-freeness up to any good (α-EFX). The state-of-the-art results on the problem include that (exact) EFX allocations exist when (a) there are at most three agents, or (b) the agents' valuation functions can take at most two values, or (c) the agents' valuation functions can be represented via a graph. For α-EFX, it is known that a 0.618-EFX allocation exists for any number of agents with additive valuation functions. In this paper, we show that 2/3-EFX allocations exist when (a) there are at most seven agents, (b) the agents' valuation functions can take at most three values, or (c) the agents' valuation functions can be represented via a multigraph. Our results can be interpreted in two ways. First, by relaxing the notion of EFX to 2/3-EFX, we obtain existence results for strict generalizations of the settings for which exact EFX allocations are known to exist. Secondly, by imposing restrictions on the setting, we manage to beat the barrier of 0.618 and achieve an approximation guarantee of 2/3. Therefore, our results push the frontier of existence and computation of approximate EFX allocations, and provide insights into the challenges of settling the existence of exact EFX allocations.
+DO  - 10.1145/3670865.3673582
+UR  - https://doi.org/10.1145/3670865.3673582
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2024-3670865-3673582
+ER  - 
+
+TY  - CONF
+TI  - Full Accuracy Scoring Accelerates the Discovery of Skilled Forecasters
+AU  - Atanasov, Pavel
+AU  - Karger, Ezra
+AU  - Tetlock, Philip
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Reliable detection of forecasting skill is slow and resource-intensive. Forecasters need to answer dozens of questions, which may take months or years to resolve. To accelerate this process, we propose the Full Accuracy Score (FAS), a measure that combines the strengths of ground-truth-based proper scores with the early availability of proxy scores that measure the distance between individual and consensus estimates. FAS treats the two scores as complements, using ground-truth scores on resolved questions and proxy scores on open ones. Across two forecasting tournaments, we show that a baseline FAS variant outperforms classic Brier scores in predicting final relative scores of individual forecasters. Even in cold-start settings, where the same crowd provides consensus estimates and evaluation scores, FAS outperforms Brier scores across all forecasting competitions. Access to a separate crowd of pre-qualified forecasters further boosts FAS performance. We show that FAS performs best when proxy scores are weighted approximately half as much as Brier scores. FAS accelerates skill assessment, and is especially useful in the context of long-term forecasting competitions.
+DO  - 10.1145/3670865.3673583
+UR  - https://doi.org/10.1145/3670865.3673583
+N1  - source=ec_2024.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - ec2024-3670865-3673583
+ER  - 
+
+TY  - CONF
+TI  - Stable Matching as Transportation
+AU  - Echenique, Federico
+AU  - Root, Joseph
+AU  - Sandomirskiy, Fedor
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study matching markets with aligned preferences and establish a connection between common design objectives---stability, efficiency, and fairness---and the theory of optimal transport. Optimal transport gives new insights into the structural properties of matchings obtained from pursuing these objectives, and into the trade-offs between different objectives. Matching markets with aligned preferences provide a tractable stylized model capturing supply-demand imbalances in a range of settings such as partnership formation, school choice, organ donor exchange, and markets with transferable utility where bargaining over transfers happens after a match is formed.
+DO  - 10.1145/3670865.3673585
+UR  - https://doi.org/10.1145/3670865.3673585
+N1  - source=ec_2024.bib; retained_by=tier2+anchor; terms=tier2:negotiation; schema=v1.8
+AN  - ec2024-3670865-3673585
+ER  - 
+
+TY  - CONF
+TI  - Breaking the Envy Cycle: Best-of-Both-Worlds Guarantees for Subadditive Valuations
+AU  - Feldman, Michal
+AU  - Mauras, Simon
+AU  - Narayan, Vishnu V.
+AU  - Ponitka, Tomasz
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study best-of-both-worlds guarantees for the fair division of indivisible items among agents with subadditive valuations. Our main result establishes the existence of a random allocation that is simultaneously ex-ante 1/2-envy-free, ex-post 1/2-EFX and ex-post EF1, for every instance with subadditive valuations. We achieve this result by a novel polynomial-time algorithm that randomizes the well-established envy cycles procedure in a way that provides ex-ante fairness. Notably, this is the first best-of-both-worlds fairness guarantee for subadditive valuations, even when considering only EF1 without EFX.
+DO  - 10.1145/3670865.3673592
+UR  - https://doi.org/10.1145/3670865.3673592
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2024-3670865-3673592
+ER  - 
+
+TY  - CONF
+TI  - Maximum Flow is Fair: A Network Flow Approach to Committee Voting
+AU  - Suzuki, Mashbat
+AU  - Vollen, Jeremy
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - In the committee voting setting, a subset of k alternatives is selected based on the preferences of voters. In this paper, our goal is to efficiently compute ex-ante fair probability distributions (or lotteries) over committees. Since it is not known whether a lottery satisfying the desirable fairness property of fractional core is polynomial-time computable, we introduce a new axiom called group resource proportionality (GRP), which strengthens other fairness notions in the literature. We characterize our fairness axiom by a correspondence with max flows on a network formulation of committee voting. Using the connection to flow networks revealed by this characterization, we then introduce voting rules which achieve fairness in conjunction with other desirable properties. The redistributive utilitarian rule satisfies ex-ante efficiency in addition to our fairness axiom. We also give a voting rule which maximizes social welfare subject to fairness by reducing to a minimum-cost maximum-flow problem. Lastly, we show our fairness property can be obtained in tandem with strong ex-post fairness properties - an approach known as best-of-both-worlds fairness. We strengthen existing best-or-both-worlds fairness results in committee voting and resolve an open question posed by Aziz et al. [2023a]. These findings follow from an auxiliary result which may prove useful in obtaining best-of-both-worlds type results in future research on committee voting.
+DO  - 10.1145/3670865.3673603
+UR  - https://doi.org/10.1145/3670865.3673603
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:voting rule; tier1:committee selection; welfare:utilitarian aggregation; tier2:welfare; tier2:fairness; tier2:collective; schema=v1.8
+AN  - ec2024-3670865-3673603
+ER  - 
+
+TY  - CONF
+TI  - Fair, Manipulation-Robust, and Transparent Sortition
+AU  - Baharav, Carmel
+AU  - Flanigan, Bailey
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Sortition, the random selection of political representatives, is increasingly being used around the world to choose participants of deliberative processes like Citizens' Assemblies. Motivated by the practical importance of sortition, there has been a recent flurry of computer science research on sortition algorithms, whose task it is to randomly select a panel that satisfies several quotas enforcing representation of key population subgroups. This existing work has contributed an algorithmic approach for sampling a quota-satisfying set of willing participants while ensuring their chances of selection are maximally equal, as measured by any convex equality objective. The question, then, is which equality objective is the right one? Past work has mainly studied the objectives Minimax and Leximin, which respectively minimize the maximum and maximize the minimum chance of selection given to any willing participant. Recent work showed that both of these objectives have key weaknesses: Minimax is highly robust to manipulation, but it is arbitrarily unfair; and oppositely, Leximin is highly fair but arbitrarily manipulable.
+DO  - 10.1145/3670865.3673606
+UR  - https://doi.org/10.1145/3670865.3673606
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:delegation rules; tier1:assemblies and consultations; welfare:leximin; tier2:manipulation; schema=v1.8
+AN  - ec2024-3670865-3673606
+ER  - 
+
+TY  - CONF
+TI  - Multi-Criteria Allocation Mechanisms: Constraints and Comparative Statics
+AU  - Nikzad, Afshin
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We study the absolute and relative structure of Pareto-optimal allocation mechanisms in settings where the planner considers more than one objective criterion. Specifically, we (i) characterize mechanisms that implement the entire Pareto frontier (which cannot be done by maximizing weighted sums of the criteria) and (ii) study how these mechanisms change along the Pareto frontier (comparative statics). To describe the core ideas, we first consider the problem of allocating a scarce public resource: a planner is distributing a fixed supply of a homogenous good among a continuum population of agents. While the individuals' valuations for the good are not known to the planner, their distribution is. The planner takes into account two criteria as objectives: allocative efficiency, defined as the sum of the agents' valuations for owned goods, and social welfare, defined as a (possibly) weighted average of the agents' payoffs. The payoff of an agent is her valuation for the good she is allocated minus the net payment she makes to the planner.
+DO  - 10.1145/3670865.3673612
+UR  - https://doi.org/10.1145/3670865.3673612
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:pareto; tier2:welfare; schema=v1.8
+AN  - ec2024-3670865-3673612
+ER  - 
+
+TY  - CONF
+TI  - The Surprising Benefits of Base Rate Neglect in Robust Aggregation
+AU  - Kong, Yuqing
+AU  - Wang, Shu
+AU  - Wang, Ying
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Robust aggregation integrates predictions from multiple experts without knowledge of the experts' information structures. Prior work assumes experts are Bayesian, providing predictions as perfect posteriors based on their signals. However, real-world experts often deviate systematically from Bayesian reasoning. Our work considers experts who tend to ignore the base rate. We find that a certain degree of base rate neglect helps with robust forecast aggregation.
+DO  - 10.1145/3670865.3673618
+UR  - https://doi.org/10.1145/3670865.3673618
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:forecast aggregation; schema=v1.8
+AN  - ec2024-3670865-3673618
+ER  - 
+
+TY  - CONF
+TI  - A Generalised Theory of Proportionality in Collective Decision Making
+AU  - Masařík, Tomáš
+AU  - Pierczyński, Grzegorz
+AU  - Skowron, Piotr
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We consider a voting model, where a number of candidates need to be selected subject to certain feasibility constraints. The model generalizes committee elections (where there is a single constraint on the number of candidates that need to be selected), various elections with diversity constraints, the model of public decisions (where decisions need to be taken on a number of independent issues), and the model of collective scheduling. A critical property of voting is that it should be fair---not only to individuals but also to groups of voters with similar opinions on the subject of the vote; in other words, the outcome of an election should proportionally reflect the voters' preferences.
+DO  - 10.1145/3670865.3673619
+UR  - https://doi.org/10.1145/3670865.3673619
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:collective decision; tier1:committee selection; tier2:collective; schema=v1.8
+AN  - ec2024-3670865-3673619
+ER  - 
+
+TY  - CONF
+TI  - Revisiting the Primitives of Transaction Fee Mechanism Design
+AU  - Ganesh, Aadityan
+AU  - Thomas, Clayton
+AU  - Weinberg, S. Matthew
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - Transaction Fee Mechanism Design---a rapidly-evolving research agenda initiated by Roughgarden [2021]---studies auctions run by untrusted miners for transaction inclusion in a blockchain. Under previously-considered desiderata, an auction is considered 'good' if, informally-speaking, each party (i.e., the miner, the users, and coalitions of both miners and users) has no incentive to deviate from the fixed and pre-determined protocol. In other words, previous works posit that a 'good' auction should be 'simple for users', 'simple for miners', and 'resistant to collusion'.
+DO  - 10.1145/3670865.3673621
+UR  - https://doi.org/10.1145/3670865.3673621
+N1  - source=ec_2024.bib; retained_by=tier2+anchor; terms=tier2:manipulation; schema=v1.8
+AN  - ec2024-3670865-3673621
+ER  - 
+
+TY  - CONF
+TI  - Cardinal-Utility Matching Markets: The Quest for Envy-Freeness, Pareto-Optimality, and Efficient Computability
+AU  - Troebst, Thorben
+AU  - Vazirani, Vijay V.
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - In a one-sided matching market, we are given a set G of goods and a set A of agents with |A| = |G|. Agents have preferences over the goods and each agent is to be assigned exactly one good. The goal is to design a mechanism without monetary transfers which finds a perfect matching satisfying desirable game-theoretic properties. Markets of this kind arise in many scenarios where payments are impractical or immoral such as when assigning students to schools or doctors to hospitals.
+DO  - 10.1145/3670865.3673630
+UR  - https://doi.org/10.1145/3670865.3673630
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2024-3670865-3673630
+ER  - 
+
+TY  - CONF
+TI  - When Geography Shapes Preferences: Redesigning Teacher Assignment in Italy
+AU  - Cavallo, Mariagrazia
+AU  - Dogan, Battal
+PY  - 2024
+T2  - Proceedings of the 25th ACM Conference on Economics and Computation
+AB  - We investigate Italy's centralized teacher assignment system where teachers can rank "geographical regions", leading to ties in their rank order lists (ROLs). We show that the way ties in teachers' ROLs are resolved in the current assignment mechanism systematically violates teachers' priority rights and results in justified envy. We provide a practical solution to this problem. We introduce a new assignment mechanism called Deferred Acceptance with Hierarchical Choice (DA-HC), which is strategy-proof, eliminates justified envy, and Pareto improves over the benchmark deferred acceptance mechanism with simple tie-breaking (DA-STB). We show that two commonly used efficiency notions from the literature, Pareto efficiency subject to eliminating justified envy and size efficiency subject to eliminating justified envy, do not apply effectively in this context as they are not compatible with strategy-proofness. We introduce a new efficiency concept and show that the DA-HC mechanism is optimal in efficiency terms within the class of strategy-proof mechanisms that eliminate justified envy. Using administrative data, we provide evidence that our proposed mechanism can potentially bring significant welfare improvements over the benchmark DA-STB.
+DO  - 10.1145/3670865.3673643
+UR  - https://doi.org/10.1145/3670865.3673643
+N1  - source=ec_2024.bib; retained_by=tier1; terms=tier1:incentives; tier1:pareto; schema=v1.8
+AN  - ec2024-3670865-3673643
+ER  - 
+

@@ -1,0 +1,260 @@
+TY  - JOUR
+TI  - Abstractions for Visualizing Preferences in Group Decisions
+AU  - Hindalong, Emily
+AU  - Johnson, Jordon
+AU  - Carenini, Giuseppe
+AU  - Munzner, Tamara
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Group decision making occurs when individuals collectively choose from a set of alternatives based on individual preferences. In these ubiquitous situations, it can be helpful for decision makers to visually model and compare stakeholder preferences in order to better understand others' points of view and reach consensus. Although a number of collaboration support tools allow preference inspection in some form, they are rarely based on a comprehensive understanding of the needs of group decision makers. The goal of our work is to study these demands, develop abstractions to model them, and create a framework to inform the design and assessment of existing and future tools. First, guided by decision analysis theory, we examine a diverse set of group decision making scenarios, characterizing variations in problem formulation, analysis goals, and situational features. Second, we amalgamate these findings into data and task abstractions that can be used to relate specific scenarios to the language of visualization. Finally, we use this framework to assess existing preference visualization tools in order to shed light on areas for future work in supporting group decision making.
+DO  - 10.1145/3512896
+UR  - https://doi.org/10.1145/3512896
+N1  - source=cscw_2022.bib; retained_by=tier1; terms=tier1:multi-stakeholder; tier2:agreement; schema=v1.8
+AN  - cscw2022-3512896
+ER  - 
+
+TY  - JOUR
+TI  - Attitudes and Folk Theories of Data Subjects on Transparency and Accuracy in Emotion Recognition
+AU  - Grill, Gabriel
+AU  - Andalibi, Nazanin
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - The growth of technologies promising to infer emotions raises political and ethical concerns, including concerns regarding their accuracy and transparency. A marginalized perspective in these conversations is that of data subjects potentially affected by emotion recognition. Taking social media as one emotion recognition deployment context, we conducted interviews with data subjects (i.e., social media users) to investigate their notions about accuracy and transparency in emotion recognition and interrogate stated attitudes towards these notions and related folk theories. We find that data subjects see accurate inferences as uncomfortable and as threatening their agency, pointing to privacy and ambiguity as desired design principles for social media platforms. While some participants argued that contemporary emotion recognition must be accurate, others raised concerns about possibilities for contesting the technology and called for better transparency. Furthermore, some challenged the technology altogether, highlighting that emotions are complex, relational, performative, and situated. In interpreting our findings, we identify new folk theories about accuracy and meaningful transparency in emotion recognition. Overall, our analysis shows an unsatisfactory status quo for data subjects that is shaped by power imbalances and a lack of reflexivity and democratic deliberation within platform governance.
+DO  - 10.1145/3512925
+UR  - https://doi.org/10.1145/3512925
+N1  - source=cscw_2022.bib; retained_by=preservation; terms=preservation:minority; schema=v1.8
+AN  - cscw2022-3512925
+ER  - 
+
+TY  - JOUR
+TI  - Eliciting Confidence for Improving Crowdsourced Audio Annotations
+AU  - Méndez Méndez, Ana Elisa
+AU  - Cartwright, Mark
+AU  - Bello, Juan Pablo
+AU  - Nov, Oded
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - In this work we explore confidence elicitation methods for crowdsourcing "soft" labels, e.g., probability estimates, to reduce the annotation costs for domains with ambiguous data. Machine learning research has shown that such "soft" labels are more informative and can reduce the data requirements when training supervised machine learning models. By reducing the number of required labels, we can reduce the costs of slow annotation processes such as audio annotation. In our experiments we evaluated three confidence elicitation methods: 1) "No Confidence" elicitation, 2) "Simple Confidence" elicitation, and 3) "Betting" mechanism for confidence elicitation, at both individual (i.e., per participant) and aggregate (i.e., crowd) levels. In addition, we evaluated the interaction between confidence elicitation methods, annotation types (binary, probability, and z-score derived probability), and "soft" versus "hard" (i.e., binarized) aggregate labels. Our results show that both confidence elicitation mechanisms result in higher annotation quality than the "No Confidence" mechanism for binary annotations at both participant and recording levels. In addition, when aggregating labels at the recording level, results indicate that we can achieve comparable results to those with 10-participant aggregate annotations using fewer annotators if we aggregate "soft" labels instead of "hard" labels. These results suggest that for binary audio annotation using a confidence elicitation mechanism and aggregating continuous labels we can obtain higher annotation quality, more informative labels, with quality differences more pronounced with fewer participants. Finally, we propose a way of integrating these confidence elicitation methods into a two-stage, multi-label annotation pipeline.
+DO  - 10.1145/3512935
+UR  - https://doi.org/10.1145/3512935
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:combining; schema=v1.8
+AN  - cscw2022-3512935
+ER  - 
+
+TY  - JOUR
+TI  - Power Dynamics and Value Conflicts in Designing and Maintaining Socio-Technical Algorithmic Processes
+AU  - Park, Joon Sung
+AU  - Karahalios, Karrie
+AU  - Salehi, Niloufar
+AU  - Eslami, Motahhare
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - How do power dynamics and value conflicts affect our ability to design and maintain socio-technical algorithmic processes? In this paper, we study the SIGCHI student volunteer (SV) selection process that uses a weighted semi-randomized algorithm to recruit a desired pool of volunteers. Our interviews with the community members showed that the process is complex and socio-technical; the algorithm's outputs are interpreted and adjusted by the conference organizers to reflect the community values while ensuring the selection of effective volunteers to help with organizing the conference. This provides a stage in which the power dynamics and value conflicts among the stakeholders play salient roles in determining how the process was perceived and envisioned. For instance, non-organizers of the conference found the algorithm used in the selection process to be a power-balancer that places a check on the organizers who oversee the process. However, even with a participatory process to elicit the algorithm's weights, the power dynamics and value conflicts between the participants made it difficult to reach a consensus on what the SV selection process should consider and prioritize. Our findings highlight the importance of value transparency -- the type of transparency that focuses on explaining why a decision was made rather than how it was made -- as a mechanism for resolving such conflicts. Based on our findings, we lay out design recommendations that can guide communities to better design and maintain algorithmic socio-technical processes over time in the face of power dynamics and value conflicts.
+DO  - 10.1145/3512957
+UR  - https://doi.org/10.1145/3512957
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2022-3512957
+ER  - 
+
+TY  - JOUR
+TI  - Understanding the Design Space of AI-Mediated Social Interaction in Online Learning: Challenges and Opportunities
+AU  - Wang, Qiaosi
+AU  - Camacho, Ida
+AU  - Jing, Shan
+AU  - Goel, Ashok K.
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Our online interactions are constantly mediated through Artificial Intelligence (AI), especially our social interactions. AI-mediated social interaction is the AI-facilitated process of building and maintaining social connections between individuals through information inferred from people's online posts. With its impending application across a number of contexts, the challenges and opportunities of AI-mediated social interaction remain underexplored. This paper seeks to understand the design space of AI-mediated social interaction in the context of online learning, where students frequently face social isolation. We deployed an AI agent named SAMI in three class discussion forums to help online learners build social connections. Using SAMI as a probe, we conducted semi-structured interviews with 26 students to understand their difficulties in remote social interactions and their experiences with SAMI. Through the lenses of social translucence and social-technical gap, we illustrate online learners' difficulties in remote social interactions and how SAMI resolved some of the difficulties. We also identify potential ethical and social challenges of SAMI such as user agency and privacy. Based on our findings, we outline the design space of AI-mediated social interaction. We discuss the design tension between AI performance and ethical design and pinpoint two design opportunities for AI-mediated social interaction in designing towards human-AI collaborative social matching and artificial serendipity.
+DO  - 10.1145/3512977
+UR  - https://doi.org/10.1145/3512977
+N1  - source=cscw_2022.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2022-3512977
+ER  - 
+
+TY  - JOUR
+TI  - Veteran Critical Theory as a Lens to Understand Veterans' Needs and Support on Social Media
+AU  - Zhou, Jiawei
+AU  - Saha, Koustuv
+AU  - Lopez Carron, Irene Michelle
+AU  - Yoo, Dong Whi
+AU  - Deeter, Catherine R.
+AU  - De Choudhury, Munmun
+AU  - Arriaga, Rosa I.
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Veterans are a unique marginalized group facing multiple vulnerabilities. Current assessments of veteran needs and support largely come from first-person accounts guided by researchers' prompts. Social media platforms not only enable veterans to connect with each other, but also to self-disclose experiences and seek support. This paper addresses the gap in our understanding of veteran needs and their own support dynamics by examining self-initiated and ecologically-valid self-expressions. In particular, we adopt the Veteran Critical Theory (VCT) to conduct a computational study on the Reddit community of veterans. Using topic modeling, we find veteran-friendly gestures with good intentions might not be appreciated in the subreddit. By employing transfer learning methodologies, we find this community has more informational and emotional support behaviors than general online communities and a higher prevalence of informational support than emotional support. Lastly, an examination of support dynamics reveals some contrasts to previous scholarship in military culture and social media. We discover that positive language and author platform tenure have negative relations with posts receiving replies and replies getting votes, and that replies reflecting personal disclosures tend to get more votes. Through the lens of VCT, we discuss how online communities can help uncover veterans' needs and provide more effective social support.
+DO  - 10.1145/3512980
+UR  - https://doi.org/10.1145/3512980
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - cscw2022-3512980
+ER  - 
+
+TY  - JOUR
+TI  - Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India
+AU  - Kommiya Mothilal, Ramaravind
+AU  - Mishra, Dibyendu
+AU  - Nishal, Sachita
+AU  - Lalani, Faisal M.
+AU  - Pal, Joyojeet
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Celebrity influencers are increasingly central to political discourse as they engage in, and get engaged with, on matters of electoral importance. In this paper, using Twitter data from 1432 sportspersons and entertainers and their engagement with the 1000 of the most followed ruling party and opposition politicians from India, we propose a new method to measure partisanship of celebrities along different modes of engagement. Our examination of polarization, through topical and retweet analyses, shows patterns related to both party incumbency and the level of internal organization. We find that the ruling BJP has been more effective than the opposition, the INC, in organized outreach to celebrities, by eschewing explicit party-based partisanship, and instead employing non-partisan narrative techniques, such as maintaining nationalism as the central theme in tweets. We find that while entertainers are equally engaged by both the ruling and opposition parties, sportspersons, who often enjoy a nationalist appeal by virtue of representing the country, tend to have a much more partisan relationship with the incumbent party.
+DO  - 10.1145/3512981
+UR  - https://doi.org/10.1145/3512981
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - cscw2022-3512981
+ER  - 
+
+TY  - JOUR
+TI  - Is Your Toxicity My Toxicity? Exploring the Impact of Rater Identity on Toxicity Annotation
+AU  - Goyal, Nitesh
+AU  - Kivlichan, Ian D.
+AU  - Rosen, Rachel
+AU  - Vasserman, Lucy
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Machine learning models are commonly used to detect toxicity in online conversations. These models are trained on datasets annotated by human raters. We explore how raters' self-described identities impact how they annotate toxicity in online comments. We first define the concept of Specialized Rater Pools: rater pools formed based on raters' self-described identities, rather than at random. We formed three such rater pools for this study - specialized rater pools of raters from the U.S. who identify as African American, LGBTQ, and those who identify as neither. Each of these rater pools annotated the same set of comments, which contains many references to these identity groups. We found that rater identity is a statistically significant factor in how raters will annotate toxicity for identity-related annotations. Using preliminary content analysis, we examined the comments with the most disagreement between rater pools and found nuanced differences in the toxicity annotations. Next, we trained models on the annotations from each of the different rater pools, and compared the scores of these models on comments from several test sets. Finally, we discuss how using raters that self-identify with the subjects of comments can create more inclusive machine learning models, and provide more nuanced ratings than those by random raters.
+DO  - 10.1145/3555088
+UR  - https://doi.org/10.1145/3555088
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2022-3555088
+ER  - 
+
+TY  - JOUR
+TI  - There is No App for That: Manifestations of the Digital Divides During COVID-19 School Closures in India
+AU  - Dhaygude, Mrunal Sanjay
+AU  - Lapsiya, Naitik D.
+AU  - Chakraborty, Dipanjan
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - The COVID-19 induced lockdowns forced people to shift several activities, including education, online. However, in the context of online schooling, the Digital Divides have magnified and perpetuated existing inequities in the education system and in society. Through a qualitative study with 48 participants across four stakeholder groups we find that students in under-funded government schools in India largely have not been able to access online classes because of a lack of devices, poor quality of Internet access, unreliable data networks and expensive data plans. We also document attempts by teachers and non-profit workers to use mass media broadcast technologies to work around the issue of digital access, highlighting the importance of a human infrastructure to build resilience during a disruptive event. Socioeconomic factors have also forced several students to drop out of schools and into taking up jobs to support their families. We document the importance of enabling environments and economic safety nets at home for online education to succeed. We present some focus points for researchers and policy makers working in the space of digital divide and education to build more resilient systems through Digital Welfarism.
+DO  - 10.1145/3555140
+UR  - https://doi.org/10.1145/3555140
+N1  - source=cscw_2022.bib; retained_by=welfare; terms=welfare:social welfare function; schema=v1.8
+AN  - cscw2022-3555140
+ER  - 
+
+TY  - JOUR
+TI  - Disordering Datasets
+AU  - Mathur, Varoon
+AU  - Lustig, Caitlin
+AU  - Kaziunas, Elizabeth
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - The application of artificial intelligence (AI) to the behavioral health domain has led to a growing interest in the use of machine learning (ML) techniques to identify patterns in people's personal data with the goal of detecting-and even predicting-conditions such as depression, bipolar disorder, and schizophrenia. This paper investigates the data science practices and design narratives that underlie AI-mediated behavioral health through the situational analysis of three natural language processing (NLP) training datasets. Examining datasets as a sociotechnical system inextricably connected to particular social worlds, discourses, and infrastructural arrangements, we identify several misalignments between the technical project of dataset construction and benchmarking (a current focus of AI research in the behavioral health domain) and the social complexity of behavioral health. Our study contributes to a growing critical CSCW literature of AI systems by articulating the sensitizing concept ofdisordering datasets that aims to productively trouble dominant logics of AI/ML applications in behavioral health, and also support researchers and designers in reflecting on their roles and responsibilities working within this emerging and sensitive design space.
+DO  - 10.1145/3555141
+UR  - https://doi.org/10.1145/3555141
+N1  - source=cscw_2022.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2022-3555141
+ER  - 
+
+TY  - JOUR
+TI  - Designing for Shared Values: Exploring Ethical Dilemmas of Conducting Values Inclusive Design Research
+AU  - Jonas, Rebecca M.
+AU  - Hanrahan, Benjamin V.
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Recent prevalence of values-inclusive design research introduces the potential of conducting research with those whose values conflict with researchers' own values. This is the scenario we have found ourselves in as we conduct values-inclusive participatory design to develop and deploy critical digital literacy education in a rural Appalachian community. We present provocations which outline the ethical concerns we have grappled with in pursuit of conducting fair and responsible research for our participants, indirect stakeholders, and ourselves. Through consideration of these provocations, we have developed a preliminary approach for managing a research relationship with those with whom we disagree which we call Designing for Shared Values. This approach is a conflict-avoidant method for negotiating values in values-inclusive design. It centers around reflexivity as a mechanism to account for one's own values and potential impacts of design research outcomes on indirect stakeholders, while maintaining responsibility to prioritize beneficial outcomes to research participants.
+DO  - 10.1145/3555182
+UR  - https://doi.org/10.1145/3555182
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2022-3555182
+ER  - 
+
+TY  - JOUR
+TI  - Reliance and Automation for Human-AI Collaborative Data Labeling Conflict Resolution
+AU  - Brachman, Michelle
+AU  - Ashktorab, Zahra
+AU  - Desmond, Michael
+AU  - Duesterwald, Evelyn
+AU  - Dugan, Casey
+AU  - Joshi, Narendra Nath
+AU  - Pan, Qian
+AU  - Sharma, Aabhas
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Human data labeling with multiple labelers and the resulting conflict resolution remains the norm for many enterprise machine learning pipelines. Conflict resolution can be a time-intensive and costly process. Our goal was to study how human-AI collaboration can improve conflict resolution, by enabling users to automate groups of conflict resolution tasks. However, little is known about whether and how people will rely on automation during conflict resolution. Currently, automation commonly uses labelers' majority vote labels for conflict resolution, as the top chosen label by most labelers is often correct. We envisioned a system where an AI would assist in finding cases where the labeler majority vote was wrong and where automation is supported for batches or groups of conflicts. In order to understand whether humans could use labeler and AI information effectively, we investigated how and when users rely on labeler and AI information and on automated group conflict resolution. We ran a study with 144 Mechanical Turk workers. We found that automation increased users' accuracy/time, use of automated conflict resolution was relatively similar regardless of whether the automation was based on labeler or AI selected labels, and providing labeler and AI selected labels may reduce inappropriate reliance on automation.
+DO  - 10.1145/3555212
+UR  - https://doi.org/10.1145/3555212
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - cscw2022-3555212
+ER  - 
+
+TY  - JOUR
+TI  - Consensus Building in On-Line Citizen Science
+AU  - Sharma, Nirwan
+AU  - Colucci-Gray, Laura
+AU  - van der Wal, René
+AU  - Siddharthan, Advaith
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - A number of initiatives invite members of the public to perform online classification tasks such as identifying objects in images. These tasks are crucial to numerous large-scale Citizen Science projects in different disciplines, with volunteers using their knowledge and online support tools to, for example, identify species of wildlife or classify galaxies by their shapes. However, for complex classification tasks, such as this case study on identifying species of bumblebee, reaching an agreement between volunteers - or even between experts~-~may require consensus-building processes. Collaboration and teamwork approaches to problem solving and decision-making have been widely documented to improve both task performance and user learning in the real world. Most of these processes and projects are mediated online through feedback delivered in an asynchronous manner, and this article thus addresses a central research question: How do participants involved in species identification tasks respond to different forms of feedback provided in online collaboration, designed to support peer-learning and improve task performance? We tested four different approaches to feedback within a collaboration task, where participants reviewed their previously annotated data based on information curated from their peers on a long running online citizen science initiative. The selected interfaces have a strong foundation in social science and psychology literature and can be applied to citizen science practices as well as other online communities. Results showed that while all four approaches increased accuracy, there were differences based on the types of consensus that existed before collaboration. Such differences highlight the usefulness of different forms of feedback during collaboration for increasing data accuracy of identification and furthering users' expertise on identification tasks. We found that anonymised and goal-directed free text comments posted on social learning interfaces were most effective in improving data accuracy as well as creating opportunities for peer-learning, particularly where the species identification task was more difficult. This study has significant implications for extending the practice of citizen science across formal and informal learning environments and reaching out to a variety of users.
+DO  - 10.1145/3555535
+UR  - https://doi.org/10.1145/3555535
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2022-3555535
+ER  - 
+
+TY  - JOUR
+TI  - Ladange, Adange, Jeetange: The Farmers' Movement and Its Virtual Spaces
+AU  - Gupta, Paridhi
+AU  - Petterson, Adrian
+AU  - Motla, Divyani
+AU  - Chandra, Priyank
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - The farmers' movement began in November 2020, when more than 300,000 protesters marched towards New Delhi in India in opposition to new agrarian acts introduced by the Indian central government. Organised by over 400 farmers' unions along with other organisations, for the next year, farmers and allied protesters set up bases around New Delhi and sustained the movement leading to its eventual success. We conducted 20 semi-structured interviews with participants from the movement and explored the social organisation, the underlying technical infrastructures, and how collective action was organised. We outline how the social media ecosystem enabled hybrid forms of organisational structures and facilitated coalition-building between diverse groups. Further, the movement created and disseminated alternative media that opposed mainstream media narratives and facilitated community-building. We discuss how designed technologies and spaces can support social movements in the face of powerful antagonistic actors.
+DO  - 10.1145/3555547
+UR  - https://doi.org/10.1145/3555547
+N1  - source=cscw_2022.bib; retained_by=preservation; terms=preservation:pluralism; tier2:collective; schema=v1.8
+AN  - cscw2022-3555547
+ER  - 
+
+TY  - JOUR
+TI  - Are We Healthier Together? Two Strategies for Supporting Macronutrient Assessment Skills and How the Crowd Can Help (or Not)
+AU  - Harmon, Sarah M.
+AU  - Heitkemper, Elizabeth M.
+AU  - Mamykina, Lena
+AU  - Hwang, Maria L.
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Learning macronutrient assessment skills can support improved health outcomes and overall wellbeing. We conducted two Mechanical Turk studies to investigate how users might benefit from the crowd's input in macronutrient assessment education. We first determined whether the wisdom of the crowd alone would provide users with enough insight to arrive at accurate macronutrient estimates. Next, we tested two methods of teaching macronutrient assessment skills (Comparison and Decomposition) and analyzed their effectiveness. Results from these studies indicate that while the crowd alone may not be sufficient to support this type of education, users may yet benefit from access to community-generated photos and labels while they use either the Comparison or Decomposition strategy.
+DO  - 10.1145/3555593
+UR  - https://doi.org/10.1145/3555593
+N1  - source=cscw_2022.bib; retained_by=tier1; terms=tier1:wisdom of crowds; schema=v1.8
+AN  - cscw2022-3555593
+ER  - 
+
+TY  - JOUR
+TI  - Impact of Annotator Demographics on Sentiment Dataset Labeling
+AU  - Ding, Yi
+AU  - You, Jacob
+AU  - Machulla, Tonja-Katrin
+AU  - Jacobs, Jennifer
+AU  - Sen, Pradeep
+AU  - Höllerer, Tobias
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - As machine learning methods become more powerful and capture more nuances of human behavior, biases in the dataset can shape what the model learns and is evaluated on. This paper explores and attempts to quantify the uncertainties and biases due to annotator demographics when creating sentiment analysis datasets. We ask >1000 crowdworkers to provide their demographic information and annotations for multimodal sentiment data and its component modalities. We show that demographic differences among annotators impute a significant effect on their ratings, and that these effects also occur in each component modality. We compare predictions of different state-of-the-art multimodal machine learning algorithms against annotations provided by different demographic groups, and find that changing annotator demographics can cause >4.5 in accuracy difference when determining positive versus negative sentiment. Our findings underscore the importance of accounting for crowdworker attributes, such as demographics, when building datasets, evaluating algorithms, and interpreting results for sentiment analysis.
+DO  - 10.1145/3555632
+UR  - https://doi.org/10.1145/3555632
+N1  - source=cscw_2022.bib; retained_by=preservation; terms=preservation:perspectives; schema=v1.8
+AN  - cscw2022-3555632
+ER  - 
+
+TY  - JOUR
+TI  - Towards Transparency in Dermatology Image Datasets with Skin Tone Annotations by Experts, Crowds, and an Algorithm
+AU  - Groh, Matthew
+AU  - Harris, Caleb
+AU  - Daneshjou, Roxana
+AU  - Badri, Omar
+AU  - Koochek, Arash
+PY  - 2022
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - While artificial intelligence (AI) holds promise for supporting healthcare providers and improving the accuracy of medical diagnoses, a lack of transparency in the composition of datasets exposes AI models to the possibility of unintentional and avoidable mistakes. In particular, public and private image datasets of dermatological conditions rarely include information on skin color. As a start towards increasing transparency, AI researchers have appropriated the use of the Fitzpatrick skin type (FST) from a measure of patient photosensitivity to a measure for estimating skin tone in algorithmic audits of computer vision applications including facial recognition and dermatology diagnosis. In order to understand the variability of estimated FST annotations on images, we compare several FST annotation methods on a diverse set of 460 images of skin conditions from both textbooks and online dermatology atlases. These methods include expert annotation by board-certified dermatologists, algorithmic annotation via the Individual Typology Angle algorithm, which is then converted to estimated FST (ITA-FST), and two crowd-sourced, dynamic consensus protocols for annotating estimated FSTs. We find the inter-rater reliability between three board-certified dermatologists is comparable to the inter-rater reliability between the board-certified dermatologists and either of the crowdsourcing methods. In contrast, we find that the ITA-FST method produces annotations that are significantly less correlated with the experts' annotations than the experts' annotations are correlated with each other. These results demonstrate that algorithms based on ITA-FST are not reliable for annotating large-scale image datasets, but human-centered, crowd-based protocols can reliably add skin type transparency to dermatology datasets. Furthermore, we introduce the concept of dynamic consensus protocols with tunable parameters including expert review that increase the visibility of crowdwork and provide guidance for future crowdsourced annotations of large image datasets.
+DO  - 10.1145/3555634
+UR  - https://doi.org/10.1145/3555634
+N1  - source=cscw_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; tier2:crowd; schema=v1.8
+AN  - cscw2022-3555634
+ER  - 
+

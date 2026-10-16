@@ -1,0 +1,319 @@
+TY  - CONF
+TI  - A Model of Repeated Collective Decisions
+AU  - Macé, Antonin
+AU  - Treibich, Rafael
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - The theory of repeated games offers a compelling rationale for cooperation in a variety of environments. Yet, its consequences for collective decision-making have been largely unexplored. In this paper, we propose a general model of repeated voting and study equilibrium behavior under alternative majority rules. Our main characterization reveals a complex, non-monotonic, relationship between the majority threshold, the preference distribution, and the optimal equilibrium outcome. In contrast with the stage-game equilibrium, the optimal equilibrium of the repeated game involves a form of implicit logroll, individuals sometimes voting against their preference to achieve the efficient decision. In turn, this affects the optimal voting rule, which may significantly differ from the optimal rule under sincere voting. The model provides a rationale for the use of unanimity rule, while accounting for the prevalence of consensus in committees which use a lower majority threshold.
+DO  - 10.1145/3490486.3538233
+UR  - https://doi.org/10.1145/3490486.3538233
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:voting rule; tier1:collective decision; tier2:agreement; tier2:collective; schema=v1.8
+AN  - ec2022-3490486-3538233
+ER  - 
+
+TY  - CONF
+TI  - An Economic Framework for Vaccine Prioritization
+AU  - Akbarpour, Mohammad
+AU  - Budish, Eric
+AU  - Dworczak, Piotr
+AU  - Kominers, Scott Duke
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We propose an economic framework for determining the optimal allocation of a scarce supply of vaccines that become gradually available during a public health crisis, such as the Covid-19 pandemic. Agents differ in observable and unobservable characteristics, and the designer maximizes a social welfare function over all feasible mechanisms---accounting for agents' characteristics, as well as their endogenous behavior in the face of the pandemic. The framework emphasizes the role of externalities and incorporates equity as well as efficiency concerns. Our results provide an economic justification for providing vaccines immediately and for free to some groups of agents, while at the same time showing that a carefully constructed pricing mechanism can improve outcomes by screening for individuals with the highest private and social benefits of receiving the vaccine. The solution casts light on the classic question of whether prices or priorities should be used to allocate scarce public resources under externalities and equity concerns.
+DO  - 10.1145/3490486.3538241
+UR  - https://doi.org/10.1145/3490486.3538241
+N1  - source=ec_2022.bib; retained_by=welfare; terms=welfare:social welfare function; tier2:welfare; schema=v1.8
+AN  - ec2022-3490486-3538241
+ER  - 
+
+TY  - CONF
+TI  - Approximately Strategyproof Tournament Rules with Multiple Prizes
+AU  - Dale, Emily
+AU  - Fielding, Jessica
+AU  - Ramakrishnan, Hari
+AU  - Sathyanarayanan, Sacheth
+AU  - Weinberg, S. Matthew
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We consider the manipulability of tournament rules which take the results of (n2) pairwise matches and select a ranking over the teams. Prior work designs simple tournament rules such that no pair of teams can manipulate the outcome of their match to improve their probability of being ranked first by more than 1/3, and this is the best possible among any Condorcet-consistent tournament rule (which selects an undefeated team whenever one exists) [15,16]. We initiate the consideration of teams who may manipulate their match to improve their ranking (not necessarily to reach first).
+DO  - 10.1145/3490486.3538242
+UR  - https://doi.org/10.1145/3490486.3538242
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:named voting rules; tier1:incentives; tier2:manipulation; schema=v1.8
+AN  - ec2022-3490486-3538242
+ER  - 
+
+TY  - CONF
+TI  - Are You Smarter Than a Random Expert? The Robust Aggregation of Substitutable Signals
+AU  - Neyman, Eric
+AU  - Roughgarden, Tim
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - The problem of aggregating expert forecasts is ubiquitous in fields as wide-ranging as machine learning, economics, climate science, and national security. Despite this, our theoretical understanding of this question is fairly shallow. This paper initiates the study of forecast aggregation in a context where experts' knowledge is chosen adversarially from a broad class of information structures. While in full generality it is impossible to achieve a nontrivial performance guarantee, we show that doing so is possible under a condition on the experts' information structure that we call projective substitutes. The projective substitutes condition is a notion of informational substitutes: that there are diminishing marginal returns to learning the experts' signals. We show that under the projective substitutes condition, taking the average of the experts' forecasts improves substantially upon the strategy of trusting a random expert. We then consider a more permissive setting, in which the aggregator has access to the prior. We show that by averaging the experts' forecasts and then extremizing the average by moving it away from the prior by a constant factor, the aggregator's performance guarantee is substantially better than is possible without knowledge of the prior. Our results give a theoretical grounding to past empirical research on extremization and help give guidance on the appropriate amount to extremize.
+DO  - 10.1145/3490486.3538243
+UR  - https://doi.org/10.1145/3490486.3538243
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:forecast aggregation; tier1:pooling rules; schema=v1.8
+AN  - ec2022-3490486-3538243
+ER  - 
+
+TY  - CONF
+TI  - Combatting Gerrymandering with Social Choice
+AU  - Garg, Nikhil
+AU  - Gurnee, Wes
+AU  - Rothschild, David
+AU  - Shmoys, David
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - The Fair Representation Act, first introduced in 2017 and reintroduced in 2019 and 2021, would mandate the use of multi-member districts (MMDs) to elect members to the United States House of Representatives, i.e., having fewer, larger districts each with multiple representatives. The bill is supported by good governance organizations such as FairVote; the American Academy of Arts and Sciences in 2020 released a report advocating states to use multi-member districts - however, "on the condition that they adopt a non-winner-take-all election model." Despite the popular focus on single-member district (SMD) elections, such MMDs have a long history in the United States, especially at the state and local level. In 1962, 41 state legislatures had MMDs, often with winner-take-all models; even today, 10 state legislatures elect representatives for at least one chamber in such a manner. City councils, state parties, and other organizations often adopt more sophisticated techniques, using variations on Ranked Choice Voting (RCV) to elect multiple winners from each of several districts.
+DO  - 10.1145/3490486.3538254
+UR  - https://doi.org/10.1145/3490486.3538254
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:social choice; tier2:collective; schema=v1.8
+AN  - ec2022-3490486-3538254
+ER  - 
+
+TY  - CONF
+TI  - Competitive Equilibrium with Chores: Combinatorial Algorithm and Hardness
+AU  - Chaudhury, Bhaskar Ray
+AU  - Garg, Jugal
+AU  - McGlaughlin, Peter
+AU  - Mehta, Ruta
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We study the computational complexity of finding a competitive equilibrium (CE) with chores when agents have linear preferences. CE is one of the most preferred mechanisms for allocating a set of items among agents. CE with equal incomes (CEEI), Fisher, and Arrow-Debreu (exchange) are the fundamental economic models to study allocation problems, where CEEI is a special case of Fisher and Fisher is a special case of exchange. When the items are goods (giving utility), the CE set is convex even in the exchange model, facilitating several combinatorial polynomial-time algorithms (starting with the seminal work of Devanur, Papadimitriou, Saberi and Vazirani) for all of these models. In sharp contrast, when the items are chores (giving disutility), the CE set is known to be non-convex and disconnected even in the CEEI model. Further, no combinatorial algorithms or hardness results are known for these models. In this paper, we give two main results for CE with chores: 1) A combinatorial algorithm to compute a $(1-\varepsilon)$-approximate CEEI in time $\tilde\mathcalO(n^4m^2 / \varepsilon^2)$, where $n$ is the number of agents and $m$ is the number of chores. 2) PPAD-hardness of finding a $(1-1/\mathitpoly(n))$-approximate CE in the exchange model under a sufficient condition. To the best of our knowledge, these results show the first separation between the CEEI and exchange models when agents have linear preferences, assuming PPAD $\neq $ P. Finally, we show that our new insight implies a straightforward proof of the existence of an allocation that is both envy-free up to one chore (EF1) and Pareto optimal (PO) in the discrete setting when agents have factored bivalued preferences.
+DO  - 10.1145/3490486.3538255
+UR  - https://doi.org/10.1145/3490486.3538255
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:pareto; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2022-3490486-3538255
+ER  - 
+
+TY  - CONF
+TI  - Core-Stability in Assignment Markets with Financially Constrained Buyers
+AU  - Batziou, Eleni
+AU  - Bichler, Martin
+AU  - Fichtl, Maximilian
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We study markets where a set of indivisible items is sold to bidders with unit-demand valuations, subject to a hard budget limit. Without financial constraints and pure quasilinear bidders, this assignment model allows for a simple ascending auction format that maximizes welfare and is incentive-compatible and core-stable. Introducing budget constraints, the ascending auction requires strong additional conditions on the unit-demand preferences to maintain its properties. We show that, without these conditions, we cannot hope for an incentive-compatible and core-stable mechanism. We design an iterative algorithm that depends solely on a trivially verifiable ex-post condition and demand queries, and with appropriate decisions made by an auctioneer, always yields a welfare-maximizing and core-stable outcome. If these conditions do not hold, we cannot hope for incentive-compatibility and computing welfare-maximizing assignments and core-stable prices is hard: Even in the presence of value queries, where bidders reveal their valuations and budgets truthfully, we prove that the problem becomes NP-complete for the assignment market model. The analysis complements complexity results for markets with more complex valuations and shows that even with simple unit-demand bidders the problem becomes intractable. This raises doubts on the efficiency of simple auction designs as they are used in high-stakes markets, where budget constraints typically play a role.
+DO  - 10.1145/3490486.3538262
+UR  - https://doi.org/10.1145/3490486.3538262
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - ec2022-3490486-3538262
+ER  - 
+
+TY  - CONF
+TI  - Crowdsourcing and Optimal Market Design
+AU  - Pakzad-Hurson, Bobak
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - Mechanisms used to derive optimal allocations are generally designed under the premise that agents fully know their preferences. It is often impossible to duplicate these optimal allocations when agents imperfectly observe object characteristics. I present a crowdsourcing mechanism to approximate optimal allocations under imperfect observations. To ensure truth-telling, agents are punished when their reports differ from the "wisdom of the crowd." Under mild conditions, this crowdsourcing-with-punishment mechanism replicates the full-information optimal allocation with probability exponentially converging to one in the size of the market, with aggregate worst-case waste (punishment) converging exponentially to zero. I show that no other mechanism can meaningfully improve upon the proposed mechanism. The approach I take is general, and can be applied in many settings, including two-sided matching markets.
+DO  - 10.1145/3490486.3538266
+UR  - https://doi.org/10.1145/3490486.3538266
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:wisdom of crowds; schema=v1.8
+AN  - ec2022-3490486-3538266
+ER  - 
+
+TY  - CONF
+TI  - Double Auctions and Transaction Costs
+AU  - Jantschgi, Simon
+AU  - Nax, Heinrich H.
+AU  - Pradelski, Bary S. R.
+AU  - Pycia, Marek
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - Transaction costs are omnipresent in markets but are often omitted in economic models. We show that the presence of transaction costs can fundamentally alter incentive and welfare properties of Double Auctions, a canonical market organization. We further show that transaction costs can be categorized into two types. Double Auctions with homogeneous transaction costs---a category that includes fixed fees and price based fees---preserve the key advantages of Double Auctions without transaction costs: markets with homogeneous transaction costs are asymptotically strategyproof, and there is no efficiency-loss due to strategic behavior. In contrast, double auctions with heterogeneous transaction costs---such as spread fees---lead to complex strategic behavior (price guessing) and may result in severe market failures. Allowing for aggregate uncertainty, we extend these insights to market organizations other than Double Auctions.
+DO  - 10.1145/3490486.3538276
+UR  - https://doi.org/10.1145/3490486.3538276
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:incentives; tier2:manipulation; schema=v1.8
+AN  - ec2022-3490486-3538276
+ER  - 
+
+TY  - CONF
+TI  - Equity in Resident Crowdsourcing: Measuring Under-reporting without Ground Truth Data
+AU  - Liu, Zhi
+AU  - Garg, Nikhil
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - Modern city governance relies heavily on crowdsourcing (or "co-production") to identify problems such as downed trees and power-lines. A major concern in these systems is that residents do not report problems at the same rates, leading to an inequitable allocation of government resources. However, measuring such under-reporting is a difficult statistical task, as, almost by definition, we do not observe incidents that are not reported. Thus, distinguishing between low reporting rates and low ground-truth incident rates is challenging. We develop a method to identify (heterogeneous) reporting rates, without using external (proxy) ground truth data. Our insight is that rates on duplicate reports about the same incident can be leveraged, to turn the question into a standard Poisson rate estimation task---even though the full incident reporting interval is also unobserved. We apply our method to over 100,000 resident reports made to the New York City Department of Parks and Recreation, finding that there are substantial spatial and socio-economic disparities in reporting rates, even after controlling for incident characteristics.
+DO  - 10.1145/3490486.3538283
+UR  - https://doi.org/10.1145/3490486.3538283
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:envy-freeness; schema=v1.8
+AN  - ec2022-3490486-3538283
+ER  - 
+
+TY  - CONF
+TI  - Fair Allocations for Smoothed Utilities
+AU  - Bai, Yushi
+AU  - Feige, Uriel
+AU  - Gölz, Paul
+AU  - Procaccia, Ariel D.
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - When allocating indivisible items across agents, it is desirable for the allocation to be envy-free, which means that each agent prefers their own bundle over every other bundle. Even though envy-free allocations are not guaranteed to exist for worst-case utilities, they frequently exist in practice. To explain this phenomenon, prior work has shown that, if utilities are drawn from certain probability distributions, then envy-free allocations exist with high probability (as long as the number of items is sufficiently large relative to the number of agents).
+DO  - 10.1145/3490486.3538285
+UR  - https://doi.org/10.1145/3490486.3538285
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2022-3490486-3538285
+ER  - 
+
+TY  - CONF
+TI  - Fair Shares: Feasibility, Domination and Incentives
+AU  - Babaioff, Moshe
+AU  - Feige, Uriel
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We consider fair allocation of a set M of indivisible goods to n equally-entitled agents, with no monetary transfers. Every agent i has a valuation function vi from some given class of valuation functions. A share s is a function that maps a pair (vi,n) to a non-negative value, with the interpretation that if an allocation of M to n agents fails to give agent i a bundle of value at least equal to s(vi,n), this serves as evidence that the allocation is not fair towards i. For such an interpretation to make sense, we would like the share to be feasible, meaning that for any valuations in the class, there is an allocation that gives every agent at least her share. The maximin share (MMS) was a natural candidate for a feasible share for additive valuations. However, Kurokawa, Procaccia and Wang [2018] show that it is not feasible.
+DO  - 10.1145/3490486.3538286
+UR  - https://doi.org/10.1145/3490486.3538286
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:fair division; welfare:welfare properties; tier2:fairness; schema=v1.8
+AN  - ec2022-3490486-3538286
+ER  - 
+
+TY  - CONF
+TI  - Granular DeGroot Dynamics -- a Model for Robust Naive Learning in Social Networks
+AU  - Amir, Gideon
+AU  - Arieli, Itai
+AU  - Ashkenazi-Golan, Galit
+AU  - Peretz, Ron
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We study a model of opinion exchange in social networks where a state of the world is realized and every agent receives a zero-mean noisy signal of the realized state. It is known from Golub and Jackson [6] that under DeGroot [3] dynamics agents reach a consensus that is close to the state of the world when the network is large. The DeGroot dynamics, however, is highly non-robust and the presence of a single "stubborn agent" that does not adhere to the updating rule can sway the public consensus to any other value. We introduce a variant of DeGroot dynamics that we call 1/m-DeGroot. 1/m-DeGroot dynamics approximates standard DeGroot dynamics to the nearest rational number with m as its denominator and like the DeGroot dynamics it is Markovian and stationary. We show that in contrast to standard DeGroot dynamics, 1/m-DeGroot dynamics is highly robust both to the presence of stubborn agents and to certain types of misspecifications.
+DO  - 10.1145/3490486.3538291
+UR  - https://doi.org/10.1145/3490486.3538291
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:opinion dynamics; tier2:agreement; schema=v1.8
+AN  - ec2022-3490486-3538291
+ER  - 
+
+TY  - CONF
+TI  - In This Apportionment Lottery, the House Always Wins
+AU  - Gölz, Paul
+AU  - Peters, Dominik
+AU  - Procaccia, Ariel D.
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - Apportionment is the problem of distributing h indivisible seats across states in proportion to the states' populations. In the context of the US House of Representatives, this problem has a rich history and is a prime example of interactions between mathematical analysis and political practice. Grimmett [2004] suggested to apportion seats in a randomized way such that each state receives exactly their proportional share qi of seats in expectation (ex ante proportionality) and receives either ↾qi↿ or ⇂qi⇃ many seats ex post (quota). However, there is a vast space of randomized apportionment methods satisfying these two axioms, and so we additionally consider prominent axioms from the apportionment literature. Our main result is a randomized method satisfying quota, ex ante proportionality and house monotonicity — a property that prevents paradoxes when the number of seats changes and which we require to hold ex post. This result is based on a generalization of dependent rounding on bipartite graphs, which we call cumulative rounding and which might be of independent interest, as we demonstrate via applications beyond apportionment.
+DO  - 10.1145/3490486.3538299
+UR  - https://doi.org/10.1145/3490486.3538299
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:apportionment; schema=v1.8
+AN  - ec2022-3490486-3538299
+ER  - 
+
+TY  - CONF
+TI  - Individual Fairness in Prophet Inequalities
+AU  - Arsenis, Makis
+AU  - Kleinberg, Robert
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - Prophet inequalities are performance guarantees for online algorithms (a.k.a. stopping rules) solving the following ''hiring problem'': a decision maker sequentially inspects candidates whose values are independent random numbers and is asked to hire at most one candidate by selecting it before inspecting the values of future candidates in the sequence. A classic result in optimal stopping theory asserts that there exist stopping rules guaranteeing that the decision maker will hire a candidate whose expected value is at least half as good as the expected value of the candidate hired by a ''prophet,'' i.e.one who has simultaneous access to the realizations of all candidates' values.
+DO  - 10.1145/3490486.3538301
+UR  - https://doi.org/10.1145/3490486.3538301
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:opinion representation; schema=v1.8
+AN  - ec2022-3490486-3538301
+ER  - 
+
+TY  - CONF
+TI  - Level-strategyproof Belief Aggregation Mechanisms
+AU  - Varloot, Estelle Marine
+AU  - Laraki, Rida
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - In the problem of aggregating experts' probabilistic predictions or opinions over an ordered set of outcomes, we introduce the axiom of level-strategyproofness (level-SP) and argue that it is natural in several real-life applications and robust as a notion. It implies truthfulness in a rich domain of single-peaked preferences over the space of cumulative distributions. This contrasts with the existing literature, where we usually assume single-peaked preferences over the space of probability distributions instead. Our main results are (1) explicit characterizations of all level-SP methods with and without the addition of other axioms (certainty preservation, plausibility preservation, proportionality); (2) comparisons and axiomatic characterizations of two new and practical level-SP methods: the proportional-cumulative and the middlemost-cumulative; (3) an application of the proportional-cumulative to construct a new voting method that extends majority judgment and where voters can express their uncertainties/doubts about the merits/qualities of the candidates/alternatives to be ranked.
+DO  - 10.1145/3490486.3538309
+UR  - https://doi.org/10.1145/3490486.3538309
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:voting rule; tier1:committee selection; tier1:incentives; tier2:collective; schema=v1.8
+AN  - ec2022-3490486-3538309
+ER  - 
+
+TY  - CONF
+TI  - On Existence of Truthful Fair Cake Cutting Mechanisms
+AU  - Tao, Biaoshuai
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We study the fair division problem on divisible heterogeneous resources (the cake cutting problem) with strategic agents, where each agent can manipulate his/her private valuation in order to receive a better allocation. A (direct-revelation) mechanism takes agents' reported valuations as input, and outputs an allocation that satisfies a given fairness requirement. A natural and fundamental open problem, first raised by Chen, Lai, Parkes, and Procaccia [22] and subsequently raised in reference [9 , 11 , 12 , 19, 33, 35], etc., is whether there exists a deterministic, truthful and envy-free (or even proportional) cake cutting mechanism. In this paper, we resolve this open problem by proving that there does not exist a deterministic, truthful and proportional cake cutting mechanism, even in the special case where all of the following hold: there are only two agents; each agent's valuation is a piecewise-constant function; each agent is hungry: each agent has a strictly positive value on any part of the cake. The impossibility result extends to the case where the mechanism is allowed to leave some part of the cake unallocated.
+DO  - 10.1145/3490486.3538321
+UR  - https://doi.org/10.1145/3490486.3538321
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2022-3490486-3538321
+ER  - 
+
+TY  - CONF
+TI  - On Two-sided Matching in Infinite Markets
+AU  - Choi, Yunseo
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We extend a number of classic results for finite one-to-one matching markets, such as group strategy-proofness, entry comparative statics, and respect for unambiguous improvements, to infinite markets via the compactness theorem of propositional logic. In addition, we show that two versions of the lattice structure of finite one-to-one matching markets carry over to infinite markets. At the same time, we prove that other results, such as weak Pareto optimality and strong stability property, do not extend to infinite markets.
+DO  - 10.1145/3490486.3538325
+UR  - https://doi.org/10.1145/3490486.3538325
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:pareto; schema=v1.8
+AN  - ec2022-3490486-3538325
+ER  - 
+
+TY  - CONF
+TI  - Optimized Distortion and Proportional Fairness in Voting
+AU  - Ebadian, Soroush
+AU  - Kahng, Anson
+AU  - Peters, Dominik
+AU  - Shah, Nisarg
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - A voting rule decides on a probability distribution over a set of m alternatives, based on rankings of those alternatives provided by agents. We assume that agents have cardinal utility functions over the alternatives, but voting rules have access to only the rankings induced by these utilities. We evaluate how well voting rules do on measures of social welfare and of proportional fairness, computed based on the hidden utility functions.
+DO  - 10.1145/3490486.3538339
+UR  - https://doi.org/10.1145/3490486.3538339
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:voting rule; tier2:welfare; tier2:fairness; tier2:collective; schema=v1.8
+AN  - ec2022-3490486-3538339
+ER  - 
+
+TY  - CONF
+TI  - Pair-efficient Reallocation of Indivisible Objects
+AU  - Ekici, Ozgun
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We revisit the classical object reallocation problem under strict preferences. When attention is constrained to the set of Pareto-efficient rules, it is known that top trading cycles (TTC) is the only rule that is strategyproof and individually-rational. We relax this constraint and consider pair-efficiency. A rule is pair-efficient if it never induces an allocation at which a pair of agents gain from trading their assigned objects. Remarkably, even in the larger set of pair-efficient rules, we find that TTC is still the only rule that is strategyproof and individually-rational.
+DO  - 10.1145/3490486.3538341
+UR  - https://doi.org/10.1145/3490486.3538341
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - ec2022-3490486-3538341
+ER  - 
+
+TY  - CONF
+TI  - Sequential Veto Bargaining with Incomplete Information
+AU  - Ali, S. Nageeb
+AU  - Kartik, Navin
+AU  - Kleiner, Andreas
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - We study sequential bargaining between a proposer and a veto player. Both have single-peaked preferences, but the proposer is uncertain about the veto player's ideal point. The proposer cannot commit to future proposals. When players are patient, there can be equilibria with Coasian dynamics: the veto player's private information can largely nullify proposer's bargaining power. Our main result, however, is that there are also equilibria in which the proposer obtains the high payoff that he would with commitment power. The driving force is that the veto player's single-peaked preferences give the proposer an option to "leapfrog", i.e., to secure agreement from only low-surplus types early on to credibly extract surplus from high types later. Methodologically, we exploit the connection between sequential bargaining and static mechanism design.
+DO  - 10.1145/3490486.3538362
+UR  - https://doi.org/10.1145/3490486.3538362
+N1  - source=ec_2022.bib; retained_by=tier1; terms=tier1:committee selection; tier2:negotiation; tier2:exit; schema=v1.8
+AN  - ec2022-3490486-3538362
+ER  - 
+
+TY  - CONF
+TI  - The Derby Game: An Ordering-based Colonel Blotto Game
+AU  - Gaonkar, Akash
+AU  - Raghunathan, Divya
+AU  - Weinberg, S. Matthew
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - The Colonel Blotto game and its variants are a common approach to study competitive allocation of interchangeable resources (e.g., soldiers, money, or votes). We introduce a new variant of Blotto, which we call the Derby game, to study competitive allocation of non-interchangeable resources, such as campaign surrogates in politics or skilled workers in companies, and analyze its Nash equilibria. While Derby games unsurprisingly admit no pure Nash equilibria, our main results surprisingly show that Nash equilibria generically exist where one player plays a pure strategy, and we give necessary and sufficient conditions for such equilibria.
+DO  - 10.1145/3490486.3538367
+UR  - https://doi.org/10.1145/3490486.3538367
+N1  - source=ec_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - ec2022-3490486-3538367
+ER  - 
+
+TY  - CONF
+TI  - The Large Core of College Admission Markets: Theory and Evidence
+AU  - Biro, Péter
+AU  - Hassidim, Avinatan
+AU  - Romm, Assaf
+AU  - Shorrer, Ran I.
+AU  - Sovago, Sándor
+PY  - 2022
+T2  - Proceedings of the 23rd ACM Conference on Economics and Computation
+AB  - In recent years, a growing number of students are being assigned to schools through centralized clearinghouses. The success of such clearinghouses crucially relies on the use of a stable matching mechanism [10,12]. The matching market design literature finds that a designer who wishes to implement a stable allocation has limited scope for further design. First, the rural hospital theorem determines that the same positions are filled in all stable allocations [7,9]. Second, the set of stable allocations has the consensus property: all students prefer the outcome of the student-proposing deferred acceptance mechanism (henceforth) to any other stable allocation [4,8]. Third, empirical and theoretical studies suggest that all students, save for a handful, receive the same assignment in all stable allocations [e.g., 1, 2, 5 , 6, 11]. This last finding implies that schools have limited incentive to collect information and to misreport their preferences [3].
+DO  - 10.1145/3490486.3538369
+UR  - https://doi.org/10.1145/3490486.3538369
+N1  - source=ec_2022.bib; retained_by=tier2+anchor; terms=tier2:agreement; tier2:manipulation; schema=v1.8
+AN  - ec2022-3490486-3538369
+ER  - 
+

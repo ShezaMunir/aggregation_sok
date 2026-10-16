@@ -1,0 +1,92 @@
+TY  - JOUR
+TI  - On the Convergence of Swap Dynamics to Pareto-Optimal Matchings
+AU  - Brandt, Felix
+AU  - Wilczynski, Anaëlle
+PY  - 2024
+T2  - Journal of Artificial Intelligence Research
+AB  - We study whether Pareto-optimal stable matchings can be reached via pairwise swaps in one-to-one matching markets with initial assignments. We consider housing markets, marriage markets, and roommate markets as well as three different notions of swap rationality. Our main results are as follows. While it can be efficiently determined whether a Pareto-optimal stable matching can be reached when defining swaps via blocking pairs, checking whether this is the case for all such sequences is computationally intractable. When defining swaps such that all involved agents need to be better off, even deciding whether a Pareto-optimal stable matching can be reached via some sequence is intractable. This confirms and extends a conjecture made by Damamme, Beynier, Chevaleyre, and Maudet (2015) who have shown that convergence to a Pareto-optimal matching is guaranteed in housing markets with single-peaked preferences. We prove that in marriage and roommate markets, single-peakedness is not sufficient for this to hold, but the stronger restriction of one-dimensional Euclidean preferences is.
+DO  - 10.1613/jair.1.15305
+UR  - https://www.jair.org/index.php/jair/article/view/15305
+KW  - autonomous agents; game theory
+N1  - source=jair_2024.bib; retained_by=tier1; terms=tier1:committee selection; schema=v1.8
+AN  - jair2024-jair-1-15305
+ER  - 
+
+TY  - JOUR
+TI  - Computing Pareto-Optimal and Almost Envy-Free Allocations of Indivisible Goods
+AU  - Garg, Jugal
+AU  - Murhekar, Aniket
+PY  - 2024
+T2  - Journal of Artificial Intelligence Research
+AB  - We study the problem of fair and efficient allocation of a set of indivisible goods to agents with additive valuations using the popular fairness notions of envy-freeness up to one good (EF1) and equitability up to one good (EQ1) in conjunction with Pareto-optimality (PO). There exists a pseudo-polynomial time algorithm to compute an EF1+PO allocation and a non-constructive proof of the existence of allocations that are both EF1 and fractionally Pareto-optimal (fPO), which is a stronger notion than PO. We present a pseudopolynomial time algorithm to compute an EF1+fPO allocation, thereby improving the earlier results. Our techniques also enable us to show that an EQ1+fPO allocation always exists when the values are positive and that it can be computed in pseudo-polynomial time. We also consider the class of k-ary instances where k is a constant, i.e., each agent has at most k different values for the goods. For such instances, we show that an EF1+fPO allocation can be computed in strongly polynomial time. When all values are positive, we show that an EQ1+fPO allocation for such instances can be computed in strongly polynomial time. Next, we consider instances where the number of agents is constant and show that an EF1+PO (likewise, an EQ1+PO) allocation can be computed in polynomial time. These results significantly extend the polynomial-time computability beyond the known cases of binary or identical valuations. We also design a polynomial-time algorithm that computes a Nash welfare maximizing allocation when there are constantly many agents with constant many different values for the goods. Finally, on the complexity side, we show that the problem of computing an EF1+fPO allocation lies in the complexity class PLS.
+DO  - 10.1613/jair.1.15414
+UR  - https://www.jair.org/index.php/jair/article/view/15414
+KW  - computational social systems; game theory; multiagent systems
+N1  - source=jair_2024.bib; retained_by=tier1; terms=tier1:envy-freeness; welfare:nash welfare; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - jair2024-jair-1-15414
+ER  - 
+
+TY  - JOUR
+TI  - Separating and Collapsing Electoral Control Types
+AU  - Carleton, Benjamin
+AU  - Chavrimootoo, Michael C.
+AU  - Hemaspaandra, Lane A.
+AU  - Narváez, David E.
+AU  - Taliancich, Conor
+AU  - Welles, Henry B.
+PY  - 2024
+T2  - Journal of Artificial Intelligence Research
+AB  - Electoral control refers to attacking elections by adding, deleting, or partitioning voters or candidates. Hemaspaandra, Hemaspaandra, and Menton recently discovered, for seven pairs (T, T′) of seemingly distinct standard electoral control types, that T and T′ are in practice identical: For each input I and each election system E, I is a “yes” instance of both T and T′ under E, or of neither. Surprisingly, this had previously gone undetected even as the field was score-carding how many standard control types various election systems were resistant to; various “different” cells on such score cards were, unknowingly, duplicate effort on the same issue. This naturally raises the worry that perhaps other pairs of control types are identical, and so work still is being needlessly duplicated. We completely determine, for all standard control types, which pairs are, for elections whose votes are linear orderings of the candidates, always identical. In particular, we prove that no identical control pairs exist beyond the known seven. We also for three central election systems completely determine which control pairs are identical (“collapse”) with respect to those particular election systems, and we also explore containment and incomparability relationships between control pairs. For approval voting, which has a different “type” for its votes, Hemaspaandra, Hemaspaandra, and Menton’s seven collapses still hold (since we observe that their argument applies to all election systems). However, we find 14 additional collapses that hold for approval voting but do not hold for some election systems whose votes are linear orderings of the candidates. We find one new collapse for veto elections and none for plurality. We prove that each of the three election systems mentioned have no collapses other than those inherited from Hemaspaandra, Hemaspaandra, and Menton or added in the present paper. We establish many new containment relationships between separating control pairs, and for each separating pair of standard control types classify its separation in terms of either containment (always, and strict on some inputs) or incomparability. Our work, for the general case and these three important election systems, clarifies the landscape of the 44 standard control types, for each pair collapsing or separating them, and also providing finer-grained information on the separations.
+DO  - 10.1613/jair.1.15483
+UR  - https://www.jair.org/index.php/jair/article/view/15483
+KW  - Voting; Electoral Control; Computational Social Choice; Multi-Agent Systems
+N1  - source=jair_2024.bib; retained_by=tier1; terms=tier1:social choice; tier1:approval rules; tier2:collective; tier2:exit; schema=v1.8
+AN  - jair2024-jair-1-15483
+ER  - 
+
+TY  - JOUR
+TI  - Best of Both Worlds: Agents with Entitlements
+AU  - Hoefer, Martin
+AU  - Schmalhofer, Marco
+AU  - Varricchio, Giovanna
+PY  - 2024
+T2  - Journal of Artificial Intelligence Research
+AB  - Fair division of indivisible goods is a central challenge in artificial intelligence. For many prominent fairness criteria including envy-freeness (EF) or proportionality (PROP), no allocations satisfying these criteria might exist. Two popular remedies to this problem are randomization or relaxation of fairness concepts. A timely research direction is to combine the advantages of both, commonly referred to as Best of Both Worlds (BoBW). We consider fair division with entitlements, which allows to adjust notions of fairness to heterogeneous priorities among agents. This is an important generalization to standard fair division models and is not well-understood in terms of BoBW results. Our main result is a lottery for additive valuations and different entitlements that is ex-ante weighted envy-free (WEF), as well as ex-post weighted proportional up to one good (WPROP1) and weighted transfer envy-free up to one good (WEF(1, 1)). We show that this result is tight – ex-ante WEF is incompatible with any stronger ex-post WEF relaxation. In addition, we extend BoBW results on group fairness to entitlements and explore generalizations of our results to instances with more expressive valuation functions.
+DO  - 10.1613/jair.1.15595
+UR  - https://www.jair.org/index.php/jair/article/view/15595
+KW  - game theory; multiagent-systems; preferences
+N1  - source=jair_2024.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - jair2024-jair-1-15595
+ER  - 
+
+TY  - JOUR
+TI  - Mixed Fair Division: A Survey
+AU  - Liu, Shengxin
+AU  - Lu, Xinhang
+AU  - Suzuki, Mashbat
+AU  - Walsh, Toby
+PY  - 2024
+T2  - Journal of Artificial Intelligence Research
+AB  - Fair division considers the allocation of scarce resources among agents in such a way that every agent gets a fair share. It is a fundamental problem in society and has received significant attention and rapid developments from the game theory and artificial intelligence communities in recent years. The majority of the fair division literature can be divided along at least two orthogonal directions: goods versus chores, and divisible versus indivisible resources. In this survey, besides describing the state of the art, we outline a number of interesting open questions and future directions in three mixed fair division settings: (i) indivisible goods and chores, (ii) divisible and indivisible goods (mixed goods), and (iii) indivisible goods with subsidy which can be viewed like a divisible good.
+DO  - 10.1613/jair.1.15800
+UR  - https://www.jair.org/index.php/jair/article/view/15800
+KW  - Game theory; Multiagent systems; Fairness; Resource Allocation
+N1  - source=jair_2024.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - jair2024-jair-1-15800
+ER  - 
+
+TY  - JOUR
+TI  - Declarative Approaches to Outcome Determination in Judgment Aggregation
+AU  - Conati, Ari
+AU  - Niskanen, Andreas
+AU  - Järvisalo, Matti
+PY  - 2024
+T2  - Journal of Artificial Intelligence Research
+AB  - Judgment aggregation (JA) offers a generic formal framework for modeling various settings involving information aggregation by social choice mechanisms. For many judgment aggregation rules, computing collective judgments is computationally notoriously hard. The central outcome determination problem, in particular, is often complete for higher levels of the polynomial hierarchy. This complexity barrier makes it challenging to develop practical exact algorithms to outcome determination. Taking on this challenge, in this work we develop practical exact algorithms for outcome determination under a range of the most central JA rules—namely Kemeny, Slater, MaxHamming, Young, Dodgson, Reversal scoring, Condorcet, Ranked agenda, and LexiMax—by harnessing the declarative approach, in particular, Boolean satisfiability (SAT) and integer programming techniques. For the Kemeny, Slater, MaxHamming, Young, and Dodgson rules, we detail direct approaches based on maximum satisfiability (MaxSAT) and integer programming. For the Reversal scoring, Condorcet, Ranked agenda, and LexiMax rules, we develop iterative algorithms, including algorithms based on the counterexample-guided abstraction refinement (CEGAR) paradigm, making use of recent advances in incremental MaxSAT solving and preferential SAT-based reasoning. We provide an open-source implementation of the algorithms, and empirically evaluate them using real-world preference data. We compare the performance of our implementation to a recent approach which makes use of declarative solver technology for answer set programming (ASP). The results demonstrate that our approaches scale significantly beyond the reach of the ASP-based algorithms for all of the judgment aggregation rules considered.
+DO  - 10.1613/jair.1.16595
+UR  - https://www.jair.org/index.php/jair/article/view/16595
+KW  - multiagent systems; computational social choice; judgment aggregation; satisfiability; combinatorial optimization
+N1  - source=jair_2024.bib; retained_by=tier1; terms=tier1:aggregation rule; tier1:social choice; tier1:judgment aggregation; tier1:named voting rules; tier1:alignment; tier2:collective; schema=v1.8
+AN  - jair2024-jair-1-16595
+ER  - 
+

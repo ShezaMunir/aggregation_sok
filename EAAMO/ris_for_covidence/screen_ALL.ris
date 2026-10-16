@@ -1,0 +1,315 @@
+TY  - CONF
+TI  - Proportional Apportionment: A Case Study From the Chilean Constitutional Convention
+AU  - Cembrano, Javier
+AU  - Correa, Jose
+AU  - Diaz, Gonzalo
+AU  - Verdugo, Victor
+PY  - 2021
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - How to elect the representatives in legislative bodies is a question that every modern democracy has to answer. This design task has to consider various elements so as to fulfill the citizens’ expectations and contribute to maintaining a healthy democracy. In this work, we present five proposals of electoral methods based on proportional representation that extend the notion of proportionality to several dimensions: For instance, simultaneous proportionality in political, geographical, and gender representation. We also consider including two additional desirable properties for electoral methods: A minimum threshold to obtain political representation, and the incorporation of plurality voting, guaranteeing the election of the highest voted candidate in each district. We use the Chilean Constitutional Convention election (May 15-16, 2021) results as a testing ground, and compare the apportionment obtained under each method according to four criteria: Proportionality, representativeness, robustness, and voting power. We conclude that it is feasible to design and implement an electoral method satisfying all mentioned properties. Our findings may be useful in assessing electoral designs in other contexts as well.
+DO  - 10.1145/3465416.3483295
+UR  - https://doi.org/10.1145/3465416.3483295
+N1  - source=eaamo_2021.bib; retained_by=tier1; terms=tier1:apportionment; tier1:representation axioms; tier2:collective; schema=v1.8
+AN  - eaamo2021-3465416-3483295
+ER  - 
+
+TY  - CONF
+TI  - A Quantitative and Qualitative Analysis of the Robustness of (Real-World) Election Winners
+AU  - Boehmer, Niclas
+AU  - Bredereck, Robert
+AU  - Faliszewski, Piotr
+AU  - Niedermeier, Rolf
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Contributing to the toolbox for interpreting election results, we evaluate the robustness of election winners to random noise. We compare the robustness of different voting rules and evaluate the robustness of real-world election winners from the Formula 1 World Championship and some variant of political elections. We find many instances of elections that have very non-robust winners and numerous delicate robustness patterns that cannot be identified using classical and simpler approaches.
+DO  - 10.1145/3551624.3555292
+UR  - https://doi.org/10.1145/3551624.3555292
+N1  - source=eaamo_2022.bib; retained_by=tier1; terms=tier1:voting rule; tier2:collective; schema=v1.8
+AN  - eaamo2022-3551624-3555292
+ER  - 
+
+TY  - CONF
+TI  - Opinion Change or Differential Turnout: Austin’s Budget Feedback Exercise and the Police Department
+AU  - Gelauff, Lodewijk L.
+AU  - Goel, Ashish
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In 2020, the United States was shaken up by the murder of George Floyd at the hands of law enforcement and protests around the country intensified, asking for defunding or reallocation of police budgets. This happened in the middle of a budgeting feedback exercise for the City of Austin, where residents were able to share opinions on the budgets of various city service areas, including the Police Department. The number of daily responses increased by a hundredfold overnight and we find that the votes cast after the “exogenous shock” were overwhelmingly in favor of reducing police funding, redirecting those funds mostly to healthcare and housing. After we submitted a report describing the results from the 2020 exercise, the City published a new proposal that redirected a meaningful portion of the police budget, and the amount redirected was in line with the aggregated budget presented in the report.
+DO  - 10.1145/3551624.3555295
+UR  - https://doi.org/10.1145/3551624.3555295
+N1  - source=eaamo_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - eaamo2022-3551624-3555295
+ER  - 
+
+TY  - CONF
+TI  - Diverse Representation via Computational Participatory Elections - Lessons from a Case Study
+AU  - Evequoz, Florian
+AU  - Rochel, Johan
+AU  - Keswani, Vijay
+AU  - Celis, L. Elisa
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Elections are the central institution of democratic processes, and often the elected body – in either public or private governance – is a committee of individuals. To ensure the legitimacy of elected bodies, the electoral processes should guarantee that diverse groups are represented, in particular members of groups that are marginalized due to gender, ethnicity, or other socially salient attributes. To address this challenge of representation, we have designed a novel participatory electoral process coined the Representation Pact, implemented with the support of a computational system. That process explicitly enables voters to flexibly decide on representation criteria in a first round, and then lets them vote for candidates in a second round. After the two rounds, a counting method is applied, which selects the committee of candidates that maximizes the number of votes received in the second round, conditioned on satisfying the criteria provided in the first round. With the help of a detailed use case that applied this process in a primary election of 96 representatives in Switzerland, we explain how this method contributes to fairness in political elections by achieving a better “descriptive representation”. Further, based on this use case, we identify lessons learnt that are applicable to participatory computational systems used in societal or political contexts. Good practices are identified and presented.
+DO  - 10.1145/3551624.3555297
+UR  - https://doi.org/10.1145/3551624.3555297
+N1  - source=eaamo_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - eaamo2022-3551624-3555297
+ER  - 
+
+TY  - CONF
+TI  - Towards Substantive Conceptions of Algorithmic Fairness: Normative Guidance from Equal Opportunity Doctrines
+AU  - Arif Khan, Falaah
+AU  - Manis, Eleni
+AU  - Stoyanovich, Julia
+PY  - 2022
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In this work we use Equal Opportunity (EO) doctrines from political philosophy to make explicit the normative judgements embedded in different conceptions of algorithmic fairness. We contrast formal EO approaches that narrowly focus on fair contests at discrete decision points, with substantive EO doctrines that look at people’s fair life chances more holistically over the course of a lifetime. We use this taxonomy to provide a moral interpretation of the impossibility results as the incompatibility between different conceptions of a fair contest — foward-facing versus backward-facing — when people do not have fair life chances. We use this result to motivate substantive conceptions of algorithmic fairness and outline two plausible fair decision procedures based on the luck egalitarian doctrine of EO, and Rawls’s principle of fair equality of opportunity.
+DO  - 10.1145/3551624.3555303
+UR  - https://doi.org/10.1145/3551624.3555303
+N1  - source=eaamo_2022.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - eaamo2022-3551624-3555303
+ER  - 
+
+TY  - CONF
+TI  - Taking Off with AI: Lessons from Aviation for Healthcare
+AU  - Bondi-Kelly, Elizabeth
+AU  - Hartvigsen, Tom
+AU  - Sanneman, Lindsay M
+AU  - Sankaranarayanan, Swami
+AU  - Harned, Zach
+AU  - Wickerson, Grace
+AU  - Gichoya, Judy Wawira
+AU  - Oakden-Rayner, Lauren
+AU  - Celi, Leo Anthony
+AU  - Lungren, Matthew P
+AU  - Shah, Julie A
+AU  - Ghassemi, Marzyeh
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Artificial intelligence (AI) stands to improve healthcare through innovative new systems ranging from diagnosis aids to patient tools. However, such “Health AI” systems are complicated and challenging to integrate into standing clinical practice. With advancing AI, regulations, practice, and policies must adapt to a wide range of new risks while experts learn to interact with complex automated systems. Even in the early stages of Health AI, risks and gaps are being identified, like severe underperformance of models for minority groups and catastrophic model failures when input data shift over time. In the face of such gaps, we find inspiration in aviation, a field that went from highly dangerous to largely safe. We draw three main lessons from aviation safety that can apply to Health AI: 1) Build regulatory feedback loops to learn from mistakes and improve practices, 2) Establish a culture of safety and openness where stakeholders have incentives to report failures and communicate across the healthcare system, and 3) Extensively train, retrain, and accredit experts for interacting with Health AI, especially to help address automation bias and foster trust. Finally, we discuss remaining limitations in Health AI with less guidance from aviation.
+DO  - 10.1145/3617694.3623224
+UR  - https://doi.org/10.1145/3617694.3623224
+N1  - source=eaamo_2023.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - eaamo2023-3617694-3623224
+ER  - 
+
+TY  - CONF
+TI  - Average Envy-freeness for Indivisible Items
+AU  - Han, Qishen
+AU  - Tao, Biaoshuai
+AU  - Xia, Lirong
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In fair division applications, agents may have unequal entitlements reflecting their different contributions. Moreover, the contributions of agents may depend on the allocation itself. Previous fairness notions designed for agents with equal or pre-determined entitlements fail to characterize fairness in these collaborative allocation scenarios.
+DO  - 10.1145/3617694.3623229
+UR  - https://doi.org/10.1145/3617694.3623229
+N1  - source=eaamo_2023.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - eaamo2023-3617694-3623229
+ER  - 
+
+TY  - CONF
+TI  - FATE in AI: Towards Algorithmic Inclusivity and Accessibility
+AU  - Inuwa-Dutse, Isa
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - With Artificial Intelligence (AI) occupying the centre stage of technological advancements, its impact is affecting many sections of society. Because algorithmic decisions carry both economic and personal implications, fairness, accountability, transparency and ethics (FATE) in AI are geared towards checkmating algorithmic disparities. However, one of the noted limitations of the present discourse on such critical issues is the dominance of the more economically developed countries (MEDC), resulting in neglecting local knowledge, cultural pluralism and global fairness. This study builds upon existing research on responsible AI, with a focus on areas in the Global South deemed under-served vis-a-vis AI. Our goal is two-fold (1) to assess FATE-related desiderata with emphasis on transparency and ethics and (2) to offer insights and proffer recommendations to stimulate action towards representative and responsible AI. We designed a user study (n = 43) and a participatory session (n = 30) to achieve the above goals. Our findings reveal a path towards encoding bias and amplifying a form of stereotype by AI models. For improved inclusivity, we propose a community-led strategy to operationalise the collection and curation of representative data towards responsible AI design. The initiative will empower the affected community or individuals to probe and police the growing application of AI-powered systems. Moreover, we offer some recommendations, informed by the public, that adhere to social values as core requirements for practitioners to incorporate context-specific FATE in AI needs.
+DO  - 10.1145/3617694.3623233
+UR  - https://doi.org/10.1145/3617694.3623233
+N1  - source=eaamo_2023.bib; retained_by=preservation; terms=preservation:pluralism; schema=v1.8
+AN  - eaamo2023-3617694-3623233
+ER  - 
+
+TY  - CONF
+TI  - Strategic Evaluation
+AU  - Laufer, Benjamin
+AU  - Kleinberg, Jon
+AU  - Levy, Karen
+AU  - Nissenbaum, Helen
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - A broad current application of algorithms is in formal and quantitative measures of murky concepts – like merit – to make decisions. When people strategically respond to these sorts of evaluations in order to gain favorable decision outcomes, their behavior can be subjected to moral judgments. They may be described as ‘gaming the system’ or ‘cheating,’ or (in other cases) investing ‘honest effort’ or ‘improving.’ Machine learning literature on strategic behavior has tried to describe these dynamics by emphasizing the efforts expended by decision subjects hoping to obtain a more favorable assessment — some works offer ways to preempt or prevent such manipulations, some differentiate ‘gaming’ from ‘improvement’ behavior, while others aim to measure the effort burden or disparate effects of classification systems.
+DO  - 10.1145/3617694.3623237
+UR  - https://doi.org/10.1145/3617694.3623237
+N1  - source=eaamo_2023.bib; retained_by=tier2+anchor; terms=tier2:manipulation; schema=v1.8
+AN  - eaamo2023-3617694-3623237
+ER  - 
+
+TY  - CONF
+TI  - Optimizing Sponsored Humanitarian Parole
+AU  - Farajzadeh, Fatemeh
+AU  - Killea, Ryan Baylor
+AU  - Teytelboym, Alexander
+AU  - Trapp, Andrew Christopher
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - The United States has introduced a special humanitarian parole process for Ukrainian citizens in response to Russia’s 2022 invasion of Ukraine. To qualify for parole, Ukrainian applicants must have a sponsor in the United States. In collaboration with HIAS, a refugee resettlement agency involved in the parole process, we deployed RUTH (Refugees Uniting Through HIAS), a novel algorithmic matching system that is driven by the relocation preferences of refugees and the priorities of US sponsors. RUTH adapts Thakral’s [23] Multiple-Waitlist Procedure (MWP) that combines the main First-In/First-Out (FIFO) queue with location-specific FIFO queues in order to effectively manage the preferences of refugees and the supply of community sponsors. In addition to refugee preferences and sponsor priorities, RUTH incorporates various feasibility considerations such as community capacity, religious, and medical needs. The adapted mechanism is envy-free, efficient and strategy-proof for refugees. Our analysis reveals that refugee preferences over locations are diverse, even controlling for observables, by demonstrating the difficulty of solving a much simpler problem than modeling preferences directly from observables. We use our data for two counterfactual simulations. First, we consider the effects of increased waiting times for refugees on the quality of their matches. We find that with a periodic Top Trading Cycles algorithm, increasing period length from 24 days to 80 days, improves average rank of a refugee’s match from 3.20 to 2.44. On the other hand, using the available preference data RUTH achieved an average rank of 4.07 with a waiting time of 20 days. Second, we estimate the arrival rates of sponsors in each location that would be consistent with a long-run steady state. We find that more desirable locations (in terms of refugee preferences) require the highest arrival rates suggesting that preferences might be a useful indicator for investments in sponsorship capacity. Our study highlights the potential for preference-based algorithms such as RUTH to improve the efficiency and fairness of other rapidly-deployed humanitarian parole processes.
+DO  - 10.1145/3617694.3623240
+UR  - https://doi.org/10.1145/3617694.3623240
+N1  - source=eaamo_2023.bib; retained_by=tier1; terms=tier1:incentives; tier1:alignment; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - eaamo2023-3617694-3623240
+ER  - 
+
+TY  - CONF
+TI  - Deploying a Robust Active Preference Elicitation Algorithm on MTurk: Experiment Design, Interface, and Evaluation for COVID-19 Patient Prioritization
+AU  - Johnston, Caroline M
+AU  - Vossler, Patrick
+AU  - Blessenohl, Simon
+AU  - Vayanos, Phebe
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Preference elicitation leverages AI or optimization to learn stakeholder preferences in settings ranging from marketing to public policy. The online robust preference elicitation procedure of [34] has been shown in simulation to outperform various other elicitation procedures in terms of effectively learning individuals’ true utilities. However, as with any simulation, the method makes a series of assumptions that cannot easily be verified to hold true beyond simulation. Thus, we propose to validate the robust method’s performance using real users, focusing on the particular challenge of selecting policies for prioritizing COVID-19 patients for scarce hospital resources during the pandemic. To this end, we develop an online platform for preference elicitation where users report their preferences between alternatives over a moderate number of pairwise comparisons chosen by a particular elicitation procedure. We recruit 193 Amazon Mechanical Turk (MTurk) workers to report their preferences and demonstrate that the robust method outperforms asking random queries by 21%, the next best performing method in the simulated results of [34], in terms of recommending policies with a higher utility.
+DO  - 10.1145/3617694.3623254
+UR  - https://doi.org/10.1145/3617694.3623254
+N1  - source=eaamo_2023.bib; retained_by=tier1; terms=tier1:multi-stakeholder; schema=v1.8
+AN  - eaamo2023-3617694-3623254
+ER  - 
+
+TY  - CONF
+TI  - The Participatory Turn in AI Design: Theoretical Foundations and the Current State of Practice
+AU  - Delgado, Fernando
+AU  - Yang, Stephen
+AU  - Madaio, Michael
+AU  - Yang, Qian
+PY  - 2023
+T2  - Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Despite the growing consensus that stakeholders affected by AI systems should participate in their design, enormous variation and implicit disagreements exist among current approaches. For researchers and practitioners who are interested in taking a participatory approach to AI design and development, it remains challenging to assess the extent to which any participatory approach grants substantive agency to stakeholders. This article thus aims to ground what we dub the “participatory turn” in AI design by synthesizing existing theoretical literature on participation and through empirical investigation and critique of its current practices. Specifically, we derive a conceptual framework through synthesis of literature across technology design, political theory, and the social sciences that researchers and practitioners can leverage to evaluate approaches to participation in AI design. Additionally, we articulate empirical findings concerning the current state of participatory practice in AI design based on an analysis of recently published research and semi-structured interviews with 12 AI researchers and practitioners. We use these empirical findings to understand the current state of participatory practice and subsequently provide guidance to better align participatory goals and methods in a way that accounts for practical constraints.
+DO  - 10.1145/3617694.3623261
+UR  - https://doi.org/10.1145/3617694.3623261
+N1  - source=eaamo_2023.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - eaamo2023-3617694-3623261
+ER  - 
+
+TY  - CONF
+TI  - Harm Ratio: A Novel and Versatile Fairness Criterion
+AU  - Ebadian, Soroush
+AU  - Freeman, Rupert
+AU  - Shah, Nisarg
+PY  - 2024
+T2  - Proceedings of the 4th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Envy-freeness has become the cornerstone of fair division research. In settings where each individual is allocated a disjoint share of collective resources, it is a compelling fairness axiom which demands that no individual strictly prefer the allocation of another individual to their own. Unfortunately, in many real-life collective decision-making problems, the goal is to choose a (common) public outcome that is equally applicable to all individuals, and the notion of envy becomes vacuous. Consequently, this literature has avoided studying fairness criteria that focus on individuals feeling a sense of jealousy or resentment towards other individuals (rather than towards the system), missing out on a key aspect of fairness.
+DO  - 10.1145/3689904.3694701
+UR  - https://doi.org/10.1145/3689904.3694701
+N1  - source=eaamo_2024.bib; retained_by=tier1; terms=tier1:collective decision; tier1:fair division; tier1:envy-freeness; tier2:fairness; tier2:collective; schema=v1.8
+AN  - eaamo2024-3689904-3694701
+ER  - 
+
+TY  - CONF
+TI  - Fairness in Ranking under Disparate Uncertainty
+AU  - Rastogi, Richa
+AU  - Joachims, Thorsten
+PY  - 2024
+T2  - Proceedings of the 4th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Ranking is a ubiquitous method for focusing the attention of human evaluators on a manageable subset of options. Its use as part of human decision-making processes ranges from surfacing potentially relevant products on an e-commerce site to prioritizing college applications for human review. While ranking can make human evaluation more effective by focusing attention on the most promising options, we argue that it can introduce unfairness if the uncertainty of the underlying relevance model differs between groups of options. Unfortunately, such disparity in uncertainty appears widespread, often to the detriment of minority groups for which relevance estimates can have higher uncertainty due to a lack of data or appropriate features. To address this fairness issue, we propose Equal-Opportunity Ranking (EOR) as a new fairness criterion for ranking and show that it corresponds to a group-wise fair lottery among the relevant options even in the presence of disparate uncertainty. EOR optimizes for an even cost burden on all groups, unlike the conventional Probability Ranking Principle, and is fundamentally different from existing notions of fairness in rankings, such as demographic parity and proportional Rooney rule constraints that are motivated by proportional representation relative to group size. To make EOR ranking practical, we present an efficient algorithm for computing it in time O(nlog (n)) and prove its close approximation guarantee to the globally optimal solution. In a comprehensive empirical evaluation on synthetic data, a US Census dataset, and a real-world audit of Amazon search queries, we find that the algorithm reliably guarantees EOR fairness while providing effective rankings.
+DO  - 10.1145/3689904.3694703
+UR  - https://doi.org/10.1145/3689904.3694703
+N1  - source=eaamo_2024.bib; retained_by=tier1; terms=tier1:representation axioms; tier2:collective; schema=v1.8
+AN  - eaamo2024-3689904-3694703
+ER  - 
+
+TY  - CONF
+TI  - Harmful Speech Detection by Language Models Exhibits Gender-Queer Dialect Bias
+AU  - Dorn, Rebecca
+AU  - Kezar, Lee
+AU  - Morstatter, Fred
+AU  - Lerman, Kristina
+PY  - 2024
+T2  - Proceedings of the 4th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Trigger Warning: Profane Language, Slurs Content moderation on social media platforms shapes the dynamics of online discourse, influencing whose voices are amplified and whose are suppressed. Recent studies have raised concerns about the fairness of content moderation practices, particularly for aggressively flagging posts from transgender and non-binary individuals as toxic. In this study, we investigate the presence of bias in harmful speech classification of gender-queer dialect online, focusing specifically on the treatment of reclaimed slurs. We introduce a novel dataset, QueerReclaimLex, based on 109 curated templates exemplifying non-derogatory uses of LGBTQ+ slurs. Dataset instances are scored by gender-queer annotators for potential harm depending on additional context about speaker identity. We systematically evaluate the performance of five off-the-shelf language models in assessing the harm of these texts and explore the effectiveness of chain-of-thought prompting to teach large language models (LLMs) to leverage author identity context. We reveal a tendency for these models to inaccurately flag texts authored by gender-queer individuals as harmful. Strikingly, across all LLMs the performance is poorest for texts that show signs of being written by individuals targeted by the featured slur (F1 ≤ 0.24). We highlight an urgent need for fairness and inclusivity in content moderation systems. By uncovering these biases, this work aims to inform the development of more equitable content moderation practices and contribute to the creation of inclusive online spaces for all users.
+DO  - 10.1145/3689904.3694704
+UR  - https://doi.org/10.1145/3689904.3694704
+N1  - source=eaamo_2024.bib; retained_by=tier1; terms=tier1:opinion representation; schema=v1.8
+AN  - eaamo2024-3689904-3694704
+ER  - 
+
+TY  - CONF
+TI  - Epistemic vs. Counterfactual Fairness in Allocation of Resources
+AU  - Hosseini, Hadi
+AU  - Kavner, Joshua
+AU  - Sikdar, Sujoy
+AU  - Vaish, Rohit
+AU  - Xia, Lirong
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Resource allocation is fundamental to a variety of societal decision-making settings, ranging from the distribution of charitable donations to assigning limited public housing among interested families. A central challenge in this context is ensuring fair outcomes, which often requires balancing conflicting preferences of various stakeholders. While extensive research has been conducted on theoretical and algorithmic solutions within the fair division framework, much of this work neglects the subjective perception of fairness by individuals. This study focuses on the fairness notion of envy-freeness (EF), which ensures that no agent prefers the allocation of another agent according to their own preferences. While the existence of exact EF allocations may not always be feasible, various approximate relaxations, such as counterfactual and epistemic EF, have been proposed. Through a series of experiments with human participants, we compare perceptions of fairness between three widely studied counterfactual and epistemic relaxations of EF. Our findings indicate that allocations based on epistemic EF are perceived as fairer than those based on counterfactual relaxations. Additionally, we examine a variety of factors, including scale, balance of outcomes, and cognitive effort involved in evaluating fairness and their role in the complexity of reasoning across treatments.
+DO  - 10.1145/3757887.3763009
+UR  - https://doi.org/10.1145/3757887.3763009
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - eaamo2025-3757887-3763009
+ER  - 
+
+TY  - CONF
+TI  - FairWAG: Fairness-aware Weighted Aggregation for Graph Learning in a Federated Setting
+AU  - Lo, Kuan-Chieh
+AU  - He, Yuntian
+AU  - Jiang, Yuze
+AU  - Parthasarathy, Srinivasan
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Graph representation learning has revolutionized the modeling of complex relationships in networked data. While federated graph learning (FGL) enables privacy-preserving collaborative training across multiple clients, ensuring demographic fairness becomes challenging with heterogeneously distributed sensitive data. We identify that existing bias mitigation algorithms in federated learning struggle to maintain fairness when client data exhibits a high demographic skew. To address this, we introduce FairWAG (Fairness-aware Weighted Aggregation for Graphs). This novel federated framework preserves demographic fairness in graph representation learning across varying bias levels. Our approach leverages a core idea from cooperative game theory (Shapley Values) to quantify client models’ contributions to performance and fairness, enabling adaptive aggregation weights. Additionally, we measure model neuron sensitivities to class labels and sensitive attributes, allowing for fine-grained aggregation that further optimizes the performance-fairness trade-off. The experimental results demonstrate that our framework achieves superior performance-fairness trade-offs compared to existing algorithms across different scenarios.
+DO  - 10.1145/3757887.3763013
+UR  - https://doi.org/10.1145/3757887.3763013
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:federated aggregation; tier2:weighting; schema=v1.8
+AN  - eaamo2025-3757887-3763013
+ER  - 
+
+TY  - CONF
+TI  - Direct Alignment with Heterogeneous Preferences
+AU  - Shirali, Ali
+AU  - Nasr-Esfahany, Arash
+AU  - Alomar, Abdullah Omar
+AU  - Mirtaheri, Parsa
+AU  - Abebe, Rediet
+AU  - Procaccia, Ariel D.
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Alignment with human preferences is commonly framed using a universal reward function, even though human preferences are inherently heterogeneous. We formalize this heterogeneity by introducing user types and examine the limits of the homogeneity assumption. We show that aligning to heterogeneous preferences with a single policy is best achieved using the average reward across user types. However, this requires additional information about annotators. We examine improvements under different information settings, focusing on direct alignment methods. We find that minimal information can yield first-order improvements, while full feedback from each user type leads to consistent learning of the optimal policy. Surprisingly, however, no sample-efficient consistent direct loss exists in this latter setting. These results reveal a fundamental tension between consistency and sample efficiency in direct policy alignment.
+DO  - 10.1145/3757887.3767678
+UR  - https://doi.org/10.1145/3757887.3767678
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:alignment; schema=v1.8
+AN  - eaamo2025-3757887-3767678
+ER  - 
+
+TY  - CONF
+TI  - Africa Health Check: Probing Cultural Bias in Medical LLMs
+AU  - Nimo, Charles
+AU  - Essa, Irfan
+AU  - Best, Michael
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Large language models (LLMs) are increasingly deployed in global healthcare, yet their outputs often reflect Western-centric training data and omit indigenous medical systems and region-specific treatments. This study investigates cultural bias in instruction-tuned medical LLMs using a curated dataset of African traditional herbal medicine. We evaluate model behavior across two complementary tasks, namely, multiple-choice questions and fill-in-the-blank completions, designed to capture both treatment preferences and responsiveness to cultural context. To quantify outcome preferences and prompt influences, we apply two complementary metrics: Cultural Bias Score (CBS) and Cultural Bias Attribution (CBA). Our results show that while prompt adaptation can reduce inherent bias and enhance cultural alignment, models vary in how responsive they are to contextual guidance. Persistent default to allopathic1 (Western) treatments in zero-shot scenarios suggest that many biases remain embedded in model training. These findings underscore the need for culturally informed evaluation strategies to guide the development of AI systems that equitably serve diverse global health contexts. By releasing our dataset and providing a dual-metric evaluation approach, we offer practical tools for developing more culturally aware and clinically grounded AI systems for healthcare settings in the Global South.
+DO  - 10.1145/3757887.3767687
+UR  - https://doi.org/10.1145/3757887.3767687
+N1  - source=eaamo_2025.bib; retained_by=tier1; terms=tier1:pluralistic alignment; schema=v1.8
+AN  - eaamo2025-3757887-3767687
+ER  - 
+
+TY  - CONF
+TI  - Human-AI Collaboration with Misaligned Preferences
+AU  - Song, Jiaxin
+AU  - Shahkar, Parnian
+AU  - Donahue, Kate
+AU  - Chaudhury, Bhaskar Ray
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - In many real-life settings, algorithms play the role of assistants, while humans ultimately make the final decision. Often, algorithms specifically act as curators, narrowing down a wide range of options into a smaller subset that the human picks between: consider content recommendation or chatbot responses to questions with multiple valid answers. Crucially, humans may not know their own preferences perfectly either, but instead may only have access to a noisy sampling over preferences. Algorithms can assist humans by curating a smaller subset of items, but must also face the challenge of misalignment: humans may have different preferences from each other (and from the algorithm), and the algorithm may not know the exact preferences of the human they are facing at any point in time. In this paper, we model and theoretically study such a setting. Specifically, we show instances where humans benefit by collaborating with a misaligned algorithm. Surprisingly, we show that humans gain more utility from a misaligned algorithm (which makes different mistakes) than from an aligned algorithm. Next, we build on this result by studying what properties of algorithms maximize human welfare when the goals could be either utilitarian welfare or ensuring all humans benefit. We conclude by discussing implications for designers of algorithmic tools and policymakers.
+DO  - 10.1145/3757887.3767691
+UR  - https://doi.org/10.1145/3757887.3767691
+N1  - source=eaamo_2025.bib; retained_by=welfare; terms=welfare:utilitarian aggregation; tier2:welfare; schema=v1.8
+AN  - eaamo2025-3757887-3767691
+ER  - 
+
+TY  - CONF
+TI  - Battery Operations in Electricity Markets: Strategic Behavior and Distortions
+AU  - Anunrojwong, Jerry
+AU  - Balseiro, Santiago R.
+AU  - Besbes, Omar
+AU  - Xu, Bolun
+PY  - 2025
+T2  - Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+AB  - Electric power systems are undergoing a major transformation as they integrate intermittent renewable energy sources, and batteries to smooth out variations in renewable energy production. As privately-owned batteries grow from their role as marginal "price-takers" to significant players in the market, a natural question arises: How do batteries operate in electricity markets, and how does the strategic behavior of decentralized batteries distort decisions compared to centralized batteries? We propose an analytically tractable model that captures salient features of the highly complex electricity market. We derive in closed form the resulting battery behavior and generation cost in three operating regimes: (i) no battery, (ii) centralized battery, and (ii) decentralized profit-maximizing battery. We establish that a decentralized battery distorts its discharge decisions in three ways. First, there is quantity withholding, i.e., discharging less than centrally optimal. Second, there is a shift in participation from day-ahead to real-time, i.e., postponing some of its discharge from day-ahead to real-time. Third, there is reduction in real-time responsiveness, or discharging less in response to smoothing real-time demand than centrally optimal. We also quantify the impact of the battery market power on total system cost via the Price of Anarchy metric, and prove that it is always between 9/8 and 4/3. That is, incentive misalignment always exists, but it is bounded even in the worst case. We calibrate our model to real data from Los Angeles and Houston. Lastly, we show that competition is very effective at reducing distortions, but many market power mitigation mechanisms backfire, and lead to higher total cost. The work provides stakeholders with a framework to understand and detect market power from batteries. It also shows that the potential loss from battery market power is relatively small compared to the cost reduction achievable from having enough battery capacity in the system.
+DO  - 10.1145/3757887.3767692
+UR  - https://doi.org/10.1145/3757887.3767692
+N1  - source=eaamo_2025.bib; retained_by=tier2+anchor; terms=tier2:manipulation; schema=v1.8
+AN  - eaamo2025-3757887-3767692
+ER  - 
+

@@ -1,0 +1,315 @@
+TY  - CONF
+TI  - Designing Approximately Optimal Search on Matching Platforms
+AU  - Immorlica, Nicole
+AU  - Lucier, Brendan
+AU  - Manshadi, Vahideh
+AU  - Wei, Alexander
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We study the design of a decentralized two-sided matching market in which agents' search is guided by the platform. Each agent is of one of finitely many types and has (potentially random) preferences drawn from known type-specific distributions. Equipped with such distributional knowledge, the platform guides the search process by determining the meeting rate between each pair of types from the two sides. Meanwhile, agents strategically accept or reject the potential partners whom they meet. Focusing on when agents have symmetric pairwise preferences in a continuum model, we first characterize the unique stationary equilibrium that arises given a feasible set of meeting rates. We then introduce the platform's optimal directed search problem, which involves optimizing meeting rates to maximize equilibrium social welfare. We show that incentive issues arising from congestion and cannibalization make the design problem fairly intricate. Nonetheless, we develop an efficiently computable solution whose corresponding equilibrium achieves at least 1/4 of the optimal social welfare. Our directed search design is simple and easy-to-implement, as its corresponding bipartite graph consists of disjoint stars. Furthermore, our solution implies that, with careful search design, the platform can substantially limit choice and yet induce an equilibrium with approximately optimal welfare. Finally, we show that approximation is likely the best we can hope for by establishing that the problem of designing optimal directed search is NP-hard to approximate beyond a certain constant factor.
+DO  - 10.1145/3465456.3467530
+UR  - https://doi.org/10.1145/3465456.3467530
+N1  - source=ec_2021.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - ec2021-3465456-3467530
+ER  - 
+
+TY  - CONF
+TI  - The Effect of Privacy Regulation on the Data Industry
+AU  - Aridor, Guy
+AU  - Che, Yeon-Koo
+AU  - Salz, Tobias
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - This paper studies the effects of the EU's General Data Protection Regulation (GDPR) on the ability of firms to collect consumer data, identify consumers over time, accrue revenue via online advertising, and predict their behavior. We utilize a novel dataset that spans many different firms in the online travel industry that allows us to observe consumer visits, purchases, advertisements, and the output of a commercially used algorithm that predicts consumer behavior. We make use of a difference-in-differences analysis that exploits the geographic reach of GDPR. We find a 12.5% drop in observed consumers as a result of GDPR, but at the same time that remaining set of consumers is more persistently identifiable. We provide suggestive evidence that this is driven by a selected set of consumers who substitute from pre-existing privacy means towards those offered as part of GDPR. This substitution affects the ability to predict consumer behavior and preferences as well as improves the ability of advertisers to measure the effectiveness of advertising. In sum, this differential use of privacy tools leads to an increase in the average value of remaining consumers to advertisers, offsetting some of the losses from consumers that opt-out. Our results highlight the externalities that consumer privacy decisions have both on other consumers and for firms.
+DO  - 10.1145/3465456.3467543
+UR  - https://doi.org/10.1145/3465456.3467543
+N1  - source=ec_2021.bib; retained_by=tier2+anchor; terms=tier2:exit; schema=v1.8
+AN  - ec2021-3465456-3467543
+ER  - 
+
+TY  - CONF
+TI  - Non-Clairvoyant Dynamic Mechanism Design with Budget Constraints and Beyond
+AU  - Deng, Yuan
+AU  - Mirrokni, Vahab
+AU  - Zuo, Song
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We provide a general design framework for dynamic mechanisms under complex environments, coined Lossless History Compression mechanisms. Lossless history compression mechanisms compress the history into a state carrying the least historical information without losing any generality in terms of either revenue or welfare. In particular, the characterization works for almost arbitrary constraints on the outcomes, and any objective function defined on the historical reports, allocations, and the cumulative payments. We then apply our framework to design a non-clairvoyant dynamic mechanism under budget and ex-post individual rationality constraints that is dynamic incentive-compatible and achieves non-trivial revenue performance, even without any knowledge about the future. In particular, our dynamic mechanism obtains a constant approximation to the optimal dynamic mechanism having access to all information in advance. To the best of our knowledge, this is the first dynamic mechanism that achieves a constant approximation and strictly respects dynamic incentive-compatibility and budget constraints without relying on any forecasts of the future.
+DO  - 10.1145/3465456.3467545
+UR  - https://doi.org/10.1145/3465456.3467545
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - ec2021-3465456-3467545
+ER  - 
+
+TY  - CONF
+TI  - Indivisible Mixed Manna: On the Computability of MMS+PO Allocations
+AU  - Kulkarni, Rucha
+AU  - Mehta, Ruta
+AU  - Taki, Setareh
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - In this paper we study the problem of finding fair and efficient allocations of a mixed manna, i.e., a setM of discrete items that are goods/chores, among a set N of agents with additive valuations. We note that a mixed manna allows an item to be a good (positively valued) for some agents, and a chore (negatively valued) for others, and thereby strictly generalizes the extensively studied goods (chores) manna. To measure fairness and efficiencywe consider the popular and well studied notions of maximin-share (MMS) and Pareto optimality (PO) respectively. AnMMS allocation is one where every agent gets at least herMMS value. However, [6] showed that an MMS allocation may not always exist. This prompted a series of works on the efficient computation of α-MMS allocations, where every agent gets at least α (1/α) times her MMS value for a goods (chores) manna, for progressively better α ∈ [0, 1]; the best factor known so far is α = (3/4 + 1/(12n)) by Garg and Taki [2] for n ≥ 5 agents for goods, and 9/11 for chores [5]. No such results are known for the mixed manna. Even for the goods (chores) manna, no work has explored the PO guarantee in addition toMMS, to the best of our knowledge. In this paper, we first show that, for any fixed α ∈ (0, 1], an α-MMS allocation may not always exist; in contrast, non-existence with a goods manna is known for α close to one. This rules out efficient computation for any fixed α, and naturally raises the following problem. Problem of Interest. Design an efficient algorithm to find an α-MMS + PO allocation for the best possible α , i.e., the maximum α ∈ (0, 1] for which it exists. This exact problem is intractable: In the case of identical agents, an (α = 1)-MMS allocation exists by definition. However, finding one is known to be NP-hard for a goods manna. On the positive side, a polynomial-time approximation scheme (PTAS) is known for this case; given a constant ε ∈ (0, 1], the algorithm finds a (1 − ε)-MMS allocation in polynomial time. Guaranteeing PO in addition adds to the complexity, since even checking if a given allocation is PO is coNP-hard. In light of these results, we ask,
+DO  - 10.1145/3465456.3467553
+UR  - https://doi.org/10.1145/3465456.3467553
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:pareto; schema=v1.8
+AN  - ec2021-3465456-3467553
+ER  - 
+
+TY  - CONF
+TI  - An Algorithmic Framework for Approximating Maximin Share Allocation of Chores
+AU  - Huang, Xin
+AU  - Lu, Pinyan
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We consider the problem of fairly dividing m indivisible chores among n agents. The fairness measure we consider here is the maximin share. The previous best known result is that there always exists a 4/3-approximation maximin share allocation[3]. With our algorithm, we can always find a 11/9-approximation maximin share allocation for any instance. We also discuss how to improve the efficiency of the algorithm and its connection to the job scheduling problem. The full paper can be found at https://arxiv.org/abs/1907.04505.
+DO  - 10.1145/3465456.3467555
+UR  - https://doi.org/10.1145/3465456.3467555
+N1  - source=ec_2021.bib; retained_by=welfare; terms=welfare:welfare properties; schema=v1.8
+AN  - ec2021-3465456-3467555
+ER  - 
+
+TY  - CONF
+TI  - Voting by Simultaneous Vetoes
+AU  - Kirneva, Margarita
+AU  - Núñez, Matías
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - Voting mechanisms often exhibit a large multiplicity of equilibria. In many of these equilibria, coordination failures among voters arise where some (coalition of) voters could have induced an outcome that they all prefer to the equilibrium outcome had they agreed on a common strategy. In order to prevent these failures, we study voting mechanisms requiring that every Nash equilibrium is coalition-proof ([1]) so that, in equilibrium, no coalition of voters has some mutually beneficial deviation. The described mechanisms achieve coalitional implementation, that is they implement social choice rules in both Nash and in coalition-proof equilibria. Our approach assumes complete information and is hence well-suited for voting mechanisms for small committees. We consider a committee of n voters selecting one out of k alternatives. The main focus of the paper is on the case with k > n which is a natural environment for a small committee. The first part of the paper considers the simultaneous veto (SV) mechanisms. In each of these mechanisms, each voter has the right to select a list of alternatives to veto, and the outcome is selected randomly from the nonvetoed alternatives. Each such equilibrium admits a pure strategy equilibrium for each preference profile assuming that voters' preferences over lotteries satisfy the mild assumption of stochastic dominance. In equilibrium, no pair of voters veto the same alternative. As we show, for each specification of the veto rights, each of these mechanisms coalitionally implements a Veto by random priority rule (VRP) introduced by [6].
+DO  - 10.1145/3465456.3467557
+UR  - https://doi.org/10.1145/3465456.3467557
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:social choice; tier2:collective; tier2:exit; schema=v1.8
+AN  - ec2021-3465456-3467557
+ER  - 
+
+TY  - CONF
+TI  - Fair-Share Allocations for Agents with Arbitrary Entitlements
+AU  - Babaioff, Moshe
+AU  - Ezra, Tomer
+AU  - Feige, Uriel
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We consider the problem of fair allocation of indivisible goods to n agents, with no transfers. When agents have equal entitlements, the well established notion of the maximin share (MMS) serves as an attractive fairness criterion, where to qualify as fair, an allocation needs to give every agent at least a substantial fraction of her MMS. In this paper we consider the case of arbitrary (unequal) entitlements. We explain shortcomings in previous attempts that extend the MMS to unequal entitlements. Our conceptual contribution is the introduction of a new notion of a share, the AnyPrice share (APS), that is appropriate for settings with arbitrary entitlements. The AnyPrice share of an agent is the value she can guarantee to herself if she is given a budget equal to her entitlement, and she buys her highest value affordable set when items are adversarially priced with a total price equal to the total entitlements. Even for the equal entitlements case, this notion is new, and satisfies APS ≥ MMS, where the inequality is sometimes strict. We also present an alternative definition for the APS as a maximization problem (a fractional version of the MMS), and provide comparisons between the APS and previous notions of fairness. Our main result concerns additive valuations and arbitrary entitlements, for which we provide a polynomial-time algorithm that gives every agent at least a 3/5-fraction of her APS. This algorithm can also be viewed as providing a strategy in a certain natural bidding game, and this strategy secures each agent that uses it at least a 3/5-fraction of her APS, regardless of the strategies used by other agents.
+DO  - 10.1145/3465456.3467559
+UR  - https://doi.org/10.1145/3465456.3467559
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:fair division; welfare:welfare properties; tier2:fairness; schema=v1.8
+AN  - ec2021-3465456-3467559
+ER  - 
+
+TY  - CONF
+TI  - Parallel Lotteries: Insights from Alaskan Hunting Permit Allocation
+AU  - Arnosti, Nick
+AU  - Randolph, Tim
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We analyze the parallel lottery, which is used to allocate hunting permits in the state of Alaska. Each participant is given tickets to distribute among lotteries for different types of items. Participants who win multiple items receive their favorite, and new winners are drawn from the lotteries with unclaimed items. When supply is scarce, equilibrium outcomes of parallel lotteries approximate a competitive equilibrium from equal incomes (CEEI), which is Pareto efficient. When supply is moderate, parallel lotteries exhibit two sources of inefficiency. First, some agents may benefit from trading probability shares. Second, outcomes may be "wasteful": agents may receive nothing even if acceptable items remain unallocated. We bound both sources of inefficiency, and show that each is eliminated by giving applicants a suitable number of tickets k: trades are never beneficial when $k = 1$, and waste is eliminated as k approaches infinity.
+DO  - 10.1145/3465456.3467562
+UR  - https://doi.org/10.1145/3465456.3467562
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:pareto; schema=v1.8
+AN  - ec2021-3465456-3467562
+ER  - 
+
+TY  - CONF
+TI  - Classification of Priorities Such That Deferred Acceptance is OSP Implementable
+AU  - Thomas, Clayton
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We study the strategic simplicity of stable matching mechanisms where one side has fixed preferences, termed priorities. Specifically, we ask which priorities are such that the strategyproofness of deferred acceptance (DA) can be recognized by agents unable to perform contingency reasoning, that is, when does DA have an obviously strategyproof (OSP) implementation (Li, 2017)? We answer this question by completely characterizing those priorities for which DA is OSP implementable. This solves an open problem of Ashlagi and Gonczarowski, 2018. We find that when DA is OSP implementable, priorities are either acyclic (Ergin, 2002), a restrictive condition which allows priorities to only differ on only two agents at a time, or contain an extremely limited cyclic pattern where all priority lists are identical except for exactly two. We conclude that, for stable matching mechanisms, the tension between understandability (in the sense of OSP) and expressiveness of priorities is very high.
+DO  - 10.1145/3465456.3467579
+UR  - https://doi.org/10.1145/3465456.3467579
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:incentives; schema=v1.8
+AN  - ec2021-3465456-3467579
+ER  - 
+
+TY  - CONF
+TI  - How Likely Are Large Elections Tied?
+AU  - Xia, Lirong
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - Understanding the likelihood for an election to be tied is a classical topic in many disciplines including social choice, game theory, political science, and public choice. The problem is important not only as a fundamental problem in probability theory and statistics, but also because of its critical roles in many other important issues such as indecisiveness of voting, strategic voting, privacy of voting, voting power, voter turn out, etc. Despite a large body of literature and the common belief that ties are rare, little is known about how rare ties are in large elections except for a few simple positional scoring rules under the i.i.d. uniform distribution over the votes, known as the Impartial Culture (IC) in social choice. In particular, little progress was made after Marchant [Mar01] explicitly posed the likelihood of k-way ties under IC as an open question in 2001. We give an asymptotic answer to the open question for a wide range of commonly-studied voting rules under a model that is much more general and realistic than i.i.d. models including IC--the smoothed social choice framework [Xia20], which was inspired by the celebrated smoothed complexity analysis [ST09]. We prove dichotomy theorems on the smoothed likelihood of ties under a large class of voting rules. Our main technical tool is an improved dichotomous characterization on the smoothed likelihood for a Poisson multinomial variable to be in a polyhedron, which is proved by exploring the interplay between the V-representation and the matrix representation of polyhedra and might be of independent interest.
+DO  - 10.1145/3465456.3467592
+UR  - https://doi.org/10.1145/3465456.3467592
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:voting rule; tier1:social choice; tier1:voting games; tier2:manipulation; tier2:collective; schema=v1.8
+AN  - ec2021-3465456-3467592
+ER  - 
+
+TY  - CONF
+TI  - Multidimensional Apportionment through Discrepancy Theory
+AU  - Cembrano, Javier
+AU  - Correa, José
+AU  - Verdugo, Victor
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - Deciding how to allocate the seats of a house of representatives is one of the most fundamental problems in the political organization of societies, and has been widely studied over already two centuries. The idea of proportionality is at the core of most approaches to tackle this problem, and this notion is captured by the divisor methods, such as the Jefferson/D'Hondt method. In a seminal work, Balinski and Demange extended the single-dimensional idea of divisor methods to the setting in which the seat allocation is simultaneously determined by two dimensions, and proposed the so-called biproportional apportionment method. The method, currently used in several electoral systems, is however limited to two dimensions and the question of extending it is considered to be an important problem both theoretically and in practice. In this work we initiate the study of multidimensional proportional apportionment. We first formalize a notion of multidimensional proportionality that naturally extends that of Balinski and Demange. By means of analyzing an appropriate integer linear program we are able to prove that, in contrast to the two-dimensional case, the existence of multidimensional proportional apportionments is not guaranteed and deciding its existence is NP-complete. Interestingly, our main result asserts that it is possible to find approximate multidimensional proportional apportionments that deviate from the marginals by a small amount. The proof arises through the lens of discrepancy theory, mainly inspired by the celebrated Beck-Fiala Theorem. We finally evaluate our approach by using the data from the recent 2021 Chilean Constitutional Convention election.
+DO  - 10.1145/3465456.3467596
+UR  - https://doi.org/10.1145/3465456.3467596
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:apportionment; schema=v1.8
+AN  - ec2021-3465456-3467596
+ER  - 
+
+TY  - CONF
+TI  - From Proper Scoring Rules to Max-Min Optimal Forecast Aggregation
+AU  - Neyman, Eric
+AU  - Roughgarden, Tim
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - This paper forges a strong connection between two seemingly unrelated forecasting problems: incentive-compatible forecast elicitation and forecast aggregation. Proper scoring rules are the well-known solution to the former problem. To each such rule s we associate a corresponding method of aggregation, mapping expert forecasts and expert weights to a "consensus forecast," which we call quasi-arithmetic (QA) pooling with respect to s. We justify this correspondence in several ways: QA pooling with respect to the two most well-studied scoring rules (quadratic and logarithmic) corresponds to the two most well-studied forecast aggregation methods (linear and logarithmic). Given a scoring rule s used for payment, a forecaster agent who sub-contracts several experts, paying them in proportion to their weights, is best off aggregating the experts' reports using QA pooling with respect to s, meaning this strategy maximizes its worst-case profit (over the possible outcomes). The score of an aggregator who uses QA pooling is concave in the experts' weights. As a consequence, online gradient descent can be used to learn appropriate expert weights from repeated experiments with low regret. The class of all QA pooling methods is characterized by a natural set of axioms (generalizing classical work by Kolmogorov on quasi-arithmetic means).
+DO  - 10.1145/3465456.3467599
+UR  - https://doi.org/10.1145/3465456.3467599
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:aggregation rule; tier1:forecast aggregation; tier1:incentives; tier2:agreement; schema=v1.8
+AN  - ec2021-3465456-3467599
+ER  - 
+
+TY  - CONF
+TI  - Fair Allocation of Vaccines, Ventilators and Antiviral Treatments: Leaving No Ethical Value Behind in Health Care Rationing
+AU  - Pathak, Parag A.
+AU  - Sönmez, Tayfun
+AU  - Ünver, M. Utku
+AU  - Yenmez, M. Bumin
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - A priority system has traditionally been the protocol of choice for the allocation of scarce life-saving resources during public health emergencies. COVID-19 revealed the limitations of this allocation rule. Many argue that priority systems abandon ethical values, such as equity, by discriminating against disadvantaged communities. We show that a restrictive feature of the traditional priority system largely drives these limitations. Following minimalist market design, an institution design paradigm that integrates research and policy efforts, we formulate pandemic allocation of scarce life-saving resources as a new application of market design. Interfering only with the restrictive feature of the priority system to address its shortcomings, we formulate a reserve system as an alternative allocation rule. Our theoretical analysis develops a general theory of reserve design. We relate our analysis to debates during COVID-19 and describe the impact of our paper on policy and practice. This paper was accepted by Axel Ockenfels, behavioral economics and decision analysis.
+DO  - 10.1145/3465456.3467604
+UR  - https://doi.org/10.1145/3465456.3467604
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - ec2021-3465456-3467604
+ER  - 
+
+TY  - CONF
+TI  - Improving EFX Guarantees through Rainbow Cycle Number
+AU  - Chaudhury, Bhaskar Ray
+AU  - Garg, Jugal
+AU  - Mehlhorn, Kurt
+AU  - Mehta, Ruta
+AU  - Misra, Pranabendu
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We study the problem of fairly allocating a set of indivisible goods among n agents with additive valuations. Envy-freeness up to any good (EFX) is arguably the most compelling fairness notion in this context. However, the existence of EFX allocations has not been settled and is one of the most important problems in fair division [5]. Towards resolving this problem, many impressive results show the existence of its relaxations. In particular, [1] shows the existence of 0.618-EFX allocations, and [4] shows that EFX allocation exists if we do not allocate at most n - 1 goods. The latter result was recently improved for three agents in [2], in which the two unallocated goods are allocated through an involved procedure. Reducing the number of unallocated goods for an arbitrary number of agents is a systematic way to settle the big question.
+DO  - 10.1145/3465456.3467605
+UR  - https://doi.org/10.1145/3465456.3467605
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2021-3465456-3467605
+ER  - 
+
+TY  - CONF
+TI  - Multi-Rank Smart Reserves
+AU  - Aziz, Haris
+AU  - Sun, Zhaohong
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We study the school choice problem where each school has flexible multi-ranked diversity goals, and each student may belong to multiple overlapping types, and consumes only one of the positions reserved for their types. We propose a novel choice function and show that it is the unique rule that satisfies three fundamental properties: maximal diversity, non-wastefulness, and justified envy-freeness. We provide a fast polynomial-time algorithm for our choice function that is based on the Dulmage Mendelsohn Decomposition Theorem as well as new insights into the combinatorial structure of constrained rank maximal matchings. Even for the case of minimum and maximum quotas for types (that capture two ranks), ours is the first known polynomial-time approach to compute an optimally diverse choice outcome. Finally, we prove that the choice function we design for schools, satisfies substitutability and hence can be directly embedded in the generalized deferred acceptance algorithm to achieve strategyproofness and stability. Our algorithms and results have immediate policy implications and directly apply to a variety of scenarios, such as where hiring positions or scarce medical resources need to be allocated while taking into account diversity concerns or ethical principles.
+DO  - 10.1145/3465456.3467619
+UR  - https://doi.org/10.1145/3465456.3467619
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:incentives; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2021-3465456-3467619
+ER  - 
+
+TY  - CONF
+TI  - The Role of Accuracy in Algorithmic Process Fairness Across Multiple Domains
+AU  - Albach, Michele
+AU  - Wright, James R.
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - Machine learning is often used to aid in human decision-making, sometimes for life-altering decisions like when determining whether or not to grant bail to a defendant or a loan to an applicant. Because of their importance, it is critical to ensure that the processes used to reach these decisions are considered fair. A common approach is to enforce some fairness constraint over the outcomes of a decision maker, but there is no single, generally-accepted definition of fairness. With notable exceptions, most of the literature on algorithmic fairness takes for granted that there will be an inherent trade-off between accuracy and algorithmic fairness. Additionally, most work focuses only on one or two domains, whereas machine learning techniques are used in an increasing number of distinct decision-making contexts with differing pertinent features. In this work, we consider six different decision-making domains: bail, child protective services, hospital resources, insurance rates, loans, and unemployment aid. We focus on the fairness of the process directly, rather than the outcomes. We also take a descriptive approach, using survey data to elicit the factors that lead a decision-making process to be perceived as fair. Specifically, we ask 2157 Amazon Mechanical Turk workers to rate the features used for algorithmic decision-making in one of the six domains as either fair or unfair, as well as to rate how much they agree or disagree with the assignments of eight previously (and one newly) proposed properties to the features. For example, a worker could be asked to rate the feature of "criminal history" as fair or unfair to use in bail decisions, and then rate how much they agree or disagree that "criminal history" is a reliable feature. We show that, in every domain, disagreements in fairness judgements can be largely explained by the assignments of properties (like reliability) to features (like criminal history). We also show that fairness judgements can be well predicted across domains by training the predictor using the property assignments from one domain's data and predicting in another. These findings imply that the properties act as moral determinants for fairness judgements, and that respondents reason similarly about the implications of the properties in all the decision-making domains that we consider. Although our results are mostly consistent across domains, we find some important differences within specific demographic groups in the hospital and insurance domains, indicating that at least some differences in fairness judgements are introduced by demographic differences. However, a single property usually holds the majority of the predictive power. With some exceptions, predictors learning from only the "increases accuracy" property perform better (in all domains) than predictors learning from any combination of the other seven properties, implying that the primary factor affecting respondents' perceptions of the fairness of using a feature for prediction is whether or not a feature increases the accuracy of the decision being made.
+DO  - 10.1145/3465456.3467620
+UR  - https://doi.org/10.1145/3465456.3467620
+N1  - source=ec_2021.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - ec2021-3465456-3467620
+ER  - 
+
+TY  - CONF
+TI  - Optimal Algorithms for Multiwinner Elections and the Chamberlin-Courant Rule
+AU  - Munagala, Kamesh
+AU  - Shen, Zeyu
+AU  - Wang, Kangning
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We consider the algorithmic question of choosing a subset of candidates of a given size k from a set of m candidates, with knowledge of voters' ordinal rankings over all candidates. We consider the well-known and classic scoring rule for achieving diverse representation: the Chamberlin-Courant (CC) or 1-Borda rule, where the score of a committee is the average over the voters, of the rank of the best candidate in the committee for that voter; and its generalization to the average of the top s best candidates, called the s-Borda rule. Our first result is an improved analysis of the natural and well-studied greedy heuristic. We show that greedy achieves a (1 - 2/k+1)-approximation to the maximization (or satisfaction) version of CC rule, and a (1 - 2s/k+1)-approximation to the s-Borda score. This significantly improves the existing submodularity-based analysis of the greedy algorithm that only shows a (1-1/e)-approximation. Our result also improves on the best known approximation algorithm for this problem. We achieve this result by showing that the average dissatisfaction score for the greedy algorithm is at most 2 m+1/k+1 for the CC rule, and at most 2s2 m+1/k+1 for s-Borda. We show these dissatisfaction score bounds are tight up to constants, and even the constant factor of 2 in the case of the CC rule is almost tight. For the dissatisfaction (or minimization) version of the problem, it is known that the average dissatisfaction score of the best committee cannot be approximated in polynomial time to within any constant factor when s is a constant (under standard computational complexity assumptions). As our next result, we strengthen this to show that the score of m+1/k+1 can be viewed as an optimal benchmark for the CC rule, in the sense that it is essentially the best achievable score of any polynomial-time algorithm even when the optimal score is a polynomial factor smaller. We show that another well-studied algorithm for this problem, called the Banzhaf rule, attains this benchmark. We finally show that for the s-Borda rule, when the optimal value is small, these algorithms can be improved by a factor of ~Ømega(√s) via LP rounding. Our upper and lower bounds are a significant improvement over previous results, and taken together, not only enable us to perform a finer comparison of greedy algorithms for these problems, but also provide analytic justification for using such algorithms in practice.
+DO  - 10.1145/3465456.3467624
+UR  - https://doi.org/10.1145/3465456.3467624
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:committee selection; tier1:named voting rules; tier1:approval rules; schema=v1.8
+AN  - ec2021-3465456-3467624
+ER  - 
+
+TY  - CONF
+TI  - Fine-Grained Complexity and Algorithms for the Schulze Voting Method
+AU  - Sornat, Krzysztof
+AU  - Vassilevska Williams, Virginia
+AU  - Xu, Yinzhan
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We study computational aspects of a well-known single-winner voting rule called the Schulze method [Schulze, 2003] which is used broadly in practice. In this method the voters give (weak) ordinal preference ballots which are used to define the weighted majority graph of direct comparisons between pairs of candidates. The choice of the winner comes from indirect comparisons in the graph, and more specifically from considering directed paths instead of direct comparisons between candidates. When the input is the weighted majority graph, to our knowledge, the fastest algorithm for computing all winners in the Schulze method uses a folklore reduction to the All-Pairs Bottleneck Paths (APBP) problem and runs in $Øh(m2.69) time, where m is the number of candidates. It is an interesting open question whether this can be improved. Our first result is a combinatorial algorithm with a nearly quadratic running time for computing all winners. This running time is essentially optimal as it is nearly linear in the size of the weighted majority graph. If the input to the Schulze winners problem is not the weighted majority graph but the preference profile, then constructing the weighted majority graph is a bottleneck that increases the running time significantly; in the special case when there are m candidates and n=Øh(m) voters, the running time is Øh(m2.69), or $Øh(m2.5) if there is a nearly-linear time algorithm for multiplying dense square matrices. To address this bottleneck, we prove a formal equivalence between the well-studied Dominance Product problem and the problem of computing the weighted majority graph. As the Dominance Product problem is believed to require at least time r2.5-o(1) on r x r matrices, our equivalence implies that constructing the weighted majority graph in $Øh(m2.499) time for m candidates and n = Øh(m) voters would imply a breakthrough in the study of "intermediate" problems [Lincoln et al., 2020] in fine-grained complexity. We prove a similar connection between the so called Dominating Pairs problem and the problem of verifying whether a given candidate is a winner. Our paper is the first to bring fine-grained complexity into the field of computational social choice. Previous approaches say nothing about lower bounds for problems that already have polynomial time algorithms. By bringing fine-grained complexity into the picture we can identify voting protocols that are unlikely to be practical for large numbers of candidates and/or voters, as their complexity is likely, say at least cubic.
+DO  - 10.1145/3465456.3467630
+UR  - https://doi.org/10.1145/3465456.3467630
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:voting rule; tier1:social choice; tier1:named voting rules; tier2:collective; tier2:weighting; schema=v1.8
+AN  - ec2021-3465456-3467630
+ER  - 
+
+TY  - CONF
+TI  - Polarization in Geometric Opinion Dynamics
+AU  - Gaitonde, Jason
+AU  - Kleinberg, Jon
+AU  - Tardos, Éva
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - In light of increasing recent attention to political polarization, understanding how polarization can arise poses an important theoretical question. While more classical models of opinion dynamics seem poorly equipped to study this phenomenon, a recent novel approach by H\ka zł a, Jin, Mossel, and Ramnarayan (HJMR) proposes a simple geometric model of opinion evolution that provably exhibits strong polarization in specialized cases. Moreover, polarization arises quite organically in their model: in each time step, each agent updates opinions according to their correlation/response with an issue drawn at random. However, their techniques do not seem to extend beyond a set of special cases they identify, which benefit from fragile symmetry or contractiveness assumptions, leaving open how general this phenomenon really is.
+DO  - 10.1145/3465456.3467633
+UR  - https://doi.org/10.1145/3465456.3467633
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:opinion dynamics; schema=v1.8
+AN  - ec2021-3465456-3467633
+ER  - 
+
+TY  - CONF
+TI  - Proportionality Degree of Multiwinner Rules
+AU  - Skowron, Piotr
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - An instance of an approval-based multiwinner election consists of a set of alternatives, a population of voters---each voter approves a subset of alternatives, and the desired committee size k; the goal is to select a committee (a subset) of k alternatives according to the preferences of the voters. We investigate a number of election rules and ask whether the committees that they return represent the voters proportionally. In contrast to the classic literature, we employ quantitative techniques that allow to measure the extent to which the considered rules are proportional. This allows us to arrange the rules in a clear hierarchy. For example, we find that Proportional Approval Voting (PAV) has better proportionality guarantees than its sequential counterpart, and that Phragmen's Sequential Rule is worse than Sequential PAV. Yet, the loss of proportionality for the two sequential rules is moderate and in some contexts can be outweighed by their other appealing properties. Finally, we measure the tradeoff between proportionality and utilitarian efficiency for a broad subclass of committee election rules.
+DO  - 10.1145/3465456.3467641
+UR  - https://doi.org/10.1145/3465456.3467641
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:committee selection; tier1:approval rules; tier1:representation axioms; tier2:welfare; tier2:collective; schema=v1.8
+AN  - ec2021-3465456-3467641
+ER  - 
+
+TY  - CONF
+TI  - The Limits of Multi-task Peer Prediction
+AU  - Zheng, Shuran
+AU  - Yu, Fang-Yi
+AU  - Chen, Yiling
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - Recent advances in multi-task peer prediction have greatly expanded our knowledge about the power of multi-task peer prediction mechanisms. Various mechanisms have been proposed in different settings to elicit different types of information. But we still lack understanding about when desirable mechanisms will exist for a multi-task peer prediction problem. In this work, we study the elicitability of multi-task peer prediction problems. We consider a designer who has certain knowledge about the underlying information structure and wants to elicit certain information from a group of participants. Our goal is to infer the possibility of having a desirable mechanism based on the primitives of the problem. Our contribution is twofold. First, we provide a characterization of the elicitable multi-task peer prediction problems, assuming that the designer only uses scoring mechanisms. Scoring mechanisms are the mechanisms that reward participants' reports for different tasks separately. The characterization uses a geometric approach based on the power diagram characterization in the single-task setting. For general mechanisms, we also give a necessary condition for a multi-task problem to be elicitable. Second, we consider the case when the designer aims to elicit some properties that are linear in the participant's posterior about the state of the world. We first show that in some cases, the designer basically can only elicit the posterior itself. We then look into the case when the designer aims to elicit the participants' posteriors. We give a necessary condition for the posterior to be elicitable. This condition implies that the mechanisms proposed by Kong and Schoenebeck are already the best we can hope for in their setting, in the sense that their mechanisms can solve any problem instance that can possibly be elicitable.
+DO  - 10.1145/3465456.3467642
+UR  - https://doi.org/10.1145/3465456.3467642
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:peer prediction; schema=v1.8
+AN  - ec2021-3465456-3467642
+ER  - 
+
+TY  - CONF
+TI  - On Interim Envy-Free Allocation Lotteries
+AU  - Caragiannis, Ioannis
+AU  - Kanellopoulos, Panagiotis
+AU  - Kyropoulou, Maria
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - With very few exceptions, recent research in fair division has mostly focused on deterministic allocations. Deviating from this trend, we study the fairness notion of interim envy-freeness (iEF) for lotteries over allocations, which serves as a sweet spot between the too stringent notion of ex-post envy-freeness and the very weak notion of ex-ante envy-freeness. iEF is a natural generalization of envy-freeness to random allocations in the sense that a deterministic envy-free allocation is iEF (when viewed as a degenerate lottery). It is also certainly meaningful as it allows for a richer solution space, which includes solutions that are provably better than envy-freeness according to several criteria. Our analysis relates iEF to other fairness notions as well, and reveals tradeoffs between iEF and efficiency. Even though several of our results apply to general fair division problems, we are particularly interested in instances with equal numbers of agents and items where allocations are perfect matchings of the items to the agents. Envy-freeness can be trivially decided and (when it can be achieved, it) implies full efficiency in this setting. Although computing iEF allocations in matching allocation instances is considerably more challenging, we show how to compute them in polynomial time, while also maximizing several efficiency objectives. Our algorithms use the ellipsoid method for linear programming and efficient solutions to a novel variant of the bipartite matching problem as a separation oracle. We also study the extension of interim envy-freeness notion when payments to or from the agents are allowed. We present a series of results on two optimization problems, including a generalization of the classical rent division problem to random allocations using interim envy-freeness as the solution concept.
+DO  - 10.1145/3465456.3467648
+UR  - https://doi.org/10.1145/3465456.3467648
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - ec2021-3465456-3467648
+ER  - 
+
+TY  - CONF
+TI  - Distribution Rules Under Dichotomous Preferences
+AU  - Brandl, Florian
+AU  - Brandt, Felix
+AU  - Peters, Dominik
+AU  - Stricker, Christian
+PY  - 2021
+T2  - Proceedings of the 22nd ACM Conference on Economics and Computation
+AB  - We consider a setting in which agents contribute amounts of a divisible resource (such as money or time) to a common pool, which is used to finance projects of public interest. How the collected resources are to be distributed among the projects is decided by a distribution rule that takes as input a set of approved projects for each agent. An important application of this setting is donor coordination, which allows philanthropists to find an efficient and mutually agreeable distribution of their donations. We analyze various distribution rules (including the Nash product rule and the conditional utilitarian rule) in terms of classic as well as new axioms, and propose the first fair distribution rule that satisfies efficiency and monotonicity. Our main result settles a long-standing open question of Bogomolnaia, Moulin, and Stong (2005) by showing that no strategyproof and efficient rule can guarantee that at least one approved project of each agent receives a positive amount of the resource. The proof reasons about 386 preference profiles and was obtained using a computer-aided method involving SAT solvers.
+DO  - 10.1145/3465456.3467653
+UR  - https://doi.org/10.1145/3465456.3467653
+N1  - source=ec_2021.bib; retained_by=tier1; terms=tier1:incentives; welfare:utilitarian aggregation; welfare:nash welfare; tier2:welfare; schema=v1.8
+AN  - ec2021-3465456-3467653
+ER  - 
+

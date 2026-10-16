@@ -1,0 +1,26 @@
+TY  - CONF
+TI  - Towards Unbiased and Accurate Deferral to Multiple Experts
+AU  - Keswani, Vijay
+AU  - Lease, Matthew
+AU  - Kenthapadi, Krishnaram
+PY  - 2021
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - Machine learning models are often implemented in cohort with humans in the pipeline, with the model having an option to defer to a domain expert in cases where it has low confidence in its inference. Our goal is to design mechanisms for ensuring accuracy and fairness in such prediction systems that combine machine learning model inferences and domain expert predictions. Prior work on "deferral systems" in classification settings has focused on the setting of a pipeline with a single expert and aimed to accommodate the inaccuracies and biases of this expert to simultaneously learn an inference model and a deferral system. Our work extends this framework to settings where multiple experts are available, with each expert having their own domain of expertise and biases. We propose a framework that simultaneously learns a classifier and a deferral system, with the deferral system choosing to defer to one or more human experts in cases of input where the classifier has low confidence. We test our framework on a synthetic dataset and a content moderation dataset with biased synthetic experts, and show that it significantly improves the accuracy and fairness of the final predictions, compared to the baselines. We also collect crowdsourced labels for the content moderation task to construct a real-world dataset for the evaluation of hybrid machine-human frameworks and show that our proposed framework outperforms baselines on this real-world dataset as well.
+DO  - 10.1145/3461702.3462516
+UR  - https://doi.org/10.1145/3461702.3462516
+N1  - source=aies_2021.bib; retained_by=tier2+anchor; terms=tier2:routing; tier2:crowd; schema=v1.8
+AN  - aies2021-3461702-3462516
+ER  - 
+
+TY  - CONF
+TI  - AI Alignment and Human Reward
+AU  - Butlin, Patrick
+PY  - 2021
+T2  - Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+AB  - According to a prominent approach to AI alignment, AI agents should be built to learn and promote human values. However, humans value things in several different ways: we have desires and preferences of various kinds, and if we engage in reinforcement learning, we also have reward functions. One research project to which this approach gives rise is therefore to say which of these various classes of human values should be promoted. This paper takes on part of this project by assessing the proposal that human reward functions should be the target for AI alignment. There is some reason to believe that powerful AI agents which were aligned to values of this form would help us to lead good lives, but there is also considerable uncertainty about this claim, arising from unresolved empirical and conceptual issues in human psychology.
+DO  - 10.1145/3461702.3462570
+UR  - https://doi.org/10.1145/3461702.3462570
+N1  - source=aies_2021.bib; retained_by=tier2+anchor; terms=tier2:ai alignment; schema=v1.8
+AN  - aies2021-3461702-3462570
+ER  - 
+

@@ -1,0 +1,163 @@
+TY  - JOUR
+TI  - On Fair Division under Heterogeneous Matroid Constraints
+AU  - Dror, Amitay
+AU  - Feldman, Michal
+AU  - Segal-Halevi, Erel
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - We study fair allocation of indivisible goods among additive agents with feasibility constraints. In these settings, every agent is restricted to get a bundle among a specified set of feasible bundles. Such scenarios have been of great interest to the AI community due to their applicability to real-world problems. Following some impossibility results, we restrict attention to matroid feasibility constraints that capture natural scenarios, such as the allocation of shifts to medical doctors and the allocation of conference papers to referees. We focus on the common fairness notion of envy-freeness up to one good (EF1). Previous algorithms for finding EF1 allocations are either restricted to agents with identical feasibility constraints or allow free disposal of items. An open problem is the existence of EF1 complete allocations among agents who differ both in their valuations and in their feasibility constraints. In this work, we make progress on this problem by providing positive and negative results for several matroid and valuation types. Among other results, we devise polynomial-time algorithms for finding EF1 allocations in the following settings: (i) n agents with heterogeneous (non-identical) binary valuations and partition matroids with heterogeneous capacities; (ii) two agents with heterogeneous additive valuations and partition matroids with heterogeneous capacities; and (iii) three agents with heterogeneous binary valuations and identical base-orderable matroid constraints.
+DO  - 10.1613/jair.1.13779
+UR  - https://www.jair.org/index.php/jair/article/view/13779
+KW  - game theory; constraint satisfaction; computational social systems
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - jair2023-jair-1-13779
+ER  - 
+
+TY  - JOUR
+TI  - Favoring Eagerness for Remaining Items: Designing Efficient, Fair, and Strategyproof Mechanisms
+AU  - Guo, Xiaoxi
+AU  - Sikdar, Sujoy
+AU  - Xia, Lirong
+AU  - Cao, Yongzhi
+AU  - Wang, Hanpin
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - In the assignment problem, the goal is to assign indivisible items to agents who have ordinal preferences, efficiently and fairly, in a strategyproof manner. In practice, first-choice maximality, i.e., assigning a maximal number of agents their top items, is often identified as an important efficiency criterion and measure of agents' satisfaction. In this paper, we propose a natural and intuitive efficiency property, favoring-eagerness-for-remaining-items (FERI), which requires that each item is allocated to an agent who ranks it highest among remaining items, thereby implying first-choice maximality. Using FERI as a heuristic, we design mechanisms that satisfy ex-post or ex-ante variants of FERI together with combinations of other desirable properties of efficiency (Pareto-efficiency), fairness (strong equal treatment of equals and sd-weak-envy-freeness), and strategyproofness (sd-weak-strategyproofness). We also explore the limits of FERI mechanisms in providing stronger efficiency, fairness, or strategyproofness guarantees through impossibility results.
+DO  - 10.1613/jair.1.13878
+UR  - https://www.jair.org/index.php/jair/article/view/13878
+KW  - computational social systems; multiagent systems; game theory
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:incentives; tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - jair2023-jair-1-13878
+ER  - 
+
+TY  - JOUR
+TI  - A General Model for Aggregating Annotations Across Simple, Complex, and Multi-Object Annotation Tasks
+AU  - Braylan, Alexander
+AU  - Marabella, Madalyn
+AU  - Alonso, Omar
+AU  - Lease, Matthew
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - Human annotations are vital to supervised learning, yet annotators often disagree on the correct label, especially as annotation tasks increase in complexity. A common strategy to improve label quality is to ask multiple annotators to label the same item and then aggregate their labels. To date, many aggregation models have been proposed for simple categorical or numerical annotation tasks, but far less work has considered more complex annotation tasks, such as those involving open-ended, multivariate, or structured responses. Similarly, while a variety of bespoke models have been proposed for specific tasks, our work is the first we are aware of to introduce aggregation methods that generalize across many, diverse complex tasks, including sequence labeling, translation, syntactic parsing, ranking, bounding boxes, and keypoints. This generality is achieved by applying readily available task-specific distance functions, then devising a task-agnostic method to model these distances between labels, rather than the labels themselves. This article presents a unified treatment of our prior work on complex annotation modeling and extends that work with investigation of three new research questions. First, how do complex annotation task and dataset properties impact aggregation accuracy? Second, how should a task owner navigate the many modeling choices in order to maximize aggregation accuracy? Finally, what tests and diagnoses can verify that aggregation models are specified correctly for the given data? To understand how various factors impact accuracy and to inform model selection, we conduct large-scale simulation studies and broad experiments on real, complex datasets. Regarding testing, we introduce the concept of unit tests for aggregation models and present a suite of such tests to ensure that a given model is not mis-specified and exhibits expected behavior. Beyond investigating these research questions above, we discuss the foundational concept and nature of annotation complexity, present a new aggregation model as a conceptual bridge between traditional models and our own, and contribute a new general semisupervised learning method for complex label aggregation that outperforms prior work.
+DO  - 10.1613/jair.1.14388
+UR  - https://www.jair.org/index.php/jair/article/view/14388
+KW  - machine learning; computational social systems
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:aggregation rule; tier1:label aggregation; tier2:agreement; tier2:combining; schema=v1.8
+AN  - jair2023-jair-1-14388
+ER  - 
+
+TY  - JOUR
+TI  - A Model to Support Collective Reasoning: Formalization, Analysis and Computational Assessment
+AU  - Ganzer, Jordi
+AU  - Criado, Natalia
+AU  - Lopez-Sanchez, Maite
+AU  - Parsons, Simon
+AU  - Rodriguez-Aguilar, Juan A.
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - In this paper we propose a new model to represent human debates and methods to obtain collective conclusions from them. This model overcomes two drawbacks of existing approaches. First, our model does not assume that participants agree on the structure of the debate. It does this by allowing participants to express their opinion about all aspects of the debate. Second, our model does not assume that participants’ opinions are rational, an assumption that significantly limits current approaches. Instead, we define a weaker notion of rationality that characterises coherent opinions, and we consider different scenarios based on the coherence of individual opinions and the level of consensus. We provide a formal analysis of different opinion aggregation functions that compute a collective decision based on the individual opinions and the debate structure. In particular, we demonstrate that aggregated opinions can be coherent even if there is a lack of consensus and individual opinions are not coherent. We conclude with an empirical evaluation demonstrating that collective opinions can be computed efficiently for real-sized debates.
+DO  - 10.1613/jair.1.14409
+UR  - https://www.jair.org/index.php/jair/article/view/14409
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:aggregation rule; tier1:collective decision; tier2:agreement; tier2:collective; schema=v1.8
+AN  - jair2023-jair-1-14409
+ER  - 
+
+TY  - JOUR
+TI  - How to DP-fy ML: A Practical Guide to Machine Learning with Differential Privacy
+AU  - Ponomareva, Natalia
+AU  - Hazimeh, Hussein
+AU  - Kurakin, Alex
+AU  - Xu, Zheng
+AU  - Denison, Carson
+AU  - McMahan, H. Brendan
+AU  - Vassilvitskii, Sergei
+AU  - Chien, Steve
+AU  - Thakurta, Abhradeep Guha
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - Machine Learning (ML) models are ubiquitous in real-world applications and are a constant focus of research. Modern ML models have become more complex, deeper, and harder to reason about. At the same time, the community has started to realize the importance of protecting the privacy of the training data that goes into these models. Differential Privacy (DP) has become a gold standard for making formal statements about data anonymization. However, while some adoption of DP has happened in industry, attempts to apply DP to real world complex ML models are still few and far between. The adoption of DP is hindered by limited practical guidance of what DP protection entails, what privacy guarantees to aim for, and the difficulty of achieving good privacy-utility-computation trade-offs for ML models. Tricks for tuning and maximizing performance are scattered among papers or stored in the heads of practitioners, particularly with respect to the challenging task of hyperparameter tuning. Furthermore, the literature seems to present conflicting evidence on how and whether to apply architectural adjustments and which components are “safe” to use with DP. In this survey paper, we attempt to create a self-contained guide that gives an in-depth overview of the field of DP ML. We aim to assemble information about achieving the best possible DP ML model with rigorous privacy guarantees. Our target audience is both researchers and practitioners. Researchers interested in DP for ML will benefit from a clear overview of current advances and areas for improvement. We also include theory-focused sections that highlight important topics such as privacy accounting and convergence. For a practitioner, this survey provides a background in DP theory and a clear step-by-step guide for choosing an appropriate privacy definition and approach, implementing DP training, potentially updating the model architecture, and tuning hyperparameters. For both researchers and practitioners, consistently and fully reporting privacy guarantees is critical, so we propose a set of specific best practices for stating guarantees. With sufficient computation and a sufficiently large training set or supplemental nonprivate data, both good accuracy (that is, almost as good as a non-private model) and good privacy can often be achievable. And even when computation and dataset size are limited, there are advantages to training with even a weak (but still finite) formal DP guarantee. Hence, we hope this work will facilitate more widespread deployments of DP ML models.
+DO  - 10.1613/jair.1.14649
+UR  - https://www.jair.org/index.php/jair/article/view/14649
+KW  - machine learning; differential privacy; privacy; dp-training
+N1  - source=jair_2023.bib; retained_by=preservation; terms=preservation:conflicting evidence; schema=v1.8
+AN  - jair2023-jair-1-14649
+ER  - 
+
+TY  - JOUR
+TI  - Your College Dorm and Dormmates: Fair Resource Sharing with Externalities
+AU  - Gan, Jiarui
+AU  - Li, Bo
+AU  - Li, Yingkai
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - We study a fair resource sharing problem, where a set of resources are to be shared among a group of agents. Each agent demands one resource and each resource can serve a limited number of agents. An agent cares about what resource they get as well as the externalities imposed by their mates, who share the same resource with them. Clearly, the strong notion of envy-freeness, where no agent envies another for their resource or mates, cannot always be achieved and we show that even deciding the existence of such a strongly envy-free assignment is an intractable problem. Hence, a more interesting question is whether (and in what situations) a relaxed notion of envy-freeness, the Pareto envyfreeness, can be achieved. Under this relaxed notion, an agent envies another only when they envy both the resource and the mates of the other agent. In particular, we are interested in a dorm assignment problem, where students are to be assigned to dorms with the same capacity and they have dichotomous preference over their dormmates. We show that when the capacity of each dorm is 2, a Pareto envy-free assignment always exists and we present a polynomial-time algorithm to compute such an assignment. Nevertheless, the result breaks immediately when the capacity increases to 3, in which case even Pareto envyfreeness cannot be guaranteed. In addition to the existential results, we also investigate the utility guarantees of (Pareto) envy-free assignments in our model.
+DO  - 10.1613/jair.1.14863
+UR  - https://www.jair.org/index.php/jair/article/view/14863
+KW  - game theory; multiagent systems
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - jair2023-jair-1-14863
+ER  - 
+
+TY  - JOUR
+TI  - Improving Resource Allocations by Sharing in Pairs
+AU  - Bredereck, Robert
+AU  - Kaczmarczyk, Andrzej
+AU  - Luo, Junjie
+AU  - Niedermeier, Rolf
+AU  - Sachse, Florian
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - Given an initial resource allocation, where some agents may envy others or where a different distribution of resources might lead to a higher social welfare, our goal is to improve the allocation without reassigning resources. We consider a sharing concept allowing resources being shared with social network neighbors of the resource owners. More precisely, our model allows agents to form pairs which then may share a limited number of resources. Sharing a resource can come at some costs or loss in utility. To this end, we introduce a formal model that allows a central authority to compute an optimal sharing between neighbors based on an initial allocation. Advocating this point of view, we focus on the most basic scenario where each agent can participate in a bounded number of sharings. We present algorithms for optimizing utilitarian and egalitarian social welfare of allocations and for reducing the number of envious agents. In particular, we examine the computational complexity with respect to several natural parameters. Furthermore, we study cases with restricted social network structures and, among others, devise polynomial-time algorithms in path- and tree-like (hierarchical) social networks.
+DO  - 10.1613/jair.1.15001
+UR  - https://www.jair.org/index.php/jair/article/view/15001
+KW  - computational complexity; computational social systems; resource allocation; fairness
+N1  - source=jair_2023.bib; retained_by=welfare; terms=welfare:egalitarian and prioritarian; tier2:welfare; schema=v1.8
+AN  - jair2023-jair-1-15001
+ER  - 
+
+TY  - JOUR
+TI  - A Unified Linear Speedup Analysis of Federated Averaging and Nesterov FedAvg
+AU  - Qu, Zhaonan
+AU  - Lin, Kaixiang
+AU  - Li, Zhaojian
+AU  - Zhou, Jiayu
+AU  - Zhou, Zhengyuan
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - Federated learning (FL) learns a model jointly from a set of participating devices without sharing each other’s privately held data. The characteristics of non-i.i.d. data across the network, low device participation, high communication costs, and the mandate that data remain private bring challenges in understanding the convergence of FL algorithms, particularly regarding how convergence scales with the number of participating devices. In this paper, we focus on Federated Averaging (FedAvg), one of the most popular and effective FL algorithms in use today, as well as its Nesterov accelerated variant, and conduct a systematic study of how their convergence scale with the number of participating devices under non-i.i.d. data and partial participation in convex settings. We provide a unified analysis that establishes convergence guarantees for FedAvg under strongly convex, convex, and overparameterized strongly convex problems. We show that FedAvg enjoys linear speedup in each case, although with different convergence rates and communication efficiencies. For strongly convex and convex problems, we also characterize the corresponding convergence rates for the Nesterov accelerated FedAvg algorithm, which are the first linear speedup guarantees for momentum variants of FedAvg in convex settings. Empirical studies of the algorithms in various settings have supported our theoretical results.
+DO  - 10.1613/jair.1.15180
+UR  - https://www.jair.org/index.php/jair/article/view/15180
+KW  - distributed AI; machine learning
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:federated aggregation; schema=v1.8
+AN  - jair2023-jair-1-15180
+ER  - 
+
+TY  - JOUR
+TI  - Competitive Equilibria with a Constant Number of Chores
+AU  - Garg, Jugal
+AU  - McGlaughlin, Peter
+AU  - Hoefer, Martin
+AU  - Schmalhofer, Marco
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - We study markets with mixed manna, where m divisible goods and chores shall be divided among n agents to obtain a competitive equilibrium. Equilibrium allocations are known to satisfy many fairness and efficiency conditions. While a lot of recent work in fair division is restricted to linear utilities and chores, we focus on a substantial generalization to separable piecewise-linear and concave (SPLC) utilities and mixed manna. We first derive polynomial-time algorithms for markets with a constant number of items or a constant number of agents. Our main result is a polynomial-time algorithm for instances with a constant number of chores (as well as any number of goods and agents) under the condition that chores dominate the utility of the agents. Interestingly, this stands in contrast to the case when the goods dominate the agents utility in equilibrium, where the problem is known to be PPAD-hard even without chores.
+DO  - 10.1613/jair.1.15260
+UR  - https://www.jair.org/index.php/jair/article/view/15260
+KW  - computational social systems; theorem proving; fairness; resources allocation
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:fair division; tier2:fairness; schema=v1.8
+AN  - jair2023-jair-1-15260
+ER  - 
+
+TY  - JOUR
+TI  - Collective Belief Revision
+AU  - Aravanis, Theofanis I.
+PY  - 2023
+T2  - Journal of Artificial Intelligence Research
+AB  - In this article, we study the dynamics of collective beliefs. As a first step, we formulate David Westlund’s Principle of Collective Change (PCC) —a criterion that characterizes the evolution of collective knowledge— in the realm of belief revision. Thereafter, we establish a number of unsatisfiability results pointing out that the widely-accepted revision operators of Alchourrón, Gärdenfors and Makinson, combined with fundamental types of merging operations —including the ones proposed by Konieczny and Pino Pérez as well as Baral et al.— collide with the PCC. These impossibility results essentially extend in the context of belief revision the negative results established by Westlund for the operations of contraction and expansion. At the opposite of the impossibility results, we also establish a number of satisfiability results, proving that, under certain (rather strict) requirements, the PCC is indeed respected for specific merging operators. Overall, it is argued that the PCC is a rather unsuitable property for characterizing the process of collective change. Last but not least, mainly in response to the unsatisfactory situation related to the PCC, we explore some alternative criteria of collective change, and evaluate their compliance with belief revision and belief merging.
+DO  - 10.1613/jair.1.15745
+UR  - https://www.jair.org/index.php/jair/article/view/15745
+KW  - belief revision and update; knowledge representation
+N1  - source=jair_2023.bib; retained_by=tier1; terms=tier1:belief merging; schema=v1.8
+AN  - jair2023-jair-1-15745
+ER  - 
+

@@ -1,0 +1,232 @@
+TY  - JOUR
+TI  - Preferences Single-Peaked on a Tree: Multiwinner Elections and Structural Results
+AU  - Peters, Dominik
+AU  - Yu, Lan
+AU  - Chan, Hau
+AU  - Elkind, Edith
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - A preference profile is single-peaked on a tree if the candidate set can be equipped with a tree structure so that the preferences of each voter are decreasing from their top candidate along all paths in the tree. This notion was introduced by Demange (1982), and subsequently Trick (1989b) described an efficient algorithm for deciding if a given profile is single-peaked on a tree. We study the complexity of multiwinner elections under several variants of the Chamberlin–Courant rule for preferences single-peaked on trees. We show that in this setting the egalitarian version of this rule admits a polynomial-time winner determination algorithm. For the utilitarian version, we prove that winner determination remains NP-hard for the Borda scoring function; indeed, this hardness results extends to a large family of scoring functions. However, a winning committee can be found in polynomial time if either the number of leaves or the number of internal vertices of the underlying tree is bounded by a constant. To benefit from these positive results, we need a procedure that can determine whether a given profile is single-peaked on a tree that has additional desirable properties (such as, e.g., a small number of leaves). To address this challenge, we develop a structural approach that enables us to compactly represent all trees with respect to which a given profile is single-peaked. We show how to use this representation to efficiently find the best tree for a given profile for use with our winner determination algorithms: Given a profile, we can efficiently find a tree with the minimum number of leaves, or a tree with the minimum number of internal vertices among trees on which the profile is single-peaked. We then explore the power and limitations of this framework: we develop polynomial-time algorithms to find trees with the smallest maximum degree, diameter, or pathwidth, but show that it is NP-hard to check whether a given profile is single-peaked on a tree that is isomorphic to a given tree, or on a regular tree.
+DO  - 10.1613/jair.1.12332
+UR  - https://www.jair.org/index.php/jair/article/view/12332
+KW  - game theory; preferences
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:committee selection; tier1:named voting rules; tier2:welfare; schema=v1.8
+AN  - jair2022-jair-1-12332
+ER  - 
+
+TY  - JOUR
+TI  - A Few Queries Go a Long Way: Information-Distortion Tradeoffs in Matching
+AU  - Amanatidis, Georgios
+AU  - Birmpas, Georgios
+AU  - Filos-Ratsikas, Aris
+AU  - Voudouris, Alexandros A.
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - We consider the One-Sided Matching problem, where n agents have preferences over n items, and these preferences are induced by underlying cardinal valuation functions. The goal is to match every agent to a single item so as to maximize the social welfare. Most of the related literature, however, assumes that the values of the agents are not a priori known, and only access to the ordinal preferences of the agents over the items is provided. Consequently, this incomplete information leads to loss of efficiency, which is measured by the notion of distortion. In this paper, we further assume that the agents can answer a small number of queries, allowing us partial access to their values. We study the interplay between elicited cardinal information (measured by the number of queries per agent) and distortion for One-Sided Matching, as well as a wide range of well-studied related problems. Qualitatively, our results show that with a limited number of queries, it is possible to obtain significant improvements over the classic setting, where only access to ordinal information is given.
+DO  - 10.1613/jair.1.12690
+UR  - https://www.jair.org/index.php/jair/article/view/12690
+KW  - game theory; mathematical foundations; preferences
+N1  - source=jair_2022.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - jair2022-jair-1-12690
+ER  - 
+
+TY  - JOUR
+TI  - Fair Division of Indivisible Goods for a Class of Concave Valuations
+AU  - Chaudhury, Bhaskar Ray
+AU  - Cheung, Yun Kuen
+AU  - Garg, Jugal
+AU  - Garg, Naveen
+AU  - Hoefer, Martin
+AU  - Mehlhorn, Kurt
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - We study the fair and efficient allocation of a set of indivisible goods among agents, where each good has several copies, and each agent has an additively separable concave valuation function with a threshold. These valuations capture the property of diminishing marginal returns, and they are more general than the well-studied case of additive valuations. We present a polynomial-time algorithm that approximates the optimal Nash social welfare (NSW) up to a factor of e1/e ≈ 1.445. This matches with the state-of-the-art approximation factor for additive valuations. The computed allocation also satisfies the popular fairness guarantee of envy-freeness up to one good (EF1) up to a factor of 2 + ε. For instances without thresholds, it is also approximately Pareto-optimal. For instances satisfying a large market property, we show an improved approximation factor. Lastly, we show that the upper bounds on the optimal NSW introduced in Cole and Gkatzelis (2018) and Barman et al. (2018) have the same value.
+DO  - 10.1613/jair.1.12911
+UR  - https://www.jair.org/index.php/jair/article/view/12911
+KW  - computational social systems
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:fair division; tier1:envy-freeness; welfare:nash welfare; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - jair2022-jair-1-12911
+ER  - 
+
+TY  - JOUR
+TI  - Ranking Sets of Objects: The Complexity of Avoiding Impossibility Results
+AU  - Maly, Jan
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - The problem of lifting a preference order on a set of objects to a preference order on a family of subsets of this set is a fundamental problem with a wide variety of applications in AI. The process is often guided by axioms postulating properties the lifted order should have. Well-known impossibility results by Kannai and Peleg and by Barbera and Pattanaik tell us that some desirable axioms – namely dominance and (strict) independence – are not jointly satisfiable for any linear order on the objects if all non-empty sets of objects are to be ordered. On the other hand, if not all non-empty sets of objects are to be ordered, the axioms are jointly satisfiable for all linear orders on the objects for some families of sets. Such families are very important for applications as they allow for the use of lifted orders, for example, in combinatorial voting. In this paper, we determine the computational complexity of recognizing such families. We show that it is \Pi_2^p-complete to decide for a given family of subsets whether dominance and independence or dominance and strict independence are jointly satisfiable for all linear orders on the objects if the lifted order needs to be total. Furthermore, we show that the problem remains coNP-complete if the lifted order can be incomplete. Additionally, we show that the complexity of these problems can increase exponentially if the family of sets is not given explicitly but via a succinct domain restriction. Finally, we show that it is NP-complete to decide for a family of subsets whether dominance and independence or dominance and strict independence are jointly satisfiable for at least one linear order on the objects.
+DO  - 10.1613/jair.1.13030
+UR  - https://www.jair.org/index.php/jair/article/view/13030
+KW  - preferences; decision theory
+N1  - source=jair_2022.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - jair2022-jair-1-13030
+ER  - 
+
+TY  - JOUR
+TI  - Fine-grained Prediction of Political Leaning on Social Media with Unsupervised Deep Learning
+AU  - Fagni, Tiziano
+AU  - Cresci, Stefano
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - Predicting the political leaning of social media users is an increasingly popular task, given its usefulness for electoral forecasts, opinion dynamics models and for studying the political dimension of polarization and disinformation. Here, we propose a novel unsupervised technique for learning fine-grained political leaning from the textual content of social media posts. Our technique leverages a deep neural network for learning latent political ideologies in a representation learning task. Then, users are projected in a low-dimensional ideology space where they are subsequently clustered. The political leaning of a user is automatically derived from the cluster to which the user is assigned. We evaluated our technique in two challenging classification tasks and we compared it to baselines and other state-of-the-art approaches. Our technique obtains the best results among all unsupervised techniques, with micro F1 = 0.426 in the 8-class task and micro F1 = 0.772 in the 3-class task. Other than being interesting on their own, our results also pave the way for the development of new and better unsupervised approaches for the detection of fine-grained political leaning.
+DO  - 10.1613/jair.1.13112
+UR  - https://www.jair.org/index.php/jair/article/view/13112
+KW  - neural networks;; natural language;; web intelligence
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:opinion dynamics; schema=v1.8
+AN  - jair2022-jair-1-13112
+ER  - 
+
+TY  - JOUR
+TI  - Doubly Robust Crowdsourcing
+AU  - Liu, Chong
+AU  - Wang, Yu-Xiang
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - Large-scale labeled dataset is the indispensable fuel that ignites the AI revolution as we see today. Most such datasets are constructed using crowdsourcing services such as Amazon Mechanical Turk which provides noisy labels from non-experts at a fair price. The sheer size of such datasets mandates that it is only feasible to collect a few labels per data point. We formulate the problem of test-time label aggregation as a statistical estimation problem of inferring the expected voting score. By imitating workers with supervised learners and using them in a doubly robust estimation framework, we prove that the variance of estimation can be substantially reduced, even if the learner is a poor approximation. Synthetic and real-world experiments show that by combining the doubly robust approach with adaptive worker/item selection rules, we often need much lower label cost to achieve nearly the same accuracy as in the ideal world where all workers label all data points.
+DO  - 10.1613/jair.1.13304
+UR  - https://www.jair.org/index.php/jair/article/view/13304
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:label aggregation; tier2:collective; schema=v1.8
+AN  - jair2022-jair-1-13304
+ER  - 
+
+TY  - JOUR
+TI  - Ordinal Maximin Share Approximation for Goods
+AU  - Hosseini, Hadi
+AU  - Searns, Andrew
+AU  - Segal-Halevi, Erel
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - In fair division of indivisible goods, ℓ-out-of-d maximin share (MMS) is the value that an agent can guarantee by partitioning the goods into d bundles and choosing the ℓ least preferred bundles. Most existing works aim to guarantee to all agents a constant fraction of their 1-out-of-n MMS. But this guarantee is sensitive to small perturbation in agents' cardinal valuations. We consider a more robust approximation notion, which depends only on the agents' ordinal rankings of bundles. We prove the existence of ℓ-out-of-⌊(ℓ + 1/2)n⌋ MMS allocations of goods for any integer ℓ ≥ 1, and present a polynomial-time algorithm that finds a 1-out-of-⌈3n/2⌉ MMS allocation when ℓ=1. We further develop an algorithm that provides a weaker ordinal approximation to MMS for any ℓ > 1.
+DO  - 10.1613/jair.1.13317
+UR  - https://www.jair.org/index.php/jair/article/view/13317
+KW  - game theory; computational social systems
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:fair division; welfare:welfare properties; tier2:fairness; schema=v1.8
+AN  - jair2022-jair-1-13317
+ER  - 
+
+TY  - JOUR
+TI  - Metric-Distortion Bounds under Limited Information
+AU  - Anagnostides, Ioannis
+AU  - Fotakis, Dimitris
+AU  - Patsilinakos, Panagiotis
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - In this work, we study the metric distortion problem in voting theory under a limited amount of ordinal information. Our primary contribution is threefold. First, we consider mechanisms that perform a sequence of pairwise comparisons between candidates. We show that a popular deterministic mechanism employed in many knockout phases yields distortion O(log m) while eliciting only m − 1 out of the Θ(m2 ) possible pairwise comparisons, where m represents the number of candidates. Our analysis for this mechanism leverages a powerful technical lemma developed by Kempe (AAAI ‘20). We also provide a matching lower bound on its distortion. In contrast, we prove that any mechanism which performs fewer than m−1 pairwise comparisons is destined to have unbounded distortion. Moreover, we study the power of deterministic mechanisms under incomplete rankings. Most notably, when agents provide their k-top preferences we show an upper bound of 6m/k + 1 on the distortion, for any k ∈ 1, 2, . . . , m. Thus, we substantially improve over the previous bound of 12m/k established by Kempe (AAAI ‘20), and we come closer to matching the best-known lower bound. Finally, we are concerned with the sample complexity required to ensure near-optimal distortion with high probability. Our main contribution is to show that a random sample of Θ(m/ϵ2 ) voters suffices to guarantee distortion 3 + ϵ with high probability, for any sufficiently small ϵ > 0. This result is based on analyzing the sensitivity of the deterministic mechanism introduced by Gkatzelis, Halpern, and Shah (FOCS ‘20). Importantly, all of our sample-complexity bounds are distribution-independent. From an experimental standpoint, we present several empirical findings on real-life voting applications, comparing the scoring systems employed in practice with a mechanism explicitly minimizing (metric) distortion. Interestingly, for our case studies, we find that the winner in the actual competition is typically the candidate who minimizes the distortion.
+DO  - 10.1613/jair.1.13338
+UR  - https://www.jair.org/index.php/jair/article/view/13338
+KW  - preferences; real-time systems; mutliagent systems
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:distortion; tier2:collective; schema=v1.8
+AN  - jair2022-jair-1-13338
+ER  - 
+
+TY  - JOUR
+TI  - Fairness in Influence Maximization through Randomization
+AU  - Becker, Ruben
+AU  - D’Angelo, Gianlorenzo
+AU  - Ghobadi, Sajjad
+AU  - Gilbert, Hugo
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - The influence maximization paradigm has been used by researchers in various fields in order to study how information spreads in social networks. While previously the attention was mostly on efficiency, more recently fairness issues have been taken into account in this scope. In the present paper, we propose to use randomization as a mean for achieving fairness. While this general idea is not new, it has not been applied in this area. Similar to previous works like Fish et al. (WWW ’19) and Tsang et al. (IJCAI ’19), we study the maximin criterion for (group) fairness. In contrast to their work however, we model the problem in such a way that, when choosing the seed sets, probabilistic strategies are possible rather than only deterministic ones. We introduce two different variants of this probabilistic problem, one that entails probabilistic strategies over nodes (node-based problem) and a second one that entails probabilistic strategies over sets of nodes (set-based problem). After analyzing the relation between the two probabilistic problems, we show that, while the original deterministic maximin problem was inapproximable, both probabilistic variants permit approximation algorithms that achieve a constant multiplicative factor of 1 − 1/e minus an additive arbitrarily small error that is due to the simulation of the information spread. For the node-based problem, the approximation is achieved by observing that a polynomial-sized linear program approximates the problem well. For the set-based problem, we show that a multiplicative-weight routine can yield the approximation result. For an experimental study, we provide implementations of multiplicative-weight routines for both the set-based and the node-based problems and compare the achieved fairness values to existing methods. Maybe non-surprisingly, we show that the ex-ante values, i.e., minimum expected value of an individual (or group) to obtain the information, of the computed probabilistic strategies are significantly larger than the (ex-post) fairness values of previous methods. This indicates that studying fairness via randomization is a worthwhile path to follow. Interestingly and maybe more surprisingly, we observe that even the ex-post fairness values, i.e., fairness values of sets sampled according to the probabilistic strategies computed by our routines, dominate over the fairness achieved by previous methods on many of the instances tested.
+DO  - 10.1613/jair.1.13367
+UR  - https://www.jair.org/index.php/jair/article/view/13367
+N1  - source=jair_2022.bib; retained_by=welfare; terms=welfare:egalitarian and prioritarian; schema=v1.8
+AN  - jair2022-jair-1-13367
+ER  - 
+
+TY  - JOUR
+TI  - On the Indecisiveness of Kelly-Strategyproof Social Choice Functions
+AU  - Brandt, Felix
+AU  - Bullinger, Martin
+AU  - Lederer, Patrick
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - Social choice functions (SCFs) map the preferences of a group of agents over some set of alternatives to a non-empty subset of alternatives. The Gibbard-Satterthwaite theorem has shown that only extremely restrictive SCFs are strategyproof when there are more than two alternatives. For set-valued SCFs, or so-called social choice correspondences, the situation is less clear. There are miscellaneous -- mostly negative -- results using a variety of strategyproofness notions and additional requirements. The simple and intuitive notion of Kelly-strategyproofness has turned out to be particularly compelling because it is weak enough to still allow for positive results. For example, the Pareto rule is strategyproof even when preferences are weak, and a number of attractive SCFs (such as the top cycle, the uncovered set, and the essential set) are strategyproof for strict preferences. In this paper, we show that, for weak preferences, only indecisive SCFs can satisfy strategyproofness. In particular, (i) every strategyproof rank-based SCF violates Pareto-optimality, (ii) every strategyproof support-based SCF (which generalize Fishburn's C2 SCFs) that satisfies Pareto-optimality returns at least one most preferred alternative of every voter, and (iii) every strategyproof non-imposing SCF returns the Condorcet loser in at least one profile. We also discuss the consequences of these results for randomized social choice.
+DO  - 10.1613/jair.1.13449
+UR  - https://www.jair.org/index.php/jair/article/view/13449
+KW  - multiagent systems; computational social systems
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:social choice; tier1:named voting rules; tier1:lottery rules; tier1:impossibility; tier1:incentives; schema=v1.8
+AN  - jair2022-jair-1-13449
+ER  - 
+
+TY  - JOUR
+TI  - Finding and Recognizing Popular Coalition Structures
+AU  - Brandt, Felix
+AU  - Bullinger, Martin
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - An important aspect of multi-agent systems concerns the formation of coalitions that are stable or optimal in some well-defined way. The notion of popularity has recently received a lot of attention in this context. A partition is popular if there is no other partition in which more agents are better off than worse off. In this paper, we study popularity, strong popularity, and mixed popularity (which is particularly attractive because existence is guaranteed by the Minimax Theorem) in a variety of coalition formation settings. Extending previous work on marriage games, we show that mixed popular partitions in roommate games can be found efficiently via linear programming and a separation oracle. This approach is quite universal, leading to efficient algorithms for verifying whether a given partition is popular and for finding strongly popular partitions (resolving an open problem). By contrast, we prove that both problems become computationally intractable when moving from coalitions of size 2 to coalitions of size 3, even when preferences are strict and globally ranked. Moreover, we show that finding popular, strongly popular, and mixed popular partitions in symmetric additively separable hedonic games and symmetric fractional hedonic games is NP-hard. Together, these results indicate strong boundaries to the tractability of popularity in both ordinal and cardinal models of hedonic games.
+DO  - 10.1613/jair.1.13470
+UR  - https://www.jair.org/index.php/jair/article/view/13470
+KW  - multiagent systems
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:coalition formation; schema=v1.8
+AN  - jair2022-jair-1-13470
+ER  - 
+
+TY  - JOUR
+TI  - Pricing Problems with Buyer Preselection
+AU  - Bilò, Vittorio
+AU  - Flammini, Michele
+AU  - Monaco, Gianpiero
+AU  - Moscardelli, Luca
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - We investigate the problem of preselecting a subset of buyers (also called agents) participating in a market so as to optimize the performance of stable outcomes. We consider four scenarios arising from the combination of two stability notions, namely market envy-freeness and agent envy-freeness, with the two state-of-the-art objective functions of social welfare and seller’s revenue. When insisting on market envy-freeness, we prove that the problem cannot be approximated within n 1−ε (with n being the number of buyers) for any ε > 0, under both objective functions; we also provide approximation algorithms with an approximation ratio tight up to subpolynomial multiplicative factors for social welfare and the seller’s revenue. The negative result, in particular, holds even for markets with single-minded buyers. We also prove that maximizing the seller’s revenue is NP-hard even for a single buyer, thus closing a previous open question. Under agent envy-freeness and for both objective functions, instead, we design a polynomial time algorithm transforming any stable outcome for a market involving any subset of buyers into a stable outcome for the whole market without worsening its performance. This result creates an interesting middle-ground situation where, if on the one hand buyer preselection cannot improve the performance of agent envy-free outcomes, on the other one it can be used as a tool for simplifying the combinatorial structure of the buyers’ valuation functions in a given market. Finally, we consider the restricted case of multi-unit markets, where all items are of the same type and are assigned the same price. For these markets, we show that preselection may improve the performance of stable outcomes in all of the four considered scenarios, and design corresponding approximation algorithms.
+DO  - 10.1613/jair.1.13704
+UR  - https://www.jair.org/index.php/jair/article/view/13704
+KW  - multiagent systems; autonomous agents
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:welfare; tier2:fairness; schema=v1.8
+AN  - jair2022-jair-1-13704
+ER  - 
+
+TY  - JOUR
+TI  - Altruistic Hedonic Games
+AU  - Kerkmann, Anna Maria
+AU  - Nguyen, Nhan-Tam
+AU  - Rey, Anja
+AU  - Rey, Lisa
+AU  - Rothe, Jörg
+AU  - Schend, Lena
+AU  - Wiechers, Alessandra
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - Hedonic games are coalition formation games in which players have preferences over the coalitions they can join. For a long time, all models of representing hedonic games were based upon selfish players only. Among the known ways of representing hedonic games compactly, we focus on friend-oriented hedonic games and propose a novel model for them that takes into account not only the players’ own preferences but also their friends’ preferences. Depending on the order in which players look at their own or their friends’ preferences, we distinguish three degrees of altruism: selfish-first, equal-treatment, and altruistic-treatment preferences. We study both the axiomatic properties of these games and the computational complexity of problems related to various common stability concepts.
+DO  - 10.1613/jair.1.13706
+UR  - https://www.jair.org/index.php/jair/article/view/13706
+KW  - game theory
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:coalition formation; schema=v1.8
+AN  - jair2022-jair-1-13706
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Design Fair and Private Voting Rules
+AU  - Mohsin, Farhad
+AU  - Liu, Ao
+AU  - Chen, Pin-Yu
+AU  - Rossi, Francesca
+AU  - Xia, Lirong
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - Voting is used widely to identify a collective decision for a group of agents, based on their preferences. In this paper, we focus on evaluating and designing voting rules that support both the privacy of the voting agents and a notion of fairness over such agents. To do this, we introduce a novel notion of group fairness and adopt the existing notion of local differential privacy. We then evaluate the level of group fairness in several existing voting rules, as well as the trade-offs between fairness and privacy, showing that it is not possible to always obtain maximal economic efficiency with high fairness or high privacy levels. Then, we present both a machine learning and a constrained optimization approach to design new voting rules that are fair while maintaining a high level of economic efficiency. Finally, we empirically examine the effect of adding noise to create local differentially private voting rules and discuss the three-way trade-off between economic efficiency, fairness, and privacy. This paper appears in the special track on AI & Society.
+DO  - 10.1613/jair.1.13734
+UR  - https://www.jair.org/index.php/jair/article/view/13734
+KW  - preferences; machine learning; computational social systems
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:voting rule; tier1:collective decision; tier2:privacy; tier2:collective; schema=v1.8
+AN  - jair2022-jair-1-13734
+ER  - 
+
+TY  - JOUR
+TI  - Fair in the Eyes of Others
+AU  - Shams, Parham
+AU  - Beynier, Aurélie
+AU  - Bouveret, Sylvain
+AU  - Maudet, Nicolas
+PY  - 2022
+T2  - Journal of Artificial Intelligence Research
+AB  - Envy-freeness is a widely studied notion in resource allocation, capturing some aspects of fairness. The notion of envy being inherently subjective though, it might be the case that an agent envies another agent, but that from the other agents' point of view, she has no reason to do so. The difficulty here is to define the notion of objectivity, since no ground-truth can properly serve as a basis of this definition. A natural approach is to consider the judgement of the other agents as a proxy for objectivity. Building on previous work by Parijs (who introduced "unanimous envy") we propose the notion of approval envy: an agent ai experiences approval envy towards aj if she is envious of aj, and sufficiently many agents agree that this should be the case, from their own perspectives. Another thoroughly studied notion in resource allocation is proportionality. The same variant can be studied, opening natural questions regarding the links between these two notions. We exhibit several properties of these notions. Computing the minimal threshold guaranteeing approval envy and approval non-proportionality clearly inherits well-known intractable results from envy-freeness and proportionality, but (i) we identify some tractable cases such as house allocation; and (ii) we provide a general method based on a mixed integer programming encoding of the problem, which proves to be efficient in practice. This allows us in particular to show experimentally that existence of such allocations, with a rather small threshold, is very often observed.
+DO  - 10.1613/jair.1.13778
+UR  - https://www.jair.org/index.php/jair/article/view/13778
+KW  - multiagent systems; game theory
+N1  - source=jair_2022.bib; retained_by=tier1; terms=tier1:envy-freeness; tier2:fairness; schema=v1.8
+AN  - jair2022-jair-1-13778
+ER  - 
+

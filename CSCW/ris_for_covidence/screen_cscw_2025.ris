@@ -1,0 +1,365 @@
+TY  - JOUR
+TI  - EARN Fairness: Explaining, Asking, Reviewing, and Negotiating Artificial Intelligence Fairness Metrics Among Stakeholders
+AU  - Luo, Lin
+AU  - Nakao, Yuri
+AU  - Chollet, Mathieu
+AU  - Inakoshi, Hiroya
+AU  - Stumpf, Simone
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Numerous fairness metrics have been proposed and employed by artificial intelligence (AI) experts to quantitatively measure bias and define fairness in AI models. Recognizing the need to accommodate stakeholders' diverse fairness understandings, efforts are underway to solicit their input. However, conveying AI fairness metrics to stakeholders without AI expertise, capturing their personal preferences, and seeking a collective consensus remain challenging and underexplored. To bridge this gap, we propose a new framework, EARN ( Explain, Ask, Review, and Negotiate ) Fairness, which facilitates collective metric decisions among stakeholders without requiring AI expertise. The framework features an adaptable interactive system and a stakeholder-centered EARN Fairness process to Explain fairness metrics, Ask stakeholders' personal metric preferences, Review metrics collectively, and Negotiate a consensus on metric selection. To gather empirical results, we applied the framework to a credit rating scenario and conducted a user study involving 18 decision subjects without AI knowledge. We elicited their personal metric preferences and subsequently we studied how they reached metric consensus in team sessions. Our work shows that the EARN Fairness framework supports stakeholders to express and negotiate fairness preferences, and we provide practical guidance for implementing human-centered AI fairness in high-risk contexts. Through this approach, we aim to reach consensus of fairness perspectives, fostering more equitable and inclusive AI fairness.
+DO  - 10.1145/3710908
+UR  - https://doi.org/10.1145/3710908
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2025-3710908
+ER  - 
+
+TY  - JOUR
+TI  - From Fake Perfects to Conversational Imperfects: Exploring Image-Generative AI as a Boundary Object for Participatory Design of Public Spaces
+AU  - Guridi, Jose A.
+AU  - Hwang, Angel Hsing-Chi
+AU  - Santo, Duarte
+AU  - Goula, Maria
+AU  - Cheyre, Cristobal
+AU  - Humphreys, Lee
+AU  - Rangel, Marco
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Designing public spaces requires balancing the interests of diverse stakeholders within a constrained physical and institutional space. Designers usually approach these problems through participatory methods but struggle to incorporate diverse perspectives into design outputs. The growing capabilities of image-generative artificial intelligence (IGAI) could support participatory design. Prior work in leveraging IGAI's capabilities in design has focused on augmenting the experience and performance of individual creators. We study how IGAI could facilitate participatory processes when designing public spaces, a complex collaborative task. We conducted workshops and IGAI-mediated interviews in a real-world participatory process to upgrade a park in Los Angeles. We found (1) a shift from focusing on accuracy to fostering richer conversations as the desirable outcome of adopting IGAI in participatory design, (2) that IGAI promoted more space-aware conversations, and (3) that IGAI-mediated conversations are subject to the abilities of the facilitators in managing the interaction between themselves, the AI, and stakeholders. We contribute by discussing practical implications for using IGAI in participatory design, including success metrics, relevant skills, and asymmetries between designers and stakeholders. We finish by proposing a series of open research questions.
+DO  - 10.1145/3710912
+UR  - https://doi.org/10.1145/3710912
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:mediation; preservation:perspectives; schema=v1.8
+AN  - cscw2025-3710912
+ER  - 
+
+TY  - JOUR
+TI  - DanModCap: Designing a Danmaku Moderation Tool for Video-Sharing Platforms that Leverages Impact Captions with Large Language Models
+AU  - Hu, Siying
+AU  - Wang, Huanchen
+AU  - Zhang, Yu
+AU  - Wang, Piaohong
+AU  - Lu, Zhicong
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Online video platforms have gained increased popularity due to their ability to support information consumption and sharing and the diverse social interactions they afford. Danmaku, a real-time commentary feature that overlays user comments on a video, has been found to improve user engagement, however, the use of Danmaku can lead to toxic behaviors and inappropriate comments. To address these issues, we propose a proactive moderation approach inspired by Impact Captions, a visual technique used in East Asian variety shows. Impact Captions combine textual content and visual elements to construct emotional and cognitive resonance. Within the context of this work, Impact Captions were used to guide viewers towards positive Danmaku-related activities and elicit more pro-social behaviors. Leveraging Impact Captions, we developed DanModCap, an moderation tool that collected and analyzed Danmaku and used it as input to large generative language models to produce Impact Captions. Our evaluation of DanModCap demonstrated that Impact Captions reduced negative antagonistic emotions, increased users' desire to share positive content, and elicited self-control in Danmaku social action to fostering proactive community maintenance behaviors. Our approach highlights the benefits of using LLM-supported content moderation methods for proactive moderation in a large-scale live content contexts.
+DO  - 10.1145/3710954
+UR  - https://doi.org/10.1145/3710954
+N1  - source=cscw_2025.bib; retained_by=preservation; terms=preservation:pluralism; schema=v1.8
+AN  - cscw2025-3710954
+ER  - 
+
+TY  - JOUR
+TI  - <scp>FairPlay:</scp> A Collaborative Approach to Mitigate Bias in Datasets for Improved AI Fairness
+AU  - Behzad, Tina
+AU  - Singh, Mithilesh Kumar
+AU  - Ripa, Anthony J.
+AU  - Mueller, Klaus
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - The issue of fairness in decision-making is a critical one, especially given the variety of stakeholder demands for differing and mutually incompatible versions of fairness. Adopting a strategic interaction of perspectives provides an alternative to enforcing a singular standard of fairness. We present a web-based software application, FairPlay, that enables multiple stakeholders to debias datasets collaboratively. With FairPlay, users can negotiate and arrive at a mutually acceptable outcome without a universally agreed-upon theory of fairness. In the absence of such a tool, reaching a consensus would be highly challenging due to the lack of a systematic negotiation process and the inability to modify and observe changes. We have conducted user studies that demonstrate the success of FairPlay, as users could reach a consensus within about five rounds of gameplay, illustrating the application's potential for enhancing fairness in AI systems.
+DO  - 10.1145/3710982
+UR  - https://doi.org/10.1145/3710982
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2025-3710982
+ER  - 
+
+TY  - JOUR
+TI  - Harm in Layers: Compositions of Misinformative Hate in Anti-Asian Speech and Their Impacts on Perceived Harmfulness
+AU  - Zhou, Jiawei
+AU  - Verma, Gaurav
+AU  - Zhang, Lei
+AU  - Chang, Nicholas
+AU  - De Choudhury, Munmun
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - During times of crisis, heightened anxiety and fear create fertile ground for hate speech and misinformation, as people are more likely to fall for and be influenced by it. This paper looks into the interwoven relationship between anti-Asian hatred and COVID-19 misinformation amid the pandemic. By analyzing 785,798 Asian hate tweets and surveying 308 diverse participants, this empirical study explores how hateful content portrays the Asian community, including its truthfulness and targets, as well as what makes such portrayals harmful. We observed a high prevalence of misinformative hate speech that was lengthier, less emotional, and expressed more motivational drives than general hate speech. Overall, we found that anti-Asian rhetoric was characterized by an antagonism and inferiority framing, with misinformative hate underscoring antagonism and general hate emphasizing calls for action. Among all entities being explicitly criticized, China and the Chinese were constantly named to assign blame, with misinformative hate more likely to finger-point than general hate. Our survey results indicated that hateful messages with misinformation, demographic targeting, or divisive references were perceived as significantly more damaging. Individuals who placed less importance on free speech, had personal encounters with hate speech, or believed in the natural origin of COVID-19 were more likely to perceive higher severity. Taken together, this work highlights the distinct compositions of hate within misinformative hate speech that influences perceived harmfulness and adds to the complexity of defining and moderating harmful content. We discuss the implications for designing more context- and culture-sensitive counter-strategies and building more adaptive and explainable moderation approaches.
+DO  - 10.1145/3710990
+UR  - https://doi.org/10.1145/3710990
+N1  - source=cscw_2025.bib; retained_by=preservation; terms=preservation:pluralism; schema=v1.8
+AN  - cscw2025-3710990
+ER  - 
+
+TY  - JOUR
+TI  - Investigating the Use and Perception of Blocking Feature in Social Virtual Reality Spaces: A Study on Discussion Forums
+AU  - Chen, Qijia
+AU  - Mousavi, Seyed Mahed
+AU  - Riccardi, Giuseppe
+AU  - Jacucci, Giulio
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - This study explores the use of 'blocking' as a safety tool in social VR platforms, a feature widely implemented to protect users from harassment. Despite its prevalence, little research investigates the reasons users block others and how they perceive the feature.To address this gap, we analyzed discussions from r/VRChat, r/AltspaceVR, r/HorizonWorld, and r/RecRoom, using thematic analysis. Our findings reveal that users block others for various reasons, extending beyond mere disruption avoidance to include personal preferences of avatars and social management such as blocking a friend for a disagreement. Furthermore, the study highlights the empowering roles and the limitations of blocking as a solution to harassment. The study contributes to understanding user behavior in social VR and offers insights for developing more effective safety tools in these immersive environments.
+DO  - 10.1145/3711018
+UR  - https://doi.org/10.1145/3711018
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2025-3711018
+ER  - 
+
+TY  - JOUR
+TI  - Identifying Algorithmic Decision Subjects' Needs for Meaningful Contestability
+AU  - Yurrita, Mireia
+AU  - Verma, Himanshu
+AU  - Balayn, Agathe
+AU  - Alfrink, Kars
+AU  - Gadiraju, Ujwal
+AU  - Bozzon, Alessandro
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Contestability has been proposed as a key element in designing algorithmic decision-making processes that safeguard decision subjects' rights to dignity and autonomy. However, little is known about how contestability can be operationalized based on decision subjects' needs and preferences. We address this research gap by identifying decision subjects' information and procedural needs for enacting meaningful contestability. To this end, we chose an illegal holiday rental detection scenario as our case; a high-risk decision-making process in the public sector. We conducted 21 semi-structured interviews with citizens with experience renting their homes out and different levels of AI literacy. We found that decision subjects request interventions that facilitate (1) cooperation in sense-making, (2) support in contestation acts, and (3) appropriate responsibility attribution. Our results highlight the cooperative work behind contestability, and motivate future efforts to structure individual and collective action, to personalize explanations for contestability, and to open up sites of contestation in AI pipelines.
+DO  - 10.1145/3757415
+UR  - https://doi.org/10.1145/3757415
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - cscw2025-3757415
+ER  - 
+
+TY  - JOUR
+TI  - Leveraging Large Language Models for Collective Decision-Making
+AU  - Papachristou, Marios
+AU  - Yang, Longqi
+AU  - Hsu, Chin-Chia
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - In various work contexts, such as meeting scheduling, collaborating, and project planning, collective decision-making is essential but often challenging due to diverse individual preferences, varying work focuses, and power dynamics among members. To address this, we propose a system leveraging Large Language Models (LLMs) to facilitate group decision-making by managing conversations and balancing preferences among individuals. Our system aims to extract individual preferences from each member's conversation with the system and suggest options that satisfy the preferences of the members. We specifically apply this system to corporate meeting scheduling. We create synthetic employee profiles and simulate conversations at scale, leveraging LLMs to evaluate the system performance as a novel approach to conducting a user study. Our results indicate efficient coordination with reduced interactions between the members and the LLM-based system. The system refines and improves its proposed options over time, ensuring that many of the members' individual preferences are satisfied in an equitable way. Finally, we conduct a survey study involving human participants to assess our system's ability to aggregate preferences and reasoning about them. Our findings show that the system exhibits strong performance in both dimensions.
+DO  - 10.1145/3757418
+UR  - https://doi.org/10.1145/3757418
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:collective decision; tier2:collective; schema=v1.8
+AN  - cscw2025-3757418
+ER  - 
+
+TY  - JOUR
+TI  - Towards Human-Centered Early Prediction Models for Academic Performance in Real-World Contexts
+AU  - Zhang, Han
+AU  - Ren, Yiyi
+AU  - Nurius, Paula S.
+AU  - Mankoff, Jennifer
+AU  - Dey, Anind K.
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Supporting student success requires collaboration among multiple stakeholders. Researchers have explored machine learning models for academic performance prediction; yet key challenges remain in ensuring these models are interpretable, equitable, and actionable within real-world educational support systems. First, many models prioritize predictive accuracy but overlook human-centered principles, limiting trust among students and reducing their usefulness for educators and institutional decision-makers. Second, most models require at least a month of data before making reliable predictions, delaying opportunities for early intervention. Third, current models primarily rely on sporadically collected, classroom-derived data, missing broader behavioral patterns that could provide more continuous and actionable insights. To address these gaps, we present three modeling approaches-LR, 1D-CNN, and MTL-1D-CNN-to classify students as low or high academic performers. We evaluate them based on explainability , fairness , and generalizability to assess their alignment with key social values. Using behavioral and self-reported data collected within the first week of two Spring terms, we demonstrate that these models can identify at-risk students as early as week one. However, trade-offs across human-centered principles highlight the complexity of designing predictive models that effectively support multi-stakeholder decision-making and intervention strategies. We discuss these trade-offs and their implications for different stakeholders, outlining how predictive models can be integrated into student support systems. Finally, we examine broader socio-technical challenges in deploying these models and propose future directions for advancing human-centered, collaborative academic prediction systems.
+DO  - 10.1145/3757433
+UR  - https://doi.org/10.1145/3757433
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:multi-stakeholder; schema=v1.8
+AN  - cscw2025-3757433
+ER  - 
+
+TY  - JOUR
+TI  - From Granular Grief to Binary Belief: A Collaborative Optimization of Annotation Techniques for Anti-Autistic Language
+AU  - Rizvi, Naba
+AU  - Morales Flores, Alexis
+AU  - Rizvi, Mohammad
+AU  - Ousidhoum, Nedjma
+AU  - Munyaka, Imani
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Annotating text for subjective tasks, such as labeling ableist and anti-autistic texts, is a challenge that has attracted significant attention as commonly adopted annotation paradigms, e.g., using majority voting, fall short in capturing the nuances of hate speech or bias annotations. Labeling ableist and anti-autistic texts presents similar challenges in addition to the need for familiarity with autism and anti-autistic discrimination. In this paper, we adopt a collaborative and annotator-centric approach to study the impact of various annotation techniques. We recruit 6 participants to annotate sets of sentences from our 11,596 sentence corpus. The groups annotate through schemes focused on score-based classification, algorithmic labeling, and comparison-based labeling to identify instances of anti-autistic ableist speech. As a result of changes in annotation schemes, our annotator groups shift from a worse-than-chance agreement to moderate agreement. This suggests that implementing annotator group discussion and collecting annotator feedback is likely to result in improved agreement scores in difficult and highly subjective tasks. Our results highlight the importance of a collaborative approach in highly subjective classification tasks as it may lead to an improved understanding of their own biases, and large improvements in agreement scores, particularly among annotators with higher rates of disagreement. Warning: This paper contains examples that may be offensive or upsetting, including explicit slurs used against people with disabilities.
+DO  - 10.1145/3757478
+UR  - https://doi.org/10.1145/3757478
+N1  - source=cscw_2025.bib; retained_by=preservation; terms=preservation:annotator effects; tier2:agreement; tier2:collective; schema=v1.8
+AN  - cscw2025-3757478
+ER  - 
+
+TY  - JOUR
+TI  - Libertas: Privacy-Preserving Collaborative Computation for Decentralised Personal Data Stores
+AU  - Zhao, Rui
+AU  - Goel, Naman
+AU  - Agrawal, Nitin
+AU  - Zhao, Jun
+AU  - Stein, Jake
+AU  - Albayaydh, Wael S
+AU  - Verborgh, Ruben
+AU  - Binns, Reuben
+AU  - Berners-Lee, Tim
+AU  - Shadbolt, Nigel
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Data and their processing have become an indispensable aspect for our society. Insights drawn from collective data make invaluable contribution to scientific, societal and communal research and business. However, there are increasing worries about privacy issues and data misuse, prompting the emergence of decentralised personal data stores (PDS) like Solid. However, existing PDS frameworks face challenges in ensuring data privacy when performing collective computation to combine data from multiple users. At a glance, Secure Multi-Party Computation (MPC) offers input secrecy protection while performing collective computation without relying on any single party. However, issues emerge when directly applying MPC in the context of PDS, particularly due to key factors like autonomy and decentralisation. In this work, we discuss the essence of this issue, identify the potential solution, and introduce a modular system architecture, Libertas, to integrate MPC with PDS like Solid, without requiring protocol-level changes. We introduce the paradigm shift from an 'omniscient' view to individual-based, user-centric view of trust and security, and discuss the threat model of Libertas. Two realistic use cases for collaborative data processing are used for evaluation, both for technical feasibility and empirical benchmark, highlighting its effectiveness in empowering gig workers and generating differentially private synthetic data. The results of our experiments underscore Libertas' linear scalability and provide valuable insights into compute optimisations, thereby advancing the state-of-the-art in privacy-preserving data processing practices. By offering practical solutions for maintaining both individual autonomy and privacy in collaborative data processing environments, Libertas contributes significantly to the ongoing discourse on privacy protection in data-driven decision-making contexts.
+DO  - 10.1145/3757490
+UR  - https://doi.org/10.1145/3757490
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:privacy; schema=v1.8
+AN  - cscw2025-3757490
+ER  - 
+
+TY  - JOUR
+TI  - Relational Logistics and Alternative Supply Chains of Last Resort
+AU  - Jack, Margaret
+AU  - Soden, Robert
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - This paper contrasts the consolidation of the American mega-logistics industry with homegrown logistics operations based in neighborhoods of New York City during the COVID-19 pandemic. We offer three cases: a community of immigrant street vendors in Corona, Queens; a theater-turned-food-pantry in the Lower East Side of Manhattan; and the city-wide network of mutual aid organizations. We note the ways these alternative forms of logistics stitch together technologies, delivery processes, and social networks-often quite creatively-to get food and other resources where they need to be, when they needs to be there. These logistics networks are locally-oriented, fit to specific requirements, and made up of tailored, ad hoc activities. They demonstrate flexibility and skillful work in a crisis and bring together volunteers, entrepreneurs, and necessary resources with a community-at-need in horizontal governance. In doing so, they model forms of supply chains that improve social welfare and offer alternatives to the growing consolidation of mega logistics. We identify opportunites for CSCW scholars to use insights from the field including theories of infrastructure and technology and social movements to support the further development of such supply chains.
+DO  - 10.1145/3757500
+UR  - https://doi.org/10.1145/3757500
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - cscw2025-3757500
+ER  - 
+
+TY  - JOUR
+TI  - 'HistoChat': Leveraging AI-Driven Historical Personas for Personalized and Engaging Middle School History Education
+AU  - Kim, Yeon Soo
+AU  - Moon, Hyun Seung
+AU  - Lee, Sangsu
+AU  - Lee, Tak Yeon
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Traditional history education often fails to cultivate historical empathy due to rigid curricula and limited opportunities for personalized, emotionally resonant engagement. We explore the potential of LLM-based historical personas to address these gaps by enabling students to engage in real-time, conversational interactions with simulated historical figures. A formative study with teachers and students surfaced key challenges and expectations around AI-mediated historical dialogue, informing the development of Baseline and Experimental HistoChat, AI persona systems featuring differing prompting strategies. A subsequent user study showed that these interactions fostered deeper inquiry, curiosity, and emotional engagement-while also revealing key limitations. From a CSCW perspective, this work expands the role of AI from task assistant to epistemic partner, contributing to ongoing discourse on how dialogic systems can support meaning-making, empathy, and co-constructed learning in educational settings. Our findings yield valuable insights into the impact of tailored AI interactions on personalized and empathetic history education.
+DO  - 10.1145/3757534
+UR  - https://doi.org/10.1145/3757534
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2025-3757534
+ER  - 
+
+TY  - JOUR
+TI  - Drinking From a Firehose While Herding Cats: A Search for Accountability in the Rust Open Source Community
+AU  - Sharma, Nandini
+AU  - Ramasubbu, Narayan
+AU  - Herbsleb, James D.
+AU  - Vasilescu, Bogdan
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Accountability promotes responsible behavior, particularly in fulfilling obligations, achieving planned outcomes, and serving the collective good. While systems of accountability are well-structured in corporate environments, their role in open-source communities remains less understood. Existing research has explored requirements-gathering processes and motivations for contributing to open source, focusing on individual benefits. However, there is limited research on how these motivations and processes translate into accountability that guides collective actions to meet the needs of diverse stakeholders. This study examines accountability within the Rust community, particularly during the transition from roadmap-based planning to a goal-oriented process with designated owners within various teams. We provide a rich description, based on meeting notes, project documents and blog posts, as well as 21 interviews with a variety of project participants, to draw lessons about accountability in open source. We found that the Rust roadmapping process facilitated various forms of accountability but lost its effectiveness because (a) unfinished work items on the yearly roadmaps were unavoidable and made the process feel disingenuous; (b) the community culture shifted and facilitated a gradual decline of the roadmapping process; (c) external factors such as the pandemic and layoffs at Mozilla led to changes in the community priorities. Our findings suggest that accountability in open source is an emergent phenomenon that arises from participatory work processes around community engagement and that moral accountability, rather than transactional accountability, is crucial to fostering these processes.
+DO  - 10.1145/3757585
+UR  - https://doi.org/10.1145/3757585
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - cscw2025-3757585
+ER  - 
+
+TY  - JOUR
+TI  - Empowering Creators in the Fight Against Online Hate: A Qualitative Exploration of AI-Mediated Counterspeech Tools
+AU  - Huang, Phoebe Yiqing
+AU  - Deng, Jiaming
+AU  - Yang, Yingchen
+AU  - Williams, Spencer
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Content creators face heightened risks of online harm due to their public visibility and the increasing hostility in digital spaces. Traditional moderation tools, such as reporting and deletion, often fall short in addressing the emotional and reputational impact of online hate. In this study, we explore how community-driven approaches like counterspeech may support creators in navigating hateful comments, and how AI-powered tools could assist in this process. We conducted qualitative interviews and concept testing with 15 active content creators from Chinese social media platforms to understand their experiences and expectations. Our findings reveal that creators' approaches to counterspeech are shaped by their professional roles, the need to maintain authenticity, and the pressures of audience management. While creators saw value in AI-assisted counterspeech for improving efficiency and tone, they expressed concerns about misrepresentation, loss of control, and unintended harm. They preferred AI tools that augmented their voice rather than replaced it, and emphasized the importance of balancing emotional nuance with scalability. These insights inform the design of creator-centered AI moderation tools that integrate human agency and context sensitivity, contributing to healthier and more sustainable online environments.
+DO  - 10.1145/3757589
+UR  - https://doi.org/10.1145/3757589
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2025-3757589
+ER  - 
+
+TY  - JOUR
+TI  - Haru in the Care Network: Stakeholder Perspectives on Privacy with Social Robots in Pediatrics
+AU  - Levinson, Leigh
+AU  - Alvarez-Benito, Gloria
+AU  - Amores, J. Gabriel
+AU  - Szapiro, Deborah
+AU  - Gomez, Randy
+AU  - Šabanović, Selma
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Social robots are beginning to be utilized as part of the collective networks supporting pediatric treatment, however there are few studies on children's perceptions of these agents in hospitals from a privacy and safety perspective. Through a mixed-method and value-sensitive design approach, we introduced hypothetical vignettes and engaged in discussion with 15 youth who are either receiving cancer treatments or are in remission (ages 6-25), 11 of their parents, and 5 out of 8 of their clinical staff to learn how stakeholders in pediatric oncology discuss privacy concerns regarding child-robot interactions. Our thematic analysis imparts how stakeholders perceive robots as social, non-authoritative extensions of the hospital's care network. From this privacy-sensitive perspective, this study revealed that for maximizing a robot's social utility within care systems while critically engaging with the comfort and privacy preferences of stakeholders, robots should take on the role of 1) mediators of social interaction among various stakeholders, 2) companions for children and 3) informational tools for clinicians when consent is given by the family. We emphasize how assistive technologies in pediatrics should continue to be co-designed within communities for identifying appropriate roles and returning agency to stakeholders as they navigate the blurry boundaries of privacy in healthcare.
+DO  - 10.1145/3757608
+UR  - https://doi.org/10.1145/3757608
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:multi-stakeholder; schema=v1.8
+AN  - cscw2025-3757608
+ER  - 
+
+TY  - JOUR
+TI  - Mind Your Manners: The Dynamics of Politeness in Human-AI vs. Human-Human Interactions
+AU  - Lazebnik, Teddy
+AU  - Zalmanson, Lior
+AU  - Mokryn, Osnat
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - The rapid integration of artificial intelligence (AI) into communication systems has significantly altered how users interact with digital tools and collaborate with AI agents. This study investigates the dynamics of politeness in human-AI interactions through a controlled experiment with 1,684 participants, each completing sequential text-based tasks with a conversational AI system. Participants were randomly assigned to one of several conditions that varied in the AI's visual identity (no icon, robot icon, or human face), allowing us to examine the role of perceived anthropomorphism through a minimal visual cue. Politeness was measured using linguistic markers and analyzed using statistical models that account for task sequence and individual differences. Our findings show that politeness toward AI declines over time, with a temporary increase at the start of a second task. Compared to human-human interactions in a benchmark dataset, politeness in human-AI interactions eroded more quickly. Younger participants were less polite overall, and although frequent AI users also appeared less polite descriptively, adjusted models showed a small positive association with daily AI use. Anthropomorphic visual cues, especially human-like avatars, led to more sustained polite behavior. These results offer insight into how users adapt social norms in AI-mediated collaboration and suggest design strategies for fostering respectful and effective human-AI communication.
+DO  - 10.1145/3757631
+UR  - https://doi.org/10.1145/3757631
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2025-3757631
+ER  - 
+
+TY  - JOUR
+TI  - Not What I Want to Log or Share: Exploring How to Enhance Technological Support through Affordable Behavioral Self-Monitoring and Data Sharing with Key Support Figures
+AU  - Chen, Yan-Ming
+AU  - Wu, I-Hsuan
+AU  - Yuan, Chien Wen (Tina)
+AU  - Bi, Nanyi
+AU  - Chiu, Hsiang-Chih
+AU  - Chung, An-Nie
+AU  - Huang, Ming-Chyi
+AU  - You, Chuang-Wen
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Shopping addiction is characterized by unrestrained repetitive purchasing behavior, negatively impacting one's financial stability and social welfare. This study sought to gain insights into the development of self-monitoring devices and data sharing schemes to assist in dealing with shopping addiction. In this two-phase study, the Bergen Shopping Addiction Scale was first used in the pre-study screening survey to identify individuals with a propensity toward shopping addiction. In the second phase, an online survey was conducted, comprising (1) a study introduction and consent form, (2) the main survey, and (3) follow-up demographic questions. Phase II involved 332 participants meeting this criterion and was conducted to examine behavioral tendencies, evaluate prior intervention experiences, and elicit user preferences pertaining to self-monitoring and data sharing. The majority of respondents expressed a preference for systems that facilitate the tracking of shopping behavior and enable data sharing with intimate partners. Based on these findings, we recommend three directions for the further development of support systems: 1) Reduce the burden of mood tracking; 2) Streamline mechanisms for sharing data with key support figures; and 3) Tailor intervention strategies in accordance with key addiction indicators.
+DO  - 10.1145/3757637
+UR  - https://doi.org/10.1145/3757637
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:welfare; schema=v1.8
+AN  - cscw2025-3757637
+ER  - 
+
+TY  - JOUR
+TI  - Poet-Weaver: Reflecting on Communication Failure in Personal Relationships With Stylized AI-Generated Conversation Digests
+AU  - Yong, Seraphina
+AU  - Yang, Chi-Lan
+AU  - Hashimoto, Atsushi
+AU  - Kuzuoka, Hideaki
+AU  - Yoshida, Shigeo
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Interpersonal communication often involves navigating social challenges like managing expectations and conveying intentions. In practical contexts like productivity and navigation of social boundaries, agent- and AI-mediated communication (AIMC) has served as an effective social intermediary. Communication within personal relationships, especially between intercultural friends from different backgrounds, can also face significant challenges, such as miscommunication and expressive suppression. However, AIMC remains underutilized in the context of established personal relationships due to ethical concerns about agency and authenticity. We propose designing openly-interpretable AIMC output as an augmented context cue to reduce its active social involvement, balancing AI support with preservation of relational agency. We developed and evaluated Poet-Weaver, a Discord text chat plugin that presents AI-generated insights on user conversations in a stylized, openly-interpretable way to encourage reflection on communication challenges. We conducted a mixed-methods study with 30 intercultural friend pairs to assess Poet-Weaver's impact. Findings showed Poet-Weaver effectively helped participants address communication failures, although AIMC still influenced users' behavior even with openly-interpretable output. We recommend future uses of AIMC that support transformative, positive relationship changes while preserving individual responsibility and identity within relationships.
+DO  - 10.1145/3757646
+UR  - https://doi.org/10.1145/3757646
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:mediation; schema=v1.8
+AN  - cscw2025-3757646
+ER  - 
+
+TY  - JOUR
+TI  - Towards Insider Summarization for Mediation Instead of Moderation: Examining Wikipedian Views on Key Elements of Discussion Summaries
+AU  - Cho, Soobin
+AU  - Zachry, Mark
+AU  - McDonald, David W.
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - In Wikipedia, conflict plays a vital role in refining knowledge. Yet some disputes persist without clear resolution or rule violations, resulting in long, circular discussions without moderator intervention. These deter neutral and third-party editors and often end only when one side gives up. In such cases, what is needed is not moderation but mediation-support that helps participants voice perspectives and reach consensus. However, mediation is hard to implement manually, as it requires summarizing complex discussions with a full grasp of both content and the Wikipedia community's culture. One potential solution is delegating this task to AI-but what content should be included in summaries that mediate and facilitate disagreements? Through a three-phase interview study with 14 Wikipedians, we examined how they read and interpret discussions, create their own summaries, and evaluate large language model (LLM)-generated summaries presented as technology probes. Our findings show that Wikipedians expect summaries to include key discussion elements-usernames, topics, arguments, sources, editor behavior, rule violations, and resolution-with particular emphasis on community-related context that reflects insider understanding. Based on these insights, we apply a new theoretical framework grounded in computer-mediated communication (CMC) theories such as common ground theory, warranting theory, and social presence theory to examine Wikipedians' interpretations of user identity. We also discuss design implications for discussion summaries on Wikipedia talk pages.
+DO  - 10.1145/3757681
+UR  - https://doi.org/10.1145/3757681
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:agreement; schema=v1.8
+AN  - cscw2025-3757681
+ER  - 
+
+TY  - JOUR
+TI  - Understanding Voter Fraud Misinformation Videos during the 2024 Taiwan Election on YouTube
+AU  - Li, Yanheng
+AU  - Wang, Da
+AU  - Wang, Yuping
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Although voter fraud misinformation in the U.S. has been extensively studied, fewer research studies have investigated voter fraud misinformation in Taiwan's elections. In this study, we present a mixed-method analysis of video-based voter fraud misinformation during the 2024 Taiwan election on YouTube. We develop a computational pipeline to identify video accounts with different political leanings that may produce election-related misinformation, collect the videos uploaded by these accounts, and automatically determine which videos are related to ballots with the assistance of Large Language Models. Subsequently, we manually identify voter fraud discussion videos using a codebook we developed. Following this, we conduct a comprehensive analysis of the identified videos. We find that video accounts aligned with the Democratic Progressive Party (DPP) produce the highest number of videos discussing voter fraud misinformation. Additionally, videos discussing such misinformation tend to receive more comments but fewer likes compared to videos without this content. We also observe that videos associated with the DPP are quite distinct from those linked to the Kuomintang (KMT) or Taiwan People's Party (TPP), with unique characteristics that may be further revealed through their audio and video features. Finally, we conduct case studies to examine different patterns in videos either supporting or refuting voter fraud misinformation. Among accounts promoting voter fraud claims, traditional media outlets often include misinformation in their news programs, implying tacit endorsement, while grassroots media may present suspicious vote-counting scenes as evidence to spread misinformation. In contrast, traditional and grassroots media accounts associated with the DPP tend to refute misinformation through news programs or influencer commentary. Our work sheds light on the discourse surrounding voter fraud in Taiwan and offers valuable insights into strategies for mitigating the spread of voter fraud misinformation videos globally.
+DO  - 10.1145/3757697
+UR  - https://doi.org/10.1145/3757697
+N1  - source=cscw_2025.bib; retained_by=tier2+anchor; terms=tier2:collective; schema=v1.8
+AN  - cscw2025-3757697
+ER  - 
+
+TY  - JOUR
+TI  - Venire: A Machine Learning-Guided Panel Review System for Community Content Moderation
+AU  - Koshy, Vinay
+AU  - Choi, Frederick
+AU  - Chiang, Yi-Shyuan
+AU  - Sundaram, Hari
+AU  - Chandrasekharan, Eshwar
+AU  - Karahalios, Karrie
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Research into community content moderation often assumes that moderation teams govern with a single, unified voice. However, recent work has found that moderators disagree with one another at modest, but concerning rates. The problem is not the root disagreements themselves. Subjectivity in moderation is unavoidable, and there are clear benefits to including diverse perspectives within a moderation team. Instead, the crux of the issue is that, due to resource constraints, moderation decisions end up being made by individual decision-makers. The result is decision-making that is inconsistent, which is frustrating for community members. To address this, we develop Venire, an ML-backed system for panel review on Reddit. Venire uses a machine learning model trained on log data to identify the cases where moderators are most likely to disagree. Venire fast-tracks these cases for multi-person review. Ideally, Venire allows moderators to surface and resolve disagreements that would have otherwise gone unnoticed. We conduct three studies through which we design and evaluate Venire: a set of formative interviews with moderators, technical evaluations on two datasets, and a think-aloud study in which moderators used Venire to make decisions on real moderation cases. Quantitatively, we demonstrate that Venire is able to improve decision consistency and surface latent disagreements. Qualitatively, we find that Venire helps moderators resolve difficult moderation cases more confidently. Venire represents a novel paradigm for human-AI content moderation, and shifts the conversation from replacing human decision-making to supporting it.
+DO  - 10.1145/3757699
+UR  - https://doi.org/10.1145/3757699
+N1  - source=cscw_2025.bib; retained_by=preservation; terms=preservation:perspectives; tier2:agreement; schema=v1.8
+AN  - cscw2025-3757699
+ER  - 
+
+TY  - JOUR
+TI  - Wisdom of the Crowd, Without the Crowd: A Socratic LLM for Asynchronous Deliberation on Perspectivist Data
+AU  - Khadar, Malik
+AU  - Runningen, Daniel
+AU  - Tang, Julia
+AU  - Chancellor, Stevie
+AU  - Kaur, Harmanpreet
+PY  - 2025
+T2  - Proceedings of the ACM on Human-Computer Interaction
+AB  - Data annotation underpins the success of modern AI, but the aggregation of crowd-collected datasets can harm the preservation of diverse perspectives in data. Difficult and ambiguous tasks cannot easily be collapsed into unitary labels. Prior work has shown that deliberation and discussion improve data quality and preserve diverse perspectives--however, synchronous deliberation through crowdsourcing platforms is time-intensive and costly. In this work, we create a Socratic dialog system using Large Language Models (LLMs) to act as a deliberation partner in place of other crowdworkers. Against a benchmark of synchronous deliberation on two tasks (Sarcasm and Relation detection), our Socratic LLM encouraged participants to consider alternate annotation perspectives, update their labels as needed (with higher confidence), and resulted in higher annotation accuracy (for the Relation task where ground truth is available). Qualitative findings show that our agent's Socratic approach was effective at encouraging reasoned arguments from our participants, and that the intervention was well-received. Our methodology lays the groundwork for building scalable systems that preserve individual perspectives in generating more representative datasets.
+DO  - 10.1145/3757707
+UR  - https://doi.org/10.1145/3757707
+N1  - source=cscw_2025.bib; retained_by=tier1; terms=tier1:wisdom of crowds; tier1:perspectivism; tier2:crowd; schema=v1.8
+AN  - cscw2025-3757707
+ER  - 
+
