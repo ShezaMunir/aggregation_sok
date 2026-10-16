@@ -2,3 +2,14 @@
 
 # Raw fetched records (large; regenerate with <VENUE>/<venue>_fetch.py)
 bib_raw/
+
+# Secrets (Zotero API key etc.). Never commit.
+.env
+.env.*
+!.env.example
+
+# Raw list snapshots kept to reproduce a fetch (large)
+list_snapshots/
+
+# Paper draft: kept out of git
+paper/
